@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023 Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  ~
+  -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Surrogates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="___UUID_oder_GND-ID___" ref="gnd-ID_des_Ortes_der_Einrichtung">___besitzendeEinrichtung___</settlement>
+                  <repository key="___UUID_oder_GND-ID___" ref="gnd-ID_der_Einrichtung">___OrtDerBesitzendenEinrichtung___</repository>
+                  <idno>___gueltige_Signatur___</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="hsp:object" target="__UUID_des_KODs_oder_gueltige_Signatur(idno)__"/>
+                        <ref type="manifest" target="___URL_des_Manifestes___"/>
+                        <ref type="other" target="___URL_des_Digitalisats___"/>
+                        <ref type="thumbnail" target="___URL_des_Thumbnails___"/>
+                        <date when="2021" type="digitalised"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="gnd-ID_der_Einrichtung">___besitzendeEinrichtung___</orgName>
+                        <placeName ref="gnd-ID_des_Ortes">___OrtDerBesitzendenEinrichtung___</placeName>
+                        <orgName ref="gnd-ID_der_Einrichtung" type="digitalising">___digitalisierendeEinrichtung___</orgName>
+                        <placeName ref="gnd-ID_des_Ortes" type="digitalising">___OrtDerDigitalisierendenEinrichtung___</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>

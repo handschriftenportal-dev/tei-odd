@@ -1,0 +1,22 @@
+.idea
+target
+hs_err*.log
+nachweis_daten/2_0_MassImport/_MXML-to-TEI-P5_result/
+nachweis_daten/3_0_Produktion/_MXML-to-TEI-P5_result/
+.DS_STORE
+
+### Jenkins ###
+target/
+.classpath
+.project
+.settings
+*.iml
+audit.log
+.scannerwork
+.git
+dependency-check*
+sonar-report
+mvnw*
+*.versionsBackup
+mvnsettings.xml
+.bash_history
