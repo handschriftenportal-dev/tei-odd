@@ -1,0 +1,761 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix hspv-music: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/music/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix hspv-musicColour: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicColour/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix hspv-musicStaff: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicStaff/> .
+@prefix hspv-musicNotation: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicNotation/> .
+@prefix vocnet: <http://schema.vocnet.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+hspv:musicNotation a skos:ConceptScheme;
+  skos:prefLabel "Musik: Musiknotation"@de, "Music: Music Notation"@en;
+  skos:definition "Entwurf Thesaurus Musiknotation"@de, "Draft Thesaurus Music Notation"@en;
+  skos:inScheme hspv:music;
+  skos:hasTopConcept hspv-musicNotation:Byzantinische%20Notation, hspv-musicNotation:Pal%C3%A4oslavische%20Notation,
+    hspv-musicNotation:Notationen%20des%20lateinischen%20Westens .
+
+hspv-musicNotation:Byzantinische%20Notation a skos:Concept;
+  skos:prefLabel "Byzantinische Notation"@de, "Byzantine notation"@en;
+  skos:altLabel "griechische Notation"@de;
+  skos:definition "Seit dem 9./10. Jahrhundert werden liturgische Gesänge der orthodoxen Kirche mit Notation überliefert, die sich im Laufe der Jahrhundert stark weiterentwickelte. Kennzeichnend für die byzantinische Notation ist, dass sie lediglich Intervalle, nicht aber absolute Tonhöhen notiert. Auch die acht Tonarten (Echoi) sind nicht auf eine bestimmte Tonhöhe festgelegt."@de;
+  dct:spatial "Byzantinisches Reich/Griechisch-orthodoxe Kirche";
+  dct:temporal "9. -20. Jh.";
+  schema:temporalCoverage "800-2000";
+  dct:bibliographicCitation "Max Haas, Byzantinische und slavische Notationen (Palaeographie der Musik I/2), Köln 1973";
+  skos:narrower hspv-musicNotation:Ekphonetische%20Notation, hspv-musicNotation:Pal%C3%A4obyzantinische%20Notation,
+    hspv-musicNotation:Mittelbyzantinische%20Notation, hspv-musicNotation:Sp%C3%A4tbyzantinische%20Notation,
+    hspv-musicNotation:Moderne%20byzantinische%20Notation;
+  skos:inScheme hspv:musicNotation;
+  skos:topConceptOf hspv:musicNotation .
+
+hspv-musicNotation:Ekphonetische%20Notation a skos:Concept;
+  skos:prefLabel "Ekphonetische Notation"@de, "ekphonetic notation"@en, "notation ecphonétique"@fr;
+  skos:altLabel "Prosodiezeichen"@de, "ekphonetische Zeichen"@de, "Lektionszeichen"@de,
+    "lectionary notation"@en, "notation ekphonétique"@fr;
+  skos:broader hspv-musicNotation:Byzantinische%20Notation;
+  skos:definition "Notation, die in der byzantinischen Kultur für den sprechend-singenden Vortrag der liturgischen Lesungen. Sie entwickelte sich im 5./6. Jh. aus den prosodischen Zeichen des griechischen Alphabets; ihre linienos über den Text geschriebenen Zeichen geben Intervallschritte, Rhythmus und Vortragsart an; sie gelten als Vorläufer der Neumen. Die \"ekphonetische Notation\" wurde innerhalb der byzantinischen Liturgie vom 9. bis zum 13.[14.] Jh. für den Vortrag feierlicher Lesungen (lectio solemnis) benutzt. In der entwickeltsten Stufe besteht dieses System aus 14 paarweise oberhalb und unterhalb der Zeile am Anfang und am Ende eines Kolon oder Satzteiles angebrachten mnemotechnischen Zeichen, die Intonationen und Kadenzen symbolisch andeuten. Die Stimme bewegt sich dabei höchstens im Intervall einer Quint und erhebt sich nie zu einem richtigen Singen. (Die Bezeichnung dieser Schriftform als \"ekphonetisch\" stammt von J. Tzetzes 1885. Vgl. C. Høeg, 1935, S. 15)."@de;
+  dct:temporal "9.-14./15. Jh.";
+  schema:temporalCoverage "800-1400";
+  dct:bibliographicCitation "MGG online";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Pal%C3%A4obyzantinische%20Notation a skos:Concept;
+  skos:prefLabel "Paläobyzantinische Notation"@de, "Palaeo-Byzantine notation"@en;
+  skos:broader hspv-musicNotation:Byzantinische%20Notation;
+  skos:definition "Adiastematischen Notation. Von Tillyard wurden drei Stadien der paläobyzantinischen Notation unterschieden, deren Bezeichnungen sich von repräsentativen Codices ableiteten. Das älteste Stadium, das noch kein ison aufweist, wurde als esphigmenische Notation (nach dem Codex Athos, Esphigmenu 54) bezeichnet, ein zweites Stadium des 11. Jh. mit dem geraden ison als andreatische Notation (nach dem verschollenen Codex GR-ATSandrea skete, 18) und das dritte Stadium des 11./12. Jh. als Coislin-Notation. [...] Nach neueren Erkenntnissen (Oliver Strunk 1965, S. 4f.) wird nur zwischen Chartres- und Coislin-Notation mit einer archaischen und einer voll entwickelten Notationsstufe für beide Überlieferungsstränge. Die von Constantin Floros (1970) eingeführte Unterscheidung von vier Entwicklungsstadien in der Chartres-Notation und sechs in der Coislin-Notation basiert vor allem auf folgenden Kriterien: a. der Anzahl der unneumierten Silben in den Gesängen, b. dem Häufigkeitsgrad des Vorkommens bestimmter Intervallzeichen, c. der Schreibweise der Notationszeichen und d. den schrittweise vorgenommenen Veränderungen in der Notation. Eine anschauliche Darstellung beider Notationssysteme in allen Entwicklungsstufen des 10. bis 12. Jh. gibt in einer repräsentativen Auswahl an Beispielen in Faksimile die Ausgabe der Specimina notationum antiquiorum (O. Strunk 1965)."@de;
+  dct:temporal "10.- 12.Jh. [MGG online] [bei Haas: 950-12. Jh (2. Hälfte); bei Schnürl: 9.-12. Jh.]";
+  skos:narrower hspv-musicNotation:Coislin-Notation, hspv-musicNotation:Chartres-Notation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Coislin-Notation a skos:Concept;
+  skos:prefLabel "Coislin-Notation"@de, "Coislin-Notation"@en;
+  skos:broader hspv-musicNotation:Pal%C3%A4obyzantinische%20Notation;
+  skos:definition "Möglicherweise die älteste erhaltene Aufzeichnungsweise in Byzanz Die Coislin-Notation enthält zu einem großen Teil - wenigstens der Gestalt nach - die gleichen Notenzeichen wie die mittelbyzantinische Notation. Was die Coislin-Notation von der (jüngeren) mittelbyzantinischen Notation unterscheidet und sie mit der Chartres-Notation verbindet, ist der adiastematische Charakter der meisten Intervallzeichen.Wesentliche Unterschiede zwischen Coislin- und Chartres-Notation bestehen 1. in einem teilweise spezifischen Zeichenrepertoire, 2. in der unterschiedlichen Schreibweise gemeinsamer Zeichen (Ison: hakenförmig vs. waagrechter Strich; Oligon). 3. können in der Chartres- Notation mehrere Hypostasen verbunden und so als ein Zeichen geschrieben werden, während in der Coislin-Notation die einzelnen Hypostasen in der Regel nebeneinander oder übereinander notiert sind. 4. lassen sich in der Funktion einzelner Zeichen Unterschiede beobachten. (Paläographie der Musik Bd. I, Fasc. 2, p. 2.68, 2.98) Die Coislin-Notation blieb durch die Beschränkung auf Grundzeichen und wenige große Zeichen einfacher im Notenbild als die Chartres-Notation, der Wert der einzelnen Neumen wurde zunehmend eindeutiger. So brachten die (nach Floros) beiden letzten Stadien der Coislin-Notation eine schrittweise diastematische Präzisierung einzelner Zeichen mit sich. Verschiedene Zeichenkombinationen verloren ihren diastematischen Wert und wurden zu rhythmischen Zeichen bzw. zu Ausdruckszeichen der Cheironomie ohne Intervallwert.(Gerda Wolfram, in: MGG online)"@de;
+  dct:spatial "Palästina (Sabas-Kloser); Byzanz; Süditalien (umfangreicheres Verbreitungsgebiet als die Chartre Notation)";
+  dct:temporal "Wende 10./11. Jh. - 2. Hälfte 12. Jh. [MGG online: 10.-12. Jh]";
+  schema:temporalCoverage "900-1100";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Chartres-Notation a skos:Concept;
+  skos:prefLabel "Chartres-Notation"@de, "Chartres-Notation"@en;
+  skos:broader hspv-musicNotation:Pal%C3%A4obyzantinische%20Notation;
+  skos:definition """Die ältesten Handschriften mit Chrartes-Notation stammen aus der Gegend um Konstantinopel und Thessaloniki Die Chartres-Notation teilt mit der Coislin-Notation einen gemeinsamen Bestand an Grundzeichen. Die Chartres-Notation besitzt darüber hinaus zahlreiche stenographische Symbole, welche melodische Formeln unterschiedlicher Länge zum Ausdruck bringen. (MGG online)
+Diese Notation umfasst zweierlei Zeichen: Hypostasen, welche eine Formel bezeichnen und \"analytische\" Zeichen. (Paläographie der Musik Bd. I, Fasc. 2, p. 2.79). Die Handschrift Codex GR-ATSgreat lavra, Γ.67, f. 159 enthält eine Liste mit 47 Zeichen der Chartres-Notation, die mehrmals veröffentlicht wurde (vgl. Tillyard, Palikarova, Wellesz, Strunk)."""@de;
+  dct:spatial "Konstantinopel; Thessaloniki; Athos-Klöster; Süditalien";
+  dct:temporal "Wende 10./11. Jh. - Mitte 11. Jh. [MGG online: 10. Jh.-1050]";
+  schema:temporalCoverage "900-1050";
+  skos:example "Codex GR-ATSgreat lavra, Γ.67, f. 159: https://www.loc.gov/resource/amedmonastery.00271051372-ma/?sp=162&st=image&r=-0.019%2C-0.004%2C1.185%2C0.677%2C0";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Mittelbyzantinische%20Notation a skos:Concept;
+  skos:prefLabel "Mittelbyzantinische Notation"@de, "Middle Byzantine notation"@en;
+  skos:altLabel "\"runde\" Notation"@de;
+  skos:broader hspv-musicNotation:Byzantinische%20Notation;
+  skos:definition "Die mittelbyzantinische Notation unterscheidet sich von früheren byzantinischen Notenschriften dadurch, dass sie die Intervalle eindeutig wiedergibt. Darin ist sie den latenischen diastematischen Neumen vergleichbar. (Haas) Mit der Festlegung des diastematischen Werts der einzelnen Neumen, also der quantitativen Bestimmung, blieb der qualitative Wert der einzelnen Intervallzeichen erhalten. [...] Neben der analytischen Schreibweise in mittelbyzantinischer Notation begegnen zahlreiche stenographische Aufzeichnungselemente der paläobyzantinischen Notation. Das ison als ὑπόταξις-Zeichen, durch welches der Intervallwert eines aufsteigenden Zeichens aufgehoben wird, ist sowohl in Coislin- als auch in mittelbyzantinischer Schreibweise zu finden. (Gerda Wolfram, MGG online)"@de;
+  dct:temporal "12.-15. Jh. [MGG online: spätes 12.-16. Jh; Haas: 1150-??; Schnürl: 1150-1400; älteste überlieferte Handschrift laut MGG und Haas von 1177]";
+  schema:temporalCoverage "1170-1400";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Sp%C3%A4tbyzantinische%20Notation a skos:Concept;
+  skos:prefLabel "Spätbyzantinische Notation"@de, "Late-Byzantine notation"@en;
+  skos:altLabel "kukuzelische Notation"@de, "Post-Byzantine notation"@en;
+  skos:broader hspv-musicNotation:Byzantinische%20Notation;
+  skos:definition """Der spätbyzantinischen Notation liegt das gleiche System zugrunde wie der mittelbyzantinischen, doch unterscheidet sie sich von dieser durch eine größere Anzahl an Notenzeichen. Ein weiteres Merkmal der spätbyzantinischen Notation sind rote Hypostasen, die erstmals Ende des 13. Jh. auftreten und seit dem 14. Jh so zahlreich werden, dass man aufgrund dieses Kennzeichens eine eigene Bezeichnung für die Notationsform prägt. Parallel etablierte sich ein neues Repertoire (kalophonischer Stil). Das Notationssystem hat bis zur Reform der Drei Lehrer im ersten Viertel des 19. Jh. Gültigkeit (Haas) // 
+Abweichende Definition in Grove music online: ,Late- Byzantine‘ and ,Post-Byzantine‘ notation refers to the continued use of Middle Byzantine notation between the 15th and 19th centuries and distinguishes those musical manuscripts copied mainly after the fall of Constantinople into Turkish hands (29 May 1453) from those written in preceding centuries."""@de;
+  dct:temporal "15.-19. Jh. [Haas: Wende 13./14. Jh.-19. Jh.; MGG online (Byzantinische Musik): 16. Jh.-19. Jh.; Störl: 1400-1818]";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Moderne%20byzantinische%20Notation a skos:Concept;
+  skos:prefLabel "Moderne byzantinische Notation"@de;
+  skos:altLabel "neugriechische Notation"@de, "chrysantinische Notation"@de;
+  skos:broader hspv-musicNotation:Byzantinische%20Notation;
+  skos:definition "Die neugriechische Notation wird bis heute für die (einstimmigen) Gesänge der Ostkirche verwendet. Sie ist das Ergebnis der sog. \"Reform der Drei Lehrer\" zu Beginnd es 19. Jahrhunderts, mit der die Zahl der Musikzeichen reduzeirt wurde, die aber auch die Musiktheorie betraf."@de;
+  dct:temporal "ab dem 19. Jh.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Pal%C3%A4oslavische%20Notation a skos:Concept;
+  skos:prefLabel "Paläoslavische Notation"@de, "paleo-Slavonic notation"@en;
+  skos:altLabel "Altslavische Notation"@de;
+  dct:temporal "11.-14. Jh.";
+  skos:narrower hspv-musicNotation:Sematische%20Notation, hspv-musicNotation:Kondakarien-Notation;
+  skos:inScheme hspv:musicNotation;
+  skos:topConceptOf hspv:musicNotation .
+
+hspv-musicNotation:Sematische%20Notation a skos:Concept;
+  skos:prefLabel "Sematische Notation"@de;
+  skos:altLabel "Altslavische sematische Notation"@de;
+  skos:broader hspv-musicNotation:Pal%C3%A4oslavische%20Notation;
+  skos:definition """Die Sematische Notation diente zur Aufzeichnung der heirmologischen und der sticherarischen Gesänge. Sie entstand durch Übernahme der archaischen Coislin-Notation durch die Slaven. Im weiteren Verlauf ihrer Geschichte wurde sie von slavischen Schreibern verändert und ergänzt, oder aber durch ein jüngeres Stadium der Coislin-Notation beeinflusst. (Sie enthält Zeichen wie Kylisma und Kouphisma, die in der archiischen Coislin-Notation nicht begegnen). 
+Die Namen der Notenzeichen sind aus Tabellen bekannt, die einigen notierten Handschriften beigefügt wurden (vgl. R. Palikarova-Verdeil, La Musique byzantine chez les Bulgares et les Russes (du XIe au XIVe siècle), Kphn. 1953, S. 149-152). Zum Teil wurden sie aus dem Griechischen übernommen (Paraklito, Kulizma); zahlreiche Zeichen wurden aber anders benannt."""@de;
+  dct:temporal "12.-14. Jh.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Kondakarien-Notation a skos:Concept;
+  skos:prefLabel "Kondakarien-Notation"@de, "Kondakarian notation"@en;
+  skos:altLabel "Altstavische-Kondakarien-Notation"@de, "Slavonic 'kondakarion' notation"@en;
+  skos:broader hspv-musicNotation:Pal%C3%A4oslavische%20Notation;
+  skos:definition """findet sich in Hss. in russisch-kirchenslavischer Sprache
+Das Kennzeichnende dieser Notation ist die Anordnung in zwei übereinanderliegenden Reihen, von denen die untere die Intervallzeichen und die rhythmischen Zeichen der sematischen Notation enthält, die obere die stenographischen Zeichen als Ausdruck melodischer Formeln Der Name leitet sich aus dem altrussischen Handschriftentypus Kondakar‘ ab, in welchem die Notation zur Aufzeichnung vor allem von Kontakia, Hypakoai und Koinonika Verwendung fand. Die älteste Handschrift stammt wahrscheinlich aus dem 11. Jh. Nach Constantin Floros haben Chartres Notation und Kondakarien-Notation von derselben archaischen Urnotation ihren Ausgang genommen, sich aber selbständig weiterentwickelt. Im Gegensatz zu den Zeichen der Chartres-Notation sind diejenigen der Kondakarien-Notation in zwei Reihen angeordnet; in der unteren Reihe die kleinen Zeichen (Intervallzeichen und rhythmische Zeichen); in der oberen Reihe die großen Zeichen (Hypostasen, d.h. stenographische Zeichen als Ausdruck melodischer Formeln)."""@de;
+  dct:temporal "10./11.-14. Jh.";
+  dct:bibliographicCitation "Die Entzifferung der Kondakarien-Notation. In: Musik des Ostens, III, Kassel 1965, S. 7–71, und IV, Kassel 1967, S. 12–44.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Notationen%20des%20lateinischen%20Westens a skos:Concept;
+  skos:prefLabel "Notationen des lateinischen Westens"@de, "Western notation"@en;
+  skos:editorialNote "Terminus muss nicht angezeigt werden; dient nur zur Unterscheidung von den byzantinischen Notationen";
+  skos:narrower hspv-musicNotation:Dasia-Notation, hspv-musicNotation:Buchstabennotation,
+    hspv-musicNotation:Neumennotation, hspv-musicNotation:Modalnotation, hspv-musicNotation:Mensuralnotation,
+    hspv-musicNotation:Tabulatur, hspv-musicNotation:Moderne%20Standardnotation;
+  skos:inScheme hspv:musicNotation;
+  skos:topConceptOf hspv:musicNotation .
+
+hspv-musicNotation:Dasia-Notation a skos:Concept;
+  skos:prefLabel "Dasia-Notation"@de, "Daseian notation"@en, "notation dasienne"@fr,
+    "notazione dasiana"@it;
+  skos:altLabel "Dasia-Schrift"@de, "Daseiaschrift"@de, "Dasia-Zeichen"@de;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  skos:definition "Diese Notenschrift des ausgehenden 9. und frühen 10. Jahrhunderts diente insbes. zur Darstellung der frühesten Art von mehrstimmiger Musik in theoretischen Schriften. Sie besteht aus vier die einzelnen Positionen eines Tetrachords (Viertonreihe) bezeichnenden Zeichen. Der Name dieser Schrift ist vom Zeichen Prosodeia daseia abgeleitet, dem \"Spiritus asper\" der griechischen Akzentzeichen, aus dem alle Zeichen gebildet sind. [...] Die frühesten Dokumente mehrstimmiger Musik im Traktat \"Musica enchiriadis\" sind mit den Zeichen der Dasia-Notation niedergeschrieben. Sie diente aber auch zur Notation einstimmiger Melodien. Das gesamte Tonmaterial ist in Tetrachorde gegliedert, bei denen der Halbtonschritt jeweils zwischen dem zweiten und dritten Ton liegt. Der grundlegende Tetrachord bildet sich aus den Finaltönen der Kirchentöne (Modi) d-e-f-g. Ihnen sind vier Grundzeichen zugeordnet, die sich sämtlich vom Dasia-Zeichen ableiten; für die Töne eines tieferen (Graves) und zweieinhalb höherer Tetrachorde (Superiores, Excellentes; Residui) wurden die gleichen Zeichen gedreht und gewendet. Die Dasia-Zeichen konnten über einen Text oder zwischen die Textsilben gesetzt werden - oder vor ein System von waagrechten Linien, die man sich als die Saiten (in entsprechender Tonhöhe) eines Instruments vorzustellen hatte; auf diese Zeilen wurden die die Silben des vertonten Textes gesetzt. (Schnürl 2000, S. 48-49; Musikgeschichte in Bildern III/4, p. 220-221)"@de;
+  dct:temporal "9. und 10. Jh. (Grove music online); (vgl. Schnürl: \"in mehreren Traktaten zwischen dem 9. und dem 15. Jahrhundert\")";
+  skos:example "Staatsbibliothek Bamberg Msc.Class.9: https://nbn-resolving.org/urn:nbn:de:bvb:22-msc.class.9-8#0028 ; F-Pnm Latin 7202: https://gallica.bnf.fr/ark:/12148/btv1b8432473s/f108.item";
+  dct:bibliographicCitation "N. Phillips, The Dasia Notation and Its Manuscript Tradition, in: M. Huglo 1987, 157-173",
+    "B. Hebborn : Die Dasia-Notation (Bonn, 1995)";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Buchstabennotation a skos:Concept;
+  skos:prefLabel "Buchstabennotation"@de, "letter notation"@en, "notation alphabétique"@fr,
+    "notazione alfabetica"@it;
+  skos:altLabel "alphabetische Notation"@de, "Alphabethschrift"@de;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  skos:definition "Bezeichnung der Töne durch Buchstaben; Buchstabennotationen bestehen aus einem geschlossenen Inventar von Zeichen, die zur Präzisierung von Tonhöhen eingesetzt werden und analytisch ausgerichtet. Dem Einzelzeichen entspricht in der Regel ein einzelner Ton."@de;
+  skos:narrower hspv-musicNotation:Boethianische%20Buchstaben, hspv-musicNotation:Odonische%20Buchstaben,
+    hspv-musicNotation:Tonbuchstaben, hspv-musicNotation:Intervalltonschrift;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Boethianische%20Buchstaben a skos:Concept;
+  skos:prefLabel "Boethianische Buchstaben"@de, "Boethian notation"@en, "notation de Boèce"@fr,
+    "notazione boeziana"@it;
+  skos:broader hspv-musicNotation:Buchstabennotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Odonische%20Buchstaben a skos:Concept;
+  skos:prefLabel "Odonische Buchstaben"@de;
+  skos:broader hspv-musicNotation:Buchstabennotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Tonbuchstaben a skos:Concept;
+  skos:prefLabel "Tonbuchstaben"@de;
+  skos:broader hspv-musicNotation:Buchstabennotation;
+  skos:definition "Die Bezeichnung der Töne erfolgt mithilfe von Buchstaben."@de;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Intervalltonschrift a skos:Concept;
+  skos:prefLabel "Intervalltonschrift"@de;
+  skos:altLabel "Hilfstonschrift des Hermannus Contractus"@de;
+  skos:broader hspv-musicNotation:Buchstabennotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Neumennotation a skos:Concept;
+  skos:prefLabel "Neumennotation"@de, "neumatic notation"@en, "notation neumatique"@fr,
+    "notazione neumatica"@it;
+  skos:altLabel "Neumenschrift"@de;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  skos:definition """Seit dem 9. Jh. wurden Neumen für die Niederschrift von Musik verwendet. Der auf das griechische Wort \"neuma\" (Wink) zurückgehende Ausdruck wurde im lateinischen Mittelalter unterschiedlich verwendet: Er bezeichnete eine durch ein einzelnes Zeichen repräsentierte Tonbewegung, aber auch ein Melisma, eine Melodie oder Melodieabschnitt.
+Neumen sind hinsichtlich der graphischen Gestaltung regional verschieden.
+Als wesentlicher Verwendungsbereich der Neumen gilt die lateinische liturgische Einstimmigkeit.
+Terminologisch durchaus nicht einheitlich wird heute der Begriff \"Neumen\" am ehesten für die Zeit vom frühen 9. Jh. bis zur Entstehung der Quadratnotation verwendet, die am ehesten aus der Stilisierung mittelfranzösischer Neumen im 11./12. Jh. hervorgeht."""@de;
+  skos:narrower hspv-musicNotation:Linienlose%20Neumennotation, hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Linienlose%20Neumennotation a skos:Concept;
+  skos:prefLabel "Linienlose Neumennotation"@de, "staffless neumatic notation"@en;
+  skos:altLabel "Neumen ohne Linien"@de, "Neumen \"in campo aperto\""@de;
+  skos:broader hspv-musicNotation:Neumennotation;
+  dct:temporal "9.-10. Jh. (St. Gallen bis ins 15. Jh.)";
+  skos:narrower hspv-musicNotation:deutsche%20Neumen, hspv-musicNotation:St.%20Galler%20Neumen,
+    hspv-musicNotation:englische%20Neumen, hspv-musicNotation:franz%C3%B6sische%20Neumen,
+    hspv-musicNotation:lothringische%20Neumen, hspv-musicNotation:pal%C3%A4ofr%C3%A4nkische%20Neumen,
+    hspv-musicNotation:bretonische%20Neumen, hspv-musicNotation:aquitanische%20Neumen,
+    hspv-musicNotation:katalonische%20Neumen, hspv-musicNotation:wisigotische%20Neumen,
+    hspv-musicNotation:toledanische%20Neumen, hspv-musicNotation:Bologneser%20Neumen,
+    hspv-musicNotation:nonantolanische%20Neumen, hspv-musicNotation:beneventanische%20Neumen;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:deutsche%20Neumen a skos:Concept;
+  skos:prefLabel "deutsche Neumen"@de, "German neumes"@en, "Notation allemande"@fr;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:altLabel "German neumatic notation"@en;
+  skos:definition "Corbin unterscheidet vier Stadien der deutschen Neumenschrift und verwendet hierfür die Begriffe \"sanktgallisch\" (9.-10 Jh), frühdeutsch (11.-12. Jh.), \"gotisch\" (seit dem 13. Jh.) und \"Hufnagelschrift\". Zur St. Gallischen Schrift siehe unten. Die frühdeutschen Neumen definiert sie als \"Kontaktneumen\", also Umformungen durch den Einfluss bestimmter Scriptoria oder französischer und lothringischer Neumenschriften sowie der gotischen Textschrift auf die St. Galler Neumen. Den Schrifttyp, der am Ende dieser Übergangsformen unter dem Einfluss lothringischer Neumen seit dem Ende des 13. Jh,. im deutschen Sprachgebiet, aber auch im angrenzenden Norden und Osten Europas erscheint, bezeichnet Corbin als \"gotisch\" bzw. \"Hufnagelschrift\" (eine Differenzierung der zunächst als zwei verschiedene Schriftstadien eingeführten Bezeichnungen liefert sie nicht). Die deutliche Verwandlung der älteren Neumen zu einer ausgesprochen stilisierten Schrift hat Entsprechungen in anderen Schriften (Frankreich: Quadratnotation) und hat wesentlich auch mit der Verwendung eines neuen Scheibgerätes zu tun: einer breiten, schräg geschnittenen Feder."@de;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:St.%20Galler%20Neumen a skos:Concept;
+  skos:prefLabel "St. Galler Neumen"@de, "St Gallen neumes"@en, "Notation sangallienne"@fr,
+    "notazione sangallese"@it;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:altLabel "St Gallen notation"@en, "notation of St Gallen"@en;
+  skos:editorialNote "Litterae Significativae (auch Romanus-Buchstaben; Litterae Romanae) könnten hier als zusätzliches Attribut ergänzt werden: Anhand von in karolingischen Minuskeln geschriebenen Buchstaben werden melodische, rhythmische oder andere interpretatorische Anweisungen gegeben.";
+  skos:definition "Corbin 1977 definiert die Frühzeit (bis Ende des 10. Jh.) jener Schrift , die durch die Tätigkeit des St. Galler Skriptorium bestimmt ist, als \"sanktgallisch\" - unabhängig davon, ob die betreffende Handschrift in St. Gallen oder an einem anderen Ort entstanden ist. (Vgl. S. 3.46) Das spätere, von Anfang des 11. bis zum 12. Jh. überlieferte Stadium dieser Schrift, das mit den St. Galler Neumen weitgehende Ähnlichkeit aufweist, bezeichnet sie als \"frühdeutsch\". Kriterien zur Unterscheidung gibt Corbin auf S. 3.57."@de;
+  dct:temporal "9.-10. Jh. (z. T. bis ins 15. Jh. verwendet)";
+  skos:example "St. Gallen, Stiftsbibliothek, Cod. Sang. 359 – Cantatorium, p. 5: https://www.e-codices.unifr.ch/de/csg/0359/5";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:englische%20Neumen a skos:Concept;
+  skos:prefLabel "englische Neumen"@de, "English neumes"@en;
+  skos:altLabel "insulare Neumen"@de;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Zwei Schriftformen englischer Neumen lassen sich unterscheiden: eine bretonische und eine den französischen Neumen aus der Picardie ähnliche. Die bretonische Notation scheint nach England übertragen, jedoch selten verwendet worden zu sein (10. Jh.). Die in England in erster Linie verwendete und gemeinhin als \"englisch\" bezeichnete Notationsform hat Ähnlichkeit mit den französischen Neumen, vor allem mit jenen von Corbie. Trotz langandauernder Verwendung hat sich diese Notation kaum verändert (zu den Unterschieden zwischen älteren und jüngeren Stadien, denen der adiastematische Charakter gemeinsam ist vgl. Corbin, Paläographie der Musik I/3, S. 3.139) . Eine Entwicklung zur Notation auf Linen fand, nach derzeitigem Kenntnisstand, nicht statt. Wahrscheinlich wurden die englischen Neumen durch die normannische Invasion (1066) verdrängt (Corbin)."@de;
+  dct:temporal "10.-11. Jh.";
+  skos:example "Oxford Bodleian Library, Ms. Bodl. 775, f. 121v (obere Blatthälfte) - bisher kein Digitalisat verfügbar";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:franz%C3%B6sische%20Neumen a skos:Concept;
+  skos:prefLabel "französische Neumen"@de, "French neumes"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Der Begriff der französischen Neumen ist nicht eindeutig; hier wird er für die eigentümlichen Neumenformen Mittelfrankreichs gebraucht, die man im engeren Sinn \"französisch\" nennt und unterschiedliche Schreibschulen umfassen. Die \"französischen\" Neumen im engeren Sinne sind Akzentneumen, während alle anderen in Frankreich begegnenden Arten aus Punktneumen bestehen. Schriftrichtung: senkrechter Aufstrich bei schrägem Abstrich (alle anderen Arten Frankreichs: schräger Aufstrich mit senkrechtem Abstrich) (vgl. Corbin)"@de;
+  dct:spatial "Nördliches Mittelfrankreich; Südwärts bis in die Gegend von Lyon, westlich davon bilden Auvergne und Angoumois de Grenze; im Westen: Bretagne und Ärmelkanal; ein nicht scharf umgrenzter Bereich lothringischer \"Kontakt\"-Neumen schließt das Gebiet nach Norden hin ab.";
+  skos:example "Bibliothèque nationale de France. Département des Manuscrits. Latin 12584, f. 217v (=Bsp. Aus: Musikgeschichte in Bildern III/4): https://gallica.bnf.fr/ark:/12148/btv1b8422977w/f436.item";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 378f.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:lothringische%20Neumen a skos:Concept;
+  skos:prefLabel "lothringische Neumen"@de, "Lorraine neumes"@en, "notazione lorense"@it;
+  skos:altLabel "Metzer Neumen"@de, "Laon neumes"@en, "Messine notation"@en, "notazione di Laon"@it,
+    "notazione metense"@it;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:editorialNote "Litterae Significativae (auch Romanus-Buchstaben; Litterae Romanae) könnten hier als zusätzliches Attribut ergänzt werden: Anhand von in karolingischen Minuskeln geschriebenen Buchstaben werden melodische, rhythmische oder andere interpretatorische Anweisungen gegeben.";
+  skos:definition "Wurden ihres weitgehend diasthematischen Charakters wegen schon früh auf Linien geschrieben, ohne dabei ihre Eigenart zu verlieren."@de;
+  dct:spatial "An der ganzen westlichen Grenze Deutschlands entlang verbreitet; vom Jura, über das gegenwärtige Lothringen, Belgien und Luxemburg bis Holland";
+  dct:temporal "9.-15. Jh.";
+  skos:example "Laon, Bibliothèque municipale, ms. 239, f. 17r: https://bibliotheque-numerique.ville-laon.fr/viewer/1457/?offset=#page=41&viewer=picture&o=bookmarks&n=0&q=";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:pal%C3%A4ofr%C3%A4nkische%20Neumen a skos:Concept;
+  skos:prefLabel "paläofränkische Neumen"@de, "palaeo-Frankish neumes"@en;
+  skos:altLabel "paläofrankische Notation"@de, "palaeo-Frankish notation"@en, "St Amand notation"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Tonortschrift mit diastematischem Charakter. Schriftbild erinnert an \"Punktneumen\"; in den ältesten Zeugnissen fehlen Zierneumen wie Quilisma, Oriscus und Strophici, erst später werden sie dem Zeichenbestand der Schrift hinzugefügt. (Corbin). Die Paläofränkische Notation ist die wohl älteste überlieferte Neumenschrift."@de;
+  dct:temporal "9. Jh.-";
+  skos:example "Bibliothèque nationale de France, Département des Manuscrits. Latin 2291: https://gallica.bnf.fr/ark:/12148/btv1b84274502/f37.item.zoom";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 371-373.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:bretonische%20Neumen a skos:Concept;
+  skos:prefLabel "bretonische Neumen"@de, "Breton neumes"@en;
+  skos:altLabel "nordfranzösische Neumen"@de, "Breton notation"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Sehr alte Neumenschrift, die früh verschwand, ohne sich weiterentwickelt zu haben. Wurde nur in äußerst seltenen Fällen mit mit dem Liniensystem verbunden. Allgemeine Kennzeichen: weitgehende relative Diastemie; schräg aufsteigende und senkrecht absteigende Schriftachse; mehrere typische Zeichenformen - zu letzteren siehe: Michel Huglo, \"Le domaine de la notation bretonne\", in: Acta musicologica 35 (1963). (Corbin 1977)"@de;
+  dct:spatial "Bretagne, Südengland, einige Klöster der Normandie, Le Mans, Angers, Orléans";
+  dct:temporal "10. Jh.-12. Jh.";
+  skos:example "Angers, Bibliothèque Municipale, ms. 91, f. 31v --Achtung, Link funktioniert nur auf die Handschrift, nicht auf die gewünschte Seite (f. 31v): https://arca.irht.cnrs.fr/ark:/63955/md05s7526b3g";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:aquitanische%20Neumen a skos:Concept;
+  skos:prefLabel "aquitanische Neumen"@de, "Aquitanian neumes"@en;
+  skos:altLabel "südfranzösische Neumen"@de, "Aquitanian notation"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Noch im 11. Jh. finden sich in der aquitanischen Notenschrift keine Angaben über die genauen Tonhöhen und -abstände (Diastematie in jüngeren Handschriften des 11. Jh. stärker ausgeprägt); Schriftbild: vor allem kleine, in der Regel eckige Punkte; die Form des Tractulus taucht nur in vereinzelten Handschriften auf. (Corbin 1977)"@de;
+  dct:spatial "Beherrschte den Süden Frankreichs, griff im 11. Jh. auf Spanien über; Uneinigkeit herrscht darüber, ob sie auch an der Rhône verbreitet war.";
+  dct:temporal "10. Jh, 11. Jh.";
+  skos:example "Bibliothèque nationale de France, Département des Manuscrits. Latin 903, f. 69v: https://gallica.bnf.fr/ark:/12148/btv1b10506538t/f155.item.zoom";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 374f.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:katalonische%20Neumen a skos:Concept;
+  skos:prefLabel "katalonische Neumen"@de, "Catalan neumes"@en, "notation catalane"@fr;
+  skos:altLabel "katalanische Neumen"@de, "Catalan notation"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Akzentneumen (in ihrer Form den wisigotischen ähnlich); Schriftrichtung unausgeglichen."@de;
+  dct:spatial "Katalanien, Roussillon (Frankreich)";
+  dct:bibliographicCitation "Gregorio María Suñol, Introduction à la paléographie musicale grégorienne, Paris 1935";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:wisigotische%20Neumen a skos:Concept;
+  skos:prefLabel "wisigotische Neumen"@de;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:toledanische%20Neumen a skos:Concept;
+  skos:prefLabel "toledanische Neumen"@de;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Bologneser%20Neumen a skos:Concept;
+  skos:prefLabel "Bologneser Neumen"@de, "Bologna neumes"@en;
+  skos:altLabel "bolognesische Neumen"@de, "norditalienische Neumen"@de, "Bologna notation"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Diese Schrift ist nur aus sehr wenigen, über ein ausgedehntes Gebiet verbreiteten Handschriften bekannt; Merkmale: - geneigte Schriftrichtung; die kopf- und hakenlose Virga wird durch lange gerade, in derselben Richtung verlaufende Striche von ungewisser Federführung ausgeführt; zahlreiche Neumen mit kleinen Ringchen; eine große Zahl verlängerter Punkte; Vorkommen des Trigon. Der Übergang von dieser Schrift zu den voll ausgeprägten viereckigen Neumen Mittelitaliens ist noch nicht erforscht. Indes zeigt sich ein unverkennbarer Zusammenhang zwischen der Schrift aus Bologna und derjenigen aus Mittelfrankreich. Für alle italienischen Neumenschriften gilt: Klare Diastematik; häufiges Vorkommen von kleinen Ringchen im Inneren der Zeichen. (Corbin 1977)"@de;
+  dct:spatial "Bologna (Mittelitalien?)";
+  dct:temporal "10./11Jh.-";
+  skos:example "Roma, Biblioteca Angelica, Manoscritti, ms.123, f. 73v (https://manus.iccu.sbn.it/risultati-ricerca-manoscritti/-/manus-search/cnmd/42707 )";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:nonantolanische%20Neumen a skos:Concept;
+  skos:prefLabel "nonantolanische Neumen"@de, "Nonantolan neumes"@en, "notazione nonantolana"@it;
+  skos:altLabel "Neumen aus Nonantola"@de, "oberitalienische Neumen"@de, "nonantolesische Neumen"@de,
+    "notazione neumatica di Nonantola"@it;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Die nonantolanische Neumenschrift, die laut Jammers \"trotz ihrer bizarren Ausgestaltung unter Beachtung der Übereinstimmung nicht bloß in allem Grundsätzlichen als ein Ableger der aquitanischen Schrift betrachtet werden\" muss (E. Jammers, Tafeln zur Neumenschrift, Tutzing 1965, S. 51), nutzt den Raum oberhalb, gelegentlich auch unterhalb der Schriftlinie; die Akzentneumen sind graphisch dergestalt mit den Vokalen jeder Silbe verbunden, dass jeder Vokal durch die ihm zugehörige Neume verlängert, auf einer gezogenen oder nur gedachten Notenlinie eine bestimmte Tonhöhe bezeichnet. Die Schrift ist diastematisch (durch die bestimmten Intervallen zugeordnete Strichlänge) als auch rhythmisch (durch Angaben für die Tondauer); es lassen sich zwei verschiedene Schriftrichtungen unterscheiden: eine geneigte (ohne Notenlinie; Abstrich senkrecht) und eine senkrechte (nur in Verbindung mit der Notenlinie; Auf und Abstrich senkrecht); Für alle italienischen Neumenschriften gilt: Klare Diastematik; häufiges Vorkommen von kleinen Ringchen im Inneren der Zeichen."@de;
+  dct:spatial "Im Norden Italiens, jedoch südlich von Mantua (nördlich treffen verschiedenste Neumenformen aufeinander)";
+  skos:example "Milano, Biblioteca Ambrosiana S 37 sup., f. 1v";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 377f.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:beneventanische%20Neumen a skos:Concept;
+  skos:prefLabel "beneventanische Neumen"@de, "Beneventan neumes"@en;
+  skos:altLabel "süditalienische Neumen"@de, "Beneventan notation"@en;
+  skos:broader hspv-musicNotation:Linienlose%20Neumennotation;
+  skos:definition "Die beneventanische Neumenschrift war geringen Wandlungen unterworfen - daher ist es oft schwierig, einzelne Aufzeichnungen zu datieren; Schriftbild: eckige und breite, verbunden mit feinen Strichen (Schreibgerät: beschnittenes Schilfrohr); Schriftrichtung: ausnahmslos senkrechte Ab- und Aufstriche (wie sie auch der lothringischen und aquitanischen Schrift eignet); einige besondere Neumen: \"Inflatilia\" (ein Pes) mit dem Umfang eines Ganztones oder kl. Terz; \"Gradata\" (zur Bezeichnug eienr stufenweisen Tonfolge), die in ihrem Bild einer Treppe ähnelt.Für alle italienischen Neumenschriften gilt: Klare Diastematik; häufiges Vorkommen von kleinen Ringchen im Inneren der Zeichen"@de;
+  dct:spatial "Süditalien bis nördlich Roms; auch Mailand";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 376";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Neumennotation%20auf%20Linien a skos:Concept;
+  skos:prefLabel "Neumennotation auf Linien"@de, "neumes on lines"@en;
+  skos:broader hspv-musicNotation:Neumennotation;
+  skos:editorialNote "NB: Schwarz bzw. Braun hier nicht angeführt, da Standard";
+  dct:temporal "11.-12. Jh.";
+  vocnet:hasProperty hspv-musicStaff:Einliniensystem, hspv-musicStaff:Zweiliniensystem,
+    hspv-musicStaff:Dreiliniensystem, hspv-musicStaff:Vierliniensystem, hspv-musicStaff:F%C3%BCnfliniensystem,
+    hspv-musicColour:Rot, hspv-musicColour:Gelb, hspv-musicColour:Gr%C3%BCn, hspv-musicColour:Blau,
+    hspv-musicColour:Blindliniert;
+  skos:narrower hspv-musicNotation:deutsche%20Neumen%20auf%20Linien, hspv-musicNotation:franz%C3%B6sische%20Neumen%20auf%20Linien,
+    hspv-musicNotation:lothringische%20Neumen%20auf%20Linien, hspv-musicNotation:aquitanische%20Neumen%20auf%20Linien,
+    hspv-musicNotation:nonantolanische%20Neumen%20auf%20Linien, hspv-musicNotation:Mail%C3%A4nder%20Neumen%20auf%20Linien,
+    hspv-musicNotation:beneventanische%20Neumen%20auf%20Linien, hspv-musicNotation:b%C3%B6hmische%20Neumen%20auf%20Linien,
+    hspv-musicNotation:ungarische%20Neumen%20auf%20Linien, hspv-musicNotation:Quadratnotation,
+    hspv-musicNotation:Cantus%20fractus-Notation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:deutsche%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "deutsche Neumen auf Linien"@de, "German neumes on lines"@en;
+  skos:altLabel "Hufnagelnotation"@de, "deutsche Choralnotation, deutsch-gotische Choralnotation"@de,
+    "gotische Choralnotation"@de, "Roßnägelschrift"@de, "Hufeisenschrift"@de, "Hufnagelschrift"@de;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:franz%C3%B6sische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "französische Neumen auf Linien"@de, "French neumes on lines"@en;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:lothringische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "lothringische Neumen auf Linien"@de;
+  skos:altLabel "lothringische Notation auf Linien"@de, "Metzer Neumer auf Linien"@de,
+    "Metzer Notation auf Linien"@de;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:aquitanische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "aquitanische Neumen auf Linien"@de, "Aquitanian neumes on lines"@en;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:nonantolanische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "nonantolanische Neumen auf Linien"@de, "Nonantolan neumes on lines"@en,
+    "notazione nonantolana"@it;
+  skos:altLabel "Neumen aus Nonantola"@de, "oberitalienische Neumen"@de, "nonantolesische Neumen"@de,
+    "notazione neumatica di Nonantola"@it;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:definition "Die nonantolanische Neumenschrift nutzt den Raum oberhalb, gelegentlich auch unterhalb der Schriftlinie; die Akzentneumen sind graphisch dergestalt mit den Vokalen jeder Silbe verbunden, dass jeder Vokal durch die ihm zugehörige Neume verlängert, auf einer gezogenen oder nur gedachten Notenlinie eine bestimmte Tonhöhe bezeichnet. Die Schrift ist diastematisch (durch die bestimmten Intervallen zugeordnete Strichlänge) als auch rhythmisch (durch Angaben für die Tondauer); es lassen sich zwei verschiedene Schriftrichtungen unterscheiden: eine geneigte (ohne Notenlinie; Abstrich senkrecht) und eine senkrechte (nur in Verbindung mit der Notenlinie; Auf und Abstrich senkrecht); Für alle italienischen Neumenschriften gilt: Klare Diastematik; häufiges Vorkommen von kleinen Ringchen im Inneren der Zeichen."@de;
+  dct:spatial "Im Norden Italiens, jedoch südlich von Mantua (nördlich treffen verschiedenste Neumenformen aufeinander)";
+  skos:example "Milano, Biblioteca Ambrosiana S 37 sup., f. 1v";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 377f.";
+  vocnet:hasProperty hspv-musicStaff:Zweiliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Mail%C3%A4nder%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "Mailänder Neumen auf Linien"@de;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:beneventanische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "beneventanische Neumen auf Linien"@de, "Beneventan neumes on lines"@en;
+  skos:altLabel "süditalienische Neumen"@de, "Beneventan notation"@en;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:definition "Die beneventanische Neumenschrift war geringen Wandlungen unterworfen - daher ist es oft schwierig, einzelne Aufzeichnungen zu datieren; Schriftbild: eckige und breite, verbunden mit feinen Strichen (Schreibgerät: beschnittenes Schilfrohr); Schriftrichtung: ausnahmslos senkrechte Ab- und Aufstriche (wie sie auch der lothringischen und aquitanischen Schrift eignet); einige besondere Neumen: \"Inflatilia\" (ein Pes) mit dem Umfang eines Ganztones oder kl. Terz; \"Gradata\" (zur Bezeichnug eienr stufenweisen Tonfolge), die in ihrem Bild einer Treppe ähnelt.Für alle italienischen Neumenschriften gilt: Klare Diastematik; häufiges Vorkommen von kleinen Ringchen im Inneren der Zeichen"@de;
+  dct:spatial "Süditalien bis nördlich Roms; auch Mailand";
+  dct:bibliographicCitation "Max Haas, Musikalisches Denken im Mittelalter, S. 376";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:b%C3%B6hmische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "böhmische Neumen auf Linien"@de, "Bohemian gothic notation"@en;
+  skos:altLabel "böhmisch-gotische Notation"@de, "böhmische Notation"@de, "östliche Notation"@de,
+    "ostländische Notation"@de, "Prager Notation"@de, "rhombische Notation"@de, "Prague notation"@en,
+    "Czech notation"@en;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  dct:spatial "Böhmen und Mähren, aber auch in der Slowakei und Österreich";
+  dct:temporal "14.-16. Jh.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:ungarische%20Neumen%20auf%20Linien a skos:Concept;
+  skos:prefLabel "ungarische Neumen auf Linien"@de, "later Esztergom notation"@en;
+  skos:altLabel "Graner Notation"@de;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  dct:spatial "Diözesen Ungarns, Nordkroatien; Siebenbürgen/Transsilvanien (heutiges Rumänien); historische Region Nordungarn (heutige Slowakei)";
+  dct:temporal "14.-18. Jh.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Quadratnotation a skos:Concept;
+  skos:prefLabel "Quadratnotation"@de, "square notation"@en, "notation carrée"@fr, "notazione quadrata"@it;
+  skos:altLabel "Nota quadrata"@de, "römische Choralnotation"@de, "römische Choralnoten"@de,
+    "römische Choralschrift"@de, "Quadratschrift"@de, "französische Choralnotation"@de,
+    "[notation du plain-chant]"@fr;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:definition "Die Quadratnotation stellt die letzte Entwicklungsstufe der Tonhöhen anzeigenden Neumen vor der Einführung der zusätzlich die Tonlängen anzeigenden Modalnotation dar, die vorwiegend für den Gregorianischen Choral Verwendung findet; kein Rhythmus Durch Einführung einer breiteren Schreibfeder um 1200 entstanden aus den Neumenzeichen Quadratnoten, die als \"römische Choralnoten\" auf vier Linien heute noch in den offiziellen Gesangbüchern der römischen Kirche für die Melodien des gregorianischen Chorals verwendet werden."@de;
+  dct:spatial """Frankreich, Italien mit Ausnahme der Diözese Mailand, Flandern, Spanien, Großbritannien, Skandinavien, Island
+Europa mit Ausnahme vonn Mittel- und Osteuropa, der Erzdiözese Mailand sowie bestimmter Orden (z.B. Augustiner Chorherren und Augustiner Eremiten)""";
+  dct:temporal "etwa ab 1200";
+  vocnet:hasProperty hspv-musicStaff:Vierliniensystem, hspv-musicStaff:F%C3%BCnfliniensystem,
+    hspv-musicColour:Rot, hspv-musicColour:Gelb;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Cantus%20fractus-Notation a skos:Concept;
+  skos:prefLabel "Cantus fractus-Notation"@de;
+  skos:broader hspv-musicNotation:Neumennotation%20auf%20Linien;
+  skos:definition """Der Begriff “cantus fractus” (gebrochener Gesang) entstand spätestens im 13. Jahrhundert und bezeichnet die Unterteilung voller Notenwerte („integer valor“) in genau abgemessene Teile.
+Die Cantus fractus-Notation stellt eine Art mensuraler Notation dar, die seit dem Ende des 13. Jahrhunderts für einzelne Messgesänge verwendet wurde. Beispiele des cantus fractus finden sich vor allem bei Credomelodien, bei einigen Hymnen und Sequenzen. Der Stil des cantus fractus als rhythmischer Choralgesang war bis ins 18. Jahrhundert verbreitet und blieb nicht nur auf den liturgischen lateinischen Gesang beschränkt, sondern findet sich auch bei vielen geistlichen Liedern (insbes. in der Region Österreich)."""@de;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Modalnotation a skos:Concept;
+  skos:prefLabel "Modalnotation"@de, "modal notation"@en, "notation modale"@fr, "notazione modale"@it;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  skos:definition """Modalnotation nennt man eine Aufzeichnungsweise, in der mit Ligaturen, mit zusammengeschriebenen Tönen bestimmte Muster, die sogenannten Modi, ausgedrückt werden, deren Ablauf in verschiedener Weise modifiziert werden kann.
+Modalnotation bezieht sich auf das Verhältnis 
+Johannes de Garlandia zählt wie schon die ältere \"Discantus positio vulgaris\" sechs Modi, die ein geschlossenes System rhythmischer Möglichkeiten bilden. Die modi konkretisieren sich in der Aufeinanderfolge von Longen und Breven; es sind keine unabhängigen rhythmischen Strukturen. Die Modi werden als Ligaturenketten geschrieben (binaria, ternaria, quaternaria). Grundlage der Schrift sind die Neumen der quadratischen Choralnotation. (MGG online)"""@de;
+  dct:temporal "12. und 13. Jh.";
+  vocnet:hasProperty hspv-musicStaff:Vierliniensystem, hspv-musicStaff:F%C3%BCnfliniensystem,
+    hspv-musicStaff:Sechsliniensystem, hspv-musicColour:Rot, hspv-musicColour:Gelb;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Mensuralnotation a skos:Concept;
+  skos:prefLabel "Mensuralnotation"@de, "mensural notation"@en, "notation mensuraliste"@fr,
+    "notazione mensurale"@it;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  skos:altLabel "notation proportionnelle"@fr;
+  skos:definition "Notenschrift für europäische polyphone Vokalmusik, die mit Hilfe von Mensurzeichen die Tondauer der Musik festlegte"@de;
+  dct:temporal "13.-16. Jh.";
+  vocnet:hasProperty hspv-musicStaff:Vierliniensystem, hspv-musicStaff:F%C3%BCnfliniensystem,
+    hspv-musicStaff:Sechsliniensystem, hspv-musicColour:Rot;
+  skos:narrower hspv-musicNotation:schwarze%20Mensuralnotation, hspv-musicNotation:wei%C3%9Fe%20Mensuralnotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:schwarze%20Mensuralnotation a skos:Concept;
+  skos:prefLabel "schwarze Mensuralnotation"@de, "black mensural notation"@en;
+  skos:broader hspv-musicNotation:Mensuralnotation;
+  skos:altLabel "black full mensural notation"@en;
+  skos:definition "Mithilfe der schwarzen Mensuralnotation konnten erstmals die Notenwerte (Tondauern) der Musik eindeutig festgelegt werden; die wichtigsten Notenzeichen waren Brevis und Longa. Zwischen 1230 und 1430 gab es mehrere unterschiedliche Schriftarten, die unter dem Begriff \"schwarze Mensuralnotation\" zusammengefasst werden; Gemeinsamkeiten: 1. die Noten werden mit einem einzigen Federstrich geschrieben und sind daher schwarz und nicht hohl (weiß); 2. die Notenwerte stehen zueinander in einem messbaren Verhältnis (jeder Notenwert gilt genau das Doppelte oder Dreifache des nächsten kleineren Werts). Die Unterschiede entstanden durch Anpassung an die speziellen Erfordernisse der jeweiligen Musikstile; die einzelnen Arten der schwarzen Mensuralnotation können daher den Stilepochen Ars Antiqua - Trecento-Stil - Ars nova und Ars subtilior zugeordnet werden. (Schnürl 2000, S. 73)"@de;
+  dct:temporal "ca. 1230-1430";
+  skos:narrower hspv-musicNotation:Notation%20der%20Ars%20Antiqua, hspv-musicNotation:Notation%20der%20Ars%20Nova,
+    hspv-musicNotation:Trecento-Notation, hspv-musicNotation:Notation%20der%20Ars%20Subtilior;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Notation%20der%20Ars%20Antiqua a skos:Concept;
+  skos:prefLabel "Notation der Ars Antiqua"@de, "Franconian notation"@en;
+  skos:altLabel "Frankonische Notation der Ars Antiqua"@de, "Frankonische Notation"@de;
+  skos:broader hspv-musicNotation:schwarze%20Mensuralnotation;
+  skos:definition "Zeit des Übergangs von der modalen zur frühen mensuralen Rhythmik (Modus) Die Notation der Ars Antiqua ist nach dem Musiktheoretiker Franco von Köln benannt. Die Notenzeichen der Frankonischen Notation sind: Duplex Longa (Maxima), Longa, Brevis, Semibrevis. Die Notenwerte gelten durchweg als dreizeitig, können jedoch, wie schon in der Modalnotation, in bestimmten Fällen auf Zweizeitigkeit verkürzt werden. Pauseinzeichen werden weder verkürzt noch verdoppelt. Die von Franco im Traktat Ars cantus mensurabilis (1280) formulierten Regeln (Imperfektion, Alteration von Notenwerten durch Divisionspunkte, Ligaturenlehre) bleiben grundsätzlich auch für spätere Formen der Mensuralnotation gültig, neue Entwicklungen der Musik erforderten jedoch auch einige Neuerungen in der Notation. (Schnürl 2000, S. 73 ff.)"@de;
+  dct:temporal "1230-1330";
+  skos:example "Bamberger Motettenhandschrift - Staatsbibliothek Bamberg Msc.Lit.115: http://digital.bib-bvb.de/view/bvb_mets/viewer.0.6.5.jsp?folder_id=0&dvs=1703259235397~97&pid=5399204&locale=de&usePid1=true&usePid2=true";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Notation%20der%20Ars%20Nova a skos:Concept;
+  skos:prefLabel "Notation der Ars Nova"@de, "French 14th-century notation"@en;
+  skos:broader hspv-musicNotation:schwarze%20Mensuralnotation;
+  skos:definition "In der sogenannten Ars Nova trat neben die perfekte Mensur, also den dreiteiligen Grundschlag, die imperfekte Mensur. Es wurden nun also auch Kompositionen in geraden Taktarten angefertigt, bei denen Einheiten zu zwei Schlägen das mensurale Gerüst bildeten. Der Name der Epoche geht auf den gleichnamigen, um 1320 entstandenen Traktat Ars Nova, welches dem französischen Musiktheoretiker und Komponisten Philippe de Vitry zugeschrieben wurde, zurück. In der Ars Nova werden Systeme mit fünf Linien benutzt. Von der älteren frankonischen Notation unterscheidet sich die Notation der Ars Nova vor allem durch die vermehrte Verwendung kleinerer Notenwerte: als neuer Teilwert der Semibrevis wurde die \"Minima\" eingeführt."@de;
+  dct:temporal "1320-1380";
+  skos:example "Bibliothèque nationale de France. Département des Manuscrits. Français 1584 , f. 467r: https://gallica.bnf.fr/ark:/12148/btv1b84490444/f956.item.zoom ; Alternativ: https://www.diamm.ac.uk/sources/141/#/";
+  vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Trecento-Notation a skos:Concept;
+  skos:prefLabel "Trecento-Notation"@de, "Italian 14th-century notation"@en;
+  skos:altLabel "Trecento-Notation (nach Marchetus de Padua)"@de, "Notation des Trecento-Stils"@de,
+    "italienische Ars-Nova Notation"@de;
+  skos:broader hspv-musicNotation:schwarze%20Mensuralnotation;
+  skos:definition "Es werden Systeme mit sechs Linien verwendet. Die italienische Trecento-Notation unterscheidet sich von der französischen rein äußerlich durch die Verwendung von 6 Notenlinien. Entscheidend aber sind die Unterschiede im rhythmischen System. Grundlage ist die Teilung der Brevis in mehr als 3 kelinere Werte und die Abgrenzung von Noten im Wert einer Brevis durch Divisionspunkte. Der sog. Brevis-Punkt (pontellus), der das Ende einer Brevis-Einheit markiert, die in 2-5 Semibreves unterteil werden kann, erhält den Rang eines Hauptzeichens."@de;
+  dct:temporal "ab Anfang 14. Jh. -1450";
+  skos:example "Giovanni da Firenze: Io son un pelegrino (14. Jh.): https://gallica.bnf.fr/ark:/12148/btv1b84490281/f112.item";
+  vocnet:hasProperty hspv-musicStaff:Sechsliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Notation%20der%20Ars%20Subtilior a skos:Concept;
+  skos:prefLabel "Notation der Ars Subtilior"@de;
+  skos:broader hspv-musicNotation:schwarze%20Mensuralnotation;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:wei%C3%9Fe%20Mensuralnotation a skos:Concept;
+  skos:prefLabel "weiße Mensuralnotation"@de, "white mensural notation"@en;
+  skos:broader hspv-musicNotation:Mensuralnotation;
+  skos:altLabel "white notation"@en, "void notation"@en, "black void mensural notation"@en;
+  skos:definition "Zwischen 1430 und 1450 werden die Zeichen für die großen Noten hohl, also weiß. Der Wandel der Schrift betrifft nur das äußere Schriftbild und hat aufführungspraktische und materielle Gründe (1. die aus einem gemeinsamen Chorbuch musizierenden Sängerchöre werden größer - um die Lesbarkeit zu gewähren, müssen die Notenzeichen größer geschrieben werden; 2. das verwendete Papier eignet sich nicht zum Ausmalen der großen Notenformen). Im Unterschied zur modernen Notenschrift (nach 1600) kennt die Mensuralnotation keinen Taktstrich; die äußere Form der Notenzeichen ist eckig (rechteckig, quadratisch oder rhombisch); das Maß der Noten (Zwei- oder Dreizeitigkeit) lässt sich nicht aus den Noten selbst, sondern nur aus dem Mensurzeichen und mit Hilfe zusätzlicher Regeln bestimmen; auch in der weißen Mensuralnotation werden Ligaturen verwendet. (Schnürl 2000, S, 97 f.)"@de;
+  dct:temporal "ca. 1430-1600";
+  skos:example "Bodleian Library MS. Canon. Misc. 213: https://digital.bodleian.ox.ac.uk/objects/a4120d22-b62f-4b57-861d-43c839c790a0/surfaces/7448e4cf-97f1-4b56-97ef-89d933761bff/";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Tabulatur a skos:Concept;
+  skos:prefLabel "Tabulatur"@de, "tablature"@en, "tablature"@fr, "intavolatura"@it;
+  skos:altLabel "Griffschrift"@de, "finger/touch notation"@en;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  skos:definition "Notationsart für das solistische Musizieren, die in Ziffern, Buchstaben oder Noten dargestellt wird."@de;
+  dct:temporal "ab Anfang 14. Jh.";
+  skos:narrower hspv-musicNotation:Orgeltabulatur, hspv-musicNotation:Lautentabulatur,
+    hspv-musicNotation:Gambentabulatur;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Orgeltabulatur a skos:Concept;
+  skos:prefLabel "Orgeltabulatur"@de, "organ tablature"@en, "tablature d'orgue"@fr,
+    "intavolatura d'organo"@it;
+  skos:broader hspv-musicNotation:Tabulatur;
+  skos:definition "Praktische Tabellierungen der Stimmen mit Notensystem und / oder Buchstaben oder Ziffern. Sie sind in den Ländern verschieden. Neben dt. Orgeltabulaturen gibt es auch spanische, italienische, englische, französische."@de;
+  skos:narrower hspv-musicNotation:alte%20deutsche%20Orgeltabulatur, hspv-musicNotation:neue%20deutsche%20Orgeltabulatur,
+    hspv-musicNotation:spanische%20Orgeltabulatur;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:alte%20deutsche%20Orgeltabulatur a skos:Concept;
+  skos:prefLabel "alte deutsche Orgeltabulatur"@de, "old German organ tablature"@en;
+  skos:broader hspv-musicNotation:Orgeltabulatur;
+  skos:editorialNote "Noten; Buchstaben";
+  skos:definition "Im Gegensatz zur Lautentabulatur ist die deutsche Orgeltabulatur eine Notation en musique (die Griffzeichen sind zugleich Tonzeichen). Notation: Oberstimme (rechte Hand): in Mensuralnoten, Unterstimme(n) (linke Hand): in Buchstaben."@de;
+  dct:temporal "15.-16. Jh.";
+  vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem, hspv-musicStaff:Sechsliniensystem,
+    hspv-musicStaff:Siebenliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:neue%20deutsche%20Orgeltabulatur a skos:Concept;
+  skos:prefLabel "neue deutsche Orgeltabulatur"@de, "new German organ tablature"@en;
+  skos:altLabel "norddeutsche Orgeltabulatur"@de;
+  skos:broader hspv-musicNotation:Orgeltabulatur;
+  skos:editorialNote "Buchstaben";
+  skos:definition "Im Gegensatz zur Lautentabulatur ist die deutsche Orgeltabulatur eine Notation en musique (die Griffzeichen sind zugleich Tonzeichen). Notation: Alle Stimmen in Buchstaben, die in Zeilen angeordnet sind."@de;
+  dct:temporal "16.-17/18. Jh.";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:spanische%20Orgeltabulatur a skos:Concept;
+  skos:prefLabel "spanische Orgeltabulatur"@de, "Spanish organ tablature"@en;
+  skos:broader hspv-musicNotation:Orgeltabulatur;
+  skos:altLabel "Spanish keyboard tablature"@en;
+  skos:editorialNote "Ziffern";
+  skos:definition "Die drei verschiedenen Systeme der spanischen Klaviertabulatur werden alle in Ziffern notiert. Die Ziffern zeigen entweder die Lage des Tones auf der Tastatur oder die Stellung der clavis innerhalb der Tonleiter an. Hierbei ist sowohl Griff- als auch Stimmennotierung möglich."@de;
+  dct:temporal "16.-17. Jh.";
+  skos:example """Beispielhafte Drucke: L. Venegas de Henestrosa, Libro de cifra nueva para tecla, arpa, y vihuela, Alcalá de Henares 1557; 
+A. de Cabezón, Obras de música para tecla, arpa y vihuela, Madrid 1578""";
+  vocnet:hasProperty hspv-musicStaff:Vierliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Lautentabulatur a skos:Concept;
+  skos:prefLabel "Lautentabulatur"@de, "lute tablature"@en, "tablature de luth"@fr,
+    "intavolatura di liuto"@it;
+  skos:broader hspv-musicNotation:Tabulatur;
+  skos:definition "Die Linien sind Abbild der Saiten. Ziffern oder Buchstaben geben den Bund an, der gegriffen werden muss."@de;
+  dct:temporal "15.-18- Jh.";
+  vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem, hspv-musicStaff:Sechsliniensystem;
+  skos:narrower hspv-musicNotation:deutsche%20Lautentabulatur, hspv-musicNotation:italienische%20Lautentabulatur,
+    hspv-musicNotation:franz%C3%B6sische%20Lautentabulatur, hspv-musicNotation:spanische%20Lautentabulatur;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:deutsche%20Lautentabulatur a skos:Concept;
+  skos:prefLabel "deutsche Lautentabulatur"@de, "German lute tablature"@en;
+  skos:broader hspv-musicNotation:Lautentabulatur;
+  skos:editorialNote "Buchstaben; Ziffern";
+  skos:definition "Die deutsche Lautentabulatur ist linienlos und ursprünglich für ein fünfsaitiges Instrument konzipiert worden. Die leeren Saiten werden mit den Ziffern 1-5 bezeichnet. Die Buchstaben des Alphabets bezeichnen die zugehörigen Bünde ( a-e = erster Bund; f-k = zweiter Bund etc.). Für die später ergänzte sechste (tiefste Saite) und die zugehörigen Bünde wurden verschiedene Bezeichnungssysteme entwickelt."@de;
+  dct:temporal "16. Jh.";
+  skos:example "Karlsruhe : Badische Landesbibliothek, Mus A 674 RH, S. 9v: https://digital.blb-karlsruhe.de/blbihd/content/pageview/244026";
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:italienische%20Lautentabulatur a skos:Concept;
+  skos:prefLabel "italienische Lautentabulatur"@de, "Italian lute tablature"@en;
+  skos:broader hspv-musicNotation:Lautentabulatur;
+  skos:editorialNote "Ziffern";
+  skos:definition "In der italienischen Lautentabulatur werden die Saiten durch 6 Linien dargestellt, wobei die oberste Linie für die tiefste Saite steht. Für die Bezeichnung der zu greifenden Bünde werden Ziffern verwendet (0 = leere Saite, 1= erster Bund, 2= zweiter Bund etc.). Tonlängen werden durch Mensuralzeichen oder von diesen abgeleiteten rhythmischen Zeichen (über den Ziffern) angegeben."@de;
+  dct:temporal "16. Jh.";
+  skos:example "Kraków, PL-Kj, Mus.ant.pract. P.680, f. 46v (Druck): https://jbc.bj.uj.edu.pl/dlibra/publication/304486/edition/291459/content";
+  vocnet:hasProperty hspv-musicStaff:Sechsliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:franz%C3%B6sische%20Lautentabulatur a skos:Concept;
+  skos:prefLabel "französische Lautentabulatur"@de, "French lute tablature"@en;
+  skos:broader hspv-musicNotation:Lautentabulatur;
+  skos:editorialNote "Buchstaben";
+  skos:definition "In der französischen Lautentabulatur werden die Saiten durch 5 oder 6 Linien dargestellt, wobei die oberste Linie der höchsten Saite entspricht. Kleinbuchstaben auf oder über den Linien geben die zu greifenden Bünde an. \"a\" entspricht der leeren Saite. \"b\", \"c\" etc. geben jeweils den 1., 2. und die folgenden Bünde an. Die Tonlängen werden durch rhytmische Zeichen angegeben, die eine vereinfachte Schreibweise der Mensuralzeichen darstellen."@de;
+  dct:temporal "16.-18. Jh.";
+  skos:example "A-Wn , Mus.Hs.18829 : https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3038054&order=1&view=SINGLE";
+  vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem, hspv-musicStaff:Sechsliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:spanische%20Lautentabulatur a skos:Concept;
+  skos:prefLabel "spanische Lautentabulatur"@de, "Spanish lute tablature"@en;
+  skos:broader hspv-musicNotation:Lautentabulatur;
+  skos:editorialNote "Ziffern";
+  skos:definition "In der spanischen Lautentabulatur werden die Saiten durch 6 Linien dargestellt, wobei die oberste Linie für die höchste Saite steht. Für die Bezeichnung der zu greifenden Bünde werden Ziffern verwendet (0 = leere Saite, 1= erster Bund, 2= zweiter Bund etc.). Tonlängen werden durch Mensuralzeichen (über den Ziffern) angegeben."@de;
+  dct:temporal "16. Jh.";
+  skos:example "D-Mbs 2 Mus.pr. 93, handschriftliche Zusätze : https://www.digitale-sammlungen.de/de/view/bsb00082790?page=182,183";
+  vocnet:hasProperty hspv-musicStaff:Sechsliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Gambentabulatur a skos:Concept;
+  skos:prefLabel "Gambentabulatur"@de;
+  skos:broader hspv-musicNotation:Tabulatur;
+  vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem, hspv-musicStaff:Sechsliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv-musicNotation:Moderne%20Standardnotation a skos:Concept;
+  skos:prefLabel "Moderne Standardnotation"@de, "common music notation"@en;
+  skos:altLabel "Klassische Notenschrift"@de, "moderne Notenschrift"@de, "Common music notation"@de,
+    "Western staff notation"@en, "modern staff notation: five-line staff notation"@en;
+  skos:broader hspv-musicNotation:Notationen%20des%20lateinischen%20Westens;
+  vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem;
+  skos:inScheme hspv:musicNotation .
+
+hspv:musicStaff a skos:ConceptScheme;
+  skos:prefLabel "Musik: Liniensystem"@de, "Music: Staff"@en;
+  skos:definition "Entwurf Thesaurus Musik: Liniensystem"@de, "Draft Thesaurus Music: Staff"@en;
+  skos:inScheme hspv:music;
+  skos:hasTopConcept hspv-musicStaff:Liniensystem .
+
+hspv-musicStaff:Liniensystem a skos:Concept;
+  skos:prefLabel "Liniensystem"@de, "staff"@en;
+  skos:altLabel "Notensystem"@de, "musical staff"@en, "stave"@en;
+  skos:narrower hspv-musicStaff:Einliniensystem, hspv-musicStaff:Zweiliniensystem, hspv-musicStaff:Dreiliniensystem,
+    hspv-musicStaff:Vierliniensystem, hspv-musicStaff:F%C3%BCnfliniensystem, hspv-musicStaff:Sechsliniensystem,
+    hspv-musicStaff:Siebenliniensystem, hspv-musicStaff:Zehnliniensystem;
+  skos:inScheme hspv:musicStaff;
+  skos:topConceptOf hspv:musicStaff .
+
+hspv-musicStaff:Einliniensystem a skos:Concept;
+  skos:prefLabel "Einliniensystem"@de, "portée d'une ligne"@fr;
+  skos:altLabel "eine Linie"@de, "Ein-Linien-System"@de;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung nur bei Neumen auf Linien";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:Zweiliniensystem a skos:Concept;
+  skos:prefLabel "Zweiliniensystem"@de, "two-line staff"@en, "portée de deux lignes"@fr;
+  skos:altLabel "zwei Linien"@de, "Zwei-Linien-System"@de;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung nur bei Neumen auf Linien";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:Dreiliniensystem a skos:Concept;
+  skos:prefLabel "Dreiliniensystem"@de, "three-line staff"@en, "portée de trois lignes"@fr;
+  skos:altLabel "drei Linien"@de, "Drei-Linien-System"@de, "3-Liniensystem"@de;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung nur bei Neumen auf Linien";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:Vierliniensystem a skos:Concept;
+  skos:prefLabel "Vierliniensystem"@de, "four-line staff"@en, "portée de quatre lignes"@fr,
+    "tetragramma"@it;
+  skos:altLabel "vier Linien"@de, "Vier-Linien-System"@de, "4-Liniensystem"@de, "4-line staff"@en,
+    "4-line staff sysstem"@en;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung bei Neumen auf Linien; Quadratnotation; Modalnotation";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:F%C3%BCnfliniensystem a skos:Concept;
+  skos:prefLabel "Fünfliniensystem"@de, "five-line staff"@en, "portée de cinq lignes"@fr,
+    "pentagramma"@it;
+  skos:altLabel "fünf Linien"@de, "Fünf-Linien-System"@de, "5-Liniensystem"@de, "five-line chromatic staff"@en,
+    "rigo di cinque linee"@it;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung bei Notation der Ars Nova; Moderne Notation; Tabulatur";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:Sechsliniensystem a skos:Concept;
+  skos:prefLabel "Sechsliniensystem"@de, "six-line staff"@en, "portée de six lignes"@fr;
+  skos:altLabel "sechs Linien"@de, "Sechs-Linien-System"@de;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung bei Trecento-Notation; Lautentabulatur";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:Siebenliniensystem a skos:Concept;
+  skos:prefLabel "Siebenliniensystem"@de, "seven-line staff"@en, "portée de sept lignes"@fr;
+  skos:altLabel "sieben Linien"@de, "Sieben-Linien-System"@de;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "[ergänzt von IF]";
+  skos:inScheme hspv:musicStaff .
+
+hspv-musicStaff:Zehnliniensystem a skos:Concept;
+  skos:prefLabel "Zehnliniensystem"@de, "ten-line staff"@en, "portée de dix lignes"@fr;
+  skos:altLabel "zehn Linien"@de, "Zehn-Linien-System"@de;
+  skos:broader hspv-musicStaff:Liniensystem;
+  skos:editorialNote "Verwendung bei Orgeltabulatur";
+  skos:inScheme hspv:musicStaff .
+
+hspv:musicColour a skos:ConceptScheme;
+  skos:prefLabel "Musik: Farbe"@de, "Music: Colour"@en;
+  skos:definition "Entwurf Thesaurus Musik: Farbe"@de, "Draft Thesaurus Music: Colour"@en;
+  skos:inScheme hspv:music;
+  skos:hasTopConcept hspv-musicColour:Schwarz, hspv-musicColour:Rot, hspv-musicColour:Gelb,
+    hspv-musicColour:Gr%C3%BCn, hspv-musicColour:Blau, hspv-musicColour:Blindliniert .
+
+hspv-musicColour:Schwarz a skos:Concept;
+  skos:prefLabel "Schwarz"@de;
+  skos:inScheme hspv:musicColour;
+  skos:topConceptOf hspv:musicColour .
+
+hspv-musicColour:Rot a skos:Concept;
+  skos:prefLabel "Rot"@de;
+  skos:inScheme hspv:musicColour;
+  skos:topConceptOf hspv:musicColour .
+
+hspv-musicColour:Gelb a skos:Concept;
+  skos:prefLabel "Gelb"@de;
+  skos:inScheme hspv:musicColour;
+  skos:topConceptOf hspv:musicColour .
+
+hspv-musicColour:Gr%C3%BCn a skos:Concept;
+  skos:prefLabel "Grün"@de;
+  skos:inScheme hspv:musicColour;
+  skos:topConceptOf hspv:musicColour .
+
+hspv-musicColour:Blau a skos:Concept;
+  skos:prefLabel "Blau"@de;
+  skos:inScheme hspv:musicColour;
+  skos:topConceptOf hspv:musicColour .
+
+hspv-musicColour:Blindliniert a skos:Concept;
+  skos:prefLabel "Blindliniert"@de;
+  skos:editorialNote "Was tun hiermit?? Ist ja eigtl keine Farbe … Aber trotzdem wichtig ???";
+  skos:inScheme hspv:musicColour;
+  skos:topConceptOf hspv:musicColour .
+
+hspv:music a skos:ConceptScheme;
+  skos:prefLabel "Musik"@de, "Music"@en;
+  skos:definition "Entwurf Thesaurus Musik"@de, "Draft Thesaurus Music"@en .

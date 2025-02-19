@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Stralsund_Stadtarchiv/03_Stralsund_Stadtarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 222</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_222/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213243"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_222/files/images/00000003.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 230</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_230/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214304"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_230/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 370</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_370/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213251"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_370/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 464</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_464/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213261"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_464/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 465</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_MS_465/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213302"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_MS_465/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 790</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_790/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214340"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_790/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 874</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_874/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214277"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_874/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 960</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_MS_960/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213318"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_MS_960/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 971</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_971/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214280"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_971/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 972</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_972/manifest/"/>
+                        <ref type="other"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/image/ArchivHST_HS_972/1/"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_972/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 975</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_975/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213272"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_975/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 976</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_976/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214298"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_976/files/images/00000006.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 980</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_980/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213285"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_980/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 996</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_996/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213296"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_996/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 997</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_997/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214267"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_997/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 999</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_999/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214355"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_999/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1000</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1000/manifest/"/>
+                        <ref type="other"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/image/ArchivHST_HS_1000/1/"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1000/files/images/00000006.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1001</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1001/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231427"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1001/files/images/00000015.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1002</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1002/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213139"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1002/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1003</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1003/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231431"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1003/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1004-24-37</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1004/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231449"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1004/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1005</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1005/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213144"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1005/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1006</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_1006/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213115"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_1006/files/images/00000002.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1008</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1008/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231455"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1008/files/images/00000003.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1009</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1009/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213154"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1009/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1049</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1049/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214331"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1049/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1050</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1050/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213560"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1050/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1051</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1051/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213165"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1051/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1052</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1052/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213176"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1052/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1053</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1053/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213180"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1053/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1054</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1054/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214327"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1054/files/images/00000007.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1055</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1055/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231463"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1055/files/images/00000004.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1056</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_1056/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213124"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_1056/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1057</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1057/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214364"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1057/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1058</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1058/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231472"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1058/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1059</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1059/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213193"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1059/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1060</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1060/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213209"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1060/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1061</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1061/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231485"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1061/files/images/00000003.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1062</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1062/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213216"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1062/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1063</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1063/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213229"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1063/files/images/00000003.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1064</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1064/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214372"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1064/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1065</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1065/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231490"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1065/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1066</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1066/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213230"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1066/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1067</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1067/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5213106"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1067/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1068</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1068/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5214319"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1068/files/images/00000003.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1069</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1069/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231506"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1069/files/images/00000009.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1070</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1070/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231510"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1070/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1071</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1071/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231521"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1071/files/images/00000005.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>HS 1072</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1072/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231532"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_HS_1072/files/images/00000003.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>W 2° 51, Makulatur</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_W_2_51_MAKULATUR/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231593"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_W_2_51_MAKULATUR/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/partial"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>W 2° 30, Makulatur</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_W_2_30_MAKULATUR/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231589"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_W_2_30_MAKULATUR/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/partial"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>A 8° 185, Einband</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_F_8_185_EINBAND/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231552"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_F_8_185_EINBAND/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>A 8° 405, Einband</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_A_8_405_EINBAND/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231548"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_A_8_405_EINBAND/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>F 8° 268, Einband</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_F_8_268_EINBAND/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231560"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_F_8_268_EINBAND/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4057860-4">Stralsund</settlement>
+                  <repository key="2022745-0">Stadtarchiv der Hansestadt Stralsund</repository>
+                  <idno>F 8° 323, Einband</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_F_8_323_EINBAND/manifest/"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:gbv:9-g-5231578"/>
+                        <ref type="thumbnail"
+                             target="https://www.digitale-bibliothek-mv.de/viewer/api/v1/records/ArchivHST_F_8_323_EINBAND/files/images/00000001.tif/full/!200,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

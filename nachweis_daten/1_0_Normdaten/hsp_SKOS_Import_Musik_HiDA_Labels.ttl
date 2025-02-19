@@ -1,0 +1,319 @@
+@prefix hspv-musicColour: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicColour/> .
+@prefix hspv-musicNotation: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicNotation/> .
+@prefix hspv-musicStaff: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicStaff/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+hspv-musicColour:Rot skos:altLabel "Hufnagelnotation auf 3 bis 5 Linien, f-Linie rot."@de,
+        "In den kleiner geschriebenen Gesangsteilen über jeder Textzeile ein Notensystem aus vier Notenlinien, f-Linie rot, c-Schlüssel. Diastematische deutsche Neumen, Epoche III (vgl. Stäblein, 194f. mit Abb. 67)."@de,
+        "Quadratnoten auf rotem 4-Linienschema"@de,
+        "Über den einzelnen Antiphonen vierlinige Notensysteme, f-Linie rot, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über den einzelnen Zeilen der Antiphonen und Responsorien vierlinige Notensysteme, f-Linie rot, mit c- und f-Schlüssel, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über den meisten Textzeilen Notensysteme auf vier Linien; die Form der Notation wechselt in der Regel mit den Händen: 1v–2r und 120r–121r Mischform aus gotischer Hufnagel- und Metzer Notation mit c- und/oder f-Schlüssel und Kustoden; 5r–119v gotische Hufnagelnotation, f-Linie zuweilen rot, mit c- und/oder f-Schlüssel, teilweise auch g- und c-Schlüssel, sehr selten Kustoden; 121v–122v: etwas andere Hufnagelnotation mit f-Schlüssel und Kustoden."@de,
+        "Über jeder Textzeile der Gesangsteile ein Notensystem aus fünf Notenlinien mit c- und f-Schlüssel, f-Linie rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, f- und c-Linie rot, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, f-Linie rot, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c- und f-Schlüssel, f-Linie rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien mit c-Schlüssel und Quadratnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c- und f-Schlüssel. Quadratische Mensuralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c- und f-Schlüssel. Quadratnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein vierlinige Notensysteme, f-Linie rot, mit c- und f-Schlüssel, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein vierliniges Notensystem, f-Linie rot, c- und f-Schlüssel, mit gotischer Choralnotation."@de,
+        "Über jeder Zeile des ursprünglichen Textes ein Notensystem aus fünf Linien mit c- und f-Schlüssel, f-Linie rot, mit frühgotischen deutschen Neumen. Die auf Papier nachgetragenen Offizien (1r–2v9r–10v) bzw. Sequenzen und Alleluiaverse (142r–179v) sind mit gotischer Choralnotation auf vier Linien mit c- und f-Schlüssel versehen."@de .
+
+hspv-musicColour:Rot%3B%20Gelb skos:altLabel "Gesänge mit Hufnagelnotation auf 4 Linien (f-Linie rot, c-Linie gelb ausgezeichnet)."@de,
+        "Über den einzelnen Zeilen der Antiphonen, Responsorien, Versikel und Psalmverse sowie teilweise über den Hymnen vierlinige Notensysteme, f-Linie rot, weitere Linie gelb, mit einer Mischform aus gotischer Choral- und Metzer Notation, fehlt 313va–321vb."@de,
+        "Über jeder Textzeile (beim Hymnus nur über der ersten Strophe) ein Notensystem aus fünf Notenlinien, f-Linie rot, c-Linie gelb, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien mit c- und f-Schlüssel, c-Linie gelb, f-Linie rot, mit einer Mischform aus Metzer und gotischer Choralnotation von verschiedenen Händen."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, c-Linie mit Schlüssel gelb, f-Linie mit Schlüssel rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c-Linie (mit Schlüssel) gelb, f-Linie (mit Schlüssel) rot. Gotische Choralnotation."@de,
+        "Über jeder Textzeile ein vierliniges Notensystem, f-Linie rot, c-Linie gelb, c- und f-Schlüssel, mit gotischer Choralnotation, an vielen Stellen radiert und von späterer Hand korrigiert."@de .
+
+hspv-musicNotation:Buchstabennotation skos:altLabel "Buchstabennotation"@de .
+
+hspv-musicNotation:Byzantinische%20Notation skos:altLabel "Byzantinische Notation"@de .
+
+hspv-musicNotation:Linienlose%20Neumennotation skos:altLabel "Akzentneumen"@de,
+        "Neumen (unliniert)"@de,
+        "Neumen (unliniiert)"@de,
+        "Neumen, adiastematische"@de,
+        "Neumen, nordfranzösisch-aquitanische, unliniert"@de,
+        "Neumen, unliniert"@de,
+        "Neumen, zentralitalienische, unliniert"@de,
+        "Positiones (Lektionszeichen) - Punctus flexus, Punctus elevatus, Punctus versus, Punctus interrogativus - im Text zum Lesevortrag im Sprechgesang, vgl. Mahrenholz 27–29."@de,
+        "Positiones (Lektionszeichen) im Text zum Lesevortrag im Sprechgesang, vgl. Mahrenholz 27–29."@de,
+        "Teilweise Neumen, unliniert (39verso. 49verso. 58recto. 75recto-verso. 95recto. 141verso. 144recto-verso)"@de .
+
+hspv-musicNotation:Mensuralnotation skos:altLabel "Mensuralnotation"@de,
+        "Mensuralnotation (1recto)"@de,
+        "Mensuralnotation, 5-Linien-System"@de,
+        "Mensuralnotation, gotische"@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c- und f-Schlüssel. Quadratische Mensuralnotation."@de .
+
+hspv-musicNotation:Modalnotation skos:altLabel "Modalnotation"@de .
+
+hspv-musicNotation:Moderne%20Standardnotation skos:altLabel "Notation, moderne"@de,
+        "neuzeitliche Notation auf fünf Linien"@de .
+
+hspv-musicNotation:Neumennotation skos:altLabel "274v Neumen."@de,
+        "Einige Textpassagen wurden nachträglich mit Neumen bzw. Hufnagelnotation zur Unterstützung des liturgischen Vortrags versehen: 8va–9ra: Mt 1,2–16 (Stammbaum Christi); 80ra–b: Mc 16,1–7 (Auferstehung, in marg. im 14. oder 15. Jh. ergänzt durch den typischen Perikopenzusatz In illo tempore); 8va–9ra: Mt 1,2–16 (Stammbaum Christi); 87rb: Lc 1,26–55 (Verkündigung und Heimsuchung Mariae); 110rb–va: Lc 12,35–40 (zunächst neumiert, später Neumen radiert und durch sparsame Hufnagelnotation ersetzt); 133 ..."@de,
+        "Metzer-Sankt Galler Mischnotation"@de,
+        "Neumen"@de,
+        "Neumen, italienische"@de,
+        "Neumierung"@de,
+        "Notation, Neumen = \"vorhanden\""@de,
+        "St. Galler-Metzer Neumen"@de,
+        "neumiert"@de,
+        "teilneumiert"@de .
+
+hspv-musicNotation:Neumennotation%20auf%20Linien skos:altLabel "Mischform aus Metzer und Hufnagelnotation mit f- und c'-Schlüssel: 6r–22r 4–6 fünflinige Notensysteme (jeweils die ersten beiden Zeilen jedes Hymnus mit Noten versehen, der fortlaufende Text ist frei von Notenlinien), 22r–26v durchgehende Notierung mit 8 fünflinigen Notensystemen."@de,
+        "Neumen (liniert)"@de,
+        "Neumen (liniiert)"@de,
+        "Neumen (vierlinig)"@de,
+        "Neumen, 4-Linien-System"@de,
+        "Neumen, 5-Linien-System, c- und f-Schlüssel"@de,
+        "Neumen, deutsche, 5-Linien-System"@de,
+        "Neumen, deutsche, Fünf-Linien-Schema"@de,
+        "St. Galler-Metzer Mischnotation: Neumen auf Liniensystem"@de,
+        "Über den einzelnen Antiphonen vierlinige Notensysteme, f-Linie rot, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über den einzelnen Zeilen der Antiphonen und Responsorien vierlinige Notensysteme, f-Linie rot, mit c- und f-Schlüssel, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über den einzelnen Zeilen der Antiphonen, Responsorien, Versikel und Psalmverse sowie teilweise über den Hymnen vierlinige Notensysteme, f-Linie rot, weitere Linie gelb, mit einer Mischform aus gotischer Choral- und Metzer Notation, fehlt 313va–321vb."@de,
+        "Über den meisten Textzeilen Notensysteme auf vier Linien; die Form der Notation wechselt in der Regel mit den Händen: 1v–2r und 120r–121r Mischform aus gotischer Hufnagel- und Metzer Notation mit c- und/oder f-Schlüssel und Kustoden; 5r–119v gotische Hufnagelnotation, f-Linie zuweilen rot, mit c- und/oder f-Schlüssel, teilweise auch g- und c-Schlüssel, sehr selten Kustoden; 121v–122v: etwas andere Hufnagelnotation mit f-Schlüssel und Kustoden."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien mit c- und f-Schlüssel, c-Linie gelb, f-Linie rot, mit einer Mischform aus Metzer und gotischer Choralnotation von verschiedenen Händen."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien. Mischform aus Hufnagel- und Metzer Notation mit f-Schlüssel, teilweise auch g- und c-Schlüssel, Kustoden und Akzidentien für b-rotundum und b-quadratum."@de,
+        "Über jeder Textzeile ein vierlinige Notensysteme, f-Linie rot, mit c- und f-Schlüssel, mit einer Mischform aus Metzer und gotischer Choralnotation."@de .
+
+hspv-musicNotation:Pal%C3%A4oslavische%20Notation skos:altLabel "Chomonie-Notation"@de .
+
+hspv-musicNotation:Quadratnotation skos:altLabel "Choralnotation"@de,
+        "Choralnotation, französische"@de,
+        "Choralnotation, römische"@de,
+        "Quadratnotation"@de,
+        "Quadratnotation (liniert)"@de,
+        "Quadratnotation auf 5 Linien mit c-Schlüsseln"@de,
+        "Quadratnotation, 3-Linien-System"@de,
+        "Quadratnotation, 4-Linien-System"@de,
+        "Quadratnotation, 5-Linien-System"@de,
+        "Quadratnotation, Drei-Linien-System"@de,
+        "Quadratnotation, römische"@de,
+        "Quadratnote"@de,
+        "Quadratnoten"@de,
+        "Quadratnoten auf rotem 4-Linienschema"@de,
+        "Reformchoral"@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien mit c-Schlüssel und Quadratnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c- und f-Schlüssel. Quadratnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c-Schlüssel. Hufnagelnotation."@de .
+
+hspv-musicNotation:St.%20Galler%20Neumen skos:altLabel "Neumen, Sankt Galler"@de,
+        "Neumen, Sankt Galler (unliniert)"@de,
+        "Neumen, St. Galler"@de,
+        "Neumen, adiastematische St. Galler"@de,
+        "St. Galler Neumen"@de,
+        "St.Galler Neumen"@de .
+
+hspv-musicNotation:St.%20Galler%20Neumen%20auf%20Linien skos:altLabel "Neumen, Sankt Galler (liniert)"@de .
+
+hspv-musicNotation:b%C3%B6hmische%20Neumen%20auf%20Linien skos:altLabel "Notation, rhombische"@de .
+
+hspv-musicNotation:beneventanische%20Neumen skos:altLabel "Neumen, beneventanische"@de .
+
+hspv-musicNotation:deutsche%20Neumen skos:altLabel "Auf Bl. 19v–20r nachträgliche vollständige interlineare Notation der Perikope Mt 2,1–12 (Auftreten der drei Könige) in adiastematischen frühdeutschen Neumen für die liturgische Rezitation am Epiphaniasfest, dazu Musikalischer Lustgarten, 15f. Nr. I.3 (A. Roth/M. Staehelin) Im Capitulare auf Bl. 162r und 167r in marg. jeweils 1 Zeile Neumen."@de,
+        "Neumen, deutsche"@de,
+        "Neumen, deutsche, unliniert"@de,
+        "Neumen, gotische"@de,
+        "Über den Textzeilen der Invitatorien, Antiphonen, Psalmverse, Responsorien und Versikel ( 1r–204v 215r–221v und 233r–234v) linienlose \"frühgotische\" deutsche Neumen mit Zierneumen."@de,
+        "Über den Textzeilen der Invitatorien, Antiphonen, Psalmverse, Responsorien und Versikel linienlose \"frühgotische\" deutsche Neumen, in marg. häufig neben den Psalmantiphonen Angabe der Psalmtondifferenz durch die notierte Vokalfolge Euouae."@de,
+        "Über den Textzeilen der Invitatorien, Antiphonen, Psalmverse, Responsorien, Versikel und Hymnen linienlose \"frühgotische\" deutsche Neumen mit Zierneumen (orisci), die einen älteren Typus der Notation konservieren. Sie wurden von anderer Hand nachgetragen und am Schluss unregelmäßig ausgeführt, vgl. auch bei Cod. Guelf. 512 Helmst."@de,
+        "Über den Textzeilen der Invitatorien, Antiphonen, Psalmverse, Responsorien, Versikel und Hymnen linienlose \"frühgotische\" deutsche Neumen."@de,
+        "Über den Textzeilen der Invitatorien, Antiphonen, Responsorien und Versikel linienlose deutsche Neumen."@de,
+        "Über den von der Haupthand (Bl. 1r–112r) geschriebenen Textzeilen der Invitatorien, Antiphonen, Psalmverse, Responsorien, Versikel und Hymnen linienlose \"frühgotische\" deutsche Neumen."@de .
+
+hspv-musicNotation:deutsche%20Neumen%20auf%20Linien skos:altLabel "1r Hufnagelnotation auf fünf Linien, c- und f-Schlüssel, unterste Zeile nur eine Linie, Mischform aus deutscher und Metzer Notation"@de,
+        "5v–36r 4–9 Notensysteme. Mischform aus Metzer und Hufnagelnotation auf fünf Linien mit f- und c'-Schlüssel. Bei ganzseitigen Notationen 45 Zeilenlinien, oberste und jede fünfte auf dem Seitensteg über den Schriftraum hinausgehend. Bei eingeschalteten Notationen ist der fortlaufende Text frei von Notationslinien."@de,
+        "6v–11r mit Hufnagelnotation."@de,
+        "9 vierlinige Notensysteme mit Hufnagelnotation."@de,
+        "Alle Gesangsteile sind über der Zeile jeweils mit gotischer Choralnotation auf einem Fünfliniensystem mit c- und f-Schlüssel ausgestattet."@de,
+        "Alle Meßgesänge sind mit Melodien notiert, jeweils 5 schwarze Linien, gotische Neumen."@de,
+        "Bl. 129vb—131vb auf vier schwarzen Linien Hufnagelnotation."@de,
+        "Choralnotation, deutsche"@de,
+        "Choralnotation, gotische"@de,
+        "Deutsche Neumen, 4-Linien-Schema"@de,
+        "Die Antiphonen und Versikel zu den Vesperpsalmen (107v–142v) und die Gesangsteile des Officium defunctorum (153r–162v) sind jeweils mit gotischer Choralnotation auf einem Fünfliniensystem mit c- und f-Schlüssel ausgestattet."@de,
+        "Die nachgetragenen Antiphonen und Versikel des Ordinarium officii sind mit gotischer Choralnotation auf vier Notenlinien, meist mit c- und f-Schlüssel, versehen."@de,
+        "Die nachgetragenen Antiphonen und Versikel sind mit gotischer Choralnotation auf vier Notenlinien, meist mit c- und f-Schlüssel, versehen."@de,
+        "Durchgängig gotische Choralnotation auf je 6 fünflinigen Notensystemem mit f- und c-Schlüssel."@de,
+        "Fast alle Gesangsteile (Ausnahmen sind genannt) sind in gotischer Choralnotation auf einem fünflinigen Notensystem mit c- und f-Schlüssel notiert."@de,
+        "Gesänge mit Hufnagelnotation auf 4 Linien (f-Linie rot, c-Linie gelb ausgezeichnet)."@de,
+        "Hufnagelnotation"@de,
+        "Hufnagelnotation auf 3 bis 5 Linien, f-Linie rot."@de,
+        "Hufnagelnotation auf 4 Linien."@de,
+        "Hufnagelnotation auf Fünfliniensystem"@de,
+        "Hufnagelnotation auf Vierliniensystem"@de,
+        "Hufnagelnotation, 3-Linien-System"@de,
+        "Hufnagelnotation, 4-Linien-Schema"@de,
+        "Hufnagelnotation, 4-Linien-System"@de,
+        "Hufnagelnotation, 5-Linien-System"@de,
+        "Hufnagelnotation, Fünf-Linien-System"@de,
+        "Hufnagelnotation, Vier-Linien-System"@de,
+        "Hufnagelnotation, deutsch, 4-Linien-System"@de,
+        "Hufnagelnotation, deutsch, 5-Linien-System"@de,
+        "Hufnagelnotation, deutsche, Fünf-Linien-System"@de,
+        "Hufnagelnotation, deutsche, Vier-Linien-System"@de,
+        "In den kleiner geschriebenen Gesangsteilen über jeder Textzeile ein Notensystem aus vier Notenlinien, f-Linie rot, c-Schlüssel. Diastematische deutsche Neumen, Epoche III (vgl. Stäblein, 194f. mit Abb. 67)."@de,
+        "Jeweils die erste Strophe der Hymnen auf Bl. 13v und 26r, die Antiphonen und Versikel zu den Vesperpsalmen (100r–136r) und die Gesangsteile des Officium defunctorum (142v–157r) sind jeweils mit gotischer Choralnotation auf einem Fünfliniensystem ausgestattet."@de,
+        "Meist 10 Notensysteme zu 4 Linien (Hufnagelnotation) mit je einer Textzeile."@de,
+        "Neumen, gotische (liniert)"@de,
+        "Neumen, gotische, Vier-Linien-Schema"@de,
+        "Notation, deutsche"@de,
+        "Notation, deutsche, 4-Linien-System"@de,
+        "Notation, gotische"@de,
+        "acht Systeme zu je vier Linien mit deutscher Hufnagelnotation (Stäblein 197) auf fünf Linien, f-Linie rot, f- und c-Schlüssel."@de,
+        "meist 10 fünflinige Notenzeilen mit Hufnagelnotation."@de,
+        "Über jeder Textzeile (beim Hymnus nur über der ersten Strophe) ein Notensystem aus fünf Notenlinien, f-Linie rot, c-Linie gelb, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile der Gesangsteile ein Notensystem aus fünf Notenlinien mit c- und f-Schlüssel, f-Linie rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile der Gesangsteile gotische Choralnotation auf 4 Notenlinien mit c-Schlüssel."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien mit f-Schlüssel und gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, c-Linie mit Schlüssel gelb, f-Linie mit Schlüssel rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, f- und c-Linie rot, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, f-Linie rot, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Linien mit gotischer Choralnotation, c- und f-Schlüssel."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c- und f-Schlüssel, f-Linie rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c- und f-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c-Linie (mit Schlüssel) gelb, f-Linie (mit Schlüssel) rot. Gotische Choralnotation."@de,
+        "Über jeder Textzeile ein vierliniges Notensystem, f-Linie rot, c- und f-Schlüssel, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein vierliniges Notensystem, f-Linie rot, c-Linie gelb, c- und f-Schlüssel, mit gotischer Choralnotation, an vielen Stellen radiert und von späterer Hand korrigiert."@de,
+        "Über jeder Zeile des ursprünglichen Textes ein Notensystem aus fünf Linien mit c- und f-Schlüssel, f-Linie rot, mit frühgotischen deutschen Neumen. Die auf Papier nachgetragenen Offizien (1r–2v9r–10v) bzw. Sequenzen und Alleluiaverse (142r–179v) sind mit gotischer Choralnotation auf vier Linien mit c- und f-Schlüssel versehen."@de,
+        "Über jeder Zeile ein Notensystem aus fünf Linien, c- und f-Schlüssel, mit gotischer Choralnotation."@de,
+        "Über jeder Zeile ein Notensystem aus vier Linien, c- und f-Schlüssel, mit gotischer Choralnotation."@de .
+
+hspv-musicNotation:deutsche%20Neumen%20auf%20Linien%20 skos:altLabel "Neumen, deutsche (liniert)"@de,
+        "Neumen, deutsche, 4-Linien-System"@de .
+
+hspv-musicNotation:ekphonetische%20Notation skos:altLabel "Notation, ekphonetische"@de .
+
+hspv-musicNotation:franz%C3%B6sische%20Neumen skos:altLabel "Neumen, französische"@de,
+        "Neumen, französische (erste Epoche)"@de,
+        "Neumen, französische, unliniert"@de .
+
+hspv-musicNotation:lothringische%20Neumen skos:altLabel "Das Gradualresponsorium ist mit Metzer Neumen notiert, die Lesungstexte sind mit Positurae für die korrekte Cantillatio versehen."@de,
+        "Gesangteile (Introitus und Psalmverse) in kleinerer Schrift abgesetzt, mit linienlosen Metzer Neumen notiert."@de,
+        "Metzer Neumen"@de,
+        "Metzer Neumen (unliniert)"@de,
+        "Metzer Neumen, unliniert"@de,
+        "Neumen, lothringische"@de,
+        "Neumen, lothringische, unliniert"@de,
+        "Notation, Metzer"@de .
+
+hspv-musicNotation:lothringische%20Neumen%20auf%20Linien skos:altLabel "6v–46v und 215r–236v Metzer Neumen (Epoche III, Stäblein 199). Zuweilen zeilenlose Neumen über Initienangaben."@de,
+        "Metzer Neumen (liniert)"@de,
+        "Metzer Neumen (zweite Epoche)"@de,
+        "Neumen, Metzer, 4-Linien-System"@de,
+        "Neumen, Metzer, 5-Linien-System"@de,
+        "Neumen, Metzer, Vier-Linien-System"@de .
+
+hspv-musicNotation:lothringische%20Neumen%3B%20deutsche%20Neumen%20auf%20Linien skos:altLabel "Die originalen Antiphonen sind mit linienlosen Metzer Neumen notiert, die 1r auf dem Fußsteg nachgetragenen Antiphonen weisen eine gotische Choralnotation auf vier Notenlinien auf."@de .
+
+hspv-musicNotation:nonantolanische%20Neumen%3B%20Bologneser%20Neumen%3B%20Linienlose%20Neumennotation skos:altLabel "Neumen, oberitalienische"@de .
+
+hspv-musicNotation:schwarze%20Mensuralnotation skos:altLabel "Mensuralnotation, schwarze, 4-Linien-System"@de .
+
+hspv-musicNotation:wei%C3%9Fe%20Mensuralnotation skos:altLabel "Mensuralnotation, weiße"@de,
+        "Mensuralnotation, weiße (1recto-1verso)& 5-Liniensystem (1recto-1verso)"@de,
+        "Mensuralnotation, weiße, 5-Linien-System"@de .
+
+hspv-musicStaff:Dreiliniensystem skos:altLabel "3-Liniensystem"@de,
+        "Hufnagelnotation, 3-Linien-System"@de,
+        "Quadratnotation, 3-Linien-System"@de,
+        "Quadratnotation, Drei-Linien-System"@de .
+
+hspv-musicStaff:Dreiliniensystem%3B%20Vierliniensystem%3B%20F%C3%BCnfliniensystem skos:altLabel "Hufnagelnotation auf 3 bis 5 Linien, f-Linie rot."@de .
+
+hspv-musicStaff:F%C3%BCnfliniensystem skos:altLabel "5-Liniensystem"@de,
+        "5-Liniensystem mit C-Schlüssel"@de,
+        "5v–36r 4–9 Notensysteme. Mischform aus Metzer und Hufnagelnotation auf fünf Linien mit f- und c'-Schlüssel. Bei ganzseitigen Notationen 45 Zeilenlinien, oberste und jede fünfte auf dem Seitensteg über den Schriftraum hinausgehend. Bei eingeschalteten Notationen ist der fortlaufende Text frei von Notationslinien."@de,
+        "Alle Meßgesänge sind mit Melodien notiert, jeweils 5 schwarze Linien, gotische Neumen."@de,
+        "Die Antiphonen und Versikel zu den Vesperpsalmen (107v–142v) und die Gesangsteile des Officium defunctorum (153r–162v) sind jeweils mit gotischer Choralnotation auf einem Fünfliniensystem mit c- und f-Schlüssel ausgestattet."@de,
+        "Durchgängig gotische Choralnotation auf je 6 fünflinigen Notensystemem mit f- und c-Schlüssel."@de,
+        "Fast alle Gesangsteile (Ausnahmen sind genannt) sind in gotischer Choralnotation auf einem fünflinigen Notensystem mit c- und f-Schlüssel notiert."@de,
+        "Hufnagelnotation auf Fünfliniensystem"@de,
+        "Hufnagelnotation, 5-Linien-System"@de,
+        "Hufnagelnotation, Fünf-Linien-System"@de,
+        "Hufnagelnotation, deutsch, 5-Linien-System"@de,
+        "Hufnagelnotation, deutsche, Fünf-Linien-System"@de,
+        "Jeweils die erste Strophe der Hymnen auf Bl. 13v und 26r, die Antiphonen und Versikel zu den Vesperpsalmen (100r–136r) und die Gesangsteile des Officium defunctorum (142v–157r) sind jeweils mit gotischer Choralnotation auf einem Fünfliniensystem ausgestattet."@de,
+        "Mensuralnotation, 5-Linien-System"@de,
+        "Mensuralnotation, weiße (1recto-1verso)& 5-Liniensystem (1recto-1verso)"@de,
+        "Mensuralnotation, weiße, 5-Linien-System"@de,
+        "Mischform aus Metzer und Hufnagelnotation mit f- und c'-Schlüssel: 6r–22r 4–6 fünflinige Notensysteme (jeweils die ersten beiden Zeilen jedes Hymnus mit Noten versehen, der fortlaufende Text ist frei von Notenlinien), 22r–26v durchgehende Notierung mit 8 fünflinigen Notensystemen."@de,
+        "Neumen, 5-Linien-System, c- und f-Schlüssel"@de,
+        "Neumen, Metzer, 5-Linien-System"@de,
+        "Neumen, deutsche, 5-Linien-System"@de,
+        "Neumen, deutsche, Fünf-Linien-Schema"@de,
+        "Notation auf 5-Liniensystem"@de,
+        "Quadratnotation auf 5 Linien mit c-Schlüsseln"@de,
+        "Quadratnotation, 5-Linien-System"@de,
+        "acht Systeme zu je vier Linien mit deutscher Hufnagelnotation (Stäblein 197) auf fünf Linien, f-Linie rot, f- und c-Schlüssel."@de,
+        "fünfzeilige Notation"@de,
+        "meist 10 fünflinige Notenzeilen mit Hufnagelnotation."@de,
+        "neuzeitliche Notation auf fünf Linien"@de,
+        "Über jeder Textzeile (beim Hymnus nur über der ersten Strophe) ein Notensystem aus fünf Notenlinien, f-Linie rot, c-Linie gelb, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile der Gesangsteile ein Notensystem aus fünf Notenlinien mit c- und f-Schlüssel, f-Linie rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien mit c- und f-Schlüssel, c-Linie gelb, f-Linie rot, mit einer Mischform aus Metzer und gotischer Choralnotation von verschiedenen Händen."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien mit f-Schlüssel und gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Linien. Mischform aus Hufnagel- und Metzer Notation mit f-Schlüssel, teilweise auch g- und c-Schlüssel, Kustoden und Akzidentien für b-rotundum und b-quadratum."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, c-Linie mit Schlüssel gelb, f-Linie mit Schlüssel rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, f- und c-Linie rot, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus fünf Notenlinien, f-Linie rot, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Zeile des ursprünglichen Textes ein Notensystem aus fünf Linien mit c- und f-Schlüssel, f-Linie rot, mit frühgotischen deutschen Neumen. Die auf Papier nachgetragenen Offizien (1r–2v9r–10v) bzw. Sequenzen und Alleluiaverse (142r–179v) sind mit gotischer Choralnotation auf vier Linien mit c- und f-Schlüssel versehen."@de,
+        "Über jeder Zeile ein Notensystem aus fünf Linien, c- und f-Schlüssel, mit gotischer Choralnotation."@de .
+
+hspv-musicStaff:Vierliniensystem skos:altLabel "280v Schriftprobe: Vier Notenlinien ohne Noten."@de,
+        "4-Liniensystem"@de,
+        "Bl. 129vb—131vb auf vier schwarzen Linien Hufnagelnotation."@de,
+        "Deutsche Neumen, 4-Linien-Schema"@de,
+        "Die nachgetragenen Antiphonen und Versikel des Ordinarium officii sind mit gotischer Choralnotation auf vier Notenlinien, meist mit c- und f-Schlüssel, versehen."@de,
+        "Die nachgetragenen Antiphonen und Versikel sind mit gotischer Choralnotation auf vier Notenlinien, meist mit c- und f-Schlüssel, versehen."@de,
+        "Die originalen Antiphonen sind mit linienlosen Metzer Neumen notiert, die 1r auf dem Fußsteg nachgetragenen Antiphonen weisen eine gotische Choralnotation auf vier Notenlinien auf."@de,
+        "Gesänge mit Hufnagelnotation auf 4 Linien (f-Linie rot, c-Linie gelb ausgezeichnet)."@de,
+        "Hufnagelnotation auf 4 Linien."@de,
+        "Hufnagelnotation auf Vierliniensystem"@de,
+        "Hufnagelnotation, 4-Linien-Schema"@de,
+        "Hufnagelnotation, 4-Linien-System"@de,
+        "Hufnagelnotation, Vier-Linien-System"@de,
+        "Hufnagelnotation, deutsch, 4-Linien-System"@de,
+        "Hufnagelnotation, deutsche, Vier-Linien-System"@de,
+        "In den kleiner geschriebenen Gesangsteilen über jeder Textzeile ein Notensystem aus vier Notenlinien, f-Linie rot, c-Schlüssel. Diastematische deutsche Neumen, Epoche III (vgl. Stäblein, 194f. mit Abb. 67)."@de,
+        "Meist 10 Notensysteme zu 4 Linien (Hufnagelnotation) mit je einer Textzeile."@de,
+        "Mensuralnotation, schwarze, 4-Linien-System"@de,
+        "Neumen (vierlinig)"@de,
+        "Neumen, 4-Linien-System"@de,
+        "Neumen, Metzer, 4-Linien-System"@de,
+        "Neumen, Metzer, Vier-Linien-System"@de,
+        "Neumen, deutsche, 4-Linien-System"@de,
+        "Neumen, gotische, Vier-Linien-Schema"@de,
+        "Notation, 4-Liniensystem"@de,
+        "Notation, 4-liniges System"@de,
+        "Notation, deutsche, 4-Linien-System"@de,
+        "Notation, vierzeilig"@de,
+        "Quadratnotation, 4-Linien-System"@de,
+        "Quadratnoten auf rotem 4-Linienschema"@de,
+        "Über den einzelnen Antiphonen vierlinige Notensysteme, f-Linie rot, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über den einzelnen Zeilen der Antiphonen und Responsorien vierlinige Notensysteme, f-Linie rot, mit c- und f-Schlüssel, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über den einzelnen Zeilen der Antiphonen, Responsorien, Versikel und Psalmverse sowie teilweise über den Hymnen vierlinige Notensysteme, f-Linie rot, weitere Linie gelb, mit einer Mischform aus gotischer Choral- und Metzer Notation, fehlt 313va–321vb."@de,
+        "Über den meisten Textzeilen Notensysteme auf vier Linien; die Form der Notation wechselt in der Regel mit den Händen: 1v–2r und 120r–121r Mischform aus gotischer Hufnagel- und Metzer Notation mit c- und/oder f-Schlüssel und Kustoden; 5r–119v gotische Hufnagelnotation, f-Linie zuweilen rot, mit c- und/oder f-Schlüssel, teilweise auch g- und c-Schlüssel, sehr selten Kustoden; 121v–122v: etwas andere Hufnagelnotation mit f-Schlüssel und Kustoden."@de,
+        "Über jeder Textzeile der Gesangsteile gotische Choralnotation auf 4 Notenlinien mit c-Schlüssel."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Linien mit gotischer Choralnotation, c- und f-Schlüssel."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c- und f-Schlüssel, f-Linie rot. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c- und f-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier Notenlinien, c-Linie (mit Schlüssel) gelb, f-Linie (mit Schlüssel) rot. Gotische Choralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien mit c-Schlüssel und Quadratnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c- und f-Schlüssel. Quadratische Mensuralnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c- und f-Schlüssel. Quadratnotation."@de,
+        "Über jeder Textzeile ein Notensystem aus vier roten Notenlinien, deren Seitenränder zugleich als Begrenzung des Schriftspiegels dienen, c-Schlüssel. Hufnagelnotation."@de,
+        "Über jeder Textzeile ein vierlinige Notensysteme, f-Linie rot, mit c- und f-Schlüssel, mit einer Mischform aus Metzer und gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein vierliniges Notensystem, f-Linie rot, c- und f-Schlüssel, mit gotischer Choralnotation."@de,
+        "Über jeder Textzeile ein vierliniges Notensystem, f-Linie rot, c-Linie gelb, c- und f-Schlüssel, mit gotischer Choralnotation, an vielen Stellen radiert und von späterer Hand korrigiert."@de,
+        "Über jeder Zeile ein Notensystem aus vier Linien, c- und f-Schlüssel, mit gotischer Choralnotation."@de .
+

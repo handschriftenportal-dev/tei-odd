@@ -1,0 +1,2297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Lueneburg_Ratsbibliothek/03_Lueneburg_Ratsbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000132/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000132/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 7a</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000133/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000133/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-05-26" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 11</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000134/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000134/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-05-19" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 14</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000135/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000135/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 21</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000136/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000136/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-05-04" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000137/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000137/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-28" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 28</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000138/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000138/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-05-05" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Jurid. E 2° 31</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000139/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000139/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000060/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000060/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000061/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000061/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-10-08" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000062/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000062/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-05-26" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000063/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000063/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-08-07" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000158/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000158/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000159/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000159/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 11</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000064/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000064/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000065/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000065/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-02-03" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000066/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000066/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-03" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 19</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000067/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000067/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-10-08" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 20</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000068/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000068/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-16" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 21</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000069/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000069/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000070/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000070/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-05-07" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 26</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000071/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000071/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-03-18" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 27</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000072/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000072/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-02-25" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 28</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000073/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000073/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-02-10" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 30</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000074/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000074/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-08" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 31</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000075/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000075/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-11-19" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 32</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000076/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000076/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 33</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000077/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000077/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-23" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 34</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000078/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000078/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-27" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 35</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000079/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000079/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 38</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000080/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000080/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-02-02" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 39</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000081/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000081/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-02-04" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 41</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000082/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000082/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 44</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000083/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000083/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 45</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000084/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000084/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-08-14" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 46</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000085/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000085/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-01-12" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 48</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000086/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000086/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-10" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 49</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000087/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000087/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-05" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 50</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000088/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000088/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000089/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000089/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 52</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000090/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000090/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-01-15" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 54</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000091/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000091/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-16" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 56</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000092/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000092/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-05" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 58</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000093/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000093/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-01-08" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 60</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000094/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000094/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-18" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 61b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000095/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000095/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 62b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000096/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000096/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 63</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000097/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000097/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 66</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000098/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000098/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-10" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 67</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000099/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000099/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-23" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 68</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000100/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000100/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-08-06" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 70</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000101/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000101/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-05-26" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 73</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000102/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000102/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-02-10" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 76</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000103/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000103/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-05-26" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 77</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000104/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000104/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 82</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000105/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000105/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-01-15" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 83</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000106/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000106/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 84</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000107/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000107/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 86</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000108/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000108/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 87</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000109/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000109/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-06-05" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 88</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000110/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000110/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 89</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000111/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000111/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-08-26" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 90</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000112/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000112/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-18" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 91</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000113/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000113/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-08-26" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 92</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000114/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000114/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-07-21" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 94</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000116/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000116/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-09-15" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 95</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000117/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000117/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-08-12" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 99</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000118/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000118/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 100</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000119/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000119/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 101</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000120/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000120/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 103</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000121/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000121/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-01-29" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 104</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000122/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000122/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 105</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000123/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000123/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 2° 106</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000124/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000124/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-01-06" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000125/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000125/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000126/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000126/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015-04-17" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000127/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000127/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-11-07" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 23</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000128/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000128/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-11-19" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 30</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000129/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000129/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-12-04" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 42</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000130/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000130/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-11-05" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036512-8">Lüneburg</settlement>
+                  <repository key="2018536-4">Ratsbücherei der Hansestadt Lüneburg</repository>
+                  <idno>Theol. 4° 54</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other" target="https://diglib.hab.de/mss/ed000131/start.htm"/>
+                        <ref type="thumbnail"
+                             target="https://diglib.hab.de/mss/ed000131/thumbs/00001.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-11-12" type="digitized"/>
+                        <date when="2015-04-17" type="published"/>
+                        <orgName ref="8989-8" type="digitizing">Herzog August Bibliothek Wolfenbüttel</orgName>
+                        <placeName ref="4066832-0" type="digitizing">Wolfenbüttel</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Regensburg_Staatliche_Bibliothek/03_Regensburg_Staatliche_Bibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4048989-9">Regensburg</settlement>
+                  <repository key="1001527-9">Staatliche Bibliothek Regensburg</repository>
+                  <idno>999 IM/2Rat.civ.34(1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060249/manifest"/>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00060249-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060249_00007/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/opening"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4048989-9">Regensburg</settlement>
+                  <repository key="1001527-9">Staatliche Bibliothek Regensburg</repository>
+                  <idno>999 IM/2Rat.civ.34(2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060250/manifest"/>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00060250-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060250_01373/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/opening"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4048989-9">Regensburg</settlement>
+                  <repository key="1001527-9">Staatliche Bibliothek Regensburg</repository>
+                  <idno>999 IM/2Rat.civ.36</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060252/manifest"/>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00060252-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060252_00005/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/opening"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4048989-9">Regensburg</settlement>
+                  <repository key="1001527-9">Staatliche Bibliothek Regensburg</repository>
+                  <idno>999 IM/Rat.civ.1144</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060253/manifest"/>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00060253-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060253_00007/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/opening"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4048989-9">Regensburg</settlement>
+                  <repository key="1001527-9">Staatliche Bibliothek Regensburg</repository>
+                  <idno>999 IM/2Rat.civ.35</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060251/manifest"/>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00060251-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060251_00005/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/opening"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,4029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Fritzlar_Dombibliothek/01_Fritzlar_Dombibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-1">Ms. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-2">Ms. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-3">Ms. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-4">Ms. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-5">Ms. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-6">Ms. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. XVIII</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-7">Ms. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-8">Ms. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-9">Ms. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-10">Ms. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-11">Ms. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-12">Ms. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-13">Ms. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-14">Ms. 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-15">Ms. 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-16">Ms. 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-17">Ms. 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-18">Ms. 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-19">Ms. 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-20">Ms. 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-21">Ms. 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-22">Ms. 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-23">Ms. 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-24">Ms. 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-25">Ms. 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-26">Ms. 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-27">Ms. 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-28">Ms. 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-29">Ms. 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-30">Ms. 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-31">Ms. 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-32">Ms. 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-33">Ms. 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-34">Ms. 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-35">Ms. 35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-36">Ms. 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-37">Ms. 37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-38">Ms. 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-39">Ms. 39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-40">Ms. 40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-41">Ms. 41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-42">Ms. 42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-43">Ms. 43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-44">Ms. 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-45">Ms. 45</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-46">Ms. 46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-47">Ms. 47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-48">Ms. 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-49">Ms. 49</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-50">Ms. 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-51">Ms. 51</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-52">Ms. 52</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 52</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 52</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-53">Ms. 53</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-54">Ms. 54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-55">Ms. 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-56">Ms. 56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-57">Ms. 57</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-58">Ms. 58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-59">Ms. 59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-60">Ms. 60</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-61">Ms. 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-62">Ms. 62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-63">Ms. 63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-64">Ms. 64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 64</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-65">Ms. 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-66">Ms. 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-67">Ms. 67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-68">Ms. 68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-69">Ms. 69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-70">Ms. 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-71">Ms. 71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-72">Ms. 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-73">Ms. 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 73</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 73</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-74">Ms. 74</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 74</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-75">Ms. 75</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 75</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 75</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-76">Ms. 76</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-77">Ms. 77</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 77</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-78">Ms. 78</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 78</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-79">Ms. 79</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 79</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 79</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-80">Ms. 80</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 80</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 80</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-81">Ms. 81</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 81</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-82">Ms. 82</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 82</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-83">Ms. 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 83</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-84">Ms. 84</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 84</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 84</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-85">Ms. 85</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-86">Ms. 86</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-87">Ms. 87</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 87</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 87</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-88">Ms. 88</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 88</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 88</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-89">Ms. 89</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 89</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-90">Ms. 90</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 90</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-91">Ms. 91</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 91</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-92">Ms. 92</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 92</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 92</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-93">Ms. 93</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 93</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-94">Ms. 94</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 94</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 94</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-95">Ms. 95</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 95</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 95</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-96">Ms. 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 96</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-97">Ms. 97</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 97</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-98">Ms. 98</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 98</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-100">Ms. 100</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-101">Ms. 101</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 101</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-102">Ms. 102</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 102</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-103">Ms. 103</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 103</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 103</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-104">Ms. 104</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 104</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 104</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-105">Ms. 105</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 105</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 105</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-106">Ms. 106</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-107">Ms. 107</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 107</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 107</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-108">Ms. 108</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 108</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 108</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-109">Ms. 109</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 109</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-110">Ms. 110</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 110</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-111">Ms. 111</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-112">Ms. 112</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 112</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 112</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-113">Ms. 113</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 113</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 113</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-114">Ms. 114</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 114</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-115">Ms. 115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 115</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-116">Ms. 116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 116</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-117">Ms. 117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-118">Ms. 118</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 118</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 118</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-119">Ms. 119</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 119</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 119</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-120">Ms. 120</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 120</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 120</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-121">Ms. 121</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 121</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-122">Ms. 122</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 122</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 122</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-123">Ms. 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 123</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-124">Ms. 124</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 124</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 124</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-1">Ms. 125,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-2">Ms. 125,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-3">Ms. 125,3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-4">Ms. 125,4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-5">Ms. 125,5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-6">Ms. 125,6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-7">Ms. 125,7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-8">Ms. 125,8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-9">Ms. 125,9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-10">Ms. 125,10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-11">Ms. 125,11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-12">Ms. 125,12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-13">Ms. 125,13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-14">Ms. 125,14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-15">Ms. 125,15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-16">Ms. 125,16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-17">Ms. 125,17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-18">Ms. 125,18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-19">Ms. 125,19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-20">Ms. 125,20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-21">Ms. 125,21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-22">Ms. 125,22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-23">Ms. 125,23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-24">Ms. 125,24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-25">Ms. 125,25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-26">Ms. 125,26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-27">Ms. 125,27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-28">Ms. 125,28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-29">Ms. 125,29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-30">Ms. 125,30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-31">Ms. 125,31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-32">Ms. 125,32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-33">Ms. 125,33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-34">Ms. 125,34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-35">Ms. 125,35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-36">Ms. 125,36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-37">Ms. 125,37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-38">Ms. 125,38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-39">Ms. 125,39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-40">Ms. 125,40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-41">Ms. 125,41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-42">Ms. 125,42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-43">Ms. 125,43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-44">Ms. 125,44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-45">Ms. 125,45</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-46">Ms. 125,46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-47">Ms. 125,47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-48">Ms. 125,48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-49">Ms. 125,49</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-50">Ms. 125,50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-51">Ms. 125,51</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-52">Ms. 125,52</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 52</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,52</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,52</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-53">Ms. 125,53</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-54">Ms. 125,54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-55">Ms. 125,55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-56">Ms. 125,56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-57">Ms. 125,57</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-58">Ms. 125,58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-59">Ms. 125,59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-60">Ms. 125,60</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-61">Ms. 125,61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-62">Ms. 125,62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-63">Ms. 125,63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-64">Ms. 125,64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,64</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-65">Ms. 125,65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-66">Ms. 125,66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-67">Ms. 125,67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-68">Ms. 125,68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-69">Ms. 125,69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-70">Ms. 125,70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-71">Ms. 125,71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-125-72">Ms. 125,72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125, 72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 125,72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 125,72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-126">Ms. 126</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 126</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-127">Ms. 127</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 127</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-128">Ms. 128</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 128</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-129">Ms. 129</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 129</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-130">Ms. 130</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 130</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-131">Ms. 131</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 131</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-132">Ms. 132</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 132</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-133">Ms. 133</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 133</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 133</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-134">Ms. 134</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 134</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 134</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-135">Ms. 135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-136-1">Ms. 136,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 136, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 136,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 136,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-136-2">Ms. 136,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 136, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 136,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 136,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-1">Ms. 137,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-2">Ms. 137,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-3">Ms. 137,3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-4">Ms. 137,4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-5">Ms. 137,5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-6">Ms. 137,6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-7">Ms. 137,7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-8">Ms. 137,8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-9">Ms. 137,9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-10">Ms. 137,10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-11">Ms. 137,11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-12">Ms. 137,12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-13">Ms. 137,13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-14">Ms. 137,14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-15">Ms. 137,15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-16">Ms. 137,16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-17">Ms. 137,17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-137-18">Ms. 137,18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137, 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 137,18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 137,18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-138">Ms. 138</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 138</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-139">Ms. 139</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 139</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-140">Ms. 140</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 140</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 140</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-141">Ms. 141</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 141</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-142">Ms. 142</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 142</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-143">Ms. 143</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 143</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-144">Ms. 144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 144</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-145">Ms. 145</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 145</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-146">Ms. 146</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 146</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-147">Ms. 147</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 147</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 147</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-148">Ms. 148</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 148</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-149">Ms. 149</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-150">Ms. 150</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-151">Ms. 151</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 151</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 151</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-152">Ms. 152</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-153">Ms. 153</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 153</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 153</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-154">Ms. 154</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 154</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 154</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-155">Ms. 155</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 155</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 155</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-156">Ms. 156</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 156</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 156</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-157">Ms. 157</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 157</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-158">Ms. 158</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 158</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 158</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-159">Ms. 159</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 159</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 159</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-160">Ms. 160</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 160</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 160</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-161">Ms. 161</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 161</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 161</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-162">Ms. 162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 162</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-163">Ms. 163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 163</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-164">Ms. 164</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 164</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-165">Ms. 165</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 165</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 165</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-166">Ms. 166</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 166</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-167">Ms. 167</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 167</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 167</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-168">Ms. 168</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 168</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 168</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-169">Ms. 169</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 169</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 169</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-170">Ms. 170</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 170</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 170</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-171">Ms. 171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-172">Ms. 172</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-173">Ms. 173</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 173</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-174">Ms. 174</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 174</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-175">Ms. 175</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-176">Ms. 176</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 176</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-177">Ms. 177</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 177</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-178">Ms. 178</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 178</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-179">Ms. 179</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-180">Ms. 180</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-181">Ms. 181</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 181</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 181</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-182">Ms. 182</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 182</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 182</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-183">Ms. 183</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 183</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 183</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-184">Ms. 184</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 184</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-185">Ms. 185</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 185</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 185</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-186">Ms. 186</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 186</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-187">Ms. 187</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 187</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 187</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-188">Ms. 188</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 188</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-189">Ms. 189</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 189</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 189</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-190">Ms. 190</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-191">Ms. 191</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 191</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 191</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-192">Ms. 192</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 192</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-193">Ms. 193</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 193</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 193</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-194">Ms. 194</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 194</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 194</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-195">Ms. 195</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 195</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 195</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-196">Ms. 196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 196</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-197">Ms. 197</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 197</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 197</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018653-2">Fritzlar</settlement>
+                  <repository key="4472517-6">Dombibliothek Fritzlar</repository>
+                  <idno xml:id="_Ms-198">Ms. 198</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ms. 198</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 198</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Naumburg_Domstiftsbibliothek/03_Naumburg_Domstiftsbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4041445-0">Naumburg (Saale)</settlement>
+                  <repository key="1227509537">Domstiftsarchiv und Domstiftsbibliothek Naumburg</repository>
+                  <idno>Chorbuch I</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00002026/manifest"/>
+                        <ref type="other"
+                             target="https://archive.thulb.uni-jena.de/korax/receive/Korax_cbu_00000528"/>
+                        <ref type="thumbnail"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00002026%2FChorbu_0001.tif/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="5053491-9" type="digitizing">ThULB Jena</orgName>
+                        <placeName ref="4028557-1" type="digitizing">Jena</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4041445-0">Naumburg (Saale)</settlement>
+                  <repository key="1227509537">Domstiftsarchiv und Domstiftsbibliothek Naumburg</repository>
+                  <idno>Chorbuch II</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00003123/manifest"/>
+                        <ref type="other"
+                             target="https://archive.thulb.uni-jena.de/korax/receive/Korax_cbu_00003366"/>
+                        <ref type="thumbnail"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00003123%2Fhs_nmb_dsb_chorbuch_2_0000_e01_vd.tif/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="5053491-9" type="digitizing">ThULB Jena</orgName>
+                        <placeName ref="4028557-1" type="digitizing">Jena</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4041445-0">Naumburg (Saale)</settlement>
+                  <repository key="1227509537">Domstiftsarchiv und Domstiftsbibliothek Naumburg</repository>
+                  <idno>Chorbuch III</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00003124/manifest"/>
+                        <ref type="other"
+                             target="https://archive.thulb.uni-jena.de/korax/receive/Korax_cbu_00003367"/>
+                        <ref type="thumbnail"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00003124%2Fhs_nmb_dsb_chorbuch_3_0000_e01_vd.tif/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="5053491-9" type="digitizing">ThULB Jena</orgName>
+                        <placeName ref="4028557-1" type="digitizing">Jena</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4041445-0">Naumburg (Saale)</settlement>
+                  <repository key="1227509537">Domstiftsarchiv und Domstiftsbibliothek Naumburg</repository>
+                  <idno>Chorbuch IV</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00003125/manifest"/>
+                        <ref type="other"
+                             target="https://archive.thulb.uni-jena.de/korax/receive/Korax_cbu_00003368"/>
+                        <ref type="thumbnail"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00003125%2Fhs_nmb_dsb_chorbuch_4_0000_e01_vd.tif/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="5053491-9" type="digitizing">ThULB Jena</orgName>
+                        <placeName ref="4028557-1" type="digitizing">Jena</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4041445-0">Naumburg (Saale)</settlement>
+                  <repository key="1227509537">Domstiftsarchiv und Domstiftsbibliothek Naumburg</repository>
+                  <idno>Chorbuch VII</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00003126/manifest"/>
+                        <ref type="other"
+                             target="https://archive.thulb.uni-jena.de/korax/receive/Korax_cbu_00003371"/>
+                        <ref type="thumbnail"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00003126%2Fhs_nmb_dsb_chorbuch_7_0000_e01_vd.tif/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="5053491-9" type="digitizing">ThULB Jena</orgName>
+                        <placeName ref="4028557-1" type="digitizing">Jena</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4041445-0">Naumburg (Saale)</settlement>
+                  <repository key="1227509537">Domstiftsarchiv und Domstiftsbibliothek Naumburg</repository>
+                  <idno>Chorbuch VIII</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00003127/manifest"/>
+                        <ref type="other"
+                             target="https://archive.thulb.uni-jena.de/korax/receive/Korax_cbu_00003373"/>
+                        <ref type="thumbnail"
+                             target="https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00003127%2Fhs_nmb_dsb_chorbuch_8_0000_e01_vd.tif/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="5053491-9" type="digitizing">ThULB Jena</orgName>
+                        <placeName ref="4028557-1" type="digitizing">Jena</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

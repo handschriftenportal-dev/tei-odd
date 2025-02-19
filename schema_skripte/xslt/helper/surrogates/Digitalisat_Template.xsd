@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Root">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="0" maxOccurs="unbounded" name="DigitalisatInfo">
+                    <xsd:complexType>
+                        <xsd:all>
+                            <xsd:element minOccurs="0" maxOccurs="1" name="hsp_object" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="manifestURL" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="otherURL" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="thumbnailURL" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="completeness" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="objectType" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="imageType" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="captureType" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="digitalisationDate" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="publicationDate" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="nameOfHostInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="GND-IDOfHostInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="placeOfHostInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="GND-IDOfPlaceOfHostInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="nameOfDigitalisingInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="GND-IDOfDigitalisingInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="placeOfDigitalisingInstitution" />
+                            <xsd:element minOccurs="0" maxOccurs="1" name="GND-IDOfPlaceOfDigitalisingInstitution" />
+                        </xsd:all>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

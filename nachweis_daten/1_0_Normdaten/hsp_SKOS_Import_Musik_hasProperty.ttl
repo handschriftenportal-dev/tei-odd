@@ -1,0 +1,57 @@
+@prefix hspv-musicColour: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicColour/> .
+@prefix hspv-musicNotation: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicNotation/> .
+@prefix hspv-musicStaff: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/musicStaff/> .
+@prefix vocnet: <http://schema.vocnet.org/> .
+
+hspv-musicNotation:Gambentabulatur vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Sechsliniensystem .
+
+hspv-musicNotation:Lautentabulatur vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Sechsliniensystem .
+
+hspv-musicNotation:Mensuralnotation vocnet:hasProperty hspv-musicColour:Rot,
+        hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Sechsliniensystem,
+        hspv-musicStaff:Vierliniensystem .
+
+hspv-musicNotation:Modalnotation vocnet:hasProperty hspv-musicColour:Gelb,
+        hspv-musicColour:Rot,
+        hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Sechsliniensystem,
+        hspv-musicStaff:Vierliniensystem .
+
+hspv-musicNotation:Moderne%20Notation vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem .
+
+hspv-musicNotation:Neumennotation%20auf%20Linien vocnet:hasProperty hspv-musicColour:Blau,
+        hspv-musicColour:Blindliniert,
+        hspv-musicColour:Gelb,
+        hspv-musicColour:Gr%C3%BCn,
+        hspv-musicColour:Rot,
+        hspv-musicStaff:Dreiliniensystem,
+        hspv-musicStaff:Einliniensystem,
+        hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Vierliniensystem,
+        hspv-musicStaff:Zweiliniensystem .
+
+hspv-musicNotation:Notation%20der%20Ars%20Nova vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem .
+
+hspv-musicNotation:Quadratnotation vocnet:hasProperty hspv-musicColour:Gelb,
+        hspv-musicColour:Rot,
+        hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Vierliniensystem .
+
+hspv-musicNotation:Trecento-Notation vocnet:hasProperty hspv-musicStaff:Sechsliniensystem .
+
+hspv-musicNotation:alte%20deutsche%20Orgeltabulatur%20 vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Sechsliniensystem,
+        hspv-musicStaff:Siebenliniensystem .
+
+hspv-musicNotation:franz%C3%B6sische%20Lautentabulatur vocnet:hasProperty hspv-musicStaff:F%C3%BCnfliniensystem,
+        hspv-musicStaff:Sechsliniensystem .
+
+hspv-musicNotation:italienische%20Lautentabulatur vocnet:hasProperty hspv-musicStaff:Sechsliniensystem .
+
+hspv-musicNotation:spanische%20Lautentabulatur vocnet:hasProperty hspv-musicStaff:Sechsliniensystem .
+
+hspv-musicNotation:spanische%20Orgeltabulatur vocnet:hasProperty hspv-musicStaff:Vierliniensystem .
+

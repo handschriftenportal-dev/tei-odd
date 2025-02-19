@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Ansbach_SchlossB/03_Ansbach_SchlossB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 56</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107126/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00107126-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107126_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-10-21" type="digitized"/>
+                        <date when="2016-10-21" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107125/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00107125-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107125_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-10-07" type="digitized"/>
+                        <date when="2016-10-07" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 60</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107128/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00107128-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107128_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-08-08" type="digitized"/>
+                        <date when="2016-08-08" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 58</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107127/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00107127-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107127_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-08-02" type="digitized"/>
+                        <date when="2016-08-02" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 92</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106765/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106765-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106765_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-07-22" type="digitized"/>
+                        <date when="2016-07-22" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 57</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106849/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106849-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106849_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-07-19" type="digitized"/>
+                        <date when="2016-07-19" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 67</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106404/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106404-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106404_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-07-08" type="digitized"/>
+                        <date when="2016-07-08" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 72</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106850/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106850-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106850_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-07-08" type="digitized"/>
+                        <date when="2016-07-08" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 64</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106763/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106763-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106763_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-07-06" type="digitized"/>
+                        <date when="2016-07-06" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 66</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106764/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106764-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106764_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-30" type="digitized"/>
+                        <date when="2016-06-30" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 71</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106212/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106212-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106212_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-24" type="digitized"/>
+                        <date when="2016-06-24" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 49</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106243/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106243-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106243_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-18" type="digitized"/>
+                        <date when="2016-06-18" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 59</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106402/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106402-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106402_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-17" type="digitized"/>
+                        <date when="2016-06-17" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 53</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106209/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106209-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106209_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-10" type="digitized"/>
+                        <date when="2016-06-10" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 91</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106065/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106065-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106065_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-08" type="digitized"/>
+                        <date when="2016-06-08" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 55</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106211/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106211-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106211_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-08" type="digitized"/>
+                        <date when="2016-06-08" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 61</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106403/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106403-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106403_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-03" type="digitized"/>
+                        <date when="2016-06-03" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 85</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106213/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106213-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106213_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-06-01" type="digitized"/>
+                        <date when="2016-06-01" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 54</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106210/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106210-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106210_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-05-26" type="digitized"/>
+                        <date when="2016-05-26" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 70</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106405/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106405-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106405_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-05-24" type="digitized"/>
+                        <date when="2016-05-24" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 50</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106208/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106208-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106208_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-05-20" type="digitized"/>
+                        <date when="2016-05-20" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 90</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106170/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106170-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106170_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-05-11" type="digitized"/>
+                        <date when="2016-05-11" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 81</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106169/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106169-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106169_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-04-28" type="digitized"/>
+                        <date when="2016-04-28" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 62</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106067/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106067-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106067_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-04-09" type="digitized"/>
+                        <date when="2016-04-09" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 83</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105870/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105870-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105870_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-04-06" type="digitized"/>
+                        <date when="2016-04-06" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 68</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105869/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105869-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105869_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-31" type="digitized"/>
+                        <date when="2016-03-31" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 80</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105905/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105905-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105905_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-23" type="digitized"/>
+                        <date when="2016-03-23" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 79</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105941/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105941-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105941_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-23" type="digitized"/>
+                        <date when="2016-03-23" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 76</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105904/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105904-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105904_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-18" type="digitized"/>
+                        <date when="2016-03-18" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 82</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105859/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105859-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105859_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-15" type="digitized"/>
+                        <date when="2016-03-15" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 86</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105871/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105871-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105871_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-15" type="digitized"/>
+                        <date when="2016-03-15" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 87</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105906/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105906-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105906_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-15" type="digitized"/>
+                        <date when="2016-03-15" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 75</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105903/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105903-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105903_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-14" type="digitized"/>
+                        <date when="2016-03-14" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 63</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105857/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105857-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105857_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-10" type="digitized"/>
+                        <date when="2016-03-10" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 73</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105858/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105858-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105858_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-10" type="digitized"/>
+                        <date when="2016-03-10" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 88</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105860/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105860-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105860_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-10" type="digitized"/>
+                        <date when="2016-03-10" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 78</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105837/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105837-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105837_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-03-08" type="digitized"/>
+                        <date when="2016-03-08" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 77</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105465/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105465-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105465_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-02-18" type="digitized"/>
+                        <date when="2016-02-18" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 84</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105466/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105466-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105466_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-02-16" type="digitized"/>
+                        <date when="2016-02-16" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 89</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105467/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105467-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105467_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016-02-04" type="digitized"/>
+                        <date when="2016-02-04" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 69</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00090818/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00090818-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00090818_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-05-06" type="digitized"/>
+                        <date when="2014-05-06" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 160</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089963/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089963-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089963_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014-03-26" type="digitized"/>
+                        <date when="2014-03-26" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 161</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00053965/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00053965-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00053965_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2010-10-14" type="digitized"/>
+                        <date when="2010-10-14" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 74</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00040818/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00040818-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00040818_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009-07-23" type="digitized"/>
+                        <date when="2009-07-23" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. lat. 65</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00021776/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00021776-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00021776_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2008-03-12" type="digitized"/>
+                        <date when="2008-03-12" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. hist. 383</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00114088/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00114088-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00114088_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2018-03-27" type="digitized"/>
+                        <date when="2018-03-27" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>Ms. hist. 636</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00108545/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00108545-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00108545_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2017-02-15" type="digitized"/>
+                        <date when="2017-02-15" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00108428/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00108428-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00108428_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2017" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 12</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089220/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089220-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089220_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 15</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089219/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089219-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089219_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 16</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089218/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089218-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089218_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 17</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089217/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089217-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089217_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 19</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089216/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089216-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089216_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 20</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089214/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089214-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089214_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 23</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089213/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089213-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089213_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 27</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00104589/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00104589-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00104589_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2015" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 28-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089212/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089212-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089212_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 28-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00091242/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00091242-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00091242_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 32</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089211/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089211-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089211_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 33</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089210/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089210-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089210_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00104588/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00104588-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00104588_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2015" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 8/9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00089229/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00089229-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00089229_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 14</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00087505/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00087505-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00087505_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4002170-1">Ansbach</settlement>
+                  <repository key="137652-4">Staatliche Bibliothek Ansbach</repository>
+                  <idno>VI g 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00087506/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00087506-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00087506_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

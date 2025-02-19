@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../hsp_cataloguing.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../hsp_cataloguing.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI version="5.0" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <respStmt>
+          <resp>Herausgegeben von</resp>
+          <persName role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PERSNAME}#</persName>
+          <persName role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PERSNAME}#</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+        <date when="2022" type="__pub_type__">#{DATE}#</date>
+        <availability status="free">
+          <licence target="http://rightsstatements.org/vocab/InC/1.0/">
+            <p>Lizenziert nach http://rightsstatements.org/vocab/InC/1.0/</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="2022">#{DATE}#</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date when="2022">#{DATE}#</date>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <msDesc xml:id="__hsp-uuid__" xml:lang="de" type="hsp:description" subtype="medieval"
+        status="intern">
+        <msIdentifier>
+          <settlement role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PLACENAME}#</settlement>
+          <repository role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{ORGNAME}#</repository>
+          <idno>#{IDNO}#</idno>
+          <altIdentifier type="hsp-ID">
+            <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+            <idno>#{IDNO}#</idno>
+          </altIdentifier>
+          <altIdentifier type="mxml-ID">
+            <collection>Manuscripta-Medievalia-ID</collection>
+            <idno>obj_123456</idno>
+          </altIdentifier>
+          <altIdentifier type="corpus">
+            <collection>#{CORPUS}#</collection>
+            <idno>#{IDNO}#</idno>
+          </altIdentifier>
+          <altIdentifier type="former">
+            <settlement role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PLACENAME}#</settlement>
+            <repository role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{ORGNAME}#</repository>
+            <idno>#{IDNO}#</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <head>
+          <index indexName="norm_title">
+            <term type="title"></term>
+          </index>
+          <title></title>
+          <note type="headline"></note>
+          <index indexName="norm_material">
+            <term type="material"></term>
+            <term type="material_type"></term>
+          </index>
+          <index indexName="norm_measure">
+            <term type="measure"></term>
+            <term type="measure_noOfLeaves"></term>
+          </index>
+          <index indexName="norm_dimensions">
+            <term type="dimensions"></term>
+            <term type="height"></term>
+            <term type="width"></term>
+            <term type="depth"></term>
+            <term type="dimensions_typeOfInformation"></term>
+          </index>
+          <index indexName="norm_format">
+            <term type="format"></term>
+            <term type="format_typeOfInformation"></term>
+          </index>
+          <index indexName="norm_origPlace">
+            <term type="origPlace"></term>
+            <term type="origPlace_norm"></term>
+          </index>
+          <index indexName="norm_origDate">
+            <term type="origDate"></term>
+            <term type="origDate_notBefore"></term>
+            <term type="origDate_notAfter"></term>
+            <term type="origDate_type"></term>
+          </index>
+          <index indexName="norm_textLang">
+            <term type="textLang"></term>
+            <term type="textLang-ID"></term>
+          </index>
+          <index indexName="norm_form">
+            <term type="form"></term>
+          </index>
+          <index indexName="norm_status">
+            <term type="status"></term>
+          </index>
+          <index indexName="norm_decoration">
+            <term type="decoration"></term>
+          </index>
+          <index indexName="norm_musicNotation">
+            <term type="musicNotation"></term>
+          </index>
+        </head>
+      </msDesc>
+    </body>
+  </text>
+</TEI>

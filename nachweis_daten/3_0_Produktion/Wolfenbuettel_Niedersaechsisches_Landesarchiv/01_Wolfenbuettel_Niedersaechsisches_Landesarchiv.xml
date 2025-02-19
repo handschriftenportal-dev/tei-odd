@@ -1,0 +1,3223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Wolfenbuettel_Niedersaechsisches_Landesarchiv/01_Wolfenbuettel_Niedersaechsisches_Landesarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_1-Alt-22-Nr-83">1 Alt 22 Nr. 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>1 alt 22 Nr. 83</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ed000027</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>wf_sa_1-alt-0022-0083</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO 1 Alt 22 Nr. 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_2-Alt-Nr-3489">2 Alt Nr. 3489</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO 2 Alt Nr. 3489</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>wf-nla-wo-2-alt-3489</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>wf_nla-wo_2-alt-3489</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>2 alt Nr. 3489</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VI-Hs-1-Nr-1">VI Hs 1 Nr. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VI Hs 1, Nr. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VI Hs 1, Nr. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VI Hs 1 Nr. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Heinemann 435</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VI-Hs-1-Nr-2">VI Hs 1 Nr. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VI Hs 1, Nr. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VI Hs 1, Nr. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VI Hs 1 Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Heinemann 435</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VI-Hs-15-Nr-134">VI Hs 15 Nr. 134</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ed000026</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>wf_sa_06-hs-0015-0134</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VI-Hs-5-Nr-1">VI Hs 5 Nr. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VI Hs 5, Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VI Hs 5, Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VI Hs 5 Nr. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-68">VII B Hs Nr. 68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>wf-nds-sta-vii-b-hs-68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>wf_sa_07-b-hs-0068</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Guelf. 105 Helmst.</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-111">VII B Hs Nr. 111</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-125">VII B Hs Nr. 125</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 125</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 125</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 125</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 125</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 125</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-126">VII B Hs Nr. 126</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 126</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-128">VII B Hs Nr. 128</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 128</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 128</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 128</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 128</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-129">VII B Hs Nr. 129</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 129</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-129a">VII B Hs Nr. 129a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 129a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 129a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 129a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 129a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 129a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-130">VII B Hs Nr. 130</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 130</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-131">VII B Hs Nr. 131</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 131</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-132">VII B Hs Nr. 132</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 132</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-133-1">VII B Hs Nr. 133/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 133/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 133/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 133/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 133/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 133/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-133-2">VII B Hs Nr. 133/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 133/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 133/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 133/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 133/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 133/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-134-1">VII B Hs Nr. 134/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 134/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 134/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 134/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 134/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 134/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-134-2">VII B Hs Nr. 134/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 134/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 134/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 134/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 134/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 134/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-134-3">VII B Hs Nr. 134/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 134/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 134/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 134/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 134/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 134/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-135">VII B Hs Nr. 135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-136">VII B Hs Nr. 136</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 136</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-137">VII B Hs Nr. 137</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 137</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 137</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 137</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 137</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 137</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-138">VII B Hs Nr. 138</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 138</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 138</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 138</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 138</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-139">VII B Hs Nr. 139</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 139</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-140">VII B Hs Nr. 140</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 140</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 140</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 140</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 140</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 140</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-141">VII B Hs Nr. 141</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 141</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 141</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 141</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 141</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-142">VII B Hs Nr. 142</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 142</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 142</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 142</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 142</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-143">VII B Hs Nr. 143</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 143</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 143</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 143</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 143</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-144">VII B Hs Nr. 144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 144</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 144</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 144</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 144</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-145">VII B Hs Nr. 145</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 145</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 145</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 145</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 145</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-146">VII B Hs Nr. 146</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 146</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 146</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 146</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 146</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-147">VII B Hs Nr. 147</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 147</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 147</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 147</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 147</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 147</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-148">VII B Hs Nr. 148</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 148</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-149">VII B Hs Nr. 149</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-150">VII B Hs Nr. 150</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-151">VII B Hs Nr. 151</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 151</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 151</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 151</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 151</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 151</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-152">VII B Hs Nr. 152</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-153">VII B Hs Nr. 153</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 153</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 153</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 153</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 153</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 153</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-154">VII B Hs Nr. 154</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 154</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 154</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 154</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 154</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 154</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-155">VII B Hs Nr. 155</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 155</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 155</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 155</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 155</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 155</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-156">VII B Hs Nr. 156</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 156</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 156</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 156</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 156</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 156</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-157">VII B Hs Nr. 157</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 157</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-157a">VII B Hs Nr. 157a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 157a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 157a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 157a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 157a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 157a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-157b">VII B Hs Nr. 157b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 157b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 157b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 157b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 157b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 157b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-158">VII B Hs Nr. 158</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 158</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 158</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 158</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 158</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 158</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-159">VII B Hs Nr. 159</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 159</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 159</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 159</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 159</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 159</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-160">VII B Hs Nr. 160</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 160</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 160</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 160</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 160</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 160</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-161-1">VII B Hs Nr. 161/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 161/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 161/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 161/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 161/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 161/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-161-2">VII B Hs Nr. 161/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 161/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 161/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 161/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 161/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 161/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-162">VII B Hs Nr. 162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 162</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-163">VII B Hs Nr. 163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 163</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-164">VII B Hs Nr. 164</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 164</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-165">VII B Hs Nr. 165</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 165</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 165</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 165</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 165</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 165</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-166">VII B Hs Nr. 166</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 166</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-167">VII B Hs Nr. 167</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 167</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 167</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 167</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 167</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 167</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-168">VII B Hs Nr. 168</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 168</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 168</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 168</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 168</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 168</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-169">VII B Hs Nr. 169</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 169</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 169</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 169</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 169</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 169</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-170">VII B Hs Nr. 170</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 170</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 170</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 170</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 170</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 170</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-171">VII B Hs Nr. 171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-172">VII B Hs Nr. 172</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-173">VII B Hs Nr. 173</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 173</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-174">VII B Hs Nr. 174</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 174</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-175">VII B Hs Nr. 175</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-176">VII B Hs Nr. 176</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 176</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-177">VII B Hs Nr. 177</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 177</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-178">VII B Hs Nr. 178</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 178</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-179">VII B Hs Nr. 179</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-180">VII B Hs Nr. 180</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-181">VII B Hs Nr. 181</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 181</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 181</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 181</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 181</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 181</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-182">VII B Hs Nr. 182</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 182</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 182</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 182</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 182</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 182</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-183">VII B Hs Nr. 183</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 183</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 183</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 183</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 183</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 183</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-184">VII B Hs Nr. 184</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 184</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 184</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 184</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 184</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-185">VII B Hs Nr. 185</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 185</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 185</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 185</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 185</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 185</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-186">VII B Hs Nr. 186</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 186</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-187">VII B Hs Nr. 187</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 187</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 187</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 187</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 187</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 187</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-188">VII B Hs Nr. 188</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 188</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-189">VII B Hs Nr. 189</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 189</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 189</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 189</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 189</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 189</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-190">VII B Hs Nr. 190</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-191">VII B Hs Nr. 191</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 191</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 191</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 191</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 191</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 191</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-192">VII B Hs Nr. 192</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 192</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 192</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 192</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 192</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-193">VII B Hs Nr. 193</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 193</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 193</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 193</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 193</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 193</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-194">VII B Hs Nr. 194</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 194</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 194</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 194</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 194</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 194</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-195">VII B Hs Nr. 195</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 195</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 195</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 195</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 195</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 195</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-196">VII B Hs Nr. 196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 196</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 196</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 196</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 196</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-197">VII B Hs Nr. 197</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 197</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 197</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 197</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 197</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 197</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-198">VII B Hs Nr. 198</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 198</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 198</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 198</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 198</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 198</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-199">VII B Hs Nr. 199</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 199</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 199</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 199</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 199</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 199</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-200">VII B Hs Nr. 200</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 200</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 200</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 200</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 200</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 200</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-201">VII B Hs Nr. 201</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 201</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-202">VII B Hs Nr. 202</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 202</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 202</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 202</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 202</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 202</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-203">VII B Hs Nr. 203</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 203</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 203</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 203</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 203</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 203</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-204">VII B Hs Nr. 204</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 204</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-205">VII B Hs Nr. 205</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 205</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-206">VII B Hs Nr. 206</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 206</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-207">VII B Hs Nr. 207</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 207</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 207</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 207</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 207</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 207</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-208">VII B Hs Nr. 208</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 208</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 208</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 208</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 208</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 208</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-209">VII B Hs Nr. 209</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 209</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 209</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 209</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 209</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 209</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-210">VII B Hs Nr. 210</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 210</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 210</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 210</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 210</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 210</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-211">VII B Hs Nr. 211</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 211</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 211</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 211</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 211</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 211</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-212">VII B Hs Nr. 212</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 212</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 212</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 212</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 212</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 212</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-213">VII B Hs Nr. 213</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 213</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 213</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 213</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 213</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-214">VII B Hs Nr. 214</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 214</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 214</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 214</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 214</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 214</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-215">VII B Hs Nr. 215</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 215</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 215</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 215</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 215</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 215</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-216">VII B Hs Nr. 216</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 216</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 216</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 216</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 216</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 216</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-217">VII B Hs Nr. 217</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 217</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 217</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 217</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 217</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 217</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-218">VII B Hs Nr. 218</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 218</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 218</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 218</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 218</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-219">VII B Hs Nr. 219</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 219</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 219</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 219</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 219</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 219</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-220">VII B Hs Nr. 220</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 220</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 220</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 220</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 220</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 220</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-221">VII B Hs Nr. 221</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 221</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 221</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 221</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 221</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 221</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-222">VII B Hs Nr. 222</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 222</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 222</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 222</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 222</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 222</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-223">VII B Hs Nr. 223</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 223</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 223</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 223</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 223</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 223</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-224">VII B Hs Nr. 224</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 224</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 224</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 224</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 224</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 224</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-225">VII B Hs Nr. 225</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 225</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 225</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 225</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 225</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 225</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-226">VII B Hs Nr. 226</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 226</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 226</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 226</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 226</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 226</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-227">VII B Hs Nr. 227</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 227</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 227</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 227</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 227</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 227</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-228">VII B Hs Nr. 228</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 228</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 228</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 228</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 228</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 228</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-229">VII B Hs Nr. 229</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 229</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 229</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 229</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 229</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-230">VII B Hs Nr. 230</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 230</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 230</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 230</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 230</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 230</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-231">VII B Hs Nr. 231</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 231</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 231</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 231</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 231</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 231</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-232">VII B Hs Nr. 232</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 232</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 232</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 232</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 232</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 232</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-233">VII B Hs Nr. 233</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 233</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 233</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 233</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 233</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 233</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-234">VII B Hs Nr. 234</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 234</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-235">VII B Hs Nr. 235</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 235</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 235</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 235</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 235</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 235</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-236">VII B Hs Nr. 236</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 236</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 236</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 236</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 236</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 236</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-237">VII B Hs Nr. 237</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 237</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 237</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 237</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 237</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 237</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-238">VII B Hs Nr. 238</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 238</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 238</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 238</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 238</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 238</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-239">VII B Hs Nr. 239</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 239</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 239</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 239</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 239</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 239</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-240">VII B Hs Nr. 240</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 240</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 240</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 240</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 240</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 240</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-241">VII B Hs Nr. 241</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 241</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 241</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 241</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 241</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 241</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-242">VII B Hs Nr. 242</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 242</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 242</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 242</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 242</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 242</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-243">VII B Hs Nr. 243</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 243</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 243</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 243</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 243</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 243</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-244">VII B Hs Nr. 244</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 244</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 244</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 244</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 244</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 244</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-244a">VII B Hs Nr. 244a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 244a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 244a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 244a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 244a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 244a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-244b">VII B Hs Nr. 244b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 244b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 244b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 244b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 244b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 244b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-263">VII B Hs Nr. 263</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 263</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 263</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 263</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 263</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 263</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-264">VII B Hs Nr. 264</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 264</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 264</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 264</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 264</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 264</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-304">VII B Hs Nr. 304</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 304</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 304</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 304</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 304</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 304</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-305">VII B Hs Nr. 305</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 305</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 305</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 305</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 305</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 305</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-306">VII B Hs Nr. 306</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 306</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 306</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 306</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 306</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 306</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-307">VII B Hs Nr. 307</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 307</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 307</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 307</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 307</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 307</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-308">VII B Hs Nr. 308</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 308</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 308</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 308</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 308</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 308</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-365">VII B Hs Nr. 365</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 365</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 365</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 365</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 365</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 365</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-48">VII B Hs Nr. 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066832-0">Wolfenbüttel</settlement>
+                  <repository key="11563-0">Niedersächsisches Landesarchiv – Abteilung Wolfenbüttel</repository>
+                  <idno xml:id="_VII-B-Hs-Nr-99">VII B Hs Nr. 99</idno>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO, VII B Hs, Nr. 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>NLA WO VII B Hs Nr. 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B Hs. 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VII B 99</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

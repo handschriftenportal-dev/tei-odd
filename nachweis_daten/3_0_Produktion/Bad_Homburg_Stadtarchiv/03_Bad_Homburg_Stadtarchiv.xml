@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Bad_Homburg_Stadtarchiv/03_Bad_Homburg_Stadtarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4025770-8">Bad Homburg v.d. Höhe</settlement>
+                  <repository key="2072994-7">Stadtarchiv Bad Homburg</repository>
+                  <idno>S 08 Hss.-Fragmente, Nr. 16</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey61/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-59"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/61/?sequence=7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-02-12" type="digitized"/>
+                        <date when="2021-10-14" type="published"/>
+                        <orgName ref="2072994-7" type="digitizing">Stadtarchiv Bad Homburg</orgName>
+                        <placeName ref="4025770-8" type="digitizing">Bad Homburg v.d. Höhe</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

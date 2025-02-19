@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Marburg_UB/03_Marburg_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 217</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey54/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-52"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/54/?sequence=1038"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-08-12" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 318</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey55/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-53"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/55/?sequence=19"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-08-04" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 363</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey56/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-54"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/56/?sequence=1822"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-08-04" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 37</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey27/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-25"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/27/?sequence=2320"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-11-04" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 373</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey57/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-55"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/57/?sequence=2026"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-08-04" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 375,17-18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey58/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-56"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/58/?sequence=30"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-10-30" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 375,28-31</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey59/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-57"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/59/?sequence=31"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-10-30" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey28/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-26"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/28/?sequence=266"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-11-04" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 413</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey60/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-58"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/60/?sequence=1213"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-04" type="digitized"/>
+                        <date when="2021-09-24" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 42</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey29/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-27"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/29/?sequence=901"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-11-04" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 45</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey30/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-28"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/30/?sequence=610"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-04" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 46</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey31/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-29"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/31/?sequence=1435"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-04" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 47</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey32/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-30"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/32/?sequence=451"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-17" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 48</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey33/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-31"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/33/?sequence=1051"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-17" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 49</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey34/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-32"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/34/?sequence=1681"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-17" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 50</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey35/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-33"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/35/?sequence=1924"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-17" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey36/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-34"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/36/?sequence=2062"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-17" type="digitized"/>
+                        <date when="2021-09-22" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 52</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey37/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-35"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/37/?sequence=1015"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-17" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 53</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey38/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-36"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/38/?sequence=2859"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-11-16" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 54</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey148/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-144"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/148/?sequence=2593"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022-05-11" type="published"/>
+                        <orgName ref="10073682-8" type="digitizing">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                        <placeName ref="4011077-1" type="digitizing">Darmstadt</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 55</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey39/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-37"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/39/?sequence=1891"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-08" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 58</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey40/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-38"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/40/?sequence=2102"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-08" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 59</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey41/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-39"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/41/?sequence=1735"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-09-04" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 60</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey42/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-40"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/42/?sequence=1909"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-02-25" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 61</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey43/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-41"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/43/?sequence=1489"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020-11-16" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 62</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey149/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-145"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/149/?sequence=1673"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022-05-11" type="published"/>
+                        <orgName ref="10073682-8" type="digitizing">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                        <placeName ref="4011077-1" type="digitizing">Darmstadt</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 63</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey150/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-146"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/150/?sequence=2153"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022-05-11" type="published"/>
+                        <orgName ref="10073682-8" type="digitizing">Universitäts- und Landesbibliothek Darmstadt</orgName>
+                        <placeName ref="4011077-1" type="digitizing">Darmstadt</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 64</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey44/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-42"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/44/?sequence=1792"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-05-04" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 65</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey45/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-43"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/45/?sequence=1315"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-08" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 66</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey46/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-44"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/46/?sequence=2206"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-28" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 67</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey47/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-45"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/47/?sequence=1264"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-06-21" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 68</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey48/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-46"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/48/?sequence=1282"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-21" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 69</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey49/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-47"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/49/?sequence=1558"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-21" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 70</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey50/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-48"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/50/?sequence=1963"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-28" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 72</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey51/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-49"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/51/?sequence=1507"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-28" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 74</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey52/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-50"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/52/?sequence=1303"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-07-28" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 75</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-marburg.de/presentation/v2/corvey53/manifest"/>
+                        <ref type="other" target="http://dx.doi.org/10.48643/b4tm-51"/>
+                        <ref type="thumbnail"
+                             target="https://corvey.ub.uni-marburg.de/bitstream/handle/corvey/53/?sequence=2401"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021-08-03" type="digitized"/>
+                        <date when="2021-09-23" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0009/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0009"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0009/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0010/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0010"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0010/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0508/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2020.0508"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0508/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0012/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0012"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0012/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0011/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0011"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0011/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2019/0069/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2019.0069"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2019/0069/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2019" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2019/0070/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2019.0070"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2019/0070/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2019" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0447/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2020.0447"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0447/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0480/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2020.0480"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0480/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 12</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0002/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0002"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0002/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0003/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0003"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0003/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 14</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0004/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0004"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0004/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 15</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0005/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0005"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0005/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2011" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 16</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0019/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0019"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0019/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 17</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0020/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0020"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0020/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0479/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2020.0479"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0479/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 19</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2019/0076/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2019.0076"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2019/0076/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2019" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 21</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0006/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0006"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0006/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0007/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0007"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0007/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 24</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0489/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2020.0489"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0489/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0015/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0015"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0015/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 26</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0014/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0014"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0014/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 27</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0472/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2020.0472"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2020/0472/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 29</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0013/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0013"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0013/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 32</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0016/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0016"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0016/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 35</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0017/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0017"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0017/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 36</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0018/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0018"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0018/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 38</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0025/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0025"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0025/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 39</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0026/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0026"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0026/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 40</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0027/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0027"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0027/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 41</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0028/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0028"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0028/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 43</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0029/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0029"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0029/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 57</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0182/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0182"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0182/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 71</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0030/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0030"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0030/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 76</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0031/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0031"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0031/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 77</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2015/0142/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2015.0142"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2015/0142/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2015" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 81</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0008/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0008"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0008/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 83</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0032/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0032"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0032/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 84</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0033/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0033"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0033/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 86</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0035/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0035"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0035/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 87</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0036/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0036"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0036/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 88</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0038/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0038"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0038/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 92</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0041/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0041"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0041/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 93</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0042/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0042"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0042/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 94</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0043/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0043"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0043/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 104</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0045/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0045"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0045/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 123</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0046/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0046"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0046/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 218</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0044/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0044"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0044/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 362</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0047/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0047"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0047/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno>Ms. 85</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0034/manifest.json"/>
+                        <ref type="other" target="https://doi.org/10.17192/eb2022.0034"/>
+                        <ref type="thumbnail"
+                             target="https://archiv.ub.uni-marburg.de/eb/2022/0034/cover.png"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="11210-0" type="digitizing">Universitätsbibliothek Marburg</orgName>
+                        <placeName ref="4037446-4" type="digitizing">Marburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

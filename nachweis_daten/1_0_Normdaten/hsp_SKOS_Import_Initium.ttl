@@ -1,0 +1,47 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/> .
+@prefix hspv-textInitium: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/textInitium/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+hspv:text a skos:ConceptScheme ;
+    skos:definition "Entwurf Textfragmente als Konzepte"@de,
+        "Draft Text Fragment as Concepts"@en ;
+    skos:prefLabel "Textfragment"@de,
+        "Text Fragment"@en .
+
+hspv:textInitium a skos:ConceptScheme ;
+    skos:definition "Entwurf Textfragmente als Konzepte: Initium"@de,
+        "Draft Text Fragments as Concepts: Initium"@en ;
+    skos:hasTopConcept hspv-textInitium:MXML-31782068_56500,
+        hspv-textInitium:MXML-31782069_56500,
+        hspv-textInitium:MXML-31782070_56500,
+        hspv-textInitium:MXML-31782071_56500 ;
+    skos:inScheme hspv:text ;
+    skos:prefLabel "Textfragment: Initium"@de,
+        "Textfragment: Initium"@en .
+
+hspv-textInitium:MXML-31782068_56500 a skos:Concept ;
+    dct:language "la" ;
+    skos:inScheme hspv:textInitium ;
+    skos:prefLabel "Primum oportet dicere, circa quid et de quo est intentio" ;
+    skos:topConceptOf hspv:textInitium .
+
+hspv-textInitium:MXML-31782069_56500 a skos:Concept ;
+    dct:language "la" ;
+    skos:inScheme hspv:textInitium ;
+    skos:prefLabel "Propositum quidem negotii est methodum invenire" ;
+    skos:topConceptOf hspv:textInitium .
+
+hspv-textInitium:MXML-31782070_56500 a skos:Concept ;
+    dct:language "la" ;
+    skos:inScheme hspv:textInitium ;
+    skos:prefLabel "De sophisticis autem elenchis et de his qui videntur elenchi" ;
+    skos:topConceptOf hspv:textInitium .
+
+hspv-textInitium:MXML-31782071_56500 a skos:Concept ;
+    dct:language "la" ;
+    skos:inScheme hspv:textInitium ;
+    skos:prefLabel "Omnis doctrina et omnis disciplina intellectiva ex praeexistenti cognitione fit" ;
+    skos:topConceptOf hspv:textInitium .
+

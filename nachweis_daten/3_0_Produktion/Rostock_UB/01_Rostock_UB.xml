@@ -1,0 +1,3066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Rostock_UB/01_Rostock_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Ff-1363-1">Ff-1363.1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ff-1363¹</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ff-1363,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fl-46-1">Fl-46.1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fl-46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fl-63-2">Fl-63.2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fl-63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fl-65-3">Fl-65.3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fl-65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fl-81-2">Fl-81.2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fl-81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-histor-1">Fragm. histor. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-histor-2">Fragm. histor. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-histor-3">Fragm. histor. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-histor-4">Fragm. histor. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-histor-5">Fragm. histor. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-histor-6">Fragm. histor. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-1">Fragm. jur. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-2">Fragm. jur. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-3">Fragm. jur. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-4">Fragm. jur. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-5">Fragm. jur. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-6">Fragm. jur. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-7">Fragm. jur. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-8">Fragm. jur. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-9">Fragm. jur. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-10">Fragm. jur. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-11">Fragm. jur. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-12">Fragm. jur. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-13">Fragm. jur. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-14">Fragm. jur. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-15">Fragm. jur. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-16">Fragm. jur. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-17">Fragm. jur. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-18">Fragm. jur. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-19">Fragm. jur. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-20">Fragm. jur. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-21">Fragm. jur. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-22">Fragm. jur. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-23">Fragm. jur. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-24">Fragm. jur. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-25">Fragm. jur. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-26">Fragm. jur. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-27">Fragm. jur. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-28">Fragm. jur. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-29">Fragm. jur. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-30">Fragm. jur. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-31">Fragm. jur. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-32">Fragm. jur. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-33">Fragm. jur. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-34">Fragm. jur. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-35">Fragm. jur. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-36">Fragm. jur. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-37">Fragm. jur. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-38">Fragm. jur. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-39">Fragm. jur. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-40">Fragm. jur. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-41">Fragm. jur. 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-42">Fragm. jur. 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-43">Fragm. jur. 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-44">Fragm. jur. 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-45">Fragm. jur. 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-46">Fragm. jur. 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-47">Fragm. jur. 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-48">Fragm. jur. 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-49">Fragm. jur. 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-50">Fragm. jur. 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-51">Fragm. jur. 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-52">Fragm. jur. 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-53">Fragm. jur. 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-54">Fragm. jur. 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-jur-55">Fragm. jur. 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-math--phys-1">Fragm. math.-phys. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-math--phys-2">Fragm. math.-phys. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-math--phys-3">Fragm. math.-phys. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-meckl-1">Fragm. meckl. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-med-1">Fragm. med. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-med-2">Fragm. med. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-1">Fragm. philol. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-2">Fragm. philol. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-3">Fragm. philol. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-4">Fragm. philol. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-5">Fragm. philol. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-6">Fragm. philol. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-7">Fragm. philol. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-8">Fragm. philol. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-9">Fragm. philol. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-10">Fragm. philol. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-11">Fragm. philol. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-12">Fragm. philol. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-13">Fragm. philol. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-14">Fragm. philol. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-15">Fragm. philol. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-16">Fragm. philol. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-17">Fragm. philol. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-18">Fragm. philol. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-19">Fragm. philol. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-20">Fragm. philol. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-21">Fragm. philol. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-22">Fragm. philol. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-23">Fragm. philol. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-24">Fragm. philol. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-25">Fragm. philol. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-26">Fragm. philol. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-27">Fragm. philol. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-28">Fragm. philol. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-29">Fragm. philol. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-30">Fragm. philol. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-31">Fragm. philol. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-32">Fragm. philol. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-33">Fragm. philol. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-34">Fragm. philol. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-35">Fragm. philol. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-36">Fragm. philol. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-37">Fragm. philol. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-38">Fragm. philol. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-39">Fragm. philol. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-40">Fragm. philol. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-41">Fragm. philol. 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-42">Fragm. philol. 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-43">Fragm. philol. 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-44">Fragm. philol. 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-45">Fragm. philol. 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-46">Fragm. philol. 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-47">Fragm. philol. 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-48">Fragm. philol. 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-49">Fragm. philol. 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-philol-50">Fragm. philol. 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-1">Fragm. theol. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-2">Fragm. theol. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-3">Fragm. theol. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-4">Fragm. theol. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-5">Fragm. theol. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-6">Fragm. theol. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-7">Fragm. theol. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-8">Fragm. theol. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fragm. theol. 8 in: Fd-224</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-9">Fragm. theol. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-10">Fragm. theol. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-11">Fragm. theol. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-12">Fragm. theol. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-13">Fragm. theol. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-14">Fragm. theol. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-15">Fragm. theol. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-16">Fragm. theol. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-17">Fragm. theol. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-18">Fragm. theol. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-19">Fragm. theol. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-20">Fragm. theol. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-21">Fragm. theol. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-22">Fragm. theol. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-23">Fragm. theol. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-24">Fragm. theol. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-25">Fragm. theol. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-26">Fragm. theol. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-27">Fragm. theol. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-28">Fragm. theol. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-29">Fragm. theol. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-30">Fragm. theol. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-31">Fragm. theol. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-32">Fragm. theol. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-33">Fragm. theol. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-34">Fragm. theol. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-35">Fragm. theol. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-36">Fragm. theol. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-37">Fragm. theol. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-38">Fragm. theol. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-39">Fragm. theol. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-40">Fragm. theol. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-41">Fragm. theol. 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-42">Fragm. theol. 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-43">Fragm. theol. 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-44">Fragm. theol. 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-45">Fragm. theol. 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-46">Fragm. theol. 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-47">Fragm. theol. 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-48">Fragm. theol. 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-49">Fragm. theol. 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-50">Fragm. theol. 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-51">Fragm. theol. 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-52">Fragm. theol. 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-53">Fragm. theol. 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-54">Fragm. theol. 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-55">Fragm. theol. 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-56">Fragm. theol. 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-57">Fragm. theol. 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-58">Fragm. theol. 58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-59">Fragm. theol. 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-60">Fragm. theol. 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-61">Fragm. theol. 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-62">Fragm. theol. 62</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-63">Fragm. theol. 63</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-64">Fragm. theol. 64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-65">Fragm. theol. 65</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-66">Fragm. theol. 66</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-67">Fragm. theol. 67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-68">Fragm. theol. 68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-69">Fragm. theol. 69</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-70">Fragm. theol. 70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-71">Fragm. theol. 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-72">Fragm. theol. 72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-73">Fragm. theol. 73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-74">Fragm. theol. 74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-75">Fragm. theol. 75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-76">Fragm. theol. 76</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-77">Fragm. theol. 77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-78">Fragm. theol. 78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-79">Fragm. theol. 79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-80">Fragm. theol. 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-81">Fragm. theol. 81</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-82">Fragm. theol. 82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-83">Fragm. theol. 83</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-84">Fragm. theol. 84</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-85">Fragm. theol. 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-86">Fragm. theol. 86</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-87">Fragm. theol. 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-88">Fragm. theol. 88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-89">Fragm. theol. 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-90">Fragm. theol. 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-91">Fragm. theol. 91</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-92">Fragm. theol. 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-93">Fragm. theol. 93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-94">Fragm. theol. 94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-95">Fragm. theol. 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-96">Fragm. theol. 96</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-97">Fragm. theol. 97</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-98">Fragm. theol. 98</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-99">Fragm. theol. 99</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-100">Fragm. theol. 100</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-101">Fragm. theol. 101</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-102">Fragm. theol. 102</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-103">Fragm. theol. 103</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-104">Fragm. theol. 104</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-105">Fragm. theol. 105</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-106">Fragm. theol. 106</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-107">Fragm. theol. 107</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-108">Fragm. theol. 108</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-109">Fragm. theol. 109</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-110">Fragm. theol. 110</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-111">Fragm. theol. 111</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-112">Fragm. theol. 112</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-113">Fragm. theol. 113</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-114">Fragm. theol. 114</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-115">Fragm. theol. 115</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-116">Fragm. theol. 116</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-117">Fragm. theol. 117</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-118">Fragm. theol. 118</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-119">Fragm. theol. 119</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-120">Fragm. theol. 120</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-121">Fragm. theol. 121</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-122">Fragm. theol. 122</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-123">Fragm. theol. 123</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-124">Fragm. theol. 124</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-125">Fragm. theol. 125</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-126">Fragm. theol. 126</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-127">Fragm. theol. 127</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-128">Fragm. theol. 128</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-129">Fragm. theol. 129</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-130">Fragm. theol. 130</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-131">Fragm. theol. 131</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-132">Fragm. theol. 132</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-133">Fragm. theol. 133</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-134">Fragm. theol. 134</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-135">Fragm. theol. 135</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-136">Fragm. theol. 136</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-137">Fragm. theol. 137</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-138">Fragm. theol. 138</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-139">Fragm. theol. 139</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-140">Fragm. theol. 140</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-141">Fragm. theol. 141</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-142">Fragm. theol. 142</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-143">Fragm. theol. 143</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-144">Fragm. theol. 144</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-145">Fragm. theol. 145</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-146">Fragm. theol. 146</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-147">Fragm. theol. 147</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-148">Fragm. theol. 148</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-149">Fragm. theol. 149</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-150">Fragm. theol. 150</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-151">Fragm. theol. 151</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-152">Fragm. theol. 152</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-153">Fragm. theol. 153</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-154">Fragm. theol. 154</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-155">Fragm. theol. 155</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-156">Fragm. theol. 156</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-157">Fragm. theol. 157</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-158">Fragm. theol. 158</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-159">Fragm. theol. 159</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-160">Fragm. theol. 160</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-161">Fragm. theol. 161</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-162">Fragm. theol. 162</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-163">Fragm. theol. 163</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-164">Fragm. theol. 164</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-165">Fragm. theol. 165</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-166">Fragm. theol. 166</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-167">Fragm. theol. 167</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-168">Fragm. theol. 168</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-169">Fragm. theol. 169</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-170">Fragm. theol. 170</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-171">Fragm. theol. 171</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-172">Fragm. theol. 172</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-173">Fragm. theol. 173</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-theol-174">Fragm. theol. 174</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-1">Fragm. var. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-2">Fragm. var. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-3">Fragm. var. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-4">Fragm. var. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-5">Fragm. var. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-6">Fragm. var. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-7">Fragm. var. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-8">Fragm. var. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-9">Fragm. var. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-10">Fragm. var. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-11">Fragm. var. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-12">Fragm. var. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-13">Fragm. var. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-14">Fragm. var. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-15">Fragm. var. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-16">Fragm. var. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-17">Fragm. var. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-18">Fragm. var. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-19">Fragm. var. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-20">Fragm. var. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-21">Fragm. var. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-22">Fragm. var. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-23">Fragm. var. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-24">Fragm. var. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-25">Fragm. var. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-26">Fragm. var. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-27">Fragm. var. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-28">Fragm. var. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-29">Fragm. var. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-30">Fragm. var. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-31">Fragm. var. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-32">Fragm. var. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-33">Fragm. var. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-34">Fragm. var. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-35">Fragm. var. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-36">Fragm. var. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-37">Fragm. var. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-38">Fragm. var. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-39">Fragm. var. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-40">Fragm. var. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-41">Fragm. var. 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Fragm-var-42">Fragm. var. 42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fragm. var. 42 in: Fk-1094</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Kt-18">Kt-18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-histor-7">Mss. histor. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-histor-10">Mss. histor. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-jur-1">Mss. jur. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-jur-2">Mss. jur. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-jur-3">Mss. jur. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-jur-4">Mss. jur. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-jur-5">Mss. jur. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-math--phys-1">Mss. math.-phys. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-math--phys-54">Mss. math.-phys. 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-Meckl-O-105">Mss. Meckl. O 105</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. Meckl.O 105</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-Meckl-O-123">Mss. Meckl. O 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. Meckl.O 123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-med-1">Mss. med. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-3">Mss. philol. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-18">Mss. philol. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-20">Mss. philol. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-22-a">Mss. philol. 22.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. philol. 22a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-27">Mss. philol. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-28">Mss. philol. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-28-a">Mss. philol. 28.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. philol. 28a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-42">Mss. philol. 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-70">Mss. philol. 70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-71">Mss. philol. 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-72">Mss. philol. 72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-73">Mss. philol. 73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-74">Mss. philol. 74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-81">Mss. philol. 81</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-84">Mss. philol. 84</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-86-a">Mss. philol. 86.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. philol. 86a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-100-2">Mss. philol. 100/2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-102">Mss. philol. 102</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-philol-102-a">Mss. philol. 102.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. philol. 102a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-1">Mss. theol. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-2">Mss. theol. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-3">Mss. theol. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-4">Mss. theol. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-5">Mss. theol. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-11">Mss. theol. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-12">Mss. theol. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-13">Mss. theol. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-14">Mss. theol. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-15">Mss. theol. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-21">Mss. theol. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-22">Mss. theol. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-23">Mss. theol. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-24">Mss. theol. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-25">Mss. theol. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-26">Mss. theol. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-27">Mss. theol. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-28">Mss. theol. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-29">Mss. theol. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-30">Mss. theol. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-31">Mss. theol. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-32">Mss. theol. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-33">Mss. theol. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-34">Mss. theol. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-35">Mss. theol. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-36">Mss. theol. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-37">Mss. theol. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-37-a">Mss. theol. 37.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. theol. 37a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-38">Mss. theol. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-39">Mss. theol. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-40">Mss. theol. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-41">Mss. theol. 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-42">Mss. theol. 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-43">Mss. theol. 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-44">Mss. theol. 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-45">Mss. theol. 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-45-a">Mss. theol. 45.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. theol. 45a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-46">Mss. theol. 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-47">Mss. theol. 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-47-a">Mss. theol. 47.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. theol. 47a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-48">Mss. theol. 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-49">Mss. theol. 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-50">Mss. theol. 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-50-a">Mss. theol. 50.a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mss. theol. 50a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-54">Mss. theol. 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-55">Mss. theol. 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-theol-56">Mss. theol. 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mss-var-30">Mss. var. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mus-Saec-XV-1">Mus. Saec. XV-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV.1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV.1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mus-Saec-XV-2">Mus. Saec. XV-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV.2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV.2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4050610-1">Rostock</settlement>
+                  <repository key="25968-8">Universitätsbibliothek Rostock</repository>
+                  <idno xml:id="_Mus-Saec-XV-3">Mus. Saec. XV-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mus. saec. XV.3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

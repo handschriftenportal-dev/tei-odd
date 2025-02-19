@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Paris_BNF/01_Paris_BNF.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044660-8">Paris</settlement>
+                  <repository key="5156217-0">Bibliothèque nationale de France</repository>
+                  <idno xml:id="_NAL-3035">NAL 3035</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nouvelle acquisition latine 3035</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>nouv. acq. lat. 3035</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044660-8">Paris</settlement>
+                  <repository key="5156217-0">Bibliothèque nationale de France</repository>
+                  <idno xml:id="_NAF-4530">NAF 4530</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nouv. acqu. fr. 4530</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Nouvelle acquisition française 4530</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>nouv. acq. fr. 4530</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>90017922,T</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

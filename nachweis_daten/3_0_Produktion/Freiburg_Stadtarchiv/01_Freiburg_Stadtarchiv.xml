@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Freiburg_Stadtarchiv/01_Freiburg_Stadtarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-117">B 1 Nr. 117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-118">B 1 Nr. 118</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 118</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-119">B 1 Nr. 119</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 119</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-120">B 1 Nr. 120</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 120</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-122">B 1 Nr. 122</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 122</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-123">B 1 Nr. 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 123</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-124">B 1 Nr. 124</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 124</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-125">B 1 Nr. 125</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 125</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-127">B 1 Nr. 127</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 127</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-129">B 1 Nr. 129</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-130">B 1 Nr. 130</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-131">B 1 Nr. 131</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-132">B 1 Nr. 132</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-133">B 1 Nr. 133</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 133</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-135">B 1 Nr. 135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-139">B 1 Nr. 139</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e α 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-150">B 1 Nr. 150</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-154">B 1 Nr. 154</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 154</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e â 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-155">B 1 Nr. 155</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 155</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-156">B 1 Nr. 156</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 156</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-157">B 1 Nr. 157</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e â 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-158">B 1 Nr. 158</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B 1 (H) Nr. 158</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-1">B 1 Nr. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Ha 1/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-3">B 1 Nr. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Ha 5(1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-96">B 1 Nr. 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH aß 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-98">B 1 Nr. 98</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: IX KH e a Adelh. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IX KH e a Adelh. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e α Adelh. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-107">B 1 Nr. 107</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: IX KH e 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IX KH e 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e α 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-108">B 1 Nr. 108</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: IX KH e 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IX KH e 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-115">B 1 Nr. 115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-121">B 1 Nr. 121</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-126">B 1 Nr. 126</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-128">B 1 Nr. 128</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-134">B 1 Nr. 134</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-136">B 1 Nr. 136</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-137">B 1 Nr. 137</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e α 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-138">B 1 Nr. 138</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e α 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-140">B 1 Nr. 140</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e α 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-147">B 1 Nr. 147</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-152">B 1 Nr. 152</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e i 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-159">B 1 Nr. 159</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e β 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-160">B 1 Nr. 160</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e k 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-161">B 1 Nr. 161</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e k 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-162">B 1 Nr. 162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e k 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-163">B 1 Nr. 163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: IX KH e k 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IX KH e k 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H IX KH e κ 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-194">B 1 Nr. 194</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-196">B 1 Nr. 196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-199">B 1 Nr. 199</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-200">B 1 Nr. 200</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-201">B 1 Nr. 201</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-202">B 1 Nr. 202</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-203">B 1 Nr. 203</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-204">B 1 Nr. 204</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H VIII Hb 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-330">B 1 Nr. 330</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-331">B 1 Nr. 331</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-332">B 1 Nr. 332</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-333">B 1 Nr. 333</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-334">B 1 Nr. 334</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-335">B 1 Nr. 335</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-336">B 1 Nr. 336</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-337">B 1 Nr. 337</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-338">B 1 Nr. 338</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-339">B 1 Nr. 339</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-340">B 1 Nr. 340</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-341">B 1 Nr. 341</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-342">B 1 Nr. 342</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-343">B 1 Nr. 343</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-344">B 1 Nr. 344</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-345">B 1 Nr. 345</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-346">B 1 Nr. 346</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-347">B 1 Nr. 347</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-348">B 1 Nr. 348</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-349">B 1 Nr. 349</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-350">B 1 Nr. 350</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-351">B 1 Nr. 351</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-1-Nr-352">B 1 Nr. 352</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-3-Nr-25">B 3 Nr. 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>O IX KH e α 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2022456-4">Stadtarchiv Freiburg im Breisgau</repository>
+                  <idno xml:id="_B-3-Nr-27">B 3 Nr. 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>O IX KH e ι 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

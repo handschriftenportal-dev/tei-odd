@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Muenchen_Bayerisches_Hauptstaatsarchiv/01_Muenchen_Bayerisches_Hauptstaatsarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Geheimes-Hausarchiv---Handschriften-Nr-100">(Geheimes Hausarchiv), Handschriften Nr. 100</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GHA, Handschrift Nr. 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Geheimes Hausarchiv), Handschriften Nr. 100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Geheimes-Hausarchiv---Handschriften-Nr-148">(Geheimes Hausarchiv), Handschriften Nr. 148</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GHA, Handschrift Nr. 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Geheimes Hausarchiv), Handschriften Nr. 148</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Geheimes-Hausarchiv---Kopien---Drucke---Tafeln-Nr-453">(Geheimes Hausarchiv), Kopien - Drucke - Tafeln Nr. 453</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GHA, Kopien Nr. 453</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Geheimes Hausarchiv), Kopien - Drucke - Tafeln Nr. 453</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Geheimes-Hausarchiv---Kopien---Drucke---Tafeln-Nr-454">(Geheimes Hausarchiv), Kopien - Drucke - Tafeln Nr. 454</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GHA, Kopien Nr. 454</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Geheimes Hausarchiv), Kopien - Drucke - Tafeln Nr. 454</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Geheimes-Hausarchiv---Kopien---Drucke---Tafeln-Nr-455">(Geheimes Hausarchiv), Kopien - Drucke - Tafeln Nr. 455</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GHA, Kopien Nr. 455</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Geheimes Hausarchiv), Kopien - Drucke - Tafeln Nr. 455</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Kriegsarchiv---A-XIX-171">(Kriegsarchiv), A XIX 171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Abt. IV Kriegsarchiv, A XIX Bund 171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Kriegsarchiv), A XIX 171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Kriegsarchiv---A-XIX-171--Prod-ad-16">(Kriegsarchiv), A XIX 171, Prod. ad 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Abt. IV Kriegsarchiv, A XIX Bund 171 Prod. ad 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Kriegsarchiv), A XIX 171, Prod. ad 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Fragmentensammlung-vorl-Nr-12">Fragmentensammlung vorl. Nr. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Jesuiten Nr. 101 in Fragmente 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Fragmentensammlung-vorl-Nr-44">Fragmentensammlung vorl. Nr. 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Passau St. Nikola 72 in Fragmente 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Generaldirektion-Bibliotheken-665">Generaldirektion Bibliotheken 665</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B-Reg. 120 Fasz. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Generaldirektion-Bibliotheken-972">Generaldirektion Bibliotheken 972</idno>
+                  <altIdentifier type="alternative">
+                     <idno>B-Reg. 161 Fasz. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_GL-Fasz-32-70">GL Fasz. 32/70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_GR-Fasz-643-82">GR Fasz. 643/82</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GR Fasz. 643/82/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>GR 643/82/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>GR 643/82/3; KL Fasz. 670/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_HL-Freising-292">HL Freising 292</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_HL-Passau-852">HL Passau 852</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-1856">Hof- und Staatsbibliothek vorläufige Nr. 1856</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B VII(Ludwig I. - Donatio Ludovici, Nr. 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hof- und Staatsbibliothek vorläufige Nr. 1856 (Nr. 25)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B VII(Ludwig I. - Donatio Ludovici, Nr. 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hof- und Staatsbibliothek vorläufige Nr. 1856 (Nr. 26)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-1900">Hof- und Staatsbibliothek vorläufige Nr. 1900</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B VII(König Ludwig II.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-2206-">Hof- und Staatsbibliothek vorläufige Nr. 2206 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hof- und Staatsbibliothek vorläufige Nr. 2206</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-2217">Hof- und Staatsbibliothek vorläufige Nr. 2217</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B 82 Nr. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-2342-">Hof- und Staatsbibliothek vorläufige Nr. 2342 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B 199 Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hof- und Staatsbibliothek vorläufige Nr. 2342</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-2387-">Hof- und Staatsbibliothek vorläufige Nr. 2387 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B 244 Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hof- und Staatsbibliothek vorläufige Nr. 2387</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-384">Hof- und Staatsbibliothek vorläufige Nr. 384</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B I Höglwörth ad Nr. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Hof--und-Staatsbibliothek-vorläufige-Nr-426">Hof- und Staatsbibliothek vorläufige Nr. 426</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A-Reg. B I Schäftlarn</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_HR-I-Fasz-293-4--I">HR I Fasz. 293/4, I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Au-a-Inn-33">KL Au a. Inn 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Au 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-166">KL Bayerische Franziskanerprovinz 166</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Bayer. Franziskanerprovinz 166</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-269">KL Bayerische Franziskanerprovinz 269</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Bayer. Franziskanerprovinz 269</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-277">KL Bayerische Franziskanerprovinz 277</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Bayer. Franziskanerprovinz 277</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-358">KL Bayerische Franziskanerprovinz 358</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Bayer. Franziskanerprovinz 358</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-197">KL Bayerische Franziskanerprovinz 197</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-199">KL Bayerische Franziskanerprovinz 199</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Bayerische-Franziskanerprovinz-287">KL Bayerische Franziskanerprovinz 287</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Fasz-280-46">KL Fasz. 280/46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Fasz-331-9">KL Fasz. 331/9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Fasz-444-18">KL Fasz. 444/18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Fasz-448-7">KL Fasz. 448/7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Kapuziner-9">KL Kapuziner 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Landshut-St-Martin-u-Kastulus-145--Akt-4">KL Landshut St. Martin u. Kastulus 145, Akt 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Landshut, St. Martin u. Castulus 145, Akt 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_KL-Schäftlarn-12-a">KL Schäftlarn 12 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kloster-St-Nikola-Passau-Amtsbücher-und-Akten-19">Kloster St. Nikola Passau Amtsbücher und Akten 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Passau/St. Nikola 145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Äußeres-Archiv-3904">Kurbayern Äußeres Archiv 3904</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Äußeres Archiv 3904</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Äußeres-Archiv-4889-1">Kurbayern Äußeres Archiv 4889/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Ramsau 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Geheimer-Rat-Archivalien-863">Kurbayern Geheimer Rat Archivalien 863</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Aldersbach 72, Bl. 62r-73r</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-1306">Kurbayern Landesdirektion von Bayern in Klostersachen 1306</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Aldersbach 75</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-1620">Kurbayern Landesdirektion von Bayern in Klostersachen 1620</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Altomünster 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-1779">Kurbayern Landesdirektion von Bayern in Klostersachen 1779</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 51/12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-1936">Kurbayern Landesdirektion von Bayern in Klostersachen 1936</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Asbach 77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-2373">Kurbayern Landesdirektion von Bayern in Klostersachen 2373</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Benediktbeuern 142 1/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-2717">Kurbayern Landesdirektion von Bayern in Klostersachen 2717</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Beuerberg 145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-2775">Kurbayern Landesdirektion von Bayern in Klostersachen 2775</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 136/19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-2857">Kurbayern Landesdirektion von Bayern in Klostersachen 2857</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GL 667</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-2880">Kurbayern Landesdirektion von Bayern in Klostersachen 2880</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Dießen 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-3014">Kurbayern Landesdirektion von Bayern in Klostersachen 3014</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GL 718, ad Nr. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-3024">Kurbayern Landesdirektion von Bayern in Klostersachen 3024</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Dietramszell 39, Bl. 4-36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-3410">Kurbayern Landesdirektion von Bayern in Klostersachen 3410</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Frauenzell 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-3486">Kurbayern Landesdirektion von Bayern in Klostersachen 3486</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fürstenfeld 4 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-3659">Kurbayern Landesdirektion von Bayern in Klostersachen 3659</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fürstenzell 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-3795">Kurbayern Landesdirektion von Bayern in Klostersachen 3795</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Gars 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-4075">Kurbayern Landesdirektion von Bayern in Klostersachen 4075</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Herrenchiemsee 110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-4652">Kurbayern Landesdirektion von Bayern in Klostersachen 4652</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Mallersdorf 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-4747">Kurbayern Landesdirektion von Bayern in Klostersachen 4747</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Metten 3 1/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-4871">Kurbayern Landesdirektion von Bayern in Klostersachen 4871</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GL Fasz. 2521/121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-4897">Kurbayern Landesdirektion von Bayern in Klostersachen 4897</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GR Fasz. 788/9, ad Prod. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 409/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-5335">Kurbayern Landesdirektion von Bayern in Klostersachen 5335</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 351/28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-5550">Kurbayern Landesdirektion von Bayern in Klostersachen 5550</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 539/18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>KL Niederaltaich 46 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-5944">Kurbayern Landesdirektion von Bayern in Klostersachen 5944</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Niederviehbach 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-6209">Kurbayern Landesdirektion von Bayern in Klostersachen 6209</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Polling 223</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-6503">Kurbayern Landesdirektion von Bayern in Klostersachen 6503</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Prüll 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-6609">Kurbayern Landesdirektion von Bayern in Klostersachen 6609</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Raitenhaslach 165</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-6785">Kurbayern Landesdirektion von Bayern in Klostersachen 6785</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Rohr 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-6869">Kurbayern Landesdirektion von Bayern in Klostersachen 6869</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Rott 99</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-7380">Kurbayern Landesdirektion von Bayern in Klostersachen 7380</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL St. Salvator 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-7570">Kurbayern Landesdirektion von Bayern in Klostersachen 7570</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 843/13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-7748">Kurbayern Landesdirektion von Bayern in Klostersachen 7748</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 649/7 a Akt 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8057">Kurbayern Landesdirektion von Bayern in Klostersachen 8057</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Fasz. 670/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8128">Kurbayern Landesdirektion von Bayern in Klostersachen 8128</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Seeon 72 1/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8322">Kurbayern Landesdirektion von Bayern in Klostersachen 8322</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Steingaden 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8580">Kurbayern Landesdirektion von Bayern in Klostersachen 8580</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Tegernsee 283, Nr. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>KL Tegernsee 283, Nr. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8781">Kurbayern Landesdirektion von Bayern in Klostersachen 8781</idno>
+                  <altIdentifier type="alternative">
+                     <idno>GL Fasz. 4086/82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8875">Kurbayern Landesdirektion von Bayern in Klostersachen 8875</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Formbach 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-9074">Kurbayern Landesdirektion von Bayern in Klostersachen 9074</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Weltenburg 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-9165">Kurbayern Landesdirektion von Bayern in Klostersachen 9165</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Wessobrunn 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-9315">Kurbayern Landesdirektion von Bayern in Klostersachen 9315</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Weyarn 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-9473">Kurbayern Landesdirektion von Bayern in Klostersachen 9473</idno>
+                  <altIdentifier type="alternative">
+                     <idno>KL Windberg 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_MK-20370">MK 20370</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Regensburger-Reichstagsakten-Fasc-1">Regensburger Reichstagsakten Fasc. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_-Geheimes-Hausarchiv---Handschrift-317">(Geheimes Hausarchiv), Handschrift 317</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bayerisches Hauptstaatsarchiv (Geheimes Hausarchiv), Handschrift 317</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-8544">Kurbayern Landesdirektion von Bayern in Klostersachen 8544</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Spezialkommission in Klostersachen 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BayHStA, Kurbayern Landesdirektion von Bayern in Klostersachen 8544</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-5419">Kurbayern Landesdirektion von Bayern in Klostersachen 5419</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Spezialkommission in Klostersachen 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Regierung, Kammer der Finanzen 674</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BayHStA, Kurbayern Landesdirektion von Bayern in Klostersachen 5419</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Kurbayern-Landesdirektion-von-Bayern-in-Klostersachen-6403">Kurbayern Landesdirektion von Bayern in Klostersachen 6403</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Spezialkommission in Klostersachen 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BayHStA, Kurbayern Landesdirektion von Bayern in Klostersachen 6403</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Fürstentum-Obere-Pfalz--Regierung---Geistliche-Sachen-6382">Fürstentum Obere Pfalz, Regierung - Geistliche Sachen 6382</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2005486-5">Bayerisches Hauptstaatsarchiv</repository>
+                  <idno xml:id="_Fürstentum-Obere-Pfalz--Regierung---Geistliche-Sachen-6378">Fürstentum Obere Pfalz, Regierung - Geistliche Sachen 6378</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

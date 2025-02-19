@@ -1,0 +1,239 @@
+@prefix hspv-captureType: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/> .
+@prefix hspv-completeness: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/> .
+@prefix hspv-digitizationType: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/> .
+@prefix hspv-sourceType: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitization> a skos:ConceptScheme ;
+    skos:definition "Begriffssystem zur Gruppierung von Digitalisierungsbegriffssystemen"@de,
+        "Concept scheme for grouping of digitization related concept schemes."@en ;
+    skos:notation "digitization" ;
+    skos:prefLabel "Digitalisierung"@de,
+        "Digitization"@en .
+
+<https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> a skos:ConceptScheme ;
+    skos:definition "Begriffssystem zur Beschreibung der Art der Digitalisierung."@de,
+        "Concept scheme to describe the type of digitization."@en ;
+    skos:hasTopConcept hspv-digitizationType:bw,
+        hspv-digitizationType:color,
+        hspv-digitizationType:greyscale,
+        hspv-digitizationType:microscope,
+        hspv-digitizationType:other,
+        hspv-digitizationType:spectral,
+        hspv-digitizationType:thermo,
+        hspv-digitizationType:threeD ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitization> ;        
+    skos:notation "digitizationType" ;
+    skos:prefLabel "Art der Digitalisierung"@de,
+        "Digitization Type"@en .
+
+hspv-digitizationType:color a skos:Concept ;
+    skos:definition "Digitalisierung in Farbe."@de,
+        "Digitization in color"@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "color" ;
+    skos:prefLabel "Farbe"@de,
+        "Color"@en .
+
+hspv-digitizationType:greyscale a skos:Concept ;
+    skos:definition "Digitalisierung in Graustufen."@de,
+        "Digitization in greyscale"@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "greyscale" ;
+    skos:prefLabel "Graustufen"@de,
+        "Greyscale"@en .
+
+hspv-digitizationType:bw a skos:Concept ;
+    skos:definition "Digitalisierung in Schwarzweiß."@de,
+        "Digitization in black-and-white"@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "bw" ;
+    skos:prefLabel "Schwarzweiß"@de,
+        "Black-and-white"@en .
+
+hspv-digitizationType:thermo a skos:Concept ;
+    skos:definition "Thermographieaufnahme."@de,
+        "Thermography image."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "thermo" ;
+    skos:prefLabel "Thermo"@de,
+        "Thermo"@en .
+
+hspv-digitizationType:spectral a skos:Concept ;
+    skos:definition "Spektralaufnahme."@de,
+        "Spectral recording."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "spectral" ;
+    skos:prefLabel "Spektral"@de,
+        "Spectral"@en .
+
+hspv-digitizationType:microscope a skos:Concept ;
+    skos:definition "Mikroskopaufnahme."@de,
+        "Microscope image."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "microscope" ;
+    skos:prefLabel "Mikroskop"@de,
+        "Microscope"@en .
+
+hspv-digitizationType:threeD a skos:Concept ;
+    skos:definition "3D-Digitalisierung."@de,
+        "Digitization in 3D."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "threeD" ;
+    skos:prefLabel "3D"@de,
+        "3D"@en .
+
+hspv-digitizationType:other a skos:Concept ;
+    skos:definition "Digitalisierung mit einer anderen Aufnahmetechnik."@de,
+        "Digitization using other technology."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType> ;
+    skos:notation "other" ;
+    skos:prefLabel "Sonstige"@de,
+        "Other"@en .
+
+<https://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType> a skos:ConceptScheme ; 
+    skos:definition "Begriffssystem zur Beschreibung der Art der Digitalisierungsgrundlage (Original oder Reproduktion)."@de,
+        "Concept scheme to describe the source type (original or reproduction)."@en ;
+    skos:hasTopConcept hspv-sourceType:original,
+        hspv-sourceType:reproduction ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitization> ;
+    skos:notation "sourceType" ;
+    skos:prefLabel "Art der Quelle"@de,
+        "Source Type"@en .    
+
+hspv-sourceType:original a skos:Concept ;
+    skos:definition "Digitalisierung vom Original."@de,
+        "Digitization of original"@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType> ;
+    skos:notation "original" ;
+    skos:prefLabel "Original"@de,
+        "Original"@en .
+
+hspv-sourceType:reproduction a skos:Concept ;
+    skos:definition "Digitalisierung von Reproduktion."@de,
+        "Digitization of reproduction."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType> ;
+    skos:notation "reproduction" ;
+    skos:prefLabel "Reproduktion"@de,
+        "reproduction"@en .
+
+<https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> a skos:ConceptScheme ;
+    skos:definition "Begriffssystem zur Beschreibung der Vollständigkeit einer Digitalisierung."@de,
+        "Concept scheme to describe the completeness of a digitization."@en ;
+    skos:hasTopConcept hspv-completeness:complete,
+        hspv-completeness:partial ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitization> ;        
+    skos:notation "completeness" ;
+    skos:prefLabel "Vollständigkeit"@de,
+        "Completeness"@en .    
+
+hspv-completeness:complete a skos:Concept ;
+    skos:definition "Vollständige Digitalisierung der Vorlage."@de,
+         "Complete digitization of the source."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:narrower hspv-completeness:complete_bookblock_cover,
+        hspv-completeness:complete_bookblock_cover_edges,
+        hspv-completeness:complete_bookblock_only,
+        hspv-completeness:complete_bookblock_paste-down ;
+    skos:notation "complete" ;
+    skos:prefLabel "Vollständig"@de,
+        "Complete"@en .
+
+hspv-completeness:complete_bookblock_only a skos:Concept ;
+    skos:broader hspv-completeness:complete ;
+    skos:definition "Vollständige Digitalisierung der Vorlage (nur Buchblock)."@de,
+        "Complete digitization of the source (bookblock only)."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:notation "complete_bookblock_only" ;
+    skos:prefLabel "Vollständig (nur Buchblock)"@de,
+        "Complete (bookblock only)"@en .
+
+hspv-completeness:complete_bookblock_paste-down a skos:Concept ;
+    skos:broader hspv-completeness:complete ;
+    skos:definition "Vollständige Digitalisierung der Vorlage (Buchblock und Spiegel)."@de,
+        "Complete digitization of the source (bookblock and paste-down)."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:notation "complete_bookblock_paste-down" ;
+    skos:prefLabel "Vollständig (Buchblock und Spiegel)"@de,
+        "Complete (bookblock and paste-down)"@en .
+
+hspv-completeness:complete_bookblock_cover a skos:Concept ;
+    skos:broader hspv-completeness:complete ;
+    skos:definition "Vollständige Digitalisierung der Vorlage (Buchblock und Deckel)."@de,
+        "Complete digitization of the source (bookblock and cover)."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:notation "complete_bookblock_cover" ;
+    skos:prefLabel "Vollständig (Buchblock und Deckel)"@de,
+        "Complete (bookblock and cover)"@en .
+
+hspv-completeness:complete_bookblock_cover_edges a skos:Concept ;
+    skos:broader hspv-completeness:complete ;
+    skos:definition "Vollständige Digitalisierung der Vorlage (Buchblock, Deckel und Schnitte)."@de,
+        "Complete digitization of the source (bookblock, cover and edges)."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:notation "complete_bookblock_cover_edges" ;
+    skos:prefLabel "Vollständig (Buchblock, Deckel und Schnitte)"@de,
+        "Complete (bookblock, cover and edges)"@en .
+
+hspv-completeness:partial a skos:Concept ;
+    skos:definition "Teilweise Digitalisierung der Vorlage."@de,
+        "Partial digitization of the source."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:narrower hspv-completeness:partial_coherent_pages,
+        hspv-completeness:partial_example_pages ;
+    skos:notation "partial" ;
+    skos:prefLabel "Teilweise"@de,
+        "Partial"@en .
+
+hspv-completeness:partial_example_pages a skos:Concept ;
+    skos:broader hspv-completeness:partial ;
+    skos:definition "Teilweise Digitalisierung der Vorlage (Beispielseiten)."@de,
+        "Partial digitization of the source (example pages)"@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:notation "partial_example_pages" ;
+    skos:prefLabel "Teilweise (Beispielseiten)"@de,
+        "Partial (example pages)"@en .
+
+hspv-completeness:partial_coherent_pages a skos:Concept ;
+    skos:broader hspv-completeness:partial ;
+    skos:definition "Teilweise Digitalisierung der Vorlage (zusammenhängende Seiten)."@de,
+        "Partial digitization of the source (coherent pages)"@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness> ;
+    skos:notation "partial_coherent_pages" ;
+    skos:prefLabel "Teilweise (zusammenhängende Seiten)"@de,
+        "Partial (coherent pages)"@en .
+
+<https://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType> a skos:ConceptScheme ;    
+    skos:definition "Begriffssystem zur Beschreibung der Art der Erfassung."@de,
+        "Concept scheme to describe the capture type."@en ;
+    skos:hasTopConcept hspv-captureType:detail,
+        hspv-captureType:opening,
+        hspv-captureType:singlePage ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/digitization> ;        
+    skos:notation "captureType" ;
+    skos:prefLabel "Art der Erfassung"@de,
+        "Capture Type"@en .
+
+hspv-captureType:singlePage a skos:Concept ;
+    skos:definition "Einzelseitenaufnahme."@de,
+        "Single page recording."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType> ;
+    skos:notation "singlePage" ;
+    skos:prefLabel "Einzelseite"@de,
+        "Single Page"@en .
+    
+hspv-captureType:opening a skos:Concept ;
+    skos:definition "Aufnahme des geöffneten, aufgeschlagenen Buchs."@de,
+        "Recording of the open book."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType> ;
+    skos:notation "opening" ;
+    skos:prefLabel "Öffnung"@de,
+        "Opening"@en .
+
+hspv-captureType:detail a skos:Concept ;
+    skos:definition "Detailaufnahme."@de,
+        "Recording of a detail."@en ;
+    skos:inScheme <https://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType> ;
+    skos:notation "detail" ;
+    skos:prefLabel "Detail"@de,
+        "Detail"@en .

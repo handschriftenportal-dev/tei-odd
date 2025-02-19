@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>staatsbibliothek-berlin.maven</groupId>
+  <artifactId>bom-remove-plugin</artifactId>
+  <packaging>maven-plugin</packaging>
+  <version>1.0.11</version>
+  <name>Staatsbibliothek zu Berlin - Maven Plugin ${project.artifactId}</name>
+  <description>maven-plugin to remove BOMs from selected files during copy</description>
+
+  <properties>
+    <java.version>11</java.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+    <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+    <maven-plugin-plugin.version>3.9.0</maven-plugin-plugin.version>
+    <junit-jupiter.version>5.10.0</junit-jupiter.version>
+    <maven-core.version>3.9.4</maven-core.version>
+    <jacoco.core.version>0.8.10</jacoco.core.version>
+    <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
+    <maven-failsafe-plugin.version>3.1.2</maven-failsafe-plugin.version>
+    <maven-install-plugin.version>3.1.1</maven-install-plugin.version>
+    <maven-release-plugin.version>3.0.1</maven-release-plugin.version>
+    <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+  </properties>
+
+  <developers>
+    <developer>
+      <name>Piotr Czarnecki</name>
+      <email>piotr.czarnecki@sbb.spk-berlin.de</email>
+      <organization>Staatsbibliothek zu Berlin</organization>
+      <organizationUrl>https://www.staatsbibliothek-berlin.de</organizationUrl>
+    </developer>
+    <developer>
+      <name>Constantijn Blondel</name>
+      <email>Constantijn.Blondel@sbb.spk-berlin.de</email>
+      <organization>Staatsbibliothek zu Berlin</organization>
+      <organizationUrl>https://www.staatsbibliothek-berlin.de</organizationUrl>
+    </developer>
+    <developer>
+      <name>Konrad Eichstädt</name>
+      <email>Konrad.Eichstaedt@sbb.spk-berlin.de</email>
+      <organization>Staatsbibliothek zu Berlin</organization>
+      <organizationUrl>https://www.staatsbibliothek-berlin.de</organizationUrl>
+    </developer>
+    <developer>
+      <name>Marten Christoph</name>
+      <email>Christoph.Marten@sbb.spk-berlin.de</email>
+      <organization>Staatsbibliothek zu Berlin</organization>
+      <organizationUrl>https://www.staatsbibliothek-berlin.de</organizationUrl>
+    </developer>
+  </developers>
+
+
+
+  <profiles>
+    <!-- Default profile. -->
+    <profile>
+      <id>dev</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <sign.package>false</sign.package>
+        <maven.javadoc.skip>false</maven.javadoc.skip>
+        <maven.site.skip>true</maven.site.skip>
+        <maven.source.skip>false</maven.source.skip>
+        <skipITs>true</skipITs>
+      </properties>
+    </profile>
+    <!-- Profile for the CI server. -->
+    <profile>
+      <id>integration</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <sign.package>false</sign.package>
+        <maven.javadoc.skip>false</maven.javadoc.skip>
+        <maven.site.skip>false</maven.site.skip>
+        <skipITs>false</skipITs>
+      </properties>
+
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.jacoco</groupId>
+              <artifactId>jacoco-maven-plugin</artifactId>
+              <version>${jacoco.core.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-failsafe-plugin</artifactId>
+              <version>${maven-failsafe-plugin.version}</version>
+              <configuration>
+                <skipITs>${skipITs}</skipITs>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>${maven-surefire-plugin.version}</version>
+              <configuration>
+                <reportsDirectory>${project.build.directory}/test-reports</reportsDirectory>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-javadoc-plugin</artifactId>
+              <version>${maven-javadoc-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <artifactId>maven-release-plugin</artifactId>
+              <groupId>org.apache.maven.plugins</groupId>
+              <version>${maven-release-plugin.version}</version>
+              <configuration>
+                <tagNameFormat>v@{project.version}</tagNameFormat>
+                <autoVersionSubmodules>true</autoVersionSubmodules>
+                <releaseProfiles>releases</releaseProfiles>
+              </configuration>
+            </plugin>
+            <plugin>
+              <artifactId>maven-install-plugin</artifactId>
+              <groupId>org.apache.maven.plugins</groupId>
+              <version>${maven-install-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <artifactId>maven-resources-plugin</artifactId>
+              <configuration>
+                <delimiters>
+                  <delimiter>@</delimiter>
+                </delimiters>
+                <encoding>UTF-8</encoding>
+              </configuration>
+              <groupId>org.apache.maven.plugins</groupId>
+              <version>${maven-resources-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <artifactId>maven-source-plugin</artifactId>
+              <version>${maven-source-plugin.version}</version>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+    <profile>
+      <id>deb</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <skipITs>true</skipITs>
+      </properties>
+    </profile>
+  </profiles>
+
+
+
+
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-plugin-plugin</artifactId>
+        <version>${maven-plugin-plugin.version}</version>
+        <configuration>
+          <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
+        </configuration>
+        <executions>
+          <execution>
+            <id>mojo-descriptor</id>
+            <goals>
+              <goal>descriptor</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>help-goal</id>
+            <goals>
+              <goal>helpmojo</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+      <version>${maven-core.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-artifact</artifactId>
+      <version>${maven-core.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>${maven-core.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-model</artifactId>
+      <version>${maven-core.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>${maven-plugin-plugin.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>${maven-plugin-plugin.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <developerConnection>scm:git:https://code.dev.sbb.berlin/HSP/maven-sbb.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus3-releases</id>
+      <url>https://artefakt.dev.sbb.berlin/repository/sbb-maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus3-snapshots</id>
+      <url>https://artefakt.dev.sbb.berlin/repository/sbb-maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>

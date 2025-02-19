@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:hspv="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://www.ldf.fi/service/rdf-serializer/">
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/">
+    <dc:title xml:lang="de">HSP-Vokabular</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/">
+    <dc:title xml:lang="en">HSP vocabulary</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/">
+    <dc:date>2024-12-06</dc:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/">
+    <dc:description xml:lang="de">Vokabular für im Knowledge-Graph des Handschriftenportals verwendete Entitäten zur domänenspezifischen Ergänzung etablierter Vokabulare</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/">
+    <dc:description xml:lang="en">Domain specific vocabulary for the Handschriftenportal Knowledge Graph</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:isDefindedBy rdf:resource="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:label xml:lang="de">hat notwendiges Merkmal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:label xml:lang="en">has key feature</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:comment xml:lang="de">Verknüpft ein oder mehrere Thesaurusbegriffe, die notwendige Merkmale eines Fachbegriffs sind.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:comment xml:lang="en">Assigns one or several thesaurus terms which are necessary features of a specialist term</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasKeyFeature">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:isDefindedBy rdf:resource="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:label xml:lang="de">hat ein notwendiges Merkmal aus Gruppe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:label xml:lang="en">has one key feature from</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:comment xml:lang="de">Verknüpft eine Gruppe alternativer Thesaurusbegriffe, von denen genau eines ein notwendiges Merkmal eines Fachbegriffs ist.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:comment xml:lang="en">Assigns a group of alternative thesaurus terms, of which exactly one term is a necessary feature of a specialist term</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:range rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasOneKeyFeatureFrom">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:isDefindedBy rdf:resource="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:label xml:lang="de">hat einige notwendige Merkmale aus Gruppe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:label xml:lang="en">has some key features from</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:comment xml:lang="de">Verknüpft eine Gruppe alternativer Thesaurusbegriffe, von denen eines oder mehrere notwendige Merkmale eines Fachbegriffs sind.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:comment xml:lang="en">Assigns a group of alternative thesaurus terms, some of which are necessary features of a specialst term</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:range rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasSomeKeyFeaturesFrom">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:isDefindedBy rdf:resource="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:label xml:lang="de">hat zusätzliches Merkmal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:label xml:lang="en">has additional feature</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:comment xml:lang="de">Verknüpft ein oder mehrere Thesaurusbegriffe, die häufig auftretende Merkmale eines Fachbegriffs sind.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:comment xml:lang="en">Assigns one ore several thesaurus terms which are not necessary, but common features of a specialist term</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/hasAdditionalFeature">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+  </rdf:Description>
+</rdf:RDF>
+

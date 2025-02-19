@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Berlin_Kupferstichkabinett/01_Berlin_Kupferstichkabinett.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-A-1">Cod. 77 A 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 A 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-A-2">Cod. 77 A 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 A 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 582</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-A-3">Cod. 77 A 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 A 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 406</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-A-10">Cod. 77 A 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 A 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-B-1">Cod. 77 B 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 B 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 406b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-B-16">Cod. 77 B 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 B 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 210</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-B-17">Cod. 77 B 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 B 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 268</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-B-18">Cod. 77 B 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 B 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 268b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-77-B-19">Cod. 77 B 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 77 B 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 657</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-A-5">Cod. 78 A 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 A 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 549</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-A-7">Cod. 78 A 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 A 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 545</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-A-9">Cod. 78 A 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 A 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 119</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-A-10">Cod. 78 A 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 A 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 626</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-A-19b">Cod. 78 A 19b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 A 19b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 228</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-12">Cod. 78 B 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 315</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-13">Cod. 78 B 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 437</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-14">Cod. 78 B 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 316</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-17">Cod. 78 B 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-18">Cod. 78 B 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-19">Cod. 78 B 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 587</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-20">Cod. 78 B 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 325</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-21">Cod. 78 B 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 458</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-22">Cod. 78 B 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-23">Cod. 78 B 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 241</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-B-26">Cod. 78 B 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 B 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 543</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-1">Cod. 78 C 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-2">Cod. 78 C 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-3">Cod. 78 C 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 551</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-5">Cod. 78 C 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-6">Cod. 78 C 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-7">Cod. 78 C 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-8">Cod. 78 C 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-9">Cod. 78 C 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-10">Cod. 78 C 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-11">Cod. 78 C 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-12">Cod. 78 C 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-16">Cod. 78 C 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 544</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-18">Cod. 78 C 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-21">Cod. 78 C 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-22">Cod. 78 C 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 496</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-23">Cod. 78 C 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 628</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-24">Cod. 78 C 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-25">Cod. 78 C 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-26">Cod. 78 C 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-27">Cod. 78 C 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-28">Cod. 78 C 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 451</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-31">Cod. 78 C 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-32">Cod. 78 C 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 223</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-C-33">Cod. 78 C 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 C 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 133</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-5">Cod. 78 D 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 353</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-6">Cod. 78 D 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-7">Cod. 78 D 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-8">Cod. 78 D 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-9">Cod. 78 D 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-10">Cod. 78 D 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-11">Cod. 78 D 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 501</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-12">Cod. 78 D 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 556</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-13">Cod. 78 D 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 297</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-14">Cod. 78 D 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-17">Cod. 78 D 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 443</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-D-19">Cod. 78 D 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 D 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. ham. 439</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-E-3">Cod. 78 E 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 E 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-E-4">Cod. 78 E 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 E 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 651</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-78-F-1">Cod. 78 F 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 78 F 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-79-A-17">Cod. 79 A 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) 79 A 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4005728-8">Berlin</settlement>
+                  <repository key="2016864-0">Kupferstichkabinett (Staatliche Museen zu Berlin - Preußischer Kulturbesitz)</repository>
+                  <idno xml:id="_Cod-Botticelli">Cod. Botticelli</idno>
+                  <altIdentifier type="alternative">
+                     <idno>(K.-K.) Botticelli</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Ham. 201</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

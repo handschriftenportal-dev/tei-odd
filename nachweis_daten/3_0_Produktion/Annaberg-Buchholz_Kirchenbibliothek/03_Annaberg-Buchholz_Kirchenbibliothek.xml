@@ -1,0 +1,2757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Annaberg-Buchholz_Kirchenbibliothek/03_Annaberg-Buchholz_Kirchenbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 6, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000051101/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-530790"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0511/0000051101/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 7, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000051126/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-531528"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0511/0000051126/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 12, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000051470/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-533708"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0514/0000051470/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 13, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000051471/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-533711"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0514/0000051471/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 14, Flügelfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055232/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571452"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055232/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 20, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055288/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571447"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055288/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 21, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055234/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571472"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055234/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 21, Spiegel vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055230/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571429"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055230/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 21, Spiegel hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055231/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571430"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055231/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 27, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054812/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-564194"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054812/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 32, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055235/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570834"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055235/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 35, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054815/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-564207"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054815/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 36, Flügelfalz vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054832/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567342"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054832/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 36, Flügelfalz hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054833/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567360"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054833/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 38, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054816/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-564216"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054816/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 39, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055177/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567173"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055177/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 46, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055240/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570864"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055240/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 46, fliegendes Blatt vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055248/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571578"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055248/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 46, fliegendes Blatt hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055249/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571002"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055249/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 47, Spiegel und fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055172/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570768"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055172/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 52, Flügelfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055236/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571018"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055236/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 52, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055178/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570879"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055178/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 54, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054819/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567185"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054819/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 57, fliegendes Blatt vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055192/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571020"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055192/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 63, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054820/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567193"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054820/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 64:3, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055237/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571499"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055237/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 64:4, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054821/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567206"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054821/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 65:1, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055187/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570978"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055187/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 65:5, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055185/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570931"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055185/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 65:6, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055183/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570916"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055183/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 66, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055182/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570813"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055182/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 69, Ansetzfalz vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055179/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570881"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055179/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 69, Ansetzfalz hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055180/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570892"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055180/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 73, Ansetzfalz vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054822/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567222"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054822/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 73, Ansetzfalz hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054823/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567232"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054823/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 75, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054824/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567243"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054824/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 83, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054827/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567210"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054827/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 84:6a, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055193/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571042"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055193/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 87:1, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055166/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570694"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055166/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 89, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054848/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567549"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054848/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 91:2, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055195/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571060"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055195/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 92, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054826/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567278"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054826/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 94:1, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055196/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571070"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055196/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 113, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055188/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567280"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055188/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 115:1, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054828/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567297"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054828/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 115:2, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054849/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567555"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054849/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 117, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055223/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571166"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055223/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 118, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055197/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571086"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055197/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 120, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054829/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567300"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054829/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 123, fliegendes Blatt vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054831/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567326"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054831/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 123, fliegendes Blatt hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054830/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567312"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054830/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 125, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055198/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571093"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055198/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 130, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054835/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567333"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054835/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 131, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055199/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571106"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055199/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 136, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055200/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571110"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055200/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 138, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054838/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567350"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054838/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 141, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054839/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567414"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054839/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 142:1, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055202/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571125"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055202/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 148, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054841/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567421"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054841/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 153, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055201/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571137"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055201/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 160, Flügelfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054837/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567404"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054837/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 161, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055203/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571141"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055203/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 162, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055224/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571369"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055224/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 163, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054851/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567466"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054851/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 167, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055225/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571377"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055225/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 169, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054844/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567495"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054844/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 170, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054834/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567385"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054834/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 171:1, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054845/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567508"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054845/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 171:2, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054852/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567526"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054852/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 175, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055226/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571381"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055226/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 178, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055227/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571395"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055227/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 182, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055228/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571408"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055228/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 183a, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054836/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567391"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054836/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 184, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054853/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567585"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054853/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 186, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055164/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570681"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055164/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 192, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054846/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567516"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054846/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 224, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054847/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567535"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054847/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1140, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054850/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567562"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054850/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1146, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055165/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-569744"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055165/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1147, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054970/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567599"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0549/0000054970/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1155, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000054854/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-567575"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054854/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1165, Ansetzfalz vorn</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055238/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571502"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055238/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1165, Ansetzfalz hinten</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055239/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571518"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055239/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1172, fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055229/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-571416"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055229/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1174, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055167/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570711"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055167/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1241, Ansetzfalz</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055169/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570733"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055169/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 1252, Spiegel und fliegendes Blatt</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055170/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570745"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055170/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-01-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4085813-3">Annaberg-Buchholz (Erzgebirge)</settlement>
+                  <repository key="1026301912">Evangelisch-Lutherische Kirchgemeinde Annaberg-Buchholz, Kirchenbibliothek</repository>
+                  <idno>C 26, Spiegel</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000055171/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0026-570757"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0551/0000055171/00000001.jpx/full/,200/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022-05-01" type="digitized"/>
+                        <date when="2023-11-01" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

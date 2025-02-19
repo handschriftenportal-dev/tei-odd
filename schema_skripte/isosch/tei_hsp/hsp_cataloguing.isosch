@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sch:schema xmlns:oddp="http://dmaus.name/ns/2023/oddp" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" queryBinding="xslt2">
+   <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+   <sch:ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+   <sch:ns prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
+   <sch:ns prefix="rna" uri="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+   <sch:ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <sch:ns prefix="sch1x" uri="http://www.ascc.net/xml/schematron"/>
+   <sch:pattern id="att-datable-w3c-when">
+      <sch:rule context="tei:*[@when]">
+         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="att-datable-w3c-from">
+      <sch:rule context="tei:*[@from]">
+         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="att-datable-w3c-to">
+      <sch:rule context="tei:*[@to]">
+         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="only_1_ODD_source">
+      <sch:rule context="tei:*[@source]">
+         <sch:let name="srcs" value="tokenize( normalize-space(@source),' ')"/>
+         <sch:report test="(self::tei:classRef | self::tei:dataRef | self::tei:elementRef | self::tei:macroRef | self::tei:moduleRef | self::tei:schemaSpec ) and $srcs[2]"> When used on a schema description element (like <sch:value-of select="name(.)"/>), the @source attribute should have only 1 value. (This one has <sch:value-of select="count($srcs)"/>.)
+            </sch:report>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="subtypeTyped">
+      <sch:rule context="tei:*[@subtype]">
+         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="targetLang">
+      <sch:rule context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
+         <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="spanTo-points-to-following">
+      <sch:rule context="tei:*[@spanTo]">
+         <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]"> The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/></sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-name">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="isoNormDate">
+      <sch:rule context="tei:surrogates/tei:bibl/tei:date">
+         <sch:assert test="@when[matches(.,'^[1,2]\d{3}-[0,1]\d{1}-\d{2}$')]"> @when requires a date in the standard form: yyyy-mm-dd. </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="typeAndTarget">
+      <sch:rule context="tei:surrogates/tei:bibl/tei:ref">
+         <sch:assert test="(@type and @target)">if ref has a type a target is required</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:teix="http://www.tei-c.org/ns/Examples" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <sch:rule context="tei:ref">
+         <sch:assert test="@target or @type">You must provide either @target or @type.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="indexTermHead">
+      <sch:rule context="tei:msDesc/tei:head/tei:index/tei:term[@type eq 'material_type']">
+         <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')" diagnostics="d_term_type_material_type_en d_term_type_material_type_de"> If type="material_type", text should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty. </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type eq 'measure_noOfLeaves']">
+         <sch:assert test=".[matches(.,'^[0-9]*?$')]" diagnostics="d_term_type_measure_noOfLeaves_en d_term_type_measure_noOfLeaves_de">The content may only contain numbers</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='height']">
+         <sch:assert test=".[matches(.,'^([0-9]+(,5)?)?$')]" diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of height may only be an integer or must be a float which ends with ,5 or is empty</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='width']">
+         <sch:assert test=".[matches(.,'^([0-9]+(,5)?)?$')]" diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of width may only be an integer or must be a float which ends with ,5 or is empty</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='depth']">
+         <sch:assert test=".[matches(.,'^([0-9]+(,5)?)?$')]" diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of depth may only be an integer or must be a float which ends with ,5 or is empty</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='dimensions_typeOfInformation']">
+         <sch:assert test=". =('','deduced','factual')" diagnostics="d_term_type_dimensions_typeOfInformation_en d_term_type_dimensions_typeOfInformation_de"> If type="dimensions_typeOfInformation" then content should be 'deduced' or 'factual' or should stay empty. </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='format']">
+         <sch:assert test=".= ('','folio','quarto','octavo','smaller than octavo','larger than folio','other','oblong','square','long and narrow')" diagnostics="d_term_type_format_en d_term_type_format_de"> folio, quarto, octavo, other, smaller than octavo, larger than folio, oblong, long and narrow, square or empty </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='format_typeOfInformation']">
+         <sch:assert test=".=('','deduced','factual', 'computed')" diagnostics="d_term_type_format_typeOfInformation_en d_term_type_format_typeOfInformation_de"> deduced, factual or empty. </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='origDate_type']">
+         <sch:assert test=". = ('','dated','datable')" diagnostics="d_term_type_origDate_type_en d_term_type_origDate_type_de"> If type="origDate_type", content should be dated or datable or empty </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='origDate_notBefore']">
+         <sch:assert test=".[matches(.,'^((\-?[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01]))|(\-?[0-9]{4}\-(0[1-9]|1[012]))|(\-?[0-9]{4}))?$')]" diagnostics="d_origDate_en d_origDate_de"> The content should contain a date (year); several date-types are allowed: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='origDate_notAfter']">
+         <sch:assert test=".[matches(.,'^((\-?[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01]))|(\-?[0-9]{4}\-(0[1-9]|1[012]))|(\-?[0-9]{4}))?$')]" diagnostics="d_origDate_en d_origDate_de"> The content should contain a date (year); several date-types are allowed: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY. </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msDesc/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test=".= ('', 'codex', 'collection', 'composite', 'leporello', 'sammelband', 'fragment', 'printWithManuscriptParts', 'hostVolume', 'singleSheet', 'scroll', 'other')" diagnostics="d_term_type_form_en d_term_type_form_de"> If @type="form", Text should contain 'codex', 'collection', 'composite', 'leporello', 'sammelband', 'fragment', 'singleSheet', 'printWithManuscriptParts', 'hostVolume', 'scroll', 'other' or should stay empty</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type eq 'status']">
+         <sch:assert test=". = ('','missing','existent','destroyed','dismembered','unknown','displaced')" diagnostics="d_term_type_status_en d_term_type_status_de"> If @type="status", content should be: 'existent', 'missing', 'destroyed', 'unknown','displaced' or should stay empty </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='decoration']">
+         <sch:assert test=". =('','yes','no')" diagnostics="d_term_type_decoration_en d_term_type_decoration_de"> If type="decoration" then content should be 'yes' or 'no' or empty</sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:head/tei:index/tei:term[@type='musicNotation']">
+         <sch:assert test=". =('','yes','no')" diagnostics="d_term_type_musicNotation_en d_term_type_musicNotation_de"> If type="musicNotation" then content should be 'yes' or 'no' or empty.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-resp">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-title">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="textLang.check">
+      <sch:rule context="//tei:textLang/@mainLang | //tei:textLang/@otherLangs | //@xml:lang">
+         <sch:assert test="every $code in tokenize(., ' ') satisfies matches($code, '^[a-z]{2,3}(-|$)')" role="error">Codes in <sch:value-of select="name(.)"/> attributes must conform to BCP 47 (https://tools.ietf.org/html/bcp47), starting with an ISO 639 code for the language, then optionally further codes for the script (ISO 15924), region, transliteration, etc.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-idno">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-licence">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-creation">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-change">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPart_fragment">
+      <sch:rule context="tei:msPart[@type eq 'fragment']">
+         <sch:assert test="not(following-sibling::tei:msPart[@type eq 'binding'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPart_booklet">
+      <sch:rule context="tei:msPart[@type eq 'booklet']">
+         <sch:assert test="not(following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPart_accMat">
+      <sch:rule context="tei:msPart[@type eq 'accMat']">
+         <sch:assert test="not(following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'] or following-sibling::tei:msPart[@type eq 'booklet'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPart_other">
+      <sch:rule context="tei:msPart[@type eq 'other']">
+         <sch:assert test="not(following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'] or following-sibling::tei:msPart[@type eq 'booklet'] or                        following-sibling::tei:msPart[@type eq 'accMat'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="one_ms_singleton_max">
+      <sch:rule context="tei:msContents|tei:physDesc|tei:history|tei:additional">
+         <sch:let name="gi" value="name(.)"/>
+         <sch:report test="preceding-sibling::*[ name(.) eq $gi ] and not( following-sibling::*[ name(.) eq $gi ] )"> Only one <sch:name/> is allowed as a child of <sch:value-of select="name(..)"/>.
+        </sch:report>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-altIdentifier">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="ÄußeresKunst">
+      <sch:rule context="tei:physDesc/tei:decoDesc/tei:decoNote">
+         <sch:assert test="@type eq 'form' "> It's possible to describe some illuminated aspects of a manuscript here </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="booklet">
+      <sch:rule context="tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test="(.='booklet') or (.='')"> If msPart @type = 'booklet', then form should be 'booklet' or be empty </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+         <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')"> If type="material_type", text should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="binding">
+      <sch:rule context="tei:msPart[@type eq 'binding']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+         <sch:assert test=".=('','wood','leather','parchment','textile materials','gold','silver','copper','brass','other')"> If msPart type="binding", material_type should contain 'wood','leather','parchment','textile materials','gold','silver','copper','brass', 'other' or should stay empty
+                    </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msPart[@type eq 'binding']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test="(.='binding') or (.='')"> If msPart @type = 'binding', then form should be 'binding' or be empty </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="accMat">
+      <sch:rule context="tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+         <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')"> If type="accMat", material_type should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty. </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test=".=('','loose insert')"> If msPart @type = 'accMat', then form should be 'loose insert' or be empty </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="fragment">
+      <sch:rule context="tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+         <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')"> If msPart type="fragment" material_type should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty. </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test="(.='fragment') or (.='')" diagnostics="d_msPart_fragment_en d_msPart_fragment_de"> If msPart @type = 'fragment', then form should be 'fragment' or be empty </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPartInmsPartStandard">
+      <sch:rule context="tei:msPart[@type eq 'binding' or @type eq 'fragment' or @type eq 'accMat']/tei:msPart">
+         <sch:assert test="@type eq 'accMat' or @type eq 'fragment' or @type eq 'other'"> Only bindings, accMat and a fragment may contain further msParts with the following types: accMat, fragment or other </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPartInmsPartBooklet">
+      <sch:rule context="tei:msPart[@type eq 'booklet']/tei:msPart">
+         <sch:assert test="@type eq 'fragment' or @type eq 'booklet' or @type eq 'accMat' or @type eq 'other'"> Only booklets may contain further msParts with the following types: accMat fragment, booklets and other</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPartInmsPartStandardForm">
+      <sch:rule context="tei:msPart/tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test="(.='fragment') or (.='')"> If msPart @type = 'fragment', then form should be 'fragment' or be empty </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msPart/tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test="(.='accMat') or (.='')"> If msPart @type = 'accMat', then form should be 'accMat' or be empty </sch:assert>
+      </sch:rule>
+      <sch:rule context="tei:msPart/tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <sch:assert test="(.='booklet') or (.='')">If msPart @type = 'booklet' then form should be 'booklet' or be empty </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="idnoKomponenteSonstiges">
+      <sch:rule context="tei:msPart[@type eq 'other']/tei:msIdentifier/tei:idno">
+         <sch:assert test=".=('Sonstiges')"> If msPart @type = 'other' then idno contains 'Sonstiges' </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msDesc_altIdentifier_corpus_idno">
+      <sch:rule context="tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type eq 'corpus']/tei:idno">
+         <sch:assert test="normalize-space()">If altIdentifier @type = 'corpus', then idno should not be empty</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msDesc_altIdentifier_former_idno">
+      <sch:rule context="tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type eq 'former']/tei:idno">
+         <sch:assert test="normalize-space()">If altIdentifier @type = 'former', then idno should not be empty</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="idnoMsPartAlt">
+      <sch:rule context="tei:msPart/tei:msIdentifier/tei:altIdentifier/tei:idno">
+         <sch:assert test="normalize-space()">If msPart then idno of altIdentifier should not be empty</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="childKomponenteSonstiges">
+      <sch:rule context="tei:msPart[@type eq 'other']">
+         <sch:assert test="tei:p">msPart type="other" may only contain p Elements
+                    </sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPartoneP">
+      <sch:rule context="tei:msPart[@type eq 'booklet' or @type eq 'fragment' or @type eq 'binding' or @type eq 'accMat']">
+         <sch:assert test="count(tei:msPart[@type='other']) &lt; 2">only one msPart type='other' is allowed in one msPart</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="msPartnoP">
+      <sch:rule context="tei:msPart[@type eq 'booklet' or @type eq 'fragment' or @type eq 'binding' or @type eq 'accMat']">
+         <sch:report test=". != tei:p">booklet, fragment, binding, accMat may not contain a p Element as direct child</sch:report>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-orgName">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-persName">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-placeName">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-settlement">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-affiliation">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-birth">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-death">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-occupation">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-relation">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:pattern id="calendar-check-objectName">
+      <sch:rule context="tei:*[@calendar]">
+         <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </sch:pattern>
+   <sch:diagnostics>
+      <sch:diagnostic id="d_term_type_title_en" xml:lang="en">The index entry for the tite of the cultural object must not be empty! -- Please provide a title entry.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_title_de" xml:lang="de">Der Registereintrag zur Angabe des Titels des Kulturobjekts darf nicht leer sein! -- Bitte geben Sie einen Titel an.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_material_type_en" xml:lang="en">The index entry to describe the material type in the element '<sch:value-of select="name()"/>' (of @type '<sch:value-of select="@type"/>') is given as '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_material_type_de" xml:lang="de">Der Registereintrag zur Beschreibung des Materials im Element '<sch:value-of select="name()"/>' (mit @type '<sch:value-of select="@type"/>') lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_measure_en" xml:lang="en">The entry to describe the measure of the manuscript given in the '<sch:value-of select="name()"/>' element must not be empty! -- Please enter information about the measure of the manuscript.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_measure_de" xml:lang="de">Die Angabe zum Umfang der Handschrift im Element '<sch:value-of select="name()"/>' darf nicht leer sein! -- Bitte machen Sie eine Angabe zum Umfang der Handschrift.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_measure_noOfLeaves_en" xml:lang="en">The value of the number of leaves '<sch:value-of select="."/>' given in the '<sch:value-of select="name()"/>' element must be an integer! -- Please use an integer value to describe the number of leaves.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_measure_noOfLeaves_de" xml:lang="de">Die Angabe der Blattzahl '<sch:value-of select="."/>' im Element '<sch:value-of select="name()"/>' muss eine Ganzzahl sein! -- Bitte geben Sie eine Ganzzahl an.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_dimensions_en" xml:lang="en">The value of the dimensions of the cultural object must not be empty! -- Please enter the dimensions (e.g.  '30,5 × 22').</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_dimensions_de" xml:lang="de">Die Angabe zu den Abmessungen des Kulturobjekts darf nicht leer sein! -- Bitte geben Sie die Abmessungen (z.B. '30,5 × 22') an.</sch:diagnostic>
+      <sch:diagnostic id="d_termMeasurement_en" xml:lang="en">The value of the measurement '<sch:value-of select="."/>' given in the '<sch:value-of select="name()"/>' element must be an integer or end with ',5' as decimal place! -- Please use an integer value or use ',5' for the decimal place. (This is a requirement for filtering measurements.)</sch:diagnostic>
+      <sch:diagnostic id="d_termMeasurement_de" xml:lang="de">Die Angabe der Abmessung '<sch:value-of select="."/>' im Element '<sch:value-of select="name()"/>' muss eine Ganzzahl sein oder mit ',5' als Nachkommastelle enden! -- Bitte geben Sie eine Ganzzahl an bzw. geben Sie die Nachkommastelle auf ',5' vereinheitlicht an. (Diese Vereinheitlichung ist eine Anforderung für die Filterung nach Abmessungen.)</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_dimensions_typeOfInformation_en" xml:lang="en">The description '<sch:value-of select="."/>' about the kind of information about the dimenstions of the cultural object is not valid! -- Please enter 'deduced' or 'factual' or provide an empty entry.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_dimensions_typeOfInformation_de" xml:lang="de">Die Angabe '<sch:value-of select="name()"/>' zur Art der Information über die Abmessungen des Kulturobjekts ist ungültig! -- Bitte geben Sie 'deduced' oder 'factual' an bzw. lassen Sie den Eintrag leer.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_format_en" xml:lang="en">The index entry to describe the format of the cultural object is '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_format_de" xml:lang="de">Der Registereintrag für das Format des Kulturobjekts enthält mit '<sch:value-of select="."/>' kein gültiges Formatschlagwort! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_format_typeOfInformation_en" xml:lang="en">The description '<sch:value-of select="."/>' about the kind of information about the format of the cultural object is not valid! -- Please enter 'deduced', 'factual', 'computed' or provide an empty entry.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_format_typeOfInformation_de" xml:lang="de">Die Angabe '<sch:value-of select="name()"/>'  zur Art der Information über das Format des Kulturobjekts ist ungültig! -- Bitte geben Sie 'deduced', 'factual' oder 'computed' an bzw. lassen Sie den Eintrag leer.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_origDate_type_en" xml:lang="en">The date type entry '<sch:value-of select="."/>' is not valid! -- Please enter 'dated' or 'datable' or provide an empty entry.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_origDate_type_de" xml:lang="de">Der Eintrag zum Datumstyp '<sch:value-of select="name()"/>' ist ungültig! -- Bitte geben Sie 'dated' oder 'datable' an bzw. lassen Sie den Eintrag leer.</sch:diagnostic>
+      <sch:diagnostic id="d_origDate_en" xml:lang="en">The date '<sch:value-of select="."/>' given in the '<sch:value-of select="name()"/>' element must be formated as an ISO date! -- Please format the date entry according to one of the following patterns: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</sch:diagnostic>
+      <sch:diagnostic id="d_origDate_de" xml:lang="de">Das Datum '<sch:value-of select="."/>' im Element '<sch:value-of select="name()"/>' ist nicht richtig als ISO-Datum formatiert angegeben! -- Bitte formatieren Sie die Datumsangabe entsprechend einem der folgenden Muster: JJJJ-MM-TT, -JJJJ-MM-TT, JJJJ-MM , -JJJJ-MM or JJJJ.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_form_en" xml:lang="en">The index entry to describe the form of the cultural object is '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_form_de" xml:lang="de">Der Registereintrag für die Form des Kulturobjekts enthält mit '<sch:value-of select="."/>' kein gültiges Formschlagwort! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_status_en" xml:lang="en">The index entry to describe the form type in the element '<sch:value-of select="name()"/>' (of @type '<sch:value-of select="@type"/>') is given as '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_status_de" xml:lang="de">Der Registereintrag für den Formtyp im Element '<sch:value-of select="name()"/>' (mit @type '<sch:value-of select="@type"/>') lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_decoration_en" xml:lang="en">The index entry for decoration is given as '<sch:value-of select="."/>' which is invalid! -- Please use 'yes or 'no' as entry or keep it empty.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_decoration_de" xml:lang="de">Der Registereintrag für Buchschmuck lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie entweder 'yes' oder 'no' an oder lassen Sie den Eintrag leer.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_musicNotation_en" xml:lang="en">The index entry for music notation is given as '<sch:value-of select="."/>' which is invalid! -- Please use 'yes or 'no' as entry or keep it empty.</sch:diagnostic>
+      <sch:diagnostic id="d_term_type_musicNotation_de" xml:lang="de">Der Registereintrag für Musiknotation lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie entweder 'yes' oder 'no' an oder lassen Sie den Eintrag leer.</sch:diagnostic>
+      <sch:diagnostic id="d_msPart_fragment_en" xml:lang="en">The index entry (added for a manuscript fragment) to describe the form type in the element '<sch:value-of select="name()"/>' (of @type '<sch:value-of select="@type"/>') is given as '<sch:value-of select="."/>', but should be 'fragment' or empty! -- Please use 'fragment' as entry or keep it empty.</sch:diagnostic>
+      <sch:diagnostic id="d_msPart_fragment_de" xml:lang="de">Der für ein Handschriftenfragment eingefügte Registereintrag für den Formtyp im Element '<sch:value-of select="name()"/>' (mit @type '<sch:value-of select="@type"/>') lautet '<sch:value-of select="."/>', sollte aber 'fragment' oder leer sein! -- Bitte verwenden Sie den Eintrag 'fragment' oder lassen Sie den Eintrag leer.</sch:diagnostic>
+   </sch:diagnostics>
+</sch:schema>

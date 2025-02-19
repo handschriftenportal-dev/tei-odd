@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Aschaffenburg_Stiftsbibliothek/01_Aschaffenburg_Stiftsbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-1">Ms. Pap. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-2">Ms. Pap. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-3">Ms. Pap. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-4">Ms. Pap. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-5">Ms. Pap. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-6">Ms. Pap. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-7">Ms. Pap. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-8">Ms. Pap. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-9">Ms. Pap. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-10">Ms. Pap. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-11">Ms. Pap. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-12">Ms. Pap. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-13">Ms. Pap. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-14">Ms. Pap. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-15">Ms. Pap. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-16">Ms. Pap. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-17">Ms. Pap. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-18">Ms. Pap. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-19">Ms. Pap. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-20">Ms. Pap. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-21">Ms. Pap. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-22">Ms. Pap. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-23">Ms. Pap. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-24">Ms. Pap. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-25">Ms. Pap. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-26">Ms. Pap. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-27">Ms. Pap. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-28">Ms. Pap. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-29">Ms. Pap. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-30">Ms. Pap. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-31">Ms. Pap. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-32">Ms. Pap. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-33">Ms. Pap. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-34">Ms. Pap. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-35">Ms. Pap. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-36">Ms. Pap. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-37">Ms. Pap. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-38">Ms. Pap. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-39">Ms. Pap. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Pap-40">Ms. Pap. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-1">Ms. Perg. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-2">Ms. Perg. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-3">Ms. Perg. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-4">Ms. Perg. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-5">Ms. Perg. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-6">Ms. Perg. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-7">Ms. Perg. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-8">Ms. Perg. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-9">Ms. Perg. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-10">Ms. Perg. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-11">Ms. Perg. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-12">Ms. Perg. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-13">Ms. Perg. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-14">Ms. Perg. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-15">Ms. Perg. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-16">Ms. Perg. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-17">Ms. Perg. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-18">Ms. Perg. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-19">Ms. Perg. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-20">Ms. Perg. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-21">Ms. Perg. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-22">Ms. Perg. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-23">Ms. Perg. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-24">Ms. Perg. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-25">Ms. Perg. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-26">Ms. Perg. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-27">Ms. Perg. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-28">Ms. Perg. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-29">Ms. Perg. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-30">Ms. Perg. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-31">Ms. Perg. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-32">Ms. Perg. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-33">Ms. Perg. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-34">Ms. Perg. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-35">Ms. Perg. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-36">Ms. Perg. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-37">Ms. Perg. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Ms-Perg-38">Ms. Perg. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_A-832--Bb-2">A-832, Bb. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A 832</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_A-877--Bb-1">A-877, Bb. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A 877</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_C-463-">C-463 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>C 463</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>C 463 (Fragm. 11)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_C-497--Bb-1">C-497, Bb. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>C 497</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_D-657-">D-657 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>D 657</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>D 657 (Fragm. 1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_D-668-">D-668 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>D 668</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>D 668 (Fragm. 15)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_F-751-">F-751 </idno>
+                  <altIdentifier type="alternative">
+                     <idno>F 751</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>F 751 (Fragm. 19)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_G-843">G-843</idno>
+                  <altIdentifier type="alternative">
+                     <idno>G 843</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>G 843 (Fragm. 17)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_H-827">H-827</idno>
+                  <altIdentifier type="alternative">
+                     <idno>H 827</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 827 (Fragm. 2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_I-873">I-873</idno>
+                  <altIdentifier type="alternative">
+                     <idno>I 873</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I 873 (Fragm. 14)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 873 (Fragm. 14)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_I-955">I-955</idno>
+                  <altIdentifier type="alternative">
+                     <idno>I 955</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I 955 (Fragm. 16)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 955 (Fragm. 16)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_K-737--Bb-1">K-737, Bb. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>K 737</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>K 737 (Fragm. 4)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_N-149">N-149</idno>
+                  <altIdentifier type="alternative">
+                     <idno>N 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>N 149 (Fragm. 23, Teil 3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_N-226">N-226</idno>
+                  <altIdentifier type="alternative">
+                     <idno>N 226</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>N 226 (Fragm. 20)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_O-205">O-205</idno>
+                  <altIdentifier type="alternative">
+                     <idno>O 205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>O 205 (Fragm. 23, Teil 1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_O-206">O-206</idno>
+                  <altIdentifier type="alternative">
+                     <idno>O 206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>O 206 (Fragm. 23, Teil 2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_P-456">P-456</idno>
+                  <altIdentifier type="alternative">
+                     <idno>P 456</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>P 456 (Fragm. 5)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Q-98">Q-98</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 98 (Fragm. 12)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_Q-226--Bb-1">Q-226, Bb. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 226</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc. Aschaff. 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_R-283">R-283</idno>
+                  <altIdentifier type="alternative">
+                     <idno>R 283</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>R 283 (Fragm. 7)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_R-408">R-408</idno>
+                  <altIdentifier type="alternative">
+                     <idno>R 408</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_T-188">T-188</idno>
+                  <altIdentifier type="alternative">
+                     <idno>T 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>T 188 (Fragm. 3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_T-425">T-425</idno>
+                  <altIdentifier type="alternative">
+                     <idno>T 425</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>T 425 (Fragm. 18)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_T-430">T-430</idno>
+                  <altIdentifier type="alternative">
+                     <idno>T 430</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>T 430 (Fragm. 8)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_U-16">U-16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>U 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>U 16 (Fragm. 6)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_U-29">U-29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>U 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>U 29 (Fragm. 22)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_U-106">U-106</idno>
+                  <altIdentifier type="alternative">
+                     <idno>U 106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>U 106 (Fragm. 9)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_U-139">U-139</idno>
+                  <altIdentifier type="alternative">
+                     <idno>U 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>U 139 (Fragm. 13)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_U-157">U-157</idno>
+                  <altIdentifier type="alternative">
+                     <idno>U 157</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>U 157 (Fragm. 10)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="5060169-6">Stiftsbibliothek (Aschaffenburg)</repository>
+                  <idno xml:id="_U-344">U-344</idno>
+                  <altIdentifier type="alternative">
+                     <idno>U 344</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>U 344 (Fragm. 21)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

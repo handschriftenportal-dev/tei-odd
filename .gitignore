@@ -1,0 +1,25 @@
+.idea
+target
+hs_err*.log
+nachweis_daten/_listPar/
+nachweis_daten/_MXML-to-TEI-HSP_result/
+nachweis_daten/_TEI-to-TEI-HSP_result/
+nachweis_daten/3_0_Produktion/_zuValidieren/
+.DS_STORE
+
+### Jenkins ###
+target/
+.classpath
+.project
+.settings
+.idea
+*.iml
+audit.log
+.scannerwork
+.git
+dependency-check*
+sonar-report
+mvnw*
+*.versionsBackup
+mvnsettings.xml
+.bash_history

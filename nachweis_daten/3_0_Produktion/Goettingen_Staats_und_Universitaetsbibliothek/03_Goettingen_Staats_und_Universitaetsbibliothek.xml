@@ -1,0 +1,2478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Goettingen_Staats_und_Universitaetsbibliothek/03_Goettingen_Staats_und_Universitaetsbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. hist. 740 Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN1012142418/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?PPN1012142418"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN1012142418:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 213</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN1066647852/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?PPN1066647852"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN1066647852:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2019" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 160</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN86944929X/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?PPN86944929X"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN86944929X:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 243</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/PPN1066663408/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?PPN1066663408"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:PPN1066663408:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2019" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. theol. 197</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3571207/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3571207"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3571207:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 204</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3554073/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3554073"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3554073:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2015" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. hist. 98</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3563081/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3563081"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3563081:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. hist. 45</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3563070/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3563070"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3563070:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. theol. 107r Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3560553/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3560553"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3560553:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. philos. 47</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800088/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800088"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800088:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 394</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753908/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753908"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753908:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 388</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753323/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753323"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753323:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 392</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3749884/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3749884"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3749884:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 389</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753325/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753325"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753325:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 214</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753321/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753321"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753321:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. hist. 46</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3741927/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3741927"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3741927:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 385</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800090/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800090"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800090:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 391</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800080/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800080"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800080:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. hist. nat. 88</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753294/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753294"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753294:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 393</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753238/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753238"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753238:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. hist. 823</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3744913/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3744913"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3744913:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 200</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3767765/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3767765"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3767765:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 395</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753928/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753928"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753928:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. theol. 101n Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3796554/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3796554"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3796554:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. philos. 98</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794300/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794300"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794300:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 290</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753193/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753193"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753193:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. hist. 553</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3744899/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3744899"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3744899:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 147</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794303/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794303"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794303:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. jurid. 94</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794179/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794179"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794179:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 294 Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3747839/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3747839"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3747839:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 82</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3754005/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3754005"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3754005:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. Uffenbach 51 Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3572793/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3572793"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3572793:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. Luneb. 24 b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3750290/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3750290"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3750290:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. Luneb. 24 a</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3750285/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3750285"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3750285:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 292</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794321/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794321"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794321:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. hist. nat. 42</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794148/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794148"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794148:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 215</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3768431/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3768431"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3768431:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 91</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3785235/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3785235"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3785235:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. hist. nat. 44</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3746423/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3746423"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3746423:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. hist. 823 b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3746406/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3746406"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3746406:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. theol. 57</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3569530/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3569530"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3569530:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philos. 21 Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800086/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800086"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800086:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 123</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3754017/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3754017"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3754017:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 294 i</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3768444/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3768444"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3768444:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. jurid. 806</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794279/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794279"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794279:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 199</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3757986/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3757986"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3757986:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. philol. 187</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3750294/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3750294"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3750294:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 214</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3768407/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3768407"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3768407:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : I</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801877/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801877"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801877:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : VI</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801907/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801907"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801907:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : IV</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801889/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801889"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801889:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : III</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801884/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801884"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801884:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : VIII</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801914/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801914"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801914:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : V</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801893/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801893"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801893:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 60</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800082/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800082"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800082:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 242</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3551429/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3551429"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3551429:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 72 Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800085/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800085"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800085:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. hist. 202</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3793623/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3793623"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3793623:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 295</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3768445/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3768445"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3768445:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 93</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753969/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753969"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753969:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. hist. 540</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3744883/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3744883"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3744883:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. philol. 189 b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3750299/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3750299"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3750299:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 295 i</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3796539/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3796539"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3796539:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 241 a</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3800089/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3800089"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3800089:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. theol. 285</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3749511/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3749511"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3749511:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. theol. 293</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3795774/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3795774"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3795774:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 396</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794206/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794206"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794206:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : VII</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801911/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801911"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801911:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. hist. nat. 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3793909/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3793909"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3793909:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. theol. 201</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3749506/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3749506"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3749506:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. jurid. 681</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794252/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794252"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794252:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 390</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753327/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753327"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753327:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. philol. 184 : II</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3801882/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3801882"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3801882:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>8 Cod. Ms. philol. 190</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753172/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753172"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753172:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 387</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3747782/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3747782"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3747782:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. jurid. 418</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3794232/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3794232"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3794232:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. hist. 99</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3746419/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3746419"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3746419:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>4 Cod. Ms. jurid. 60 a</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3753956/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3753956"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3753956:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021477-1">Göttingen</settlement>
+                  <repository key="2020450-4">Niedersächsische Staats- und Universitätsbibliothek Göttingen</repository>
+                  <idno>2 Cod. Ms. hist. lit. 123 Cim.</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://manifests.sub.uni-goettingen.de/iiif/presentation/DE-611-HS-3735958/manifest?version=03be9719"/>
+                        <ref type="other"
+                             target="https://resolver.sub.uni-goettingen.de/purl?DE-611-HS-3735958"/>
+                        <ref type="thumbnail"
+                             target="https://images.sub.uni-goettingen.de/iiif/image/gdz:DE-611-HS-3735958:00000001/full/96,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2020450-4" type="digitizing">Niedersächsische Staats- und Universitätsbibliothek Göttingen</orgName>
+                        <placeName ref="4021477-1" type="digitizing">Göttingen</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

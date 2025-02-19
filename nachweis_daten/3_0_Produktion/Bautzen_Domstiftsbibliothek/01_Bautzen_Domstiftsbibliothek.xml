@@ -1,0 +1,2363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Bautzen_Domstiftsbibliothek/01_Bautzen_Domstiftsbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_Apoc-I-75">Apoc I 75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_Hae-5--Einband">Hae 5, Einband</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hae 5, Einband</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_Le3--Einband">Le3, Einband</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_I-22">I 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_I-82">I 82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_Lit-I-13">Lit I 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-3">M I 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-4">M I 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-5">M I 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-10">M I 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-15">M I 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-16">M I 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-18">M I 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-19">M I 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-20">M I 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-21">M I 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-22">M I 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-25">M I 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-27">M I 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-35-1">M I 35-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-35-2">M I 35-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-36">M I 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-37">M I 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-40">M I 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-45">M I 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-1">M I 46-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-2">M I 46-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-3">M I 46-3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-4">M I 46-4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-5">M I 46-5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-6">M I 46-6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-7">M I 46-7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-8">M I 46-8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-9">M I 46-9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-10">M I 46-10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-11">M I 46-11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-46-12">M I 46-12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-50">M I 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-53">M I 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-56">M I 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-57">M I 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-61">M I 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-66">M I 66</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-71">M I 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-75">M I 75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-78">M I 78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-80">M I 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-83a">M I 83a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-83b">M I 83b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-84">M I 84</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-85">M I 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-88">M I 88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-90">M I 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-92">M I 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-94">M I 94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-96">M I 96</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-97">M I 97</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-99">M I 99</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-100">M I 100</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-101">M I 101</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-102">M I 102</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-103">M I 103</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-104">M I 104</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-108">M I 108</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-109">M I 109</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-112">M I 112</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-115">M I 115</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-116">M I 116</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-122">M I 122</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-125">M I 125</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-127">M I 127</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-128">M I 128</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-130">M I 130</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-133">M I 133</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-135">M I 135</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-137">M I 137</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-138">M I 138</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-139">M I 139</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-140">M I 140</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-143">M I 143</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-145">M I 145</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-148">M I 148</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-155">M I 155</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-156">M I 156</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-157">M I 157</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-158">M I 158</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-159">M I 159</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-161">M I 161</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-163">M I 163</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-166">M I 166</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-168">M I 168</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-170">M I 170</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-171">M I 171</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-172">M I 172</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-173">M I 173</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-174">M I 174</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-177">M I 177</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-178">M I 178</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-179-a">M I 179 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-179-b">M I 179 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-179-c">M I 179 c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-181">M I 181</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-184-a">M I 184 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-184-b">M I 184 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-185">M I 185</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-186">M I 186</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-188">M I 188</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-189">M I 189</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-190">M I 190</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-191">M I 191</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-195-a">M I 195 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-195-b">M I 195 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-195-c">M I 195 c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-195-d">M I 195 d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-195-e">M I 195 e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-196">M I 196</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-199">M I 199</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-200">M I 200</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-202">M I 202</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-209">M I 209</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-212">M I 212</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-213-a">M I 213 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-213-b">M I 213 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-214">M I 214</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-215">M I 215</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-216">M I 216</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-217">M I 217</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-218">M I 218</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-222-a">M I 222 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-222-b">M I 222 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-223">M I 223</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-224">M I 224</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-225-a">M I 225 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-225-b">M I 225 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-228">M I 228</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-230">M I 230</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-231">M I 231</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-240">M I 240</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-241-a">M I 241 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-241-b">M I 241 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-242">M I 242</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-243">M I 243</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-244">M I 244</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-245">M I 245</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-246-a">M I 246 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-246-b">M I 246 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-248">M I 248</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-250">M I 250</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-256-a">M I 256 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-256-b">M I 256 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-256-c">M I 256 c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-259">M I 259</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-260">M I 260</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-264">M I 264</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-265">M I 265</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-267">M I 267</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-268">M I 268</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-269">M I 269</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-270-a">M I 270 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-270-b">M I 270 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-270-e">M I 270 e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-270-f">M I 270 f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-270-g">M I 270 g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-271">M I 271</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-275">M I 275</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-276">M I 276</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-278">M I 278</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-281">M I 281</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-284-a">M I 284 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-284-b">M I 284 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-287">M I 287</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-288">M I 288</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-289">M I 289</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-290">M I 290</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-291">M I 291</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-292">M I 292</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-294">M I 294</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-296">M I 296</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-298">M I 298</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-300">M I 300</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-304">M I 304</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-307">M I 307</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-308">M I 308</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-309">M I 309</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-310">M I 310</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-311">M I 311</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-325">M I 325</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-326">M I 326</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-330">M I 330</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-331">M I 331</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-332">M I 332</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-335">M I 335</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-336">M I 336</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-337">M I 337</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-338">M I 338</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-339">M I 339</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-340">M I 340</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-341">M I 341</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-342">M I 342</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-343">M I 343</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-344">M I 344</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-345">M I 345</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-346">M I 346</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-347">M I 347</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-348">M I 348</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-349">M I 349</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-350">M I 350</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-351">M I 351</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-352">M I 352</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-353">M I 353</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-354">M I 354</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-I-355">M I 355</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-5">M II 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-8">M II 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-11">M II 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-11bis">M II 11bis</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-13">M II 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-14">M II 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-15">M II 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-17">M II 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-19">M II 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-21">M II 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-22">M II 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-23">M II 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-23bis">M II 23bis</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-23ter">M II 23ter</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-25">M II 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-27">M II 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-29">M II 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-31">M II 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-33">M II 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-35">M II 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-37">M II 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-38">M II 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-39">M II 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-41">M II 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-43">M II 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-45">M II 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-47">M II 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-49">M II 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-51">M II 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-53">M II 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-55">M II 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-57">M II 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-58">M II 58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-59">M II 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-60">M II 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-61">M II 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-63">M II 63</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-65">M II 65</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-67-a">M II 67 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-67-b">M II 67 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-67-c">M II 67 c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-67-d">M II 67 d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-69">M II 69</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-71">M II 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-73-1">M II 73-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-73-2">M II 73-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-73-3">M II 73-3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-75">M II 75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-77">M II 77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-79">M II 79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-81">M II 81</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-83">M II 83</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-85">M II 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-87">M II 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-89">M II 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-90">M II 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-91">M II 91</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-93">M II 93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-95">M II 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-96">M II 96</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-97">M II 97</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-98">M II 98</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-99">M II 99</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-100">M II 100</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-101">M II 101</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-102">M II 102</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-103">M II 103</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-104">M II 104</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-105">M II 105</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-106">M II 106</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-107">M II 107</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-108">M II 108</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-109">M II 109</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-110">M II 110</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-111">M II 111</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-112-a">M II 112 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-112-b">M II 112 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-112-c">M II 112 c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-112-d">M II 112 d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-112-e">M II 112 e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-112-f">M II 112 f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-113-a">M II 113 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-113-b">M II 113 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-114">M II 114</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-115">M II 115</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-116">M II 116</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-117">M II 117</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-118">M II 118</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_M-II-119">M II 119</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-5">WM 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-8-a">WM 8 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-8-b">WM 8 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-8-c">WM 8 c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-8-d">WM 8 d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-8-e">WM 8 e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-9">WM 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-12">WM 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-13">WM 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-18">WM 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-21-a">WM 21 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-21-b">WM 21 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-22">WM 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-23">WM 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-24">WM 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-25">WM 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-30">WM 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-31">WM 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-36">WM 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-50">WM 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-51">WM 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-52">WM 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-1">WM 53/1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-2">WM 53/2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-3">WM 53/3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-4">WM 53/4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-5">WM 53/5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-6">WM 53/6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-7">WM 53/7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-8">WM 53/8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-9">WM 53/9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno xml:id="_WM-53-10">WM 53/10</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,60 @@
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/> a owl:Ontology ;
+    dc:title "HSP-Vokabular"@de , "HSP vocabulary"@en ;
+	dc:date "2024-12-06" ;
+	dc:description "Vokabular für im Knowledge-Graph des Handschriftenportals verwendete Entitäten zur domänenspezifischen Ergänzung etablierter Vokabulare"@de , "Domain specific vocabulary for the Handschriftenportal Knowledge Graph"@en .
+
+
+## Properties
+
+hspv:hasKeyFeature a rdf:Property ;
+	rdfs:isDefindedBy <https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/> ;
+	rdfs:label "hat notwendiges Merkmal"@de , "has key feature"@en ;
+	rdfs:comment "Verknüpft ein oder mehrere Thesaurusbegriffe, die notwendige Merkmale eines Fachbegriffs sind."@de , "Assigns one or several thesaurus terms which are necessary features of a specialist term"@en ;
+	rdfs:domain <http://www.w3.org/2004/02/skos/core#Concept> ;
+	rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+	rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#related> .
+	
+# die Property hasKeyFeature kann ein oder mehrere Konzepte haben.
+
+hspv:hasOneKeyFeatureFrom a rdf:Property ;
+	rdfs:isDefindedBy <https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/> ;
+	rdfs:label "hat ein notwendiges Merkmal aus Gruppe"@de , "has one key feature from"@en ;
+	rdfs:comment "Verknüpft eine Gruppe alternativer Thesaurusbegriffe, von denen genau eines ein notwendiges Merkmal eines Fachbegriffs ist."@de , "Assigns a group of alternative thesaurus terms, of which exactly one term is a necessary feature of a specialist term"@en ;
+	rdfs:domain <http://www.w3.org/2004/02/skos/core#Concept> ;
+	rdfs:range <https://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> ;
+	rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#related> . 
+
+# die Property hasOneKeyFeatureFrom kann ein oder mehrere Bags haben.
+
+hspv:hasSomeKeyFeaturesFrom a rdf:Property ;
+	rdfs:isDefindedBy <https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/> ;
+	rdfs:label "hat einige notwendige Merkmale aus Gruppe"@de , "has some key features from"@en ;
+	rdfs:comment "Verknüpft eine Gruppe alternativer Thesaurusbegriffe, von denen eines oder mehrere notwendige Merkmale eines Fachbegriffs sind."@de, "Assigns a group of alternative thesaurus terms, some of which are necessary features of a specialst term"@en ;
+	rdfs:domain <http://www.w3.org/2004/02/skos/core#Concept> ;
+	rdfs:range <https://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> ;
+	rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#related> .  
+	
+# die Property hasSomeKeyFeaturesFrom kann ein oder mehrere Bags haben.
+
+hspv:hasAdditionalFeature a rdf:Property ;
+	rdfs:isDefindedBy <https://normdaten.staatsbibliothek-berlin.de/vocabulary/hspv/> ;
+	rdfs:label "hat zusätzliches Merkmal"@de , "has additional feature"@en ;
+	rdfs:comment "Verknüpft ein oder mehrere Thesaurusbegriffe, die häufig auftretende Merkmale eines Fachbegriffs sind."@de , "Assigns one ore several thesaurus terms which are not necessary, but common features of a specialist term"@en ;
+	rdfs:domain <http://www.w3.org/2004/02/skos/core#Concept> ;
+	rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+	rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#related> .
+	
+# die Property hasAdditionalFeature kann ein oder mehrere Konzepte haben.
+	
+	
+
+
+
+

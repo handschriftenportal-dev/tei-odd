@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Surrogates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>.</repository>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <!-- 
+                        each <bibl> element contains information about one digital copy
+                        for more input, repeat <bibl> according to the following scheme
+                     -->
+                     
+                     <bibl>
+                        <!-- URLs -->
+                        <ref type="manifest" target="__URL__"/>
+                        <ref type="thumbnail" target="__URL__"/>
+                        <ref type="other" target="__URL__"/>
+                        
+                        <!-- 
+                           completeness
+                           mögliche Werte sind: complete, partial
+                        -->
+                        <ref type="completeness"
+                           target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        
+                        <!-- 
+                           sourceType
+                           mögliche Werte sind: original, reproduction -->
+                        <ref type="sourceType"
+                           target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        
+                        <!-- 
+                           digitalization type
+                           mögliche Werte sind: color, greyscale, bw, thermo, spectral, microscope, threeD, other
+                        -->
+                        <ref type="digitalizationType"
+                           target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitalizationType/color"/>
+                        
+                        <!-- 
+                           captureType
+                           mögliche Werte sind: singlePage, opening, detail
+                        -->
+                        <ref type="captureType"
+                           target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        
+                        <!-- place and name of digitalising institution -->
+                        <orgName type="digitalisingInstitution" ref="__gnd-Link__">___publizierendeEinrichtung___</orgName>
+                        <placeName type="digitalisingInstitution" ref="__gnd-Link__">___OrtDerPubliziernendenEinrichtung___</placeName>
+                        
+                        <!-- publication date -->
+                        <date when="2020-10-06" type="published">2020-10-06</date>
+                        <date when="2020-10-06" type="digitalised">2020-10-06</date>
+                     </bibl>
+                     
+                     <!-- repeat <bibl> if necessary -->
+                     
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>.</p>
+      </body>
+  </text>
+</TEI>

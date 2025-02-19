@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Dessau_Anhaltische_Landesbuecherei/01_Dessau_Anhaltische_Landesbuecherei.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_BB-2115">BB 2115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. BB 2115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_BB-12446">BB 12446</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. BB 12446</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_BB-22841">BB 22841</idno>
+                  <altIdentifier type="alternative">
+                     <idno>BB 22841 W (H)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. BB 22841 W (H)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_BB-3613">BB 3613</idno>
+                  <altIdentifier type="alternative">
+                     <idno>BB Hs. 3613</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_BB-3944">BB 3944</idno>
+                  <altIdentifier type="alternative">
+                     <idno>BB Hs. 3944</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-1">Gernröder Fragmente, Bruchst. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-2">Gernröder Fragmente, Bruchst. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-3">Gernröder Fragmente, Bruchst. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-4">Gernröder Fragmente, Bruchst. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-5">Gernröder Fragmente, Bruchst. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-6">Gernröder Fragmente, Bruchst. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-7">Gernröder Fragmente, Bruchst. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-8">Gernröder Fragmente, Bruchst. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Gernröder-Fragmente--Bruchst-9">Gernröder Fragmente, Bruchst. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Bruchst. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-2">Georg 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 2. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2° 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2° 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2° 141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-3">Georg 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 3. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>17. 2°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-7b">Georg 7b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 7b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 7b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-8">Georg 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 8. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2° F 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-9">Georg 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 9. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°, 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4° F 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-10">Georg 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 10. 8° (4°)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°, 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4° E 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-11">Georg 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 11. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>198. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-18">Georg 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 18. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-22">Georg 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 22. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>4. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-24-I">Georg 24/I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 24. 8° (4°)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°, 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-25-I">Georg 25/I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 25. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>202. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-28">Georg 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 28. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 12°, 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-29">Georg 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 29. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>180. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-30">Georg 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 30. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-31">Georg 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 31. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 12°, 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-43">Georg 43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 43. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>13. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-44">Georg 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 44. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-56">Georg 56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 56. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>221. 12°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-61">Georg 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 61. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>203. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-62">Georg 62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 62. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-63">Georg 63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 63. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-64">Georg 64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 64. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-65">Georg 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 65. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-66">Georg 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 66. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 12°, 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-67">Georg 67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 67. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-68">Georg 68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 68. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-69">Georg 69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 69. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-70">Georg 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 70. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-71-II">Georg 71/II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 71. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-72">Georg 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 72. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 12°, 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-73">Georg 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 73. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 12°. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 73</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-96">Georg 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 96. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-100">Georg 100</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 100. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-111">Georg 111</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 111. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-115">Georg 115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 115</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 115. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-117">Georg 117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 117. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-122">Georg 122</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 122</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 122. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-123">Georg 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 123</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 123. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-134">Georg 134</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 134</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 134. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-147">Georg 147</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 147</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 147. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-148">Georg 148</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 148</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 148. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-149">Georg 149</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 149</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 149. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-150">Georg 150</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 150. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>120. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-151">Georg 151</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 151</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 151. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-153">Georg 153</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 153</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg 153. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-166">Georg 166</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 166. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-221">Georg 221</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 221</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 221. 8°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-224">Georg 224</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 224. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 224</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-225">Georg 225</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 225. 8° (4°)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 225</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-226">Georg 226</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 226. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 226</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-227">Georg 227</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 227. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4° 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4° 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 227</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-228">Georg 228</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 228. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>2°, 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 228</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-229">Georg 229</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 229. 8° (4°)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°, 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-230">Georg 230</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 230. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 44. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 230</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 230. 2o</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-231">Georg 231</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 231. 8° (4°)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 4°, 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 231</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-233">Georg 233</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 233</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 233. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-234">Georg 234</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 234. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-235">Georg 235</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 235. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>No. 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 235</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-238">Georg 238</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 238. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>128. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 238</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-243">Georg 243</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 243. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Germ. 4°, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 243</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-266">Georg 266</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 266. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 266</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-267">Georg 267</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 267. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 8°, 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 8°, 87</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 267</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-268">Georg 268</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 268. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 268</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-269">Georg 269</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 269. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 269</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-270">Georg 270</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 270. 8°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 270</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-272">Georg 272</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 272. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Georg. 2°, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 272</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-275">Georg 275</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 275. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 275</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-276">Georg 276</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 276. 4°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 276</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-278">Georg 278</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. Georg. 278. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>11. 2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg. 278</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-1">Georg 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-4">Georg 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 4. fol.</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 4.2°</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-7">Georg 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-12">Georg 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-13">Georg 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 13. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 13. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-16">Georg 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-16a">Georg 16a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 16a. fol.</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 16a. 2°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-17-II">Georg 17/II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-17-I">Georg 17/I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 17. fol.</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 17. 2°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-18a">Georg 18a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 18a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-19">Georg 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-23">Georg 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-24-II">Georg 24/II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-25-II">Georg 25/II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 25?</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-32">Georg 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 32. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 32. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-41">Georg 41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 41. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 41. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-42">Georg 42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 42. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 42. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-46">Georg 46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-47">Georg 47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-48">Georg 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-50">Georg 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-55">Georg 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-57">Georg 57</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-58">Georg 58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-59">Georg 59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-71-I">Georg 71/I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-71a">Georg 71a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 71a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-72a">Georg 72a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 72a. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 72a. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-207">Georg 207</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 207</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-209">Georg 209</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 209. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 209.4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-250">Georg 250</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 250</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-253">Georg 253</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 253</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-262">Georg 262</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 262</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-263">Georg 263</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 263. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 263. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-265">Georg 265</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 265. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 265. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-271">Georg 271</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 271</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-866">Georg 866</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 866</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-1">HB 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-2">HB 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-7">HB 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-8">HB 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-9">HB 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-10">HB 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-12">HB 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_HB-13">HB 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HB Hs. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_BB-5704">BB 5704</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. BB 5704. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. BB 5704. 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Hs-II-1-2">Hs. II 1²</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. II 1 2. quart</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. II 1². 4°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-5">Georg 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-264">Georg 264</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 264. 2°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-187-188">Georg 187/188</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 187/188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 187/188. 2°</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Georg-192">Georg 192</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Georg Hs. 192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="7576656-5">Dessau-Roßlau</settlement>
+                  <repository key="65928-9">Stadtarchiv Dessau-Roßlau, Anhaltische Landesbücherei</repository>
+                  <idno xml:id="_Hs-II-1-3">Hs. II 1³</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. II 1 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs II 1 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs-II-1_3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

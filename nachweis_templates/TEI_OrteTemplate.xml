@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Normdaten Places Template-Datei</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+           <!-- ========= Bundesland/Entsprechung ========= -->
+            <place xml:id="__hsp-uuid__" type="region">
+               <placeName type="default" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <placeName type="alternative" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <placeName type="alternative" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <idno xml:id="__gnd-id__">#{GNDID}#</idno>
+               <idno xml:id="__getty-id__">#{GETTYID}#</idno>
+               <idno xml:id="__geonames-id__">#{GEONAMESID}#</idno>
+            </place>
+            
+             <!-- ========= Stadt/Ort ========= -->
+            <place xml:id="__hsp-uuid__" type="city">
+               <placeName type="default" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <placeName type="alternative" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <placeName type="alternative" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <idno xml:id="__gnd-id__">#{GNDID}#</idno>
+               <idno xml:id="__getty-id__">#{GETTYID}#</idno>
+               <idno xml:id="__geonames-id__">#{GEONAMESID}#</idno>
+            </place>
+            
+            <!-- ========= Staat ========= -->
+            <place xml:id="__hsp-uuid__" type="country">
+               <placeName type="default" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <placeName type="alternative" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <placeName type="alternative" xml:lang="__lang_code__">#{PLACENAME}#</placeName>
+               <idno xml:id="__gnd-id__">#{GNDID}#</idno>
+               <idno xml:id="__getty-id__">#{GETTYID}#</idno>
+               <idno xml:id="__geonames-id__">#{GEONAMESID}#</idno>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Surrogates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="___GND-ID___">___besitzendeEinrichtung___</settlement>
+                  <repository key="___GND-ID___">___OrtDerBesitzendenEinrichtung___</repository>
+                  <idno>___gueltige_Signatur___</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <!--  include digitized objects
+                       # required: insert KOD-ID or valid idno
+                       # required: link to an
+                       ## IIIF-Manifest -> type="manifest" if digitized object is capable of being depicted in an IIIF-viewer
+                       ## OR any other digitized depiction -> type="other"
+                       # recommended: insert type="thumbnail" for depicting a selected preview
+                       # recommended: insert date of digitalization, place and name of the organization that issued the digitized object
+                     -->
+                     <bibl>
+                        <ref type="manifest" target="___URL_des_Manifestes___"/>
+                        <ref type="other" target="___URL_des_Digitalisats___"/>
+                        <ref type="thumbnail" target="___URL_des_Thumbnails___"/>
+                        <ref type="completeness" target="__URL_des_Thesaurus_completeness__"/>
+                        <ref type="sourceType" target="__URL_des_Thesaurus_sourceType__"/>
+                        <ref type="digitizationType" target="__URL_des_Thesaurus_digitizationType__"/>
+                        <ref type="captureType" target="__URL_des_Thesaurus_captureType__"/>
+                        <date when="2016-10-21" type="digitized"/>
+                        <date when="2016-10-21" type="published"/>
+                        <orgName key="___GND-ID___" type="digitizing">___digitalisierendeEinrichtung___</orgName>
+                        <placeName key="___GND-ID___" type="digitizing">___OrtDerDigitalisierendenEinrichtung___</placeName>
+                     </bibl>
+                     <!-- mögliche weitere Digitalisate der gleichen Handschrift in weiteren <bibl>s -->
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <!-- mögliche weitere Digitalisate von anderen Handschriften in weiteren <msDesc>s -->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Freiburg_Erzbischoefliches_Archiv/01_Freiburg_Erzbischoefliches_Archiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Fragm-1">Fragm. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Fragm-2">Fragm. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Fragm-3">Fragm. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ha 415c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Fragm-4">Fragm. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ha 102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Fragm-5">Fragm. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ha 208</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-1">Hs. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 01</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-2">Hs. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 02</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-3">Hs. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 03</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 03</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-4">Hs. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 04</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-5">Hs. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 05</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 05</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-6">Hs. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 06</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 06</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-7">Hs. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 07</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 07</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-8">Hs. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 08</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 08</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-9">Hs. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 09</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 09</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-10">Hs. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-11">Hs. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-12">Hs. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-13">Hs. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-15">Hs. 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Adelh. Hs. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. Hs. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-18">Hs. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-19">Hs. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-20">Hs. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-21">Hs. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-22">Hs. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-23">Hs. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-24">Hs. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-25">Hs. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-26">Hs. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-27">Hs. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-28">Hs. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-29">Hs. 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Adelh. F² H V a 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-30">Hs. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-31">Hs. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-32">Hs. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-33">Hs. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-34-Bd-2">Hs. 34 Bd. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 34 Bd 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Da 42. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-34-Bd-3">Hs. 34 Bd. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 34 Bd 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Da 42. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-34-Bd-4">Hs. 34 Bd. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 34 Bd 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Da 42. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-35">Hs. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-36">Hs. 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>olim: Ha 581</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ha 581</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Hs-17">Hs. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-516">Ha 516</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-518">Ha 518</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-530">Ha 530</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-534">Ha 534</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-537">Ha 537</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-539">Ha 539</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-550">Ha 550</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-551">Ha 551</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-556">Ha 556</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-557">Ha 557</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-562">Ha 562</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-574">Ha 574</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-577">Ha 577</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-578">Ha 578</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-583">Ha 583</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-584">Ha 584</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-585">Ha 585</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-588">Ha 588</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-589">Ha 589</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-590">Ha 590</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-592">Ha 592</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-595">Ha 595</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-596">Ha 596</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-597">Ha 597</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-598">Ha 598</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-599">Ha 599</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-600">Ha 600</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-601">Ha 601</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-604">Ha 604</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-605">Ha 605</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-606">Ha 606</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-608">Ha 608</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-618">Ha 618</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-619">Ha 619</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-621">Ha 621</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="2075668-9">Erzbischöfliches Archiv Freiburg</repository>
+                  <idno xml:id="_Ha-641">Ha 641</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

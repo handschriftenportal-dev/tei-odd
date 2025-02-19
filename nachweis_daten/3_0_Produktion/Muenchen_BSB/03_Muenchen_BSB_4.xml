@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Muenchen_BSB/03_Muenchen_BSB_4.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9366 b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00036283/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00036283-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00036283_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9368</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00142724/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00142724-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00142724_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 937</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00133633/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00133633-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00133633_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9379</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00077710/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00077710-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00077710_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2012" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9392</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00142725/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00142725-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00142725_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9395</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00143859/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00143859-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00143859_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9396</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00147591/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00147591-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00147591_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9396</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00147728/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00147728-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00147728_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/thermo"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 94</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00095888/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00095888-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00095888_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9406</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00081897/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00081897-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00081897_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9409</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00017424/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00017424-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00017424_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2007" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 941</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00133674/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00133674-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00133674_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9410</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00023047/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00023047-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00023047_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2008" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9425</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034283/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00034283-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034283_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9426</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034458/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00034458-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034458_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9427</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034477/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00034477-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034477_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9428</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034461/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00034461-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034461_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9429</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034467/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00034467-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034467_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9429</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034469/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00034469-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034469_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9431 a</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00037855/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00037855-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00037855_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9431 b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00037856/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00037856-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00037856_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9441</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107888/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00107888-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00107888_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9453</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10742900/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10742900-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb10742900_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2012" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9457</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00088603/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00088603-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00088603_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9458</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10494950/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10494950-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb10494950_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2011" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9460</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00042105/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00042105-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00042105_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2009" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9470</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00058206/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00058206-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00058206_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2011" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9470</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00147015/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00147015-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00147015_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/thermo"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9474</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059034/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00059034-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00059034_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2011" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9479</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106262/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106262-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106262_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9484</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00083121/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00083121-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083121_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9488</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00096533/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00096533-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00096533_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9489</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00069156/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00069156-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00069156_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2012" type="digitized"/>
+                        <date when="2012" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9489</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085125/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00085125-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00085125_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 949</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00043385/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00043385-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00043385_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2009" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9494</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106261/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106261-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106261_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9496</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00109129/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00109129-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00109129_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 95</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00090001/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00090001-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00090001_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9501</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106263/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106263-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106263_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9502</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106264/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106264-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106264_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9506</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11174854/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11174854-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11174854_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9507</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00091848/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00091848-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00091848_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9508</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00090141/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00090141-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00090141_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9509</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092318/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092318-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092318_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 951</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00134051/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00134051-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00134051_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9510</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092326/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092326-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092326_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9511</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00093241/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00093241-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00093241_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9512(1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106256/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106256-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106256_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9512(2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106257/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106257-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106257_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9512(3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106258/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106258-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106258_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9512(4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106259/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106259-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106259_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9513</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106260/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106260-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106260_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9515</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106265/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106265-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106265_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9516</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106266/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106266-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106266_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9517</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00130105/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00130105-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00130105_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 952</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00133673/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00133673-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00133673_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9522</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106270/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106270-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106270_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9523</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106269/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106269-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106269_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9524</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092354/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092354-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092354_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9525</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092330/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092330-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092330_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9526</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092324/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092324-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092324_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9527</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092352/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092352-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092352_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9529</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00092351/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00092351-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00092351_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 953</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00133672/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00133672-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00133672_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9533</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106268/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106268-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106268_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9534</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106267/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00106267-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106267_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 954</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00118230/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00118230-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00118230_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9544</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105878/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105878-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105878_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9545</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105876/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105876-4"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105876_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9545</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105877/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105877-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105877_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9564</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00139810/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00139810-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00139810_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9570</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00142898/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00142898-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00142898_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9570</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00147733/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00147733-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00147733_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/thermo"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 96</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00035357/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00035357-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00035357_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 960</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00110919/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00110919-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00110919_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9607</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00152186/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00152186-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00152186_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 961</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00038996/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00038996-8"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00038996_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9618</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00140170/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00140170-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00140170_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9638</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00152349/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00152349-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00152349_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 9638</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00151506/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00151506-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00151506_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/thermo"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date type="digitized"/>
+                        <date type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 965</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105438/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105438-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105438_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00082405/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00082405-1"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00082405_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00095110/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00095110-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00095110_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 973</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00144812/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00144812-6"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00144812_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 973</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00110920/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00110920-7"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00110920_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 977</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00035396/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00035396-5"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00035396_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 98</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00055375/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00055375-3"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00055375_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2010" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 987</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00077801/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00077801-0"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00077801_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2012" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 99</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00040580/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00040580-2"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00040580_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2009" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4127793-4">München</settlement>
+                  <repository key="2031351-2">Bayerische Staatsbibliothek</repository>
+                  <idno>Cgm 998</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00083789/manifest"/>
+                        <ref type="other"
+                             target="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00083789-9"/>
+                        <ref type="thumbnail"
+                             target="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083789_00003/full/280,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/reproduction"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/greyscale"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Dillingen_StudB/01_Dillingen_StudB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-1">XV 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-2">XV 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-3">XV 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-6">XV 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-7">XV 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-8">XV 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-9">XV 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-10">XV 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-11">XV 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-14">XV 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-24">XV 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-25">XV 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-29">XV 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-31">XV 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-32">XV 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-33">XV 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-34">XV 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-35">XV 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-42">XV 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-43">XV 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-44">XV 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-47">XV 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-50">XV 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-51">XV 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-53">XV 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-55">XV 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-56">XV 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-57">XV 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-58-1">XV 58-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>XV 80</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-58-2">XV 58-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-59">XV 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-60">XV 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-61">XV 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-62">XV 62</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-64">XV 64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-67">XV 67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-68">XV 68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-70">XV 70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-71">XV 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-73">XV 73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-74">XV 74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-76">XV 76</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-77">XV 77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-78">XV 78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-79">XV 79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-85">XV 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-86">XV 86</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-87">XV 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-88">XV 88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-89">XV 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-90">XV 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-91">XV 91</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-92">XV 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-93">XV 93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-94">XV 94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-95">XV 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-96">XV 96</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-97">XV 97</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-98">XV 98</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-99">XV 99</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-105">XV 105</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-106b">XV 106b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-121">XV 121</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-125">XV 125</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-126">XV 126</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-128">XV 128</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-129">XV 129</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-130">XV 130</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-131">XV 131</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-132">XV 132</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-133">XV 133</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-135">XV 135</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-136">XV 136</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-137">XV 137</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-141">XV 141</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-142">XV 142</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-154">XV 154</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-165">XV 165</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-168">XV 168</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-183">XV 183</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-193">XV 193</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-194">XV 194</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-196">XV 196</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-197">XV 197</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-198">XV 198</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-199">XV 199</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-200">XV 200</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-201">XV 201</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-202">XV 202</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-209">XV 209</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-213">XV 213</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-214">XV 214</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-215">XV 215</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-244-2">XV 244(2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-244-1">XV 244(1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-235">XV 235</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-255">XV 255</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-488">XV 488</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-1">XV Fragm. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-2">XV Fragm. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-3">XV Fragm. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-4">XV Fragm. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-5">XV Fragm. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-6">XV Fragm. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-7">XV Fragm. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-8">XV Fragm. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-9">XV Fragm. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-10">XV Fragm. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-11">XV Fragm. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-12">XV Fragm. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-13">XV Fragm. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-14">XV Fragm. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-15">XV Fragm. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-16">XV Fragm. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-17">XV Fragm. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-18">XV Fragm. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-19">XV Fragm. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-21">XV Fragm. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-22">XV Fragm. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-23">XV Fragm. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-24">XV Fragm. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-24a">XV Fragm. 24a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-25">XV Fragm. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-26">XV Fragm. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-27">XV Fragm. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_XV-Fragm-28">XV Fragm. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_A-ME-1">A/ME 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_CD-109-12-3-Einband">CD 109.12.3#Einband</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4012328-5">Dillingen a.d. Donau</settlement>
+                  <repository key="64462-6">Studienbibliothek Dillingen</repository>
+                  <idno xml:id="_Ms-XV-149">Ms. XV/149</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

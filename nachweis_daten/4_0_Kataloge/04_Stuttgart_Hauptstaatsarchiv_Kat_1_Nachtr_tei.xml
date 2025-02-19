@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <tei:title>Die Handschriften der Sammlung J 1 im Hauptstaatsarchiv Stuttgart. Nachträge und Verbesserungen</tei:title>
+            <tei:respStmt>
+               <tei:resp>Beschrieben durch</tei:resp>
+               <tei:persName role="author" ref="https://d-nb.info/gnd/1025729633">Michael Klein</tei:persName>
+            </tei:respStmt>
+         </tei:titleStmt>
+         <tei:publicationStmt>
+            <tei:publisher ref="https://d-nb.info/gnd/1068107626">Harrassowitz Verlag</tei:publisher>
+            <tei:pubPlace>Wiesbaden</tei:pubPlace>
+            <tei:date>1987</tei:date>
+            <tei:idno type="hsk">846</tei:idno>
+            <tei:availability>
+               <tei:licence target="https://rightsstatements.org/page/InC/1.0/">
+                  <tei:p>In copyright.</tei:p>
+               </tei:licence>
+            </tei:availability>
+            <tei:ptr type="thumbnail" target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0350/0000035011/00000003.jpx/full/200,/0/default.jpg"/>
+            <tei:ptr type="hsp" target="https://iiif.ub.uni-leipzig.de/0000035011/manifest.json"/>
+         </tei:publicationStmt>
+         <tei:seriesStmt>
+            <tei:title>Die Handschriften der Staatsarchive in Baden-Württemberg</tei:title>
+            <tei:biblScope unit="volume">Bd. 1, Nachtr.</tei:biblScope>
+         </tei:seriesStmt>
+         <tei:sourceDesc>
+            <tei:msDesc xml:id="OCR_04_Stuttgart_Hauptstaatsarchiv_Kat_1_Nachtr_tei" type="hsp:catalog" xml:lang="de">
+               <tei:msIdentifier>
+                  <tei:settlement>Stuttgart</tei:settlement>
+                  <tei:repository>Hauptstaatsarchiv</tei:repository>
+                  <tei:idno>Kat_1_Nachtr</tei:idno>
+               </tei:msIdentifier>
+               <tei:p>OCR-Ausgangsdatei: 04_Stuttgart_Hauptstaatsarchiv_Kat_1_Nachtr_tei.xml</tei:p>
+            </tei:msDesc>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+   </tei:teiHeader>
+   <tei:text>
+      <tei:body>
+         <tei:div type="TITELEI">
+            <tei:p n="Page1_Block1">
+               <tei:lb n="Page1_Block1_Line1"/>DIE HANDSCHRIFTEN DER
+      <tei:lb n="Page1_Block1_Line2"/>STAATSARCHIVE IN BADEN-WÜRTTEMBERG
+      <tei:lb n="Page1_Block1_Line3"/>HERAUSGEGEBEN VON DER
+      <tei:lb n="Page1_Block1_Line4"/>LANDESARCHIVDIREKTION BADEN-WÜRTTEMBERG</tei:p>
+            <tei:p n="Page1_Block2">
+               <tei:lb n="Page1_Block2_Line1"/>NACHTRÄGE UND VERBESSERUNGEN ZU BAND 1:</tei:p>
+            <tei:p n="Page1_Block3">
+               <tei:lb n="Page1_Block3_Line1"/>DIE HANDSCHRIFTEN DER SAMMLUNG J1
+      <tei:lb n="Page1_Block3_Line2"/>IM HAUPTSTAATSARCHIV STUTTGART
+      <tei:lb n="Page1_Block3_Line3"/>BESCHRIEBEN VON
+      <tei:lb n="Page1_Block3_Line4"/>MICHAEL KLEIN</tei:p>
+            <tei:p n="Page1_Block4">
+               <tei:lb n="Page1_Block4_Line1"/>1987
+      <tei:lb n="Page1_Block4_Line2"/>OTTO HARRASSOWITZ WIESBADEN</tei:p>
+         </tei:div>
+         <tei:div type="VORWORT">
+            <tei:p n="Page2_Block1">
+               <tei:lb n="Page2_Block1_Line1"/>563</tei:p>
+            <tei:p n="Page2_Block2">
+               <tei:lb n="Page2_Block2_Line1"/>VORBEMERKUNG</tei:p>
+            <tei:p n="Page2_Block3">
+               <tei:lb n="Page2_Block3_Line1"/>Als Hilfsmittel bei der Erforschung literarischer Quellentexte bedürfen Handschriftenbeschreibungen
+      <tei:lb n="Page2_Block3_Line2"/> immer neu der Aktualisierung. Die Vorlage eines gedruckten Kataloges ist
+      <tei:lb n="Page2_Block3_Line3"/>deshalb nur eine Zäsur in der stetigen Arbeit an und mit Quellen.
+      <tei:lb n="Page2_Block3_Line4"/>Seit der Veröffentlichung von Beschreibungen der Handschriften in der Sammlung J 1 im
+      <tei:lb n="Page2_Block3_Line5"/>Hauptstaatsarchiv Stuttgart sind dem Bearbeiter eine Reihe von Fehlern in diesem Katalog
+      <tei:lb n="Page2_Block3_Line6"/>aufgefallen. Durch neu bekannt gewordene Drucke, Verwertung in der Literatur und
+      <tei:lb n="Page2_Block3_Line7"/>sonstige weiterführende Erkenntnisse konnten einzelne Texte besser bestimmt und die
+      <tei:lb n="Page2_Block3_Line8"/>Erschließung im Index weitergeführt werden. Obwohl die Zusätze keinen großen Umfang
+      <tei:lb n="Page2_Block3_Line9"/>haben — sie sind mehr zufällig bei der Beschäftigung mit anderen Quellen und Fragen
+      <tei:lb n="Page2_Block3_Line10"/>erwachsen und beruhen ausschließlich auf den Erkenntnissen des Bearbeiters bis Oktober
+      <tei:lb n="Page2_Block3_Line11"/>1986 — werden sie aus Anlaß des Erscheinens von Band 2 der Reihe »Die Handschriften
+      <tei:lb n="Page2_Block3_Line12"/>der Staatsarchive in Baden-Württemberg« in einer Beilage zusammengestellt, um sie einem
+      <tei:lb n="Page2_Block3_Line13"/>größeren Kreis nutzbar zu machen. Die Beilage sollte zugleich Anregung dazu sein, weitere
+      <tei:lb n="Page2_Block3_Line14"/>Fehler, Ergänzungen und Beobachtungen zu Beschreibungen und Handschriften zu notieren
+      <tei:lb n="Page2_Block3_Line15"/> und Bearbeiter oder Herausgeber mitzuteilen. Die solcherart gesammelten Notizen
+      <tei:lb n="Page2_Block3_Line16"/>könnten bei Gelegenheit in geeigneter Form ebenfalls zugänglich gemacht werden.
+      <tei:lb n="Page2_Block3_Line17"/>Es erschien nicht sinnvoll, alle Fehler zu vermerken. Nicht berücksichtigt blieben:
+      <tei:lb n="Page2_Block3_Line18"/>a) Druckfehler, die für den Leser selbst erkennbar sind (etwa Epitaphen für Epitaphien),
+      <tei:lb n="Page2_Block3_Line19"/>h) Fehler in der Systematik ohne inhaltliche Auswirkungen: fehlende oder fehlerhafte
+      <tei:lb n="Page2_Block3_Line20"/>■ Abkürzungen, Absätze, Einrückungen, Ersetzungsstriche, Satzzeichen, Streichungen,
+      <tei:lb n="Page2_Block3_Line21"/>in anderer Schriftart gesetzte Zeichen, Kennzeichnung der nur im Index aufgeführten
+      <tei:lb n="Page2_Block3_Line22"/>Stichworte durch Stern (bisher wurden 116 Stichworte entdeckt, vor die zusätzlich * zu
+      <tei:lb n="Page2_Block3_Line23"/>setzen ist, bei 25 wäre dieses Zeichen zu streichen),
+      <tei:lb n="Page2_Block3_Line24"/>c) Verbesserungen aus stilistischen Gründen.
+      <tei:lb n="Page2_Block3_Line25"/>Um die Nachträge richtig zuzuordnen, wird zunächst jeweils die Stelle bezeichnet, an der
+      <tei:lb n="Page2_Block3_Line26"/>sie einzufügen sind. Dabei bedeuten:
+      <tei:lb n="Page2_Block3_Line27"/>S. Seite (im Katalog »Die Handschriften der Staatsarchive in Baden-Württemberg«,
+      <tei:lb n="Page2_Block3_Line28"/>Band 1, 1980)
+      <tei:lb n="Page2_Block3_Line29"/>li/re linke/rechte Spalte (im Indexteil)
+      <tei:lb n="Page2_Block3_Line30"/>Abs. Absatz (von oben; bei Handschriften ist, ohne Signatur, auch Schlagtitel und
+      <tei:lb n="Page2_Block3_Line31"/>Schlagzeile als Absatz gezählt)</tei:p>
+            <tei:p n="Page3_Block1">
+               <tei:lb n="Page3_Block1_Line1"/>VORBEMERKUNG</tei:p>
+            <tei:p n="Page3_Block2">
+               <tei:lb n="Page3_Block2_Line1"/>564</tei:p>
+            <tei:p n="Page3_Block3">
+               <tei:lb n="Page3_Block3_Line1"/>Anm. Anmerkungsnummer
+      <tei:lb n="Page3_Block3_Line2"/>ZI. Zeile, gezählt von oben im bezeichneten Absatz, der Anmerkung, dem Handschriftenbeschreibungsteil;
+      <tei:lb n="Page3_Block3_Line3"/> im Index wird jede Spalte ganz durchgezählt
+      <tei:lb n="Page3_Block3_Line4"/>Hs. Handschriftensignatur im Bestand Hauptstaatsarchiv Stuttgart J 1; es folgt für
+      <tei:lb n="Page3_Block3_Line5"/>Teile, in denen Textinhalte beschrieben sind, eine entsprechende Blatt- oder
+      <tei:lb n="Page3_Block3_Line6"/>Seitenangabe
+      <tei:lb n="Page3_Block3_Line7"/>Lm Lemma (Stichwort im Indexteil, dem Verbesserungen zuzuordnen sind)
+      <tei:lb n="Page3_Block3_Line8"/>#. .# Begriff (Textteil usw.) im Katalogtext, bei dem ein Zusatz einzuordnen ist. Dabei
+      <tei:lb n="Page3_Block3_Line9"/>bedeuten
+      <tei:lb n="Page3_Block3_Line10"/>nach (seltener: vor) Zusatz soll danach (davor) eingefügt werden,
+      <tei:lb n="Page3_Block3_Line11"/>für der bezeichnete Textteil ist durch eine neue Form zu ersetzen. Hier ist bei
+      <tei:lb n="Page3_Block3_Line12"/>umfangreicheren Texten nur Anfang und Schluß der bisherigen Formulierung
+      <tei:lb n="Page3_Block3_Line13"/>bezeichnet, getrennt durch
+      <tei:lb n="Page3_Block3_Line14"/>Diese Angaben zur Einordnung der Zusätze werden mit Doppelpunkt (:) geschlossen. Die
+      <tei:lb n="Page3_Block3_Line15"/>Verbesserungen und Nachträge folgen eingerückt in einer neuen Zeile. Nach Möglichkeit
+      <tei:lb n="Page3_Block3_Line16"/>sind sie so formuliert, daß sie an der angegebenen Stelle in den Katalogtext passen. Sie
+      <tei:lb n="Page3_Block3_Line17"/>richten sich deshalb nach dem System (Auswahl, Abkürzungen usw.), das dem Stuttgarter
+      <tei:lb n="Page3_Block3_Line18"/>Katalog zugrunde liegt (vgl. dort bes. S.60—72). Gegebenenfalls wird anschließend (in
+      <tei:lb n="Page3_Block3_Line19"/>Klammern) auf Konsequenzen hingewiesen, die sich aus dem Nachtrag ergeben.
+      <tei:lb n="Page3_Block3_Line20"/>Bei den Zusätzen zum Index sind auch die hier gegebenen Ergänzungen berücksichtigt.</tei:p>
+         </tei:div>
+         <tei:div type="SONSTIGES">
+            <tei:p n="Page4_Block1">
+               <tei:lb n="Page4_Block1_Line1"/>S.15 Anm.23 ZI. 4 nach # gehören. #:</tei:p>
+            <tei:p n="Page4_Block2">
+               <tei:lb n="Page4_Block2_Line1"/>565</tei:p>
+            <tei:p n="Page4_Block3">
+               <tei:lb n="Page4_Block3_Line1"/>Auch P.O. Kristeller: Iter italicum...3 (1983) 695—698 geht nach anderen Kriterien vor. Dennoch
+      <tei:lb n="Page4_Block3_Line2"/> könnten aus Bestand HStA A 63 als »Handschrift« angesehen werden:
+      <tei:lb n="Page4_Block3_Line3"/>Bü 54: Kometenpredigten;
+      <tei:lb n="Page4_Block3_Line4"/>Bü 61: NN: De reipublicac Christianae statu... Germani (1583). -
+      <tei:lb n="Page4_Block3_Line5"/>Kristeller verwertet aber ebd. den vorliegenden Katalog und berührt viele hier genannte oder
+      <tei:lb n="Page4_Block3_Line6"/>beschriebene Handschriften.
+      <tei:lb n="Page4_Block3_Line7"/>S. 17 nach Abs.6 nach ZI.2 nach # 16./17. Jh.#:
+      <tei:lb n="Page4_Block3_Line8"/>A 474 L (Klosteramt Bebenhausen)
+      <tei:lb n="Page4_Block3_Line9"/>Bü 80: Jakob David Essich (gest. 1748), Monumenta Bebenhusana,
+      <tei:lb n="Page4_Block3_Line10"/>Auszüge 19. Jh. aus LBS Cod. hist. Fol. 305
+      <tei:lb n="Page4_Block3_Line11"/>S.23 Anm.42 Z1.4 nach #494f.#:
+      <tei:lb n="Page4_Block3_Line12"/>Editio 3 hat folgende Abweichungen: »... Würtembergicum (= groß) Fritschius... (dazu das
+      <tei:lb n="Page4_Block3_Line13"/>richtigere) culturam...«
+      <tei:lb n="Page4_Block3_Line14"/>S.31 Anm. 85 ZI.2 für # verbrannt),#:
+      <tei:lb n="Page4_Block3_Line15"/>unbrauchbar geworden; vgl. u. a. GLA 65/11449: Joseph Bader, Verzeichnis der im Pfälzer Codex
+      <tei:lb n="Page4_Block3_Line16"/>der Königl(ichen) Bibliothek zu Stuttgart »Histor. Fol. 395« enthaltenen Baden betreffenden
+      <tei:lb n="Page4_Block3_Line17"/>Urkunden),
+      <tei:lb n="Page4_Block3_Line18"/>5.33 __ Anm.99 ZI. 1 nach # Vgl.#:
+      <tei:lb n="Page4_Block3_Line19"/>neuerdings R.Rappmann, Die Bibliothek Herzog Friedrichs von Württemberg-Neuenstadt
+      <tei:lb n="Page4_Block3_Line20"/>(1615-1682), Darstellung ihrer Geschichte (Köln 1985, Hausarbeit der Bibliotheksschule, masch.
+      <tei:lb n="Page4_Block3_Line21"/>vervielf.), dazu
+      <tei:lb n="Page4_Block3_Line22"/>5.33 Anm.99 ZI.6 für # nach 1068).#:
+      <tei:lb n="Page4_Block3_Line23"/>1072, 4 Bände).</tei:p>
+            <tei:p n="Page5_Block1">
+               <tei:lb n="Page5_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page5_Block2">
+               <tei:lb n="Page5_Block2_Line1"/>S.33 Anm. 100 ZI. 1 nach #Bü 21.#:</tei:p>
+            <tei:p n="Page5_Block3">
+               <tei:lb n="Page5_Block3_Line1"/>566</tei:p>
+            <tei:p n="Page5_Block4">
+               <tei:lb n="Page5_Block4_Line1"/>- Nach Rappmann (wie Anm. 99) bildet der Verkaufskatalog Pregizers die beste Inhaltsbeschreibung
+      <tei:lb n="Page5_Block4_Line2"/> der Bibliothek.
+      <tei:lb n="Page5_Block4_Line3"/>S. 39 Anm. 151 ZI. I nach #2816.#:
+      <tei:lb n="Page5_Block4_Line4"/>- H.Günzler, Lebensbilder aus Schwaben und Franken 16 (1986) 88-107.
+      <tei:lb n="Page5_Block4_Line5"/>S.41 Anm. 168 ZI.4 nach #2931.#:
+      <tei:lb n="Page5_Block4_Line6"/>Auswertung W. Ludwig, Südwestdt. Bll. für Familien- und Wappenkunde 16 (1981) 577-581;
+      <tei:lb n="Page5_Block4_Line7"/>Ergänzungen und Kritik O.G.Lonhard, ebd. 17 (1982) 52-57.
+      <tei:lb n="Page5_Block4_Line8"/>5.45 Anm. 182 ZI.2 nach #289-309; #:
+      <tei:lb n="Page5_Block4_Line9"/>K. Würth, Aus Vergangenheit und Gegenwart der Gemeinde Weiler/Rems (1964) 94-111;
+      <tei:lb n="Page5_Block4_Line10"/>5.45 Anm. 182 ZI.3 nach # bes. S.26ff.#:
+      <tei:lb n="Page5_Block4_Line11"/>; neuerdings (mit weiterer Literatur) K. Graf, Gmünder Chroniken im 16. Jahrhundert (1984) bes.
+      <tei:lb n="Page5_Block4_Line12"/>77-86.
+      <tei:lb n="Page5_Block4_Line13"/>5.48 Anm.202 ZI.5 für # Nr.2643#:
+      <tei:lb n="Page5_Block4_Line14"/>Nr. 1643
+      <tei:lb n="Page5_Block4_Line15"/>5.48 Anm.202 ZI.6 nach # aufführt #:
+      <tei:lb n="Page5_Block4_Line16"/>. Die Erlanger Handschriften wurden erneut beschrieben durch O.Pültz, Die dt. Hss. der UB
+      <tei:lb n="Page5_Block4_Line17"/>Erlangen, Neubearbeitung 4 (1973) 87f. Innerhalb der Sammelbände befinden sich die Beschreibungen
+      <tei:lb n="Page5_Block4_Line18"/> der Nürnberger Klöster unter:
+      <tei:lb n="Page5_Block4_Line19"/>B 113 (Irm. 1643), 359r-490v (Auszug), sowie
+      <tei:lb n="Page5_Block4_Line20"/>B 115 (Irm. 1672), 3r-97v (Abschrift von B 113).
+      <tei:lb n="Page5_Block4_Line21"/>Danach befindet sich das Originahns, im Ansbacher Archiv, die Widmung ist datiert 20. Jan. 1617
+      <tei:lb n="Page5_Block4_Line22"/>(HM).
+      <tei:lb n="Page5_Block4_Line23"/>S. 50 Anm.218 ZI.4—5 für # Fassung....... Staatsrecht.#:
+      <tei:lb n="Page5_Block4_Line24"/>Fassung: Johann Jakob Mosers Mömpelgardisches Staatsrecht. Hg. und eingcleitet von
+      <tei:lb n="Page5_Block4_Line25"/>W. H. Stein mit einer Übersetzung von G. Anders. Veröff. der Komm, für gcschichtl. Landeskunde
+      <tei:lb n="Page5_Block4_Line26"/>in Baden-Württ. A 35 (1983).
+      <tei:lb n="Page5_Block4_Line27"/>5.57 Anm. 268 ZI. 3 nach #530#:
+      <tei:lb n="Page5_Block4_Line28"/>(1. Aufl. 1733, 93)
+      <tei:lb n="Page5_Block4_Line29"/>5.57 Anm.268 ZI.8 nach #256#:
+      <tei:lb n="Page5_Block4_Line30"/>; R.Oehme, J.öttingcr, Veröff. der Komm, für geschichtl. Landeskunde in Baden-Württ. B 103
+      <tei:lb n="Page5_Block4_Line31"/>(1982) bes. 38-39; vgl. auch H. Schweickher, Der Atlas des Herzogtums Württemberg ... Einführung
+      <tei:lb n="Page5_Block4_Line32"/> von W. Irtenkauf (1979) bes. S. 11</tei:p>
+            <tei:p n="Page6_Block1">
+               <tei:lb n="Page6_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page6_Block2">
+               <tei:lb n="Page6_Block2_Line1"/>S.67 ZI. 13 nach #philologici), LBS#:</tei:p>
+            <tei:p n="Page6_Block4">
+               <tei:lb n="Page6_Block4_Line1"/>567</tei:p>
+            <tei:p n="Page6_Block5">
+               <tei:lb n="Page6_Block5_Line1"/>; vgl. Die Handschriften der Württembergischen Landesbibliothek Stuttgart, Erste Reihe, Band 2,
+      <tei:lb n="Page6_Block5_Line2"/>Codices poetici et philologici, beschrieben von W.Irtenkauf und I.Krekler mit Vorarbeiten von
+      <tei:lb n="Page6_Block5_Line3"/>I.Dumke (1981) </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002654">
+            <tei:p n="Page6_Block5">
+               <tei:lb n="Page6_Block5_Line4"/>S.75 <tei:idno>Hs 2</tei:idno> Abs. 5 (Literatur) ZI. 1 nach #301f.#:
+               <tei:lb n="Page6_Block5_Line5"/>• K.Graf, Gmünder Chroniken im 16. Jh. (1984) 86 (Anm.63). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002655">
+            <tei:p n="Page6_Block5">
+               <tei:lb n="Page6_Block5_Line6"/>S.87 <tei:idno>Hs 21</tei:idno>, 25r-69v ZI. 2 nach # Redaktion #:
+               <tei:lb n="Page6_Block5_Line7"/>(LBS Cod. poet. Fol. 39a—b) </tei:p>
+            <tei:p n="Page6_Block5">
+               <tei:lb n="Page6_Block5_Line8"/>S.88 Hs 21, 91r-160v ZI. 1 für # für fälschlich #:
+               <tei:lb n="Page6_Block5_Line9"/>so früher vermutet für angeblich </tei:p>
+            <tei:p n="Page6_Block5">
+               <tei:lb n="Page6_Block5_Line10"/>S.88 Hs 21, 91r—160v ZI.3 nach # Württemberg&lt;.#:
+               <tei:lb n="Page6_Block5_Line11"/>Vielleicht auch nur eine Kompilation von Beyrlin wie das Fragment 182r—189v,
+               <tei:lb n="Page6_Block5_Line12"/>s. d. —</tei:p>
+            <tei:p n="Page6_Block6">
+               <tei:lb n="Page6_Block6_Line1"/>S. 88 Hs 21, 182r— 189v ZI. 3—4 für # HB XV....... werden.#:
+               <tei:lb n="Page6_Block6_Line2"/>HB XV 94. Zu Beyrlin (Beurlin, geh. 1576) vgl. (zuletzt) Bll. für pfälzische
+               <tei:lb n="Page6_Block6_Line3"/>Kirchengeschichte 42 (1975) 145 Nr. 349, 47 (1980) 73 Nr. 349a. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002656">
+            <tei:p n="Page6_Block6">
+               <tei:lb n="Page6_Block6_Line4"/>S.91 <tei:idno>Hs 24</tei:idno>Abs. 5 (Literatur) Zl.l nach #300f.#:
+               <tei:lb n="Page6_Block6_Line5"/>• E.WÜRTH, Aus Vergangenheit... Weiler/Rems (1964) 97 (Abb. von 258r) • K.Graf, Gmünder
+               <tei:lb n="Page6_Block6_Line6"/>Chroniken im 16. Jh. (1984) 86 (Anm.64). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002657">
+            <tei:p n="Page6_Block6">
+               <tei:lb n="Page6_Block6_Line7"/>S.96 <tei:idno>Hs 29</tei:idno>, lr-209r ZI.6 nach # 1-318.#:
+               <tei:lb n="Page6_Block6_Line8"/>Teildruck W.Glässner, Veröff. des Archivs der Stadt Waiblingen 1 (1978) 45—64. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002658">
+            <tei:p n="Page6_Block6">
+               <tei:lb n="Page6_Block6_Line9"/>S.99 <tei:idno>Hs 33</tei:idno>, 59r-71r ZI. 1-2 für #J.Ch. Lünig ...-...-336; #:
+               <tei:lb n="Page6_Block6_Line10"/>A.Kluckhohn, Dt. Reichstagsakten unter Kaiser Karl V. Bd.l (1893) S.864ff.
+               <tei:lb n="Page6_Block6_Line11"/>Nr.387 (=Dt.Reichstagsakten Jüngere Reihe Bd.l); </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002659">
+            <tei:p n="Page6_Block6">
+               <tei:lb n="Page6_Block6_Line12"/>S. 115' <tei:idno>Hs 43</tei:idno>, 91r-105r ZI.2 nach #172-196#:
+               <tei:lb n="Page6_Block6_Line13"/>; nach J.Sydow, Germania Sacra NF 16(1984) 2f., 139 (Anm. 1) u.ö. wohl verfaßt
+               <tei:lb n="Page6_Block6_Line14"/>von Ulrich von Baldeck (gest. 1518, vgl. ebd. 285);</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002660">
+            <tei:p n="Page6_Block8">
+               <tei:lb n="Page6_Block8_Line1"/>S. 119 <tei:idno>Hs 48a</tei:idno>, 10. (374r-405\ Nr. 110-113), Z1.4 nach #-402r#:
+               <tei:lb n="Page6_Block8_Line2"/>, vgl. J.Sydow, Germania Sacra NF 16, 1984, 131 Anm.4</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002661">
+            <tei:p n="Page7_Block1">
+               <tei:lb n="Page7_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page7_Block2">
+               <tei:lb n="Page7_Block2_Line1"/>S. 120 <tei:idno>Hs 48b</tei:idno>, 290-292... ZI.6 nach #41-42, 51). #:</tei:p>
+            <tei:p n="Page7_Block3">
+               <tei:lb n="Page7_Block3_Line1"/>568</tei:p>
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line1"/>Auch LBS Cod. poet. et phil. 0 89, Hs 252, 229r—231r. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002662">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line2"/>S. 132 <tei:idno>Hs 48z</tei:idno>, 231-244 ZI.3 nach #(242).#:
+               <tei:lb n="Page7_Block4_Line3"/>Behandelt ist (u.a.) Familie von Gemmingen, vgl. F.J. Mone, Quellensammlung
+               <tei:lb n="Page7_Block4_Line4"/>der bad. Landesgeschichte 1(1848) (96). Vgl. S. Burggraf, Gemmingischer Stammbaum,
+               <tei:lb n="Page7_Block4_Line5"/> beschrieben in Bibliothek derer von gemmingen-hornberg auf bürg
+               <tei:lb n="Page7_Block4_Line6"/>hornberg A. N. (Esslingen o. J.) 4—5 (Hs 78, 85); Verwertung u. a. A. G. Kolb, Vjh
+               <tei:lb n="Page7_Block4_Line7"/>Zabergäuverein 9(1909)4-6. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002663">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line8"/>S. 133 <tei:idno>Hs 50</tei:idno>, 585-1421 ZI.6 nach #404. #:
+               <tei:lb n="Page7_Block4_Line9"/>— Nach H.Beekmans, Stuttgarter Zeitung Nr. 108, Mi 11. Mai 1983 S.24 sind
+               <tei:lb n="Page7_Block4_Line10"/>Zeitungsbände bis 1634 erschienen; einige davon heute in der Leningrader Salty-
+               <tei:lb n="Page7_Block4_Line11"/>kow-Scedrin-Universität. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002664">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line12"/>S. 135 <tei:idno>Hs 55</tei:idno>, 2r-55r Z1.7 für #Cod.hist.Fol. 739bb (IV, 1, 9)#:
+               <tei:lb n="Page7_Block4_Line13"/>Cod. hist. Fol. 739bb (IV, 1, o) </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002665">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line14"/>S. 144 (<tei:idno>Hs 76a</tei:idno>) ZI. 1 für #25(1977)#:
+               <tei:lb n="Page7_Block4_Line15"/>25 (1978) </tei:p>
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line16"/>S. 144 (Hs 76a-b) ZI.2 für #(Abb. von 76a, 25;#:
+               <tei:lb n="Page7_Block4_Line17"/>(Abb. von 76a, 26; </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002666">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line14"/>S. 144 (<tei:idno>Hs 76b</tei:idno>) ZI. 1 für #25(1977)#:
+               <tei:lb n="Page7_Block4_Line15"/>25 (1978) </tei:p>
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line16"/>S. 144 (Hs 76a-b) ZI.2 für #(Abb. von 76a, 25;#:
+               <tei:lb n="Page7_Block4_Line17"/>(Abb. von 76a, 26; </tei:p>
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line18"/>S. 144 Hs 76bNr. 102—108 ZI.5 nach #Rathaus Rottweil,#:
+               <tei:lb n="Page7_Block4_Line19"/>gefertigt von Heinrich Schweickher (1526-1579, vgl. W.Irtenkauf, Lebensbilder
+               <tei:lb n="Page7_Block4_Line20"/> aus Schwaben und Franken 15, 1983, 61-74), vgl. O. Stochdorph, Rottweiler
+               <tei:lb n="Page7_Block4_Line21"/>Heimatbll. 42(1981) Nr. 5, 2-4; </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002667">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line22"/>S. 148 <tei:idno>Hs 83</tei:idno>, 3r—18v ZI. 5 nach #Bü 3347. #:
+               <tei:lb n="Page7_Block4_Line23"/>Edition beider Schriften W.H. Stein, Johann Jakob Mosers Mömpelgardisches
+               <tei:lb n="Page7_Block4_Line24"/>Staatsrecht. Veröff. der Kommission für geschichtl. Landeskunde in Baden-Württ.
+               <tei:lb n="Page7_Block4_Line25"/>A 35 (1983). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002668">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line26"/>S.152 <tei:idno>Hs 96a</tei:idno>, 2r-6v ZI.2 für #JtaQagcxTixa#:
+               <tei:lb n="Page7_Block4_Line27"/>jiagagtatixa </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002669">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line28"/>S. 161 <tei:idno>Hs 102a</tei:idno> Abs. 3 ZI. 5 für #Cod. hist. Q 222, 579.#:
+               <tei:lb n="Page7_Block4_Line29"/>Cod. hist. Q 222, 529.</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002670">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line28"/>S. 161 <tei:idno>Hs 102b</tei:idno> Abs. 3 ZI. 5 für #Cod. hist. Q 222, 579.#:
+               <tei:lb n="Page7_Block4_Line29"/>Cod. hist. Q 222, 529.</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002671">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line28"/>S. 161 <tei:idno>Hs 102c</tei:idno> Abs. 3 ZI. 5 für #Cod. hist. Q 222, 579.#:
+               <tei:lb n="Page7_Block4_Line29"/>Cod. hist. Q 222, 529.</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002672">
+            <tei:p n="Page7_Block4">
+               <tei:lb n="Page7_Block4_Line28"/>S. 161 <tei:idno>Hs 102d</tei:idno> Abs. 3 ZI. 5 für #Cod. hist. Q 222, 579.#:
+               <tei:lb n="Page7_Block4_Line29"/>Cod. hist. Q 222, 529.</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002673">
+            <tei:p n="Page8_Block1">
+               <tei:lb n="Page8_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page8_Block2">
+               <tei:lb n="Page8_Block2_Line1"/>569</tei:p>
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line1"/>5.163 (<tei:idno>Hs 103a</tei:idno>) ZI. 1 nach #1825 abgegeben#:
+               <tei:lb n="Page8_Block3_Line2"/>(dieses Exemplar, 209 S., im Familienarchiv Günzler zu Alfdorf) </tei:p>
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line3"/>5.163 Hs 103a, IIIr-481 ZI. 11 nach #2816.#:
+               <tei:lb n="Page8_Block3_Line4"/>— H. Günzler, Lebensbilder aus Schwaben und Franken 16 (1986) 88—107. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002674">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line5"/>S.168 <tei:idno>Hs 113</tei:idno> Abs.3 (Äußeres) ZI. 2 nach #von 1620#:
+               <tei:lb n="Page8_Block3_Line6"/>, vgl. R.Oehme, J.Oettinger, Veröff. der Kommission für geschichtl.Landeskunde in Baden-
+               <tei:lb n="Page8_Block3_Line7"/>Württ. B 103 (1982), bes. 23 </tei:p>
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line8"/>S. 169 Hs 113, 229v-232v ZI.2 für #Repertorium ....... 241)#:
+               <tei:lb n="Page8_Block3_Line9"/>E. Sitzmann, Dictionnaire de biographie... de l’Alsace 1, 1909, 537—539) </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002675">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line10"/>S. 177 <tei:idno>Hs 126a</tei:idno>, IIr-140v Z1.4 nach #HStA A 51#:
+               <tei:lb n="Page8_Block3_Line11"/>; Verzeichnisse der durch Günzler 1827—1831 ausgeschiedenen Akten HStA A 605
+               <tei:lb n="Page8_Block3_Line12"/>(A 51, I, Teil) </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002676">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line13"/>S. 185 <tei:idno>Hs 135</tei:idno> Abs. 3 (Äußeres) ZI. 5 nach #(31889) 107#:
+               <tei:lb n="Page8_Block3_Line14"/>; vgl. KLOSTER Maulbronn 1178-1978, Katalog zur Ausstellung S. 12, 41, Nr. 38, 133; R.NeumÜl-
+               <tei:lb n="Page8_Block3_Line15"/>LERS-Klauser, Die dt. Inschriften 22 (1983) 189 Nr. 383 </tei:p>
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line16"/>S. 186 Hs 135, lr-593v ZI.9 nach #WJbb 1855, II, 172-196#:
+               <tei:lb n="Page8_Block3_Line17"/>, s.o. zu Hs 43, 91—105 </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002677">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line18"/>S. 189 <tei:idno>Hs 138</tei:idno>, (107r-146v) Z1.3 nach #(109rv)#:
+               <tei:lb n="Page8_Block3_Line19"/>, s. Hs 145, 204r </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002678">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141a</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002679">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141b</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002680">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141c</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002681">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141d</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002682">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141e</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002683">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141f</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002684">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line20"/>S. 191 <tei:idno>Hs 141g</tei:idno> Abs.3 Z1.6 nach #531f.#:
+               <tei:lb n="Page8_Block3_Line21"/>, sowie R.Oehme, J.öttinger, Veröff. der Komm, für geschichtl.Landeskunde in
+               <tei:lb n="Page8_Block3_Line22"/>Baden-Württ. B 103 (1982), zum Landbuch bes. 38—45. </tei:p>
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line23"/>S.192 Hs 141g Abs.2 ZI.2 nach #Schutzblatt#:
+               <tei:lb n="Page8_Block3_Line24"/>, färb. Abb. Oehme (o.) IV </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002685">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line25"/>S. 195 <tei:idno>Hs 145</tei:idno>, lr-277r Z1.8 nach #(1963) 17.#:
+               <tei:lb n="Page8_Block3_Line26"/>— H. Weisert (Bearb.), Annales Sindelfingenses 1083—1482 (1981). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002686">
+            <tei:p n="Page8_Block3">
+               <tei:lb n="Page8_Block3_Line27"/>S.I96 <tei:idno>Hs 148</tei:idno> Abs. 5 (Literatur) ZI. 1 nach #596f. Anm.l#:
+               <tei:lb n="Page8_Block3_Line28"/>• E.WÜrth, Aus Vergangenheit ... Weiler/Rems (1964) 107 (Abb. von Hr)</tei:p>
+            <tei:p n="Page9_Block1">
+               <tei:lb n="Page9_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page9_Block2">
+               <tei:lb n="Page9_Block2_Line1"/>570</tei:p>
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line1"/>S. 196 Hs 148, A 786-B 1156 ZI.5 nach #(Vorlage?). #:
+               <tei:lb n="Page9_Block3_Line2"/>Teildruck W.Glässner, Veröff. des Archivs der Stadt Waiblingen 1 (1978) 23—44. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002687">
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line3"/>S. 198 <tei:idno>Hs 151</tei:idno>, (266r-283r) Z1.2 für #vgl. Jöcher-, ..-... Genealogie. (?).#:
+               <tei:lb n="Page9_Block3_Line4"/>1626-1696, vgl. F.v. Praun in: Genealogie 32, 16, 6, 1983, 561-568), Bodmanni-
+               <tei:lb n="Page9_Block3_Line5"/>sche Genealogie (Deductio genealogiae Bodmanicae 1-2, 1693, vgl. ebd. 567
+               <tei:lb n="Page9_Block3_Line6"/>Anm.26: Ungedruckte Schriften 8). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002688">
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line7"/>S.200 <tei:idno>Hs 154</tei:idno>, Umschlag 1—940 ZI.4 nach #153a—b.#:
+               <tei:lb n="Page9_Block3_Line8"/>Teils verwertet in Stammtafeln von Pleickhard von Helmstatt (1571-1636), LB
+               <tei:lb n="Page9_Block3_Line9"/>Darmstadt Hs 1970 (Abschriften LBS Cod. hist. Fol. 970), vgl. A. Schmidt, ZGO 70
+               <tei:lb n="Page9_Block3_Line10"/>(1916) 53-64 (Hinweis Ch. Bührlen-Grabinger). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002689">
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line11"/>S.213 <tei:idno>Hs 179</tei:idno>, 105r— 123r ZI. 3—4 für #Der heutige ... —... nachweisbar. #:
+               <tei:lb n="Page9_Block3_Line12"/>Heute LB Karlsruhe Günterstal 11: »Collectanea historica et litteraria«, vorwiegend
+               <tei:lb n="Page9_Block3_Line13"/> Schwaben betreffend, geschrieben von Andreas Rüttel dem Jüngeren
+               <tei:lb n="Page9_Block3_Line14"/>(1531-1587), lr-20r von dessen Vater Andreas Rüttel dem Älteren (1504-1565);
+               <tei:lb n="Page9_Block3_Line15"/>vgl. Th.Längin, Dt. Hss. (Die Hss. der Bad. LB in Karlsruhe, Beil. II, 2, 21974)
+               <tei:lb n="Page9_Block3_Line16"/>105 Nr. 225 (Nachtrag mit Literatur S.201); E.Ettlinger, Die ursprüngliche
+               <tei:lb n="Page9_Block3_Line17"/>Herkunft der Hss (ebd., Beil. III, 21974) 5, 95. - F. J. Mone, ZGO 14 (1862) 37-39
+               <tei:lb n="Page9_Block3_Line18"/>bezeichnet sie als »Sankt Blasische Handschrift«! </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002690">
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line19"/>S.232 <tei:idno>Hs 196b</tei:idno>Abs.2 (Äußeres) ZI. 1 nach #HA: 44a: 3: 9#:
+               <tei:lb n="Page9_Block3_Line20"/>, danach vielleicht aus Kloster Sankt Georgen in Villingen </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002691">
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line21"/>5.237 (<tei:idno>Hs 206</tei:idno>), Abs. 2 (Literatur) nach # Weingarten 121#:
+               <tei:lb n="Page9_Block3_Line22"/>• J.Sydow, Germania Sacra NF 16 (1984) 46 u.ö. </tei:p>
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line23"/>5.237, Hs 206, 14v-51v ... ZI.6 nach #323-336#:
+               <tei:lb n="Page9_Block3_Line24"/>; Sydow (o.) 83f., 135, 141 f </tei:p>
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line25"/>5.237, Hs 206, 60r-62v ... ZI.8 nach #5.Mai 1488#:
+               <tei:lb n="Page9_Block3_Line26"/>; Auswertung Sydow (o.) 262, 280—286 </tei:p>
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line27"/>5.237, Hs 206, 60r-62v ... ZI.9 nach #Abschrift#:
+               <tei:lb n="Page9_Block3_Line28"/>; vgl. Sydow (o.) 138 </tei:p>
+            <tei:p n="Page9_Block3">
+               <tei:lb n="Page9_Block3_Line29"/>5.238 Hs 206, 74r-83r ... ZI.6 nach #7.Juni 1471#:
+               <tei:lb n="Page9_Block3_Line30"/>; vgl. Sydow (o.) 134f., 239</tei:p>
+            <tei:p n="Page10_Block1">
+               <tei:lb n="Page10_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page10_Block3">
+               <tei:lb n="Page10_Block3_Line1"/>571</tei:p>
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line1"/>5.238 Hs 206, 128r—136v ZI.3 nach #Zwischenform. #:
+               <tei:lb n="Page10_Block4_Line2"/>Druck unter Benützung dieser Hs (A 2) K. Arnold, Niklashausen 1476 (Saecula
+               <tei:lb n="Page10_Block4_Line3"/>spiritualia 3, Veröff. des hist. Vereins Wertheim 3, 1980) 236-252, vgl. auch 6-10. </tei:p>
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line4"/>5.239 Hs 206, 146r-147v Z1.3 nach #bes. 101f.;#:
+               <tei:lb n="Page10_Block4_Line5"/>Bewertung und Druck dieser Fassung nach dieser Hs B. D. Haage, Sudhoffs Archiv
+               <tei:lb n="Page10_Block4_Line6"/>63 (1979) 392-406; </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002692">
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line7"/>5.240 (<tei:idno>Hs 208</tei:idno>) nach ZI.2 nach #(Bü 69).# (neuer Absatz):
+               <tei:lb n="Page10_Block4_Line8"/>H.M. Maurer, Der Bauernkrieg ... Ausstellung ... (1975) 64 (123a), 121 (264). </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002693">
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line9"/>S.243 <tei:idno>Hs 215</tei:idno>Abs.4 (Geschichte) ZI.3 nach #E 61 Bü 252, 24, II, 8#:
+               <tei:lb n="Page10_Block4_Line10"/>; GLA 68/769 (III, 8) Empfangsbestätigung Stuttgart 18. April 1890 </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002694">
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line11"/>5.256 zu <tei:idno>Hs 242</tei:idno> (allgemein):
+               <tei:lb n="Page10_Block4_Line12"/>Parallelen in Teil 1 von GLA 65/305, vgl. die ausgereiftere Beschreibung in die
+               <tei:lb n="Page10_Block4_Line13"/>HANDSCHRIFTEN DER STAATSARCHIVE IN BADEN-WÜRTTEMBERG, Bd.2 (1987) 121 f. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002695">
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line14"/>5.256 <tei:idno>Hs 242</tei:idno>Abs.4 (Geschichte) ZI. 1 nach #Hunc über#:
+               <tei:lb n="Page10_Block4_Line15"/>(später verbessert in librum) </tei:p>
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line16"/>5.257 Hs 242, 321-368 ZI. 7 nach #Straub 1633).#:
+               <tei:lb n="Page10_Block4_Line17"/>Der Hs bes. ähnlich ist die dt. Fassung »Constantia ab Suecicis ... liberata. Das ist:
+               <tei:lb n="Page10_Block4_Line18"/>Ausführlicher Bericht ...« (Konstanz, L. Straub (1634)). Weitere Fassungen GLA
+               <tei:lb n="Page10_Block4_Line19"/>65/313, 65/1090, 321r-381r. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002696">
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line20"/>S.266 <tei:idno>Hs 256b</tei:idno>Abs.4 (Geschichte) ZI. 1 für #Professor Schinzinger Hohenheim,#:
+               <tei:lb n="Page10_Block4_Line21"/>Reginald Schinzinger (1860-1943, vgl. E.Klein, Veröff. der Komm, für geschichtl. Landeskunde
+               <tei:lb n="Page10_Block4_Line22"/>in Baden-Württ. B 45, 1968, 114f.), </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002697">
+            <tei:p n="Page10_Block4">
+               <tei:lb n="Page10_Block4_Line23"/>S.278 <tei:idno>Hs 290</tei:idno>Abs. 5 (Literatur) ZI. 2 nach #307f. #:
+               <tei:lb n="Page10_Block4_Line24"/>• K. Graf, Gmünder Chroniken im 16. Jh. (1984) bes. 84 (Anm.54); danach um 1582 entstanden.
+               <tei:lb n="Page10_Block4_Line25"/>
+            </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002698">
+            <tei:p n="Page10_Block6">
+               <tei:lb n="Page10_Block6_Line1"/>S.280 <tei:idno>Hs 298</tei:idno>, lr-18r Z1.4 nach #Basel 1966#:
+               <tei:lb n="Page10_Block6_Line2"/>; R.Seigel, ZWLG 40 (1981) 111-118</tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002699">
+            <tei:p n="Page11_Block1">
+               <tei:lb n="Page11_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page11_Block2">
+               <tei:lb n="Page11_Block2_Line1"/>572</tei:p>
+            <tei:p n="Page11_Block3">
+               <tei:lb n="Page11_Block3_Line1"/>S.292 Hs 370 neue Beschreibung:
+               <tei:lb n="Page11_Block3_Line2"/>
+               <tei:idno>370</tei:idno>
+               <tei:lb n="Page11_Block3_Line3"/>
+               <tei:title>Franziskus Lambert: Wappen Reichenau</tei:title>
+               <tei:lb n="Page11_Block3_Line4"/> 15 Bl • 32,5 X 21 • Reichenau • 17. Jh.2
+               <tei:lb n="Page11_Block3_Line5"/>Halblederband 1956 • lr scripsit R.P. Franc. Lampert (1648-1689, vgl. GLA 65/1098, 77T); die
+               <tei:lb n="Page11_Block3_Line6"/>Schreibweise unterscheidet sich zwar von jener Lamberts (vgl. GLA 65/1097 u.ö.), dennoch
+               <tei:lb n="Page11_Block3_Line7"/>könnte die Hs (als historisierende Nachahmung) von ihm geschrieben sein • Früher wohl Teil des
+               <tei:lb n="Page11_Block3_Line8"/>Reichenauer Sammelbandes I (Fol.A, im 18. Jh. zusammengestellt), vgl. O.F. H. Schönhuth,
+               <tei:lb n="Page11_Block3_Line9"/>Chronik des ehern. Kl. Reichenau (1836) XXX Nr. 10; dieser heute GLA 65/1098 (offenliegende
+               <tei:lb n="Page11_Block3_Line10"/>Bünde nach 254r) • Als Teil des Nachlasses von Emil Kost (1891-1953, vgl. Heyd, Bibi. 10
+               <tei:lb n="Page11_Block3_Line11"/>Nr. 11147) 1956 geschenkt von der Landesstelle für Volkskunde Stuttgart, vgl. HStA Kanzlciaktcn
+               <tei:lb n="Page11_Block3_Line12"/>CVd.
+               <tei:lb n="Page11_Block3_Line13"/>1r— 15r Franziskus Lambert: wappen aus dem kloster reichenau. (4r-llr) 62
+               <tei:lb n="Page11_Block3_Line14"/>Äbte, 724-1512, (12r—15v) 45 Konventualen unter Abt Albrecht von Ramstein,
+               <tei:lb n="Page11_Block3_Line15"/>gest. 1289; Federzeichnungen, (12v) 1 Wappen koloriert; (3rv) Beschreibung der
+               <tei:lb n="Page11_Block3_Line16"/>Reichenau, gereimt, lat.-dt. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Sammlung" n="94002700">
+            <tei:p n="Page11_Block3">
+               <tei:lb n="Page11_Block3_Line17"/>5.303 <tei:idno>Hs 414</tei:idno>, 44r-54r ZI. 1 für #für fälschlich#:
+               <tei:lb n="Page11_Block3_Line18"/>so früher vermutet für angeblich </tei:p>
+            <tei:p n="Page11_Block3">
+               <tei:lb n="Page11_Block3_Line19"/>5.303 Hs 414, 44r-54r ZI. 1 nach #Hs 21,91rff. #;
+               <tei:lb n="Page11_Block3_Line20"/>, Näheres s.d. </tei:p>
+         </tei:div>
+         <tei:div type="BESCHREIBUNG" subtype="Codex" n="94002701">
+            <tei:p n="Page11_Block3">
+               <tei:lb n="Page11_Block3_Line21"/>5.305 <tei:idno>Hs 415</tei:idno>nach Abs.4 (Geschichte) nach ZI.4 nach #Hs 78c.# (neuer Absatz):
+               <tei:lb n="Page11_Block3_Line22"/>E. Paulus, Die Cistercienser-Abtei Maulbronn (31889) 101. </tei:p>
+            <tei:p n="Page11_Block3">
+               <tei:lb n="Page11_Block3_Line23"/>5.305 Hs 415, III—318 ZI.4 nach #, s.o.#:
+               <tei:lb n="Page11_Block3_Line24"/>Weitere Hss. von Hartmann über (und in) Maulbronn erwähnen K. Klunzinger,
+               <tei:lb n="Page11_Block3_Line25"/>Artistische Beschreibung ... Maulbronn (31856) IV; KLOSTER Maulbronn
+               <tei:lb n="Page11_Block3_Line26"/>1178-1978, Katalog S.44 Nr. 142 (Th. Kiefner); die Zisterzienser, Katalog 1980,
+               <tei:lb n="Page11_Block3_Line27"/>S.604 (G29; E.Gohl). </tei:p>
+         </tei:div>
+         <tei:div type="SONSTIGES">
+            <tei:p n="Page11_Block3">
+               <tei:lb n="Page11_Block3_Line28"/>S. 312 li zu ZI. 9-11, Lm #Da der Landgraf... #:
+      <tei:lb n="Page11_Block3_Line29"/>Nach K.Graf, Gmünder Chroniken im 16. Jahrhundert (1984) 221 f. andere Fassung bei Lilien-
+      <tei:lb n="Page11_Block3_Line30"/>CRON 4 S. 380-382; bei Graf auch Hss und andere Drucke dieser abweichenden Übersetzung und
+      <tei:lb n="Page11_Block3_Line31"/>die lat. Vorlage.
+      <tei:lb n="Page11_Block3_Line32"/>S.317 re nach ZI.9 zu Lm #Aichstetten# neu:
+      <tei:lb n="Page11_Block3_Line33"/>— s. auch Achstetten</tei:p>
+            <tei:p n="Page12_Block1">
+               <tei:lb n="Page12_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page12_Block3">
+               <tei:lb n="Page12_Block3_Line1"/>573</tei:p>
+            <tei:p n="Page12_Block4">
+               <tei:lb n="Page12_Block4_Line1"/>S.318 re nach ZI. 21 neues Lm:
+      <tei:lb n="Page12_Block4_Line2"/>Alfdorf (Rems-Murr-Kreis), Familienarchiv Günzler 103a
+      <tei:lb n="Page12_Block4_Line3"/>S.320 li nach ZI.31 zu Lm #Andreas# neu:
+      <tei:lb n="Page12_Block4_Line4"/>— Karter (Stadtschr. Stuttgart), (A-27.4. 1495) 38, 208r
+      <tei:lb n="Page12_Block4_Line5"/>5.324 li ZI.32 für (= Lm) #Bäder Offenau#:
+      <tei:lb n="Page12_Block4_Line6"/>Bäder, Beschreibungen s. Göppingen. Offenau. Überkingen. Waldenbuch. Wildbad
+      <tei:lb n="Page12_Block4_Line7"/>5.324 re nach ZI. 14 zu Lm #Baldeck# neu:
+      <tei:lb n="Page12_Block4_Line8"/>— Ulrich (-1518): Annales Bebenhusani 43, 91r; 135, 278r
+      <tei:lb n="Page12_Block4_Line9"/>* Auszüge 63, 111r; 128, 302; 135, 191r. 258r
+      <tei:lb n="Page12_Block4_Line10"/>5.325 li ZI. 10 Lm /Barbara Strazmann, Kinderreichtum# nach #229r#:
+      <tei:lb n="Page12_Block4_Line11"/>; * 179, 105r
+      <tei:lb n="Page12_Block4_Line12"/>5.327 li ZI.5 Lm #Bebenhausen, Epitaphien, Verzeichnisse# nach # 118r#:
+      <tei:lb n="Page12_Block4_Line13"/>; S. 17
+      <tei:lb n="Page12_Block4_Line14"/>5.327 li ZI.36 Lm #Bebenhausen, Traditionsbuch# für #61#:
+      <tei:lb n="Page12_Block4_Line15"/>60
+      <tei:lb n="Page12_Block4_Line16"/>5.328 re ZI.6 Lm /Benediktinerkongregation, (ober-) schwäbische, s. auch # nach
+      <tei:lb n="Page12_Block4_Line17"/># Panisbriefe#:
+      <tei:lb n="Page12_Block4_Line18"/>. Reichsprälatenkollegium
+      <tei:lb n="Page12_Block4_Line19"/>5.331 li ZI. 15 nach (= Lm) #* Beurlin, N.N.#:
+      <tei:lb n="Page12_Block4_Line20"/>(vielleicht Beyrhn, Jakob, s.u.),
+      <tei:lb n="Page12_Block4_Line21"/>5.331 li ZI. 17 Lm #* Beurlin, Jakob# für #(M., Pfarrer Kemnat),#:
+      <tei:lb n="Page12_Block4_Line22"/>(um 1564-1607),
+      <tei:lb n="Page12_Block4_Line23"/>5.331 li ZI.35-36 Lm #Beyrlin, Jacob# für #(von Schorndorf/Kirchheim), Auszug
+      <tei:lb n="Page12_Block4_Line24"/>aus Jr#:
+      <tei:lb n="Page12_Block4_Line25"/>(1576-), Auszug aus (angeblich M., s.) J.
+      <tei:lb n="Page12_Block4_Line26"/>5.331 li nach ZI.37 zu Lm #Beyrlin, Jacob# neu:</tei:p>
+            <tei:p n="Page12_Block6">
+               <tei:lb n="Page12_Block6_Line1"/>s. auch Fessler, J.
+      <tei:lb n="Page12_Block6_Line2"/>— s. auch Beurlin</tei:p>
+            <tei:p n="Page13_Block1">
+               <tei:lb n="Page13_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page13_Block2">
+               <tei:lb n="Page13_Block2_Line1"/>574</tei:p>
+            <tei:p n="Page13_Block3">
+               <tei:lb n="Page13_Block3_Line1"/>S.336 re ZI.29 Lm #Bildnisse, Saint-Andre# für #Wilhelm von (-1815)#:
+      <tei:lb n="Page13_Block3_Line2"/>Wilhelm Friedrich von (1786-1815)
+      <tei:lb n="Page13_Block3_Line3"/>S.339 li nach ZI.28 neues Lm:
+      <tei:lb n="Page13_Block3_Line4"/>Blossheim s. Bock
+      <tei:lb n="Page13_Block3_Line5"/>S.345 re nach ZI. 16 neues Lm:
+      <tei:lb n="Page13_Block3_Line6"/>Buchsberg s. Buchberg
+      <tei:lb n="Page13_Block3_Line7"/>5.348 li nach ZI. 29 neues Lm:
+      <tei:lb n="Page13_Block3_Line8"/>Bußmannshausen s. Roth
+      <tei:lb n="Page13_Block3_Line9"/>5.349 li nach ZI. 6 neues Lm:
+      <tei:lb n="Page13_Block3_Line10"/>Cammerer (Kämmerer) s. Dalberg
+      <tei:lb n="Page13_Block3_Line11"/>5.349 li ZI. 19 Lm #Cannstatt, Familie, s. auch# nach #Cänli#:
+      <tei:lb n="Page13_Block3_Line12"/>. Schilling
+      <tei:lb n="Page13_Block3_Line13"/>5.350 li ZI.29 Lm #Christoph Pfalzgraf# für #77#:
+      <tei:lb n="Page13_Block3_Line14"/>77, llr
+      <tei:lb n="Page13_Block3_Line15"/>(das folgende Lm #Christoph König von Dänemark# gehört davor)
+      <tei:lb n="Page13_Block3_Line16"/>5.354 li ZI. 11 Lm #Datierungen, 16. Jh.# streichen: #; 370#
+      <tei:lb n="Page13_Block3_Line17"/>5.355 re ZI.29 Lm #Datierungen, 17. Jh.2# nach #198#:
+      <tei:lb n="Page13_Block3_Line18"/>; 370
+      <tei:lb n="Page13_Block3_Line19"/>S.359 li nach ZI. 11 zu Lm #Dettingen# neu:
+      <tei:lb n="Page13_Block3_Line20"/>— s. auch Speth
+      <tei:lb n="Page13_Block3_Line21"/>S.362 re nach ZI. 12 zu Lm #Dürnau# neu:
+      <tei:lb n="Page13_Block3_Line22"/>— s. auch Speth
+      <tei:lb n="Page13_Block3_Line23"/>S.366 li nach ZI.5 zu Lm #Ehestetten# neu:
+      <tei:lb n="Page13_Block3_Line24"/>— s. auch Speth
+      <tei:lb n="Page13_Block3_Line25"/>S.368 li nach ZI. 39 zu Lm #Emerkingen# neu:
+      <tei:lb n="Page13_Block3_Line26"/>— s. auch Stein</tei:p>
+            <tei:p n="Page14_Block1">
+               <tei:lb n="Page14_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page14_Block2">
+               <tei:lb n="Page14_Block2_Line1"/>575</tei:p>
+            <tei:p n="Page14_Block3">
+               <tei:lb n="Page14_Block3_Line1"/>5.370 re nach ZI. 32 neues Lm:
+      <tei:lb n="Page14_Block3_Line2"/>Erlenburg s. Bock
+      <tei:lb n="Page14_Block3_Line3"/>5.371 li nach ZI.44 zu Lm #Essich# neu:
+      <tei:lb n="Page14_Block3_Line4"/>— Jakob David (-1748): Monumenta Bebenhusana, Auszüge S.17
+      <tei:lb n="Page14_Block3_Line5"/>5.375 li ZI.5 zu Lm #Fessler, Johann# für# (fälschlich Moritz):#:
+      <tei:lb n="Page14_Block3_Line6"/>(?, bezeichnet als Moritz):
+      <tei:lb n="Page14_Block3_Line7"/>5.375 li ZI.35 Lm #Filseck, s. auch# nach #Moser#:
+      <tei:lb n="Page14_Block3_Line8"/>. Vilseck
+      <tei:lb n="Page14_Block3_Line9"/>5.375 li nach ZI.42 neues Lm:
+      <tei:lb n="Page14_Block3_Line10"/>First s. Fürst
+      <tei:lb n="Page14_Block3_Line11"/>5.375 re nach ZI.43 neues Lm:
+      <tei:lb n="Page14_Block3_Line12"/>Flörsheim s. Fiersheim
+      <tei:lb n="Page14_Block3_Line13"/>5.377 li ZI.31 nach (= Lm) # Franziskanerklöster s.#:
+      <tei:lb n="Page14_Block3_Line14"/>Barfüßer.
+      <tei:lb n="Page14_Block3_Line15"/>5.378 li ZI. 5 Lm #Freundsberg# nach #- s. auch#:
+      <tei:lb n="Page14_Block3_Line16"/>Frundsberg.
+      <tei:lb n="Page14_Block3_Line17"/>S.381 re nach ZI.37 zu Lm #Frundsberg# neu:
+      <tei:lb n="Page14_Block3_Line18"/>— s. auch Freundsberg
+      <tei:lb n="Page14_Block3_Line19"/>S.388 li ZI.31 Lm #Geizkofler, Zacharias# für #(-1613)#:
+      <tei:lb n="Page14_Block3_Line20"/>(1560-1617)
+      <tei:lb n="Page14_Block3_Line21"/>5.390 re nach ZI. 32 neues Lm:
+      <tei:lb n="Page14_Block3_Line22"/>Gespräche s. Wechselgespräche
+      <tei:lb n="Page14_Block3_Line23"/>5.391 li ZI.29 Lm #Glatt# nach #Floßhandel#:
+      <tei:lb n="Page14_Block3_Line24"/>. Neuneck
+      <tei:lb n="Page14_Block3_Line25"/>S.393 re ZI. 26 Lm #Greck# nach #Wolf Konrad#:
+      <tei:lb n="Page14_Block3_Line26"/>(II., 1561-1614)</tei:p>
+            <tei:p n="Page15_Block1">
+               <tei:lb n="Page15_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page15_Block2">
+               <tei:lb n="Page15_Block2_Line1"/>576</tei:p>
+            <tei:p n="Page15_Block3">
+               <tei:lb n="Page15_Block3_Line1"/>S.393 re ZI.34—35 Lm #Greiffenklau# für #Vollraths 310#:
+      <tei:lb n="Page15_Block3_Line2"/>Vollrads), Familie von 154, 130
+      <tei:lb n="Page15_Block3_Line3"/>5.395 re nach ZI.6 neues Lm:
+      <tei:lb n="Page15_Block3_Line4"/>Günterstal (Stadt Freiburg), Zisterzienserinnenkloster, Handschrift, Beschreibung 179, 105r
+      <tei:lb n="Page15_Block3_Line5"/>5.395 re nach ZI. 11 verändertes Lm neu:
+      <tei:lb n="Page15_Block3_Line6"/>Günzler, Familie, Archiv Alfdorf 103a
+      <tei:lb n="Page15_Block3_Line7"/>(in ZI. 12 dann #Günzler# ersetzen durch: —)
+      <tei:lb n="Page15_Block3_Line8"/>5.396 li ZI.8 Lm #Gurk ... Bischof# für #von#:
+      <tei:lb n="Page15_Block3_Line9"/>Urban Sagstetter
+      <tei:lb n="Page15_Block3_Line10"/>5.396 re nach ZI.5 neues Lm:
+      <tei:lb n="Page15_Block3_Line11"/>Gyllenband s. Üxküll
+      <tei:lb n="Page15_Block3_Line12"/>5.397 li nach ZI.4 neues Lm:
+      <tei:lb n="Page15_Block3_Line13"/>Hädingen s. Hedingen
+      <tei:lb n="Page15_Block3_Line14"/>S.400 li nach ZI.6 zu Lm #Hedingen# neu:
+      <tei:lb n="Page15_Block3_Line15"/>— s. auch Speth
+      <tei:lb n="Page15_Block3_Line16"/>S.403 li nach ZI.36 zu Lm #Heimstatt (!), Pleickhardt# neu:
+      <tei:lb n="Page15_Block3_Line17"/>Stammtafeln, Vorlage 154
+      <tei:lb n="Page15_Block3_Line18"/>S.405 li nach ZI.28 neues Lm:
+      <tei:lb n="Page15_Block3_Line19"/>Herxheim s. Holzapfel
+      <tei:lb n="Page15_Block3_Line20"/>5.407 re ZI.21 Lm #Hochzeiten, Gedichte# nach #Ludwig Herzog von Württ.#:
+      <tei:lb n="Page15_Block3_Line21"/>(Tawel, P.)
+      <tei:lb n="Page15_Block3_Line22"/>5.407 re nach ZI.40 neues Lm:
+      <tei:lb n="Page15_Block3_Line23"/>Höpfigheim s. Speth
+      <tei:lb n="Page15_Block3_Line24"/>S.414 li nach ZI. 16 neues Lm:
+      <tei:lb n="Page15_Block3_Line25"/>Jettingen s. Stein
+      <tei:lb n="Page15_Block3_Line26"/>S.417 li ZI. 2 Lm # Johann Friedrich Herzog von Württ., (A-12.1. 1622)# für #9,1007#:
+      <tei:lb n="Page15_Block3_Line27"/>9, 1010</tei:p>
+            <tei:p n="Page16_Block1">
+               <tei:lb n="Page16_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page16_Block2">
+               <tei:lb n="Page16_Block2_Line1"/>577</tei:p>
+            <tei:p n="Page16_Block3">
+               <tei:lb n="Page16_Block3_Line1"/>5.418 re nach ZI. 29 neues Lm:
+      <tei:lb n="Page16_Block3_Line2"/>Kämmerer s. Dalberg
+      <tei:lb n="Page16_Block3_Line3"/>5.419 re ZI. 18 nach (= Lm) #Kapuziner s.#:
+      <tei:lb n="Page16_Block3_Line4"/>Barfüßer.
+      <tei:lb n="Page16_Block3_Line5"/>5.423 re nach ZI. 17 zu Lm #Kirche Deutschlands# neu:
+      <tei:lb n="Page16_Block3_Line6"/>— Zustand S. 15 Anm. 23
+      <tei:lb n="Page16_Block3_Line7"/>5.424 re ZI.4 nach (= Lm) #Klarissenklöster s.#:
+      <tei:lb n="Page16_Block3_Line8"/>Barfüßer.
+      <tei:lb n="Page16_Block3_Line9"/>5.424 re nach ZI.44 zu Lm #Klingenstein# neu:
+      <tei:lb n="Page16_Block3_Line10"/>— s. auch Stein
+      <tei:lb n="Page16_Block3_Line11"/>S.426 re nach ZI.41 zu Lm #Kometen# neu:
+      <tei:lb n="Page16_Block3_Line12"/>— Predigten S. 15 Anm.23
+      <tei:lb n="Page16_Block3_Line13"/>S.430 re ZI.38 für (= Lm) #Lampert, Franciscus (16. Jh.):#:
+      <tei:lb n="Page16_Block3_Line14"/>Lambert, Franziskus (1648-1689):
+      <tei:lb n="Page16_Block3_Line15"/>(Das Lm ist dann nach oben (nach ZI. 29) zu verschieben)
+      <tei:lb n="Page16_Block3_Line16"/>S.434 re ZI. 18-19 Lm #Lassberg# (#?# vor dem Vornamen #Friedrich# ist zu streichen)
+      <tei:lb n="Page16_Block3_Line17"/> für #Regierungsdirektor Sigmaringen)#:
+      <tei:lb n="Page16_Block3_Line18"/>(1798-1838)
+      <tei:lb n="Page16_Block3_Line19"/>5.443 li nach ZI.26 neues Lm:
+      <tei:lb n="Page16_Block3_Line20"/>Mager s. Speth
+      <tei:lb n="Page16_Block3_Line21"/>5.444 re ZI.23 Lm #Marchtal# nach #s. Obermarchtal#:
+      <tei:lb n="Page16_Block3_Line22"/>. Speth
+      <tei:lb n="Page16_Block3_Line23"/>S.447 re ZI.45 Lm #Melanchthon, Philipp, Schreiben# nach #127, IV, 225r#:
+      <tei:lb n="Page16_Block3_Line24"/>; * 179, 105r
+      <tei:lb n="Page16_Block3_Line25"/>S.452 re nach ZI.44 neues Lm:
+      <tei:lb n="Page16_Block3_Line26"/>Mühlberg s. Closen</tei:p>
+            <tei:p n="Page17_Block1">
+               <tei:lb n="Page17_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page17_Block2">
+               <tei:lb n="Page17_Block2_Line1"/>578</tei:p>
+            <tei:p n="Page17_Block3">
+               <tei:lb n="Page17_Block3_Line1"/>S.456 li nach ZI. 9 zu Lm #Neidlingen# neu:
+      <tei:lb n="Page17_Block3_Line2"/>— s. auch Spcth
+      <tei:lb n="Page17_Block3_Line3"/>5.460 li nach ZI. 29 neues Lm:
+      <tei:lb n="Page17_Block3_Line4"/>Nußberg s. Ebran
+      <tei:lb n="Page17_Block3_Line5"/>5.460 li nach ZI.40 neues Lm:
+      <tei:lb n="Page17_Block3_Line6"/>Oberdettingen s. Dettingen
+      <tei:lb n="Page17_Block3_Line7"/>5.462 li nach ZI. 15 neues Lm:
+      <tei:lb n="Page17_Block3_Line8"/>Opfingen s. Berg
+      <tei:lb n="Page17_Block3_Line9"/>5.462 re ZI.4 Lm #Österreich, Erzherzoge s. auch# nach #Sigismund#:
+      <tei:lb n="Page17_Block3_Line10"/>. Urban
+      <tei:lb n="Page17_Block3_Line11"/>5.463 li ZI.40—41 Lm #Orden (Mönchsorden) s. auch# für #Beginenhäuser. Benediktiner#:
+      <tei:lb n="Page17_Block3_Line12"/>
+               <tei:lb n="Page17_Block3_Line13"/>Barfüßer. Beginenhäuser. Benediktiner. Brüder vom gemeinsamen Leben
+      <tei:lb n="Page17_Block3_Line14"/>5.463 re ZI. 1 Lm #Orden (Mönchsorden) s. auch# nach #Prämonstratenser.#:
+      <tei:lb n="Page17_Block3_Line15"/>Reichsprälatenkollegium.
+      <tei:lb n="Page17_Block3_Line16"/>5.466 li ZI.42 Lm #Parma, Adelsfamilien# für #154, 6#:
+      <tei:lb n="Page17_Block3_Line17"/>154, 651, 6
+      <tei:lb n="Page17_Block3_Line18"/>5.466 re ZI.9—10 Lm #Parsimonius (Karg), Johannes# für #(Pfr. Neckarrems
+      <tei:lb n="Page17_Block3_Line19"/>1592-1604)#:
+      <tei:lb n="Page17_Block3_Line20"/>(1550-1604)
+      <tei:lb n="Page17_Block3_Line21"/>5.467 re nach ZI.45 neues Lm:
+      <tei:lb n="Page17_Block3_Line22"/>Pfaffstetter, Urban (-1573), Bf. Gurk s. Wien, Verkündung 1564
+      <tei:lb n="Page17_Block3_Line23"/>5.473 li ZI.45 Lm #Prälaten s. auch# nach #Landtage (1525)#:
+      <tei:lb n="Page17_Block3_Line24"/>. Reichsprälatenkollegium
+      <tei:lb n="Page17_Block3_Line25"/>5.473 re ZI.27 Lm #Praun (Braun), Michael# für #(Jurist, 17.Jh.):#:
+      <tei:lb n="Page17_Block3_Line26"/>(1626-1696):</tei:p>
+            <tei:p n="Page18_Block1">
+               <tei:lb n="Page18_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page18_Block2">
+               <tei:lb n="Page18_Block2_Line1"/>579</tei:p>
+            <tei:p n="Page18_Block3">
+               <tei:lb n="Page18_Block3_Line1"/>S.473 re Zi.35 Lm #Predigten s. auch# nach #Hochzeitspredigten. #:
+      <tei:lb n="Page18_Block3_Line2"/>Kometenpredigten.
+      <tei:lb n="Page18_Block3_Line3"/>S.475 li nach ZI. 24 neues Lm:
+      <tei:lb n="Page18_Block3_Line4"/>Puchberg s. Buchberg
+      <tei:lb n="Page18_Block3_Line5"/>5.477 re ZI.28 Lm #Rechnungsnotizen# für #140b, 11b;#:
+      <tei:lb n="Page18_Block3_Line6"/>140, 11b;
+      <tei:lb n="Page18_Block3_Line7"/>5.478 li ZI.2 Lm #Reden# nach #96a-s#:
+      <tei:lb n="Page18_Block3_Line8"/>; 179, 127r. 141r
+      <tei:lb n="Page18_Block3_Line9"/>5.482 re nach ZI.42 zu Lm #Rieden# neu:
+      <tei:lb n="Page18_Block3_Line10"/>— s. auch Roth
+      <tei:lb n="Page18_Block3_Line11"/>5.483 li nach ZI.40 neues Lm:
+      <tei:lb n="Page18_Block3_Line12"/>Rixner s. Rüxner
+      <tei:lb n="Page18_Block3_Line13"/>5.483 li nach ZI.44 neues Lm:</tei:p>
+            <tei:p n="Page18_Block4">
+               <tei:lb n="Page18_Block4_Line1"/>S.486 re nach ZI. 34 zu Lm #Rüttel, Andreas (1504—1565)# n</tei:p>
+            <tei:p n="Page18_Block5">
+               <tei:lb n="Page18_Block5_Line1"/>Collectanea historica et litteraria, Inhalt 179, 105r
+      <tei:lb n="Page18_Block5_Line2"/>S.487 li nach ZI.40 zu Lm #Rüttel, Andreas (1531—1587)# neu:
+      <tei:lb n="Page18_Block5_Line3"/>Collectanea historica et litteraria, Inhalt 179, 105r
+      <tei:lb n="Page18_Block5_Line4"/>(In ZI.41 #Collectanea# ersetzen durch: —; dort stehen dann 3 Striche: )
+      <tei:lb n="Page18_Block5_Line5"/>5.490 li nach ZI. 38 neues Lm:
+      <tei:lb n="Page18_Block5_Line6"/>Sagstetter, Urban (—1573), Bf. Gurk s. Wien, Verkündung 1564
+      <tei:lb n="Page18_Block5_Line7"/>5.490 li ZI.41 Lm #Saint-Andre# für #Wilhelm von (—1815),#:
+      <tei:lb n="Page18_Block5_Line8"/>Wilhelm Friedrich von (1786—1815),
+      <tei:lb n="Page18_Block5_Line9"/>5.491 re nach ZI. 15 zu Lm #Sankt Georgen# neu:
+      <tei:lb n="Page18_Block5_Line10"/>— Handschrift?, Beschreibung 179, 105r
+      <tei:lb n="Page18_Block5_Line11"/>5.491 re ZI. 19 Lm #Sankt Georgen, (V)# vor #197#:
+      <tei:lb n="Page18_Block5_Line12"/>196b;</tei:p>
+            <tei:p n="Page18_Block6">
+               <tei:lb n="Page18_Block6_Line1"/>Rödel s. Weissenau, Zinsrödel</tei:p>
+            <tei:p n="Page19_Block1">
+               <tei:lb n="Page19_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page19_Block2">
+               <tei:lb n="Page19_Block2_Line1"/>580</tei:p>
+            <tei:p n="Page19_Block3">
+               <tei:lb n="Page19_Block3_Line1"/>S.493 re ZI.41—42 Lm #Schauspiele# für #s. Heimatspiele ....... Trauerspiele#:
+      <tei:lb n="Page19_Block3_Line2"/>s. Theaterstücke (Verweise)
+      <tei:lb n="Page19_Block3_Line3"/>5.495 re nach ZI. 39 neues Lm:
+      <tei:lb n="Page19_Block3_Line4"/>Schil(t)zburg s. Schülzburg
+      <tei:lb n="Page19_Block3_Line5"/>5.495 re ZI.40 Lm #Schinzinger# für #(Prof. Hohenheim 20. Jh.1),#:
+      <tei:lb n="Page19_Block3_Line6"/>Reginald (1860-1943),
+      <tei:lb n="Page19_Block3_Line7"/>5.499 re ZI.2 Lm #Schreiber# für #Lampert, F.#:
+      <tei:lb n="Page19_Block3_Line8"/>Lambert, F.
+      <tei:lb n="Page19_Block3_Line9"/>5.499 re ZI.29—30 Lm #Schreiber# für #Rammingen, G. und N.#:
+      <tei:lb n="Page19_Block3_Line10"/>Rammingen, G. und J.
+      <tei:lb n="Page19_Block3_Line11"/>5.500 re nach ZI. 5 neues Lm:
+      <tei:lb n="Page19_Block3_Line12"/>Schülzburg s. Speth
+      <tei:lb n="Page19_Block3_Line13"/>5.501 li ZI.34-35 Lm #Schwaben s. auch# vor #Reichsritterschaft.#:
+      <tei:lb n="Page19_Block3_Line14"/>Reichsprälatenkollegium.
+      <tei:lb n="Page19_Block3_Line15"/>5.501 re ZI.6 Lm #Schwäbisch-Hall, Adel, Verzeichnisse# für #121, 169;#:
+      <tei:lb n="Page19_Block3_Line16"/>121a, 169;
+      <tei:lb n="Page19_Block3_Line17"/>5.502 li nach ZI.45 neues Lm:
+      <tei:lb n="Page19_Block3_Line18"/>Schwänzlin s. Hofen
+      <tei:lb n="Page19_Block3_Line19"/>5.503 li nach ZI.8 zu Lm #Schweickher# neu:
+      <tei:lb n="Page19_Block3_Line20"/>— Heinrich (1526-1579): Karte (Rottweil), Nachzeichnung 76b, 105
+      <tei:lb n="Page19_Block3_Line21"/>(In ZI.9 /Heinrich# ersetzen durch: — ; dort stehen dann 2 Striche: )
+      <tei:lb n="Page19_Block3_Line22"/>5.505 re nach ZI.40 zu Lm / Signaturen# neu:
+      <tei:lb n="Page19_Block3_Line23"/>— Alfdorf, Familienarchiv Günzler: 103 a
+      <tei:lb n="Page19_Block3_Line24"/>5.506 li ZI. 10 Lm /Signaturen Darmstadt Landesbibliothek# nach #149, lb#:
+      <tei:lb n="Page19_Block3_Line25"/>; 1970: 154
+      <tei:lb n="Page19_Block3_Line26"/>5.506 li nach ZI. 18 zu Lm / Signaturen# neu:
+      <tei:lb n="Page19_Block3_Line27"/>— Hornberg am Neckar, Bibliothek von Gemmingen-Hornberg Hs 78; 85: 48z, 231</tei:p>
+            <tei:p n="Page20_Block1">
+               <tei:lb n="Page20_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page20_Block2">
+               <tei:lb n="Page20_Block2_Line1"/>581</tei:p>
+            <tei:p n="Page20_Block3">
+               <tei:lb n="Page20_Block3_Line1"/>5.506 li ZI.20 Lm #Signaturen, Karlsruhe, Generallandesarchiv# für #312: 242, 38;#:
+      <tei:lb n="Page20_Block3_Line2"/>305: 242; 312: 242, 38; 313; 1090: 242, 321; 1097-1098: 370;
+      <tei:lb n="Page20_Block3_Line3"/>5.506 li nach ZI.23 zu Lm #Signaturen, Karlsruhe# neu:
+      <tei:lb n="Page20_Block3_Line4"/>Bad.Landesbibliothek, Günterstal 11: 179, 105r
+      <tei:lb n="Page20_Block3_Line5"/>5.506 li nach ZI.24 zu Lm #Signaturen# neu:
+      <tei:lb n="Page20_Block3_Line6"/>— Leningrad, Saltykow-Scedrin-Universität: 50
+      <tei:lb n="Page20_Block3_Line7"/>5.506 li ZI.27 Lm #Signaturen, Ludwigsburg, Staatsarchiv# für #B 95 Bü 19: 48c;#:
+      <tei:lb n="Page20_Block3_Line8"/>B 95 Bü 13: 48c;
+      <tei:lb n="Page20_Block3_Line9"/>5.506 re nach ZI.3 zu Lm #Signaturen# neu:
+      <tei:lb n="Page20_Block3_Line10"/>— Sankt Georgen, Benediktinerkloster in Villingen, HA 44a. 3. 9: 196b, 13v
+      <tei:lb n="Page20_Block3_Line11"/>5.506 re ZI.36 Lm #Signaturen, Stuttgart, Hauptstaatsarchiv, A 89# für #Bü 2:
+      <tei:lb n="Page20_Block3_Line12"/>254,88r;#:
+      <tei:lb n="Page20_Block3_Line13"/>Bü 22: 254, 88r;
+      <tei:lb n="Page20_Block3_Line14"/>5.507 li ZI. 18 Lm #Signaturen, Stuttgart, Hauptstaatsarchiv# nach #A 282: 325;#:
+      <tei:lb n="Page20_Block3_Line15"/>Bd. 1182x-1183x: 200; 330, 413;
+      <tei:lb n="Page20_Block3_Line16"/>(dafür in ZI.21—22 streichen #Bü 1182—1183: 200; 330; 413;#)
+      <tei:lb n="Page20_Block3_Line17"/>5.507 li ZI.37 Lm #Signaturen, Stuttgart, Hauptstaatsarchiv# nach #A 474 Bü 1: 43,
+      <tei:lb n="Page20_Block3_Line18"/>91r; S. 17;#:
+      <tei:lb n="Page20_Block3_Line19"/>— A 474L Bü 80: S. 17;
+      <tei:lb n="Page20_Block3_Line20"/>5.510 li ZI.9-10 Lm #Signaturen, Stuttgart, Württ. Landesbibliothek, Cod. hist.Fol. #
+      <tei:lb n="Page20_Block3_Line21"/>nach #hist.Fol. 304: 167, lr;#:
+      <tei:lb n="Page20_Block3_Line22"/>hist. Fol. 305: S. 17;
+      <tei:lb n="Page20_Block3_Line23"/>5.510 re ZI. 16-17 Lm #Signaturen, Stuttgart, Württ.Landesbibliothek, Cod.hist.Fol.#
+      <tei:lb n="Page20_Block3_Line24"/>nach #hist.Fol. 961: 263;#:
+      <tei:lb n="Page20_Block3_Line25"/>hist. Fol. 970: 154;
+      <tei:lb n="Page20_Block3_Line26"/>5.510 re ZI.38-39 Lm #Signaturen, Stuttgart, Württ.Landesbibliothek, Cod.hist.Q#
+      <tei:lb n="Page20_Block3_Line27"/>für #hist. Q 555: 217, lr; hist.Q 579: 102a-d#:
+      <tei:lb n="Page20_Block3_Line28"/>hist.Q 529: 102a-d; hist.Q 555: 217, lr</tei:p>
+            <tei:p n="Page21_Block1">
+               <tei:lb n="Page21_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page21_Block2">
+               <tei:lb n="Page21_Block2_Line1"/>582</tei:p>
+            <tei:p n="Page21_Block3">
+               <tei:lb n="Page21_Block3_Line1"/>5.511 li ZI. 9 Lm # Signaturen, Stuttgart, Württ. Landesbibliothek, Cod.poet.# nach
+      <tei:lb n="Page21_Block3_Line2"/>#poet.Fol. 10: 48;#:
+      <tei:lb n="Page21_Block3_Line3"/>poet.Fol. 39a-b: 21, 25r;
+      <tei:lb n="Page21_Block3_Line4"/>5.511 li ZI. 10—11 Lm #Signaturen, Stuttgart, Württ.Landesbibliothek, Cod.poet. # nach
+      <tei:lb n="Page21_Block3_Line5"/>#poet.Q 178: 92#:
+      <tei:lb n="Page21_Block3_Line6"/>; poet.O 89: 48b, 590
+      <tei:lb n="Page21_Block3_Line7"/>5.511 re Zl.l Lm #Signaturen, unbestimmbare, alte# streichen: #HA. 44a. 3. 9: 196b,
+      <tei:lb n="Page21_Block3_Line8"/>13v;#
+      <tei:lb n="Page21_Block3_Line9"/>5.512 re nach ZI. 15 neues Lm:
+      <tei:lb n="Page21_Block3_Line10"/>Sonneck s. Ungnad
+      <tei:lb n="Page21_Block3_Line11"/>S.515 li nach ZI. 11 neues Lm:
+      <tei:lb n="Page21_Block3_Line12"/>Stain s. Stein
+      <tei:lb n="Page21_Block3_Line13"/>5.518 li ZI.30 Lm #Steuern, Württ., Ordnungen 1538, 1554# für #38#:
+      <tei:lb n="Page21_Block3_Line14"/>(38)
+      <tei:lb n="Page21_Block3_Line15"/>5.518 re ZI.5 Lm #Steußlingen s. auch# nach #Ernst#:
+      <tei:lb n="Page21_Block3_Line16"/>. Freyberg
+      <tei:lb n="Page21_Block3_Line17"/>5.519 re nach ZI.30 neues Lm:
+      <tei:lb n="Page21_Block3_Line18"/>Streitgespräche s. Wechselgespräche
+      <tei:lb n="Page21_Block3_Line19"/>5.520 li nach ZI.27 neues Lm:
+      <tei:lb n="Page21_Block3_Line20"/>Stürzelbronn s. Sturzeibronn
+      <tei:lb n="Page21_Block3_Line21"/>5.523 li ZI.44 Lm #Stuttgart, Turniere s. auch — (= Stuttgart)# vor #Ringrennen#:
+      <tei:lb n="Page21_Block3_Line22"/>Armbrustschießen.
+      <tei:lb n="Page21_Block3_Line23"/>5.524 li ZI.30 Lm #Sulzburg# für #Familie von s. Walther#:
+      <tei:lb n="Page21_Block3_Line24"/>Familien von s. Speth. Walther
+      <tei:lb n="Page21_Block3_Line25"/>5.524 re nach ZI.25 neues Lm:
+      <tei:lb n="Page21_Block3_Line26"/>Talberger s. Dalberg</tei:p>
+            <tei:p n="Page22_Block1">
+               <tei:lb n="Page22_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page22_Block2">
+               <tei:lb n="Page22_Block2_Line1"/>583</tei:p>
+            <tei:p n="Page22_Block3">
+               <tei:lb n="Page22_Block3_Line1"/>5.524 re nach ZI.32 zu Lm #Talheim# neu:
+      <tei:lb n="Page22_Block3_Line2"/>— s. auch Frauenberg
+      <tei:lb n="Page22_Block3_Line3"/>5.525 re ZI.4—5 für (= Lm) #Tethinger, Jakob Pedius (um 1490—1558): Würtem-
+      <tei:lb n="Page22_Block3_Line4"/>bergiae#:
+      <tei:lb n="Page22_Block3_Line5"/>Tethinger, Johann Pedius (um 1495—1558): Wirtembergiae
+      <tei:lb n="Page22_Block3_Line6"/>5.530 li nach ZI.23 neues Lm:
+      <tei:lb n="Page22_Block3_Line7"/>Türnau s. Dürnau
+      <tei:lb n="Page22_Block3_Line8"/>5.530 re ZI.3 Lm #Tuttlingen# nach #173, 316v;#:
+      <tei:lb n="Page22_Block3_Line9"/>179, 105r;
+      <tei:lb n="Page22_Block3_Line10"/>S. 531 li nach ZI. 8 neues Lm:
+      <tei:lb n="Page22_Block3_Line11"/>Uhrnberg s. Speth
+      <tei:lb n="Page22_Block3_Line12"/>5.531 li ZI.23 Lm #Ulm, Besuch Kaiser Sigismunds# für #1474#:
+      <tei:lb n="Page22_Block3_Line13"/>1434
+      <tei:lb n="Page22_Block3_Line14"/>S.535 re nach ZI. 31 neues Lm:
+      <tei:lb n="Page22_Block3_Line15"/>Unterdettingen s. Dettingen
+      <tei:lb n="Page22_Block3_Line16"/>S. 537 li nach ZI. 15 zu Lm #Urban# neu:
+      <tei:lb n="Page22_Block3_Line17"/>— de Austria/ Pfaffstetter/ Sagstetter (-1573), Bf. Gurk s. Wien, Verkündung 1564
+      <tei:lb n="Page22_Block3_Line18"/>5.539 re nach ZI.31 neues Lm:
+      <tei:lb n="Page22_Block3_Line19"/>Villingen (Schwarzwald-Baar-Kreis) s. Sankt Georgen
+      <tei:lb n="Page22_Block3_Line20"/>5.539 re ZI.34 Lm #Vilseck# vor #Hoheneck#:
+      <tei:lb n="Page22_Block3_Line21"/>Filseck.
+      <tei:lb n="Page22_Block3_Line22"/>5.540 re nach ZI.26 neues Lm:
+      <tei:lb n="Page22_Block3_Line23"/>Vollrads s. Greiffenklau
+      <tei:lb n="Page22_Block3_Line24"/>5.551 li ZI.34-35 Lm #Wien, Verkündung des Abendmahls# für #1562#:
+      <tei:lb n="Page22_Block3_Line25"/>1564
+      <tei:lb n="Page22_Block3_Line26"/>5.551 re ZI.29 Lm #Wildbad# nach #172, 644;#:
+      <tei:lb n="Page22_Block3_Line27"/>179, 105r;</tei:p>
+            <tei:p n="Page23_Block1">
+               <tei:lb n="Page23_Block1_Line1"/>NACHTRAG</tei:p>
+            <tei:p n="Page23_Block2">
+               <tei:lb n="Page23_Block2_Line1"/>584</tei:p>
+            <tei:p n="Page23_Block3">
+               <tei:lb n="Page23_Block3_Line1"/>5.553 li nach ZI. 42 zu Lm # Wirtembergisches# neu:
+      <tei:lb n="Page23_Block3_Line2"/>— s. auch Württemberg
+      <tei:lb n="Page23_Block3_Line3"/>5.553 re nach ZI.20 zu Lm #Wittlingen# neu:
+      <tei:lb n="Page23_Block3_Line4"/>— s. auch Speth
+      <tei:lb n="Page23_Block3_Line5"/>5.555 li nach ZI.20 zu Lm # Worms# neu:
+      <tei:lb n="Page23_Block3_Line6"/>— Kämmerer von s. Dalberg
+      <tei:lb n="Page23_Block3_Line7"/>5.556 re ZI. 2 Lm # Württemberg, Regentenhaus s. auch# nach #Helena. #:
+      <tei:lb n="Page23_Block3_Line8"/>Henriette.
+      <tei:lb n="Page23_Block3_Line9"/>5.557 re nach ZI. 13 neues Lm:
+      <tei:lb n="Page23_Block3_Line10"/>Zangberg s. Dachsberg
+      <tei:lb n="Page23_Block3_Line11"/>S.559 re ZI. 16 Lm #Zisterzienserinnenklöster# nach #Gnadental.#:
+      <tei:lb n="Page23_Block3_Line12"/>Günterstal.
+      <tei:lb n="Page23_Block3_Line13"/>S. 560 re ZI. 21 Lm #Zwiefalten s. auch# nach #Benediktinerkongregation#:
+      <tei:lb n="Page23_Block3_Line14"/>. Speth</tei:p>
+         </tei:div>
+         <tei:div type="SONSTIGES">
+            <tei:p n="Page24_Block1">
+               <tei:lb n="Page24_Block1_Line1"/>DIE HANDSCHRIFTEN DER
+      <tei:lb n="Page24_Block1_Line2"/>STAATSARCHIVE IN BADEN-WÜRTTEMBERG
+      <tei:lb n="Page24_Block1_Line3"/>HERAUSGEGEBEN VON DER
+      <tei:lb n="Page24_Block1_Line4"/>LANDESARCHIVDIREKTION BADEN-WÜRTTEMBERG</tei:p>
+            <tei:p n="Page24_Block2">
+               <tei:lb n="Page24_Block2_Line1"/>NACHTRÄGE UND VERBESSERUNGEN ZU BAND 1:</tei:p>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

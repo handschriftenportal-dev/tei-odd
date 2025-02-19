@@ -1,0 +1,2344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>HSP-TEI P5 Customization and Encoding Guidelines for Manuscript Description</title>
+        <author xml:id="geissel">Pia Geißel</author>
+        <author xml:id="schassan">Torsten Schaßan</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <p>This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.</p>
+          <p>When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licensing conditions applicable to your modified text.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>Basic parts of the description are taken from the TEI Guidelines.</note>
+        <note>Additional description added from Medieval Manuscripts in Oxford Libraries: TEI catalogue descriptions on GitHub <ref target="https://github.com/bodleian/medieval-mss"/></note>
+        <note>Description follows the Richtlinien Handschriftenkatalogisierung of Deutsche Forschungsgemeinschaft <ref target="http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSKRICH.htm"/>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <p>Initially created on <date when="2020-06-03">3.6.2020</date> by the form at http://www.tei-c.org.uk/Roma/.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <divGen type="toc" xml:id="toc"/>
+      <div xml:id="introduction">
+        <head>Introductory remarks</head>
+        <p>These Guidelines describe the structure of manuscript descriptions according to the rules of the German <ref target="https://handschriftenportal.de">Handschriftenportal</ref>
+            (<abbr>HSP</abbr>). This document serves a threefold purpose: <list>
+            <item>The text of the Guidelines describe the cataloguing principles, all parts of a catalogue document, and all aspects of a manuscript description in accordance with the German cataloguing rules. The text also explains the usage of the description in the scope of the <soCalled>Handschriftenportal</soCalled>, especially why some information has to be recorded in a certain manner because it might be needed for some functionality in the portal.</item>
+            <item>The examples included in the Guidelines show the way, how the cataloguing rules result in valid TEI markup. The TEI format is the preferred format of the import and export of manuscript related information. All descriptions that shall be imported into the portal need to be structured in compliance with these Guidelines. Exports from the portal will be supplied first of all in the format of TEI-encoded documents. Library metadata such as MARC records will be described in other documents.</item>
+            <item>This document will provide a formal definition of all elements, attributes and structures that are allowed and expected in the resulting TEI files. The appendices will contain a detailed description of the technical aspects of the cataloguing rules.</item>
+          </list> This document will result in an updated version of the cataloguing guidelines of the DFG, which in its latest edition date back to 1992.</p>
+        <p>Although the document is written from scratch, it has its predecessors in an
+            <abbr>ODD</abbr> written for the manuscript cataloguing in the Herzog August Bibliothek Wolfenbüttel, in papers written in the scope of the <bibl>Europeana Regia project</bibl>
+            (<ref target="http://www.hab.de/files/europeana-regia/ODD/europeana-regia.xml">ODD</ref>, <bibl>D2.3 Vademecum for librarians, <ref target="http://diglib.hab.de/rules/documentation/ER/v1.1/Europeana-Regia_D2.3_Vademecum-for-librarians.pdf">PDF</ref></bibl>, and an ODD written at the Bodleian Library Oxford.</p>
+        <p>Technically, this document is encoded as a <abbr>TEI</abbr>
+          <abbr>ODD</abbr> file. <abbr>ODD</abbr> is the abbreviation of <expan>One Document Does it all</expan>. An ODD file contains all information in a human and a machine readable way.</p>
+      </div>
+    </front>
+    <body>
+      <div xml:id="encodingGuidelines">
+        <head>Encoding Guidelines</head>
+        <p>As the <abbr>HSP</abbr> will combine information about manuscripts and display records from different repositories, the quality and depth of the descriptions may differ. In order to gain control over the different kinds of records, this guideline provides rules for descriptions of manuscripts. At the same time they intend to replace the current guidelines <bibl>Richtlinien Handschriftenkatalogisierung der DFG</bibl>.</p>
+        <p>The base entity of the HSP is a <soCalled>Kulturobject</soCalled> (<soCalled>cultural object</soCalled>. Cultural objects are any real world objects in the scope of the HSP. These will be manuscripts in the first place but as well objects like former manuscript bindings. The HSP establishes one <soCalled>Kulturobjektdokument</soCalled>
+            (<soCalled>cultural object document</soCalled>, <abbr>KOD</abbr>) as representation for each cultural object. This <abbr>KOD</abbr> serves as an anchor for all data and descriptions concerning a single manuscript. After a registration at the website a user, a repository or an institution can now add their own information to a manuscript e.g. measure, material, content and history or even a digital copy of the object. This approach ensures that the <abbr>KOD</abbr> in its current state can be altered and be aligned towards new approaches and scientific findings. </p>
+        <p>To identify and individualise a manuscript the <abbr>HSP</abbr> generates a minimal data set, <soCalled>Minimaldatensatz</soCalled>, consisting of <list>
+            <item>the place of the institution the object belongs to,</item>
+            <item>the name of the institution the object belongs to and</item>
+            <item>the current, normalised shelfmark of the object.</item>
+          </list> Alternative identifications of the object, such as variant writings of the current shelfmark, former shelfmarks, catalogue numbers, or sigla within editions, may be added to the minimal data.</p>
+        <p>Each object is assigned with a unique ID in the <abbr>HSP</abbr>. Once the Deutsche Nationalbibliothek has assigned a unique identifier for each
+            <soCalled>Schriftdenkmal</soCalled> in the <soCalled>Gemeinsame Normdatei</soCalled>
+            (<abbr>GND</abbr>), the GND-ID will be referenced as well. The
+            <soCalled>Schriftdenkmal</soCalled> is in the scope of the <abbr>HSP</abbr> identical to the <soCalled>Kulturobject</soCalled>.</p>
+        <p>On a supplementary basis, the following core data is recommended for each object: <list>
+            <item>a brief descriptive title,</item>
+            <item>material(s),</item>
+            <item>the dimensions of the object,</item>
+            <item>the number of leaves or pages,</item>
+            <item>the date(s) of origin,</item>
+            <item>the place(s) of origin,</item>
+            <item>the written language(s),</item>
+            <item>the occurence of decoration description,</item>
+            <item>the occurence of music notations,</item>
+            <item>the form of the object (e.g. codex, fragment),</item>
+            <item>the current status of the object (e.g. extant, destroyed, missing).</item>
+          </list>
+        </p>
+      </div>
+
+      <div xml:id="head_date">
+        <head>How to date a manuscript</head>
+        <figure>
+          <table rend="boxed" rows="14" cols="4" style="width:100%">
+            <row>
+              <cell role="label">time</cell>
+              <cell role="label">timespan</cell>
+              <cell role="label">XML-example</cell>
+            </row>
+            <row>
+              <cell>9. Jh.</cell>
+              <cell>801-900</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0801" notAfter="0900">9. Jh.</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., 1. Hälfte</cell>
+              <cell>801-850</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0801" notAfter="0850">9. Jh., 1. Hälfte</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., 2. Hälfte</cell>
+              <cell>851-900</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0851" notAfter="900">9. Jh., 2. Hälfte</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., 1. Drittel</cell>
+              <cell>801-833</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0801" notAfter="0833">9. Jh., 1. Drittel</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., 1. Viertel</cell>
+              <cell>801-825</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0701" notAfter="0725">9.Jh., 1. Viertel</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., Anfang</cell>
+              <cell>801-815</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0801" notAfter="0815">9. Jh., Anfang</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., Mitte</cell>
+              <cell>841-860</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0841" notAfter="0860">9. Jh., Mitte</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>9. Jh., Ende</cell>
+              <cell>-15 years, 886-900</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0886" notAfter="0900">9. Jh., Ende</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>vor 800</cell>
+              <cell>-14 years, 786-799</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0786" notAfter="0799">vor 800</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>nach 800</cell>
+              <cell>+15 years, 801-815</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0801" notAfter="0815">nach 800</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>um 800</cell>
+              <cell>±15 years, 786-815</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples"><origDate notBefore="0786" notAfter="0815">um 800</origDate></egXML></cell>
+            </row>
+            <row>
+              <cell>8./9. Jh</cell>
+              <cell>±10 years, 791-810</cell>
+              <cell><egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <origDate notBefore="0791" notAfter="0810">8./9. Jh.</origDate></egXML></cell>
+            </row>
+          </table>
+        </figure>
+      </div>
+
+      <div xml:id="index-Term">
+        <head>The Index-Elements</head>
+        <p>In addition to the <gi>head</gi> element, the <soCalled>Schlagzeile</soCalled> is required to fill in the essential informations in <gi>term</gi> elements. The setup has the following structure: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <head>
+              <index indexName="norm_title">
+                <term type="title">__normalized title of the Manuscript__</term>
+              </index>
+              <title>__The title of the manuscript__</title>
+              <note type="headline">__the headline of the manuscript__</note>
+              <index indexName="norm_material">
+                <term type="material">__material of the manuscript__</term>
+                <term type="material_type">__select from value list__</term>
+                <term type="material_type">__select from value list__</term>
+              </index>
+              <index indexName="norm_measure">
+                <term type="measure">__number of leaves__</term>
+                <term type="measure_noOfLeaves">__quantity of the leaves__</term>
+              </index>
+              <index indexName="norm_dimensions">
+                <term type="dimensions">__dimension of the manuscript__</term>
+                <term type="height">__height of the manuscript__</term>
+                <term type="width">__width of the manuscript__</term>
+                <term type="depth">__depth of the manuscript__</term>
+                <term type="dimensions_typeOfInformation">__type of information__</term>
+              </index>
+              <index indexName="norm_format">
+                <term type="format">__select from value list__</term>
+                <term type="format_typeOfInformation">__type of information__</term>
+              </index>
+              <index indexName="norm_origPlace">
+                <term type="origPlace">__place where the manuscript originated from__</term>
+                <term type="origPlace_norm" ref="http://dnb.indo/XXXX-X" key="UU-ID">__normalized name__</term>
+              </index>
+              <index indexName="norm_origDate">
+                <term type="origDate">__the presumable date__</term>
+                <term type="origDate_notBefore">__narrowing the century__</term>
+                <term type="origDate_notAfter">__narrowing the century__</term>
+                <term type="origDate_type">__select from value list__</term>
+              </index>
+              <index indexName="norm_textLang">
+                <term type="textLang">__main Language of the manuscript</term>
+                <term type="textLang-ID">ID of the language (ISO-norm)</term>
+              </index>
+              <index indexName="norm_form">
+                <term type="form">__select from value list__</term>
+              </index>
+              <index indexName="norm_status">
+                <term type="status">__select from value list__</term>
+              </index>
+              <index indexName="norm_decoration">
+                <term type="decoration">__select from value list__</term>
+              </index>
+              <index indexName="norm_musicNotation">
+                <term type="musicNotation">__select from value list__</term>
+              </index>
+            </head>
+          </egXML>
+        </p>
+      </div>
+
+      <div xml:id="term-type-concordance">
+        <head>Concordance and description of the type-Attribute values for index fields</head>
+        <p>The values for the <att>type</att> attribute used in the <gi>term</gi> element are derived from the cataloguing system MXML, which was the basis of all data within Manuscripta Mediaevalia. Since these data had to be transformed and taken over to the Handschriftenportal, we needed to preserve the field names in order to make use of them for search purposes. To allow users of the raw data of the descriptions within the portal to understand the meaning of the attribute values, a concordance and description of all values shall be supplied here.</p>
+        <table rend="boxed">
+          <row>
+            <cell role="label">@type-value / MXML field</cell>
+            <cell role="label">description</cell>
+            <cell role="label">corresponding TEI field</cell>
+          </row>
+          <row><cell>0080</cell><cell>Definition*</cell><cell></cell></row>
+          <row><cell>0101</cell><cell>Begriff</cell><cell></cell></row>
+          <row><cell>0102</cell><cell>Synonym</cell><cell></cell></row>
+          <row><cell>0151</cell><cell>Siehe-auch-Begr.</cell><cell></cell></row>
+          <row><cell>0171</cell><cell>gesperrter Begriff</cell><cell></cell></row>
+          <row><cell>0181</cell><cell>Unterbegriff</cell><cell></cell></row>
+          <row><cell>0301</cell><cell>Oberbegriff</cell><cell></cell></row>
+          <row><cell>0360</cell><cell>höhere Oberbegr.</cell><cell></cell></row>
+          <row><cell>0370</cell><cell>sekund. Oberbegr.</cell><cell></cell></row>
+          <row><cell>1000</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>1022</cell><cell>verbale Datierung</cell><cell></cell></row>
+          <row><cell>1024</cell><cell>numerische Datier.</cell><cell></cell></row>
+          <row><cell>1100</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>1103</cell><cell>SBB-Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>1104</cell><cell>Benutzerkennung</cell><cell></cell></row>
+          <row><cell>1105</cell><cell>Benutzerdatum</cell><cell></cell></row>
+          <row><cell>1106</cell><cell>Redaktionsdatum</cell><cell></cell></row>
+          <row><cell>1200</cell><cell>Begriff 0</cell><cell></cell></row>
+          <row><cell>1200gi</cell><cell>Begriff 0</cell><cell></cell></row>
+          <row><cell>1202gi</cell><cell>f-Begriff 0</cell><cell></cell></row>
+          <row><cell>1204gi</cell><cell>p-Begriff 0</cell><cell></cell></row>
+          <row><cell>1210</cell><cell>Begriff 1</cell><cell></cell></row>
+          <row><cell>1210gi</cell><cell>Begriff 1</cell><cell></cell></row>
+          <row><cell>1212gi</cell><cell>f-Begriff 1</cell><cell></cell></row>
+          <row><cell>1214gi</cell><cell>p-Begriff 1</cell><cell></cell></row>
+          <row><cell>1216gi</cell><cell>siehe-Verweis 1</cell><cell></cell></row>
+          <row><cell>1220</cell><cell>Begriff 2</cell><cell></cell></row>
+          <row><cell>1220gi</cell><cell>Begriff 2</cell><cell></cell></row>
+          <row><cell>1222gi</cell><cell>f-Begriff 2</cell><cell></cell></row>
+          <row><cell>1224gi</cell><cell>p-Begriff 2</cell><cell></cell></row>
+          <row><cell>1226gi</cell><cell>siehe-Verweis 2</cell><cell></cell></row>
+          <row><cell>1230</cell><cell>Begriff 3</cell><cell></cell></row>
+          <row><cell>1230gi</cell><cell>Begriff 3</cell><cell></cell></row>
+          <row><cell>1232gi</cell><cell>f-Begriff 3</cell><cell></cell></row>
+          <row><cell>1240</cell><cell>Begriff 4</cell><cell></cell></row>
+          <row><cell>1240gi</cell><cell>Begriff 4</cell><cell></cell></row>
+          <row><cell>1250</cell><cell>siehe-Verweis</cell><cell></cell></row>
+          <row><cell>1250gi</cell><cell>siehe-Verweis</cell><cell></cell></row>
+          <row><cell>1800</cell><cell>Initium lateinisch</cell><cell>quote[@type='initium'][@xml:lang='la']</cell></row>
+          <row><cell>1802</cell><cell>Initium deutsch</cell><cell>quote[@type='initium'][@xml:lang='de']</cell></row>
+          <row><cell>1802a</cell><cell>Grundwort Lexer</cell><cell></cell></row>
+          <row><cell>1802b</cell><cell>Grundwort Lüb.</cell><cell></cell></row>
+          <row><cell>1804</cell><cell>Initium variaspr.</cell><cell>quote[@type='initium'][@xml:lang='unk']</cell></row>
+          <row><cell>1900</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>1903</cell><cell>BIB-Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>1904</cell><cell>Benutzerkennung</cell><cell></cell></row>
+          <row><cell>1905</cell><cell>Benutzerdatum</cell><cell></cell></row>
+          <row><cell>1910</cell><cell>Katalogkürzel</cell><cell></cell></row>
+          <row><cell>1920</cell><cell>Bibliotheksname</cell><cell></cell></row>
+          <row><cell>1921</cell><cell>Bibl-Name altern.</cell><cell></cell></row>
+          <row><cell>1930</cell><cell>Bibliotheksort</cell><cell></cell></row>
+          <row><cell>1931</cell><cell>Bibl-Ort altern.</cell><cell></cell></row>
+          <row><cell>1943</cell><cell>Sammlung</cell><cell></cell></row>
+          <row><cell>1945</cell><cell>Grundsignatur</cell><cell></cell></row>
+          <row><cell>1950</cell><cell>GI-Signatur</cell><cell></cell></row>
+          <row><cell>1951</cell><cell>GI-Signatur-Zus.</cell><cell></cell></row>
+          <row><cell>1960</cell><cell>Katalogname</cell><cell></cell></row>
+          <row><cell>1961</cell><cell>GI-Folio-Nr.</cell><cell></cell></row>
+          <row><cell>1980</cell><cell>bibliogr. Angabe</cell><cell></cell></row>
+          <row><cell>1985</cell><cell>SBB-Signatur</cell><cell></cell></row>
+          <row><cell>2000</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>2050</cell><cell>Name d.geogr.Ent.</cell><cell>placeName</cell></row>
+          <row><cell>2050a</cell><cell>Ortsname altern.</cell><cell></cell></row>
+          <row><cell>2050p</cell><cell>Ortsname poln.</cell><cell></cell></row>
+          <row><cell>2050sa</cell><cell>siehe-auch-Ortsn.</cell><cell></cell></row>
+          <row><cell>2055</cell><cell>Art d.geogr.Ent.</cell><cell></cell></row>
+          <row><cell>205a</cell><cell>GI-Ort</cell><cell></cell></row>
+          <row><cell>205c</cell><cell>GI-Landschaft</cell><cell></cell></row>
+          <row><cell>205e</cell><cell>GI-Land</cell><cell></cell></row>
+          <row><cell>2119</cell><cell>Stadt</cell><cell></cell></row>
+          <row><cell>2135</cell><cell>Landschaft</cell><cell></cell></row>
+          <row><cell>2154</cell><cell>Land</cell><cell></cell></row>
+          <row><cell>2160</cell><cell>Gemeinde</cell><cell></cell></row>
+          <row><cell>2165</cell><cell>Kreis</cell><cell></cell></row>
+          <row><cell>2170</cell><cell>Regierungsbezirk</cell><cell></cell></row>
+          <row><cell>2180</cell><cell>Region</cell><cell></cell></row>
+          <row><cell>2189</cell><cell>Länderschlüssel</cell><cell></cell></row>
+          <row><cell>2190</cell><cell>Bundesland</cell><cell></cell></row>
+          <row><cell>2194</cell><cell>Staat</cell><cell></cell></row>
+          <row><cell>2196</cell><cell>Kontinentteil</cell><cell></cell></row>
+          <row><cell>2198</cell><cell>Kontinent</cell><cell></cell></row>
+          <row><cell>219a</cell><cell>Art des Textes</cell><cell></cell></row>
+          <row><cell>219c</cell><cell>Bemerkung*</cell><cell></cell></row>
+          <row><cell>219e</cell><cell>Text*</cell><cell></cell></row>
+          <row><cell>4000</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>4007</cell><cell>Art der Beziehung</cell><cell></cell></row>
+          <row><cell>4010</cell><cell>Bez-Name</cell><cell></cell></row>
+          <row><cell>4011</cell><cell>Bez-Name N.N.</cell><cell></cell></row>
+          <row><cell>4018</cell><cell>Personen-Komm.*</cell><cell></cell></row>
+          <row><cell>4100</cell><cell>Personenname</cell><cell>persName</cell></row>
+          <row><cell>4100gi</cell><cell>Person i. Vorl.</cell><cell></cell></row>
+          <row><cell>4105</cell><cell>Zweitname</cell><cell></cell></row>
+          <row><cell>4120</cell><cell>Geburtsname</cell><cell></cell></row>
+          <row><cell>4126</cell><cell>Pseudonym</cell><cell></cell></row>
+          <row><cell>4140</cell><cell>Geschlecht</cell><cell></cell></row>
+          <row><cell>4160</cell><cell>Stand</cell><cell></cell></row>
+          <row><cell>4165</cell><cell>Beruf/Funktion</cell><cell></cell></row>
+          <row><cell>4180</cell><cell>Nachweiszeit</cell><cell></cell></row>
+          <row><cell>4182</cell><cell>Regierungszeit</cell><cell></cell></row>
+          <row><cell>4204</cell><cell>Nachweisort</cell><cell></cell></row>
+          <row><cell>4270</cell><cell>Geburtsdatum</cell><cell></cell></row>
+          <row><cell>4290</cell><cell>Geburtsort</cell><cell></cell></row>
+          <row><cell>4300</cell><cell>erste Erwähnung</cell><cell></cell></row>
+          <row><cell>4320</cell><cell>e-Erwähn-Ort</cell><cell></cell></row>
+          <row><cell>4330</cell><cell>Sterbedatum</cell><cell></cell></row>
+          <row><cell>4350</cell><cell>Sterbeort</cell><cell></cell></row>
+          <row><cell>4400</cell><cell>Tätigkeitszeit</cell><cell></cell></row>
+          <row><cell>4420</cell><cell>Tätigkeitsort</cell><cell></cell></row>
+          <row><cell>4470</cell><cell>Authentizität</cell><cell></cell></row>
+          <row><cell>4475</cell><cell>Tätigkeit</cell><cell>@role</cell></row>
+          <row><cell>4496</cell><cell>Geltungsdauer</cell><cell></cell></row>
+          <row><cell>4498</cell><cell>Person-Komm.*</cell><cell></cell></row>
+          <row><cell>449a</cell><cell>Art d. Freitexts</cell><cell></cell></row>
+          <row><cell>449c</cell><cell>Bemerkung*</cell><cell></cell></row>
+          <row><cell>449e</cell><cell>Freitext*</cell><cell></cell></row>
+          <row><cell>449g</cell><cell>Nachweis</cell><cell></cell></row>
+          <row><cell>4500</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>4507</cell><cell>Art der Beziehung</cell><cell></cell></row>
+          <row><cell>4509</cell><cell>Bez-Ort</cell><cell></cell></row>
+          <row><cell>4510</cell><cell>Bez-Sozietätsname</cell><cell></cell></row>
+          <row><cell>4511</cell><cell>Bez-Abteilung</cell><cell></cell></row>
+          <row><cell>459t</cell><cell>Kommentar*</cell><cell></cell></row>
+          <row><cell>4564</cell><cell>Ort</cell><cell></cell></row>
+          <row><cell>4590</cell><cell>Sozietätsart</cell><cell></cell></row>
+          <row><cell>4594</cell><cell>Träger</cell><cell></cell></row>
+          <row><cell>4596</cell><cell>Patrozinium</cell><cell></cell></row>
+          <row><cell>4600</cell><cell>Sozietätsname</cell><cell>repository</cell></row>
+          <row><cell>4602</cell><cell>Zweitname</cell><cell></cell></row>
+          <row><cell>4604</cell><cell>Soziet-Kurztitel</cell><cell></cell></row>
+          <row><cell>4610</cell><cell>Person</cell><cell></cell></row>
+          <row><cell>4614</cell><cell>Titel</cell><cell></cell></row>
+          <row><cell>4630</cell><cell>Abteilung</cell><cell></cell></row>
+          <row><cell>4640</cell><cell>Verw-Zusammenh.</cell><cell></cell></row>
+          <row><cell>4643</cell><cell>Sammlung</cell><cell>collection</cell></row>
+          <row><cell>4645</cell><cell>Grundsignatur</cell><cell></cell></row>
+          <row><cell>4650</cell><cell>Signatur</cell><cell>idno</cell></row>
+          <row><cell>4652</cell><cell>alte Signatur</cell><cell>altIdentifier[@type='former']/idno</cell></row>
+          <row><cell>4656</cell><cell>Akzess-Nr.</cell><cell></cell></row>
+          <row><cell>4665</cell><cell>Folio-Nr.</cell><cell>locus</cell></row>
+          <row><cell>4670</cell><cell>Verbleib</cell><cell></cell></row>
+          <row><cell>4770</cell><cell>Gründungsdatum</cell><cell></cell></row>
+          <row><cell>4830</cell><cell>Auflösungsdatum</cell><cell></cell></row>
+          <row><cell>4970</cell><cell>Authentizität</cell><cell></cell></row>
+          <row><cell>4975</cell><cell>Tätigkeit</cell><cell></cell></row>
+          <row><cell>4996</cell><cell>Geltungsdauer</cell><cell></cell></row>
+          <row><cell>4998</cell><cell>Sozietäts-Komm.*</cell><cell></cell></row>
+          <row><cell>499a</cell><cell>Art d. Freitextes</cell><cell></cell></row>
+          <row><cell>499e</cell><cell>Freitext*</cell><cell></cell></row>
+          <row><cell>5000</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>5001</cell><cell>Dokument-Teil-Nr.</cell><cell></cell></row>
+          <row><cell>5002</cell><cell>Unter-Teil-Nr.</cell><cell></cell></row>
+          <row><cell>5003</cell><cell>Detail-Nr.</cell><cell></cell></row>
+          <row><cell>5004</cell><cell>Einzel-Nr.</cell><cell></cell></row>
+          <row><cell>5007</cell><cell>Art der Beziehung</cell><cell></cell></row>
+          <row><cell>5008</cell><cell>Bez-Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>5009</cell><cell>Bez-Hersteller</cell><cell></cell></row>
+          <row><cell>5010</cell><cell>Bez-Sachbegriff</cell><cell></cell></row>
+          <row><cell>5019</cell><cell>Geltungsdauer</cell><cell></cell></row>
+          <row><cell>501k</cell><cell>Bez-Verwalter, subfield of 5007</cell><cell>msIdentifier/settlement + repository</cell></row>
+          <row><cell>501m</cell><cell>Bez-Signatur, subfield of 5007</cell><cell>msIdentifier/idno</cell></row>
+          <row><cell>501n</cell><cell>Bez-Sachtitel, subfield of 5007</cell><cell></cell></row>
+          <row><cell>501p</cell><cell>Bez-Folio-Nr., subfield of 5007</cell><cell>locus</cell></row>
+          <row><cell>501t</cell><cell>Beschreibung*, subfield of 5007</cell><cell></cell></row>
+          <row><cell>5060</cell><cell>Art der Datierung</cell><cell></cell></row>
+          <row><cell>5061</cell><cell>Quelle der Dat.</cell><cell></cell></row>
+          <row><cell>5064</cell><cell>Datierung (num.), subfield of 5060</cell><cell></cell></row>
+          <row><cell>5071</cell><cell>Anfangsdatum, subfield of 5060</cell><cell>date or origDate, @from or @notBefore</cell></row>
+          <row><cell>5077</cell><cell>Enddatum, subfield of 5060</cell><cell>date or origDate, @to or @notAfter</cell></row>
+          <row><cell>5130</cell><cell>Entstehungsort</cell><cell>origPlace</cell></row>
+          <row><cell>5140</cell><cell>Bedeut. des Orts</cell><cell></cell></row>
+          <row><cell>5145</cell><cell>Name des Orts</cell><cell></cell></row>
+          <row><cell>5200</cell><cell>Objekttitel*</cell><cell></cell></row>
+          <row><cell>5209</cell><cell>ÜBERSCHRIFT*</cell><cell></cell></row>
+          <row><cell>5210</cell><cell>Status</cell><cell></cell></row>
+          <row><cell>5230</cell><cell>Sachbegriff</cell><cell></cell></row>
+          <row><cell>5234</cell><cell>Sonderfunktion</cell><cell></cell></row>
+          <row><cell>5240</cell><cell>Formtyp</cell><cell></cell></row>
+          <row><cell>5260</cell><cell>Material</cell><cell>material</cell></row>
+          <row><cell>5270</cell><cell>Buchschmuck-Slw.</cell><cell></cell></row>
+          <row><cell>5300</cell><cell>Technik</cell><cell></cell></row>
+          <row><cell>5360</cell><cell>Höhe x Breite (cm)</cell><cell>dimensions (height + width)</cell></row>
+          <row><cell>5382</cell><cell>Buchformat</cell><cell></cell></row>
+          <row><cell>5495</cell><cell>ikonogra. Gattung</cell><cell></cell></row>
+          <row><cell>5500</cell><cell>Ikonographie</cell><cell></cell></row>
+          <row><cell>5502</cell><cell>Erläuterung</cell><cell></cell></row>
+          <row><cell>5504</cell><cell>Schlagwort</cell><cell></cell></row>
+          <row><cell>550b</cell><cell>primäre/Person</cell><cell></cell></row>
+          <row><cell>550d</cell><cell>primäre/Region</cell><cell></cell></row>
+          <row><cell>550e</cell><cell>primäre/Ort</cell><cell></cell></row>
+          <row><cell>55hs</cell><cell>GI-ikon-Schlagw.</cell><cell></cell></row>
+          <row><cell>5650</cell><cell>Art des Textes</cell><cell></cell></row>
+          <row><cell>5664</cell><cell>Datierung</cell><cell></cell></row>
+          <row><cell>5666d</cell><cell>Initium-deutsch</cell><cell>quote[@type='initium'][@xml:lang='de']</cell></row>
+          <row><cell>5666l</cell><cell>Initium-latein</cell><cell>quote[@type='initium'][@xml:lang='la']</cell></row>
+          <row><cell>5666v</cell><cell>Initium-varia</cell><cell>quote[@type='initium'][@xml:lang='unk']</cell></row>
+          <row><cell>5668</cell><cell>Grundwörter</cell><cell></cell></row>
+          <row><cell>5680</cell><cell>Sprache</cell><cell></cell></row>
+          <row><cell>5684</cell><cell>Inhalt*</cell><cell></cell></row>
+          <row><cell>5686</cell><cell>Text*</cell><cell></cell></row>
+          <row><cell>5688</cell><cell>Übersetzung*</cell><cell></cell></row>
+          <row><cell>5694</cell><cell>Anbringungsort</cell><cell></cell></row>
+          <row><cell>5704</cell><cell>Schriftart</cell><cell>scriptNote</cell></row>
+          <row><cell>5705</cell><cell>Notation</cell><cell>musicNotation</cell></row>
+          <row><cell>5706</cell><cell>Blattzahl</cell><cell>extent/measure</cell></row>
+          <row><cell>5710</cell><cell>Schreibsprache</cell><cell>textLang</cell></row>
+          <row><cell>599a</cell><cell>Art d. Freitextes</cell><cell></cell></row>
+          <row><cell>599e</cell><cell>Freitext*</cell><cell></cell></row>
+          <row><cell>6000</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>6080</cell><cell>Notation</cell><cell></cell></row>
+          <row><cell>608a</cell><cell>Notation-Ebene01</cell><cell></cell></row>
+          <row><cell>608b</cell><cell>Notation-Ebene02</cell><cell></cell></row>
+          <row><cell>608c</cell><cell>Notation-Ebene03</cell><cell></cell></row>
+          <row><cell>608d</cell><cell>Notation-Ebene04</cell><cell></cell></row>
+          <row><cell>608e</cell><cell>Notation-Ebene05</cell><cell></cell></row>
+          <row><cell>608f</cell><cell>Notation-Ebene06</cell><cell></cell></row>
+          <row><cell>608g</cell><cell>Notation-Ebene07</cell><cell></cell></row>
+          <row><cell>608h</cell><cell>Notation-Ebene08</cell><cell></cell></row>
+          <row><cell>608i</cell><cell>Notation-Ebene09</cell><cell></cell></row>
+          <row><cell>608j</cell><cell>Notation-Ebene10</cell><cell></cell></row>
+          <row><cell>608k</cell><cell>Notation-Ebene11</cell><cell></cell></row>
+          <row><cell>60ad</cell><cell>Erläut.-dt-Eb01</cell><cell></cell></row>
+          <row><cell>60ae</cell><cell>Erläut.-en-Eb01</cell><cell></cell></row>
+          <row><cell>60bd</cell><cell>Erläut.-dt-Eb02</cell><cell></cell></row>
+          <row><cell>60be</cell><cell>Erläut.-en-Eb02</cell><cell></cell></row>
+          <row><cell>60cd</cell><cell>Erläut.-dt-Eb03</cell><cell></cell></row>
+          <row><cell>60ce</cell><cell>Erläut.-en-Eb03</cell><cell></cell></row>
+          <row><cell>60dd</cell><cell>Erläut.-dt-Eb04</cell><cell></cell></row>
+          <row><cell>60de</cell><cell>Erläut.-en-Eb04</cell><cell></cell></row>
+          <row><cell>60ed</cell><cell>Erläut.-dt-Eb05</cell><cell></cell></row>
+          <row><cell>60ee</cell><cell>Erläut.-en-Eb05</cell><cell></cell></row>
+          <row><cell>60fd</cell><cell>Erläut.-dt-Eb06</cell><cell></cell></row>
+          <row><cell>60fe</cell><cell>Erläut.-en-Eb06</cell><cell></cell></row>
+          <row><cell>60gd</cell><cell>Erläut.-dt-Eb07</cell><cell></cell></row>
+          <row><cell>60ge</cell><cell>Erläut.-en-Eb07</cell><cell></cell></row>
+          <row><cell>60hd</cell><cell>Erläut.-dt-Eb08</cell><cell></cell></row>
+          <row><cell>60he</cell><cell>Erläut.-en-Eb08</cell><cell></cell></row>
+          <row><cell>60id</cell><cell>Erläut.-dt-Eb09</cell><cell></cell></row>
+          <row><cell>60ie</cell><cell>Erläut.-en-Eb09</cell><cell></cell></row>
+          <row><cell>60jd</cell><cell>Erläut.-dt-Eb10</cell><cell></cell></row>
+          <row><cell>60je</cell><cell>Erläut.-en-Eb10</cell><cell></cell></row>
+          <row><cell>60kd</cell><cell>Erläut.-dt-Eb11</cell><cell></cell></row>
+          <row><cell>60ke</cell><cell>Erläut.-en-Eb11</cell><cell></cell></row>
+          <row><cell>6100</cell><cell>Erläuterung</cell><cell></cell></row>
+          <row><cell>6102</cell><cell>deutsch</cell><cell></cell></row>
+          <row><cell>6110</cell><cell>Schlagwort engl.</cell><cell></cell></row>
+          <row><cell>6112</cell><cell>Schlagwort dt.</cell><cell></cell></row>
+          <row><cell>6150</cell><cell>Geltungsb-Anf.</cell><cell></cell></row>
+          <row><cell>6158</cell><cell>Keynummer</cell><cell></cell></row>
+          <row><cell>6170</cell><cell>Erläuterung</cell><cell></cell></row>
+          <row><cell>6172</cell><cell>deutsch</cell><cell></cell></row>
+          <row><cell>6180</cell><cell>Schlagwort</cell><cell></cell></row>
+          <row><cell>6182</cell><cell>deutsch</cell><cell></cell></row>
+          <row><cell>61ad</cell><cell>Schlagw-dt-Eb1</cell><cell></cell></row>
+          <row><cell>61ae</cell><cell>Schlagw-en-Eb1</cell><cell></cell></row>
+          <row><cell>61bd</cell><cell>Schlagw-dt-Eb2</cell><cell></cell></row>
+          <row><cell>61be</cell><cell>Schlagw-en-Eb2</cell><cell></cell></row>
+          <row><cell>61cd</cell><cell>Schlagw-dt-Eb3</cell><cell></cell></row>
+          <row><cell>61ce</cell><cell>Schlagw-en-Eb3</cell><cell></cell></row>
+          <row><cell>61dd</cell><cell>Schlagw-dt-Eb4</cell><cell></cell></row>
+          <row><cell>61de</cell><cell>Schlagw-en-Eb4</cell><cell></cell></row>
+          <row><cell>61ed</cell><cell>Schlagw-dt-Eb5</cell><cell></cell></row>
+          <row><cell>61ee</cell><cell>Schlagw-en-Eb5</cell><cell></cell></row>
+          <row><cell>61fd</cell><cell>Schlagw-dt-Eb6</cell><cell></cell></row>
+          <row><cell>61fe</cell><cell>Schlagw-en-Eb6</cell><cell></cell></row>
+          <row><cell>61gd</cell><cell>Schlagw-dt-Eb7</cell><cell></cell></row>
+          <row><cell>61ge</cell><cell>Schlagw-en-Eb7</cell><cell></cell></row>
+          <row><cell>61hd</cell><cell>Schlagw-dt-Eb8</cell><cell></cell></row>
+          <row><cell>61he</cell><cell>Schlagw-en-Eb8</cell><cell></cell></row>
+          <row><cell>61id</cell><cell>Schlagw-dt-Eb9</cell><cell></cell></row>
+          <row><cell>61ie</cell><cell>Schlagw-en-Eb9</cell><cell></cell></row>
+          <row><cell>6524</cell><cell>Datierung</cell><cell></cell></row>
+          <row><cell>6560</cell><cell>Art des Zeichens</cell><cell></cell></row>
+          <row><cell>6565</cell><cell>Zeichen-Kurztitel</cell><cell></cell></row>
+          <row><cell>6568</cell><cell>Beschreibung*</cell><cell></cell></row>
+          <row><cell>6694</cell><cell>Anbringungsort</cell><cell></cell></row>
+          <row><cell>6740</cell><cell>Lokalisierung</cell><cell></cell></row>
+          <row><cell>6770</cell><cell>Repertorium</cell><cell></cell></row>
+          <row><cell>6773</cell><cell>Identitätsgrad</cell><cell></cell></row>
+          <row><cell>6807</cell><cell>Motiv</cell><cell></cell></row>
+          <row><cell>6817</cell><cell>Motivzusatz</cell><cell></cell></row>
+          <row><cell>6876</cell><cell>Transkription</cell><cell></cell></row>
+          <row><cell>6877</cell><cell>Web-Link</cell><cell></cell></row>
+          <row><cell>6900</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>6907</cell><cell>Art der Beziehung</cell><cell></cell></row>
+          <row><cell>6908</cell><cell>Bez-Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>6909</cell><cell>Bez-Autor</cell><cell></cell></row>
+          <row><cell>6910</cell><cell>Bez-Sachtitel</cell><cell></cell></row>
+          <row><cell>6911</cell><cell>Bez-Textabschn.</cell><cell></cell></row>
+          <row><cell>609t</cell><cell>Beschreibung*</cell><cell></cell></row>
+          <row><cell>6920</cell><cell>Literaturgattung</cell><cell></cell></row>
+          <row><cell>6922</cell><cell>Sacherschließung</cell><cell></cell></row>
+          <row><cell>6923</cell><cell>Sacherschl.-Ort</cell><cell></cell></row>
+          <row><cell>6930</cell><cell>Sachtitel</cell><cell></cell></row>
+          <row><cell>6930gi</cell><cell>Sachtitel-GI</cell><cell></cell></row>
+          <row><cell>6931</cell><cell>Originalsprache</cell><cell></cell></row>
+          <row><cell>6932</cell><cell>Stichwörter</cell><cell></cell></row>
+          <row><cell>6934</cell><cell>Untertitel</cell><cell></cell></row>
+          <row><cell>6940</cell><cell>Sachtitel altern.</cell><cell></cell></row>
+          <row><cell>6942</cell><cell>Untertit. altern.</cell><cell></cell></row>
+          <row><cell>6948</cell><cell>Kurztitel</cell><cell></cell></row>
+          <row><cell>6970</cell><cell>Art der Datierung</cell><cell></cell></row>
+          <row><cell>6974</cell><cell>Datierung (num.)</cell><cell></cell></row>
+          <row><cell>6980</cell><cell>Entstehungsort</cell><cell></cell></row>
+          <row><cell>6996</cell><cell>Textversion</cell><cell></cell></row>
+          <row><cell>6998</cell><cell>Kommentar*</cell><cell></cell></row>
+          <row><cell>699a</cell><cell>Art d. Freitextes</cell><cell></cell></row>
+          <row><cell>699e</cell><cell>Freitext*</cell><cell></cell></row>
+          <row><cell>8200</cell><cell>Dokument-Nr.</cell><cell></cell></row>
+          <row><cell>8260</cell><cell>Art der Literatur</cell><cell></cell></row>
+          <row><cell>8265</cell><cell>bibliogr. Angabe</cell><cell>bibl</cell></row>
+          <row><cell>8270</cell><cell>Verfasser</cell><cell>author</cell></row>
+          <row><cell>8280</cell><cell>hrsg. Person</cell><cell>editor</cell></row>
+          <row><cell>8284</cell><cell>hrsg. Institution</cell><cell></cell></row>
+          <row><cell>8290</cell><cell>Titel</cell><cell></cell></row>
+          <row><cell>8292</cell><cell>Sammeltitel</cell><cell></cell></row>
+          <row><cell>8294</cell><cell>Bandzahl</cell><cell></cell></row>
+          <row><cell>8300</cell><cell>Serientitel</cell><cell></cell></row>
+          <row><cell>8302</cell><cell>Untertitel/Folge</cell><cell></cell></row>
+          <row><cell>8306</cell><cell>Bandnummer</cell><cell></cell></row>
+          <row><cell>8307</cell><cell>Zusatzangabe</cell><cell></cell></row>
+          <row><cell>8308</cell><cell>Auflagen-Nr.</cell><cell></cell></row>
+          <row><cell>8310</cell><cell>Zeitschrift</cell><cell></cell></row>
+          <row><cell>8312</cell><cell>Folge</cell><cell></cell></row>
+          <row><cell>8316</cell><cell>Bandnummer</cell><cell></cell></row>
+          <row><cell>8318</cell><cell>Heftnummer</cell><cell></cell></row>
+          <row><cell>8319</cell><cell>Seitenangabe</cell><cell></cell></row>
+          <row><cell>8320</cell><cell>Erscheinungsort</cell><cell></cell></row>
+          <row><cell>8322</cell><cell>Reprint-Ort</cell><cell></cell></row>
+          <row><cell>8324</cell><cell>Erscheinungsjahr</cell><cell></cell></row>
+          <row><cell>8326</cell><cell>Reprint-Jahr</cell><cell></cell></row>
+          <row><cell>8330</cell><cell>Literat-Kurztitel</cell><cell></cell></row>
+          <row><cell>8334</cell><cell>Stelle</cell><cell></cell></row>
+          <row><cell>8346</cell><cell>Signatur</cell><cell></cell></row>
+          <row><cell>8350</cell><cell>Literaturnachweis</cell><cell>bibl</cell></row>
+          <row><cell>8450</cell><cell>Foto</cell><cell></cell></row>
+          <row><cell>8460</cell><cell>Verwalter</cell><cell></cell></row>
+          <row><cell>8470</cell><cell>Aufnahme-Nr.</cell><cell></cell></row>
+          <row><cell>8540</cell><cell>digit. Repro-Nr.</cell><cell></cell></row>
+          <row><cell>8541</cell><cell>Verfügbarkeit</cell><cell></cell></row>
+          <row><cell>8542</cell><cell>Anzeigeformate</cell><cell></cell></row>
+          <row><cell>8550</cell><cell>Marb-Index-Nr.</cell><cell></cell></row>
+          <row><cell>855a</cell><cell>1. Folge</cell><cell></cell></row>
+          <row><cell>855b</cell><cell>2. Folge</cell><cell></cell></row>
+          <row><cell>855c</cell><cell>3. Folge</cell><cell></cell></row>
+          <row><cell>855d</cell><cell>4. Folge</cell><cell></cell></row>
+          <row><cell>8596</cell><cell>Bemerkung*</cell><cell></cell></row>
+          <row><cell>9900</cell><cell>Datum</cell><cell></cell></row>
+          <row><cell>9902</cell><cell>Urheber Institut.</cell><cell></cell></row>
+          <row><cell>9904</cell><cell>Urheber Autor</cell><cell>author</cell></row>
+          <row><cell>9907</cell><cell>Bearb.-Stand</cell><cell></cell></row>
+          <row><cell>9910</cell><cell>Datum letzte Änd.</cell><cell></cell></row>
+          <row><cell>9920</cell><cell>Datum 2. Änder.</cell><cell></cell></row>
+          <row><cell>9950</cell><cell>Datum letzte Änd.</cell><cell></cell></row>
+          <row><cell>9968</cell><cell>Schlagwort</cell><cell></cell></row>
+          <row><cell>bezlit</cell><cell>Beziehung Literatur</cell><cell></cell></row>
+          <row><cell>bezper</cell><cell>Beziehung Person</cell><cell></cell></row>
+          <row><cell>bezsoz</cell><cell>Beziehung Sozietät</cell><cell></cell></row>
+          <row><cell>bezwrk</cell><cell>Beziehung Werk</cell><cell></cell></row>
+          <row><cell>ico</cell><cell>(ikonographie)</cell><cell></cell></row>
+          <row><cell>y001</cell><cell>PND-Identif-Nr.</cell><cell></cell></row>
+          <row><cell>z001</cell><cell>PND-Identif-Nr.</cell><cell></cell></row>
+          <row><cell>z001a</cell><cell>DBI-Produkt-Nr.</cell><cell></cell></row>
+          <row><cell>z002a</cell><cell>Erfassungsdatum</cell><cell></cell></row>
+          <row><cell>z003</cell><cell>Korrekturdatum</cell><cell></cell></row>
+          <row><cell>z020a</cell><cell>überreg-Ident-Nr.</cell><cell></cell></row>
+          <row><cell>z029</cell><cell>sonst-Ident-Nr.</cell><cell></cell></row>
+          <row><cell>z800</cell><cell>DB-Name</cell><cell></cell></row>
+          <row><cell>z801</cell><cell>Quelle des Namens</cell><cell></cell></row>
+          <row><cell>z814</cell><cell>Daten zur Person</cell><cell></cell></row>
+          <row><cell>z814a</cell><cell>Lebensdaten</cell><cell></cell></row>
+          <row><cell>z814b</cell><cell>Wirkungsdaten</cell><cell></cell></row>
+          <row><cell>z814i</cell><cell>Beruf</cell><cell></cell></row>
+          <row><cell>z816</cell><cell>Werke der Person</cell><cell></cell></row>
+          <row><cell>z820</cell><cell>andere Ansetzung</cell><cell></cell></row>
+          <row><cell>z830</cell><cell>Verweisungsform</cell><cell></cell></row>
+        </table>
+      </div>
+
+      <div xml:id="formalDecl">
+        <head>Formal Declarations</head>
+        <schemaSpec ident="hsp_cataloguing" xml:lang="en" targetLang="en" docLang="en">
+          <moduleRef key="tei"/>
+          <moduleRef key="textstructure" include="TEI text body div front back"/>
+          <moduleRef key="header" include="availability change creation history edition editionStmt encodingDesc fileDesc idno licence listChange projectDesc profileDesc publicationStmt revisionDesc sourceDesc teiHeader titleStmt"/>
+          <moduleRef key="core" include="bibl biblScope date head hi index item lb listBibl name note p ptr pubPlace publisher quote ref resp respStmt teiCorpus term textLang title"/>
+          <moduleRef key="msdescription" include="additional altIdentifier collection decoDesc decoNote history institution locus locusGrp msContents msDesc msIdentifier msItem msName msPart physDesc repository surrogates"/>
+          <moduleRef key="namesdates" include="affiliation birth death geo listOrg listPerson listPlace listRelation object objectIdentifier objectName occupation org orgName persName person place placeName relation settlement"/>
+          <moduleRef key="figures" include="cell figDesc figure formula notatedMusic row table"/>
+          <moduleRef key="gaiji" include="g unicodeName unicodeProp"/>
+          <specGrpRef target="#classmods"/>
+          <specGrpRef target="#bodyfixes"/>
+          <specGrpRef target="#hdrfixes"/>
+          <specGrpRef target="#msdescfixes"/>
+          <classRef key="att.global.facs"/>
+          <classRef key="att.global.linking"/>
+          <classRef key="att.canonical"/>
+          <dataSpec ident="teidata.temporal.iso" mode="delete"/>
+
+          <!-- header Fixes -->
+          <elementSpec ident="sourceDesc" mode="change" module="header">
+            <desc>Descriptive text here </desc>
+            <attList>
+              <attDef ident="default" mode="delete"/>
+            </attList>
+          </elementSpec>
+
+          <!-- body fixes-->
+          <specGrp xml:id="bodyfixes">
+            <elementSpec ident="title" mode="change" module="core">
+              <attList>
+                <attDef ident="level" mode="delete"/>
+              </attList>
+            </elementSpec>
+          </specGrp>
+
+          <!-- ############################################  Specifications body ##########################################################  -->
+
+          <!-- element specification altIdentifier - Komponente Identifikation (altIdentifier)-->
+          <elementSpec ident="altIdentifier" module="msdescription" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="semi" mode="replace">
+                  <valItem ident="corpus">
+                    <desc xml:lang="en">corpus shelf number</desc>
+                    <desc xml:lang="de">Identifikator</desc>
+                  </valItem>
+                  <valItem ident="former">
+                    <desc xml:lang="en">former shelf number</desc>
+                    <desc xml:lang="de">ehemalige Signatur</desc>
+                  </valItem>
+                  <valItem ident="hsp-ID">
+                    <desc xml:lang="en">hsp-Kulturobjektdokument-ID</desc>
+                    <desc xml:lang="de">hsp-Kulturobjektdokument-ID</desc>
+                  </valItem>
+                  <valItem ident="mxml-ID">
+                    <desc xml:lang="en">Manuscripta-Medievalia-ID</desc>
+                    <desc xml:lang="de">Manuscripta-Medievalia-ID</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+            <exemplum>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <msDesc status="extern" xml:id="HSP-4f5fe1f5-938c-329b-8f83-b7521f4806ac" xml:lang="de" subtype="medieval" type="hsp:description">
+                  <msIdentifier>
+                    <settlement key="soz_123456789">Karlsruhe</settlement>
+                    <repository key="soz_30002072" ref="http://d-nb.info/gnd/2005707-6 https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-31">Badische Landesbibliothek</repository>
+                    <idno>Cod. Karlsruhe 2912, II A 1, a</idno>
+                    <altIdentifier type="hsp-ID">
+                      <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+                      <idno>HSP_123456-a7891234-a56789</idno>
+                    </altIdentifier>
+                    <altIdentifier type="mxml-ID">
+                      <collection>Manuscripta-Medievalia-ID</collection>
+                      <idno>obj_123456</idno>
+                    </altIdentifier>
+                    <altIdentifier type="corpus">
+                      <collection>collection XYZ</collection>
+                      <idno>123</idno>
+                    </altIdentifier>
+                    <altIdentifier type="former">
+                      <settlement key="26cf9267-82fe-3bf1-a37-c9960658499f">Regensburg</settlement>
+                      <repository key="654a4abc-3191-3e68-995b-4fdbd157cf9d">Sankt Emmeran</repository>
+                      <idno>St. Emm 57</idno>
+                    </altIdentifier>
+                  </msIdentifier>
+                </msDesc>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification date -->
+          <elementSpec ident="date" mode="change" module="core">
+            <constraintSpec ident="dateSchematronConstraint" scheme="schematron">
+              <desc>Constraint for <gi>date</gi> in <gi>surrogates</gi></desc>
+              <constraint>
+                <sch:pattern id="isoNormDate">
+                  <sch:rule context="tei:surrogates/tei:bibl/tei:date">
+                    <sch:assert test="@when[matches(.,'^[1,2]\d{3}-[0,1]\d{1}-\d{2}$')]"> @when requires a date in the standard form: yyyy-mm-dd. </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+            <!-- deleted due to incompatibility 
+              <constraintSpec ident="date_check" scheme="schematron">
+              <constraint>
+                <sch:pattern>
+                  <sch:rule context="tei:date">
+                    <sch:assert test="@when or (@notAfter and @notBefore) or (@from and @to)">You must provide either @when or @to/@from, or @notAfter/@notBefore.</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+            -->
+            <attList>
+              <attDef ident="when" mode="change" usage="rec"/>
+              <attDef ident="type" mode="change" usage="rec">
+                <valList mode="change" type="semi">
+                  <valItem ident="primary"/>
+                  <valItem ident="secondary"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+
+          <!--element specification decoDesc -Komponente Äußeres Kunst -->
+          <elementSpec ident="decoDesc" module="msdescription" mode="change">
+            <content>
+              <rng:oneOrMore>
+                <rng:ref name="decoNote"/>
+              </rng:oneOrMore>
+            </content>
+            <exemplum>
+              <p>decoDesc may be used when specifying a description of some illuminated aspects of a manuscript, otherwise it is to be described in msContents</p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <phsyDesc>
+                  <p>formal physical description</p>
+                  <decoDesc>
+                    <decoNote type="form"> insert the description of some illuminated aspects of a manuscript here </decoNote>
+                  </decoDesc>
+                </phsyDesc>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification decoNote Komponente Äußeres Kunst und Inhalt Kunst -->
+          <elementSpec ident="decoNote" module="msdescription" mode="change">
+            <constraintSpec ident="contraintdecoNote" scheme="schematron">
+              <constraint>
+                <sch:pattern id="ÄußeresKunst">
+                  <sch:rule context="tei:physDesc/tei:decoDesc/tei:decoNote">
+                    <sch:assert test="@type eq 'form' "> It's possible to describe some illuminated aspects of a manuscript here </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="replace" usage="req">
+                <valList type="closed">
+                  <valItem ident="form"/>
+                  <valItem ident="content"/>
+                </valList>
+              </attDef>
+            </attList>
+            <exemplum>
+              <p>decoDesc may be used when specifying a description of some illuminated aspects of a manuscript, otherwise it is to be described in msContents</p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <phsyDesc>
+                  <p>formal physical description</p>
+                  <decoDesc>
+                    <decoNote type="form"> insert the description of some illuminated aspects of a manuscript here </decoNote>
+                  </decoDesc>
+                </phsyDesc>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification head - Komponente Kopf -->
+          <!-- head content specifications moved to msDesc due to incompatibility with head in listbibl -->
+          <elementSpec ident="head" module="core" mode="change">
+            <constraintSpec ident="head" scheme="schematron">
+              <constraint>
+                <sch:pattern id="indexTermHead">
+                  <!-- <sch:rule context="tei:term[@type eq 'title']">
+                    <sch:assert test="normalize-space()" diagnostics="d_term_type_title_en d_term_type_title_de">Should contain a title</sch:assert>
+                  </sch:rule>-->
+                  <!-- material -->
+                  <sch:rule context="tei:msDesc/tei:head/tei:index/tei:term[@type eq 'material_type']">
+                    <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')" diagnostics="d_term_type_material_type_en d_term_type_material_type_de">
+                      If type="material_type", text should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty. </sch:assert>
+                  </sch:rule>
+                  <!--measure-->
+                  <!--<sch:rule context="tei:head/tei:index/tei:term[@type eq 'measure']">
+                    <sch:assert test="normalize-space()" diagnostics="d_term_type_measure_en d_term_type_measure_de">Should contain the number of leaves e.g. 12 Bl.</sch:assert>
+                  </sch:rule>-->
+                  <sch:rule context="tei:head/tei:index/tei:term[@type eq 'measure_noOfLeaves']">
+                    <sch:assert test=".[matches(.,'^[0-9]*?$')]" diagnostics="d_term_type_measure_noOfLeaves_en d_term_type_measure_noOfLeaves_de">The content may only contain numbers</sch:assert>
+                  </sch:rule>
+                  <!--dimensions-->
+                  <!--<sch:rule context="tei:head/tei:index/tei:term[@type eq 'dimensions']">
+                    <sch:assert test="normalize-space()" diagnostics="d_term_type_dimensions_en d_term_type_dimensions_de">Should contain the dimension of the manuscript e.g 30,5 × 22</sch:assert>
+                  </sch:rule>-->
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='height']">
+                    <sch:assert test=".[matches(.,'^([0-9]+(,5)?)?$')]" diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of height may only be an integer or must be a float which ends with ,5 or is empty</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='width']">
+                    <sch:assert test=".[matches(.,'^([0-9]+(,5)?)?$')]" diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of width may only be an integer or must be a float which ends with ,5 or is empty</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='depth']">
+                    <sch:assert test=".[matches(.,'^([0-9]+(,5)?)?$')]" diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of depth may only be an integer or must be a float which ends with ,5 or is empty</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='dimensions_typeOfInformation']">
+                    <sch:assert test=". =('','deduced','factual')" diagnostics="d_term_type_dimensions_typeOfInformation_en d_term_type_dimensions_typeOfInformation_de"> If type="dimensions_typeOfInformation" then content should be 'deduced' or 'factual' or should stay empty. </sch:assert>
+                  </sch:rule>
+                  <!-- format -->
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='format']">
+                    <sch:assert test=".= ('','folio','quarto','octavo','smaller than octavo','larger than folio','other','oblong','square','long and narrow')" diagnostics="d_term_type_format_en d_term_type_format_de"> folio, quarto, octavo, other, smaller than octavo, larger than folio, oblong, long and narrow, square or empty </sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='format_typeOfInformation']">
+                    <sch:assert test=".=('','deduced','factual', 'computed')" diagnostics="d_term_type_format_typeOfInformation_en d_term_type_format_typeOfInformation_de"> deduced, factual or empty. </sch:assert>
+                  </sch:rule>
+                  <!--origDate-->
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='origDate_type']">
+                    <sch:assert test=". = ('','dated','datable')" diagnostics="d_term_type_origDate_type_en d_term_type_origDate_type_de"> If type="origDate_type", content should be dated or datable or empty </sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='origDate_notBefore']">
+                    <sch:assert test=".[matches(.,'^((\-?[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01]))|(\-?[0-9]{4}\-(0[1-9]|1[012]))|(\-?[0-9]{4}))?$')]" diagnostics="d_origDate_en d_origDate_de"> The content should contain a date (year); several date-types are allowed: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='origDate_notAfter']">
+                    <sch:assert test=".[matches(.,'^((\-?[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01]))|(\-?[0-9]{4}\-(0[1-9]|1[012]))|(\-?[0-9]{4}))?$')]" diagnostics="d_origDate_en d_origDate_de"> The content should contain a date (year); several date-types are allowed: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY. </sch:assert>
+                  </sch:rule>
+                  <!--form-->
+                  <sch:rule context="tei:msDesc/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test=".= ('', 'codex', 'collection', 'composite', 'leporello', 'sammelband', 'fragment', 'printWithManuscriptParts', 'hostVolume', 'singleSheet', 'scroll', 'other')" diagnostics="d_term_type_form_en d_term_type_form_de"> If @type="form", Text should contain 'codex', 'collection', 'composite', 'leporello', 'sammelband', 'fragment', 'singleSheet', 'printWithManuscriptParts', 'hostVolume', 'scroll', 'other' or should stay empty</sch:assert>
+                  </sch:rule>
+                  <!-- status-->
+                  <sch:rule context="tei:head/tei:index/tei:term[@type eq 'status']">
+                    <sch:assert test=". = ('','missing','existent','destroyed','dismembered','unknown','displaced')" diagnostics="d_term_type_status_en d_term_type_status_de"> If @type="status", content should be: 'existent', 'missing', 'destroyed', 'unknown','displaced' or should stay empty </sch:assert>
+                  </sch:rule>
+                  <!--decoration and musicNotation-->
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='decoration']">
+                    <sch:assert test=". =('','yes','no')" diagnostics="d_term_type_decoration_en d_term_type_decoration_de"> If type="decoration" then content should be 'yes' or 'no' or empty</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:head/tei:index/tei:term[@type='musicNotation']">
+                    <sch:assert test=". =('','yes','no')" diagnostics="d_term_type_musicNotation_en d_term_type_musicNotation_de"> If type="musicNotation" then content should be 'yes' or 'no' or empty.</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <sch:diagnostics>
+                  <sch:diagnostic id="d_term_type_title_en" xml:lang="en">The index entry for the tite of the cultural object must not be empty! -- Please provide a title entry.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_title_de" xml:lang="de">Der Registereintrag zur Angabe des Titels des Kulturobjekts darf nicht leer sein! -- Bitte geben Sie einen Titel an.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_material_type_en" xml:lang="en">The index entry to describe the material type in the element '<sch:value-of select="name()"/>' (of @type '<sch:value-of select="@type"/>') is given as '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_material_type_de" xml:lang="de">Der Registereintrag zur Beschreibung des Materials im Element '<sch:value-of select="name()"/>' (mit @type '<sch:value-of select="@type"/>') lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_measure_en" xml:lang="en">The entry to describe the measure of the manuscript given in the '<sch:value-of select="name()"/>' element must not be empty! -- Please enter information about the measure of the manuscript.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_measure_de" xml:lang="de">Die Angabe zum Umfang der Handschrift im Element '<sch:value-of select="name()"/>' darf nicht leer sein! -- Bitte machen Sie eine Angabe zum Umfang der Handschrift.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_measure_noOfLeaves_en" xml:lang="en">The value of the number of leaves '<sch:value-of select="."/>' given in the '<sch:value-of select="name()"/>' element must be an integer! -- Please use an integer value to describe the number of leaves.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_measure_noOfLeaves_de" xml:lang="de">Die Angabe der Blattzahl '<sch:value-of select="."/>' im Element '<sch:value-of select="name()"/>' muss eine Ganzzahl sein! -- Bitte geben Sie eine Ganzzahl an.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_dimensions_en" xml:lang="en">The value of the dimensions of the cultural object must not be empty! -- Please enter the dimensions (e.g.  '30,5 × 22').</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_dimensions_de" xml:lang="de">Die Angabe zu den Abmessungen des Kulturobjekts darf nicht leer sein! -- Bitte geben Sie die Abmessungen (z.B. '30,5 × 22') an.</sch:diagnostic>
+                  <sch:diagnostic id="d_termMeasurement_en" xml:lang="en">The value of the measurement '<sch:value-of select="."/>' given in the '<sch:value-of select="name()"/>' element must be an integer or end with ',5' as decimal place! -- Please use an integer value or use ',5' for the decimal place. (This is a requirement for filtering measurements.)</sch:diagnostic>
+                  <sch:diagnostic id="d_termMeasurement_de" xml:lang="de">Die Angabe der Abmessung '<sch:value-of select="."/>' im Element '<sch:value-of select="name()"/>' muss eine Ganzzahl sein oder mit ',5' als Nachkommastelle enden! -- Bitte geben Sie eine Ganzzahl an bzw. geben Sie die Nachkommastelle auf ',5' vereinheitlicht an. (Diese Vereinheitlichung ist eine Anforderung für die Filterung nach Abmessungen.)</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_dimensions_typeOfInformation_en" xml:lang="en">The description '<sch:value-of select="."/>' about the kind of information about the dimenstions of the cultural object is not valid! -- Please enter 'deduced' or 'factual' or provide an empty entry.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_dimensions_typeOfInformation_de" xml:lang="de">Die Angabe '<sch:value-of select="name()"/>' zur Art der Information über die Abmessungen des Kulturobjekts ist ungültig! -- Bitte geben Sie 'deduced' oder 'factual' an bzw. lassen Sie den Eintrag leer.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_format_en" xml:lang="en">The index entry to describe the format of the cultural object is '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_format_de" xml:lang="de">Der Registereintrag für das Format des Kulturobjekts enthält mit '<sch:value-of select="."/>' kein gültiges Formatschlagwort! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_format_typeOfInformation_en" xml:lang="en">The description '<sch:value-of select="."/>' about the kind of information about the format of the cultural object is not valid! -- Please enter 'deduced', 'factual', 'computed' or provide an empty entry.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_format_typeOfInformation_de" xml:lang="de">Die Angabe '<sch:value-of select="name()"/>'  zur Art der Information über das Format des Kulturobjekts ist ungültig! -- Bitte geben Sie 'deduced', 'factual' oder 'computed' an bzw. lassen Sie den Eintrag leer.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_origDate_type_en" xml:lang="en">The date type entry '<sch:value-of select="."/>' is not valid! -- Please enter 'dated' or 'datable' or provide an empty entry.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_origDate_type_de" xml:lang="de">Der Eintrag zum Datumstyp '<sch:value-of select="name()"/>' ist ungültig! -- Bitte geben Sie 'dated' oder 'datable' an bzw. lassen Sie den Eintrag leer.</sch:diagnostic>
+                  <sch:diagnostic id="d_origDate_en" xml:lang="en">The date '<sch:value-of select="."/>' given in the '<sch:value-of select="name()"/>' element must be formated as an ISO date! -- Please format the date entry according to one of the following patterns: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</sch:diagnostic>
+                  <sch:diagnostic id="d_origDate_de" xml:lang="de">Das Datum '<sch:value-of select="."/>' im Element '<sch:value-of select="name()"/>' ist nicht richtig als ISO-Datum formatiert angegeben! -- Bitte formatieren Sie die Datumsangabe entsprechend einem der folgenden Muster: JJJJ-MM-TT, -JJJJ-MM-TT, JJJJ-MM , -JJJJ-MM or JJJJ.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_form_en" xml:lang="en">The index entry to describe the form of the cultural object is '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_form_de" xml:lang="de">Der Registereintrag für die Form des Kulturobjekts enthält mit '<sch:value-of select="."/>' kein gültiges Formschlagwort! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_status_en" xml:lang="en">The index entry to describe the form type in the element '<sch:value-of select="name()"/>' (of @type '<sch:value-of select="@type"/>') is given as '<sch:value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_status_de" xml:lang="de">Der Registereintrag für den Formtyp im Element '<sch:value-of select="name()"/>' (mit @type '<sch:value-of select="@type"/>') lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_decoration_en" xml:lang="en">The index entry for decoration is given as '<sch:value-of select="."/>' which is invalid! -- Please use 'yes or 'no' as entry or keep it empty.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_decoration_de" xml:lang="de">Der Registereintrag für Buchschmuck lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie entweder 'yes' oder 'no' an oder lassen Sie den Eintrag leer.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_musicNotation_en" xml:lang="en">The index entry for music notation is given as '<sch:value-of select="."/>' which is invalid! -- Please use 'yes or 'no' as entry or keep it empty.</sch:diagnostic>
+                  <sch:diagnostic id="d_term_type_musicNotation_de" xml:lang="de">Der Registereintrag für Musiknotation lautet ungültigerweise '<sch:value-of select="."/>'! -- Bitte geben Sie entweder 'yes' oder 'no' an oder lassen Sie den Eintrag leer.</sch:diagnostic>
+                </sch:diagnostics>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+
+          <!-- element specification history - Komponente Geschichte -->
+          <elementSpec ident="history" module="msdescription" mode="change">
+            <content>
+              <elementRef key="p"/>
+            </content>
+
+            <constraintSpec ident="history" scheme="schematron">
+              <constraint>
+                <sch:pattern id="history">
+                  <sch:rule context="tei:history">
+                    <sch:report test="text()[normalize-space()]" diagnostics="d_history_text_en d_history_text_de">A history element must not contain text outside of its p element!</sch:report>
+                  </sch:rule>                  
+                  <sch:rule context="tei:history">
+                    <sch:assert test="count(tei:p) eq 1" diagnostics="d_history_p_cardinality_en d_history_p_cardinality_de">A history element must have exactly one p element!</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:history/tei:p">
+                    <sch:assert test="empty(* except (tei:lb, tei:hi, tei:index, tei:quote, tei:ref, tei:persName, tei:orgName, tei:placeName))" diagnostics="d_history_p_content_en d_history_p_content_de">
+                      The p element of a history element must contain only lb, hi, index, quote, ref, orgName, placeName, or indexName elements!</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <sch:diagnostics>
+                  <sch:diagnostic id="d_history_text_en" xml:lang="en">The history section must not contain text outside its paragraph! -- Please move the content into the paragraph.</sch:diagnostic>
+                  <sch:diagnostic id="d_history_text_de" xml:lang="de">Der Abschnitt zur Geschichte darf keinen Inhalt außerhalb seines Absatzes enthalten! -- Bitte fügen Sie den Inhalt in den Absatz ein.</sch:diagnostic>
+                  <sch:diagnostic id="d_history_p_cardinality_en" xml:lang="en">The history section must have exactly one paragraph! -- Please enter exactly one paragraph.</sch:diagnostic>
+                  <sch:diagnostic id="d_history_p_cardinality_de" xml:lang="de">Der Abschnitt zur Geschichte muss genau einen Absatz enthalten! -- Bitte fügen Sie genau einen Absatz ein.</sch:diagnostic>
+                  <sch:diagnostic id="d_history_p_content_en" xml:lang="en">The history section contains semantic markup which is not allowed! -- Please use allowed semantic markup only.</sch:diagnostic>
+                  <sch:diagnostic id="d_history_p_content_de" xml:lang="de">Der Abschnitt zur Geschichte enthält unerlaubte semantische Auszeichnung! -- Bitte verwenden Sie nur die erlaubten semantischen Auszeichnungen.</sch:diagnostic>
+                </sch:diagnostics>
+              </constraint>
+            </constraintSpec>
+
+          </elementSpec>
+
+          <!-- element specification idno -->
+          <elementSpec ident="idno" mode="change" module="header">
+            <attList>
+              <attDef ident="sortKey" mode="change" usage="opt"/>
+            </attList>
+          </elementSpec>
+
+          <!-- element specification msContents Komponente Inhalt (Text, Musik, Kunst, Äußeres Kunst)  -->
+          <elementSpec ident="msContents" mode="change" module="msdescription">
+            <content>
+              <elementRef key="textLang" minOccurs="0"/>
+              <elementRef key="msItem" minOccurs="1" maxOccurs="unbounded"/>
+            </content>
+            <exemplum>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <msContents>
+                  <textLang mainLang="de" otherLangs="la fr">Handschrift enthält Texte in Deutsch, Latein und Französisch</textLang>
+                  <msItem>
+                    <note type="text">Inhalt Text Abschnitt</note>
+                    <decoNote type="content">Inhalt Kunst</decoNote>
+                    <decoNote type="form">Äußeres Kunst</decoNote>
+                    <msItem>
+                      <note type="text"> Inhalt Text untergeordneter Abschnitt</note>
+                    </msItem>
+                  </msItem>
+                </msContents>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+
+          <!-- element specification msDesc -->
+          <elementSpec ident="msDesc" mode="change" module="msdescription">
+            <content>
+              <rng:ref name="msIdentifier"/>
+              <!-- ODD 0.7.0 sequence ist recommended, due to compatibility to 0.6.1 every sequence is allowed so far by interleaving  -->
+              <rng:element name="head">
+                <rng:interleave>
+                  <!-- title norm-->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_title</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>title</rng:value>
+                      </rng:attribute>
+                      <rng:optional>
+                        <rng:text/>
+                      </rng:optional>
+                    </rng:element>
+                  </rng:element>
+                  <!-- title -->
+                  <rng:element name="title">
+                    <rng:zeroOrMore>
+                      <rng:choice>
+                        <rng:element name="hi">
+                          <rng:attribute name="rend">
+                            <rng:choice>
+                              <rng:value>italic</rng:value>
+                              <rng:value>italic sup</rng:value>
+                              <rng:value>italic line-through</rng:value>
+                              <rng:value>small-caps</rng:value>
+                              <rng:value>sup small-caps</rng:value>
+                              <rng:value>sup</rng:value>
+                              <rng:value>sub</rng:value>
+                            </rng:choice>
+                          </rng:attribute>
+                          <rng:text/>
+                        </rng:element>
+                        <rng:element name="lb"/>
+                        <rng:text/>
+                      </rng:choice>
+                    </rng:zeroOrMore>
+                  </rng:element>
+                  <!-- note -->
+                  <rng:element name="note">
+                    <rng:attribute name="type">
+                      <rng:value>headline</rng:value>
+                    </rng:attribute>
+                    <rng:zeroOrMore>
+                      <rng:choice>
+                        <rng:element name="hi">
+                          <rng:attribute name="rend">
+                            <rng:choice>
+                              <rng:value>italic</rng:value>
+                              <rng:value>italic sup</rng:value>
+                              <rng:value>italic line-through</rng:value>
+                              <rng:value>small-caps</rng:value>
+                              <rng:value>sup small-caps</rng:value>
+                              <rng:value>sup</rng:value>
+                              <rng:value>sub</rng:value>
+                            </rng:choice>
+                          </rng:attribute>
+                          <rng:text/>
+                        </rng:element>
+                        <rng:element name="lb"/>
+                        <rng:text/>
+                      </rng:choice>
+                    </rng:zeroOrMore>
+                  </rng:element>
+                </rng:interleave>
+
+
+                <rng:oneOrMore>
+                  <!-- material -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_material</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>material</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                    <!-- wdh -->
+                    <rng:oneOrMore>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>material_type</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:oneOrMore>
+                  </rng:element>
+
+                  <!-- measure -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_measure</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>measure</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>measure_noOfLeaves</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                  </rng:element>
+
+                  <!-- dimensions wdh -->
+                  <rng:oneOrMore>
+                    <rng:element name="index">
+                      <rng:attribute name="indexName">
+                        <rng:value>norm_dimensions</rng:value>
+                      </rng:attribute>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>dimensions</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>height</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>width</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                      <rng:zeroOrMore>
+                        <rng:element name="term">
+                          <rng:attribute name="type">
+                            <rng:value>depth</rng:value>
+                          </rng:attribute>
+                          <rng:text/>
+                        </rng:element>
+                      </rng:zeroOrMore>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>dimensions_typeOfInformation</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:element>
+                  </rng:oneOrMore>
+
+                  <!-- format wdh -->
+                  <rng:oneOrMore>
+                    <rng:element name="index">
+                      <rng:attribute name="indexName">
+                        <rng:value>norm_format</rng:value>
+                      </rng:attribute>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>format</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>format_typeOfInformation</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:element>
+                  </rng:oneOrMore>
+
+                  <!-- origPlace wdh -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_origPlace</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>origPlace</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                    <!-- wdh. -->
+                    <rng:oneOrMore>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>origPlace_norm</rng:value>
+                        </rng:attribute>
+                        <rng:optional>
+                          <rng:attribute name="ref"/>
+                        </rng:optional>
+                        <rng:optional>
+                          <rng:attribute name="key"/>
+                        </rng:optional>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:oneOrMore>
+                  </rng:element>
+
+                  <!-- origDate -->
+                  <rng:oneOrMore>
+                    <rng:element name="index">
+                      <rng:attribute name="indexName">
+                        <rng:value>norm_origDate</rng:value>
+                      </rng:attribute>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>origDate</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                      <!-- als Block -->
+                      <rng:group>
+                        <rng:element name="term">
+                          <rng:attribute name="type">
+                            <rng:value>origDate_notBefore</rng:value>
+                          </rng:attribute>
+                          <rng:text/>
+                        </rng:element>
+                        <rng:element name="term">
+                          <rng:attribute name="type">
+                            <rng:value>origDate_notAfter</rng:value>
+                          </rng:attribute>
+                          <rng:text/>
+                        </rng:element>
+                        <rng:element name="term">
+                          <rng:attribute name="type">
+                            <rng:value>origDate_type</rng:value>
+                          </rng:attribute>
+                          <rng:text/>
+                        </rng:element>
+                      </rng:group>
+                    </rng:element>
+                  </rng:oneOrMore>
+
+                  <!-- textLang -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_textLang</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>textLang</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                    <!-- wdh. -->
+                    <rng:oneOrMore>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>textLang-ID</rng:value>
+                        </rng:attribute>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:oneOrMore>
+                  </rng:element>
+
+                  <!-- form -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_form</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>form</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                  </rng:element>
+
+                  <!-- status -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_status</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>status</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                  </rng:element>
+
+                  <!-- decoration -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_decoration</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>decoration</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                  </rng:element>
+
+                  <!-- musicNotation -->
+                  <rng:element name="index">
+                    <rng:attribute name="indexName">
+                      <rng:value>norm_musicNotation</rng:value>
+                    </rng:attribute>
+                    <rng:element name="term">
+                      <rng:attribute name="type">
+                        <rng:value>musicNotation</rng:value>
+                      </rng:attribute>
+                      <rng:text/>
+                    </rng:element>
+                  </rng:element>
+                </rng:oneOrMore>
+              </rng:element>
+              <rng:zeroOrMore>
+                <rng:choice>
+                  <rng:ref name="msContents"/>
+                  <rng:ref name="physDesc"/>
+                  <rng:ref name="history"/>
+                  <rng:ref name="additional"/>
+                  <rng:ref name="msPart"/>
+                </rng:choice>
+              </rng:zeroOrMore>
+            </content>
+
+
+
+            <!-- constraints for msPart sequence -->
+            <constraintSpec ident="msDesc" scheme="schematron">
+              <constraint>
+                <sch:pattern id="msPart_fragment">
+                  <sch:rule context="tei:msPart[@type eq 'fragment']">
+                    <sch:assert test="not(following-sibling::tei:msPart[@type eq 'binding'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+
+                  </sch:rule>
+                </sch:pattern>
+                <sch:pattern id="msPart_booklet">
+                  <sch:rule context="tei:msPart[@type eq 'booklet']">
+                    <sch:assert test="not( following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <sch:pattern id="msPart_accMat">
+                  <sch:rule context="tei:msPart[@type eq 'accMat']">
+                    <sch:assert test="not( following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'] or following-sibling::tei:msPart[@type eq 'booklet'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+                    
+                  </sch:rule>
+                </sch:pattern>
+                <sch:pattern id="msPart_other">
+                  <sch:rule context="tei:msPart[@type eq 'other']">
+                    <sch:assert test="not( following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'] or following-sibling::tei:msPart[@type eq 'booklet'] or following-sibling::tei:msPart[@type eq 'accMat'])"> Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="xml:id" mode="change" usage="rec"/>
+              <attDef ident="xml:lang" mode="change" usage="rec"/>
+              <attDef ident="type" mode="replace" usage="rec">
+                <valList type="closed" mode="replace">
+                  <valItem ident="hsp:object">
+                    <desc xml:lang="en">The TEI file represents (and contains) a <soCalled>Cultural Object Document</soCalled></desc>
+                    <desc xml:lang="de">Die TEI-Datei repräsentiert und enthält ein <soCalled>Kultur Objekt Dokument</soCalled>.</desc>
+                  </valItem>
+                  <valItem ident="hsp:description">
+                    <desc xml:lang="en">The TEI file represents (and contains) a manuscript description.</desc>
+                    <desc xml:lang="de">Die TEI-Datei repräsentiert und enthält eine Handschriftenbeschreibung.</desc>
+                  </valItem>
+                  <valItem ident="hsp:description_retro"/>
+                </valList>
+              </attDef>
+              <attDef ident="subtype" mode="replace" usage="rec">
+                <valList type="closed" mode="replace">
+                  <valItem ident="medieval"/>
+                  <valItem ident="illuminated"/>
+                </valList>
+              </attDef>
+              <attDef ident="status" mode="replace" usage="rec">
+                <valList type="closed" mode="replace">
+                  <valItem ident="intern"/>
+                  <valItem ident="extern"/>
+                </valList>
+              </attDef>
+            </attList>
+            <exemplum>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <msDesc xml:id="__UUID__" xml:lang="de" status="intern" type="hsp:description" subtype="medieval">
+                  <!-- manuscript description -->
+                </msDesc>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification msIdentifier -->
+
+
+          <!-- element specification msItem Komponente Abschnitt -->
+          <elementSpec ident="msItem" mode="change" module="msdescription">
+            <content>
+              <!-- 
+                * msItem has zeroOrMore msItem-Siblings 
+                * msItem has zeroOrMore children note, decoNote, msItem 
+                * msItem has zero or one textlang and if it has textLang it is its first child 
+              -->
+              <elementRef key="textLang" minOccurs="0" maxOccurs="1"/>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="note"/>
+                <elementRef key="decoNote"/>
+                <elementRef key="msItem"/>
+                <elementRef key="index" minOccurs="0"/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+
+          <!-- element specification msPart - Komponenten msPart -->
+          <elementSpec ident="msPart" module="msdescription" mode="change">
+            <content>
+              <!-- Komponente Identifikation -->
+              <rng:element name="msIdentifier">
+                <rng:optional>
+                  <rng:ref name="settlement"/>
+                </rng:optional>
+                <rng:optional>
+                  <rng:ref name="repository"/>
+                </rng:optional>
+                <rng:ref name="idno"/>
+                <rng:optional>
+                  <rng:element name="altIdentifier">
+                    <rng:attribute name="type">
+                      <rng:value>former</rng:value>
+                    </rng:attribute>
+                    <!-- one of the following 3 elements -->
+                    <rng:oneOrMore>
+                      <rng:optional>
+                        <rng:ref name="settlement"/>
+                      </rng:optional>
+                      <rng:optional>
+                        <rng:ref name="repository"/>
+                      </rng:optional>
+                      <rng:ref name="idno"/>
+                    </rng:oneOrMore>
+                  </rng:element>
+                </rng:optional>
+              </rng:element>
+
+
+              <!-- choice für Komponente Kopf -->
+              <rng:choice>
+                <rng:choice>
+                  <!-- Komponente Sonstiges,contains only one or more p elements -->
+                  <rng:oneOrMore>
+                    <rng:ref name="p"/>
+                  </rng:oneOrMore>
+                </rng:choice>
+                <!-- Komponente Kopf für accMat, fragment, booklet, binding-->
+                <rng:choice>
+                  <rng:group>
+                    <rng:element name="head">
+                      <!-- ODD 0.7.0 sequence ist recommended, due to compatibility to 0.6.1 every sequence is allowed so far by interleaving  -->
+                      <rng:interleave>
+                        <!-- title norm -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_title</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>title</rng:value>
+                            </rng:attribute>
+                            <rng:optional>
+                              <rng:text/>
+                            </rng:optional>
+                          </rng:element>
+                        </rng:element>
+                        <!-- title -->
+                        <rng:element name="title">
+                          <rng:optional>
+                            <rng:text/>
+                          </rng:optional>
+                        </rng:element>
+                        <!-- headline -->
+                        <rng:element name="note">
+                          <rng:attribute name="type">
+                            <rng:value>headline</rng:value>
+                          </rng:attribute>
+                          <rng:optional>
+                            <rng:text/>
+                          </rng:optional>
+                        </rng:element>
+                      </rng:interleave>
+                      <rng:oneOrMore>
+                        <!-- material -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_material</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>material</rng:value>
+                            </rng:attribute>
+                            <rng:optional>
+                              <rng:text/>
+                            </rng:optional>
+                          </rng:element>
+                          <!-- wdh -->
+                          <rng:oneOrMore>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>material_type</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                          </rng:oneOrMore>
+                        </rng:element>
+
+                        <!-- measure -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_measure</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>measure</rng:value>
+                            </rng:attribute>
+                            <rng:optional>
+                              <rng:text/>
+                            </rng:optional>
+                          </rng:element>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>measure_noOfLeaves</rng:value>
+                            </rng:attribute>
+                            <rng:text/>
+                          </rng:element>
+                        </rng:element>
+
+                        <!-- dimensions -->
+                        <rng:oneOrMore>
+                          <rng:element name="index">
+                            <rng:attribute name="indexName">
+                              <rng:value>norm_dimensions</rng:value>
+                            </rng:attribute>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>dimensions</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>height</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>width</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>depth</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>dimensions_typeOfInformation</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                          </rng:element>
+                        </rng:oneOrMore>
+
+                        <!-- format -->
+                        <rng:oneOrMore>
+                          <rng:element name="index">
+                            <rng:attribute name="indexName">
+                              <rng:value>norm_format</rng:value>
+                            </rng:attribute>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>format</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>format_typeOfInformation</rng:value>
+                              </rng:attribute>
+                              <rng:text/>
+                            </rng:element>
+                          </rng:element>
+                        </rng:oneOrMore>
+
+                        <!-- origPlace -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_origPlace</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>origPlace</rng:value>
+                            </rng:attribute>
+                            <rng:optional>
+                              <rng:text/>
+                            </rng:optional>
+                          </rng:element>
+                          <!-- wdh. -->
+                         <rng:oneOrMore>
+                      <rng:element name="term">
+                        <rng:attribute name="type">
+                          <rng:value>origPlace_norm</rng:value>
+                        </rng:attribute>
+                        <rng:optional>
+                          <rng:attribute name="ref"/>
+                        </rng:optional>
+                        <rng:optional>
+                          <rng:attribute name="key"/>
+                        </rng:optional>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:oneOrMore>
+                        </rng:element>
+
+                        <!-- origDate -->
+                        <rng:oneOrMore>
+                          <rng:element name="index">
+                            <rng:attribute name="indexName">
+                              <rng:value>norm_origDate</rng:value>
+                            </rng:attribute>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>origDate</rng:value>
+                              </rng:attribute>
+                              <rng:optional>
+                                <rng:text/>
+                              </rng:optional>
+                            </rng:element>
+                            <!-- als Block -->
+                            <rng:group>
+                              <rng:element name="term">
+                                <rng:attribute name="type">
+                                  <rng:value>origDate_notBefore</rng:value>
+                                </rng:attribute>
+                                <rng:optional>
+                                  <rng:text/>
+                                </rng:optional>
+                              </rng:element>
+                              <rng:element name="term">
+                                <rng:attribute name="type">
+                                  <rng:value>origDate_notAfter</rng:value>
+                                </rng:attribute>
+                                <rng:optional>
+                                  <rng:text/>
+                                </rng:optional>
+                              </rng:element>
+                              <rng:element name="term">
+                                <rng:attribute name="type">
+                                  <rng:value>origDate_type</rng:value>
+                                </rng:attribute>
+                                <rng:text/>
+                              </rng:element>
+                            </rng:group>
+                          </rng:element>
+                        </rng:oneOrMore>
+
+                        <!-- textLang -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_textLang</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>textLang</rng:value>
+                            </rng:attribute>
+                            <rng:optional>
+                              <rng:text/>
+                            </rng:optional>
+                          </rng:element>
+                          <!-- wdh. -->
+                          <rng:oneOrMore>
+                            <rng:element name="term">
+                              <rng:attribute name="type">
+                                <rng:value>textLang-ID</rng:value>
+                              </rng:attribute>
+                              <rng:optional>
+                                <rng:text/>
+                              </rng:optional>
+                            </rng:element>
+                          </rng:oneOrMore>
+                        </rng:element>
+
+                        <!-- form -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_form</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>form</rng:value>
+                            </rng:attribute>
+                            <rng:text/>
+                          </rng:element>
+                        </rng:element>
+
+                        <!-- status -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_status</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>status</rng:value>
+                            </rng:attribute>
+                            <rng:optional>
+                              <rng:text/>
+                            </rng:optional>
+                          </rng:element>
+                        </rng:element>
+
+                        <!-- decoration -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_decoration</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>decoration</rng:value>
+                            </rng:attribute>
+                            <rng:text/>
+                          </rng:element>
+                        </rng:element>
+
+                        <!-- musicNotation -->
+                        <rng:element name="index">
+                          <rng:attribute name="indexName">
+                            <rng:value>norm_musicNotation</rng:value>
+                          </rng:attribute>
+                          <rng:element name="term">
+                            <rng:attribute name="type">
+                              <rng:value>musicNotation</rng:value>
+                            </rng:attribute>
+                            <rng:text/>
+                          </rng:element>
+                        </rng:element>
+                      </rng:oneOrMore>
+                    </rng:element>
+
+                    <rng:zeroOrMore>
+                      <rng:choice>
+                        <rng:ref name="msContents"/>
+                        <rng:ref name="physDesc"/>
+                        <rng:ref name="history"/>
+                        <rng:ref name="additional"/>
+                        <rng:ref name="msPart"/>
+                      </rng:choice>
+                    </rng:zeroOrMore>
+                  </rng:group>
+                </rng:choice>
+              </rng:choice>
+            </content>
+
+            <constraintSpec ident="msPart" scheme="schematron">
+              <constraint>
+                <!-- constraint for msPart = booklet-->
+                <sch:pattern id="booklet">
+                  <!-- @form -->
+                  <sch:rule context="tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test="(.='booklet') or (.='')"> If msPart @type = 'booklet', then form should be 'booklet' or be empty </sch:assert>
+                  </sch:rule>
+                  <!-- @material_type -->
+                  <sch:rule context="tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+                    <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')">
+                      If type="material_type", text should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- constraint for msPart = binding -->
+                <sch:pattern id="binding">
+                  <!-- @material_type -->
+                  <sch:rule context="tei:msPart[@type eq 'binding']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+                    <sch:assert test=".=('','wood','leather','parchment','textile materials','gold','silver','copper','brass','other')"> If msPart type="binding", material_type should contain 'wood','leather','parchment','textile materials','gold','silver','copper','brass', 'other' or should stay empty
+                    </sch:assert>
+                  </sch:rule>
+                  <!-- @form -->
+                  <sch:rule context="tei:msPart[@type eq 'binding']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test="(.='binding') or (.='')"> If msPart @type = 'binding', then form should be 'binding' or be empty </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- constraint for msPart = accMat-->
+                <sch:pattern id="accMat">
+                  <!-- @material_type -->
+                  <sch:rule context="tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+                    <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')">
+                      If type="accMat", material_type should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty. </sch:assert>
+                  </sch:rule>
+                  <!-- @form -->
+                  <sch:rule context="tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test=".=('','loose insert')"> If msPart @type = 'accMat', then form should be 'loose insert' or be empty </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- constraint for msPart = fragment-->
+                <sch:pattern id="fragment">
+                  <!-- @material_type -->
+                  <sch:rule context="tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'material_type']">
+                    <sch:assert test=".= ('','paper','linen','palm','papyrus','parchment','other')">
+                      If msPart type="fragment" material_type should contain 'paper', 'linen', 'palm', 'papyrus', 'parchment', 'other' or should stay empty. </sch:assert>
+                  </sch:rule>
+                  <!-- @form -->
+                  <sch:rule context="tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test="(.='fragment') or (.='')" diagnostics="d_msPart_fragment_en d_msPart_fragment_de"> If msPart @type = 'fragment', then form should be 'fragment' or be empty </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <sch:diagnostics>
+                  <sch:diagnostic id="d_msPart_fragment_en" xml:lang="en">The index entry (added for a manuscript fragment) to describe the form type in the element '<sch:value-of select="name()"/>' (of @type '<sch:value-of select="@type"/>') is given as '<sch:value-of select="."/>', but should be 'fragment' or empty! -- Please use 'fragment' as entry or keep it empty.</sch:diagnostic>
+                  <sch:diagnostic id="d_msPart_fragment_de" xml:lang="de">Der für ein Handschriftenfragment eingefügte Registereintrag für den Formtyp im Element '<sch:value-of select="name()"/>' (mit @type '<sch:value-of select="@type"/>') lautet '<sch:value-of select="."/>', sollte aber 'fragment' oder leer sein! -- Bitte verwenden Sie den Eintrag 'fragment' oder lassen Sie den Eintrag leer.</sch:diagnostic>
+                </sch:diagnostics>
+                <!-- constraint if msPart binding, fragment, accMat has KOK fragment or accMat or other  -->
+                <sch:pattern id="msPartInmsPartStandard">
+                  <sch:rule context="tei:msPart[@type eq 'binding' or @type eq 'fragment' or @type eq 'accMat']/tei:msPart">
+                    <sch:assert test="@type eq 'accMat' or @type eq 'fragment' or @type eq 'other'">
+                      Only bindings, accMat and a fragment may contain further msParts with the following types: accMat, fragment or other </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- constraint if msPart booklet has msPart fragment, booklet or accMat -->
+                <sch:pattern id="msPartInmsPartBooklet">
+                  <sch:rule context="tei:msPart[@type eq 'booklet']/tei:msPart">
+                    <sch:assert test="@type eq 'fragment' or @type eq 'booklet' or @type eq 'accMat' or @type eq 'other'"> Only booklets may contain further msParts with the following types: accMat fragment, booklets and other</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- constraint for msPart in msPart @form -->
+                <sch:pattern id="msPartInmsPartStandardForm">
+                  <sch:rule context="tei:msPart/tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test="(.='fragment') or (.='')"> If msPart @type = 'fragment', then form should be 'fragment' or be empty </sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:msPart/tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test="(.='accMat') or (.='')"> If msPart @type = 'accMat', then form should be 'accMat' or be empty </sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:msPart/tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'form']">
+                    <sch:assert test="(.='booklet') or (.='')">If msPart @type = 'booklet' then form should be 'booklet' or be empty </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- constraint for 'other'/Sonstiges -->
+                <sch:pattern id="idnoKomponenteSonstiges">
+                  <sch:rule context="tei:msPart[@type eq 'other']/tei:msIdentifier/tei:idno">
+                    <sch:assert test=".=('Sonstiges')"> If msPart @type = 'other' then idno contains 'Sonstiges' </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+
+                <!-- constraint for msDesc altIdentifiers -->
+                <sch:pattern id="msDesc_altIdentifier_corpus_idno">
+                  <!-- idno for corpus -->
+                  <sch:rule context="tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type eq 'corpus']/tei:idno">
+                    <sch:assert test="normalize-space()">If altIdentifier @type = 'corpus', then idno should not be empty</sch:assert>
+                   </sch:rule>
+                </sch:pattern>
+
+                <sch:pattern id="msDesc_altIdentifier_former_idno">
+                  <!-- idno for former -->
+                  <sch:rule context="tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type eq 'former']/tei:idno">
+                    <sch:assert test="normalize-space()">If altIdentifier @type = 'former', then idno should not be empty</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+
+                <!-- constraint for idno msPart alt -->
+                <sch:pattern id="idnoMsPartAlt">
+                  <sch:rule context="tei:msPart/tei:msIdentifier/tei:altIdentifier/tei:idno">
+                    <sch:assert test="normalize-space()">If msPart then idno of altIdentifier should not be empty</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+
+                <sch:pattern id="childKomponenteSonstiges">
+                  <sch:rule context="tei:msPart[@type eq 'other']">
+                    <sch:assert test="tei:p">msPart type="other" may only contain p Elements
+                    </sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- only one msPart type="other" allowed-->
+                <sch:pattern id="msPartoneP">
+                  <sch:rule context="tei:msPart[@type eq 'booklet' or @type eq 'fragment' or @type eq 'binding' or @type eq 'accMat']">
+                    <sch:assert test="count(tei:msPart[@type='other']) &lt; 2">only one msPart type='other' is allowed in one msPart</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+                <!-- p not allowed in accMat, binding, fragment, booklet -->
+                <sch:pattern id="msPartnoP">
+                  <sch:rule context="tei:msPart[@type eq 'booklet' or @type eq 'fragment' or @type eq 'binding' or @type eq 'accMat']">
+                    <sch:report test=". != tei:p">booklet, fragment, binding, accMat may not contain a p Element as direct child</sch:report>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+
+            <!-- attList for msPart -->
+            <attList>
+              <attDef ident="type" usage="req" mode="replace">
+                <valList type="closed">
+                  <valItem ident="booklet">
+                    <desc>description for a booklet</desc>
+                  </valItem>
+                  <valItem ident="binding">
+                    <desc>description of the binding</desc>
+                  </valItem>
+                  <valItem ident="fragment">
+                    <desc>description for a fragment</desc>
+                  </valItem>
+                  <valItem ident="accMat">
+                    <desc>description for accompanying material</desc>
+                  </valItem>
+                  <valItem ident="other">
+                    <desc>other</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+
+          <!-- had to delete att.anchoring for <note>, because there was a problem within the <head> element and <note type="headline"> -->
+          <elementSpec ident="note" module="core" mode="change">
+
+            <constraintSpec ident="note" scheme="schematron">         
+              <sch:pattern id="note">
+
+                <!--
+                <sch:rule context="tei:msDesc/tei:head/tei:note[@type eq 'headline']">
+                  <sch:assert test="normalize-space()" diagnostics="d_note_headline_en d_note_headline_de">If note @type = 'headline', then note should not be empty</sch:assert>
+                </sch:rule>
+                -->
+                <sch:rule context="tei:msDesc/tei:head/tei:note[@type eq 'headline']">
+                  <!-- <sch:assert test="empty(* except(tei:hi))" -->
+                  <sch:assert test="empty(* except (tei:hi, tei:lb))" diagnostics="d_note_headline_content_en d_note_headline_content_de">A note element of @type 'headline' should not contain any semantic markup elements!</sch:assert>
+                </sch:rule>
+
+                <sch:rule context="tei:note[@type eq 'text']">
+                  <sch:assert test="normalize-space()" diagnostics="d_note_text_en d_note_text_de">If note @type = 'text', then note should not be empty</sch:assert>
+                </sch:rule>
+
+                <sch:rule context="tei:note[@type eq 'register']">
+                  <sch:report test="text()[normalize-space()]" diagnostics="d_note_register_text_en d_note_register_text_de">A note element of @type 'register' must not contain text outside of its p element!</sch:report>
+                </sch:rule>
+                <sch:rule context="tei:note[@type eq 'register']">
+                  <sch:assert test="count(tei:p) eq 1" diagnostics="d_note_register_p_cardinality_en d_note_register_p_cardinality_de">A note element of @type 'register' must have exactly one p element!</sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:note[@type eq 'register']/tei:p">
+                  <sch:assert test="empty(* except (tei:index))"  diagnostics="d_note_register_p_content_en d_note_register_p_content_de">The p element of a note element of @type 'register' must contain only index element(s)!</sch:assert>
+                </sch:rule>
+                <sch:rule context="tei:note[@type eq 'register']/tei:p">
+                  <sch:assert test="count(tei:index) ge 1" diagnostics="d_note_register_p_index_cardinality_en d_note_register_p_index_cardinality_de">The p element of a note element of @type 'register' must have one or more index element(s)!</sch:assert>
+                </sch:rule>
+              </sch:pattern>
+
+              <!--<sch:diagnostic id="d_note_headline_en" xml:lang="en">The note section for a headline should not be empty! -\- Please add a headline.</sch:diagnostic>-->
+              <!--<sch:diagnostic id="d_note_headline_de" xml:lang="de">Die Anmerkung zur Überschrift darf nicht leer sein! -\- Bitte tragen Sie eine Überschrift ein.</sch:diagnostic>-->
+              <sch:diagnostic id="d_note_headline_content_en" xml:lang="en">The note section for a headline should not contain semantic markup! -- Please remove semantic markup.</sch:diagnostic>
+              <sch:diagnostic id="d_note_headline_content_de" xml:lang="de">Die Anmerkung zur Überschrift darf keine semantischen Auszeichnungen enthalten! -- Bitte entfernen Sie semantische Auszeichnungen.</sch:diagnostic>
+
+              <sch:diagnostic id="d_note_text_en" xml:lang="en">The text note section should not be empty! -- Please add some text.</sch:diagnostic>
+              <sch:diagnostic id="d_note_text_de" xml:lang="de">Die Textanmerkung darf nicht leer sein! -- Bitte fügen Sie Text ein.</sch:diagnostic>
+
+              <sch:diagnostic id="d_note_register_text_en" xml:lang="en">The note register section must not contain text outside its paragraph! -- Please move the content into the paragraph.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_text_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge darf keinen Inhalt außerhalb seines Absatzes enthalten! -- Bitte fügen Sie den Inhalt in den Absatz ein.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_p_cardinality_en" xml:lang="en">The note register section must have exactly one paragraph! -- Please enter exactly one paragraph.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_p_cardinality_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge muss genau einen Absatz enthalten! -- Bitte fügen Sie genau einen Absatz ein.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_p_content_en" xml:lang="en">The note register section containts semantic markup which is not allowed! -- Please use allowed semantic markup only.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_p_content_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge enthält unerlaubten Inhalt! -- Bitte verwenden Sie nur die erlaubten semantischen Auszeichnungen.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_p_index_cardinality_en" xml:lang="en">The note section for index entries does not contain an index entry! -- Please add at least one index entry.</sch:diagnostic>
+              <sch:diagnostic id="d_note_register_p_index_cardinality_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge enthält keinen Registereintrag! -- Bitte fügen Sie mindestens einen Registereintrag hinzu.</sch:diagnostic>
+   
+            </constraintSpec>
+
+            <attList>
+              <attDef ident="anchored" mode="delete"/>
+              <attDef ident="targetEnd" mode="delete"/>
+              <attDef ident="type" mode="change" usage="rec">
+                <valList>
+                  <valItem ident="text"/>
+                  <valItem ident="music"/>
+                </valList>
+              </attDef>
+            </attList>
+            <exemplum>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <msContents>
+                  <msItem>
+                    <note type="text">description of the content of a manuscript</note>
+                    <note type="music">description of the content of a musical notation</note>
+                  </msItem>
+                </msContents>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification orgName Value List -->
+          <elementSpec ident="orgName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="role" usage="rec" mode="replace">
+                <datatype maxOccurs="unbounded">
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="semi">
+                  <valItem ident="commissionedBy">
+                    <desc xml:lang="de">Auftraggeber</desc>
+                  </valItem>
+                  <valItem ident="author">
+                    <desc xml:lang="de">Autor</desc>
+                  </valItem>
+                  <valItem ident="bookbinder">
+                    <desc xml:lang="de">Buchbinder</desc>
+                  </valItem>
+                  <valItem ident="mentionedIn">
+                    <desc xml:lang="de">Erwähnung</desc>
+                  </valItem>
+                  <valItem ident="scribe">
+                    <desc xml:lang="de">Schreiber</desc>
+                  </valItem>
+                  <valItem ident="previousOwner">
+                    <desc xml:lang="de">Vorbesitzer</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="key" usage="rec" mode="change"/>
+              <attDef ident="ref" usage="rec" mode="change"/>
+            </attList>
+            <exemplum>
+              <p>Orte, Personen und Körperschaften werden, wenn möglich mit einem
+                <att>role</att>-Attribut versehen, welche die Funktion in diesem Fall näher erläutert. </p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples"> So gelten auch für die <orgName role="previousOwner" ref="http://d-nb.info/gnd/5036103-X">Staatsbibliothek zu Berlin</orgName> die vorgegebenen Richtwerte. </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification persName value List -->
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="role" usage="rec" mode="replace">
+                <datatype maxOccurs="unbounded">
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="semi">
+                  <valItem ident="commissionedBy">
+                    <desc xml:lang="de">Auftraggeber</desc>
+                  </valItem>
+                  <valItem ident="author">
+                    <desc xml:lang="de">Autor</desc>
+                  </valItem>
+                  <valItem ident="bookbinder">
+                    <desc xml:lang="de">Buchbinder</desc>
+                  </valItem>
+                  <valItem ident="mentionedIn">
+                    <desc xml:lang="de">Erwähnung</desc>
+                  </valItem>
+                  <valItem ident="scribe">
+                    <desc xml:lang="de">Schreiber</desc>
+                  </valItem>
+                  <valItem ident="previousOwner">
+                    <desc xml:lang="de">Vorbesitzer</desc>
+                  </valItem>
+                  <valItem ident="translator">
+                    <desc xml:lang="de">Übersetzer</desc>
+                  </valItem>
+                  <valItem ident="illuminator">
+                    <desc xml:lang="de">Illuminator</desc>
+                  </valItem>
+                  <valItem ident="conservator">
+                    <desc xml:lang="de">Restaurator</desc>
+                  </valItem>
+                  <valItem ident="other">
+                    <desc xml:lang="de">Sonstige Person</desc>
+                  </valItem>
+                  <valItem ident="complementedBy">
+                    <desc xml:lang="de">Normdaten ergänzt von</desc>
+                  </valItem>
+                  <valItem ident="editedBy">
+                    <desc xml:lang="de">bearbeitet von</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="key" usage="rec" mode="change"/>
+              <attDef ident="ref" usage="rec" mode="change"/>
+            </attList>
+            <exemplum>
+              <p>Orte, Personen und Körperschaften werden, wenn möglich mit einem
+                <att>role</att>-Attribut versehen, welche die Funktion in diesem Fall näher erläutert. </p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples"> So auch <persName ref="http://d-nb.info/gnd/118575449" key="31711049" role="author">Martin Luther</persName>, der 1517 ... </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification physDesc - Komponente Äußeres und (Äußeres Kunst)-->
+          <elementSpec ident="physDesc" module="msdescription" mode="change">
+            <content>
+              <sequence>
+                <classRef key="model.pLike" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="decoDesc" minOccurs="0" maxOccurs="1"/>
+              </sequence>
+            </content>
+            <exemplum>
+              <p>decoDesc may be used when specifying a description of some illuminated aspects of a manuscript, otherwise it is to be described in msContents</p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <phsyDesc>
+                  <p>formal physical description</p>
+                  <decoDesc>
+                    <decoNote type="form"> insert the description of some illuminated aspects of a manuscript here </decoNote>
+                  </decoDesc>
+                </phsyDesc>
+              </egXML>
+            </exemplum>
+          </elementSpec>
+
+          <!-- element specification placeName value List -->
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <attList>
+              <attDef ident="role" usage="rec" mode="replace">
+                <datatype maxOccurs="unbounded">
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+                <valList type="semi">
+                  <valItem ident="origin">
+                    <desc xml:lang="en">origin</desc>
+                    <desc xml:lang="de">Entstehungsort</desc>
+                  </valItem>
+                  <valItem ident="provenance">
+                    <desc xml:lang="en">provenance</desc>
+                    <desc xml:lang="de">Vorbesitz</desc>
+                  </valItem>
+                  <valItem ident="mentionedIn">
+                    <desc xml:lang="en">mentionedIn</desc>
+                    <desc xml:lang="de">Erwähnung</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+              <attDef ident="key" usage="rec" mode="change"/>
+              <attDef ident="ref" usage="rec" mode="change"/>
+            </attList>
+            <exemplum>
+              <p>Orte, Personen und Körperschaften werden, wenn möglich mit einem
+                <att>role</att>-Attribut versehen, welche die Funktion in diesem Fall näher erläutert. </p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples"> Mit Sitz in <placeName role="provenance" key="berlin" ref="http://d-nb.info/gnd/4005728-8">Berlin</placeName>. </egXML>
+            </exemplum>
+          </elementSpec>
+
+
+          <!-- Constraint für ref für  Digitalisate -->
+          <elementSpec ident="ref" mode="change" module="core">
+            <constraintSpec ident="ifTypeThenTarget" scheme="schematron">
+              <constraint>
+                <sch:pattern id="typeAndTarget">
+                  <sch:rule context="tei:surrogates/tei:bibl/tei:ref">
+                    <sch:assert test="(@type and @target)">if ref has a type a target is required</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="ref_check" scheme="schematron">
+              <constraint>
+                <sch:pattern>
+                  <sch:rule context="tei:ref">
+                    <sch:assert test="@target or @type">You must provide either @target or @type.</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+          <!-- element specification for institution -->
+          <elementSpec ident="institution" module="msdescription" mode="change">
+            <attList>
+              <attDef ident="key" mode="change" usage="opt">
+                <desc xml:lang="en">contains the hsp-uuid of the institution</desc>
+              </attDef>
+              <attDef ident="ref" mode="change" usage="opt"> </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- element specification for repository -->
+          <elementSpec ident="repository" module="msdescription" mode="change">
+            <attList>
+              <attDef ident="key" mode="change" usage="opt">
+                <desc xml:lang="en">contains the hsp-uuid of the repository</desc>
+              </attDef>
+              <attDef ident="ref" mode="change" usage="opt"> </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- element specification for settlement -->
+          <elementSpec ident="settlement" module="msdescription" mode="change">
+            <attList>
+              <attDef ident="key" mode="change" usage="opt">
+                <desc xml:lang="en">contains the hsp-uuid of the settlement</desc>
+              </attDef>
+              <attDef ident="ref" mode="change" usage="opt"> </attDef>
+            </attList>
+          </elementSpec>
+
+          <!-- element specification surrogates in teiheader/sourceDesc/msDesc/additional added 01-10-2021-->
+          <elementSpec ident="surrogates" module="msdescription" mode="change">
+            <content>
+              <rng:zeroOrMore>
+                <rng:element name="bibl">
+                  <rng:zeroOrMore>
+                    <rng:element name="ref">
+                      <rng:attribute name="type">
+                        <rng:choice>
+                          <rng:value>hsp:object</rng:value>
+                          <rng:value>manifest</rng:value>
+                          <rng:value>thumbnail</rng:value>
+                          <rng:value>other</rng:value>
+                          <rng:value>completeness</rng:value>
+                          <rng:value>sourceType</rng:value>
+                          <rng:value>digitalisationType</rng:value>
+                          <rng:value>captureType</rng:value>
+                        </rng:choice>
+                      </rng:attribute>
+                      <rng:attribute name="target"/>
+                    </rng:element>
+                  </rng:zeroOrMore>
+                  <rng:zeroOrMore>
+                    <rng:group>
+                      <rng:element name="orgName">
+                        <rng:attribute name="type">
+                          <rng:value>digitalizing</rng:value>
+                        </rng:attribute>
+                        <rng:attribute name="ref"/>
+                        <rng:text/>
+                      </rng:element>
+                      <rng:element name="placeName">
+                        <rng:attribute name="type">
+                          <rng:value>digitalizing</rng:value>
+                        </rng:attribute>
+                        <rng:attribute name="ref"/>
+                        <rng:text/>
+                      </rng:element>
+                    </rng:group>
+                  </rng:zeroOrMore>
+                  <rng:zeroOrMore>
+                    <rng:element name="date">
+                      <rng:optional>
+                        <rng:attribute name="when"/>
+                        <rng:attribute name="type">
+                          <rng:choice>
+                            <rng:value>published</rng:value>
+                            <rng:value>digitized</rng:value>
+                          </rng:choice>
+                        </rng:attribute>
+                      </rng:optional>
+                      <rng:text/>
+                    </rng:element>
+                  </rng:zeroOrMore>
+                </rng:element>
+              </rng:zeroOrMore>
+            </content>
+          </elementSpec>
+
+          <!-- ########################################## classModifications ###################################################### -->
+          <specGrp xml:id="classmods">
+            <classSpec ident="att.global" mode="change" module="tei" type="atts">
+              <attList>
+                <attDef ident="xml:space" mode="delete"/>
+                <attDef ident="xml:base" mode="delete"/>
+              </attList>
+            </classSpec>
+            <classSpec ident="att.global.rendition" mode="change" module="tei" type="atts">
+              <attList>
+                <!--<attDef ident="rend" mode="delete"/>-->
+                <attDef ident="style" mode="delete"/>
+              </attList>
+            </classSpec>
+            <classSpec ident="att.fragmentable" mode="delete" module="tei" type="atts"/>
+            <classSpec ident="att.divLike" mode="delete" module="tei" type="atts"/>
+            <classSpec ident="att.declaring" mode="delete" module="tei" type="atts"/>
+            <classSpec ident="att.written" mode="delete" module="tei" type="atts"/>
+            <classSpec ident="att.declarable" mode="change" module="tei" type="atts">
+              <attList>
+                <attDef ident="default" mode="delete"/>
+              </attList>
+            </classSpec>
+            <classSpec ident="att.editLike" mode="change" module="tei" type="atts">
+              <attList>
+                <attDef ident="instant" mode="delete"/>
+              </attList>
+            </classSpec>
+            <classSpec ident="att.personal" module="tei" mode="change" type="atts">
+              <attList>
+                <attDef ident="full" mode="delete"/>
+              </attList>
+            </classSpec>
+            <classSpec ident="att.docStatus" module="tei" mode="change" type="atts">
+              <attList>
+                <attDef ident="status" mode="delete"/>
+              </attList>
+            </classSpec>
+          </specGrp>
+
+          <!-- ####################################### Include XInclude into our schema ############################################################# -->
+          <elementSpec ident="include" ns="http://www.w3.org/2001/XInclude" mode="add">
+            <desc xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
+            <classes>
+              <memberOf key="model.common"/>
+              <memberOf key="model.teiHeaderPart"/>
+            </classes>
+            <content>
+              <elementRef key="fallback" minOccurs="0" maxOccurs="1"/>
+            </content>
+            <attList>
+              <attDef ident="href">
+                <desc xml:lang="en" versionDate="2014-01-12">pointer to the resource being included</desc>
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>
+              <attDef ident="parse" usage="opt">
+                <defaultVal>xml</defaultVal>
+                <valList type="closed">
+                  <valItem ident="xml"/>
+                  <valItem ident="text"/>
+                </valList>
+              </attDef>
+              <attDef ident="xpointer" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="encoding" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="accept" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="accept-charset" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+              <attDef ident="accept-language" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          <elementSpec ident="fallback" ns="http://www.w3.org/2001/XInclude" mode="add">
+            <desc xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements if an XInclude fails</desc>
+            <content>
+              <alternate>
+                <textNode/>
+                <anyElement/>
+              </alternate>
+            </content>
+          </elementSpec>
+
+
+          <!-- ##########################################################  global constraints  ############################################################ -->
+
+
+          <!-- check: further needed?
+          <elementSpec ident="origDate" mode="change" module="msdescription">
+            <constraintSpec ident="origdate_check" scheme="schematron">
+              <constraint>
+                <sch:pattern name="date_values">
+                  <sch:rule context="tei:origDate">
+                    <sch:assert test="@when or (@notAfter and @notBefore) or (@from and @to)">You must provide either @when or @to/@from, or @notAfter/@notBefore.</sch:assert>
+                  </sch:rule>
+                </sch:pattern>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>-->
+
+          <!-- a manuscript must have one or more languages  -->
+          <elementSpec ident="textLang" module="core" mode="change">
+            <constraintSpec ident="textLang.check" scheme="schematron">
+              <constraint>
+                <!--<sch:rule context="//tei:msContents">
+                  <sch:assert test="descendant::tei:textLang" role="warn">A manuscript should have one or more languages recorded in a textLang element. For manuscripts with no linguistic content use code 'zxx'. If the language is undetermined use the code 'und'.</sch:assert>
+                </sch:rule>-->
+                <!--<sch:rule context="//tei:textLang">
+                  <sch:assert test="@mainLang and string-length(normalize-space(string())) gt 0" role="error">The predominant language must be recorded in using a code in a mainLang attribute (and an otherLang attribute if there are other languages) and described as text within the textLang element.</sch:assert>
+                </sch:rule>-->
+                <sch:rule context="//tei:textLang/@mainLang | //tei:textLang/@otherLangs | //@xml:lang">
+                  <sch:assert test="every $code in tokenize(., ' ') satisfies matches($code, '^[a-z]{2,3}(-|$)')" role="error">Codes in <sch:value-of select="name(.)"/> attributes must conform to BCP 47 (https://tools.ietf.org/html/bcp47), starting with an ISO 639 code for the language, then optionally further codes for the script (ISO 15924), region, transliteration, etc.</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="mainLang" mode="change" usage="req"/>
+            </attList>
+          </elementSpec>
+        </schemaSpec>
+      </div>
+    </body>
+  </text>
+</TEI>

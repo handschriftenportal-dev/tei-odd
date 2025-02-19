@@ -1,0 +1,2428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Windsheim_Bad_Stadtbibliothek/01_Windsheim_Bad_Stadtbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-1">Cod. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-2">Cod. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-3">Cod. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-4">Cod. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-5">Cod. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-6">Cod. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-7">Cod. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-8">Cod. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-9">Cod. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-10">Cod. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-11">Cod. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-12">Cod. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-13">Cod. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-14">Cod. 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-15">Cod. 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-16">Cod. 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-17">Cod. 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-18">Cod. 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-19">Cod. 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-20">Cod. 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-21">Cod. 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-22">Cod. 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-23">Cod. 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-24">Cod. 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-25">Cod. 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-26">Cod. 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-27">Cod. 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-28">Cod. 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-29">Cod. 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-30">Cod. 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-31">Cod. 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-32">Cod. 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-33">Cod. 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-34">Cod. 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-35">Cod. 35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-36">Cod. 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-37">Cod. 37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-38">Cod. 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-39">Cod. 39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-40">Cod. 40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-41">Cod. 41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-42">Cod. 42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-43">Cod. 43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-44">Cod. 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-45">Cod. 45</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-46">Cod. 46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-47">Cod. 47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-48">Cod. 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-49">Cod. 49</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-50">Cod. 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-51">Cod. 51</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-52">Cod. 52</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 52</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 52</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 52</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>52</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-53">Cod. 53</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-54">Cod. 54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-55">Cod. 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-56">Cod. 56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-57">Cod. 57</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-58">Cod. 58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-59">Cod. 59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-60">Cod. 60</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-61">Cod. 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-62">Cod. 62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-63">Cod. 63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-64">Cod. 64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>64</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-65">Cod. 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-66">Cod. 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-67">Cod. 67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-68">Cod. 68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-69">Cod. 69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-70">Cod. 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-71">Cod. 71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-72">Cod. 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-73">Cod. 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 73</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 73</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 73</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>73</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-74">Cod. 74</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 74</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 74</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 74</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-75">Cod. 75</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 75</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 75</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 75</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>75</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-76">Cod. 76</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-77">Cod. 77</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 77</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 77</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 77</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-78">Cod. 78</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>78</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-79">Cod. 79</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 79</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 79</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 79</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>79</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-80">Cod. 80</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 80</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 80</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 80</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>80</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-81">Cod. 81</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 81</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 81</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 81</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-82">Cod. 82</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 82</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 82</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 82</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-83">Cod. 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 83</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 83</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 83</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-84">Cod. 84</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 84</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 84</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 84</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>84</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-85">Cod. 85</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-86">Cod. 86</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-87">Cod. 87</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 87</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 87</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 87</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>87</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-88">Cod. 88</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 88</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 88</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 88</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>88</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-89">Cod. 89</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 89</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 89</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>89</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-90">Cod. 90</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>90</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-91">Cod. 91</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>91</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-92">Cod. 92</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 92</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 92</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 92</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>92</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-93">Cod. 93</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 93</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 93</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 93</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-94">Cod. 94</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 94</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 94</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 94</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>94</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-95">Cod. 95</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 95</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 95</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 95</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>95</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-96">Cod. 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>96</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-97">Cod. 97</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 97</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 97</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 97</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-98">Cod. 98</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 98</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 98</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 98</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-99">Cod. 99</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>99</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-100">Cod. 100</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-101">Cod. 101</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 101</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 101</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 101</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-102">Cod. 102</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 102</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 102</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 102</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-103">Cod. 103</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 103</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 103</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 103</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>103</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-104">Cod. 104</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 104</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 104</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 104</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>104</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-105">Cod. 105</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 105</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 105</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 105</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>105</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-106">Cod. 106</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-107">Cod. 107</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 107</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 107</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 107</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>107</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-108">Cod. 108</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 108</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 108</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 108</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>108</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-109">Cod. 109</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 109</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 109</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 109</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-110">Cod. 110</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 110</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 110</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 110</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-111">Cod. 111</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 111</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-112">Cod. 112</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 112</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 112</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 112</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>112</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-113">Cod. 113</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 113</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 113</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 113</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>113</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-114">Cod. 114</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 114</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 114</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 114</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-115">Cod. 115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 115</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 115</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 115</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-116">Cod. 116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 116</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 116</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 116</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-117">Cod. 117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>117</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-118">Cod. 118</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 118</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 118</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 118</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>118</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-119">Cod. 119</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 119</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 119</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 119</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>119</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Cod-120">Cod. 120</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 120</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 120</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>120</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-fol-1">Ms.nov. fol. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms.nov.fol. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-1">Ms.nov. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-2">Ms.nov. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-3">Ms.nov. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-4">Ms.nov. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-5">Ms.nov. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-6">Ms.nov. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-7">Ms.nov. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-8">Ms.nov. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-9">Ms.nov. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-10">Ms.nov. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-11">Ms.nov. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-12">Ms.nov. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-13">Ms.nov. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-14">Ms.nov. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-15">Ms.nov. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066287-1">Bad Windsheim</settlement>
+                  <repository key="1222392-X">Stadtbibliothek (Bad Windsheim)</repository>
+                  <idno xml:id="_Ms-nov-16">Ms.nov. 16</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

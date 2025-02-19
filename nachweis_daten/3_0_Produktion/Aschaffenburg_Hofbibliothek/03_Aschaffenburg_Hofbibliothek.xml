@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Aschaffenburg_Hofbibliothek/03_Aschaffenburg_Hofbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121670-2"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121964-0"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121671-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121965-6"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121966-1"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121967-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121968-2"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121969-2"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121970-4"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00113010-5"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 11</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121672-2"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 12</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121971-9"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00086015-6"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 14</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121972-5"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 15</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121973-0"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 16/1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121974-6"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 16/2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121976-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 17</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121978-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121979-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 19</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00121981-5"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 21</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122223-6"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122224-1"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 23</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122225-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00113011-0"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 26</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122226-2"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 27</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122227-7"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 29</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122228-3"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 41</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122229-3"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 43</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122230-5"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 52</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00113012-5"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4003191-3">Aschaffenburg</settlement>
+                  <repository key="2042509-0">Hofbibliothek Aschaffenburg</repository>
+                  <idno>Ms. 57</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="other"
+                             target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00122231-1"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020-09-29" type="published"/>
+                        <orgName ref="2031351-2" type="digitizing">Bayerische Staatsbibliothek</orgName>
+                        <placeName ref="4127793-4" type="digitizing">München</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

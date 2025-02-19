@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title>Kulturobjektdokument von #{PLACENAME}#, #{ORGNAME}#, #{IDNO}#</title>
+        <respStmt>
+          <resp>Herausgegeben vom</resp>
+          <orgName>Handschriftenportal</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Elektronische Ausgabe nach TEI P5</edition>
+        <respStmt>
+          <resp>Automatisch generierte Ausgabe</resp>
+          <orgName>Handschriftenportal</orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Handschriftenportal</orgName>
+          <ptr target="http://www.handschriftenportal.de"/>
+        </publisher>
+        <date when="2020-01-01">#{DATE}#</date>
+        <distributor>Handschriftenportal</distributor>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+            <p>Lizenziert nach https://creativecommons.org/publicdomain/zero/1.0/deed.de</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="___uu-id___" xml:lang="de" type="hsp:object">
+          <msIdentifier>
+            <settlement key="___uu-id___">#{PLACENAME}#</settlement>
+            <repository key="___uu-id___">#{ORGNAME}#</repository>
+            <idno sortKey="__sortKey__">#{IDNO}#</idno>
+            <!-- hierher: alternative Schreibweisen -->
+            <altIdentifier type="alternative">
+              <idno>#{IDNO}#</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <head>
+            <index indexName="norm_title">
+              <term type="title"></term>
+            </index>
+            <index indexName="norm_material">
+              <term type="material"></term>
+              <term type="material_type"></term>
+            </index>
+            <index indexName="norm_measure">
+              <term type="measure"></term>
+              <term type="measure_noOfLeaves"></term>
+            </index>
+            <index indexName="norm_dimensions">
+              <term type="dimensions"></term>
+              <term type="height"></term>
+              <term type="width"></term>
+              <term type="depth"/>
+              <term type="dimensions_typeOfInformation"></term>
+            </index>
+            <index indexName="norm_format">
+              <term type="format"></term>
+              <term type="format_typeOfInformation"></term>
+            </index>
+            <index indexName="norm_origPlace">
+              <term type="origPlace"></term>
+              <term type="origPlace_norm"></term>
+            </index>
+            <index indexName="norm_origDate">
+              <term type="origDate"></term>
+              <term type="origDate_notBefore"></term>
+              <term type="origDate_notAfter"></term>
+              <term type="origDate_type"></term>
+            </index>
+            <index indexName="norm_textLang">
+              <term type="textLang"></term>
+              <term type="textLang-ID"></term>
+            </index>
+            <index indexName="norm_form">
+              <term type="form"></term>
+            </index>
+            <index indexName="norm_status">
+              <term type="status"></term>
+            </index>
+            <index indexName="norm_decoration">
+              <term type="decoration"/>
+            </index>
+            <index indexName="norm_musicNotation">
+              <term type="musicNotation"></term>
+            </index>
+          </head>
+          <additional>
+            <adminInfo>
+              <availability status="free">
+              <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                <p>Lizenziert nach https://creativecommons.org/publicdomain/zero/1.0/deed.de</p>
+              </licence>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

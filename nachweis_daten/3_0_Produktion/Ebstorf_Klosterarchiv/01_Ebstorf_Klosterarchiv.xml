@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Ebstorf_Klosterarchiv/01_Ebstorf_Klosterarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-2">Hs IV 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-3">Hs IV 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-4">Hs IV 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-4--1-">Hs IV 4 (1)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 4 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 4 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 4 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 4 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 4 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-4--2-">Hs IV 4 (2)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 4 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 4 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 4 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 4 (2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-5">Hs IV 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-5--Einband-">Hs IV 5 (Einband)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 5 (Einband)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 5 (Einband)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 5 (Einband)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 5 (Einband)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-6">Hs IV 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-8">Hs IV 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-9">Hs IV 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-9--Einband-">Hs IV 9 (Einband)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 9 (Einband)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 9 (Einband)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 9 (Einband)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 9 (Einband)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-10">Hs IV 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-11">Hs IV 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-12">Hs IV 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-13">Hs IV 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-14">Hs IV 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-15">Hs IV 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-16">Hs IV 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-17">Hs IV 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-18">Hs IV 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-18--1-">Hs IV 18 (1)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 18 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 18 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 18 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 18 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-19">Hs IV 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-20">Hs IV 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-21--I-">Hs IV 21 (I)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 21 (I)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 21 (I)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 21 (I)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 21 (I)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-21--II-">Hs IV 21 (II)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 21 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 21 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 21 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 21 (II)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-21--III-">Hs IV 21 (III)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 21 (III)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 21 (III)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 21 (III)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 21 (III)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-23">Hs IV 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-24--Ia-u-Ib-">Hs IV 24 (Ia u. Ib)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 24 (Ia u. Ib)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (Ia u. Ib)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (Ia)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (Ia)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (Ib)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (Ib)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (Ia und Ib)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (Ia u. Ib)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-24--II-">Hs IV 24 (II)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 24 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 24 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (II)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-24--III-">Hs IV 24 (III)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (III)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 24 (III)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 24 (III)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (III)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-24--IV-">Hs IV 24 (IV)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (IV)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 24 (IV)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 24 (IV)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (IV)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-24--V-">Hs IV 24 (V)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (V)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 24 (V)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 24 (V)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (V)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-24--VIa-u-VIb-">Hs IV 24 (VIa u. VIb)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 24 (VIa u. VIb)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs IV 24 (VI a u. b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (VI a u. b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (VIa)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (VI a)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (VIa)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (VIb)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (VI b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (VIb)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>IV 24 (VI a und b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 24 (VI a u. b)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-25--a-">Hs IV 25 (a)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 25 (a)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 25 (a)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 25 (a)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 25 (a)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-IV-25--b-">Hs IV 25 (b)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>IV 25 (b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs IV 25 (b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. IV 25 (b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. IV 25 (b)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-1">Hs V 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-2">Hs V 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-2--I-">Hs V 2 (I)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 2 (I)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 2 (I)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 2 (I)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 2 (I)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-2--II-">Hs V 2 (II)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 2 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 2 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 2 (II)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 2 (II)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-3">Hs V 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-4">Hs V 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-5">Hs V 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-6a">Hs V 6a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 6a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs V 6 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>V 6 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 6a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 6 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 6a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 6 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 6a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-V-6b">Hs V 6b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>V 6b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs V 6 b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>V 6 b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 6b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs V 6 b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 6b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. V 6 b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. V 6b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-1">Hs VI 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-2">Hs VI 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-2--3-">Hs VI 2 (3)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 2 (3)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 2 (3)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 2 (3)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 2 (3)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VI 2, Fragm.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-2--1-">Hs VI 2 (1)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 2 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 2 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 2 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 2 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-2--2-">Hs VI 2 (2)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 2 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 2 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 2 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 2 (2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-3">Hs VI 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-4">Hs VI 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-5">Hs VI 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-6">Hs VI 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-7">Hs VI 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-8a">Hs VI 8a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 8a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs VI 8 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VI 8 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 8a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 8 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 8a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 8 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 8a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-9">Hs VI 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-10">Hs VI 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-11">Hs VI 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-11a">Hs VI 11a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 11a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs VI 11 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>VI 11 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 11a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 11 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 11a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 11 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 11a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-12">Hs VI 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-14">Hs VI 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-16">Hs VI 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-16--b-">Hs VI 16 (b)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 16 (b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 16 (b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 16 (b)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 16 (b)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-17">Hs VI 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-18">Hs VI 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-19">Hs VI 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-20">Hs VI 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-26">Hs VI 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-27">Hs VI 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4013466-0">Ebstorf</settlement>
+                  <repository key="4369481-0">Klosterarchiv Ebstorf</repository>
+                  <idno xml:id="_Hs-VI-28">Hs VI 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VI 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Klosterarchiv Hs VI 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. VI 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. VI 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

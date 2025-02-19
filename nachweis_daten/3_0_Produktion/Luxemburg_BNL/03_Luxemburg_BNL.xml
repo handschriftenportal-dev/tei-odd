@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Luxemburg_BNL/03_Luxemburg_BNL.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 369/9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/ctgfw0"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/ctgfw0"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fctgfw0%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/51pm55"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/51pm55"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2F51pm55%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 68</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/dn0zvf"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/dn0zvf"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fdn0zvf%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 109</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/7d0tx5"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/7d0tx5"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2F7d0tx5%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 369/11</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/9s7bwg"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/9s7bwg"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2F9s7bwg%2Fpages%2F5/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 840/2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/9s7bwg"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/9s7bwg"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2F9s7bwg%2Fpages%2F13/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 841/1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/9s7bwg"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/9s7bwg"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2F9s7bwg%2Fpages%2F17/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 840/3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/rn87xw"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/rn87xw"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Frn87xw%2Fpages%2F1/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 104</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/c4f5dk"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/c4f5dk"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fc4f5dk%2Fpages%2F11/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 840/1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/mn7x11"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/mn7x11"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fmn7x11%2Fpages%2F1/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 44</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/x0zhbg"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/x0zhbg"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fx0zhbg%2Fpages%2F15/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 89</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/fs1hqg"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/fs1hqg"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Ffs1hqg%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/w3wpn3"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/w3wpn3"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fw3wpn3%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 841/2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/ks8twr"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/ks8twr"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fks8twr%2Fpages%2F1/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 840/4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/ks8twr"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/ks8twr"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fks8twr%2Fpages%2F5/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Ms 841/3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/ks8twr"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/ks8twr"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fks8twr%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>BnL Inc M 150</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/ks8twr"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/ks8twr"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fks8twr%2Fpages%2F9/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 369/1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/95dxq2"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/95dxq2"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2F95dxq2%2Fpages%2F1/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 135</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/smd8vk"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/smd8vk"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fsmd8vk%2Fpages%2F7/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno>Ms 110</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://viewer.eluxemburgensia.lu/api/viewer2/iiif/manifest/ark:70795/v1gkdr"/>
+                        <ref type="other" target="https://persist.lu/ark:70795/v1gkdr"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.eluxemburgensia.lu/image/iiif/2/ark%3A70795%2Fv1gkdr%2Fpages%2F5/full/200,/0/default.jpg"/>
+                        <ref type="completeness"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/completeness/complete"/>
+                        <ref type="sourceType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/sourceType/original"/>
+                        <ref type="digitizationType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/digitizationType/color"/>
+                        <ref type="captureType"
+                             target="http://normdaten.staatsbibliothek-berlin.de/vocabulary/captureType/singlePage"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1001540-1" type="digitizing">Bibliothèque nationale du Luxembourg</orgName>
+                        <placeName ref="4036729-0" type="digitizing">Luxemburg</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
