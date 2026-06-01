@@ -1,0 +1,3688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Stuttgart_Hauptstaatsarchiv/01_Stuttgart_Hauptstaatsarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_1">1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_1a">1a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_1b">1b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_2">2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_3">3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_4a">4a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 4a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_4b">4b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 4b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_4c">4c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 4c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_5">5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 5-7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_6">6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 5-7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_7">7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 5-7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_7a">7a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 7a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_8">8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_8a">8a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 8a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_9">9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_9a">9a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 9a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_10">10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_11">11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_12">12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_12a">12a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 12a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_13">13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_19">19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_20a">20a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 20a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_20b">20b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 20b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_21">21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_21a">21a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 21a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_22">22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_23">23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_24">24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_24a">24a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 24a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_25">25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_25b">25b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 25b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_26">26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_27">27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_28">28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_29">29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_30">30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_31">31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_32">32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_33">33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_34">34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_35">35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_36">36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_37">37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_38">38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_39">39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_40">40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_41">41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_42">42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_43">43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_44">44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_46b">46b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48a--Mappe-1">48a, Mappe 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48a--Mappe-2">48a, Mappe 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 48a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48b">48b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 48b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48c">48c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48d">48d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48ee">48ee</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48e-I">48e I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48e-II">48e II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48e-III">48e III</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48g--Bd-1">48g, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48g--Bd-2">48g, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48g--Bd-3">48g, Bd. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48g--Bd-4">48g, Bd. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48g--Beiheft">48g, Beiheft</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48h">48h</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48h-I">48h I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48i">48i</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48k">48k</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48l">48l</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48m">48m</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48n">48n</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48o">48o</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48p">48p</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48q">48q</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48r">48r</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48t">48t</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48u">48u</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48y">48y</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_48z">48z</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 48z</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_49">49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_50">50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_51">51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_52">52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_53">53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_54">54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_55">55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_55a">55a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_56">56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_57">57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_58">58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_59">59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_60b">60b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_61">61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_63">63</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_64">64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_65">65</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_65b">65b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_67">67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_68">68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_69">69</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_70">70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_72">72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_73">73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_74">74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_75">75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_76a">76a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 76a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_76b">76b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 76b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_77">77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_78">78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_78a">78a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_78b">78b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_78c">78c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_78d">78d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_79">79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_80">80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_82">82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_83">83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_85">85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_86">86</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_87">87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_88">88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_90">90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_93">93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_94">94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_95">95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96a">96a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 96a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96b">96b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96c">96c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96d">96d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96e">96e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96f">96f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_96s">96s</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97a">97a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97b">97b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97c">97c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97d">97d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97e">97e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97f">97f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97g">97g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97h">97h</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97i">97i</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97k">97k</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97l">97l</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_97m">97m</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_98">98</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-A">100 A</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-B">100 B</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-C">100 C</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-D">100 D</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-E">100 E</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-F">100 F</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_100-G">100 G</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_101a">101a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_101b">101b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_101c">101c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_101d">101d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_102a">102a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 102a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_102b">102b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 102b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_102c">102c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 102c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_102d">102d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 102d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_102e">102e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_103a">103a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 103a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_103b">103b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_103c">103c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_104">104</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_106">106</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_107">107</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_108">108</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_109">109</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_110">110</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_111b">111b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_111c">111c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_111e">111e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_111g">111g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_112a">112a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_113">113</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 113</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_114a">114a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_114b">114b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_115">115</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_116">116</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_117">117</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_119a">119a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_119b">119b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_120">120</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_121a">121a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_121b">121b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_124">124</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_125a">125a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_125b">125b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_125c">125c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_126a">126a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 126a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 126a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_126b">126b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 126b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_126c">126c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_127--Bd-I">127, Bd. I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_127--Bd-II">127, Bd. II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_127--Bd-III">127, Bd. III</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_127--Bd-IV">127, Bd. IV</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_128">128</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_129a">129a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_129b">129b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_130">130</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_131a">131a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_131b">131b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_131c">131c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_131d">131d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_131e">131e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_132">132</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_133">133</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_133a">133a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_134">134</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_135--Mappe-1">135, Mappe 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_135--Mappe-2">135, Mappe 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_136-I">136 I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_136-II">136 II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_137">137</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_138">138</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_139">139</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_140">140</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141a">141a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141b">141b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141c">141c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141d">141d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141d</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141e">141e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141e</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141f">141f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141f</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_141g">141g</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 141g</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141a-g</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 141g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_142">142</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_143">143</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_144">144</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_145">145</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_147">147</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_148">148</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 148</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_149">149</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_150">150</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_151">151</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 151</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_152">152</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_153a">153a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_153b">153b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_154">154</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 154</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_155a">155a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_155b">155b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_157">157</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_158">158</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_159">159</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_160">160</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_160a">160a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_161a">161a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_161b">161b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_161c">161c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_162">162</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_163">163</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_164a">164a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_164b">164b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_166">166</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_167">167</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_169">169</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_171">171</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_172">172</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_173">173</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_175">175</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_177">177</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_178">178</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_179">179</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_180--Bd-I">180, Bd. I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_180--Bd-II">180, Bd. II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_180--Bd-III">180, Bd. III</idno>
+                  <altIdentifier type="alternative">
+                     <idno>J 1 Nr. 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_181">181</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_181a">181a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_182">182</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_182a">182a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_183-I">183/I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_183-II">183/II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_183-III">183/III</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_183-IV">183/IV</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-I">184/I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-II">184/II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-III">184/III</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-IV">184/IV</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-IX">184/IX</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-V">184/V</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-VI--Nr-1">184/VI, Nr. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-VI--Nr-2">184/VI, Nr. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-VII">184/VII</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-VIII">184/VIII</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-X--Nr-1">184/X, Nr. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-X--Nr-2">184/X, Nr. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-XI--Ex-1">184/XI, Ex. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-XI--Ex-2">184/XI, Ex. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-XII--Nr-1">184/XII, Nr. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-XII--Nr-2">184/XII, Nr. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_184-XIII">184/XIII</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_185">185</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_186">186</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_186a">186a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_187">187</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_188">188</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_191">191</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_192">192</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_193">193</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_194">194</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_195">195</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_196">196</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_196a">196a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_196b">196b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 196b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_196c">196c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_196d">196d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_197">197</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_198">198</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_199">199</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_200--Bd-I">200, Bd. I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_200--Bd-II">200, Bd. II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_201">201</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_202">202</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_203">203</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_204">204</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_205">205</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_206">206</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HB XV 67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_207">207</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_208">208</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 208</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_210a">210a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_210b">210b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_211">211</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_212">212</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_213">213</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_214">214</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_214a">214a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_215">215</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 215</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_216">216</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_217">217</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_218">218</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_219">219</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_221">221</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_222">222</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_223">223</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_224">224</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_225">225</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_226">226</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_227">227</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_228">228</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_229">229</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_230">230</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_231">231</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_232">232</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_233">233</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_234">234</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_235">235</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_236">236</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_237">237</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_238">238</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_239">239</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_240">240</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_241">241</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_242">242</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 242</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_243">243</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_245">245</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_246">246</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_247">247</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_248">248</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_250">250</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_251">251</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_252">252</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_253">253</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_254">254</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_255">255</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_256--Bd-1">256, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_256--Bd-2">256, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_256a">256a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_256b">256b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 256b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_258">258</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_259">259</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_262">262</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_263">263</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_264">264</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-1">267, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-2">267, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-3">267, Bd. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-4">267, Bd. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-5">267, Bd. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-6">267, Bd. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-7">267, Bd. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-8">267, Bd. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-9">267, Bd. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267--Bd-10">267, Bd. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-1">267a, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-2">267a, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-3">267a, Bd. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-4">267a, Bd. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-5">267a, Bd. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-6">267a, Bd. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-7">267a, Bd. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-8">267a, Bd. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-9">267a, Bd. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_267a--Bd-10">267a, Bd. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_268">268</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_269">269</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_270">270</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_271">271</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-1">272, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-2">272, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-3">272, Bd. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-4">272, Bd. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-5">272, Bd. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-6">272, Bd. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_272--Bd-7">272, Bd. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_276">276</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_277">277</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_278">278</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_279">279</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_280">280</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_283">283</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_284">284</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_285">285</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_286">286</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_287">287</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_289">289</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_290">290</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 290</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_291">291</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_292">292</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_293">293</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_294">294</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_297">297</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_298">298</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 298</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_299">299</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_300">300</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_301">301</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_303">303</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_304">304</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_305">305</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_309">309</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_314a">314a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_314b">314b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_317">317</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_318">318</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_322">322</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-1">325, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-2">325, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-3">325, Bd. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-4">325, Bd. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-5">325, Bd. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-6">325, Bd. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_325--Bd-7">325, Bd. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_326">326</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_327">327</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_330--Bd-I">330, Bd. I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_330--Bd-II">330, Bd. II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_346">346</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_357">357</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_360">360</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_368">368</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_370">370</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 370</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_371">371</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_382">382</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_383">383</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_386--Band-I">386, Band I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_386--Band-II">386, Band II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_386--Band-III">386, Band III</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_388">388</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_399a">399a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_399b">399b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_400">400</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_404">404</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_405">405</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_410">410</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_411">411</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_412">412</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_413--Bd-I">413, Bd. I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_413--Bd-II">413, Bd. II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_414">414</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 414</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_415">415</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 415</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_416">416</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_417">417</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_418">418</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_419--Bd-1">419, Bd. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_419--Bd-2">419, Bd. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4058282-6">Stuttgart</settlement>
+                  <repository key="2040971-0">Hauptstaatsarchiv Stuttgart</repository>
+                  <idno xml:id="_419--Bd-3">419, Bd. 3</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

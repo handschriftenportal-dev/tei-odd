@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xml:lang="de"
+           xml:id="teiCorpus_Goettingen_DA_Carmassi">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>In Vorbereitung: Katalog der mittelalterlichen lateinischen Handschriften der SUB Göttingen, beschrieben von Patrizia Carmassi.</title>
+            <author>Patrizia Carmassi</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Neu</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Neukatalogisiert.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI xml:lang="de" xml:id="HAB_mss_goe-gau-da-2e_tei-msDesc_Carmassi">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Beschreibung der Handschrift Göttingen, Diplomatischer Apparat der Philosophischen Fakultät der Universität Göttingen, App. Dipl.  2 E</title>
+               <respStmt>
+                  <resp>Katalogisiert durch </resp>
+                  <name type="person">Patrizia Carmassi</name>
+                  <name type="org">Herzog August Bibliothek</name>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>TEI-P5 konforme Kodierung durch </resp>
+                  <name type="person">Patrizia Carmassi</name>
+                  <name type="org">Herzog August Bibliothek</name>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org">Herzog August Bibliothek</name>
+                  <ptr target="http://www.hab.de"/>
+               </publisher>
+               <date when="2018-07-02" type="issued">02.07.2018</date>
+               <date when="2011-10-27" type="digitised">27.10.2011</date>
+               <distributor>Herzog August Bibliothek</distributor>
+               <availability status="restricted">
+                  <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+                     <p>Dieses Dokument steht unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                     <p>Herzog August Bibliothek Wolfenbüttel (<ref type="crossRef" target="http://diglib.hab.de/?link=012">copyright information</ref>)</p>
+                  </licence>
+               </availability>
+               <pubPlace>
+                  <ptr type="purl" target="http://diglib.hab.de/mss/ed000032/start.htm"/>
+                  <ptr type="thumbnailForPresentations"
+                       target="http://diglib.hab.de/mss/ed000032/thumbs/00001.jpg"/>
+               </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Neu katalogisiert durch <name type="person">Patrizia Carmassi</name>
+               </p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>Beschreibung erstellt im Rahmen des Projektes <name type="project" subtype="cataloguing">Katalogisierung der Halberstädter Handschriften</name>.</p>
+            </projectDesc>
+         </encodingDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <msDesc xml:lang="de" xml:id="mss_goe-da-2e_tei-msDesc_Carmassi">
+               <msIdentifier>
+                  <settlement>Göttingen</settlement>
+                  <repository ref="http://d-nb.info/gnd/110879159X">Georg-August-Universität Göttingen. Diplomatischer Apparat</repository>
+                  <idno sortKey="goe_gau_da_002e">2 E</idno>
+               </msIdentifier>
+               <head>
+                  <title>Psalterium cum canticis</title>
+                  <origPlace>Diözese Hildesheim oder Halberstadt</origPlace>
+                  <origDate notBefore="1201" notAfter="1235">13. Jh., erste Hälfte (vor 1235)</origDate>
+               </head>
+               <msContents>
+                  <msItem>
+                     <locus from="1r">1r</locus>
+                     <note>Ovale Stempel mit der Inschrift: <quote>APPAR. DIPL. UNIV. GOTTINGENSIS</quote>. Darunter mit Bleistift die moderne Signatur <quote>2 E</quote>.</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="1v" to="7r">1v-7r</locus>
+                     <title>Kalendarium</title>
+                     <note>Merkverse der Dies aegyptiaci, den Monaten vorangestellt</note>
+                     <msItem>
+                        <note>Einige Nachträge, darunter:  2r (Februar): Apollonie, Scholastice, Iuliani, Eucharii; 2v (März): Kunegundis, Translatio Viti, Quirini.  Andere Hand: <quote>Obiit Gherthrudis layca</quote> (31. 3.: Rubrik).</note>
+                     </msItem>
+                     <msItem>
+                        <note>Die meisten Zusätze von einer Hand (15. Jh.).</note>
+                     </msItem>
+                  </msItem>
+                  <msItem>
+                     <locus from="7v">7v</locus>
+                     <decoNote>Ganzseitige Miniatur</decoNote>
+                  </msItem>
+                  <msItem>
+                     <locus from="8r" to="138v">8r-138v</locus>
+                     <title>Psalterium</title>
+                  </msItem>
+                  <msItem>
+                     <locus from="138v" to="150r">138v-150r</locus>
+                     <title>Laudes-Cantica</title>
+                     <note>(Confitebor, Ego dixi, Exultavit, Cantemus domino, Domine audivi, Audite coeli, Benedicite omnia opera, Benedictus)</note>
+                     <bibl>Stegmüller RB 21g</bibl>
+                     <msItem>
+                        <locus from="139r">139r</locus>
+                        <rubric>Canticum Ezechielis</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="139v">139v</locus>
+                        <rubric>Canticum Anne</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="140v">140v</locus>
+                        <rubric>Canticum Moysi</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="141v">141v</locus>
+                        <rubric>Canticum Abachuc</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="143r">143r</locus>
+                        <rubric>Canticum Moysi</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="145v">145v</locus>
+                        <rubric>Canticum trium puerorum</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="146v">146v</locus>
+                        <rubric>Canticum Zacharie</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="147r">147r</locus>
+                        <rubric>Laus angelica</rubric>
+                        <incipit>Te Deum laudamus</incipit>
+                     </msItem>
+                     <msItem>
+                        <locus from="148r">148r</locus>
+                        <rubric>Fides catholica</rubric>
+                        <title>Symbolum Athanasianum</title>
+                        <quote>Quicumque vult. </quote>
+                        <bibl>
+                           <abbr>CPL</abbr> 167.</bibl>
+                     </msItem>
+                  </msItem>
+                  <msItem>
+                     <msItem>
+                        <locus from="150r" to="159r">150r-159r</locus>
+                        <title>Breviarium</title>
+                     </msItem>
+                     <msItem>
+                        <locus from="150r" to="151v">150r-151v</locus>
+                        <rubric>Incipit letania VII psalmorum</rubric>
+                        <note>Es folgt eine Lücke, zumindest von einem Doppelblatt.</note>
+                     </msItem>
+                     <msItem>
+                        <locus from="152r">152r</locus>
+                        <note>Beginnt abrupt mit dem Ende einer ersten Lectio für das Offizium der Vigiliae minores</note>
+                        <rubric>Lectio secunda</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="154v">154v</locus>
+                        <rubric>In anniversario oratio</rubric>
+                     </msItem>
+                     <msItem>
+                        <rubric>Pro elemosynis nobis facientibus oratio</rubric>
+                     </msItem>
+                     <msItem>
+                        <rubric>Pro omnibus fidelibus defunctis</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="154v" to="159r">154v-159r</locus>
+                        <rubric>Incipit breviarium cursus sancte Marie</rubric>
+                     </msItem>
+                     <msItem>
+                        <locus from="157r">157r</locus>
+                        <rubric>De omnibus sanctis</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem>
+                     <locus from="160v">160v</locus>
+                     <note>Liturgische Nachträge von späterer Hand (15. Jh., Bastarda). </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>
+                              <material>Pergament</material>
+                           </p>
+                        </support>
+                        <extent>
+                           <measure type="leavesCount" quantity="159">159 Bl.</measure>
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="21.5">21,5</height>
+                              <width quantity="15">15</width>
+                           </dimensions>
+                        </extent>
+                        <foliation> Moderne Foliierung (Bleistift).</foliation>
+                        <collation>III+1 (7). 7 IV (63). III (69). 2 IV (85). V (95). 6 IV (143). III (149). II (153). III (159).</collation>
+                        <condition>
+                           <p>fol. 122: Riss im Pergament am unteren Rand.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="21">
+                           <p>Schriftraum:
+									<dimensions type="written">
+                                 <height quantity="15.5">15,5</height>
+                                 <width quantity="10">10</width>
+                              </dimensions>, 
+									21 Zeilen.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote script="carolgot">
+                        <p>Carolino-Gothica. Display-script in rot-grünen Majuskeln für die ersten Zeilen bei den Psalmen mit Hauptinitialen.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote>Rubriziert.</decoNote>
+                     <decoNote type="miniature">1v-7r: Im Kalendarium bei jedem Monat Darstellung der jeweiligen Tierkreiszeichen mit Namen, in Rot geschrieben.</decoNote>
+                     <decoNote type="miniature">7v. Deckfarbenmalerei. Ganzseitige Miniatur, mit rot-blauem Rahmen, Hintergrund: Gold. Maria sitzend auf einer Bank, Jesus-Kind auf ihrem linken Arm haltend. Das Kind streckt beide Arme aus und umarmt die Mutter am Hals. Die Bank weist architektonische Motive (Bögen) auf. Sitzfläche und Sockel mit Marmormuster dekoriert. Vergleichbar im Stil (Nordharzgebiet) ist die Kreuzigungsminiatur in Cod. Guelf. 1072 Helmst., fol. 1r (Provenienz: Wöltingerode). Permalink: http://diglib.hab.de/mss/1072-helmst/start.htm.</decoNote>
+                     <decoNote type="Initialen">
+                        <index indexName="nasa">
+                           <term>Buchschmuck</term>
+                           <index>
+                              <term>Initialen</term>
+                              <index>
+                                 <term>Rankeninitiale</term>
+                              </index>
+                           </index>
+                        </index>Feldinitialen mit Ranken, Blättern und Goldpollen. <locus from="8r">8r</locus>: Ps 1: B(eatus) (11 x 8 cm); 28r: Ps 26: D(ominus). 41r: Ps 38: D(ixi). 52v: Ps 51: Q(uid). 53r: Ps 52: D(ixi). 65v: Ps 68: S(alvum). 80r: Ps 80: E(xultate). 93v: Ps 97: C(antate). 96r: Ps 101: D(omine); 109r: Ps 109: D(ixit). Die Psalmenteilung entspricht einer erweiterten Dreiteilung (1,51,109) nach Wochentagen. Der Stil dieser Initialen ist mit den Hauptinitialen im etwas früheren Psalter Helmstedt, Ehemalige Universitätsbibliothek, I Hs 1, vergleichbar. Permalink: http://diglib.hab.de/mss/ed000037/start.htm.</decoNote>
+                     <decoNote type="Silouhetten-Initialen">Silhouetteninitialen zu Beginn der anderen Psalmen in den Farben Grün, Rot, Hellblau. </decoNote>
+                     <decoNote>Kleine Initialen zu Beginn der Psalmversen in Rot oder Hellblau.</decoNote>
+                  </decoDesc>
+                  <additions>Fol. 8: Die untere Hälfte des Blattes mit dem Psalmtext (6 Zeilen) ist ersetzt worden (14. Jh.). Dabei sind der untere Rahmen der Initiale B sowie die Versinitialen in Rot-Grün nachgemalt worden,. 133r: Frühneuzeitlicher Nachtrag mit Metallgriffel auf dem Kopfsteg in Majuskel: <quote>Petrus</quote>.</additions>
+                  <bindingDesc>
+                     <binding contemporary="false" notBefore="1401" notAfter="1499">
+                        <p>Gotischer Einband (15. Jh.). Holzdeckel mit Leder bezogen. Streicheisenlinien und ein Stempel (<bibl>
+                              <abbr>EBDB</abbr>
+                           </bibl>
+                           <ref type="ebdb" cRef="s008233">s008233</ref>), Werkstatt "m gekrönt", Ort: Northeim (<bibl>
+                              <abbr>EBDB</abbr>
+                           </bibl>
+                           <ref type="ebdb" cRef="w000218">w000218</ref>). Eine von zwei Langriememschließen erhalten. Spuren von Papierschildern auf dem Rücken. Kapitale rot gefärbt.<index indexName="nasa">
+                              <term>Einbände, bemerkenswerte</term>
+                              <index>
+                                 <term>Gotische Einbandstempelbände</term>
+                                 <index>
+                                    <term>Werkstatt Werkstatt "m gekrönt", Ort: Northeim</term>
+                                 </index>
+                              </index>
+                           </index>
+                        </p>
+                     </binding>
+                  </bindingDesc>
+                  <accMat type="VS">VS und HS aus Papier, abgelöst. Wasserzeichen, z.T. abgeschnitten: Ochsenkopf - mit Augen - Darüber einkontüriger Stange. Darüber einkonturiger Stern - Nur Stern: <bibl><abbr>Piccard-online</abbr></bibl>
+                     <ref type="Piccard-Online" cRef="67369">67369</ref> (Datierung: 1405). Auf den zwei Blättern Notizen auf beiden Seiten (15. Jh.), darunter Federproben und Alphabete sowie wiederholte Briefformeln in Niederdeutsch und Mitteldeutsch mit einigen Personen- (Hanse Konighe, Hanse Bischoffen, Lodewich) und Ortsnamen (Swanbekke [Schwanebeck], Halberstat, Hedesleven [Hedersleben]).</accMat>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Die Einträge aus erster Hand im Kalendar vor dem Psalterium weisen auf die Diözese Hildesheim hin, mit besonderer Konzentration auf den hl. Godehard: <quote>Godehardi episcopi</quote>, 4. und 5. Mai (fol. 3v): Translatio und Depositio; <quote>Cantii, Cantiani m.</quote> 31.5, ibid.  Das Fest  <quote>Adventus Mauricii</quote> (25.2.) verweist auf Magdeburg. Die Einträge <quote>Benedicti abbatis</quote>, 21. März (fol. 3v), <quote>Translatio sancti Benedicti </quote>(fol. 4v), und der Zusatz <quote>Scholastice</quote> (fol. 2r) sprechen für die Benutzung in einem benediktinischen Kloster. Das Fehlen des Festes der Hl. Elisabeth (19.11.) kann als Terminus ante quem gelten und spricht für eine Entstehung des Codex vor der Kanonisation der Heiligen (1235). Der gotische Einbandstempel kann eindeutig dem Benediktinerkloster Northeim zugeordnet werden. Im Kalendar fehlt aber eine Hervorhebung des Hauptpatrons Northeims St. Blasius. Als Herkunft und (erster?) Benutzungsort des Psalteriums könnte das Benediktinerkloster St. Godehard in Hildesheim vermutet werden. Dies ergibt sich aus einer grundsätzlichen Nähe - trotz der Abweichungen -  zum Kalendar des Psalteriums Göttingen, Universitätsbibliothek, Ms Theol. 229, 1r-6v. Zu dieser Handschrift, die sicher aus dem Hildesheimer Kloster St. Godehard stammt, vgl. Meyer, Wilhelm, Die Handschriften in Göttingen. 2. Universitätsbibliothek.  Geschichte · Karten · Naturwissenschaften · Theologie · Handschriften aus Lüneburg = Verzeichnis der Handschriften im Preußischen Staate 1. Hannover. 1. Die Handschriften in Göttingen. Teil 2 (Berlin 1893), S. 439. Auch in den Litaneien von Dipl. App. 2 E kommen die Hildesheimer Heiligen Godehard und Bernward [Brenwarde (!)] (fol. 151r) vor. Dazu Vitus (fol. 150v) - das Fest ist in Rubrik hervorgehoben auch im Kalendar von Ms Theol. 229 -; vgl. auch Translatio Viti, nachgetragen fol. 2v (10. 3.): Ein Benedikt-Vitus Altar gab es in der südlichen Nebenapsis der Godehard-Kirche (Aschoff, S. 727). Das Doppelpatronat Maria und Godehard (Hauptaltar) würde auch die Illuminierung mit dem Bildnis Mariens erklären. Eine weitere denkbare Herkunftsmöglichkeit ist das Benediktinerinnenkloster (ab dem 12. Jh. ) Drübeck, deren Patrone Maria, Crispinus und Crispinianus (Fest im Kalendar von 2 E),  später auch Vitus. Vgl. Pötschke, Dieter, Zur Geschichte des Klosters Drübeck und verwandter Institutionen in Ostsachsen, in Id. (Hg), Herrschaft, Glaube und Kunst. Zur Geschichte des Reichsstiftes und Klosters Drübeck = Harzforschungen 24 (Berlin - Wernigerode 2008), S. 23-113, bes. S. 69. In diesem Fall handelte es sich um ein Grenzgebiet zwischen Halberstädter und Hildesheimer Diözese. Die Zuweisung nach Halberstadt (so Meyer, S. 503) ist nicht allein mit den Ortsnamen aus der Diözese Halberstadt, geschrieben auf den Schreibübungen im spätmittelalterlichen HS begründbar. Die typischen Halberstädter  Feste fehlen im Kalendarium. Siehe auch Patrizia Carmassi, Mittelalterliche Skriptorien in Halberstadt?, in Carmassi, Patrizia - Schlotheuber, Eva - Breitenbach, Almut (Hg.), Schriftkultur und religiöse Zentren im norddeutschen Raum. Tagungsakten des Arbeitsgesprächs, Herzog August Bibliothek, 7.- 9. Oktober 2009 (im Druck). Spuren von liturgischer Verwendung: Antiphonen, Invitatorien auf Kopf- und Fußsteg nachgetragen. Verschiedene Hände. Ob der Codex in Northeim nur neugebunden wurde, oder im 15. Jh. dort war, ist nicht bekannt. Zu beiden Benediktinerklöstern, die in der zweiten Hälfte des 15. Jh. zur Bursfelder Kongegation gehörten, siehe: Niedersächsisches Klosterbuch. Verzeichnis der Klöster, Stifte, Kommenden und Beginenhäuser in Niedersachsen und Bremen von den Anfängen bis 1810, hg. von Josef Dolle = Veröffentlichungen des Instituts für Historische Landesforschung der Universität Göttingen 56 (Bielefeld 2012), Bd. 2, S. 719-729 (Hans-Georg Aschoff: St. Godehard); Bd. 3, S. 1100-1108 (Frank Engel: Northeim).</p>
+                  </origin>
+                  <provenance>
+                     <p>Zur Entstehung des Diplomatischen Apparats vgl. Goetting, Hans, Geschichte des Diplomatischen Apparats der Universität Göttingen, in Archivalische Zeitschrift 65 (1969), S. 11-46; Petke, Wolfgang, Aus der Geschichte des Diplomatischen Apparats, in Göttinger Jahrbuch 50 (2002), S. 123-148; Id., Diplomatischer Apparat, in Hoffmann, Dietrich - Maack-Rheinländer,  Kathrin (Hg.), "Ganz für das Studium angelegt". Die Museen, Sammlungen und Gärten der Universität Göttingen (Göttingen 2001), S. 82-90.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>Patrizia Carmassi, Wolfenbüttel 2017.</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Meyer, Wilhelm, Die Handschriften in Göttingen. 3. Universitäts-Bibliothek = Verzeichniss der Handschriften im preussischen Staate I. Hannover 3. Göttingen 3 (Berlin 1894), S. 503.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

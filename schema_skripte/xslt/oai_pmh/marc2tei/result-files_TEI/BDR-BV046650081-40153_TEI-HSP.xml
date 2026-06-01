@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:dcr="http://www.isocat.org/ns/dcr"
+     xmlns:egXML="http://www.tei-c.org/ns/Examples"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von BSB-Hss Clm 7713#Einband</title>
+            <respStmt>
+               <resp>Beschrieben von</resp>
+               <persName role="author">Halm, Karl</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Automatisch generierte Handschriftenbeschreibung aus einem am 27.04.2023 erstellten Eintrag der OAI-PMH Schnittstelle http://bdr.oai.bsb-muenchen.de/OAIHandler mit dem Set-Name cerl.</resp>
+               <name type="org">Handschriftenportal</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <date type="primary" when="1873">1873</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>Für den OPAC-Eintrag verzichtet die Einrichtung Bayerische Staatsbibliothek auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungsbedingungen</ref>des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Halm, Karl: Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Tomi 1 Pars 3.: Codices latinos (Clm) 5251-8100 complectens / secundum Andreae Schmelleri indices composuerunt Carolus Halm, Georgius Thomas, Gulielmus Meyer - Monachii : sumptibus Bibliothecae Regiae, A. 1873. - (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomi 3 Pars 3) - http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00131951-4</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2023-04-28">2023-04-28 00:00:00</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <settlement key="NORM-d0a6343a-081a-3335-baa9-65ce4fd0845c"
+                           ref="https://d-nb.info/gnd/4127793-4">München</settlement>
+               <repository key="NORM-83c5a34d-300e-3b8d-af1e-2d5582778963"
+                           ref="https://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek</repository>
+               <idno>Clm 7713#Einband</idno>
+            </msIdentifier>
+            <head>
+               <index indexName="norm_title">
+                  <term type="title">Spätmittelalterlicher Leineneinband</term>
+               </index>
+               <title>Spätmittelalterlicher Leineneinband</title>
+               <note type="headline">Leineneinband Papier · 14. - 15. Jhdt.</note>
+               <index indexName="norm_material">
+                  <term type="material">Leineneinband Papier </term>
+                  <term type="material_type">linen</term>
+                  <term type="material_type">paper</term>
+               </index>
+               <index indexName="norm_measure">
+                  <term type="measure"/>
+                  <term type="measure_noOfLeaves"/>
+               </index>
+               <index indexName="norm_dimensions">
+                  <term type="dimensions"/>
+                  <term type="height"/>
+                  <term type="width"/>
+                  <term type="depth"/>
+                  <term type="dimensions_typeOfInformation"/>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format">quarto</term>
+                  <term type="format_typeOfInformation">factual</term>
+               </index>
+               <index indexName="norm_origPlace">
+                  <term type="origPlace"/>
+                  <term type="origPlace_norm"/>
+               </index>
+               <index indexName="norm_origDate">
+                  <term type="origDate">14. - 15. Jhdt.</term>
+                  <term type="origDate_notBefore"/>
+                  <term type="origDate_notAfter"/>
+                  <term type="origDate_type"/>
+               </index>
+               <index indexName="norm_textLang">
+                  <term type="textLang">zxx</term>
+                  <term type="textLang-ID"/>
+               </index>
+               <index indexName="norm_form">
+                  <term type="form"/>
+               </index>
+               <index indexName="norm_status">
+                  <term type="status"/>
+               </index>
+               <index indexName="norm_decoration">
+                  <term type="decoration"/>
+               </index>
+               <index indexName="norm_musicNotation">
+                  <term type="musicNotation"/>
+               </index>
+            </head>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

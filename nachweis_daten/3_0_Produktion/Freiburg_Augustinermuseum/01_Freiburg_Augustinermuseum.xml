@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Freiburg_Augustinermuseum/01_Freiburg_Augustinermuseum.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_Cod-St-Katharina-A">Cod. St. Katharina A</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Codex St. Katharina A</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>oN 1094</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_02526">02526</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 2536</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 2536</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>7287</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11722">11722</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11722</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11722</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1204</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11723">11723</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11723</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11723</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Adelh. Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.-Nr. 11723</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11725">11725</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11725</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11725</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1207</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1207</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. Adelh. Nr. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.-Nr. 11725</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11727">11727</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11727</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11727</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1209</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1209</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11731">11731</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11731</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11731</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1213</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11735">11735</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11735</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11735</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1217</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1217</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.-Nr. 11735</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_11736">11736</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 11736</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 11736</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Kat. Adelh. 323</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1218</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_13068">13068</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. 13068</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. 13068</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>STV A 1235</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>A 1235</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-23-001-a---c">G 23/001 a - c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 23/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 23/1 a-c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-23-001-a">G 23/001 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 23/1a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 23 /1a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 23/1a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr.G 23/1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-23-001-b">G 23/001 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 23/1b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 23 /1b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 23/1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-76-021-a">G 76/021 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 76/21a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 76 / 21 a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-76-021-b">G 76/021 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 76/21b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 76 / 21 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-76-021-c">G 76/021 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 76/21c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 76 / 21 c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-76-021-d">G 76/021 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 76/21d</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 76 / 21 d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_DM-K-029-D">DM K 029/D</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. K 29/D</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. K 29 / D</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>K 29/D</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_DM-K-030-D">DM K 030/D</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. K 30/D</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. K 30 / D</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>K 30/D</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_M-72-016">M 72/016</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. M 72/16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. M 72/16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_G-23-001-c">G 23/001 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. G 23/1c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. G 23/1c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_M-29-005">M 29/005</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. M 29/005</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. M 29/005</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_V-36-025">V 36/025</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. V 36/025</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. V 36/025</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_B-1924">B 1924</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. B 1924</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. B 1924</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_B-1925">B 1925</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. B 1925</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. B 1925</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4018272-1">Freiburg im Breisgau</settlement>
+                  <repository key="35456-9">Augustinermuseum</repository>
+                  <idno xml:id="_B-1927">B 1927</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inv.Nr. B 1927</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inv. Nr. B 1927</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

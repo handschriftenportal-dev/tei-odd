@@ -1,0 +1,531 @@
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix schema: <https://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+hspv:MSVOC a skos:ConceptScheme;
+  skos:prefLabel "Fachvokabular"@de, "Domain Vocabulary"@en;
+  skos:definition "Handschriftenkundliches Fachvokabular"@de, "Domain Specific Vocabulary for Manuscript Studies"@en .
+
+hspv:WRLA a skos:ConceptScheme;
+  skos:prefLabel "Schreibsprachen"@de, "Writing languages"@en;
+  skos:definition "Themenbereich: Schreibsprachen"@de, "Domain: Writing languages"@en;
+  skos:inScheme hspv:MSVOC .
+
+hspv:WRLA-A a skos:ConceptScheme;
+  skos:prefLabel "Deutsche Schreibsprachen"@de, "German Writing Languages"@en;
+  skos:definition "Thesaurus: Deutsche Schreibsprachen (WRLA-A)"@de, "Thesaurus: German writing languages (WRLA-A)"@en;
+  skos:inScheme hspv:WRLA;
+  skos:hasTopConcept hspv:WRLA-A506, hspv:WRLA-A683 .
+
+hspv:WRLA-A506 a skos:Concept;
+  skos:notation "WRLA-A506";
+  skos:prefLabel "Hochdeutsch"@de, "High German"@en;
+  skos:narrower hspv:WRLA-A538, hspv:WRLA-A129;
+  skos:inScheme hspv:WRLA-A;
+  skos:topConceptOf hspv:WRLA-A .
+
+hspv:WRLA-A538 a skos:Concept;
+  skos:notation "WRLA-A538";
+  skos:prefLabel "Oberdeutsch"@de, "Upper German"@en;
+  skos:broader hspv:WRLA-A506;
+  skos:definition "Zu Literatur und Definition des Oberdeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Oberdeutsch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Oberdeutsch."@de;
+  skos:narrower hspv:WRLA-A317, hspv:WRLA-A523, hspv:WRLA-A551;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A317 a skos:Concept;
+  skos:notation "WRLA-A317";
+  skos:prefLabel "Alemannisch"@de, "Alemannic"@en;
+  skos:altLabel "Westoberdeutsch"@de, "West Upper German"@en;
+  skos:broader hspv:WRLA-A538;
+  skos:definition "Zu Literatur und Definition des Alemannischen bzw. Westoberdeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Westoberdeutsch/Westoberdeutsch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Westoberdeutsch."@de;
+  skos:narrower hspv:WRLA-A273, hspv:WRLA-A848, hspv:WRLA-A352, hspv:WRLA-A640, hspv:WRLA-A940,
+    hspv:WRLA-A375;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A273 a skos:Concept;
+  skos:notation "WRLA-A273";
+  skos:prefLabel "Schwäbisch"@de, "Swabian"@en;
+  skos:broader hspv:WRLA-A317;
+  skos:definition "Zu Literatur und Definition des Schwäbischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Westoberdeutsch/Schwaebisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Schwaebisch."@de;
+  skos:narrower hspv:WRLA-A689, hspv:WRLA-A214, hspv:WRLA-A960, hspv:WRLA-A482;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A689 a skos:Concept;
+  skos:notation "WRLA-A689";
+  skos:prefLabel "Westschwäbisch"@de, "West Swabian"@en;
+  skos:broader hspv:WRLA-A273;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A214 a skos:Concept;
+  skos:notation "WRLA-A214";
+  skos:prefLabel "Zentralschwäbisch"@de, "Central Swabian"@en;
+  skos:broader hspv:WRLA-A273;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A960 a skos:Concept;
+  skos:notation "WRLA-A960";
+  skos:prefLabel "Südschwäbisch"@de, "South Swabian"@en;
+  skos:broader hspv:WRLA-A273;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A482 a skos:Concept;
+  skos:notation "WRLA-A482";
+  skos:prefLabel "Ostschwäbisch"@de, "East Swabian"@en;
+  skos:broader hspv:WRLA-A273;
+  skos:definition "Zu Merkmalen des Ostschwäbischen vgl. den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Augsburgisch."@de;
+  skos:narrower hspv:WRLA-A638;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A638 a skos:Concept;
+  skos:notation "WRLA-A638";
+  skos:prefLabel "Augsburgisch"@de, "Augsburg Swabian"@en;
+  skos:broader hspv:WRLA-A482;
+  skos:definition "Zu Merkmalen des Augsburgischen vgl. den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Augsburgisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A848 a skos:Concept;
+  skos:notation "WRLA-A848";
+  skos:prefLabel "Bodenseealemannisch"@de, "Lake Constance Alemannic dialect"@en;
+  skos:broader hspv:WRLA-A317;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A352 a skos:Concept;
+  skos:notation "WRLA-A352";
+  skos:prefLabel "Oberrheinisch"@de, "Upper Rhenish"@en;
+  skos:broader hspv:WRLA-A317;
+  skos:definition "Zu Literatur und Definition des Oberrheinischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Westoberdeutsch/Oberrheinisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Oberrheinisch."@de;
+  skos:narrower hspv:WRLA-A326;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A326 a skos:Concept;
+  skos:notation "WRLA-A326";
+  skos:prefLabel "Elsässisch"@de, "Alsatian"@en;
+  skos:broader hspv:WRLA-A352;
+  skos:definition "Zu Literatur zum Elsässischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Westoberdeutsch/Oberrheinisch.htm."@de;
+  skos:narrower hspv:WRLA-A773;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A773 a skos:Concept;
+  skos:notation "WRLA-A773";
+  skos:prefLabel "Nordelsässisch"@de, "North Alsatian"@en;
+  skos:broader hspv:WRLA-A326;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A640 a skos:Concept;
+  skos:notation "WRLA-A640";
+  skos:prefLabel "Ostalemannisch"@de, "East Alemannic"@en;
+  skos:broader hspv:WRLA-A317;
+  skos:definition "Das Ostalemannische bezeichnet den Osten des alemannischen Sprachraums und kann damit auf Teile des Schwäbischen, Südalemannischen und Bodenseealemannischen verweisen. Es wird vorwiegend für Schreibsprachenbestimmungen bis zum 13. Jh. (vereinzelt noch 14. Jh.) verwendet, also für eine Zeit, in der die sprachliche Merkmalsausprägung für eine sichere Bestimmung noch nicht weit genug vorangeschritten war."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A940 a skos:Concept;
+  skos:notation "WRLA-A940";
+  skos:prefLabel "Niederalemannisch"@de, "Low Alemannic"@en;
+  skos:broader hspv:WRLA-A317;
+  skos:definition "Das Niederalemannische gehört zu einer älteren Einteilung des Alemannischen, in der zwischen Schwäbisch, Hochalemannisch und Niederalemmanisch untergliedert wurde. Dabei entspricht das Niederalemannische weitgehend dem Oberrheinischen mit Ausläufern zum Bodenseealemannischen. Vor allem in Schreibsprachenbestimmungen zu Handschriften, die vor dem 13./14. Jh. entstanden sind, findet man die Bezeichnung \"niederalemannisch\"."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A375 a skos:Concept;
+  skos:notation "WRLA-A375";
+  skos:prefLabel "Südalemannisch"@de, "South Alemannic"@en;
+  skos:broader hspv:WRLA-A317;
+  skos:definition "Zu Literatur und Definition des Südalemannischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Westoberdeutsch/Suedalemannisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Suedalemannisch."@de;
+  skos:narrower hspv:WRLA-A966, hspv:WRLA-A517;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A966 a skos:Concept;
+  skos:notation "WRLA-A966";
+  skos:prefLabel "Hochalemannisch"@de, "High Alemannic"@en;
+  skos:broader hspv:WRLA-A375;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A517 a skos:Concept;
+  skos:notation "WRLA-A517";
+  skos:prefLabel "Höchstalemannisch"@de, "Highest Alemannic"@en;
+  skos:broader hspv:WRLA-A375;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A523 a skos:Concept;
+  skos:notation "WRLA-A523";
+  skos:prefLabel "Bairisch"@de, "Bavarian"@en;
+  skos:altLabel "Ostoberdeutsch"@de, "East Upper German"@en;
+  skos:broader hspv:WRLA-A538;
+  skos:definition "Zu Literatur und Definition des Bairischen bzw. Ostoberdeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Ostoberdeutsch/Ostoberdeutsch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Ostoberdeutsch."@de;
+  skos:narrower hspv:WRLA-A149, hspv:WRLA-A181, hspv:WRLA-A307, hspv:WRLA-A928;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A149 a skos:Concept;
+  skos:notation "WRLA-A149";
+  skos:prefLabel "Nordbairisch"@de, "North Bavarian"@en;
+  skos:broader hspv:WRLA-A523;
+  skos:definition "Zu Literatur und Definition des Nordbairischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Ostoberdeutsch/Nordbairisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Nordbairisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A181 a skos:Concept;
+  skos:notation "WRLA-A181";
+  skos:prefLabel "Mittelbairisch"@de, "Central Bavarian"@en;
+  skos:broader hspv:WRLA-A523;
+  skos:definition "Zu Literatur und Definition des Mittelbairischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Ostoberdeutsch/Mittelbairisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Mittelbairisch."@de;
+  skos:narrower hspv:WRLA-A892, hspv:WRLA-A409;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A892 a skos:Concept;
+  skos:notation "WRLA-A892";
+  skos:prefLabel "Westmittelbairisch"@de, "West Central Bavarian"@en;
+  skos:broader hspv:WRLA-A181;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A409 a skos:Concept;
+  skos:notation "WRLA-A409";
+  skos:prefLabel "Ostmittelbairisch"@de, "East Central Bavarian"@en;
+  skos:broader hspv:WRLA-A181;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A307 a skos:Concept;
+  skos:notation "WRLA-A307";
+  skos:prefLabel "Südbairisch"@de, "South Bavarian"@en;
+  skos:broader hspv:WRLA-A523;
+  skos:definition "Zu Literatur und Definition des Südbairischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Ostoberdeutsch/Suedbairisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Suedbairisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A928 a skos:Concept;
+  skos:notation "WRLA-A928";
+  skos:prefLabel "Mittel-/Südbairisch"@de, "Central/ South Bavarian"@en;
+  skos:altLabel "Bairisch-Österreichisch"@de;
+  skos:broader hspv:WRLA-A523;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A551 a skos:Concept;
+  skos:notation "WRLA-A551";
+  skos:prefLabel "Nordoberdeutsch"@de, "North Upper German"@en;
+  skos:broader hspv:WRLA-A538;
+  skos:narrower hspv:WRLA-A139, hspv:WRLA-A201;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A139 a skos:Concept;
+  skos:notation "WRLA-A139";
+  skos:prefLabel "Ostfränkisch"@de, "Eastern Franconian"@en;
+  skos:broader hspv:WRLA-A551;
+  skos:definition "Zu Literatur zum Ostfränkischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Nordoberdeutsch/Nordoberdeutsch_Ostfr.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html (hier A.III)."@de;
+  skos:narrower hspv:WRLA-A669;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A669 a skos:Concept;
+  skos:notation "WRLA-A669";
+  skos:prefLabel "Nordbairisch-Ostfränkisch"@de, "North Bavarian/ Eastern Franconian"@en;
+  skos:broader hspv:WRLA-A139;
+  skos:narrower hspv:WRLA-A921;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A921 a skos:Concept;
+  skos:notation "WRLA-A921";
+  skos:prefLabel "Nürnbergisch"@de, "Nuremberg Bavarian"@en;
+  skos:broader hspv:WRLA-A669;
+  skos:definition "Zu Literatur und Definition des Nürnbergischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Nordoberdeutsch/Nordoberdeutsch_Ostfr.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Nuernbergisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A201 a skos:Concept;
+  skos:notation "WRLA-A201";
+  skos:prefLabel "Hennebergisch"@de, "Henneberg Franconian"@en;
+  skos:broader hspv:WRLA-A551;
+  skos:definition "Zu Merkmalen des Hennebergischen vgl. den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Hennebergisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A129 a skos:Concept;
+  skos:notation "WRLA-A129";
+  skos:prefLabel "Mitteldeutsch"@de, "Central German"@en;
+  skos:broader hspv:WRLA-A506;
+  skos:definition "Zu Literatur und Definition des Mitteldeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Mitteldeutsch.htm."@de;
+  skos:narrower hspv:WRLA-A222, hspv:WRLA-A659;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A222 a skos:Concept;
+  skos:notation "WRLA-A222";
+  skos:prefLabel "Westmitteldeutsch"@de, "West Central German"@en;
+  skos:broader hspv:WRLA-A129;
+  skos:definition "Zu Literatur und Definition des Westmitteldeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Westmitteldeutsch/Westmitteldeutsch.htm."@de;
+  skos:narrower hspv:WRLA-A851, hspv:WRLA-A207;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A851 a skos:Concept;
+  skos:notation "WRLA-A851";
+  skos:prefLabel "Mittelfränkisch"@de, "Central Franconian"@en;
+  skos:broader hspv:WRLA-A222;
+  skos:narrower hspv:WRLA-A497, hspv:WRLA-A977;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A497 a skos:Concept;
+  skos:notation "WRLA-A497";
+  skos:prefLabel "Ripuarisch"@de, "Ripuarian"@en;
+  skos:broader hspv:WRLA-A851;
+  skos:definition "Zu Literatur und Definition des Ripuarischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Westmitteldeutsch/Ripuarisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Ripuarisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A977 a skos:Concept;
+  skos:notation "WRLA-A977";
+  skos:prefLabel "Moselfränkisch"@de, "Moselle Franconian"@en;
+  skos:broader hspv:WRLA-A851;
+  skos:definition "Zu Literatur und Definition des Moselfränkischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Westmitteldeutsch/Moselfraenkisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Moselfraenkisch."@de;
+  skos:narrower hspv:WRLA-A764;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A764 a skos:Concept;
+  skos:notation "WRLA-A764";
+  skos:prefLabel "Lothringisch"@de, "Lorraine Franconian"@en;
+  skos:broader hspv:WRLA-A977;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A207 a skos:Concept;
+  skos:notation "WRLA-A207";
+  skos:prefLabel "Rheinfränkisch"@de, "Rhenish Franconian"@en;
+  skos:broader hspv:WRLA-A222;
+  skos:definition "Zu Literatur und Definition des Rheinfränkischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Westmitteldeutsch/Suedrheinfraenkisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Rheinfraenkisch."@de;
+  skos:narrower hspv:WRLA-A845, hspv:WRLA-A399;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A845 a skos:Concept;
+  skos:notation "WRLA-A845";
+  skos:prefLabel "Hessisch"@de, "Hessian"@en;
+  skos:broader hspv:WRLA-A207;
+  skos:definition "Zu Literatur und Definition des Hessischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Westmitteldeutsch/Suedrheinfraenkisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Nordhessisch, https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Oberhessisch, https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Suedhessisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A399 a skos:Concept;
+  skos:notation "WRLA-A399";
+  skos:prefLabel "Südrheinfränkisch"@de, "South Rhenish Franconian"@en;
+  skos:altLabel "Südfränkisch"@de;
+  skos:broader hspv:WRLA-A207;
+  skos:definition "Zu Literatur und Definition des Südrheinfränkischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Westmitteldeutsch/Suedrheinfraenkisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Suedrheinfraenkisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A659 a skos:Concept;
+  skos:notation "WRLA-A659";
+  skos:prefLabel "Ostmitteldeutsch"@de, "East Central German"@en;
+  skos:broader hspv:WRLA-A129;
+  skos:definition "Zu Literatur und Definition des Ostmitteldeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Ostmitteldeutsch/Ostmitteldeutsch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Ostmitteldeutsch."@de;
+  skos:narrower hspv:WRLA-A869, hspv:WRLA-A554, hspv:WRLA-A449, hspv:WRLA-A757, hspv:WRLA-A353;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A869 a skos:Concept;
+  skos:notation "WRLA-A869";
+  skos:prefLabel "Thüringisch"@de, "Thuringian"@en;
+  skos:broader hspv:WRLA-A659;
+  skos:definition "Zu Literatur und Definition des Thüringischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Ostmitteldeutsch/Thueringisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Thueringisch."@de;
+  skos:narrower hspv:WRLA-A584;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A584 a skos:Concept;
+  skos:notation "WRLA-A584";
+  skos:prefLabel "Nordthüringisch"@de, "North Thuringian"@en;
+  skos:broader hspv:WRLA-A869;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A554 a skos:Concept;
+  skos:notation "WRLA-A554";
+  skos:prefLabel "Obersächsisch"@de, "Upper Saxon"@en;
+  skos:broader hspv:WRLA-A659;
+  skos:definition "Zu Literatur und Definition des Obersächsischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Ostmitteldeutsch/Obersaechsisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Obersaechsisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A449 a skos:Concept;
+  skos:notation "WRLA-A449";
+  skos:prefLabel "Schlesisch"@de, "Silesian"@en;
+  skos:broader hspv:WRLA-A659;
+  skos:definition "Zu Literatur und Definition des Schlesischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Mitteldeutsch/Ostmitteldeutsch/Schlesisch.htm; zu Merkmalen vgl. auch den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Schlesisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A757 a skos:Concept;
+  skos:notation "WRLA-A757";
+  skos:prefLabel "Böhmisch"@de, "Bohemian"@en;
+  skos:broader hspv:WRLA-A659;
+  skos:definition "Zu Literatur und Definition des Böhmischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Oberdeutsch/Boehmisch.htm."@de;
+  skos:narrower hspv:WRLA-A705, hspv:WRLA-A268;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A705 a skos:Concept;
+  skos:notation "WRLA-A705";
+  skos:prefLabel "Nordböhmisch"@de, "North Bohemian"@en;
+  skos:broader hspv:WRLA-A757;
+  skos:definition "Zu Merkmalen des Nordböhmischen vgl. den Merkmalkatalog 'Schreibsprachen des Mittelalters' von Ulrich Seelbach unter https://wwwhomes.uni-bielefeld.de/useelbach/schreibsprachen/merkmalkatalog.html#Nordboehmisch."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A268 a skos:Concept;
+  skos:notation "WRLA-A268";
+  skos:prefLabel "Südböhmisch"@de, "South Bohemian"@en;
+  skos:broader hspv:WRLA-A757;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A353 a skos:Concept;
+  skos:notation "WRLA-A353";
+  skos:prefLabel "Hochpreußisch"@de, "High Prussian"@en;
+  skos:broader hspv:WRLA-A659;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A683 a skos:Concept;
+  skos:notation "WRLA-A683";
+  skos:prefLabel "Niederdeutsch"@de, "Low German"@en;
+  skos:definition "Zu Literatur und Definition des Niederdeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Niederdeutsch.htm."@de;
+  skos:narrower hspv:WRLA-A496, hspv:WRLA-A229, hspv:WRLA-A100, hspv:WRLA-A253, hspv:WRLA-A467;
+  skos:inScheme hspv:WRLA-A;
+  skos:topConceptOf hspv:WRLA-A .
+
+hspv:WRLA-A496 a skos:Concept;
+  skos:notation "WRLA-A496";
+  skos:prefLabel "Nordniederdeutsch"@de, "North Low German"@en;
+  skos:broader hspv:WRLA-A683;
+  skos:definition "Zu Literatur und Definition des Nordniederdeutschen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Nordniederdeutsch/Nordniederdeutsch.htm."@de;
+  skos:narrower hspv:WRLA-A512, hspv:WRLA-A177, hspv:WRLA-A816, hspv:WRLA-A968;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A512 a skos:Concept;
+  skos:notation "WRLA-A512";
+  skos:prefLabel "Nordniedersächsisch"@de, "North Low Saxon"@en;
+  skos:broader hspv:WRLA-A496;
+  skos:definition "Zu Literatur und Definition des Nordniedersächsischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Nordniederdeutsch/Nordniedersaechsisch.htm."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A177 a skos:Concept;
+  skos:notation "WRLA-A177";
+  skos:prefLabel "Groningen-Ostfriesisch"@de, "Gronings-East Frisian"@en;
+  skos:broader hspv:WRLA-A496;
+  skos:definition "Zu Literatur und Definition des Groningen-Ostfriesischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Nordniederdeutsch/Groningisch.htm."@de;
+  skos:narrower hspv:WRLA-A133;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A133 a skos:Concept;
+  skos:notation "WRLA-A133";
+  skos:prefLabel "Ostfriesisch"@de, "East Frisian"@en;
+  skos:broader hspv:WRLA-A177;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A816 a skos:Concept;
+  skos:notation "WRLA-A816";
+  skos:prefLabel "Ostelbisch"@de, "East Elbian"@en;
+  skos:broader hspv:WRLA-A496;
+  skos:definition "Zu Literatur und Definition des Ostelbischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Nordniederdeutsch/Ostelbisch.htm."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A405 a skos:Concept;
+  skos:notation "WRLA-A405";
+  skos:prefLabel "Ijsselländisch"@de, "Ijsselland dialect"@en;
+  skos:broader hspv:WRLA-A842;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A968 a skos:Concept;
+  skos:notation "WRLA-A968";
+  skos:prefLabel "Baltisch"@de, "Baltic German"@en;
+  skos:broader hspv:WRLA-A496;
+  skos:definition "Zu Literatur und Definition des Baltischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Nordniederdeutsch/Baltisch.htm."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A229 a skos:Concept;
+  skos:notation "WRLA-A229";
+  skos:prefLabel "Niederfränkisch"@de, "Low Franconian"@en;
+  skos:broader hspv:WRLA-A683;
+  skos:narrower hspv:WRLA-A842;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A842 a skos:Concept;
+  skos:notation "WRLA-A842";
+  skos:prefLabel "Rhein-Maasländisch"@de, "Meuse-Rhenish"@en;
+  skos:broader hspv:WRLA-A229;
+  skos:narrower hspv:WRLA-A405, hspv:WRLA-A104, hspv:WRLA-A437, hspv:WRLA-A890;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A104 a skos:Concept;
+  skos:notation "WRLA-A104";
+  skos:prefLabel "Südniederfränkisch"@de, "South Low Franconian"@en;
+  skos:broader hspv:WRLA-A842;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A437 a skos:Concept;
+  skos:notation "WRLA-A437";
+  skos:prefLabel "Ostbergisch"@de, "East Bergish"@en;
+  skos:broader hspv:WRLA-A842;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A890 a skos:Concept;
+  skos:notation "WRLA-A890";
+  skos:prefLabel "Nordniederfränkisch"@de, "North Low Franconian"@en;
+  skos:broader hspv:WRLA-A842;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A100 a skos:Concept;
+  skos:notation "WRLA-A100";
+  skos:prefLabel "Westfälisch"@de, "Westphalian"@en;
+  skos:broader hspv:WRLA-A683;
+  skos:definition "Zu Literatur und Definition des Westfälischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Westfaelisch/Westfaelisch.htm."@de;
+  skos:narrower hspv:WRLA-A469, hspv:WRLA-A243, hspv:WRLA-A859;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A469 a skos:Concept;
+  skos:notation "WRLA-A469";
+  skos:prefLabel "Ostwestfälisch"@de, "East Westphalian"@en;
+  skos:broader hspv:WRLA-A100;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A243 a skos:Concept;
+  skos:notation "WRLA-A243";
+  skos:prefLabel "Südwestfälisch"@de, "South Westphalian"@en;
+  skos:broader hspv:WRLA-A100;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A859 a skos:Concept;
+  skos:notation "WRLA-A859";
+  skos:prefLabel "Münsterländisch"@de, "Munsterland dialect"@en;
+  skos:broader hspv:WRLA-A100;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A253 a skos:Concept;
+  skos:notation "WRLA-A253";
+  skos:prefLabel "Ostfälisch"@de, "Eastphalian"@en;
+  skos:broader hspv:WRLA-A683;
+  skos:definition "Zu Literatur und Definition des Ostfälischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Ostfaelisch/Ostfaelisch.htm."@de;
+  skos:narrower hspv:WRLA-A747;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A747 a skos:Concept;
+  skos:notation "WRLA-A747";
+  skos:prefLabel "Elbostfälisch"@de, "Elbian Eastphalian"@en;
+  skos:broader hspv:WRLA-A253;
+  skos:definition "Zu Literatur und Definition des Elbostfälischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Ostfaelisch/Elbostfaelisch.htm."@de;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A467 a skos:Concept;
+  skos:notation "WRLA-A467";
+  skos:prefLabel "Märkisch"@de, "Brandenburgish"@en;
+  skos:broader hspv:WRLA-A683;
+  skos:narrower hspv:WRLA-A392, hspv:WRLA-A349;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A392 a skos:Concept;
+  skos:notation "WRLA-A392";
+  skos:prefLabel "Nordmärkisch"@de, "North Brandenburgish"@en;
+  skos:broader hspv:WRLA-A467;
+  skos:inScheme hspv:WRLA-A .
+
+hspv:WRLA-A349 a skos:Concept;
+  skos:notation "WRLA-A349";
+  skos:prefLabel "Südmärkisch"@de, "South Brandenburgish"@en;
+  skos:broader hspv:WRLA-A467;
+  skos:definition "Zu Literatur und Definition des Südmärkischen vgl. die Internetbibliographie von Brigitte Pfeil unter https://bilder.manuscripta-mediaevalia.de/gaeste/Schreibsprachen/Niederdeutsch/Suedmaerkisch/Suedmaerkisch.htm."@de;
+  skos:inScheme hspv:WRLA-A .

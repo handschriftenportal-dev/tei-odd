@@ -1,0 +1,131 @@
+20240819-HSP-Test-ENTWURF-Maximaldatensatz_Schulungs-000000094_PICA+MARC+MARCXML
+
+PICA
+
+0100 000000094
+0500 Har
+1100 12XX$n[13. Jh. Erste Hälfte]
+1131 !10457187X!Handschrift ; ID: gnd/4023287-6
+1500 lat
+2113 HSP: HSP-d1956e88-612b-33bc-8772-91e9b12f893b
+2240 KXP: 000000094
+4000 Berlin, Staatsbibliothek zu Berlin, Ms. germ. fol. 1 [HSP-Maximal]
+4060 255 Bl.
+4061 yes [Buchschmuck]
+4062 45 × 30,5
+4243 Erscheint auch als$nDigitalisierte Ausg.!756657482!Trojanerkrieg / $PKonrad$lvon Würzburg *1230-1287* ; ID: gnd/118565133. - Hagenau, [um 1445]
+4277 $mZustand: Pergament
+4277 $eTypus: codex
+4277 $pProvenienz: Paris (?) / Nordfrankreich (?)
+4961 https://resolver.staatsbibliothek-berlin.de/HSP00035FC400000000
+E001 12-08-24 : r
+4801 verschollen, zerstört, zerteilt, unbekannt, disloziert
+7100 $f1:HSM$a[Signatur]$di
+7902 16-08-24
+7903 16-08-24 15:35:14.000
+7800 00000099X
+
+
+MARC21
+000 $0 ctm a22 2 4500
+001 $0000000094
+003 $0DE-627
+005 $020240819111252.0
+007 $0tu
+008 $0240816n12uuuuuuxx ||||| 00| ||lat c
+035 $a(DE-627)000000094
+035 $a(DE-599)KXP000000094
+035 $a(HSP)HSP-d1956e88-612b-33bc-8772-91e9b12f893b
+040 $aDE-627$bger$cDE-627$erakwb
+041 $alat
+245 10$aBerlin, Staatsbibliothek zu Berlin, Ms. germ. fol. 1 [HSP-Maximal]
+264 1$c[13. Jh. Erste Hälfte]
+300 $a255 Bl.$byes [Buchschmuck]$c45 × 30,5
+336 $anicht spezifiziert$bzzz$2rdacontent
+337 $anicht spezifiziert$bz$2rdamedia
+338 $anicht spezifiziert$bzu$2rdacarrier
+562 $aZustand: Pergament
+655 7$aHandschrift$0(DE-588)4023287-6$0(DE-627)10457187X$0(DE-576)208948376$2gnd-content
+776 08$iErscheint auch als$nDigitalisierte Ausg.$aKonrad, von Würzburg, 1230 - 1287$tTrojanerkrieg$dHagenau, 1445$h7+453 Bl.$w(DE-627)756657482
+856 42$uhttps://resolver.staatsbibliothek-berlin.de/HSP00035FC400000000
+924 0 $a00000099X$bDE-1a$91a$cGBV$dd$g[Signatur]$h1:HSM
+951 $aBO
+
+MARCXML
+<record>
+	<leader>ctm a22 2 4500</leader>
+	<controlfield tag="001">000000094</controlfield>
+	<controlfield tag="003">DE-627</controlfield>
+	<controlfield tag="005">20240819111252.0</controlfield>
+	<controlfield tag="007">tu</controlfield>
+	<controlfield tag="008">240816n12uuuuuuxx ||||| 00| ||lat c</controlfield>
+	<datafield tag="035" ind1=" " ind2=" ">
+		<subfield code="a">(DE-627)000000094</subfield>
+	</datafield>
+	<datafield tag="035" ind1=" " ind2=" ">
+		<subfield code="a">(DE-599)KXP000000094</subfield>
+	</datafield>
+	<datafield tag="035" ind1=" " ind2=" ">
+		<subfield code="a">(HSP)HSP-d1956e88-612b-33bc-8772-91e9b12f893b</subfield>
+	</datafield>
+	<datafield tag="040" ind1=" " ind2=" ">
+		<subfield code="a">DE-627</subfield>
+		<subfield code="b">ger</subfield>
+		<subfield code="c">DE-627</subfield>
+		<subfield code="e">rakwb</subfield>
+	</datafield>
+	<datafield tag="041" ind1=" " ind2=" ">
+		<subfield code="a">lat</subfield>
+	</datafield>
+	<datafield tag="245" ind1="1" ind2="0">
+		<subfield code="a">Berlin, Staatsbibliothek zu Berlin, Ms. germ. fol. 1 [HSP-Maximal]</subfield>
+	</datafield>
+	<datafield tag="264" ind1=" " ind2="1">
+		<subfield code="c">[13. Jh. Erste Hälfte]</subfield>
+	</datafield>
+	<datafield tag="300" ind1=" " ind2=" ">
+		<subfield code="a">255 Bl.</subfield>
+		<subfield code="b">yes [Buchschmuck]</subfield>
+		<subfield code="c">45 × 30,5</subfield>
+	</datafield>
+	<datafield tag="336" ind1=" " ind2=" ">
+		<subfield code="a">nicht spezifiziert</subfield>
+		<subfield code="b">zzz</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield tag="337" ind1=" " ind2=" ">
+		<subfield code="a">nicht spezifiziert</subfield>
+		<subfield code="b">z</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield tag="338" ind1=" " ind2=" ">
+		<subfield code="a">nicht spezifiziert</subfield>
+		<subfield code="b">zu</subfield>
+		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield tag="562" ind1=" " ind2=" ">
+		<subfield code="a">Zustand: Pergament</subfield>
+	</datafield>
+	<datafield tag="655" ind1=" " ind2="7">
+		<subfield code="a">Handschrift</subfield>
+		<subfield code="0">(DE-588)4023287-6</subfield>
+		<subfield code="0">(DE-627)10457187X</subfield>
+		<subfield code="0">(DE-576)208948376</subfield>
+		<subfield code="2">gnd-content</subfield>
+	</datafield>
+	<datafield tag="776" ind1="0" ind2="8">
+		<subfield code="i">Erscheint auch als</subfield>
+		<subfield code="n">Digitalisierte Ausg.</subfield>
+		<subfield code="a">Konrad, von Würzburg, 1230 - 1287</subfield>
+		<subfield code="t">Trojanerkrieg</subfield>
+		<subfield code="d">Hagenau, 1445</subfield>
+		<subfield code="h">7+453 Bl.</subfield>
+		<subfield code="w">(DE-627)756657482</subfield>
+	</datafield>
+	<datafield tag="856" ind1="4" ind2="2">
+		<subfield code="u">https://resolver.staatsbibliothek-berlin.de/HSP00035FC400000000</subfield>
+	</datafield>
+	<datafield tag="951" ind1=" " ind2=" ">
+		<subfield code="a">BO</subfield>
+	</datafield>
+</record>

@@ -1,0 +1,1520 @@
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix schema: <https://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+hspv:DECO-H a skos:ConceptScheme;
+  skos:prefLabel "Grundelemente (Buchschmuck)"@de, "Basic elements (decoration)"@en;
+  skos:definition "Thesaurus: Grundelemente Buchschmuck (DECO-H)"@de, "Thesaurus: Basic elements (decoration) (DECO-H)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-H723, hspv:DECO-H840, hspv:DECO-H333, hspv:DECO-H386,
+    hspv:DECO-H516, hspv:DECO-H732, hspv:DECO-H637 .
+
+hspv:DECO-H723 a skos:Concept;
+  skos:notation "DECO-H723";
+  skos:prefLabel "Initiale"@de, "initial"@en;
+  skos:altLabel "(Schmuck-)initiale"@de, "Schmuckinitiale"@de, "Schmuckinitialen"@de;
+  skos:definition "(lat. initialis »am Anfang stehend«) Gemäß der lateinischen Bedeutung versteht man unter Initiale jeden Buchstaben am Textanfang, der gegenüber der Textschrift bzw. – sofern vorhanden – den Satzmajuskeln in Größe oder Form herausgehoben ist. Der Initialenschmuck einer Handschrift ist üblicherweise zu Gliederungszwecken hierarchisch gestaffelt. Initialen wurden in der Regel erst in einem zweiten oder dritten Bearbeitungsschritt der Handschrift in freigelassene Lücken nachgetragen. Einfache farbig (meist rot) abgesetzte Initialen sind insbesondere bei Handschriften ohne Buchschmuck Teil der Rubrizierung. Sekundäre Initialen werden nach ihrer Position im Text unterschieden in Initialmajuskeln, Satzmajuskeln und Versalien."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 22, 49 +";
+  skos:narrower hspv:DECO-H144, hspv:DECO-H150, hspv:DECO-H523, hspv:DECO-H241, hspv:DECO-H819,
+    hspv:DECO-H862;
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-H144 a skos:Concept;
+  skos:notation "DECO-H144";
+  skos:prefLabel "Initiale ohne Besatz"@de, "initial without external decoration"@en;
+  skos:broader hspv:DECO-H723;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H150 a skos:Concept;
+  skos:notation "DECO-H150";
+  skos:prefLabel "Initiale mit Besatz"@de, "initial with external decoration"@en;
+  skos:broader hspv:DECO-H723;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H523 a skos:Concept;
+  skos:notation "DECO-H523";
+  skos:prefLabel "Initiale ohne Füllung"@de, "initial without infillings"@en;
+  skos:altLabel "Initiale ohne Binnendekor"@de;
+  skos:broader hspv:DECO-H723;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H241 a skos:Concept;
+  skos:notation "DECO-H241";
+  skos:prefLabel "Initiale mit Füllung"@de, "initial with infillings"@en;
+  skos:broader hspv:DECO-H723;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H819 a skos:Concept;
+  skos:notation "DECO-H819";
+  skos:prefLabel "Initiale mit Initialfeld"@de, "initial in a framed field"@en;
+  skos:altLabel "Feldbuchstabe"@de, "champie initial"@en;
+  skos:broader hspv:DECO-H723;
+  skos:definition "Initiale auf einem fest begrenzten Feld, häufig konturiert oder gerahmt"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 62, 83";
+  skos:narrower hspv:DECO-H141, hspv:DECO-H491;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H141 a skos:Concept;
+  skos:notation "DECO-H141";
+  skos:prefLabel "Initiale mit Initialfeld nicht grundiert"@de, "initial in a framed field without decorated ground"@en;
+  skos:altLabel "Initiale mit Initialfeld ohne Grund"@de;
+  skos:broader hspv:DECO-H819;
+  skos:definition "Initiale auf einem nicht gestalteten oder gefärbtem gerahmten oder konturierten Feld"@de;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H491 a skos:Concept;
+  skos:notation "DECO-H491";
+  skos:prefLabel "Initiale mit Initialfeld grundiert"@de, "initial in a framed and decorated field"@en;
+  skos:altLabel "Initiale mit Initialfeld auf Grund"@de;
+  skos:broader hspv:DECO-H819;
+  skos:definition "Initiale auf einem gestalteten oder gerahmten oder konturierten Feld mit gefärbtem oder gestaltetem Grund"@de;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H862 a skos:Concept;
+  skos:notation "DECO-H862";
+  skos:prefLabel "Initiale ohne Initialfeld"@de, "unframed initial"@en;
+  skos:broader hspv:DECO-H723;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H840 a skos:Concept;
+  skos:notation "DECO-H840";
+  skos:prefLabel "lineares Schmuckelement (Stab/Leiste)"@de, "linear ornament (bar/border)"@en;
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-H333 a skos:Concept;
+  skos:notation "DECO-H333";
+  skos:prefLabel "Rahmen"@de, "frame"@en;
+  skos:narrower hspv:DECO-H398, hspv:DECO-H549, hspv:DECO-H349, hspv:DECO-H555;
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-H398 a skos:Concept;
+  skos:notation "DECO-H398";
+  skos:prefLabel "viereckiger Rahmen"@de, "rectangular frame"@en;
+  skos:altLabel "Rahmen viereckig"@de, "square frame"@en;
+  skos:broader hspv:DECO-H333;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H549 a skos:Concept;
+  skos:notation "DECO-H549";
+  skos:prefLabel "runder Rahmen"@de, "circular frame"@en;
+  skos:altLabel "Rahmen rund"@de, "Medaillonrahmen"@de, "round frame"@en, "medaillon frame"@en;
+  skos:broader hspv:DECO-H333;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H349 a skos:Concept;
+  skos:notation "DECO-H349";
+  skos:prefLabel "Architekturrahmen"@de, "architectural frame"@en;
+  skos:altLabel "architektonischer Rahmen"@de;
+  skos:broader hspv:DECO-H333;
+  skos:definition "Allgemeiner Begriff für Rahmen mit oder in Form von architektonischen Versatzstücken (z. B. in Ädikulaform, mit Säulen als vertikale Begrenzung, mit Haus- und Stadtformen am oberen Rahmenrand, bisweilen mit stilisierten Darstellungen bestimmter Örtlichkeiten). Vorhangmotiv siehe → Baldachinrahmen."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 80";
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H555 a skos:Concept;
+  skos:notation "DECO-H555";
+  skos:prefLabel "sonstige Rahmenform"@de, "other type of frame"@en;
+  skos:broader hspv:DECO-H333;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H386 a skos:Concept;
+  skos:notation "DECO-H386";
+  skos:prefLabel "Ranke"@de, "vine, scroll"@en;
+  skos:altLabel "vine-scroll"@en;
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-H516 a skos:Concept;
+  skos:notation "DECO-H516";
+  skos:prefLabel "selbstständige Darstellung"@de, "autonomous image"@en;
+  skos:altLabel "autonome Darstellung"@de, "autonomous depiction"@en;
+  skos:narrower hspv:DECO-H751;
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-H751 a skos:Concept;
+  skos:notation "DECO-H751";
+  skos:prefLabel "Bild"@de, "image"@en;
+  skos:broader hspv:DECO-H516;
+  skos:altLabel "picture"@en;
+  skos:inScheme hspv:DECO-H .
+
+hspv:DECO-H732 a skos:Concept;
+  skos:notation "DECO-H732";
+  skos:prefLabel "Schema"@de, "diagram"@en;
+  skos:altLabel "Diagramme"@de, "chart"@en;
+  skos:definition "Graphisches Hilfsmittel zur Verdeutlichung abstrakter Inhalte oder naturwissenschaftlicher Sachverhalte. Dazu gehören auch Stammbäume (arbores consanguinitatis, oder affinitatis), astronomische, komputistische oder geometrische Figuren, medizinische Diagramme. Schemata können ornamental und figürlich ausgestaltet werden und ganze Zierseiten bilden."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 31";
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-H637 a skos:Concept;
+  skos:notation "DECO-H637";
+  skos:prefLabel "Zierschrift"@de, "decorative script"@en;
+  skos:inScheme hspv:DECO-H;
+  skos:topConceptOf hspv:DECO-H .
+
+hspv:DECO-X a skos:ConceptScheme;
+  skos:prefLabel "Fachbegriffe Buchschmuck"@de, "Specialist terms Decoration"@en;
+  skos:definition "Thesaurus: Fachbegriffe Buchschmuck (DECO-X)"@de, "Thesaurus: Specialist terms Decoration (DECO-X)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-X370, hspv:DECO-X724, hspv:DECO-X419, hspv:DECO-X840,
+    hspv:DECO-X604, hspv:DECO-X735, hspv:DECO-X571, hspv:DECO-X696, hspv:DECO-X316, hspv:DECO-X135,
+    hspv:DECO-X360, hspv:DECO-X682, hspv:DECO-X533, hspv:DECO-X163, hspv:DECO-X573, hspv:DECO-X811,
+    hspv:DECO-X851, hspv:DECO-X254, hspv:DECO-X800, hspv:DECO-X497, hspv:DECO-X181, hspv:DECO-X864,
+    hspv:DECO-X861, hspv:DECO-X809, hspv:DECO-X481, hspv:DECO-X702, hspv:DECO-X297, hspv:DECO-X349,
+    hspv:DECO-X276, hspv:DECO-X340, hspv:DECO-X328, hspv:DECO-X148, hspv:DECO-X315, hspv:DECO-X179,
+    hspv:DECO-X729, hspv:DECO-X603, hspv:DECO-X721, hspv:DECO-X238, hspv:DECO-X718, hspv:DECO-X405,
+    hspv:DECO-X539, hspv:DECO-X846 .
+
+hspv:DECO-X370 a skos:Concept;
+  skos:notation "DECO-X370";
+  skos:prefLabel "Deckfarbenmalerei"@de, "book painting in opaque colours"@en;
+  skos:altLabel "Illuminierung"@de, "Buchmalerei"@de, "book illumination in gouache"@en,
+    "book illumination in opaque colours"@en;
+  skos:definition "Malereitechnik mit einer oder mehreren übereinandergelegten opaken Farbschichten, bei der nachträglich Lichter aufgesetzt und Konturen nachgezogen werden (Köllner 141). Der Gegensatz zur deckenden Malerei ist die lasierende Malerei, die Malerei mit einer oder mehreren transparenten Farbschichten (Lasuren). Bei transparent-wässrigem Farbauftrag über Zeichnungen spricht man von Lavierung. Mittelalterliche Rezeptbücher unterscheiden bei der Ausstattung zweierlei Arten von Farbauftrag: das Korporieren mit gröberen Pigmentpartikeln, z. B. für Buchstabenkörper, und das Florieren oder Musieren mit dünnerer Farbe, z. B. bei Fleuronné (Liber illuministarum, 614 ff)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 110";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C417, hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X724 a skos:Concept;
+  skos:notation "DECO-X724";
+  skos:prefLabel "Aquarell"@de, "book painting in water colour"@en;
+  skos:altLabel "Wasserfarbenmalerei"@de, "book illumination in water colour"@en;
+  skos:definition "Malerei in transparentem Farbauftrag mit nicht-deckenden Wasserfarben. Reine Aquarellmalerei lässt im Gegensatz Gouache und Tempera den Malgrund durchscheinen"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C247, hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X419 a skos:Concept;
+  skos:notation "DECO-X419";
+  skos:prefLabel "Miniatur"@de, "miniature"@en;
+  skos:definition "Alle selbständigen, d. h. nicht an Initialen gebundenen figürlichen Buchmalereien in Deckfarben – gerahmt oder ungerahmt, in der Kolumne oder am Rand. Miniaturen unterscheiden sich nach technischer Ausführung, Gliederungsschema und Beschaffenheit des Grundes. Der Begriff Miniatur wird zuweilen fälschlicherweise für alle Bilder in Handschriften verwendet."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 23";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B604, hspv:DECO-D772, hspv:DECO-H751;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X840 a skos:Concept;
+  skos:notation "DECO-X840";
+  skos:prefLabel "Zeichnung"@de, "drawing"@en;
+  skos:definition "Zu unterscheiden ist nach dem verwendeten Werkzeug (Feder, Pinsel, Griffel), und danach, ob es sich um eine (unvollendete) Vorzeichnung oder eine Zeichnung in eigenem Recht handelt. Zeichnungen rangieren von der nachträglichen autonomen Zeichnung außerhalb der geplanten Buchausstattung bis zum ganzseitigen Bild. Zeichnung kann in verschiedenen Farben ausgeführt sein (meist braun und rot) und mit Farbe ausgestattet werden."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D331;
+  skos:narrower hspv:DECO-X710, hspv:DECO-X480, hspv:DECO-X230, hspv:DECO-X665, hspv:DECO-X493;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X710 a skos:Concept;
+  skos:notation "DECO-X710";
+  skos:prefLabel "Federzeichnung"@de, "pen drawing"@en;
+  skos:altLabel "mit Feder"@de;
+  skos:broader hspv:DECO-X840;
+  skos:definition "Mit Feder und Tinte ausgeführte Zeichnung"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C668, hspv:DECO-D783;
+  skos:narrower hspv:DECO-X495, hspv:DECO-X331;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X495 a skos:Concept;
+  skos:notation "DECO-X495";
+  skos:prefLabel "lavierte Federzeichnung"@de, "wash (pen drawing)"@en;
+  skos:broader hspv:DECO-X710;
+  skos:altLabel "tinted pen drawing"@en;
+  skos:definition "Oft modellierend aufgetrager, transparent-wässriger Farbauftrag über Zeichnungen"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111, vgl. Köllner 1963, 141";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C668, hspv:DECO-C247, hspv:DECO-D783,
+    hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X331 a skos:Concept;
+  skos:notation "DECO-X331";
+  skos:prefLabel "kolorierte Federzeichnung"@de, "coloured pen drawing"@en;
+  skos:broader hspv:DECO-X710;
+  skos:definition "Kolorierungen werden oft großflächig und ohne Modellierung mit transparentem oder deckendem Farbauftrag ausgeführt. Die Unterscheidung zur Lavierungng ist fließend (vgl. Köllner 141)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111, vgl. Köllner 1963, 141";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C668, hspv:DECO-D783;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X480 a skos:Concept;
+  skos:notation "DECO-X480";
+  skos:prefLabel "Griffelzeichnung"@de, "stylus drawing"@en;
+  skos:altLabel "mit Blindgriffel"@de, "Metallgriffel"@de, "slate pencil drawing"@en;
+  skos:broader hspv:DECO-X840;
+  skos:definition "Mit einem Griffel ausgeführte Zeichnung"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D490;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X230 a skos:Concept;
+  skos:notation "DECO-X230";
+  skos:prefLabel "Silberstiftzeichnung"@de, "silver point"@en;
+  skos:broader hspv:DECO-X840;
+  skos:altLabel "silver pen"@en;
+  skos:definition "Mit einem Silberstift ausgeführte Zeichnung"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C153, hspv:DECO-D254;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X665 a skos:Concept;
+  skos:notation "DECO-X665";
+  skos:prefLabel "Bleistiftzeichnung"@de, "pencil"@en;
+  skos:broader hspv:DECO-X840;
+  skos:altLabel "lead pencil"@en;
+  skos:definition "Mit einem Bleistift ausgeführte Zeichnung"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C462, hspv:DECO-D254;
+  skos:narrower hspv:DECO-X213;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X213 a skos:Concept;
+  skos:notation "DECO-X213";
+  skos:prefLabel "kolorierte Bleistiftzeichnung"@de, "coloured pencil drawing"@en;
+  skos:broader hspv:DECO-X665;
+  skos:definition "Kolorierungen werden oft großflächig und ohne Modellierung mit transparentem oder deckendem Farbauftrag ausgeführt. Die Unterscheidung zur Lavierungng ist fließend."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111, vgl. Köllner 1963, 141";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C462, hspv:DECO-D254;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X493 a skos:Concept;
+  skos:notation "DECO-X493";
+  skos:prefLabel "Pinselzeichnung"@de, "brush drawing"@en;
+  skos:altLabel "mit Pinsel"@de;
+  skos:broader hspv:DECO-X840;
+  skos:definition "Mit einem Pinsel ausgeführte Zeichnung"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D772;
+  skos:narrower hspv:DECO-X160, hspv:DECO-X709;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X160 a skos:Concept;
+  skos:notation "DECO-X160";
+  skos:prefLabel "kolorierte Pinselzeichnung"@de, "coloured brush drawing"@en;
+  skos:broader hspv:DECO-X493;
+  skos:definition "Kolorierungen werden oft großflächig und ohne Modellierung mit transparentem oder deckendem Farbauftrag ausgeführt. Die Unterscheidung zur Lavierungng ist fließend."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111, vgl. Köllner 1963, 141";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X709 a skos:Concept;
+  skos:notation "DECO-X709";
+  skos:prefLabel "lavierte Pinselzeichnung"@de, "wash (brush drawing)"@en;
+  skos:altLabel "Lavur, Lavierung"@de;
+  skos:broader hspv:DECO-X493;
+  skos:definition "Oft modellierend aufgetrager, transparent-wässriger Farbauftrag über Zeichnungen"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 111, vgl. Köllner 1963, 141";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C247, hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X604 a skos:Concept;
+  skos:notation "DECO-X604";
+  skos:prefLabel "Vorzeichnung"@de, "preliminary drawing"@en;
+  skos:altLabel "Unterzeichnung"@de, "underdrawing"@en, "preparatory drawing"@en;
+  skos:definition "Vorbereitende Zeichnung, die auch unter der Übermalung als Unterzeichn ung sichtbar sein kann"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X735 a skos:Concept;
+  skos:notation "DECO-X735";
+  skos:prefLabel "Druckgraphik"@de, "printed image"@en;
+  skos:altLabel "Druckgrafik, Graphik, Grafik"@de, "graphic print"@en;
+  skos:definition "Druckgraphisch hergestellte Reproduktion (Graphik)"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D496;
+  skos:narrower hspv:DECO-X677, hspv:DECO-X582, hspv:DECO-X536, hspv:DECO-X231, hspv:DECO-X171,
+    hspv:DECO-X727;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X677 a skos:Concept;
+  skos:notation "DECO-X677";
+  skos:prefLabel "Holzschnitt"@de, "woodcut"@en;
+  skos:broader hspv:DECO-X735;
+  skos:definition "Der Holzschnitt ist ein Hochdruckverfahren, bei dem ein reliefartiger hölzerner Druckstock verwendet wird, um Grafiken zu erzeugen; auch die so erzeugte einzelne Grafik wird Holzschnitt genannt. Zur Herstellung des Druckstocks werden von einem glatt gehobelten Holzbrett mit Schneidemessern die nicht druckenden Teile entfernt und die erhabenen Teile danach eingefärbt und abgedruckt (Hochdruck). Holzschnitte können bereits in Inkunabeln zusammen mit dem Text gedruckt werden. In Handschriften wurden sie jedoch fast immer eingeklebt."@de;
+  dct:bibliographicCitation "Wikipedia";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D638;
+  hspo:hasAdditionalFeature hspv:DECO-A532;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X582 a skos:Concept;
+  skos:notation "DECO-X582";
+  skos:prefLabel "Kupferstich"@de, "engraving"@en;
+  skos:broader hspv:DECO-X735;
+  skos:altLabel "copper engraving"@en;
+  skos:definition "Der Kupferstich ist ein grafisches Tiefdruckverfahren. Beim Kupferstich wird das zu druckende Bild mit einem Grabstichel spanabhebend in eine Kupferplatte „gegraben“ (graviert). Die dabei entstandenen Linien nehmen dann die Farbe auf, welche mit einer Walzenpresse auf das Papier gedruckt wird. In Handschriften findet man Kupferstiche nur als nachträglich eingefügte Bilder."@de;
+  dct:bibliographicCitation "Wikipedia";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D259;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X536 a skos:Concept;
+  skos:notation "DECO-X536";
+  skos:prefLabel "Metallschnitt"@de, "metal cut"@en;
+  skos:broader hspv:DECO-X735;
+  skos:definition "Für metallschnitte werden Platten aus relativ weichem Metall (Zink, Kupfer) auf die gleiche Weise wie beim Holzschnitt bearbeitet und zum Druck verwendet. Mit einem Stichel wurde alles aus der Oberfläche der Metallplatte herausgekratzt, was nicht als Abdruck sichtbar sein sollte. Metallschnitte wurden gelegentlich als Illustrationen in Handschriften des 15. Jahrhunderts eingeplant oder nachträglich eingeklebt."@de;
+  dct:bibliographicCitation "Wikipedia";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D638;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X231 a skos:Concept;
+  skos:notation "DECO-X231";
+  skos:prefLabel "Teigdruck"@de, "paste-print"@en;
+  skos:broader hspv:DECO-X735;
+  skos:altLabel "paste print"@en;
+  skos:definition "Beim Teigdruck wurde in die plastisch verformbare Masse, den „Teig“, eine geschnittene Metallplatte mit einer reliefierten Darstellung wie ein Stempel eingedrückt. Genaugenommen handelt es sich somit um eine Prägetechnik. Auf die erhabenen Stellen wurde eine Farbschicht aufgetragen. Blätter in dieser Technik sind äußerst selten. Erhalten haben sich insgesamt ca. 200 originale Teigdrucke, die meisten davon in Bücher eingelegt oder eingeklebt. Viele davon befinden sich in einem sehr schlechten Zustand. Die Metallfolie bestand vermutlich häufig aus Zinn, das zu Zinnoxid, einem weißen Puder, korrodierte."@de;
+  dct:bibliographicCitation "Wikipedia";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D638;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X171 a skos:Concept;
+  skos:notation "DECO-X171";
+  skos:prefLabel "Lithographie"@de, "lithograph"@en;
+  skos:altLabel "Lithografie"@de;
+  skos:broader hspv:DECO-X735;
+  skos:definition "Lithographie oder Steindruck ist ein Flachdruckverfahren. Es basiert auf einer Erfindung von Alois Senefelder aus dem Jahr 1798"@de;
+  dct:bibliographicCitation "Wikipedia";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D803;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X727 a skos:Concept;
+  skos:notation "DECO-X727";
+  skos:prefLabel "Radierung"@de, "etching"@en;
+  skos:broader hspv:DECO-X735;
+  skos:definition "Die Radierung ist ein Tiefdruckverfahren. Es gibt zwei prinzipiell verschiedene Arten von Radierung, was die Herstellung der Druckplatte betrifft. Bei der Kaltnadelradierung wird die Zeichnung mit einer Radiernadel aus härtestem Stahl direkt auf der Druckplatte ausgeführt. Bei der Ätzradierung wird die Zeichnung in eine zunächst auf die Platte aufgebrachte relativ weiche Abdeckschicht gekratzt. Anschließend wird die Platte mit einer Ätzflüssigkeit geätzt, wobei nur die Stellen angegriffen werden, an welchen die Deckschicht verletzt wurde. Nach dem Spülen der Platte wird die Deckschicht entfernt"@de;
+  dct:bibliographicCitation "Wikipedia";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-C916, hspv:DECO-D259;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X571 a skos:Concept;
+  skos:notation "DECO-X571";
+  skos:prefLabel "Bildseite"@de, "full-page miniature"@en;
+  skos:altLabel "ganzseitige Miniatur"@de, "ganzseitige Federzeichnung"@de, "ganzseitige Zeichnung"@de,
+    "Miniaturseite"@de;
+  skos:definition "Seite mit einer ganzseitigen figürlichen Darstellung, die nicht an eine Initiale gebunden ist. Differenzierter spricht man von ganzseitigen Miniaturen bei Deckfarbenmalerei oder von Bildseiten in Federzeichnung. Bildseiten unterscheiden sich außer in der Technik auch in den Gliederungsschemata (z.B. Sammel- und Registerbilder) und in der Begrenzung."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 24, vgl. Köllner 1963,143";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B604, hspv:DECO-G355, hspv:DECO-H751;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X696 a skos:Concept;
+  skos:notation "DECO-X696";
+  skos:prefLabel "Zierseite"@de, "decorated page"@en;
+  skos:altLabel "display page"@en;
+  skos:definition "Allgemeiner Begriff für ganzseitige, nicht illustrierende Ausstattung (z. B. Teppichseite, Textzierseite, Initialzierseite)"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 25";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-G355;
+  skos:narrower hspv:DECO-X170, hspv:DECO-X134;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X170 a skos:Concept;
+  skos:notation "DECO-X170";
+  skos:prefLabel "Zierseite ohne Text"@de, "decorated page without text"@en;
+  skos:broader hspv:DECO-X696;
+  skos:definition "siehe Zierseite"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-G355;
+  skos:narrower hspv:DECO-X886;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X134 a skos:Concept;
+  skos:notation "DECO-X134";
+  skos:prefLabel "Zierseite mit Text"@de, "decorated page"@en;
+  skos:broader hspv:DECO-X696;
+  skos:altLabel "display page"@en;
+  skos:definition "siehe Zierseite"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-G355;
+  skos:narrower hspv:DECO-X494, hspv:DECO-X824;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X886 a skos:Concept;
+  skos:notation "DECO-X886";
+  skos:prefLabel "Teppichzierseite"@de, "carpet page"@en;
+  skos:altLabel "Teppichseite"@de;
+  skos:broader hspv:DECO-X170;
+  skos:definition "Darstellung eines mit der Abschrift eines Textes Beschäftigten. Häufig tritt das Autoren- bzw. → Evangelistenbild in dieser Form auf, mitunter wird lediglich die Herstellung des materiellen Textes thematisiert. In Einzelfällen sind auch eindeutig Buchmaler bzw. die gesamte Buchherstellung abgebildet."@de;
+  dct:bibliographicCitation "Prochno, ####, Jakobi-Mirwald, 2014, 28";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-G355;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X494 a skos:Concept;
+  skos:notation "DECO-X494";
+  skos:prefLabel "Initialzierseite"@de, "decorated page with text"@en;
+  skos:altLabel "Initialseite"@de;
+  skos:broader hspv:DECO-X134;
+  skos:definition "(meist am Textbeginn: Titelseite). Nimmt eine Initiale die beherrschende Stellung ein und verdrängt den Text zum größten Teil, spricht man von Initialzierseite."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 33";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-G355, hspv:DECO-H723;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X824 a skos:Concept;
+  skos:notation "DECO-X824";
+  skos:prefLabel "Textzierseite"@de, "display page"@en;
+  skos:broader hspv:DECO-X134;
+  skos:altLabel "decorated page with text"@en;
+  skos:definition "Die Auszeichnung eines Textanfangs auf einer ganzen Seite, mit Rahmenformen, Grund, und ggf. Bordüren. Im Gegensatz zur gerahmten Textseite ist hier auch die Schrift selbst ornamental gestaltet."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 34";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-G355, hspv:DECO-H637;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X316 a skos:Concept;
+  skos:notation "DECO-X316";
+  skos:prefLabel "Kleinbilder"@de, "vignettes"@en;
+  skos:altLabel "Vignette"@de;
+  skos:definition "In den Text eingestelltes Bildfeld, das in Höhe und Breite nur einen Teil des Schriftspiegels einnimmt."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 25 / König 1982";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B604, hspv:DECO-H751;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X135 a skos:Concept;
+  skos:notation "DECO-X135";
+  skos:prefLabel "Spaltenbild(er)"@de, "column picture"@en;
+  skos:altLabel "Kolumnenbild(er)"@de;
+  skos:definition "Bildfeld, das den Raum einer Schriftspalte ganz oder teilweise einnimmt"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 25 / König 1982";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B604, hspv:DECO-G590;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X360 a skos:Concept;
+  skos:notation "DECO-X360";
+  skos:prefLabel "Bordüre"@de, "border"@en;
+  skos:altLabel "marginal decoration"@en;
+  skos:definition "(frz. bordure »Einfassung, Borte«) Dicht besetzter, in der Regel rahmenartig eingefasster Buchschmuck am Seitenrand um den Schriftspiegel. Die Bordüre entsteht in der Übergangszeit von der romanischen zur gotischen Buchmalerei. Zunächst ist der Dekor vornehmlich vegetabilisch-ornamental vor ungefärbtem Pergamentgrund. Zusätzlich nehmen Bordüren auch figurale Motive wie Drolerien und szenische Darstellungen auf. Im 15. Jahrhundert haben Bordüren oft farbigen Grund und beherbergen Streubumendekor wie auch Bilder oder Bildzyklen mit und ohne begrenzende Rahmenlinien. Bordürenstreifen werden je nach Größe in Vollbordüren (um den gesamten Schriftspiegel) und Teilbordüren (einseitig, zweiseitig oder dreiseitig) unterserschieden. Auch frei auf den Rand gemalte Randranken ohne Begrenzungslinien werden gelegentlich als Bordüren bezeichnet."@de;
+  dct:bibliographicCitation "vgl. Jakobi-Mirwald 2014, 38-39 +";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-G361, hspv:DECO-H840;
+  skos:narrower hspv:DECO-X997;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X997 a skos:Concept;
+  skos:notation "DECO-X997";
+  skos:prefLabel "Streumusterbordüre"@de, "strewn-flower boarder"@en;
+  skos:altLabel "Streublumenbordüre"@de, "illusionistic border"@en;
+  skos:broader hspv:DECO-X360;
+  skos:definition "Ornamentaler Randdekor, meist auf farbigem oder goldenem Grund mit gegenständlichen Motiven (z.B. Blumen, Kleintiere), typisches Element der flämischen Buchmalerei des 15. und frühen 16. Jahrhunderts"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 82, 83";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-B604, hspv:DECO-C417,
+    hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X682 a skos:Concept;
+  skos:notation "DECO-X682";
+  skos:prefLabel "Randminiatur"@de, "border miniatur"@en;
+  skos:altLabel "marginal miniature"@en;
+  skos:definition "Figürliches Randbild, im Unterschied zur Randillustration nicht unbedingt mit illustrierendem oder narrativem Bezug zum Haupttext oder zu anderen Bildern, entweder im Textspiegel oder in einem Zyklus am Rand"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B604, hspv:DECO-C417, hspv:DECO-D772;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X533 a skos:Concept;
+  skos:notation "DECO-X533";
+  skos:prefLabel "Randillustration"@de, "border illustration"@en;
+  skos:altLabel "marginal illustration"@en;
+  skos:definition "Randbild mit illustrierendem oder narrativem Bezug zum Haupttext oder zu anderen Bildern, entweder im Textspiegel oder in einem Zyklus am Rand"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B604, hspv:DECO-C417, hspv:DECO-D772,
+    hspv:DECO-G361;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X163 a skos:Concept;
+  skos:notation "DECO-X163";
+  skos:prefLabel "Randzeichnung"@de, "border drawing"@en;
+  skos:altLabel "marginal drawing"@en;
+  skos:definition "Im Unterschied zur Randillustration textunabhängig, im Unterschied zur Randminiatur keine Deckfarbenmalerei (zur Technik Federzeichnung); in aller Regel versteht man unter dem Begriff spätere Hinzufügungen. Auf leeren Seiten oder Spiegelblättern trifft man ebenfalls autonome Zeichnungen an; die Abgrenzung von schlichten Federproben und Kritzeleien ist mitunter fließend."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 38";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D331, hspv:DECO-G361;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X573 a skos:Concept;
+  skos:notation "DECO-X573";
+  skos:prefLabel "Drolerie"@de, "drolerie"@en;
+  skos:altLabel "Groteske"@de, "drollery"@en, "groteque"@en;
+  skos:definition "(frz. drôlerie »komische, amüsante Sache«) »Als Drolerie gilt in der Kunstgeschichte eine groteske, auf das Spielerische, Scherzhafte gerichtete Darstellung, deren Seltsamkeit nicht Selbstzweck ist, sondern sich im wesentlichen dekorativ auswirkt. Eine satirisch-moralische Bedeutung kann, besonders bei den Drolerien der Frühzeit, mit eingeschlossen sein.« (RDK Bd. 4, 567). In Handschriften befinden sich Drolerien am unteren Rand (bas-de-page), in Bordüren oder Zierleisten und in Initialen. Ob und wo eine textbezogene oder allgemeiner inhaltsbezogene Bedeutung beabsichtigt ist, ist umstritten und im Einzelfall zu prüfen. Die Bezeichnung Drolerie-Initiale ist Gegensatz zu dem Begriff Rankenkletterer-Initiale formal neutral: Die Figuren (ohne Textbezug) können die Initiale bilden oder sie »bewohnen«."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014,106, 57";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-D331, hspv:DECO-G361,
+    hspv:DECO-H751;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X811 a skos:Concept;
+  skos:notation "DECO-X811";
+  skos:prefLabel "Flechtbandinitiale"@de, "interlace initial"@en;
+  skos:definition "Initialen, deren gesamter Buchstabenkörper aus Flechtornament aufgebaut ist (oder bei denen das Flechtornament als Füllmotiv dominiert). Die zugrundeliegende, regularisierte Gestaltungstechnik (ars lineandi) wurde von Thiel untersucht. In ottonischen Handschriften allmählich von Rankeninitialen verdrängt, in der Romanik selten, im 13. Jh. wieder häufiger (spiralig geführtes, winklig gebrochenes Flechtornament), in der Gotik nur vereinzelt auftretend."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 93";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-D331, hspv:DECO-G590,
+    hspv:DECO-H241;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X851 a skos:Concept;
+  skos:notation "DECO-X851";
+  skos:prefLabel "Silhouetteninitale"@de, "silhouette initial"@en;
+  skos:altLabel "Silhouetten-Initiale"@de, "Arabesken-Initiale"@de, "arabesque initial"@en;
+  skos:definition "Meist ein- oder zweifarbige sekundäre Initiale mit kompaktem Stamm und schlichten, nur in der Farbsilhouette gegebenen Blättchen oder kurzen Ranken als Füllung oder Besatz (12. u. 13. Jh.). In England kommen im 12. und 13. Jh. Sehr prächtige Ausprägungen der Silhouetten-Initialen vor (»Arabesken-Initiale«, Alexander)."@de;
+  dct:bibliographicCitation "vgl. Klemm 13";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-D331, hspv:DECO-G590,
+    hspv:DECO-H150;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X254 a skos:Concept;
+  skos:notation "DECO-X254";
+  skos:prefLabel "Goldpollen"@de, "gold bead"@en;
+  skos:altLabel "Goldpunkte"@de, "bezant, pastille"@en;
+  skos:definition "Kleine runde Goldplättchen, Besatzstücke von gotischen vegetabilischen Bordüren"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 87";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-C490, hspv:DECO-F619;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X800 a skos:Concept;
+  skos:notation "DECO-X800";
+  skos:prefLabel "Blattranke"@de, "foliage (border)"@en;
+  skos:definition "Allgemeine Bezeichnung für unterschiedliche Typen von vegetabilen Ranken in Initialen und am Blattrand (vgl. Ranke, Akanthusranke, Dornblattranke, Filigranornament, Fadenranke, Palmettenranke, Spalierranke, Spiralblattranke, Weißranke, Wellenblattranke)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 92";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-G657, hspv:DECO-H386;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:narrower hspv:DECO-X368, hspv:DECO-X369, hspv:DECO-X868, hspv:DECO-X214;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X368 a skos:Concept;
+  skos:notation "DECO-X368";
+  skos:prefLabel "Akanthusranke"@de, "acanthus vine"@en;
+  skos:altLabel "Akanthusbordüre"@de;
+  skos:broader hspv:DECO-X800;
+  skos:definition "Ursprünglich lineares Akanthus-Ornament mit einer deutlichen Wellenbewegung. Fehlt diese, handelt es sich um einen Fries. Bei einer intermittierenden Akanthusranke wenden sich die von der Ranke ausgehenden Blätter zurück. Eine häufig stark stilisierte und um Blütenmotive sowie gelegentlich auch figürliche Motive bereicherte Form ist typisch für mitteleuropäische Handschriften des 15. Jh. Die romanischen Blattranken werden eher als Palmettenranken bezeichnet."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 92";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-G657, hspv:DECO-H386;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X369 a skos:Concept;
+  skos:notation "DECO-X369";
+  skos:prefLabel "Kelchblütenranke"@de, "calyx foliage"@en;
+  skos:broader hspv:DECO-X800;
+  skos:definition "Bloch unterscheidet in der Reichenauer Rankenornamentik zwei Phasen. Die frühere, im 9. Jh. in St. Gallen ausgebildet, weist als Hauptmotive sichelförmige Blatttriebe und dreiteilige symmetrische Blüten (Kelchblüten) auf; sie ist von dekorativem, ausschwingenden, aber dabei in sich ausgewogenem Charakter. Die spätere Stufe stellt die »Knollenblätterranke« dar."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 93-94, Bloch 1956, 37-48";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-D331, hspv:DECO-G657,
+    hspv:DECO-H386;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X868 a skos:Concept;
+  skos:notation "DECO-X868";
+  skos:prefLabel "Dornblattranke"@de, "vine and ivy leaves"@en;
+  skos:altLabel "Dornblattbordüre"@de;
+  skos:broader hspv:DECO-X800;
+  skos:definition "Von der Initiale ausgehende Leisten mit davon ausgehenden Zweigen und Ranken, die selbst Dornen tragen und mit kleinen, spitzen Blättern (Herz-, Weinblatt-, Dreiblattform) besetzt sind. Typische Form gotischer Rankenfortsätze, treten um 1300 in Frankreich auf. Zu den ebenfalls mit Dornblättern besetzten dichten Ranken in Bordüren"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-D331, hspv:DECO-G657,
+    hspv:DECO-H386;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X214 a skos:Concept;
+  skos:notation "DECO-X214";
+  skos:prefLabel "Knollenblätterranke"@de, "bud-shaped foliage"@en;
+  skos:broader hspv:DECO-X800;
+  skos:definition "Bezeichnung Blochs (siehe voriger Kelchblütenranke) für die typische Rankenornamentik der ottonischen Reichenauer Buchmalerei, die sich mit Übergangsformen aus der karolingischen St. Gallener → »Kelchblütenranke« entwickelt. Kennzeichnend sind die runden Knollenblätter, Pfeilblätter und dreiblättrige Rosetten. Verbreitet bis ins 12. Jh."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 94, Bloch 1956,";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-D331, hspv:DECO-G657,
+    hspv:DECO-H386;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X497 a skos:Concept;
+  skos:notation "DECO-X497";
+  skos:prefLabel "Medaillon-Initiale"@de, "medaillon initial"@en;
+  skos:definition "Initiale, deren Körper kleine Bildfelder mit Halbfiguren oder kleinen Szenen (meist rund: Medaillons) aufgelegt sind. Die Form tritt in karolingischen Handschriften erstmals auf und erlebt ihren größten Auftritt in der romanischen und gotischen Bibelillustration (speziell in den Initialen zur Genesis)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 60";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-D331, hspv:DECO-G590, hspv:DECO-H723;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X181 a skos:Concept;
+  skos:notation "DECO-X181";
+  skos:prefLabel "Ornamentinitiale"@de, "ornamental initial"@en;
+  skos:altLabel "ornamentierte Initiale"@de;
+  skos:definition "Initiale ohne figürliche Elemente. Die formale Ausprägung kann genauer angegeben werden (z. B. Flechtbandinitiale, Spaltleisteninitiale mit Spangen und Spiralranken)"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 58";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-D331, hspv:DECO-G590,
+    hspv:DECO-H723;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X864 a skos:Concept;
+  skos:notation "DECO-X864";
+  skos:prefLabel "Palmetteninitiale"@de, "palmette initial"@en;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-D331, hspv:DECO-G590,
+    hspv:DECO-H723;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X861 a skos:Concept;
+  skos:notation "DECO-X861";
+  skos:prefLabel "Palmettenranke"@de, "scroll with palmettes"@en;
+  skos:definition "Ranke mit Palmettenbesatz; in aller Regel intermittierende Form, d. h die Ranke zweigt bei jedem Richtungswechsel eine zurückgewendete Halbpalmette ab."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 94";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-D331, hspv:DECO-G657,
+    hspv:DECO-H386;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X809 a skos:Concept;
+  skos:notation "DECO-X809";
+  skos:prefLabel "Randleisteninitiale"@de, "panelled initial"@en;
+  skos:definition "Form karolingischer sowie spätromanischfrühgotischer Initialen: der Buchstabenkörper wird von Leisten konturiert, die auch etwa an Gelenk- und Endstellen–Flechtornament ausbilden können. Die Buchstabenkörper können Stammfüllung enthalten (Klemm 13). Der Begriff Randleisteninitiale wird von Koehler nicht verwendet"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 64";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-D331, hspv:DECO-G657,
+    hspv:DECO-H723;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X481 a skos:Concept;
+  skos:notation "DECO-X481";
+  skos:prefLabel "Figuren-Initiale"@de, "figure initial"@en;
+  skos:altLabel "Figureninitiale"@de, "anthropomorphic initial"@en;
+  skos:definition "Figureninitiale Eine Initiale, deren Körper ganz oder zum Teil aus Menschen oder Tieren gebildet ist (= »Ersatzornament«). Klemm (13) versteht darunter lediglich Initialen aus Menschen und stellt den Begriff in Gegensatz zu Tierinitialen. Im Hinblick auf die zahlreichen Initialen, die aus Menschen und Tieren gebildet werden, soll der Begriff hier weiter gefasst werden (so auch Valentine 79). Eine weitere Differenzierung in anthropo- und zoomorphe Figureninitialen (Tierinitialen, Dracheninitialen, Fisch-Vogel-Initialen etc.) ist dann möglich."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 59, Pächt 1977";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-D331, hspv:DECO-G590,
+    hspv:DECO-H723;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X702 a skos:Concept;
+  skos:notation "DECO-X702";
+  skos:prefLabel "Fleuronné"@de, "penwork (initial)"@en;
+  skos:altLabel "Fleuronnée"@de, "Federwerk"@de, "(pen-)flourish(ed)"@en;
+  skos:definition "(frz. fleuronné »geblümt«, fleuron »Blümchen«, in ma. Rezeptbüchern florire / florieren für gezeichneten Dekor), auch Fleuronnée.Lineares, überwiegend mit der Feder gezeichnetes Ornament auf der Grundlage stilisierter vegetabiler Formen, bisweilen erweitert um naturalistisch-vegetabile, figürliche sowie geometrische Elemente. Fleuronnée umgibt in der Regel Buchstaben, deren Form als Lombarden bezeichnet wird. Früheste Formen ab dem späten 12. Jh. (Frankreich). Kennzeichnend ist der Gegensatz von kompaktem Buchstabenkörper und linearem, netzartigem Ornament, oft in kontrastierenden Farben (blau-rot, auch schwarz, grün etc.). Mitunter kommt Fleuronné auch als Flächenfüllung ohne Bezug zu Initialen vor (Füll-Fleuronné), doch ist das Ornament typisch für die Initiale."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 65-66 // Wolfgang Augustyn (I-III",
+    """VIII-IX), Christine Jakobi-Mirwald (V), Christine Sauer (VI), Martin Roland (VII) (1996), 
+RDK IX, 1113–1196""";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-C668, hspv:DECO-D783,
+    hspv:DECO-G657;
+  skos:narrower hspv:DECO-X895, hspv:DECO-X421, hspv:DECO-X453, hspv:DECO-X187;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X895 a skos:Concept;
+  skos:notation "DECO-X895";
+  skos:prefLabel "Knospenfleuronné"@de, "pen-flourish with buds"@en;
+  skos:altLabel "Knospenfleuronnée"@de, "Knospen-Fleuronnée"@de, "Knospen-Fleuronné"@de,
+    "golf club acanthus"@en;
+  skos:broader hspv:DECO-X702;
+  skos:definition "Grundform des Fleuronné sind keulenartige Knospen. Ab der 2. Hälfte des 13. Jh. vorherrschender Typ, Haben die Knopsen innen einen Punkt, spricht man von gekernten Knospen."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 66";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-C668, hspv:DECO-D783,
+    hspv:DECO-G657;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X421 a skos:Concept;
+  skos:notation "DECO-X421";
+  skos:prefLabel "Palmettenfleuronné"@de, "pen-flourish with palmettes"@en;
+  skos:altLabel "Palmettenfleuronnée"@de, "Palmetten-Fleuronnée"@de, "Palmetten-Fleuronné"@de;
+  skos:broader hspv:DECO-X702;
+  skos:definition "Das Hauptmotiv sind Konturbegleitstriche, die stilisierte Palmetten bzw. Halbpalmetten ausbilden. Weiterentwickelte Formen füllen die Binnenfelder der Buchstaben mit häufig punkt- oder axialsymmetrisch angeordneten Palmettenmotiven. In Frankreich ab dem 12. Jh. ausgebildet und von dort aus verbreitet. Üblicherweise a) gebogte Ränder (»Kräuselblatt«), auch b) glatt oder c) gestrichelt. Die einfachsten Formen sind d) aus Konturbegleitstrichen ausgebildet oder e) in Ecken (Zwickelpalmette) eingefügt. Ggf. f) mit verlängerten Fadenranken oder g) fingerartigen Erweiterungen (»pointing-finger-Motiv«)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 66";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-C668, hspv:DECO-D783,
+    hspv:DECO-G657;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X453 a skos:Concept;
+  skos:notation "DECO-X453";
+  skos:prefLabel "Fleuronnéinitiale"@de, "penwork initial"@en;
+  skos:altLabel "Fleuronnée-Initiale"@de, "Federwerk-Initiale"@de, "(pen-)flourish(ed) initial"@en;
+  skos:broader hspv:DECO-X702;
+  skos:definition "Eine Fleuronné-Initiale setzt sich zusammen aus dem Buchstabenkörper dem Binnenfleuronné, dem Besatzfleuronné, ggf. konturbegleitenden Linien und verschiedenen Formen von Ausläufern"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-C668, hspv:DECO-D783,
+    hspv:DECO-G657, hspv:DECO-H723;
+  hspo:hasAdditionalFeature hspv:DECO-E490, hspv:DECO-H241, hspv:DECO-H150;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X187 a skos:Concept;
+  skos:notation "DECO-X187";
+  skos:prefLabel "Fleuronnéleiste"@de, "bar with silhouette motif"@en;
+  skos:altLabel "Fleuronnée-Leiste"@de, "Fleuronné-Leiste"@de, "Fleuronné-Stab"@de,
+    "Fleuronnée-Stab"@de, "cascade"@en, "J-border"@en;
+  skos:broader hspv:DECO-X702;
+  skos:definition "Länglicher Ausläufer, entweder von dem Buchstaben ausgehend oder an ihn angesetzt. Fleuronné-Leisten verlaufen vertikal, seltener horizontal, entlang des Schriftspiegels."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 67";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-C668, hspv:DECO-D783,
+    hspv:DECO-G657, hspv:DECO-H840;
+  hspo:hasAdditionalFeature hspv:DECO-E490;
+  skos:inScheme hspv:DECO-X .
+
+hspv:DECO-X297 a skos:Concept;
+  skos:notation "DECO-X297";
+  skos:prefLabel "Medaillon"@de, "medaillon"@en;
+  skos:definition "Kleineres rundes Bild, oft in einen größeren Zusammenhang (Initialen, Rahmen, Zyklus) eingeschlossen."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 77";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H333, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-H549;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X349 a skos:Concept;
+  skos:notation "DECO-X349";
+  skos:prefLabel "Mandorla"@de, "mandorla"@en;
+  skos:definition "Aus zwei einander überschneidenden Kreissegmenten gebildetes mandelförmiges Feld, das in der Regel Christus auszeichnet, besonders als Teil einer Maiestas Domini (Darstellung des thronenden Christus inmitten der vier apokalyptischen Wesen/Evangelistensymbole (Engel, Löwe, Stier, Adler)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 77";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H751, hspv:DECO-H555;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X276 a skos:Concept;
+  skos:notation "DECO-X276";
+  skos:prefLabel "Bildzyklus"@de, "image cycle"@en;
+  skos:altLabel "Zyklus"@de, "Bilderzyklus"@de;
+  skos:definition "Serie von Bildern, die zusammen einen Text bebildern oder illustrieren. Im Gegensatz zur Bebilderung eines Textbeginns (Incipits) werden die einzelnen Illustrationen in der Handschrift auf mehrere Seiten verteilt (ganz- oder teilseitige Miniaturen bzw. Zeichnungen oder historisierte Initialen). Ein Bilderzyklus kann sich anstatt auf einen einzigen Text auch auf ein übergeordnetes Leitthema oder eine Hauptperson beziehen. Die jeweiligen Überlieferungsträger der Bildprogramme können ggf. zu Überlieferungsstammbäumen (Stemmata) angeordnet werden, die parallel zur Textüberlieferung oder davon unabhängig laufen."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 24, 81";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X340 a skos:Concept;
+  skos:notation "DECO-X340";
+  skos:prefLabel "Autorbild"@de, "author portrait"@en;
+  skos:altLabel "Autorenbild"@de;
+  skos:definition "Der Verfasser des Textes wird an dessen Beginn abgebildet – ggf. schreibend oder meditierend (→ Schreiberbild). I n spätantiken Handschriften wird der Typ erstmals greifbar (z. B. Vergil im Vergilius Romanus), er geht zum Teil auf die Tradition des Philosophenportraits zurück. Die Formen werden im Mittelalter aufgegriffen. Am häufigsten sind Evangelistenbilder, andere Typen sind Gregorbilder (der Kirchenvater Gregor, vom Heiligen Geist inspiriert, mit lauschendem Notar Petrus hinter dem Vorhang) und Hieronymusbilder. Die Bildtypen sind oft untereinander austauschbar."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 26";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X328 a skos:Concept;
+  skos:notation "DECO-X328";
+  skos:prefLabel "Schreiberbild"@de, "portrait of the scribe"@en;
+  skos:definition "Darstellung eines mit der Abschrift eines Textes Beschäftigten. Häufig tritt das Autoren- bzw. → Evangelistenbild in dieser Form auf, mitunter wird lediglich die Herstellung des materiellen Textes thematisiert. In Einzelfällen sind auch eindeutig Buchmaler bzw. die gesamte Buchherstellung abgebildet"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 28-29";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X148 a skos:Concept;
+  skos:notation "DECO-X148";
+  skos:prefLabel "Evangelistenbild"@de, "evangelist portrait"@en;
+  skos:definition "Das Autorenbild in Evangeliaren, das den Evangelisten schreibend (siehe auch Schreiberbild) oder meditierend zu Beginn seines Evangeliums darstellt, meist zusammen mit seinem Evangelistensymbol (Matthäus: Engel, Markus: Löwe, Lukas: Stier, Johannes: Adler; in insularen Evangeliaren z. T . auch nur die Symbole). In Evangeliaren stehen sie zusammen mit Initial- und anderen Zierseiten zu Beginn der Evangelien, in Evangelistaren entweder zusammen am Anfang oder zu wichtigen Lesungen."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 26-27";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X315 a skos:Concept;
+  skos:notation "DECO-X315";
+  skos:prefLabel "Eingangsbild"@de, "frontispice"@en;
+  skos:altLabel "Frontispiz"@de, "Titelbild"@de, "prefatory miniature"@en;
+  skos:definition "(lat./frz. frontispice »Titelblatt«) Andere Bedeutung als Titel- bzw. Textzierseite (= Zierseite mit Schrift): Der Inhalt eines Textes ist in einem Sammel- oder Registerbild, oder vertretungsweise durch die Darstellung einer wichtigen Szene, oder durch das Bildnis einer wichtigen Figur entweder am Anfang des gesamten Buches (Frontispiz) oder jeweils zu Beginn einzelner Buchteile zusammengefasst. Die Bilder können ganzseitig sein oder einen Teil der Seite einnehmen."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 28-29";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-G949, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X179 a skos:Concept;
+  skos:notation "DECO-X179";
+  skos:prefLabel "Kanonbild"@de, "canon page"@en;
+  skos:definition "In Sakramentaren und Missalien wird der Beginn des Canon missae (Hochgebet) häufig mit einer Kreuzigungsdarstellung bebildert Zumeist handelt es sich hier um eine ganzseitige Miniatur mit Maria und Johannes als Assistenzfiguren. Die früheste Kanonillustration mit einer Kreuzigung findet sich im Sakramentar von Gellone aus dem 8. Jh."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 27";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-H751;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X729 a skos:Concept;
+  skos:notation "DECO-X729";
+  skos:prefLabel "Stammbaum"@de, "genealogical tree"@en;
+  skos:altLabel "Schema"@de;
+  skos:definition "arbor consanguinitatis bzw. affinitatis (»Baum der Bluts- bzw. Eheverwandtschaft «): Oft ganzseitig gestaltete Schemata in rechtlichen und anderen Handschriften zur Verdeutlichung von Zusammenhängen für Ehe- und Erbrecht"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 2014, 31-32";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-H732;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X603 a skos:Concept;
+  skos:notation "DECO-X603";
+  skos:prefLabel "Historisierte Initiale"@de, "historiated initial"@en;
+  skos:altLabel "Bildeinschluss-Initiale"@de;
+  skos:definition "Bezeichnung für Initialen mit szenischer textbezogener figürlicher Darstellung. Historisierten Initialen treten meist als »Bildeinschluss-Initialen« auf, auch »Medaillon-Initialen«, Häufig werden I)nitialen mit Szenen im Binnenfeld auch historisiert genannt, wenn kein Textbezug besteht. Wie bei Miniaturen kann außer dem Wortsinn auch eine allegorische, typologische oder moralisierende Auslegung den Zusammenhang zwischen Bild und Text herstellen."@de;
+  dct:bibliographicCitation "vgl. Jakobi-Mirwald, 2014, 56-57, 59, vgl. Pächt 1977, vgl. Köllner 1963, 145 + SELBST";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-G590, hspv:DECO-H751,
+    hspv:DECO-H241;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X721 a skos:Concept;
+  skos:notation "DECO-X721";
+  skos:prefLabel "Bewohnte Initiale"@de, "inhabited initial"@en;
+  skos:definition "Eine Initiale, deren Buchstabenkörper als konkreter Gegenstand von den ihn bevölkernden Menschen oder Tieren begriffen wird, beispielsweise als Standfläche. Der Terminus ist von der englischen Bezeichnung »inhabited scroll« (= bewohnte Ranke) abgeleitet. Pächt stellt der »bewohnten Initiale« die »historisierte Initiale, [in der] der Buchstabenkörper als R ahmen für eine Bildfüllung dient« gegenüber. Der Terminus der historisierten Initiale ist hier der rein inhaltlichen Definition (= Initiale mit Textbezug, vorbehalten)"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 58";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-B186, hspv:DECO-G590,
+    hspv:DECO-H150;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X238 a skos:Concept;
+  skos:notation "DECO-X238";
+  skos:prefLabel "Bewohnte Ranke"@de, "inhabited scroll"@en;
+  skos:definition "Gemalte Ranke, die von zoomorphen oder antropomorphen Figuren (z.B. Rankenkletterer) wie eine reale Ranke belebt wird. Der Terminus ist von der englischen Bezeichnung »inhabited scroll« abgeleitet."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 105";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-B186, hspv:DECO-G657,
+    hspv:DECO-H386;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X718 a skos:Concept;
+  skos:notation "DECO-X718";
+  skos:prefLabel "Tierinitiale"@de, "zoomorphic initial"@en;
+  skos:altLabel "zoomorphe Initiale"@de;
+  skos:definition "Eine Form der Figureninitiale, die ausschließlich aus Tieren gebildet wird. Dabei kann der ganze Buchstabenkörper oder Teile davon, z. B. die Cauden der Q-Initialen, von Tieren gebildet sein (Ersatzmotive); Unterscheidung: Dracheninitiale, Fisch-Vogel-Initiale etc."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 60";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B598, hspv:DECO-G590, hspv:DECO-H723;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X405 a skos:Concept;
+  skos:notation "DECO-X405";
+  skos:prefLabel "Spaltleisteninitiale"@de, "split initial"@en;
+  skos:definition "Der charakteristische romanische Initialtyp mit partiell gespaltenem Leistenstamm (dort u. U . Spaltfüllung). Der Stamm oder auch Rankenzweige können mit Schnallen (Spangen) zusammengehalten werden und mit Blattappliken verziert sein, das Binnenfeld enthält üblicherweise Rankendekor. Spaltleisteninitialen sind auch häufig bewohnt. Ausführung üblicherweise in Federzeichnung, ggf. mit farbigem Polstergrund."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 65, Köllner 1963, 147–148", "Klemm 12";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B186, hspv:DECO-G590, hspv:DECO-H150;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X539 a skos:Concept;
+  skos:notation "DECO-X539";
+  skos:prefLabel "Weißrankenbordüre"@de, "bianchi girari border"@en;
+  skos:altLabel "Bordüre mit bianchi girari"@de;
+  skos:definition "Bezeichnung für eine charakteristische Form italienischer Ranken des 11. und 12. Jh. und – davon abgeleitet – der Renaissance-Buchmalerei: Ranken im Pergamentton (ital: bianchi girari) auf farbigem Grund"@de;
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-G657, hspv:DECO-H386;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:DECO-X846 a skos:Concept;
+  skos:notation "DECO-X846";
+  skos:prefLabel "Weißrankeninitiale"@de, "bianchi girari initial"@en;
+  skos:altLabel "Initiale mit bianchi girari"@de;
+  skos:definition "Bezeichnung für eine charakteristische Form italienischer Initialen des 11. und 12. Jh. und – davon abgeleitet – der Renaissance-Buchmalerei: Buchstaben auf mehrfarbigem Grund mit Ranken im Pergamentton (ital: bianchi girari)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 65";
+  hspo:hasKeyFeature hspv:DECO-A405, hspv:DECO-B997, hspv:DECO-G590, hspv:DECO-H150;
+  hspo:hasAdditionalFeature hspv:DECO-D331;
+  skos:inScheme hspv:DECO-X;
+  skos:topConceptOf hspv:DECO-X .
+
+hspv:MSVOC a skos:ConceptScheme;
+  skos:prefLabel "Fachvokabular"@de, "Domain Vocabulary"@en;
+  skos:definition "Handschriftenkundliches Fachvokabular"@de, "Domain Specific Vocabulary for Manuscript Studies"@en .
+
+hspv:DECO-F a skos:ConceptScheme;
+  skos:prefLabel "Farben / Qualität (Buchschmuck)"@de, "Colours / quality (decoration)"@en;
+  skos:definition "Thesaurus: Farben / Qualität (Buchschmuck) (DECO-F)"@de, "Thesaurus: Colours / quality (decoration) (DECO-F)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-F755, hspv:DECO-F981, hspv:DECO-F664, hspv:DECO-F282,
+    hspv:DECO-F518, hspv:DECO-F355, hspv:DECO-F301, hspv:DECO-F394, hspv:DECO-F619, hspv:DECO-F207,
+    hspv:DECO-F593 .
+
+hspv:DECO-F755 a skos:Concept;
+  skos:notation "DECO-F755";
+  skos:prefLabel "braun (Buchschmuck)"@de, "brown"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F981 a skos:Concept;
+  skos:notation "DECO-F981";
+  skos:prefLabel "schwarz (Buchschmuck)"@de, "black"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F664 a skos:Concept;
+  skos:notation "DECO-F664";
+  skos:prefLabel "rot (Buchschmuck)"@de, "red"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F282 a skos:Concept;
+  skos:notation "DECO-F282";
+  skos:prefLabel "blau (Buchschmuck)"@de, "blue"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F518 a skos:Concept;
+  skos:notation "DECO-F518";
+  skos:prefLabel "grün (Buchschmuck)"@de, "green"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F355 a skos:Concept;
+  skos:notation "DECO-F355";
+  skos:prefLabel "gelb (Buchschmuck)"@de, "yellow"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F301 a skos:Concept;
+  skos:notation "DECO-F301";
+  skos:prefLabel "weiß (Buchschmuck)"@de, "white"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F394 a skos:Concept;
+  skos:notation "DECO-F394";
+  skos:prefLabel "rosa (Buchschmuck)"@de, "rose"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F619 a skos:Concept;
+  skos:notation "DECO-F619";
+  skos:prefLabel "goldfarben (Buchschmuck)"@de, "golden"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F207 a skos:Concept;
+  skos:notation "DECO-F207";
+  skos:prefLabel "silberfarben (Buchschmuck)"@de, "silver-coloured"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-F593 a skos:Concept;
+  skos:notation "DECO-F593";
+  skos:prefLabel "Sonstige Farbe (Buchschmuck)"@de, "coloured with other colours"@en;
+  skos:inScheme hspv:DECO-F;
+  skos:topConceptOf hspv:DECO-F .
+
+hspv:DECO-G a skos:ConceptScheme;
+  skos:prefLabel "Dekor im Layout"@de, "Decoration layout"@en;
+  skos:definition "Thesaurus: Dekor im Layout (DECO-G)"@de, "Thesaurus: Decoration layout (DECO-G)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-G949, hspv:DECO-G657 .
+
+hspv:DECO-G949 a skos:Concept;
+  skos:notation "DECO-G949";
+  skos:prefLabel "unabhängig vom Schriftspiegel"@de, "independent of text area"@en;
+  skos:narrower hspv:DECO-G355, hspv:DECO-G289;
+  skos:inScheme hspv:DECO-G;
+  skos:topConceptOf hspv:DECO-G .
+
+hspv:DECO-G355 a skos:Concept;
+  skos:notation "DECO-G355";
+  skos:prefLabel "ganzseitig"@de, "full-page"@en;
+  skos:broader hspv:DECO-G949;
+  skos:definition "Die gesamte Seite oder mindestens den ganzen Schriftspiegel (z.B. ganzseitige Miniatur) einnehmender Dekor."@de;
+  skos:inScheme hspv:DECO-G .
+
+hspv:DECO-G289 a skos:Concept;
+  skos:notation "DECO-G289";
+  skos:prefLabel "nicht ganzseitig"@de, "not full-page"@en;
+  skos:broader hspv:DECO-G949;
+  skos:inScheme hspv:DECO-G .
+
+hspv:DECO-G657 a skos:Concept;
+  skos:notation "DECO-G657";
+  skos:prefLabel "mit Bezug auf den Schriftspiegel"@de, "relating to text area"@en;
+  skos:altLabel "relating to bounding lines"@en, "relating to ruling lines"@en, "relating to justification"@en;
+  skos:narrower hspv:DECO-G699, hspv:DECO-G772, hspv:DECO-G590, hspv:DECO-G361;
+  skos:inScheme hspv:DECO-G;
+  skos:topConceptOf hspv:DECO-G .
+
+hspv:DECO-G699 a skos:Concept;
+  skos:notation "DECO-G699";
+  skos:prefLabel "den gesamten Schriftspiegel umfassend"@de, "comprising text area"@en;
+  skos:broader hspv:DECO-G657;
+  skos:altLabel "comprising justification"@en;
+  skos:inScheme hspv:DECO-G .
+
+hspv:DECO-G772 a skos:Concept;
+  skos:notation "DECO-G772";
+  skos:prefLabel "über die gesamte Breite des Schriftspiegels"@de, "full-width of text area"@en;
+  skos:broader hspv:DECO-G657;
+  skos:altLabel "width of justification"@en;
+  skos:inScheme hspv:DECO-G .
+
+hspv:DECO-G590 a skos:Concept;
+  skos:notation "DECO-G590";
+  skos:prefLabel "nicht über die gesamte Breite des Schriftspiegels"@de, "not fully comprising width of text area"@en;
+  skos:broader hspv:DECO-G657;
+  skos:altLabel "not fully comprising width of justification"@en;
+  skos:inScheme hspv:DECO-G .
+
+hspv:DECO-G361 a skos:Concept;
+  skos:notation "DECO-G361";
+  skos:prefLabel "außerhalb des Schriftspiegels"@de, "in the margins"@en;
+  skos:altLabel "auf den Rändern"@de, "marginal"@en, "outside text area"@en;
+  skos:broader hspv:DECO-G657;
+  skos:inScheme hspv:DECO-G .
+
+hspv:DECO a skos:ConceptScheme;
+  skos:prefLabel "Buchschmuck"@de, "Decoration"@en;
+  skos:definition "Themenbereich: Buchschmuck"@de, "Domain: Decoration"@en;
+  skos:inScheme hspv:MSVOC .
+
+hspv:DECO-A a skos:ConceptScheme;
+  skos:prefLabel "Ausführung (Buchschmuck)"@de, "Execution (decoration)"@en;
+  skos:definition "Thesaurus: Ausführung (DECO-A)"@de, "Thesaurus: Execution (decoration) (DECO-A)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-A405, hspv:DECO-A450 .
+
+hspv:DECO-A405 a skos:Concept;
+  skos:notation "DECO-A405";
+  skos:prefLabel "Buchschmuck vorhanden"@de, "decorated; with decoration"@en;
+  skos:altLabel "Ausstattung vorhanden"@de, "Buchdekor vorhanden"@de, "Dekor vorhanden"@de,
+    "dekoriert"@de;
+  skos:definition "Buchschmuck: Jede Art von künstlerischer oder kunsthandwerklicher Ausstattung von (besonders mittelalterlichen handgeschriebenen) Büchern, aber auch anderen Schriftstücken wie Urkunden."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 20, 21";
+  skos:narrower hspv:DECO-A913, hspv:DECO-A532;
+  skos:inScheme hspv:DECO-A;
+  skos:topConceptOf hspv:DECO-A .
+
+hspv:DECO-A913 a skos:Concept;
+  skos:notation "DECO-A913";
+  skos:prefLabel "Buchschmuck ursprünglich vorhanden"@de, "decoration originally executed"@en;
+  skos:altLabel "Erstausstattung"@de, "Primärer Buchschmuck"@de;
+  skos:broader hspv:DECO-A405;
+  skos:definition "Zeitnah zur Entstehung der Handschrift ausgeführter Buchschmuck, der in der Regel bei deren Einrichtung vorgesehen war (ausgesparte Räume im Schriftspiegel)."@de;
+  skos:narrower hspv:DECO-A369, hspv:DECO-A449;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A369 a skos:Concept;
+  skos:notation "DECO-A369";
+  skos:prefLabel "Buchschmuck ursprünglich teilweise ausgeführt"@de, "decoration originally partly executed"@en;
+  skos:broader hspv:DECO-A913;
+  skos:definition "Bei der Einrichtung der Handschrift vorgesehener Buchschmuck nicht vollständig ausgeführt, erkennbar durch Lücken im Layout, bzw. im Schriftspiegel"@de;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A449 a skos:Concept;
+  skos:notation "DECO-A449";
+  skos:prefLabel "Buchschmuck ursprünglich vollständig ausgeführt"@de, "decoration originally fully executed"@en;
+  skos:broader hspv:DECO-A913;
+  skos:definition "Bei der Einrichtung der Handschrift vorgesehener Buchschmuck vollständig ausgeführt"@de;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A532 a skos:Concept;
+  skos:notation "DECO-A532";
+  skos:prefLabel "nachträglicher Buchschmuck"@de, "later decoration"@en;
+  skos:altLabel "Sekundärer Buchschmuck"@de, "added decoration"@en;
+  skos:broader hspv:DECO-A405;
+  skos:definition "Bei der Einrichtung der Handschrift vorgesehener, aber erst zu einem späteren Zeitpunkt, beispielsweise im Auftrag eines späteren Besitzers, ausgeführter Buchschmuck bzw. nachträglich hinzugefügter, ursprünglich nicht vorgesehener Buchschmuck, wie z.B. in Einbanddeckel eingeklebte Graphik"@de;
+  skos:narrower hspv:DECO-A790, hspv:DECO-A904;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A790 a skos:Concept;
+  skos:notation "DECO-A790";
+  skos:prefLabel "nachträglicher Buchschmuck teilweise ausgeführt"@de, "later decoration partly executed"@en;
+  skos:broader hspv:DECO-A532;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A904 a skos:Concept;
+  skos:notation "DECO-A904";
+  skos:prefLabel "nachträglicher Buchschmuck vollständig ausgeführt"@de, "later decoration fully executed"@en;
+  skos:broader hspv:DECO-A532;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A450 a skos:Concept;
+  skos:notation "DECO-A450";
+  skos:prefLabel "Buchschmuck nicht vorhanden"@de, "not illuminated"@en;
+  skos:narrower hspv:DECO-A980, hspv:DECO-A886;
+  skos:inScheme hspv:DECO-A;
+  skos:topConceptOf hspv:DECO-A .
+
+hspv:DECO-A980 a skos:Concept;
+  skos:notation "DECO-A980";
+  skos:prefLabel "Buchschmuck nicht ausgeführt"@de, "decoration not executed"@en;
+  skos:broader hspv:DECO-A450;
+  skos:definition "Bei der Einrichtung der Handschrift vorgesehener Buchdekor (Initialen, Bilder) wurde in den dafür eingerichteten bzw. im Schriftspiegel ausgesparten Feldern nicht ausgeführtt, erkennbar durch Lücken im Layout, bzw. im Schriftspiegel"@de;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A886 a skos:Concept;
+  skos:notation "DECO-A886";
+  skos:prefLabel "Buchschmuck entfernt"@de, "decoration removed"@en;
+  skos:broader hspv:DECO-A450;
+  skos:definition "Zu entferntem Buchschmuck gehören herausgeschnittene Bilder und Initialen der ursprünglichen Ausstattung oder eingeklebte Bilder, von denen of Klebespuren zurückgeblieben sind."@de;
+  skos:narrower hspv:DECO-A226, hspv:DECO-A414;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A226 a skos:Concept;
+  skos:notation "DECO-A226";
+  skos:prefLabel "Buchschmuck vollständig entfernt"@de, "decoration partly removed"@en;
+  skos:broader hspv:DECO-A886;
+  skos:definition "Bilder und Initialen der ursprünglichen Ausstattung oder eingeklebte Bilder vollständig entfernt"@de;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-A414 a skos:Concept;
+  skos:notation "DECO-A414";
+  skos:prefLabel "Buchschmuck teilweise entfernt"@de, "decoration fully removed"@en;
+  skos:broader hspv:DECO-A886;
+  skos:definition "Bilder und Initialen der ursprünglichen Ausstattung oder eingeklebte Bilder vollständig entfernt"@de;
+  skos:inScheme hspv:DECO-A .
+
+hspv:DECO-D a skos:ConceptScheme;
+  skos:prefLabel "Werkzeuge / Verfahren (Buchschmuck)"@de, "Tools / processes (decoration)"@en;
+  skos:definition "Thesaurus: Werkzeuge / Verfahren (Buchschmuck) (DECO-D)"@de, "Thesaurus: Tools / processes (DECO-D)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-D331, hspv:DECO-D496 .
+
+hspv:DECO-D331 a skos:Concept;
+  skos:notation "DECO-D331";
+  skos:prefLabel "händisch"@de, "manually"@en;
+  skos:altLabel "by hand"@en, "manual"@en;
+  skos:narrower hspv:DECO-D783, hspv:DECO-D772, hspv:DECO-D490, hspv:DECO-D254;
+  skos:inScheme hspv:DECO-D;
+  skos:topConceptOf hspv:DECO-D .
+
+hspv:DECO-D783 a skos:Concept;
+  skos:notation "DECO-D783";
+  skos:prefLabel "Feder"@de, "pen"@en;
+  skos:broader hspv:DECO-D331;
+  skos:altLabel "quill"@en;
+  dct:bibliographicCitation "Jakobi-Mirwald 111";
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-D772 a skos:Concept;
+  skos:notation "DECO-D772";
+  skos:prefLabel "Pinsel"@de, "brush"@en;
+  skos:broader hspv:DECO-D331;
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-D490 a skos:Concept;
+  skos:notation "DECO-D490";
+  skos:prefLabel "Griffel"@de, "stylus"@en;
+  skos:altLabel "Blindgriffel"@de, "Metallgriffel"@de, "slate pen"@en;
+  skos:broader hspv:DECO-D331;
+  dct:bibliographicCitation "Jakobi-Mirwald 111";
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-D254 a skos:Concept;
+  skos:notation "DECO-D254";
+  skos:prefLabel "Stift"@de, "pen"@en;
+  skos:broader hspv:DECO-D331;
+  skos:altLabel "pencil"@en;
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-D496 a skos:Concept;
+  skos:notation "DECO-D496";
+  skos:prefLabel "mechanisch"@de, "mechanical"@en;
+  skos:narrower hspv:DECO-D803, hspv:DECO-D638, hspv:DECO-D259;
+  skos:inScheme hspv:DECO-D;
+  skos:topConceptOf hspv:DECO-D .
+
+hspv:DECO-D803 a skos:Concept;
+  skos:notation "DECO-D803";
+  skos:prefLabel "Verfahren für den Flachdruck"@de, "planographic printing"@en;
+  skos:broader hspv:DECO-D496;
+  skos:altLabel "flat printing, surface printing"@en;
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-D638 a skos:Concept;
+  skos:notation "DECO-D638";
+  skos:prefLabel "Verfahren für den Hochdruck"@de, "relief printing"@en;
+  skos:broader hspv:DECO-D496;
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-D259 a skos:Concept;
+  skos:notation "DECO-D259";
+  skos:prefLabel "Verfahren für den Tiefdruck"@de, "gravure printing"@en;
+  skos:broader hspv:DECO-D496;
+  skos:altLabel "intaglio printing"@en;
+  skos:inScheme hspv:DECO-D .
+
+hspv:DECO-E a skos:ConceptScheme;
+  skos:prefLabel "Farben / Quantität (Buchschmuck)"@de, "Colours / quantity (decoration)"@en;
+  skos:definition "Thesaurus: Farben / Quantität (Buchschmuck) (DECO-E)"@de, "Thesaurus: Colours / quantity (decoration) (DECO-E)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-E527, hspv:DECO-E546 .
+
+hspv:DECO-E527 a skos:Concept;
+  skos:notation "DECO-E527";
+  skos:prefLabel "einfarbig (Buchschmuck)"@de, "monochrome (decoration)"@en;
+  skos:altLabel "monochrom"@de;
+  skos:inScheme hspv:DECO-E;
+  skos:topConceptOf hspv:DECO-E .
+
+hspv:DECO-E546 a skos:Concept;
+  skos:notation "DECO-E546";
+  skos:prefLabel "mehrfarbig (Buchschmuck)"@de, "polychromatic (decoration)"@en;
+  skos:altLabel "polychrom"@de;
+  skos:narrower hspv:DECO-E490, hspv:DECO-E772, hspv:DECO-E784, hspv:DECO-E769;
+  skos:inScheme hspv:DECO-E;
+  skos:topConceptOf hspv:DECO-E .
+
+hspv:DECO-E490 a skos:Concept;
+  skos:notation "DECO-E490";
+  skos:prefLabel "zweifarbig (Buchschmuck)"@de, "dichromatic (decoration)"@en;
+  skos:broader hspv:DECO-E546;
+  skos:altLabel "bicolour (decoration)"@en;
+  skos:inScheme hspv:DECO-E .
+
+hspv:DECO-E772 a skos:Concept;
+  skos:notation "DECO-E772";
+  skos:prefLabel "dreifarbig (Buchschmuck)"@de, "three-coloured (decoration)"@en;
+  skos:broader hspv:DECO-E546;
+  skos:altLabel "trichromatic (decoration)"@en;
+  skos:inScheme hspv:DECO-E .
+
+hspv:DECO-E784 a skos:Concept;
+  skos:notation "DECO-E784";
+  skos:prefLabel "vierfarbig (Buchschmuck)"@de, "four-coloured (decoration)"@en;
+  skos:broader hspv:DECO-E546;
+  skos:inScheme hspv:DECO-E .
+
+hspv:DECO-E769 a skos:Concept;
+  skos:notation "DECO-E769";
+  skos:prefLabel "mehr als vier Farben (Buchschmuck)"@de, "more than four colours (decoration)"@en;
+  skos:broader hspv:DECO-E546;
+  skos:inScheme hspv:DECO-E .
+
+hspv:DECO-B a skos:ConceptScheme;
+  skos:prefLabel "Gestaltungstyp"@de, "Decoration type"@en;
+  skos:definition "Thesaurus: Gestaltungstyp (DECO-B)"@de, "Thesaurus: Decoration type (DECO-B)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-B186, hspv:DECO-B604, hspv:DECO-B512 .
+
+hspv:DECO-B186 a skos:Concept;
+  skos:notation "DECO-B186";
+  skos:prefLabel "ornamental"@de, "ornamental"@en;
+  skos:definition "Im Gegensatz zu gegenständlich oder illustrierend: jegliche Art von Darstellung ohne inhaltlichen Bezug (z. B. ornamentale Initialen im Gegensatz zu historisierten), nichtfigürliche, vegetabilische, zoomorphe oder geometrische Motivik"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 22";
+  skos:narrower hspv:DECO-B997, hspv:DECO-B191;
+  skos:inScheme hspv:DECO-B;
+  skos:topConceptOf hspv:DECO-B .
+
+hspv:DECO-B997 a skos:Concept;
+  skos:notation "DECO-B997";
+  skos:prefLabel "vegetabil"@de, "phytomorphic"@en;
+  skos:broader hspv:DECO-B186;
+  skos:altLabel "vegetal"@en;
+  skos:definition "ornamentale Gestaltung mit vegetabilen Elementen"@de;
+  skos:inScheme hspv:DECO-B .
+
+hspv:DECO-B191 a skos:Concept;
+  skos:notation "DECO-B191";
+  skos:prefLabel "geometrisch"@de, "geometric"@en;
+  skos:broader hspv:DECO-B186;
+  skos:altLabel "geometrical"@en;
+  skos:definition "ornamentale Gestaltung mit vegetabilen Elementen"@de;
+  skos:inScheme hspv:DECO-B .
+
+hspv:DECO-B604 a skos:Concept;
+  skos:notation "DECO-B604";
+  skos:prefLabel "gegenständlich"@de, "representational"@en;
+  skos:definition "gegenständliche Gestaltung auch ohne illustrierende Funktion"@de;
+  skos:narrower hspv:DECO-B598;
+  skos:inScheme hspv:DECO-B;
+  skos:topConceptOf hspv:DECO-B .
+
+hspv:DECO-B598 a skos:Concept;
+  skos:notation "DECO-B598";
+  skos:prefLabel "figürlich"@de, "figurative"@en;
+  skos:broader hspv:DECO-B604;
+  skos:definition "Menschen- und Tierdarstellungen umfassend"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald, 2014, 20";
+  skos:narrower hspv:DECO-B320, hspv:DECO-B961;
+  skos:inScheme hspv:DECO-B .
+
+hspv:DECO-B320 a skos:Concept;
+  skos:notation "DECO-B320";
+  skos:prefLabel "zoomorph"@de, "zoomorphic"@en;
+  skos:broader hspv:DECO-B598;
+  skos:definition "Tierdarstellungen umfassend"@de;
+  skos:inScheme hspv:DECO-B .
+
+hspv:DECO-B961 a skos:Concept;
+  skos:notation "DECO-B961";
+  skos:prefLabel "anthropomorph"@de, "anthropomorphic"@en;
+  skos:broader hspv:DECO-B598;
+  skos:definition "Menschendarstellungen umfassend"@de;
+  skos:inScheme hspv:DECO-B .
+
+hspv:DECO-B512 a skos:Concept;
+  skos:notation "DECO-B512";
+  skos:prefLabel "Sonstiger Gestaltungstyp"@de, "other type of decoration"@en;
+  skos:inScheme hspv:DECO-B;
+  skos:topConceptOf hspv:DECO-B .
+
+hspv:DECO-C a skos:ConceptScheme;
+  skos:prefLabel "Material (Buchschmuck)"@de, "Material (decoration)"@en;
+  skos:definition "Thesaurus: Material (Buchschmuck) (DECO-C)"@de, "Thesaurus: Material (decoration) (DECO-C)"@en;
+  skos:inScheme hspv:DECO;
+  skos:hasTopConcept hspv:DECO-C491, hspv:DECO-C745, hspv:DECO-C462, hspv:DECO-C394,
+    hspv:DECO-C429, hspv:DECO-C592, hspv:DECO-C665, hspv:DECO-C257 .
+
+hspv:DECO-C491 a skos:Concept;
+  skos:notation "DECO-C491";
+  skos:prefLabel "Farbmaterial"@de, "colour material"@en;
+  skos:definition "In Wasser suspendierbare Farbe aus Pigmenten und Füllstoffen, die auf den Untergrund sattdeckend aufgetragen werden kann"@de;
+  skos:narrower hspv:DECO-C668, hspv:DECO-C417, hspv:DECO-C916, hspv:DECO-C247;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C668 a skos:Concept;
+  skos:notation "DECO-C668";
+  skos:prefLabel "Tinte"@de, "ink"@en;
+  skos:broader hspv:DECO-C491;
+  skos:definition "In der Handschriftenherstellung werden verschiedene Tinten verwendet, vornehmlich als Schreibmittel und für die Rubrizierung, aber auch für Buchschmuck. Verwendet wurde Dornentinte aus der mit Wein gekochten Rinde von Dornensträuchern, teilweise mit Ruß abgedunkelt, Eisengallustinte/Kupfergallustinte aus Metallsalzen, Gebstoffen (Galläpfeln) und Bindemitteln (z.B. Gummi arabicum), Metalltinte (z.B. Silber oder Gold), ronte Tinte aus Minium oder Zinnober oder Rußtinte (Tusche)."@de;
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C417 a skos:Concept;
+  skos:notation "DECO-C417";
+  skos:prefLabel "Deckfarbe"@de, "opaque colours"@en;
+  skos:broader hspv:DECO-C491;
+  skos:altLabel "gouache"@en;
+  skos:definition "Malereitechnik mit einer oder mehreren übereinandergelegten opaken Farbschichten, bei der nachträglich Lichter aufgesetzt und Konturen nachgezogen werden (Köllner 141). Der G egensatz zur deckenden Malerei ist die lasierende Malerei mit einer oder mehreren transparenten Farbschichten (Lasuren). Bei transparent-wässrigem Farbauftrag über Zeichnungen spricht man von Lavierung. Mittelalterliche Rezeptbücher unterscheiden bei der Ausstattung zweierlei Arten von Farbauftrag: das Korporieren mit gröberen Pigmentpartikeln, z. B. für Buchstabenkörper, und das Florieren oder Musieren mit dünnerer Farbe, z. B. bei Fleuronné (Liber illuministarum)."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 110";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C916 a skos:Concept;
+  skos:notation "DECO-C916";
+  skos:prefLabel "Druckfarbe"@de, "print colours"@en;
+  skos:broader hspv:DECO-C491;
+  skos:altLabel "printing ink"@en;
+  skos:definition "Tinten dienten vornehmlich für die Schrift und Rubrizierung sowie manche Dekortypen, wie z.B. Fleuronnée. Bekannt sind Dornentinte (mit Beigabe von Eisen, Ruß oder Vitriol; H. Roosen-Runge: Die T inte des T heophilus, in: F S Luitpold Duss ler, München 1972, 87–112), Eisengallustinte, Kupfergallustinte sowie Metallemulsionen aus pulverisiertem Metall und Bindemittel."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 110";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C247 a skos:Concept;
+  skos:notation "DECO-C247";
+  skos:prefLabel "Wasserfarbe"@de, "watercolour"@en;
+  skos:broader hspv:DECO-C491;
+  skos:definition "Verwendung von wasserlöslichen Farbmitteln oder Farbmittel nmit wasserlöslichen Bindemitteln. Charakteristisch ist der transparente Farbauftrag."@de;
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C745 a skos:Concept;
+  skos:notation "DECO-C745";
+  skos:prefLabel "Metall (Buchschmuck)"@de, "metal (book decoration)"@en;
+  skos:definition "Im Buchschmuck wurden Metalle (vornehmlich Gold und Silber) in Form von Metallfolien (Blattgold, Blattsilber) oder Metallemulsionen auch in Mischungen verwendet (z.B. Pinselgold/Muschelgold)"@de;
+  skos:narrower hspv:DECO-C153, hspv:DECO-C490, hspv:DECO-C588, hspv:DECO-C330;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C153 a skos:Concept;
+  skos:notation "DECO-C153";
+  skos:prefLabel "Silber (Buchschmuck)"@de, "silver (book decoration)"@en;
+  skos:broader hspv:DECO-C745;
+  skos:definition "Im Buchschmuck wurden Metalle (vornehmlich Gold und Silber) in Form von Metallfolien (Blattgold, Blattsilber) oder Metallemulsionen auch in Mischungen verwendet (z.B. Pinselgold/Muschelgold)"@de;
+  skos:narrower hspv:DECO-C302, hspv:DECO-C401;
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C302 a skos:Concept;
+  skos:notation "DECO-C302";
+  skos:prefLabel "Blattsilber (Buchschmuck)"@de, "silver leaf (book decoration)"@en;
+  skos:broader hspv:DECO-C153;
+  skos:definition "Sehr dünn ausgetriebene Silberfolien, die mit einem Anlegemittel (meist Eikläre) direkt oder auf eine z. T . erhabene Gipsgrundierung (Gesso) aufgelegt und anschließend poliert oder auch weiter verziert werden. (Silbergrund). Gründe, Schriften oder Ornamente aus Silber sind im Gegensatz zum Gold sehr anfällig: sie sulfidieren (nehmen Schwefel aus der Luft auf), d. h. werden schwarz; je nach verwendetem Bindemittel laufen sie aus und schlagen auf die R ückseite durch. Gold schlägt nur durch, wenn es Kupfer oder andere Streckmittel enthält"@de;
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C401 a skos:Concept;
+  skos:notation "DECO-C401";
+  skos:prefLabel "Pinselsilber (Buchschmuck)"@de, "silver emulsion"@en;
+  skos:altLabel "Silberemulsion"@de, "Silberpulver"@de;
+  skos:broader hspv:DECO-C153;
+  skos:definition "Pulverisiertes Silber, das mit einem Bindemittel (Gummi oder Eikläre) mit dem Pinsel oder als Tinte verarbeitet wird. Die Bezeichnung Muschelgold rührt daher, dass die fertige Emulsion in den Innenseiten von Muschelschalen vertrieben wurde"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 117";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C490 a skos:Concept;
+  skos:notation "DECO-C490";
+  skos:prefLabel "Gold (Buchschmuck)"@de, "gold (book decoration)"@en;
+  skos:broader hspv:DECO-C745;
+  skos:definition "Im Buchschmuck wurden Metalle (vornehmlich Gold und Silber) in Form von Metallfolien (Blattgold, Blattsilber) oder Metallemulsionen auch in Mischungen verwendet (z.B. Pinselgold/Muschelgold)"@de;
+  skos:narrower hspv:DECO-C459, hspv:DECO-C135;
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C459 a skos:Concept;
+  skos:notation "DECO-C459";
+  skos:prefLabel "Blattgold (Buchschmuck)"@de, "gold leaf (book decoration)"@en;
+  skos:broader hspv:DECO-C490;
+  skos:altLabel "mordant gilding"@en, "burnished gold"@en;
+  skos:definition "Sehr dünn ausgetriebene Goldfolien, die mit einem Anlegemittel (meist Eikläre) direkt oder auf eine z. T . erhabene Gipsgrundierung (Gesso) aufgelegt und anschließend poliert oder auch weiter verziert werden. (Goldgrund). Wie unter anderem aus unvollendeten Handschriften deutlich wird, war die Vergoldung stets der erste Arbeitsschrift der farbigen Ausstattung. Mit bloßem Auge kann nicht immer zwischen Blatt- und Pinselgold (Goldemulsion) unterschieden werden. Blattgold findet vor allem ab der 2. Hälfte des 12. Jh. verstärkt Verwendung."@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 115-116";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C135 a skos:Concept;
+  skos:notation "DECO-C135";
+  skos:prefLabel "Pinselgold (Buchschmuck)"@de, "gold emulsion"@en;
+  skos:altLabel "Goldemulsion"@de, "Muschelgold"@de, "Goldpulver"@de;
+  skos:broader hspv:DECO-C490;
+  skos:definition "Fein vermahlenes Blattgold, das mit einem Bindemittel (Gummi oder Eikläre) mit dem Pinsel oder als Tinte verarbeitet wird. Die Bezeichnung Muschelgold rührt daher, dass die fertige Emulsion in den Innenseiten von Muschelschalen vertrieben wurde"@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 116";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C588 a skos:Concept;
+  skos:notation "DECO-C588";
+  skos:prefLabel "Blei"@de, "lead"@en;
+  skos:broader hspv:DECO-C745;
+  skos:definition """Zeichnungen, auch Vorzeichnungen und Liniierungen Vorzeichnungen oder Liniierung wurden häufig mit einem
+Metallgriffel, vorwiegend Blei, ausgeführt. Ebenso fand Blei für die Herstellung des wichtigsten weißen Pigments (Bleiweiß, cerus[s]a, album plumbum; Bleicarbonat, seit der
+Antike aus Blei und Essig oder Urin) Verwendung basisches"""@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 119, 112";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C330 a skos:Concept;
+  skos:notation "DECO-C330";
+  skos:prefLabel "Sonstiges Metall (Buchschmuck)"@de, "other metal (book decoration)"@en;
+  skos:broader hspv:DECO-C745;
+  skos:definition """Verwendung eines Blindgriffels, Stylus, der 
+ eine Einkerbung, aber keinefarbige Spur
+hinterlässt."""@de;
+  dct:bibliographicCitation "Jakobi-Mirwald 118";
+  skos:inScheme hspv:DECO-C .
+
+hspv:DECO-C462 a skos:Concept;
+  skos:notation "DECO-C462";
+  skos:prefLabel "Graphit"@de, "graphite"@en;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C394 a skos:Concept;
+  skos:notation "DECO-C394";
+  skos:prefLabel "Kohle"@de, "coal"@en;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C429 a skos:Concept;
+  skos:notation "DECO-C429";
+  skos:prefLabel "Kreide"@de, "chalk"@en;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C592 a skos:Concept;
+  skos:notation "DECO-C592";
+  skos:prefLabel "Rötel"@de, "red chalk"@en;
+  skos:altLabel "roter Ocker"@de, "Rötelstein"@de;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C665 a skos:Concept;
+  skos:notation "DECO-C665";
+  skos:prefLabel "blind"@de, "executed without material"@en;
+  skos:altLabel "blind ausgeführt"@de, "ohne Material ausgeführt"@de, "dry-point"@en;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .
+
+hspv:DECO-C257 a skos:Concept;
+  skos:notation "DECO-C257";
+  skos:prefLabel "mit sonstigem Material ausgeführt"@de, "executed in other material"@en;
+  skos:inScheme hspv:DECO-C;
+  skos:topConceptOf hspv:DECO-C .

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+   <title>ISO Schematron rules</title>
+   <!-- This file generated (tei-odd: 4.8.3) by 'extract-isosch.xsl'. -->
+   <!-- ********************* -->
+   <!-- namespaces, declared: -->
+   <!-- ********************* -->
+   <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+   <ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+   <ns prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
+   <ns prefix="rna" uri="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+   <ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <ns prefix="sch1x" uri="http://www.ascc.net/xml/schematron"/>
+   <!-- ********************* -->
+   <!-- namespaces, implicit: -->
+   <!-- ********************* -->
+   <ns prefix="xi" uri="http://www.w3.org/2001/XInclude"/>
+   <!-- ******************************************************* -->
+   <!-- constraints in en, und, mul, zxx, of which there are 58 -->
+   <!-- ******************************************************* -->
+   <pattern id="duplicate-xml-ids">
+      <rule context="/">
+         <assert test="count(//*[@xml:id ne '']/@xml:id) eq count(distinct-values(//*[@xml:id ne '']/@xml:id))">
+          'xml:id' must be unique <value-of select=" for $xml-id in distinct-values(//*[@xml:id ne '']/@xml:id)return if(count(//*[@xml:id eq $xml-id]/@xml:id) gt 1) then concat('&#34;', $xml-id, '&#34; : (', count(//*[@xml:id eq $xml-id]/@xml:id), '), Xpath: [', string-join(//*[@xml:id eq $xml-id]/name(), ', '), ']; ') else  '' "/>
+         </assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-CMC_generatedBy_within_post-1">
+      <rule context="tei:*[@generatedBy]">
+         <assert test="ancestor-or-self::tei:post">The @generatedBy attribute is for use within a &lt;post&gt; element.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-att-datable-w3c-when-2">
+      <rule context="tei:*[@when]">
+         <report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</report>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-att-datable-w3c-from-3">
+      <rule context="tei:*[@from]">
+         <report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</report>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-att-datable-w3c-to-4">
+      <rule context="tei:*[@to]">
+         <report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</report>
+      </rule>
+   </pattern>
+   <!--Suppressed abstract pattern declarable was here-->
+   <pattern id="schematron-constraint-only_1_ODD_source-6">
+      <rule context="tei:*[@source]">
+         <let name="srcs" value="tokenize( normalize-space(@source),' ')"/>
+         <report test="(   self::tei:classRef                                 | self::tei:dataRef                                 | self::tei:elementRef                                 | self::tei:macroRef                                 | self::tei:moduleRef                                 | self::tei:schemaSpec )                                   and                                   $srcs[2]"> When used on a schema description element (like <value-of select="name(.)"/>), the @source attribute should have only 1 value. (This one has <value-of select="count($srcs)"/>.)</report>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-targetLang-7">
+      <rule context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
+         <assert test="@target">@targetLang should only be used on <name/> if @target is specified.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-spanTo-points-to-following-8">
+      <rule context="tei:*[ starts-with( @spanTo, '#') ]">
+         <assert test="id( substring( @spanTo, 2 ) ) &gt;&gt; ."> The element indicated by @spanTo (<value-of select="@spanTo"/>) must follow the current <name/> element</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-subtypeTyped-9">
+      <rule context="tei:*[@subtype]">
+         <assert test="@type">The <name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-calendar_attr_on_empty_element-10">
+      <rule context="tei:*[@calendar]">
+         <assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more systems or calendars to which the date represented by the content of this element belongs, but this <name/> element has no textual content.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-abstractModel-structure-p-in-ab-or-p-11">
+      <rule context="tei:p">
+         <report test="(ancestor::tei:ab or ancestor::tei:p) and                        not( ancestor::tei:floatingText                           | parent::tei:exemplum                           | parent::tei:item                           | parent::tei:note                           | parent::tei:q                           | parent::tei:quote                           | parent::tei:remarks                           | parent::tei:said                           | parent::tei:sp                           | parent::tei:stage                           | parent::tei:cell                           | parent::tei:figure )"> Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.</report>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-abstractModel-structure-p-in-l-12">
+      <rule context="tei:l//tei:p">
+         <assert test="ancestor::tei:floatingText | parent::tei:figure | parent::tei:note"> Abstract model violation: Metrical lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.</assert>
+      </rule>
+   </pattern>
+   <pattern id="isoNormDate">
+      <rule context="tei:surrogates/tei:bibl/tei:date">
+         <assert test="@when[matches(.,'^[1,2]\d{3}-[0,1]\d{1}-\d{2}$')]">@when requires a date in the standard form: yyyy-mm-dd.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-ptrAtts-14">
+      <rule context="tei:ptr">
+         <report test="@target and @cRef">Only one of the attributes @target and @cRef may be supplied on <name/>.</report>
+      </rule>
+   </pattern>
+   <pattern id="typeAndTarget">
+      <rule context="tei:surrogates/tei:bibl/tei:ref">
+         <assert test="(@type and @target)">if ref has a type a target is required</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-ref_check-4">
+      <rule context="tei:ref">
+         <assert test="@target or @type">You must provide either @target or @type.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-refAtts-17">
+      <rule context="tei:ref">
+         <report test="@target and @cRef">Only one of the attributes @target and @cRef may be supplied on <name/>.</report>
+      </rule>
+   </pattern>
+   <pattern id="indexTermHead">
+      <rule context="tei:head/tei:index/tei:term[@type eq 'measure_noOfLeaves']">
+         <assert test=".[matches(.,'^[0-9]*?$')]"
+                 diagnostics="d_term_type_measure_noOfLeaves_en d_term_type_measure_noOfLeaves_de">The content may only contain numbers</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='height']">
+         <assert test=".[matches(.,'^([0-9]+(,5)?)?$')]"
+                 diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of height may only be an integer or must be a float which ends with ,5 or is empty</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='width']">
+         <assert test=".[matches(.,'^([0-9]+(,5)?)?$')]"
+                 diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of width may only be an integer or must be a float which ends with ,5 or is empty</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='depth']">
+         <assert test=".[matches(.,'^([0-9]+(,5)?)?$')]"
+                 diagnostics="d_termMeasurement_en d_termMeasurement_de">Value of depth may only be an integer or must be a float which ends with ,5 or is empty</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='dimensions_typeOfInformation']">
+         <assert test=". = ('','deduced','factual')"
+                 diagnostics="d_term_type_dimensions_typeOfInformation_en d_term_type_dimensions_typeOfInformation_de">If type="dimensions_typeOfInformation", then content should be 'deduced' or 'factual' or should stay empty.</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='format_typeOfInformation']">
+         <assert test=". = ('','deduced','factual','computed')"
+                 diagnostics="d_term_type_format_typeOfInformation_en d_term_type_format_typeOfInformation_de">deduced, factual, computed or empty.</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='origDate_type']">
+         <assert test=". = ('','dated','datable')"
+                 diagnostics="d_term_type_origDate_type_en d_term_type_origDate_type_de">If @type="origDate_type", then content should be dated or datable or empty</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='origDate_notBefore']">
+         <assert test=".[matches(.,'^((\-?[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01]))|(\-?[0-9]{4}\-(0[1-9]|1[012]))|(\-?[0-9]{4}))?$')]"
+                 diagnostics="d_origDate_en d_origDate_de">The content should contain a date (year); several date-types are allowed: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='origDate_notAfter']">
+         <assert test=".[matches(.,'^((\-?[0-9]{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01]))|(\-?[0-9]{4}\-(0[1-9]|1[012]))|(\-?[0-9]{4}))?$')]"
+                 diagnostics="d_origDate_en d_origDate_de">The content should contain a date (year); several date-types are allowed: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type eq 'status']">
+         <assert test=". = ('','existent', 'missing', 'destroyed', 'displaced', 'dismembered', 'unknown')"
+                 diagnostics="d_term_type_status_en d_term_type_status_de">If @type="status", then content should be: 'existent', 'missing', 'destroyed', 'displaced', 'dismembered', 'unknown' or should stay empty</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='decoration']">
+         <assert test=". = ('','yes','no')"
+                 diagnostics="d_term_type_decoration_en d_term_type_decoration_de">If @type="decoration", then content should be 'yes' or 'no' or empty</assert>
+      </rule>
+      <rule context="tei:head/tei:index/tei:term[@type='musicNotation']">
+         <assert test=". = ('','yes','no')"
+                 diagnostics="d_term_type_musicNotation_en d_term_type_musicNotation_de">If @type="musicNotation", then content should be 'yes' or 'no' or empty.</assert>
+      </rule>
+   </pattern>
+   <diagnostics>
+      <diagnostic id="d_term_type_title_en" xml:lang="en">The index entry for the title of the cultural object must not be empty! -- Please provide a title entry.</diagnostic>
+      <diagnostic id="d_term_type_title_de" xml:lang="de">Der Registereintrag zur Angabe des Titels des Kulturobjekts darf nicht leer sein! -- Bitte geben Sie einen Titel an.</diagnostic>
+      <diagnostic id="d_term_type_material_type_en" xml:lang="en">The index entry to describe the material type in the element '<value-of select="name()"/>' (of @type '<value-of select="@type"/>') is given as '<value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</diagnostic>
+      <diagnostic id="d_term_type_material_type_de" xml:lang="de">Der Registereintrag zur Beschreibung des Materials im Element '<value-of select="name()"/>' (mit @type '<value-of select="@type"/>') lautet ungültigerweise '<value-of select="."/>'! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</diagnostic>
+      <diagnostic id="d_term_type_measure_en" xml:lang="en">The entry to describe the measure of the manuscript given in the '<value-of select="name()"/>' element must not be empty! -- Please enter information about the measure of the manuscript.</diagnostic>
+      <diagnostic id="d_term_type_measure_de" xml:lang="de">Die Angabe zum Umfang der Handschrift im Element '<value-of select="name()"/>' darf nicht leer sein! -- Bitte machen Sie eine Angabe zum Umfang der Handschrift.</diagnostic>
+      <diagnostic id="d_term_type_measure_noOfLeaves_en" xml:lang="en">The value of the number of leaves '<value-of select="."/>' given in the '<value-of select="name()"/>' element must be an integer! -- Please use an integer value to describe the number of leaves.</diagnostic>
+      <diagnostic id="d_term_type_measure_noOfLeaves_de" xml:lang="de">Die Angabe der Blattzahl '<value-of select="."/>' im Element '<value-of select="name()"/>' muss eine Ganzzahl sein! -- Bitte geben Sie eine Ganzzahl an.</diagnostic>
+      <diagnostic id="d_term_type_dimensions_en" xml:lang="en">The value of the dimensions of the cultural object must not be empty! -- Please enter the dimensions (e.g. '30,5 × 22').</diagnostic>
+      <diagnostic id="d_term_type_dimensions_de" xml:lang="de">Die Angabe zu den Abmessungen des Kulturobjekts darf nicht leer sein! -- Bitte geben Sie die Abmessungen (z.B. '30,5 × 22') an.</diagnostic>
+      <diagnostic id="d_termMeasurement_en" xml:lang="en">The value of the measurement '<value-of select="."/>' given in the '<value-of select="name()"/>' element must be an integer or end with ',5' as decimal place! -- Please use an integer value or use ',5' for the decimal place. (This is a requirement for filtering measurements.)</diagnostic>
+      <diagnostic id="d_termMeasurement_de" xml:lang="de">Die Angabe der Abmessung '<value-of select="."/>' im Element '<value-of select="name()"/>' muss eine Ganzzahl sein oder mit ',5' als Nachkommastelle enden! -- Bitte geben Sie eine Ganzzahl an bzw. geben Sie die Nachkommastelle auf ',5' vereinheitlicht an. (Diese Vereinheitlichung ist eine Anforderung für die Filterung nach Abmessungen.)</diagnostic>
+      <diagnostic id="d_term_type_dimensions_typeOfInformation_en" xml:lang="en">The description '<value-of select="."/>' about the kind of information about the dimensions of the cultural object is not valid! -- Please enter 'deduced' or 'factual' or provide an empty entry.</diagnostic>
+      <diagnostic id="d_term_type_dimensions_typeOfInformation_de" xml:lang="de">Die Angabe '<value-of select="name()"/>' zur Art der Information über die Abmessungen des Kulturobjekts ist ungültig! -- Bitte geben Sie 'deduced' oder 'factual' an bzw. lassen Sie den Eintrag leer.</diagnostic>
+      <diagnostic id="d_term_type_format_en" xml:lang="en">The index entry to describe the format of the cultural object is '<value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</diagnostic>
+      <diagnostic id="d_term_type_format_de" xml:lang="de">Der Registereintrag für das Format des Kulturobjekts enthält mit '<value-of select="."/>' kein gültiges Formatschlagwort! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</diagnostic>
+      <diagnostic id="d_term_type_format_typeOfInformation_en" xml:lang="en">The description '<value-of select="."/>' about the kind of information about the format of the cultural object is not valid! -- Please enter 'deduced', 'factual', 'computed' or provide an empty entry.</diagnostic>
+      <diagnostic id="d_term_type_format_typeOfInformation_de" xml:lang="de">Die Angabe '<value-of select="name()"/>' zur Art der Information über das Format des Kulturobjekts ist ungültig! -- Bitte geben Sie 'deduced', 'factual' oder 'computed' an bzw. lassen Sie den Eintrag leer.</diagnostic>
+      <diagnostic id="d_term_type_origDate_type_en" xml:lang="en">The date type entry '<value-of select="."/>' is not valid! -- Please enter 'dated' or 'datable' or provide an empty entry.</diagnostic>
+      <diagnostic id="d_term_type_origDate_type_de" xml:lang="de">Der Eintrag zum Datumstyp '<value-of select="name()"/>' ist ungültig! -- Bitte geben Sie 'dated' oder 'datable' an bzw. lassen Sie den Eintrag leer.</diagnostic>
+      <diagnostic id="d_origDate_en" xml:lang="en">The date '<value-of select="."/>' given in the '<value-of select="name()"/>' element must be formated as an ISO date! -- Please format the date entry according to one of the following patterns: YYYY-MM-DD, -YYYY-MM-DD, YYYY-MM , -YYYY-MM or YYYY.</diagnostic>
+      <diagnostic id="d_origDate_de" xml:lang="de">Das Datum '<value-of select="."/>' im Element '<value-of select="name()"/>' ist nicht richtig als ISO-Datum formatiert angegeben! -- Bitte formatieren Sie die Datumsangabe entsprechend einem der folgenden Muster: JJJJ-MM-TT, -JJJJ-MM-TT, JJJJ-MM , -JJJJ-MM or JJJJ.</diagnostic>
+      <diagnostic id="d_term_type_form_en" xml:lang="en">The index entry to describe the form of the cultural object is '<value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</diagnostic>
+      <diagnostic id="d_term_type_form_de" xml:lang="de">Der Registereintrag für die Form des Kulturobjekts enthält mit '<value-of select="."/>' kein gültiges Formschlagwort! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</diagnostic>
+      <diagnostic id="d_term_type_status_en" xml:lang="en">The index entry to describe the form type in the element '<value-of select="name()"/>' (of @type '<value-of select="@type"/>') is given as '<value-of select="."/>' which is invalid! -- Please use an entry from the designated controlled vocabulary.</diagnostic>
+      <diagnostic id="d_term_type_status_de" xml:lang="de">Der Registereintrag für den Formtyp im Element '<value-of select="name()"/>' (mit @type '<value-of select="@type"/>') lautet ungültigerweise '<value-of select="."/>'! -- Bitte geben Sie einen Eintrag aus dem dafür vorgesehenen kontrollierten Vokabular an.</diagnostic>
+      <diagnostic id="d_term_type_decoration_en" xml:lang="en">The index entry for decoration is given as '<value-of select="."/>' which is invalid! -- Please use 'yes or 'no' as entry or keep it empty.</diagnostic>
+      <diagnostic id="d_term_type_decoration_de" xml:lang="de">Der Registereintrag für Buchschmuck lautet ungültigerweise '<value-of select="."/>'! -- Bitte geben Sie entweder 'yes' oder 'no' an oder lassen Sie den Eintrag leer.</diagnostic>
+      <diagnostic id="d_term_type_musicNotation_en" xml:lang="en">The index entry for music notation is given as '<value-of select="."/>' which is invalid! -- Please use 'yes or 'no' as entry or keep it empty.</diagnostic>
+      <diagnostic id="d_term_type_musicNotation_de" xml:lang="de">Der Registereintrag für Musiknotation lautet ungültigerweise '<value-of select="."/>'! -- Bitte geben Sie entweder 'yes' oder 'no' an oder lassen Sie den Eintrag leer.</diagnostic>
+   </diagnostics>
+   <pattern id="note">
+      <rule context="tei:msDesc/tei:head/tei:note[@type eq 'headline']">
+         <assert test="empty(* except (tei:hi, tei:lb))"
+                 diagnostics="d_note_headline_content_en d_note_headline_content_de">A note element of @type 'headline' should not contain any semantic markup elements!</assert>
+      </rule>
+      <rule context="tei:note[@type eq 'text']">
+         <assert test="normalize-space()" diagnostics="d_note_text_en d_note_text_de">If note @type = 'text', then note should not be empty</assert>
+      </rule>
+      <rule context="tei:note[@type eq 'register']">
+         <report test="text()[normalize-space()]"
+                 diagnostics="d_note_register_text_en d_note_register_text_de">A note element of @type 'register' must not contain text outside of its p element!</report>
+      </rule>
+      <rule context="tei:note[@type eq 'register']">
+         <assert test="count(tei:p) eq 1"
+                 diagnostics="d_note_register_p_cardinality_en d_note_register_p_cardinality_de">A note element of @type 'register' must have exactly one p element!</assert>
+      </rule>
+      <rule context="tei:note[@type eq 'register']/tei:p">
+         <assert test="empty(* except (tei:index))"
+                 diagnostics="d_note_register_p_content_en d_note_register_p_content_de">The p element of a note element of @type 'register' must contain only index element(s)!</assert>
+      </rule>
+      <rule context="tei:note[@type eq 'register']/tei:p">
+         <assert test="count(tei:index) ge 1"
+                 diagnostics="d_note_register_p_index_cardinality_en d_note_register_p_index_cardinality_de">The p element of a note element of @type 'register' must have one or more index element(s)!</assert>
+      </rule>
+   </pattern>
+   <diagnostics>
+      <diagnostic id="d_note_headline_content_en" xml:lang="en">The note section for a headline should not contain semantic markup! -- Please remove semantic markup.</diagnostic>
+      <diagnostic id="d_note_headline_content_de" xml:lang="de">Die Anmerkung zur Überschrift darf keine semantischen Auszeichnungen enthalten! -- Bitte entfernen Sie semantische Auszeichnungen.</diagnostic>
+      <diagnostic id="d_note_text_en" xml:lang="en">The text note section should not be empty! -- Please add some text.</diagnostic>
+      <diagnostic id="d_note_text_de" xml:lang="de">Die Textanmerkung darf nicht leer sein! -- Bitte fügen Sie Text ein.</diagnostic>
+      <diagnostic id="d_note_register_text_en" xml:lang="en">The note register section must not contain text outside its paragraph! -- Please move the content into the paragraph.</diagnostic>
+      <diagnostic id="d_note_register_text_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge darf keinen Inhalt außerhalb seines Absatzes enthalten! -- Bitte fügen Sie den Inhalt in den Absatz ein.</diagnostic>
+      <diagnostic id="d_note_register_p_cardinality_en" xml:lang="en">The note register section must have exactly one paragraph! -- Please enter exactly one paragraph.</diagnostic>
+      <diagnostic id="d_note_register_p_cardinality_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge muss genau einen Absatz enthalten! -- Bitte fügen Sie genau einen Absatz ein.</diagnostic>
+      <diagnostic id="d_note_register_p_content_en" xml:lang="en">The note register section containts semantic markup which is not allowed! -- Please use allowed semantic markup only.</diagnostic>
+      <diagnostic id="d_note_register_p_content_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge enthält unerlaubten Inhalt! -- Bitte verwenden Sie nur die erlaubten semantischen Auszeichnungen.</diagnostic>
+      <diagnostic id="d_note_register_p_index_cardinality_en" xml:lang="en">The note section for index entries does not contain an index entry! -- Please add at least one index entry.</diagnostic>
+      <diagnostic id="d_note_register_p_index_cardinality_de" xml:lang="de">Der Anmerkungsbereich für Registereinträge enthält keinen Registereintrag! -- Bitte fügen Sie mindestens einen Registereintrag hinzu.</diagnostic>
+   </diagnostics>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-bibl-is-declarable-7">
+      <rule context="tei:bibl[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:bibl                                  and                                  not( preceding-sibling::tei:bibl ) ]">
+         <report test="../child::tei:bibl[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:bibl[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-listBibl-is-declarable-8">
+      <rule context="tei:listBibl[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:listBibl                                  and                                  not( preceding-sibling::tei:listBibl ) ]">
+         <report test="../child::tei:listBibl[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:listBibl[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-abstractModel-structure-div-in-l-36">
+      <rule context="tei:l//tei:div">
+         <assert test="ancestor::tei:floatingText"> Abstract model violation: Metrical lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-abstractModel-structure-div-in-ab-or-p-37">
+      <rule context="tei:div">
+         <report test="(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)"> Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.</report>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-availability-is-declarable-9">
+      <rule context="tei:availability[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:availability                                  and                                  not( preceding-sibling::tei:availability ) ]">
+         <report test="../child::tei:availability[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:availability[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-sourceDesc-is-declarable-10">
+      <rule context="tei:sourceDesc[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:sourceDesc                                  and                                  not( preceding-sibling::tei:sourceDesc ) ]">
+         <report test="../child::tei:sourceDesc[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:sourceDesc[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-projectDesc-is-declarable-11">
+      <rule context="tei:projectDesc[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:projectDesc                                  and                                  not( preceding-sibling::tei:projectDesc ) ]">
+         <report test="../child::tei:projectDesc[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:projectDesc[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPart_fragment">
+      <rule context="tei:msPart[@type eq 'fragment']">
+         <assert test="not(following-sibling::tei:msPart[@type eq 'binding'])">Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPart_booklet">
+      <rule context="tei:msPart[@type eq 'booklet']">
+         <assert test="not( following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'])">Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPart_accMat">
+      <rule context="tei:msPart[@type eq 'accMat']">
+         <assert test="not( following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'] or following-sibling::tei:msPart[@type eq 'booklet'])">Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPart_other">
+      <rule context="tei:msPart[@type eq 'other']">
+         <assert test="not( following-sibling::tei:msPart[@type eq 'binding'] or following-sibling::tei:msPart[@type eq 'fragment'] or following-sibling::tei:msPart[@type eq 'booklet'] or following-sibling::tei:msPart[@type eq 'accMat'])">Only msPart in the following order are allowed: binding, fragment, booklet, accMat, other</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-one_ms_singleton_max-42">
+      <rule context="tei:msContents|tei:physDesc|tei:history|tei:additional"> <!-- Note: This rule applies to <msContents>, <physDesc>,
+             <history>, and <additional> wherever they occur. Luckily
+             they are only allowed in places where they are
+             constrained to 0 or 1 occurrence. If that changes someday,
+             this constraint may will likely need to be updated,
+             too. --> <!-- Also worth noting that
+             a) if & when we can use abstract patterns, this would be
+             better handled as a single abstract rule somewhere, and
+             concrete rules in the individual <elementSpec>s; and
+             b) I did not test for the existence of "../*[name(.) eq
+             $gi][2]" because then an error would be generated for
+             each of the multiple occurrences of $gi. -->
+         <let name="gi" value="name(.)"/>
+         <report test="preceding-sibling::*[ name(.) eq $gi ]                           and                           not( following-sibling::*[ name(.) eq $gi ] )"> Only one <name/> is allowed as a child of <value-of select="name(..)"/>.</report>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-msId_minimal-43">
+      <rule context="tei:msIdentifier">
+         <report test="not( parent::tei:msPart )                           and                           ( child::*[1]/self::idno  or  child::*[1]/self::altIdentifier  or  normalize-space(.) eq '')">An msIdentifier must contain either a repository or location.</report>
+      </rule>
+   </pattern>
+   <pattern id="ÄußeresKunst">
+      <rule context="tei:physDesc/tei:decoDesc/tei:decoNote">
+         <assert test="@type eq 'form' ">It's possible to describe some illuminated aspects of a manuscript here</assert>
+      </rule>
+   </pattern>
+   <pattern id="history">
+      <rule context="tei:history">
+         <report test="text()[normalize-space()]"
+                 diagnostics="d_history_text_en d_history_text_de">A history element must not contain text outside of its p element!</report>
+      </rule>
+      <rule context="tei:history">
+         <assert test="count(tei:p) eq 1"
+                 diagnostics="d_history_p_cardinality_en d_history_p_cardinality_de">A history element must have exactly one p element!</assert>
+      </rule>
+      <rule context="tei:history/tei:p">
+         <assert test="empty(* except (tei:lb, tei:hi, tei:index, tei:quote, tei:ref, tei:persName, tei:orgName, tei:placeName))"
+                 diagnostics="d_history_p_content_en d_history_p_content_de"> The p element of a history element must contain only lb, hi, index, quote, ref, orgName, placeName, or indexName elements!</assert>
+      </rule>
+   </pattern>
+   <diagnostics>
+      <diagnostic id="d_history_text_en" xml:lang="en">The history section must not contain text outside its paragraph! -- Please move the content into the paragraph.</diagnostic>
+      <diagnostic id="d_history_text_de" xml:lang="de">Der Abschnitt zur Geschichte darf keinen Inhalt außerhalb seines Absatzes enthalten! -- Bitte fügen Sie den Inhalt in den Absatz ein.</diagnostic>
+      <diagnostic id="d_history_p_cardinality_en" xml:lang="en">The history section must have exactly one paragraph! -- Please enter exactly one paragraph.</diagnostic>
+      <diagnostic id="d_history_p_cardinality_de" xml:lang="de">Der Abschnitt zur Geschichte muss genau einen Absatz enthalten! -- Bitte fügen Sie genau einen Absatz ein.</diagnostic>
+      <diagnostic id="d_history_p_content_en" xml:lang="en">The history section contains semantic markup which is not allowed! -- Please use allowed semantic markup only.</diagnostic>
+      <diagnostic id="d_history_p_content_de" xml:lang="de">Der Abschnitt zur Geschichte enthält unerlaubte semantische Auszeichnung! -- Bitte verwenden Sie nur die erlaubten semantischen Auszeichnungen.</diagnostic>
+   </diagnostics>
+   <pattern id="booklet">
+      <rule context="tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test="(.='booklet') or (.='')">If msPart @type = 'booklet', then form should be 'booklet' or be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="binding">
+      <rule context="tei:msPart[@type eq 'binding']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test="(.='binding') or (.='')">If msPart @type = 'binding', then form should be 'binding' or be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="accMat">
+      <rule context="tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test=".=('','loose insert')">If msPart @type = 'accMat', then form should be 'loose insert' or be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="fragment">
+      <rule context="tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test="(.='fragment') or (.='')"
+                 diagnostics="d_msPart_fragment_en d_msPart_fragment_de">If msPart @type = 'fragment', then form should be 'fragment' or be empty</assert>
+      </rule>
+   </pattern>
+   <diagnostics>
+      <diagnostic id="d_msPart_fragment_en" xml:lang="en">The index entry (added for a manuscript fragment) to describe the form type in the element '<value-of select="name()"/>' (of @type '<value-of select="@type"/>') is given as '<value-of select="."/>', but should be 'fragment' or empty! -- Please use 'fragment' as entry or keep it empty.</diagnostic>
+      <diagnostic id="d_msPart_fragment_de" xml:lang="de">Der für ein Handschriftenfragment eingefügte Registereintrag für den Formtyp im Element '<value-of select="name()"/>' (mit @type '<value-of select="@type"/>') lautet '<value-of select="."/>', sollte aber 'fragment' oder leer sein! -- Bitte verwenden Sie den Eintrag 'fragment' oder lassen Sie den Eintrag leer.</diagnostic>
+   </diagnostics>
+   <pattern id="msPartInmsPartStandard">
+      <rule context="tei:msPart[@type eq 'binding' or @type eq 'fragment' or @type eq 'accMat']/tei:msPart">
+         <assert test="@type eq 'accMat' or @type eq 'fragment' or @type eq 'other'"> Only bindings, accMat and a fragment may contain further msParts with the following types: accMat, fragment or other</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPartInmsPartBooklet">
+      <rule context="tei:msPart[@type eq 'booklet']/tei:msPart">
+         <assert test="@type eq 'fragment' or @type eq 'booklet' or @type eq 'accMat' or @type eq 'other'">Only booklets may contain further msParts with the following types: accMat fragment, booklets and other</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPartInmsPartStandardForm">
+      <rule context="tei:msPart/tei:msPart[@type eq 'fragment']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test="(.='fragment') or (.='')">If msPart @type = 'fragment', then form should be 'fragment' or be empty</assert>
+      </rule>
+      <rule context="tei:msPart/tei:msPart[@type eq 'accMat']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test="(.='accMat') or (.='')">If msPart @type = 'accMat', then form should be 'accMat' or be empty</assert>
+      </rule>
+      <rule context="tei:msPart/tei:msPart[@type eq 'booklet']/tei:head/tei:index/tei:term[@type eq 'form']">
+         <assert test="(.='booklet') or (.='')">If msPart @type = 'booklet' then form should be 'booklet' or be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="idnoKomponenteSonstiges">
+      <rule context="tei:msPart[@type eq 'other']/tei:msIdentifier/tei:idno">
+         <assert test=".=('Sonstiges')">If msPart @type = 'other' then idno contains 'Sonstiges'</assert>
+      </rule>
+   </pattern>
+   <pattern id="msDesc_altIdentifier_corpus_idno">
+      <rule context="tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type eq 'corpus']/tei:idno">
+         <assert test="normalize-space()">If altIdentifier @type = 'corpus', then idno should not be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="msDesc_altIdentifier_former_idno">
+      <rule context="tei:msDesc/tei:msIdentifier/tei:altIdentifier[@type eq 'former']/tei:idno">
+         <assert test="normalize-space()">If altIdentifier @type = 'former', then idno should not be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="idnoMsPartAlt">
+      <rule context="tei:msPart/tei:msIdentifier/tei:altIdentifier/tei:idno">
+         <assert test="normalize-space()">If msPart then idno of altIdentifier should not be empty</assert>
+      </rule>
+   </pattern>
+   <pattern id="childKomponenteSonstiges">
+      <rule context="tei:msPart[@type eq 'other']">
+         <assert test="tei:p">msPart type="other" may only contain p Elements</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPartoneP">
+      <rule context="tei:msPart[@type eq 'booklet' or @type eq 'fragment' or @type eq 'binding' or @type eq 'accMat']">
+         <assert test="count(tei:msPart[@type='other']) &lt; 2">only one msPart type='other' is allowed in one msPart</assert>
+      </rule>
+   </pattern>
+   <pattern id="msPartnoP">
+      <rule context="tei:msPart[@type eq 'booklet' or @type eq 'fragment' or @type eq 'binding' or @type eq 'accMat']">
+         <report test=". != tei:p">booklet, fragment, binding, accMat may not contain a p Element as direct child</report>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-listOrg-is-declarable-32">
+      <rule context="tei:listOrg[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:listOrg                                  and                                  not( preceding-sibling::tei:listOrg ) ]">
+         <report test="../child::tei:listOrg[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:listOrg[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-listPerson-is-declarable-33">
+      <rule context="tei:listPerson[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:listPerson                                  and                                  not( preceding-sibling::tei:listPerson ) ]">
+         <report test="../child::tei:listPerson[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:listPerson[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <!--Start pattern based on abstract declarable-->
+   <pattern id="schematron-constraint-listPlace-is-declarable-34">
+      <rule context="tei:listPlace[ ancestor::tei:teiHeader                                  and                                  following-sibling::tei:listPlace                                  and                                  not( preceding-sibling::tei:listPlace ) ]">
+         <report test="../child::tei:listPlace[ not( @xml:id ) ]"> When there is more than one <name/>, each must have an @xml:id</report>
+         <assert test="count( ../child::tei:listPlace[ normalize-space( @default ) = ('1','true') ] ) eq 1"> When there is more than one <name/>, one and only one must have a @default of 'true'.</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-ref-or-key-or-name-64">
+      <rule context="tei:relation">
+         <assert test="@ref or @key or @name">One of the attributes @name, @ref or @key must be supplied</assert>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-active-mutual-65">
+      <rule context="tei:relation">
+         <report test="@active and @mutual">Only one of the attributes @active and @mutual may be supplied</report>
+      </rule>
+   </pattern>
+   <pattern id="schematron-constraint-active-passive-66">
+      <rule context="tei:relation">
+         <report test="@passive and not(@active)">the attribute @passive may be supplied only if the attribute @active is supplied</report>
+      </rule>
+   </pattern>
+</schema>

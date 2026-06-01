@@ -1,0 +1,1575 @@
+{
+    "medieval": {
+        "msIdentifier":{
+            "allowedNumbers": "1",
+            "required": true,
+            "allowedComponents": [],
+            "allowedIn": [
+                "medieval",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedFollower": [
+                "head", 
+                "physDesc", 
+                "msContents",
+                "history",
+                "msPartbinding", 
+                "msPartfragment", 
+                "msPartbooklet", 
+                "msPartaccMat",
+                "msPartother",
+                "additional"
+            ],
+            "allowedPredecessor": [],
+            "selfContainting": false,
+            "defaultElement": {
+                "data_origin": "msIdentifier",
+                "region": "msIdentifier",
+                "component": "msIdentifier",
+                "copied": false
+            },
+            "defaultChildren": [
+                {
+                    "data_origin": "idno",
+                    "region": "msIdentifier",
+                    "allowedNumbers":"multi",
+                    "required": true,
+                    "data_sortKey": [
+                        {
+                            "required": false
+                        }
+                    ],
+                    "children": [
+                        {   "data_nodeType": "textelement",
+                            "region": "msIdentifier"
+                        }
+                    ]
+                }
+            ],
+            "children": [           
+                {
+                    "data_origin": "settlement",
+                    "region": "msIdentifier",
+                    "allowedNumbers": "1",
+                    "required": false,
+                    "data_key": [
+                        {
+                            "required": false
+                        }
+                    ],
+                    "children": [
+                        {
+                            "data_nodeType": "textelement",
+                            "region":"msIdentifier"
+                        }
+                    ]
+                },
+                {
+                    "data_origin": "repository",
+                    "region":"msIdentifier",
+                    "allowedNumbers":"1",
+                    "required":false,
+                    "data_key": [
+                        {
+                            "required": false
+                        }
+                    ],
+                    "children":[
+                        {
+                            "data_nodeType": "textelement",
+                            "region":"msIdentifier"
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"collection",
+                    "region":"msIdentifier",
+                    "allowedNumbers":"multi",
+                    "required": false,
+                    "children": [
+                        {
+                            "data_nodeType": "textelement",
+                            "region":"msIdentifier"
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"altIdentifier",
+                    "region":"msIdentifier",
+                    "data_type":[
+                        {
+                            "required":true,
+                            "valueList":[
+                                "corpus",
+                                "hsp-ID",
+                                "former"
+                            ]
+                        }
+                        
+                    ],
+                    "required": false,
+                    "defaultChildren":[
+                        {
+                            "data_origin": "idno",
+                            "region": "msIdentifier",
+                            "allowedNumbers": "1",
+                            "required": true,
+                            "children": [
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region": "msIdentifier"
+                                }
+                            ]
+                        }
+                    ],    
+                    "children":[
+                        {
+                            "data_origin":"collection",
+                            "region":"msIdentifier",
+                            "required":false,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"msIdentifier"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"settlement",
+                            "region":"msIdentifier",
+                            "required":false,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType=":"textelement",
+                                    "region":"msIdentifier"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"repository",
+                            "region":"msIdentifier",
+                            "required":false,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType=":"textelement",
+                                    "region":"msIdentifier"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "head": {
+            "allowedNumbers": "1",
+            "required": true,
+            "allowedComponents": [],
+            "selfContainting": false,
+            "allowedIn": [
+                "medieval",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedFollower": [
+                "msContents",
+                "physDesc",
+                "history",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment",
+                "additional",
+                "msPartother"
+            ],
+            "allowedPredecessor": [
+                "msIdentifier"
+            ],
+            "defaultElement": {
+                "data_origin": "head",
+                "region": "head",
+                "component": "head"
+            },
+            "defaultChildren": [
+                {
+                  "data_origin": "title",
+                  "region": "head",
+                  "required":true,
+                  "allowedNumbers":"1",
+                  "children": [
+                      {
+                          "data_nodeType": "textelement",
+                          "region": "head"
+                      }
+                    ]  
+                },
+                {
+                    "data_origin": "note",
+                    "region": "head",
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "data_type": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "headline"
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "data_nodeType": "textelement",
+                            "region": "head"
+                        }
+                    ]
+                },
+                {
+                    "data_origin": "index",
+                    "region": "head",
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "data_indexName": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_title"
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "data_origin": "term",
+                            "region": "head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "title"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children": [
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin": "index",
+                    "region": "head",
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "data_indexName": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_material"
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "data_origin": "term",
+                            "region": "head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "material"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children": [
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region": "head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin": "term",
+                            "region": "head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "material_type"
+                                    ]
+                                }
+                            ],
+                            "required": true,
+                            "allowedNumbers":"multi",
+                            "children": [
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin": "index",
+                    "region": "head",
+                    "data_indexName": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_measure"
+                            ]
+                        }
+                    ],
+                    "required": true,
+                    "allowedNumbers": "1",
+                    "children": [
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "measure"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "measure_noOfLeaves"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_dimensions"
+                            ]
+                        }
+                    ],
+                    "required":true,
+                    "allowedNumbers":"multi",
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "dimensions"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "height"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "width"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ] 
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "dimensions_typeOfInformation"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ] 
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required":true,
+                            "valueList":[
+                                "norm_format"
+                            ]
+                        }
+                    ],
+                    "allowedNumbers":"multi",
+                    "required":true,
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type":[
+                                {
+                                    "required":true,
+                                    "valueList":[
+                                        "format"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType":"textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type":[
+                                {
+                                    "required":true,
+                                    "valueList":[
+                                        "format_typeOfInformation"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType":"textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_origPlace"
+                            ]
+                        }
+                    ],
+                    "allowedNumbers":"multi",
+                    "required":true,
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "origPlace"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "origPlace_gnd-ID"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"multi",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_origDate"
+                            ]
+                        }
+                    ],
+                    "allowedNumbers":"multi",
+                    "required":true,
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "origDate"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "origDate_notBefore"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType": "date",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "origDate_notAfter"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType": "date",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "origDate_type"
+                                    ]
+                                }
+                            ],
+                            "allowedNumbers":"1",
+                            "required":true,
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_textLang"
+                            ]
+                        }
+                    ],
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "textLang"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        },
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "textLang-ID"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"multi",
+                            "children":[
+                                {
+                                    "data_nodeType": "ISO-Lang",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_form"
+                            ]
+                        }
+                    ],
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "form"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_status"
+                            ]
+                        }
+                    ],
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "status"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_decoration"
+                            ]
+                        }
+                    ],
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "decoration"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data_origin":"index",
+                    "region":"head",
+                    "data_indexName":[
+                        {
+                            "required": true,
+                            "valueList": [
+                                "norm_musicNotation"
+                            ]
+                        }
+                    ],
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "children":[
+                        {
+                            "data_origin":"term",
+                            "region":"head",
+                            "data_type": [
+                                {
+                                    "required": true,
+                                    "valueList": [
+                                        "musicNotation"
+                                    ]
+                                }
+                            ],
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "children":[
+                                {
+                                    "data_nodeType": "textelement",
+                                    "region":"head"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "msContents":
+        {
+            "allowedNumbers": "1",
+            "required": false,
+            "selfContainting": false,
+            "allowedComponents": [
+                "msItem"
+            ],
+            "allowedIn": [
+                "medieval",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedFollower": [
+                "physDesc",
+                "history",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment",
+                "additional",
+                "msPartother"
+            ],
+            "allowedPredecessor": [
+                "msIdentifier",
+                "head"
+            ],
+            "defaultElement": {
+                "data_origin": "msContents",
+                "region": "msContents",
+                "component": "msContents"
+            },
+            "children": [
+                {
+                    "data_origin": "textLang",
+                    "region": "msContents",
+                    "required": false,
+                    "allowedNumbers": "1",
+                    "data_mainLang": {
+                            "required": true
+                        },
+                    "data_otherLangs": {
+                            "required": false
+                        },
+                    "children":{
+                            "data_nodeType": "textelement",
+                            "region": "msContents"
+                        }
+                }
+            ]
+        },
+        "msItem": {
+            "required": true,
+            "allowedNumbers":"multi",
+            "selfContainting":true,
+            "allowedcomponents":
+                [
+                    "notetext",
+                    "notemusic",
+                    "msItem",
+                    "decoNotecontent",
+                    "decoNoteform"
+                ],
+            "allowedIn":[
+                "msContents"
+            ],
+            "allowedFollower":
+            [
+                "msItem",
+                "notetext",
+                "notemusic",
+                "decoNotecontent",
+                "decoNoteform"
+            ],
+            "allowedPredecessor": [
+                "msItem",
+                "notetext",
+                "notemusic",
+                "decoNotecontent",
+                "decoNoteform"
+            ],
+            "defaultElement":{
+                "data_origin": "msItem",
+                "region": "msItem",
+                "component": "msItem"
+            },                  
+            "children":[
+                {
+                    "data_origin": "textLang",
+                    "region": "msItem",
+                    "required": false,
+                    "allowedNumbers": "1",
+                    "data_mainLang": {
+                            "required":true
+                        }, 
+                    "data_otherLangs": {
+                    "required":false
+                    }
+                },
+                {
+                    "data_origin": "index",
+                    "region":"msItem",
+                    "required":false,
+                    "allowedNumbers":"unbounded"
+                } 
+            ]
+        },
+
+        "decoNotecontent": {
+            "required": false,
+            "allowedNumbers":"multi",
+            "selfContaining":false,
+            "allowedComponents": [],
+            "allowedIn": [
+                "msItem"
+            ],
+            "defaultElement": 
+                {
+                    "data_origin": "decoNote",
+                    "region": "decoNotecontent",
+                    "component": "decoNotecontent",
+                    "data_type": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "content"
+                            ]
+                        }
+                    ],
+                    "children":{
+                        "data_nodeType": "textelement",
+                        "region": "decoNotecontent"
+                    }
+                }
+        },
+        "decoNoteform":
+        {
+            "required":false,
+            "allowedNumbers":"multi",
+            "selfContaining":false,
+            "allowedComponents": [],
+            "allowedIn":[
+                    "physDesc",
+                    "msItem"
+            ],
+            "defaultElement":
+                {
+                    "data_origin": "decoNote",
+                    "region": "decoNoteform",
+                    "component": "decoNoteform",
+                    "data_type": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "form"
+                            ]
+                        }
+                    ],
+                    "children":{
+                        "data_nodeType": "textelement",
+                        "region": "decoNoteform"
+                    }
+                }
+            }
+        },
+        "notetext":
+            {
+                "allowedNumbers":"multi",
+                "required":false,
+                "selfContaining":true,
+                "allowedComponents": [
+                    "notetext",
+                    "notemusic"
+                ],
+                "allowedIn": [
+                    "msItem",
+                    "notetext",
+                    "notemusic"
+                ],
+                "defaultElement":
+                    {
+                        "data_origin": "note",
+                        "region":"note",
+                        "component":"notetext",
+                        "data_type": [
+                            {
+                                "required": true,
+                                "valueList": [
+                                    "text"
+                                ]
+                            }
+                        ],
+                        "children":{
+                            "data_nodeType": "textelement",
+                            "region": "notetext"
+                        }
+                    }
+            },
+        "notemusic": 
+            {
+                "allowedNumbers":"multi",
+                "required":false,
+                "selfContainting":true,
+                "allowedComponents": [
+                    "notetext",
+                    "notemusic"
+                ],
+                "allowedIn": [
+                    "msItem",
+                    "notemusic",
+                    "notetext"
+                ],
+                "defaultElement": {
+                    "data_origin":"note",
+                    "region": "note",
+                    "component": "notemusic",
+                    "data_type": [
+                        {
+                            "required": true,
+                            "valueList": [
+                                "music"
+                            ]
+                        }
+                    ],
+                    "children":{
+                        "data_nodeType": "textelement",
+                        "region": "notemusic"
+                    }
+                }
+            },    
+        "physDesc" :
+        {
+            "allowedNumbers":"1",
+            "selfContainting": false,
+            "required":false,
+            "allowedComponents":[
+                "decoNoteform"
+            ],
+            "allowedIn":[
+                "medieval",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedFollower":[
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents"
+            ],
+            "defaultElement":{
+                "data_origin": "physDesc",
+                "region": "physDesc",
+                "component": "physDesc"
+            },
+            "children":[
+                {
+                    "data_origin":"p",
+                    "region":"physDesc",
+                    "required": false,
+                    "allowedNumbers":"multi",
+                    "selfContaining":false,
+                    "children":{
+                        "data_nodeType": "textelement",
+                        "region": "physDesc"
+                    }
+                },
+                {
+                    "data_origin":"decoDesc",
+                    "region":"physDesc",
+                    "required":false,
+                    "allowedNumbers":"1",
+                    "selfContaining":false,
+                    "children":{
+                        "data_origin":"decoNote",
+                        "region":"physDesc",
+                        "required":true,
+                        "allowedNumbers":"multi",
+                        "selfContaining":false,
+                        "data_type": [
+                            {
+                                "required":true, 
+                                "valueList":["form"]
+                            }
+                        ],
+                        "children":{
+                            "data_nodeType": "textelement",
+                            "region": "physDesc"
+                        }
+                    }
+
+                }
+            ]
+        },
+        
+        "history":{
+            "allowedNumbers":"1",
+            "selfContaining":false,
+            "required":false,
+            "allowedComponents":[],
+            "allowedIn":[
+                "medieval",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedFollower":[
+                "additional",
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc"
+            ],
+            "defaultElement":{
+                "data_origin":"history",
+                "component":"history",
+                "region":"history"
+            },
+            "children":[
+                {
+                    "data_origin":"p",
+                    "region":"history",
+                    "required":true,
+                    "allowedNumbers":"multi",
+                    "selfContaining":false,
+                    "children":[
+                        {
+                            "data_nodeType": "textelement",
+                            "region":"history"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "additional": {
+            "allowedNumbers":"1",
+            "selfContaining":false,
+            "required":false,
+            "allowedComponents":[],
+            "allowedIn":[
+                "medieval",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedFollower":[
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history"
+            ],
+            "defaultElement":{
+                "data_origin":"additional",
+                "region":"additional",
+                "component":"additional"
+            },
+            "children":[
+                {
+                    "data_origin":"listBibl",
+                    "region":"additional",
+                    "required":false,
+                    "allowedNumbers":"1",
+                    "selfContaining":false,
+                    "children":{
+                        "data_origin":"bibl",
+                        "region":"additional",
+                        "allowedNumbers":"multi",
+                        "required":true,
+                        "selfContaining":false,
+                        "children":{
+                            "data_nodeType": "textelement",
+                            "region":"additional"
+                        }
+                    }
+                }
+            ]
+        },
+
+
+        "msPartother":{
+            "allowedNumbers":"1",
+            "selfContaining":false,
+            "required":false,
+            "allowedComponents":[],
+            "allowedIn":[
+                "medieval"
+            ],
+            "allowedFollower":[
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment"
+            ],
+            "defaultElement":{
+                "data_origin":"msPart",
+                "component":"msPartother",
+                "region":"msPartother"
+            },
+            "defaultChildren":[
+                {
+                    "data-origin": "msIdentifier",
+                    "region":"msPartother",
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "selfContaining":false,
+                    "children":[
+                        {
+                            "data-origin":"idno",
+                            "required":true,
+                            "allowedNumbers":"1",
+                            "selfContaining":false,
+                            "region":"msPartother",
+                            "children":[
+                                {
+                                    "data_nodeType":"textelement",
+                                    "text":"Sonstiges",
+                                    "region":"msPartother"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "data-origin": "p",
+                    "region":"msPartother",
+                    "required":true,
+                    "allowedNumbers":"1",
+                    "selfContaining":false,
+                    "children":[
+                        {
+                            "data_nodeType": "textelement",
+                            "region":"msPartother"
+                        }
+                    ]
+                }
+            ] 
+        },
+        "msPartbinding": {
+            "allowedNumbers":"multi",
+            "selfContainting":false,
+            "required":false,
+            "allowedComponents":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedIn":[
+                "medieval"
+            ],
+            "allowedFollower":[
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother",
+                "msPartbinding"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartbinding",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "defaultElement":{
+                "data_origin":"msPart",
+                "component":"msPartbinding",
+                "region":"msPartbinding",
+                "data_type":[
+                    {
+                        "required": true,
+                        "valueList":[
+                            "binding"
+                        ]
+                    }
+                ]
+            }
+        },
+        "msPartaccMat": {
+            "allowedNumbers":"multi",
+            "selfContaining":true,
+            "required":false,
+            "allowedComponents":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedIn": [
+                "medieval"
+            ],
+            "allowedFollower": [
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother",
+                "msPartaccMat"
+             ],
+             "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+             ],
+             "defaultElement":{
+                 "data_origin":"msPart",
+                 "component":"msPartaccMat",
+                 "region":"msPartaccMat",
+                 "data_type":[
+                     {
+                         "required":true,
+                         "valueList":[
+                             "accMat"
+                         ]
+                     }
+                 ]
+             }
+        },
+        "msPartbooklet": {
+            "allowedNumbers":"multi",
+            "selfContaining":true,
+            "required":false,
+            "allowedComponents":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartfragment",
+                "msPartbooklet",
+                "msPartother"
+            ],
+            "allowedIn": [
+                "medieval"
+            ],
+            "allowedFollower": [
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother",
+                "msPartbinding"
+            ],
+            "defaultElement":{
+                "data_origin":"msPart",
+                "component":"msPartbooklet",
+                "region":"msPartbooklet",
+                "data_type":[
+                    {
+                        "required":true,
+                        "valueList":[
+                            "booklet"
+                        ]
+                    }
+                ]
+            }
+
+        },
+        "msPartFragment": {
+            "allowedNumbers":"multi",
+            "selfContaining":true,
+            "required":false,
+            "allowedComponents":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedIn": [
+                "medieval"
+            ],
+            "allowedFollower": [
+                "msPartaccMat",
+                "msPartbinding",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother"
+            ],
+            "allowedPredecessor":[
+                "msIdentifier",
+                "head",
+                "msContents",
+                "physDesc",
+                "history",
+                "additional",
+                "msPartaccMat",
+                "msPartbooklet",
+                "msPartfragment",
+                "msPartother",
+                "msPartbinding"
+            ],
+            "defaultElement":{
+                "data_origin":"msPart",
+                "component":"msPartfragment",
+                "region":"msPartfragment",
+                "data_type":[
+                    {
+                        "required":true,
+                        "valueList":[
+                            "fragment"
+                        ]
+                    }
+                ]
+            }
+        }
+    }

@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.openarchives.org/OAI/2.0/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2025-07-25T09:28:20Z</responseDate>
+<request verb="ListRecords" metadataPrefix="MarcXchange" set="cerl">http://bdr.oai.bsb-muenchen.de/OAIHandler</request>
+<ListRecords>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV021313578-23829</identifier>
+<datestamp>2021-11-09</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200313zc 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV021313578-23829</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">00000000000000.0</mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">060130s1740             |||| 00||| lat d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cgm 5393</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)162274380</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV021313578</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">lat</mx:subfield>
+<mx:subfield code="a">ita</mx:subfield>
+<mx:subfield code="a">fre</mx:subfield>
+<mx:subfield code="a">eng</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Textsammlung zur Geschichte der Englischen Fräulein (Institutum Beatae Mariae Virginis) - BSB Cgm 5393</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">München</mx:subfield>
+<mx:subfield code="c">1740</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">II, 600 S. - Papier</mx:subfield>
+<mx:subfield code="c">32 x 20 cm</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">Text</mx:subfield>
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="a">ohne Hilfsmittel zu benutzen</mx:subfield>
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="a">Band</mx:subfield>
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Sammelhandschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2006</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00001835-3</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Kudorfer, Dieter</mx:subfield>
+<mx:subfield code="t">Die deutschen Handschriften der Bayerischen Staatsbibliothek München: Die neuzeitlichen Handschriften aus Cgm 5155-5500</mx:subfield>
+<mx:subfield code="d">Wiesbaden : Harrassowitz Verlag, 2000</mx:subfield>
+<mx:subfield code="k">Catalogus codicum manu scriptorum Bibliothecae Monacensis ; Tomus 6, Pars 11</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">https://nbn-resolving.org/urn:nbn:de:bvb:12-bsb00026370-7</mx:subfield>
+<mx:subfield code="y">Kudorfer, Dieter: Die deutschen Handschriften der Bayerischen Staatsbibliothek München: Die neuzeitlichen Handschriften aus Cgm 5155-5500. - Wiesbaden : Harrassowitz Verlag, 2000. - (Catalogus codicum manu scriptorum Bibliothecae Monacensis ; Tomus 6, Pars 11)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00001835-3</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cgm 5393</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV021313578</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-014634094</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cgm 5393</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-09 16:44:04</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/bsb00001835/images/bsb00001835_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV035058522-43535</identifier>
+<datestamp>2021-11-08</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200313zc 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV035058522-43535</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20160802        </mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">080918s1550             |||| 00||| ita d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cod.ital. 265</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)644255153</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV035058522</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ita</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Rime di Jacopo Sannazaro ed altri - BSB Cod.ital. 265</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">[S.l.]</mx:subfield>
+<mx:subfield code="c">16. Jh.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">IV+106 Bl. - Papier</mx:subfield>
+<mx:subfield code="c">18,5 x 14 cm</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">Text</mx:subfield>
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="a">ohne Hilfsmittel zu benutzen</mx:subfield>
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="a">Band</mx:subfield>
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2008</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00028868-0</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Thomas, Georg Martin</mx:subfield>
+<mx:subfield code="t">Codices manu scripti Bibliothecae Regiae Monacensis Gallici, Hispanici, Italici, Anglici, Suecici, Danici, Slavici, Esthnici, Hungarici descripti</mx:subfield>
+<mx:subfield code="d">Monachii : Sumptibus Bibliothecae Regiae, 1858</mx:subfield>
+<mx:subfield code="k">Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomus 7</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">https://nbn-resolving.org/urn:nbn:de:bvb:12-bsb00008270-2</mx:subfield>
+<mx:subfield code="y">Thomas, Georg Martin: Codices manu scripti Bibliothecae Regiae Monacensis Gallici, Hispanici, Italici, Anglici, Suecici, Danici, Slavici, Esthnici, Hungarici descripti. - Monachii : Sumptibus Bibliothecae Regiae, 1858. - (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomus 7)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00028868-0</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cod.ital. 265#Mikroform</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV035058522</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-016727063</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cod.ital. 265#Mikroform</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-08 16:48:08</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0002/bsb00028868/images/bsb00028868_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV037443794-3913</identifier>
+<datestamp>2021-11-15</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200000 c 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV037443794-3913</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20151117</mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">110608s1801             |||| 00||| fre d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cod.gall. 777</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)935496160</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV037443794</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">fre</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Journal fait durant un voyage en Sennar et à l'Hedjaz 1837 - 1840, avec 8 pages d'appendix - BSB Cod.gall. 777</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="246" ind1="1" ind2="3">
+<mx:subfield code="a">Thomas, Kat.-Nr. 1332</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="246" ind1="1" ind2="0">
+<mx:subfield code="a">Soudan Arabie saoudite</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">[S.l.]</mx:subfield>
+<mx:subfield code="c">19. Jh.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">175 S. - Papier</mx:subfield>
+<mx:subfield code="c">4 oblongo</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Unbeschrieben: Dimidia pars voluminis vacua</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">BSB-Provenienz: Bibliothek Quatremère, Etienne Marc</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="650" ind1=" " ind2="4">
+<mx:subfield code="a">Codices gallici, Geographica, Ethnographica</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2021</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00137952-9</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Thomas, Georg Martin</mx:subfield>
+<mx:subfield code="t">Codices manu scripti Bibliothecae Regiae Monacensis Gallici, Hispanici, Italici, Anglici, Suecici, Danici, Slavici, Esthnici, Hungarici descripti</mx:subfield>
+<mx:subfield code="d">Monachii : Sumptibus Bibliothecae Regiae, 1858</mx:subfield>
+<mx:subfield code="k">Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomus 7</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">https://nbn-resolving.org/urn:nbn:de:bvb:12-bsb00008270-2</mx:subfield>
+<mx:subfield code="y">Thomas, Georg Martin: Codices manu scripti Bibliothecae Regiae Monacensis Gallici, Hispanici, Italici, Anglici, Suecici, Danici, Slavici, Esthnici, Hungarici descripti. - Monachii : Sumptibus Bibliothecae Regiae, 1858. - (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomus 7)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00137952-9</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cod.gall. 777#Mikroform</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV037443794</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-022595704</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cod.gall. 777#Mikroform</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-15 10:30:35</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0013/bsb00137952/images/bsb00137952_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV040205177-39285</identifier>
+<datestamp>2021-11-06</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200361 c 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV040205177-39285</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20200303        </mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">120601s1892             |||| 00||| ger d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cgm 6793</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)1028901951</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV040205177</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ger</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="100" ind1="1" ind2=" ">
+<mx:subfield code="a">Panizza, Oskar</mx:subfield>
+<mx:subfield code="d">1853-1921</mx:subfield>
+<mx:subfield code="e">Verfasser</mx:subfield>
+<mx:subfield code="0">(DE-588)118739131</mx:subfield>
+<mx:subfield code="4">aut</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">25 Briefe und 10 Postkarten in Angelegenheiten der Gesellschaft von Oskar Panizza, meist an Hans Merian u. Wilhelm Friedrich, vereinzelt an Otto Julius Bierbaum und M. G. Conrad gerichtet - BSB Cgm 6793</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="c">1892/96</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">Text</mx:subfield>
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="a">ohne Hilfsmittel zu benutzen</mx:subfield>
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="a">Band</mx:subfield>
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="340" ind1=" " ind2=" ">
+<mx:subfield code="a">Papier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="700" ind1="1" ind2=" ">
+<mx:subfield code="a">Merian, Hans</mx:subfield>
+<mx:subfield code="d">1857-1902</mx:subfield>
+<mx:subfield code="e">Adressat</mx:subfield>
+<mx:subfield code="0">(DE-588)116892013</mx:subfield>
+<mx:subfield code="4">rcp</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="700" ind1="1" ind2=" ">
+<mx:subfield code="a">Friedrich, Wilhelm</mx:subfield>
+<mx:subfield code="d">1851-1925</mx:subfield>
+<mx:subfield code="e">Adressat</mx:subfield>
+<mx:subfield code="0">(DE-588)118535943</mx:subfield>
+<mx:subfield code="4">rcp</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="700" ind1="1" ind2=" ">
+<mx:subfield code="a">Bierbaum, Otto Julius</mx:subfield>
+<mx:subfield code="d">1865-1910</mx:subfield>
+<mx:subfield code="e">Adressat</mx:subfield>
+<mx:subfield code="0">(DE-588)118510762</mx:subfield>
+<mx:subfield code="4">rcp</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="700" ind1="1" ind2=" ">
+<mx:subfield code="a">Conrad, Michael Georg</mx:subfield>
+<mx:subfield code="d">1846-1927</mx:subfield>
+<mx:subfield code="e">Adressat</mx:subfield>
+<mx:subfield code="0">(DE-588)118669915</mx:subfield>
+<mx:subfield code="4">rcp</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2020</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00131296-5</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00131296-5</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cgm 6793</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1="1" ind2=" ">
+<mx:subfield code="q">BSBHSS2</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV040205177</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-025061646</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cgm 6793</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-06 17:52:31</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0013/bsb00131296/images/bsb00131296_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV040491816-62779</identifier>
+<datestamp>2021-11-06</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200361zc 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV040491816-62779</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20130228        </mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">121018s1766       a|||  |||| 00||| ger d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cod.icon. 205</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)816277246</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV040491816</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ger</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="100" ind1="1" ind2=" ">
+<mx:subfield code="a">Hohenhausen und Hochaus, Sylvester Joseph von</mx:subfield>
+<mx:subfield code="d">1735-1814</mx:subfield>
+<mx:subfield code="e">Verfasser</mx:subfield>
+<mx:subfield code="0">(DE-588)120566451</mx:subfield>
+<mx:subfield code="4">aut</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Spolien der Römerzeit in Dacien, dem heutigen Siebenbürgen - BSB Cod.icon. 205</mx:subfield>
+<mx:subfield code="c">Sylvester Joseph Freiherr von Hohenhausen und Hochhausen</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">Siebenbürgen</mx:subfield>
+<mx:subfield code="c">1766 - 1768</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">155 Bl. - Zeichenpapier</mx:subfield>
+<mx:subfield code="b">überwiegend Ill.</mx:subfield>
+<mx:subfield code="c">21,0 x 27,0 cm</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">Text</mx:subfield>
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">unbewegtes Bild</mx:subfield>
+<mx:subfield code="b">sti</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="a">ohne Hilfsmittel zu benutzen</mx:subfield>
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="a">Band</mx:subfield>
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Codex</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">ArchIcon</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2012</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00077198-5</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Reuter, Marianne</mx:subfield>
+<mx:subfield code="t">Die Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband</mx:subfield>
+<mx:subfield code="d">Wiesbaden : Dr. Ludwig Reichert Verlag, 2013</mx:subfield>
+<mx:subfield code="k">Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">http://codicon.digitale-sammlungen.de/sucheEin.html</mx:subfield>
+<mx:subfield code="y">Reuter, Marianne: Die Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband. - Wiesbaden : Dr. Ludwig Reichert Verlag, 2013. - (Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00077198-5</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cod.icon. 205</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV040491816</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-025338789</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cod.icon. 205</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-06 18:20:20</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~db/0007/bsb00077198/images/bsb00077198_00009.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV041775327-21165</identifier>
+<datestamp>2021-11-08</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200361zc 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV041775327-21165</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">00000000000000.0</mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">140403s1701       a|||  |||| 00||| ger d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cod.icon. 328(1</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)879231952</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV041775327</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ger</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="100" ind1="1" ind2=" ">
+<mx:subfield code="a">Hund, Wiguleus</mx:subfield>
+<mx:subfield code="d">1514-1588</mx:subfield>
+<mx:subfield code="e">Verfasser</mx:subfield>
+<mx:subfield code="0">(DE-588)117068942</mx:subfield>
+<mx:subfield code="4">aut</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Bayerisches Stammenbuch mit gemalten Wappen I - BSB Cod.icon. 328(1</mx:subfield>
+<mx:subfield code="c">Wiguläus Hund</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">[S.l.]</mx:subfield>
+<mx:subfield code="c">18. Jh.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">Papier</mx:subfield>
+<mx:subfield code="b">Ill.</mx:subfield>
+<mx:subfield code="c">2</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">Text</mx:subfield>
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="a">ohne Hilfsmittel zu benutzen</mx:subfield>
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="a">Band</mx:subfield>
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Wappenseiten zu Band I des Werkes in zwei Bänden</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Ausstattung: Gemalte Wappen zu Geschlechtern aus Bayern auf in die Druckschrift eingesetzten Blättern, d.h. die einzelnen Seiten mit den wohl im 18. Jh. gemalten Wappen mit gedruckten Geschlechternamen sind in das Druckwerk von 1585 jeweils eingebunden</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="650" ind1=" " ind2="4">
+<mx:subfield code="a">Heraldik</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2016</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00105852-2</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Reuter, Marianne</mx:subfield>
+<mx:subfield code="t">Die Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband</mx:subfield>
+<mx:subfield code="d">Wiesbaden : Dr. Ludwig Reichert Verlag, 2013</mx:subfield>
+<mx:subfield code="k">Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">http://codicon.digitale-sammlungen.de/sucheEin.html</mx:subfield>
+<mx:subfield code="y">Reuter, Marianne: Die Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband. - Wiesbaden : Dr. Ludwig Reichert Verlag, 2013. - (Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105852-2</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cod.icon. 328(1</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV041775327</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-027221235</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cod.icon. 328(1</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-08 04:23:49</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~db/0010/bsb00105852/images/bsb00105852_00007.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV042390396-40583</identifier>
+<datestamp>2023-06-02</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000nfm a2200000 c 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV042390396-40583</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20230601</mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="007">au||uuun</mx:controlfield>
+<mx:controlfield tag="008">150304q17001780   |||||| u     | e ger d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cod.icon. 180 ufi</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)904430968</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV042390396</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakwb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ger</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Dinant - BSB Cod.icon. 180 ufi</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="246" ind1="1" ind2="3">
+<mx:subfield code="a">Mapp. V,73 nl</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="255" ind1=" " ind2=" ">
+<mx:subfield code="a">Ca. 1:1 500 ; Breite 50°16' N / Länge 4°55' E</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">[S.l.]</mx:subfield>
+<mx:subfield code="c">s.a. [ca. 1700-1780]</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">1 Karte: Tusche und Aquarell auf Papier</mx:subfield>
+<mx:subfield code="b">Ill.</mx:subfield>
+<mx:subfield code="c">36 x 24 cm</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="b">cri</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="b">nb</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Ausstattung: 1 Karte: Tusche und Aquarell auf Papier. Nicht ganz ausgeführte Tuscheskizze der Festungsanlagen</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Maßstab in graphischer Form (Toises)</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Region: Dinant</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">BSB-Provenienz: Mit Stempel K:B: Kriegs Ministerium und Signaturschildchen I.No. 4380</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Altsignatur: Mapp. V,73 nl</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="650" ind1=" " ind2="4">
+<mx:subfield code="a">Altkarte</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="650" ind1=" " ind2="4">
+<mx:subfield code="a">Festung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="651" ind1=" " ind2="4">
+<mx:subfield code="a">Dinant</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2018</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00112229-8</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00112229-8</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cod.icon. 180 ufi</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV042390396</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-027826297</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cod.icon. 180 ufi</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2023-06-02 06:33:25</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0011/bsb00112229/images/bsb00112229_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV044668686-35507</identifier>
+<datestamp>2021-11-08</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200409zc 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV044668686-35507</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20191206        </mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">171205s1601       i|||  |||| 00||| ger d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cod.icon. 207 m(45</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)1020773894</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV044668686</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rda</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ger</mx:subfield>
+<mx:subfield code="a">lat</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Abbildungen von Augustinerklöstern, Nr. 45: Augustinerchorherrenstift Marbach in Voegtlinshoffen/Oberelsass - BSB Cod.icon. 207 m(45</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">[S.l.] Deutschsprachiger Raum</mx:subfield>
+<mx:subfield code="c">17./18. Jh.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">1 Blatt von insgesamt 92 Blättern</mx:subfield>
+<mx:subfield code="b">70 Zeichnungen und 22 Kupferstiche; Wappen</mx:subfield>
+<mx:subfield code="c">circa 32,5 x 41,4 cm und kleiner</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">unbewegtes Bild</mx:subfield>
+<mx:subfield code="b">sti</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="a">Text</mx:subfield>
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="a">ohne Hilfsmittel zu benutzen</mx:subfield>
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="a">Blatt</mx:subfield>
+<mx:subfield code="b">nb</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="340" ind1=" " ind2=" ">
+<mx:subfield code="a">Papier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">ArchIcon</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Inhalt: Beschreibung: Im 17. Jahrhundert legte Franciscus Petrus eine Sammlung von Augustinerchorherrenstift-Abbildungen an. Sie sollte der Illustration einer Ordensgeschichte dienen. Mitte des 18. Jahrhunderts wurde eine historische Abhandlung zum Augustinerchorrherrenorden schließlich von Michael Kuen unter dem Titel 'Germania canonico-Augustiniana' bzw. der 'Collectio Scriptorum Rerum Historico-Monastico-Ecclesiasticarum Variorum Religiosorum Ordinum' publiziert. Für sie verwendete Kuen Bilder aus der Sammlung von Franciscus Petrus. Allerdings wurden die gesammelten Ansichten nur zu einem geringen Teil veröffentlicht.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Ausstattung: 92 Blätter mit Ansichten von Augustinerchorherrenstiften (70 Zeichnungen und 22 Kupferstiche) im deutschsprachigen Raum. Zur Identifizierung der einzelnen Klöster vgl. http://www.augustiner-chorherren.eu/einzelne-bauten/</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">BSB-Provenienz: Geschichte: Auf Bl. 1r Wappenexlibris des Propstes Nikolaus I. (Bucher) Bucher des Augustinerchorherrenstiftes St. Michael zu den Wengen in Ulm. 1914 aus der Kunstbibliothek der Königlichen Alten Pinakothek München ausgeliefert, Bl. 1r das Wappenexlibris.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Literatur: Zur Identifizierung der Einzelblätter vgl. die Erschließung von Frau Dr. Gabriele Dischinger und Frau Dr. Huberta Weigl, auf der die vorliegenden Strukturdaten basieren, unter: http://www.augustiner-chorherren.eu/einzelne-bauten/</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="655" ind1=" " ind2="7">
+<mx:subfield code="0">(DE-588)4023287-6</mx:subfield>
+<mx:subfield code="a">Handschrift</mx:subfield>
+<mx:subfield code="2">gnd-content</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2019</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00127584-3</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Reuter, Marianne</mx:subfield>
+<mx:subfield code="t">Die Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband</mx:subfield>
+<mx:subfield code="d">Wiesbaden : Dr. Ludwig Reichert Verlag, 2013</mx:subfield>
+<mx:subfield code="k">Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">http://codicon.digitale-sammlungen.de/sucheEin.html</mx:subfield>
+<mx:subfield code="y">Reuter, Marianne: Die Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband. - Wiesbaden : Dr. Ludwig Reichert Verlag, 2013. - (Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00127584-3</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cod.icon. 207 m(45</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV044668686</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-030066073</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cod.icon. 207 m(45</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2021-11-08 20:17:16</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0012/bsb00127584/images/bsb00127584_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV046432102-52051</identifier>
+<datestamp>2025-04-09</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200000 cc4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV046432102-52051</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="007">t|</mx:controlfield>
+<mx:controlfield tag="008">200219s1870    xx       c||| 00||| ger d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cbm Cat. 805(1 b 19</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Cbm Cat. 805(1 b</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)1142717889</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV046432102</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rda</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">ger</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Alter Realkatalog (1501-1952), Teil Bayern</mx:subfield>
+<mx:subfield code="n">19</mx:subfield>
+<mx:subfield code="p">Kochbücher - BSB Cbm Cat. 805(1 b 19</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="c">Zwischen 1870 und 1952</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="a">München</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">528 Schachteln mit Katalogkarten</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="655" ind1=" " ind2="7">
+<mx:subfield code="0">(DE-588)4023287-6</mx:subfield>
+<mx:subfield code="a">Handschrift</mx:subfield>
+<mx:subfield code="2">gnd-content</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="655" ind1=" " ind2="7">
+<mx:subfield code="0">(DE-588)4163417-2</mx:subfield>
+<mx:subfield code="a">Katalog</mx:subfield>
+<mx:subfield code="2">gnd-content</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="773" ind1="0" ind2="8">
+<mx:subfield code="w">(DE-604)BV046425954</mx:subfield>
+<mx:subfield code="g">19</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2020</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00131466-3</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00131466-3</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Cbm Cat. 805(1 b 19</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1="1" ind2=" ">
+<mx:subfield code="n">by</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV046432102</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-031844326</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="943" ind1="1" ind2=" ">
+<mx:subfield code="a">oai:aleph.bib-bvb.de:BVB01-031844326</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Cbm Cat. 805(1 b 19</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d">2025-04-09 01:23:37</mx:subfield>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0013/bsb00131466/images/bsb00131466_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:bdr.oai.bsb-muenchen.de:cerl:BDR-BV046650081-40153</identifier>
+<datestamp>2023-04-28</datestamp>
+<setSpec>cerl</setSpec>
+</header>
+<metadata>
+<mx:record xmlns:mx="info:lc/xmlns/marcxchange-v1">
+<mx:leader>00000ntm a2200000zc 4500</mx:leader>
+<mx:controlfield tag="001">BDR-BV046650081-40153</mx:controlfield>
+<mx:controlfield tag="003">DE-12</mx:controlfield>
+<mx:controlfield tag="005">20230427</mx:controlfield>
+<mx:controlfield tag="007">t</mx:controlfield>
+<mx:controlfield tag="008">200401q13011500         |||| 00||| zxx d</mx:controlfield>
+<mx:datafield tag="024" ind1="8" ind2=" ">
+<mx:subfield code="a">BSB-Hss Clm 7713#Einband</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(OCoLC)1150832299</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="035" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-599)BVBBV046650081</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="040" ind1=" " ind2=" ">
+<mx:subfield code="a">DE-604</mx:subfield>
+<mx:subfield code="b">ger</mx:subfield>
+<mx:subfield code="e">rakddb</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="041" ind1="0" ind2=" ">
+<mx:subfield code="a">zxx</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="245" ind1="1" ind2="0">
+<mx:subfield code="a">Spätmittelalterlicher Leineneinband - BSB Clm 7713#Einband</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="264" ind1=" " ind2="0">
+<mx:subfield code="c">14. - 15. Jhdt.</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="300" ind1=" " ind2=" ">
+<mx:subfield code="a">1 Leineneinband</mx:subfield>
+<mx:subfield code="c">4°</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="336" ind1=" " ind2=" ">
+<mx:subfield code="b">txt</mx:subfield>
+<mx:subfield code="2">rdacontent</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="337" ind1=" " ind2=" ">
+<mx:subfield code="b">n</mx:subfield>
+<mx:subfield code="2">rdamedia</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="338" ind1=" " ind2=" ">
+<mx:subfield code="b">nc</mx:subfield>
+<mx:subfield code="2">rdacarrier</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="500" ind1=" " ind2=" ">
+<mx:subfield code="a">Kurzaufnahme einer Handschrift</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="655" ind1=" " ind2="7">
+<mx:subfield code="0">(DE-588)4023287-6</mx:subfield>
+<mx:subfield code="a">Handschrift</mx:subfield>
+<mx:subfield code="2">gnd-content</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="776" ind1="0" ind2="8">
+<mx:subfield code="i">Elektronische Reproduktion</mx:subfield>
+<mx:subfield code="d">München : Bayerische Staatsbibliothek, 2020</mx:subfield>
+<mx:subfield code="o">urn:nbn:de:bvb:12-bsb00131951-4</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="787" ind1="0" ind2="8">
+<mx:subfield code="i">Beschrieben in</mx:subfield>
+<mx:subfield code="a">Halm, Karl</mx:subfield>
+<mx:subfield code="t">Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Tomi 1 Pars 3.: Codices latinos (Clm) 5251-8100 complectens / secundum Andreae Schmelleri indices composuerunt Carolus Halm, Georgius Thomas, Gulielmus Meyer</mx:subfield>
+<mx:subfield code="d">Monachii : sumptibus Bibliothecae Regiae, A. 1873</mx:subfield>
+<mx:subfield code="k">Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomi 3 Pars 3</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="845" ind1=" " ind2=" ">
+<mx:subfield code="a">CC0</mx:subfield>
+<mx:subfield code="b">Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="u">http://creativecommons.org/publicdomain/zero/1.0/</mx:subfield>
+<mx:subfield code="3">Record</mx:subfield>
+<mx:subfield code="5">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="2">
+<mx:subfield code="u">https://nbn-resolving.org/urn:nbn:de:bvb:12-bsb00008267-4</mx:subfield>
+<mx:subfield code="y">Halm, Karl: Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Tomi 1 Pars 3.: Codices latinos (Clm) 5251-8100 complectens / secundum Andreae Schmelleri indices composuerunt Carolus Halm, Georgius Thomas, Gulielmus Meyer. - Monachii : sumptibus Bibliothecae Regiae, A. 1873. - (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis ; Tomi 3 Pars 3)</mx:subfield>
+<mx:subfield code="3">Ausführliche Beschreibung</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="856" ind1="4" ind2="1">
+<mx:subfield code="u">http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00131951-4</mx:subfield>
+<mx:subfield code="x">Resolving-System</mx:subfield>
+<mx:subfield code="z">kostenfrei</mx:subfield>
+<mx:subfield code="3">Volltext // Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Clm 7713#Einband</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="912" ind1=" " ind2=" ">
+<mx:subfield code="a">digit</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="940" ind1=" " ind2=" ">
+<mx:subfield code="a">(DE-604)BV046650081</mx:subfield>
+<mx:subfield code="b">oai:aleph.bib-bvb.de:BVB01-032061304</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="955" ind1=" " ind2=" ">
+<mx:subfield code="a">Clm 7713#Einband</mx:subfield>
+<mx:subfield code="b">München, Bayerische Staatsbibliothek</mx:subfield>
+<mx:subfield code="c">DE-12</mx:subfield>
+</mx:datafield>
+<mx:datafield tag="982" ind1="1" ind2=" ">
+<mx:subfield code="d"/>
+<mx:subfield code="t">http://daten.digitale-sammlungen.de/~de/0013/bsb00131951/images/bsb00131951_00001.jpg</mx:subfield>
+</mx:datafield>
+</mx:record>
+</metadata>
+</record>
+<resumptionToken expirationDate="2025-07-25T21:29:50Z" completeListSize="27963" cursor="24400">TGlzdFJlY29yZHM6OjoxMDA6MjQ1OjIwMjUtMDctMjVUMjElM0EyOSUzQTUwWjoyNzk2Mw:cerl:MarcXchange</resumptionToken>
+</ListRecords>
+</OAI-PMH>

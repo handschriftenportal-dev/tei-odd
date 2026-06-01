@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Haldensleben_Alvenslebensche_Bibliothek/01_Haldensleben_Alvenslebensche_Bibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Bd-527">Bd 527</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-bd-527</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-bd-527</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Bd 527</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Cd-438">Cd 438</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-cd-438</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-cd-438</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Cd 438</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Fe-72">Fe 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-fe-72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-fe-72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Fe 72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Kb-23">Kb 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-kb-23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-kb-23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Kb 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Lf-106">Lf 106</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-lf-106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-lf-106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Lf 106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Mg-162">Mg 162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-mg-162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-mg-162</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Mg 162</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Mg-163">Mg 163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-mg-163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-mg-163</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Mg 163</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Nf-152">Nf 152</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-nf-152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-nf-152</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Nf 152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Nn-401">Nn 401</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-nn-401</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-nn-401</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Nn 401</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-177">X 177</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-x-177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 177</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-179">X 179</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-x-179</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-180">X 180</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>bk_alv-x-180</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Cd-437">Cd 437</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-cd-437</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--cd-437</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Cd 437</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Dl-204">Dl 204</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-dl-204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--dl-204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Dl 204</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Dl-205">Dl 205</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-dl-205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--dl-205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Dl 205</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Dl-206">Dl 206</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-dl-206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--dl-206</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Dl 206</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Em-247">Em 247</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-em-247</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--em-247</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Em 247</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_F-29">F 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-f-29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--f-29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. F 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_F-30">F 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-f-30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--f-30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. F 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Fa-6">Fa 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-fa-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--fa-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Fa 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Fa-7">Fa 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-fa-7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--fa-7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Fa 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Kk-247">Kk 247</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-kk-247</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--kk-247</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Kk 247</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Ko-373">Ko 373</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-ko-373</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--ko-373</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Ko 373</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Le-96">Le 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-le-96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--le-96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Le 96</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Mg-164">Mg 164</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-mg-164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--mg-164</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Mg 164</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Na-22">Na 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-na-22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--na-22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Na 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Ng-178">Ng 178</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-ng-178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--ng-178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Ng 178</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_Nn-402">Nn 402</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-nn-402</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--nn-402</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. Nn 402</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-171">X 171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-171</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-172">X 172</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-172</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-173">X 173</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 173</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-174">X 174</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-174</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 174</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-175">X 175</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-175</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-176">X 176</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-176</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 176</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4094546-7">Haldensleben</settlement>
+                  <repository key="1102927716">Von Alvenslebensche Bibliothek</repository>
+                  <idno xml:id="_X-178">X 178</idno>
+                  <altIdentifier type="alternative">
+                     <idno>alv-x-178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>hdl_shb_alv--x-178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Alv. X 178</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:dcr="http://www.isocat.org/ns/dcr"
+     xmlns:egXML="http://www.tei-c.org/ns/Examples"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von BSB-Hss Cod.icon. 205</title>
+            <respStmt>
+               <resp>Beschrieben von</resp>
+               <persName role="author">Reuter, Marianne</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Automatisch generierte Handschriftenbeschreibung aus einem am 28.02.2013 erstellten Eintrag der OAI-PMH Schnittstelle http://bdr.oai.bsb-muenchen.de/OAIHandler mit dem Set-Name cerl.</resp>
+               <name type="org">Handschriftenportal</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <date type="primary" when="2013">2013</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>Für den OPAC-Eintrag verzichtet die Einrichtung Bayerische Staatsbibliothek auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungsbedingungen</ref>des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Reuter, Marianne: &#x98;Die&#x9c; Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband - Wiesbaden : Dr. Ludwig Reichert Verlag, 2013. - (Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1) - http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00077198-5</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2021-11-06">2021-11-06 18:20:20</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <settlement key="NORM-d0a6343a-081a-3335-baa9-65ce4fd0845c"
+                           ref="https://d-nb.info/gnd/4127793-4">München</settlement>
+               <repository key="NORM-83c5a34d-300e-3b8d-af1e-2d5582778963"
+                           ref="https://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek</repository>
+               <idno>Cod.icon. 205</idno>
+            </msIdentifier>
+            <head>
+               <index indexName="norm_title">
+                  <term type="title">Spolien der Römerzeit in Dacien, dem heutigen Siebenbürgen</term>
+               </index>
+               <title>Spolien der Römerzeit in Dacien, dem heutigen Siebenbürgen</title>
+               <note type="headline">Zeichenpapier · 155 Bl. · 21,0 x 27,0 cm · Siebenbürgen · 1766 - 1768</note>
+               <index indexName="norm_material">
+                  <term type="material">Zeichenpapier </term>
+                  <term type="material_type">paper</term>
+               </index>
+               <index indexName="norm_measure">
+                  <term type="measure">155 Bl.</term>
+                  <term type="measure_noOfLeaves">155</term>
+               </index>
+               <index indexName="norm_dimensions">
+                  <term type="dimensions">21,0 x 27,0 cm</term>
+                  <term type="height">21</term>
+                  <term type="width">27</term>
+                  <term type="depth"/>
+                  <term type="dimensions_typeOfInformation">factual</term>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format">octavo</term>
+                  <term type="format_typeOfInformation">computed</term>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format">quarto</term>
+                  <term type="format_typeOfInformation">computed</term>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format">oblong</term>
+                  <term type="format_typeOfInformation">computed</term>
+               </index>
+               <index indexName="norm_origPlace">
+                  <term type="origPlace">Siebenbürgen</term>
+                  <term type="origPlace_norm" ref="https://d-nb.info/gnd/4054835-1">Siebenbürgen</term>
+               </index>
+               <index indexName="norm_origDate">
+                  <term type="origDate">1766 - 1768</term>
+                  <term type="origDate_notBefore">1766</term>
+                  <term type="origDate_notAfter">1768</term>
+                  <term type="origDate_type"/>
+               </index>
+               <index indexName="norm_textLang">
+                  <term type="textLang">ger</term>
+                  <term key="NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d"
+                        ref="http://d-nb.info/gnd/4113292-0"
+                        type="textLang-ID">deutsch</term>
+               </index>
+               <index indexName="norm_form">
+                  <term type="form"/>
+               </index>
+               <index indexName="norm_status">
+                  <term type="status"/>
+               </index>
+               <index indexName="norm_decoration">
+                  <term type="decoration"/>
+               </index>
+               <index indexName="norm_musicNotation">
+                  <term type="musicNotation"/>
+               </index>
+            </head>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

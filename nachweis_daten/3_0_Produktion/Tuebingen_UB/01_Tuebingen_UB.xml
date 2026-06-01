@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Tuebingen_UB/01_Tuebingen_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Bd-39-2">Bd 39.2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Cc-6-4">Cc 6.4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cc 6.4 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Cd-2190-4">Cd 2190.4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Cd-2196">Cd 2196</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ce-103-2">Ce 103.2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ce 103.2 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_De-4">De 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_De-4-4">De 4.4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>De 4.4 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Dh-7-4">Dh 7.4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Dh 7.4 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ga-LIII-54">Ga LIII 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-296-4">Gb 296.4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 296.4 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-405">Gb 405</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 405 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-537">Gb 537</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 537 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-566">Gb 566</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-607">Gb 607</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 607 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-737-2-2">Gb 737.2:2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 737.2 Inc 2. Ex.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-820-a-2">Gb 820 a.2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 820 a.2 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gb-1190">Gb 1190</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gb 1190 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gf-245-4">Gf 245.4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gh-239-2-2">Gh 239-2.2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gi-79-4">Gi 79.4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gi 79.4 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Gi-88-4">Gi 88.4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Gi 88.4 Inc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ha-III-83-2">Ha III 83.2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Hc-49-4">Hc 49.4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Jc-19-a">Jc 19 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ic 19 a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-1">Mc 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-2">Mc 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-3">Mc 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-4">Mc 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-5">Mc 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-6">Mc 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-7">Mc 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-8">Mc 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-9">Mc 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-10">Mc 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-11">Mc 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-12">Mc 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-13">Mc 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-14">Mc 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-15">Mc 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-16">Mc 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-17">Mc 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-18">Mc 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-19">Mc 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-20">Mc 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-21">Mc 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-22">Mc 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-23">Mc 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-24">Mc 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-25">Mc 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-26">Mc 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-27">Mc 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-28">Mc 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-29">Mc 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-30">Mc 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-31">Mc 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-32">Mc 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-33">Mc 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-34">Mc 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-35">Mc 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-36">Mc 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-37">Mc 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-38">Mc 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-39">Mc 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-40">Mc 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-41">Mc 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-42">Mc 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-43">Mc 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-44">Mc 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-45">Mc 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-46">Mc 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-47">Mc 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-48">Mc 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-49">Mc 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-50">Mc 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-51">Mc 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-52">Mc 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-53">Mc 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-54">Mc 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-55">Mc 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-56">Mc 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-57">Mc 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-58">Mc 58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-59">Mc 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-60">Mc 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-61">Mc 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-62">Mc 62</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-63">Mc 63</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-64">Mc 64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-65">Mc 65</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-66">Mc 66</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-67">Mc 67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-68">Mc 68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-69">Mc 69</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-70">Mc 70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-71">Mc 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-72">Mc 72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-73">Mc 73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-74">Mc 74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-75">Mc 75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-76">Mc 76</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-77">Mc 77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-78">Mc 78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-79">Mc 79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-80">Mc 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-81">Mc 81</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-82">Mc 82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-83">Mc 83</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-85">Mc 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-86">Mc 86</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-87">Mc 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-88">Mc 88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-89">Mc 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-90">Mc 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-91">Mc 91</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-92">Mc 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-93">Mc 93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-94">Mc 94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-95">Mc 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-96">Mc 96</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-100">Mc 100</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-101">Mc 101</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-102">Mc 102</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-103">Mc 103</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-104">Mc 104</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-105">Mc 105</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-106">Mc 106</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-108">Mc 108</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-109">Mc 109</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-110">Mc 110</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-111">Mc 111</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-112">Mc 112</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-113">Mc 113</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-114">Mc 114</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-115">Mc 115</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-116">Mc 116</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-117">Mc 117</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-118">Mc 118</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-119">Mc 119</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-120">Mc 120</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-121">Mc 121</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-122">Mc 122</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-123">Mc 123</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-124">Mc 124</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-125">Mc 125</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-126">Mc 126</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-127">Mc 127</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-128">Mc 128</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-129">Mc 129</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-130">Mc 130</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-131">Mc 131</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-132">Mc 132</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-133">Mc 133</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-134">Mc 134</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-135">Mc 135</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-136">Mc 136</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-137">Mc 137</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-138">Mc 138</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-139">Mc 139</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-140">Mc 140</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-141">Mc 141</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-142">Mc 142</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-143">Mc 143</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-144">Mc 144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 107</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-145">Mc 145</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-146">Mc 146</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-147">Mc 147</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-148">Mc 148</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-149">Mc 149</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-150">Mc 150</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-151">Mc 151</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-152">Mc 152</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-153">Mc 153</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-154">Mc 154</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-155">Mc 155</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-156">Mc 156</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-157">Mc 157</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-158">Mc 158</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-159">Mc 159</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-160">Mc 160</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-161">Mc 161</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-162">Mc 162</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-163">Mc 163</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-164">Mc 164</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-166">Mc 166</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-167">Mc 167</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-168">Mc 168</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-169">Mc 169</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-170">Mc 170</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-171">Mc 171</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-172">Mc 172</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-173">Mc 173</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-174">Mc 174</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-175">Mc 175</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-176">Mc 176</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-177">Mc 177</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-178">Mc 178</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-179">Mc 179</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-180">Mc 180</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-181">Mc 181</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-182">Mc 182</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-183">Mc 183</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-184">Mc 184</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-185">Mc 185</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-186">Mc 186</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-187">Mc 187</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-188">Mc 188</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-189">Mc 189</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-190">Mc 190</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-191">Mc 191</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-192">Mc 192</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-193">Mc 193</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-194">Mc 194</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-195">Mc 195</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-196">Mc 196</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-197">Mc 197</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-198">Mc 198</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-199">Mc 199</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-200">Mc 200</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-201">Mc 201</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-202">Mc 202</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-203">Mc 203</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-204">Mc 204</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-205">Mc 205</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-206">Mc 206</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-207">Mc 207</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-208">Mc 208</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-209">Mc 209</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-210">Mc 210</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-211">Mc 211</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-212">Mc 212</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-213">Mc 213</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-214">Mc 214</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-215">Mc 215</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-216">Mc 216</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-217">Mc 217</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-218">Mc 218</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-219">Mc 219</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-220">Mc 220</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-221">Mc 221</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-222">Mc 222</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-223">Mc 223</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-224">Mc 224</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-225">Mc 225</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-226">Mc 226</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-227">Mc 227</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-228">Mc 228</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-229">Mc 229</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-230">Mc 230</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-231">Mc 231</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-232">Mc 232</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-235">Mc 235</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-237-1">Mc 237-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 237-I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-237-2">Mc 237-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 237-II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 233</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-237-3">Mc 237-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 237-III</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 234</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-238">Mc 238</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-239">Mc 239</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-240">Mc 240</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-241">Mc 241</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-242">Mc 242</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-243">Mc 243</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-244">Mc 244</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-245">Mc 245</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-246">Mc 246</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-247">Mc 247</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-248">Mc 248</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-249">Mc 249</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-250">Mc 250</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-251">Mc 251</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-252">Mc 252</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-253">Mc 253</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-254">Mc 254</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-255">Mc 255</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-256">Mc 256</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-257">Mc 257</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-258">Mc 258</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-259">Mc 259</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-260">Mc 260</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-261">Mc 261</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-262-1">Mc 262-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 262-I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-262-2">Mc 262-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 262-II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-263">Mc 263</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-264">Mc 264</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-265">Mc 265</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-266">Mc 266</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-267">Mc 267</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-268">Mc 268</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-269">Mc 269</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-270">Mc 270</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-271">Mc 271</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-272">Mc 272</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-273">Mc 273</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-274">Mc 274</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-275">Mc 275</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-276">Mc 276</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-277">Mc 277</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-278">Mc 278</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-279">Mc 279</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-280">Mc 280</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-282-1">Mc 282-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-282-2">Mc 282-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-282-3">Mc 282-3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-282-4">Mc 282-4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-283">Mc 283</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-284">Mc 284</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-285">Mc 285</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-287">Mc 287</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-288">Mc 288</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-289">Mc 289</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-290">Mc 290</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-291">Mc 291</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-292">Mc 292</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-293">Mc 293</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-294">Mc 294</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-295">Mc 295</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-296">Mc 296</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-297">Mc 297</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-298">Mc 298</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-299">Mc 299</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-300">Mc 300</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-301">Mc 301</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-302">Mc 302</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-303">Mc 303</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-304">Mc 304</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-305">Mc 305</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-306">Mc 306</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-307">Mc 307</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-308">Mc 308</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-309">Mc 309</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-310">Mc 310</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-311">Mc 311</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-312">Mc 312</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-312-a">Mc 312 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 312a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 312a-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-312-b">Mc 312 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 312b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-312-c">Mc 312 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 312c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-313">Mc 313</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-314">Mc 314</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-316">Mc 316</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-317">Mc 317</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-318">Mc 318</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-321">Mc 321</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-322">Mc 322</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-323">Mc 323</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-324">Mc 324</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-325">Mc 325</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-326">Mc 326</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-327">Mc 327</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-328">Mc 328</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-329">Mc 329</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-330">Mc 330</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-331">Mc 331</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-332">Mc 332</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-333">Mc 333</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-334">Mc 334</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-335">Mc 335</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-336">Mc 336</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-337">Mc 337</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-338">Mc 338</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-339">Mc 339</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-340">Mc 340</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-341">Mc 341</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-343">Mc 343</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-344">Mc 344</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-346">Mc 346</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-347">Mc 347</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-353">Mc 353</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-354">Mc 354</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-355">Mc 355</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-356">Mc 356</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-357">Mc 357</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-359">Mc 359</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-361">Mc 361</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-362">Mc 362</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-364">Mc 364</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-365">Mc 365</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-366">Mc 366</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 84</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-367">Mc 367</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-368">Mc 368</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-369">Mc 369</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-370">Mc 370</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-371">Mc 371</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-372">Mc 372</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-373">Mc 373</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-374">Mc 374</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-375">Mc 375</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 360</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-376">Mc 376</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-377">Mc 377</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-378">Mc 378</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mc-379">Mc 379</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Md-2">Md 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Me-IV-5">Me IV 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 360</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-159">Mh 159</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-160">Mh 160</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-161">Mh 161</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-162">Mh 162</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-164">Mh 164</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-194">Mh 194</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-195">Mh 195</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-196">Mh 196</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-197">Mh 197</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-198-1">Mh 198-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-198-2">Mh 198-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-199">Mh 199</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-332">Mh 332</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-344">Mh 344</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-345">Mh 345</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-369">Mh 369</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-370">Mh 370</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-371">Mh 371</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-439">Mh 439</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-443-1">Mh 443-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-443-2">Mh 443-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-443-3">Mh 443-3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-1">Mh 466-1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-2">Mh 466-2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-3">Mh 466-3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-4">Mh 466-4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-5">Mh 466-5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-6">Mh 466-6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-7">Mh 466-7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-8">Mh 466-8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-466-9">Mh 466-9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-544">Mh 544</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-545">Mh 545</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-818">Mh 818</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-819">Mh 819</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-953">Mh 953</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mh-III-121">Mh III 121</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 236</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mi-XI-2">Mi XI 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 165</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mk-27">Mk 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mk-89">Mk 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mk-96">Mk 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 360</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mk-97">Mk 97</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ml-31">Ml 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 286</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ml-32">Ml 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 342</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ml-33">Ml 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 348</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Ml-34">Ml 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 363</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-I-196">Mm I 196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 315</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-III-54">Mm III 54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 345</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-IV-72">Mm IV 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 281</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-IV-73">Mm IV 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 319</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-IV-74">Mm IV 74</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 320</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-IV-76">Mm IV 76</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fragment Mm IV 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-IV-77">Mm IV 77</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fragment Mm IV 77</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-IV-78">Mm IV 78</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fragment Mm IV 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 99</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mm-V-195">Mm V 195</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mc 253 a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4061147-4">Tübingen</settlement>
+                  <repository key="36200-1">Universitätsbibliothek Tübingen</repository>
+                  <idno xml:id="_Mg-1">Mg 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Mg 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

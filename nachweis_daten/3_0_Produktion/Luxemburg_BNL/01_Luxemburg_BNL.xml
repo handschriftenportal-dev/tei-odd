@@ -1,0 +1,3088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Luxemburg_BNL/01_Luxemburg_BNL.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_AL-Hov-1">AL Hov. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A.L. / Hov. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_FA-6-10-15">FA 6-10-15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_FA-33-1-14">FA 33-1-14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Inc-209">Inc 209</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc M 90</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-65">LP 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-71">LP 71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-83">LP 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-93">LP 93</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-514">LP 514</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 514</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-518">LP 518</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 518</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-519">LP 519</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-1032">LP 1032</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 1032</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2026">LP 2026</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2026</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2117">LP 2117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2117</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2135">LP 2135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2144">LP 2144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2184">LP 2184</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2188-1">LP 2188/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2188/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2196">LP 2196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2209">LP 2209</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2209</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2254">LP 2254</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2254</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2283">LP 2283</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2283</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2285">LP 2285</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2285</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2293">LP 2293</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2293</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2301">LP 2301</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2301</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2424">LP 2424</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2424</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2426-1">LP 2426/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2426/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2426-4">LP 2426/4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2426/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2427">LP 2427</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2427</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2428">LP 2428</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2428</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2429">LP 2429</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2429</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2430">LP 2430</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2430</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2431">LP 2431</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2431</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2432">LP 2432</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2432</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2433">LP 2433</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2433</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2434">LP 2434</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2434</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2435">LP 2435</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2435</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2436">LP 2436</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2436</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2438">LP 2438</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2438</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2440">LP 2440</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2440</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2447">LP 2447</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2447</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4062">LP 4062</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4062</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4063">LP 4063</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4063</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4095">LP 4095</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4095</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4141">LP 4141</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4143">LP 4143</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4144">LP 4144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-4146">LP 4146</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 4146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7091">LP 7091</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7091</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7094">LP 7094</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7094</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7116">LP 7116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7122-1">LP 7122/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7122/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7122-2">LP 7122/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7122/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7190">LP 7190</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7191">LP 7191</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7191</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7192">LP 7192</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7193">LP 7193</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7193</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7194-3">LP 7194/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7194/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7194-6">LP 7194/6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7194/6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7195">LP 7195</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7195</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7196">LP 7196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7197">LP 7197</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7197</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7198">LP 7198</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7198</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-7288">LP 7288</idno>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 7288</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-1">Ms 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-2">Ms 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-5">Ms 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-7">Ms 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-9">Ms 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-10">Ms 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-11">Ms 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-12">Ms 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-13">Ms 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-14">Ms 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-15">Ms 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-17">Ms 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-18-20">Ms 18-20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 18-20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 18-20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-21">Ms 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-22">Ms 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-23">Ms 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-24">Ms 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-25">Ms 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-26">Ms 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-27">Ms 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-28">Ms 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-29">Ms 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-30">Ms 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-31">Ms 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-32">Ms 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-33">Ms 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-34">Ms 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-35">Ms 35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-36">Ms 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-37">Ms 37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-38">Ms 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-39">Ms 39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-40">Ms 40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 40</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-41">Ms 41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 41</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-42">Ms 42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-43">Ms 43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 43</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-45">Ms 45</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 45</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-46">Ms 46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 46</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-47">Ms 47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-48">Ms 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-49">Ms 49</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 49</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-50">Ms 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 50</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-53">Ms 53</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 53</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-54">Ms 54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 54</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-55">Ms 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-56">Ms 56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-58">Ms 58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 58</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-59">Ms 59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 59</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-60">Ms 60</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 60</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-61">Ms 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 61</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-62">Ms 62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 62</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-63">Ms 63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-64">Ms 64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 64</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 64</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-65">Ms 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 65</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-66">Ms 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 66</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-67">Ms 67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 67</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-69">Ms 69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 69</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-70">Ms 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-71">Ms 71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 71</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-72">Ms 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 72</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-73">Ms 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 73</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 73</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-74">Ms 74</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 74</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-76">Ms 76</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 76</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-77">Ms 77</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 77</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-78">Ms 78</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 78</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 78</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-80">Ms 80</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 80</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 80</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-81">Ms 81</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 81</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-82">Ms 82</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 82</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-83">Ms 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 83</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-84">Ms 84</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 84</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 84</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-85">Ms 85</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-86">Ms 86</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-87">Ms 87</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 87</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 87</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-90">Ms 90</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 90</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-91">Ms 91</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 91</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-92">Ms 92</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 92</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 92</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-93">Ms 93</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 93</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-94">Ms 94</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 94</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 94</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-96">Ms 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 96</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-98">Ms 98</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 98</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-99">Ms 99</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 99</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 99</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-100">Ms 100</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 100</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-101-102">Ms 101-102</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 101-102</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 101-102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-103">Ms 103</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 103</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 103</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-105">Ms 105</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 105</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 105</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-106">Ms 106</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 106</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-107">Ms 107</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 107</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 107</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-108">Ms 108</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 108</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 108</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-112">Ms 112</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 112</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 112</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-113">Ms 113</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 113</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 113</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-114">Ms 114</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 114</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-115">Ms 115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 115</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-116">Ms 116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 116</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-117">Ms 117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 117</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 117</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-118">Ms 118</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 118</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 118</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-122">Ms 122</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 122</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 122</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-123">Ms 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 123</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-124">Ms 124</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 124</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 124</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-125">Ms 125</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 125</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 125</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-126">Ms 126</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 126</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-127">Ms 127</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 127</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-128">Ms 128</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 128</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-129">Ms 129</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 129</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 129</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-130">Ms 130</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 130</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 130</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-131">Ms 131</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 131</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 131</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-132">Ms 132</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 132</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 132</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-133">Ms 133</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 133</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 133</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-134">Ms 134</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 134</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 134</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-137">Ms 137</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 137</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 137</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-138">Ms 138</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 138</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-139">Ms 139</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 139</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 139</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-140">Ms 140</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 140</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 140</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-141">Ms 141</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 141</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-142">Ms 142</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 142</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-143">Ms 143</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 143</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-144">Ms 144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 144</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-145">Ms 145</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 145</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 145</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-146">Ms 146</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 146</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 146</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-160">Ms 160</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 160</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 160</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-173">Ms 173</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 173</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 173</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-229">Ms 229</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 229</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-230">Ms 230</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 230</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 230</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-232">Ms 232</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 232</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 232</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-264">Ms 264</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 264</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 264</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-354">Ms 354</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 354</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 354</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-4">Ms 369/4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-5">Ms 369/5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-8">Ms 369/8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-18">Ms 369/18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-622-1">Ms 622/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 622/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 622/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-770">Ms 770</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 770</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 770</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-823">Ms 823</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 823</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 823</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-828">Ms 828</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 828</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 828</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-829-1">Ms 829/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 829/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 829/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-829-2">Ms 829/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 829/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 829/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-829-3">Ms 829/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 829/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 829/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-831">Ms 831</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 831</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 831</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-832">Ms 832</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 832</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 832</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-833">Ms 833</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 833</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 833</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-5">Ms 840/5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-8">Ms 840/8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-9">Ms 840/9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-10">Ms 840/10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-11">Ms 840/11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-14">Ms 840/14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-24">Ms 840/24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-29">Ms 840/29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-32">Ms 840/32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-33">Ms 840/33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-38">Ms 840/38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-39">Ms 840/39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-42">Ms 840/42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/42</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-841-8">Ms 841/8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 841/8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 841/8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-841-9">Ms 841/9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 841/9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 841/9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-841-10">Ms 841/10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 841/10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 841/10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-842">Ms 842</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 842</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 842</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-857A">Ms 857A</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 857 A</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 857A</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 857 A</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 857A</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 857 A</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-9">Ms 369/9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-51">Ms 51</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 51</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-68">Ms 68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 68</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-109">Ms 109</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 109</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-11">Ms 369/11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 369/11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-2">Ms 840/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 840/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-841-1">Ms 841/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 841/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 841/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 841/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-3">Ms 840/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-104">Ms 104</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 104</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 104</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-1">Ms 840/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-44">Ms 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-89">Ms 89</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 89</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 89</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89, f. I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89, f. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89, f. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89, f. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 89, f. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 89</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-97">Ms 97</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 97</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-841-2">Ms 841/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 841/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 841/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 841/2, f. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 841/2, f. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 841/2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-840-4">Ms 840/4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 840/4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 840/4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 840/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-841-3">Ms 841/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 841/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 841/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Ms 841/3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Inc-125">Inc 125</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc M 150</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc M 150, f. I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc M 150, f. II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>BnL Inc M 150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-369-1">Ms 369/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 369/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 369/1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-135">Ms 135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 135</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-110">Ms 110</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 110</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-136">Ms 136</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 136</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_Ms-136--Ansatzfalz">Ms 136, Ansatzfalz</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS 136</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 136 (Ansatzfalz)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms 136 - Ansatzfalz</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2439--fol-X-XXV">LP 2439, fol. X–XXV</idno>
+                  <altIdentifier type="alternative">
+                     <idno>LP 2439</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2439</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>LP 2439, fol. X-XXV</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2439, fol. X-XXV</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4036729-0">Luxemburg (Stadt)</settlement>
+                  <repository key="1001540-1">Bibliothèque nationale du Luxembourg</repository>
+                  <idno xml:id="_LP-2439--fol-I--XXVI">LP 2439, fol. I, XXVI</idno>
+                  <altIdentifier type="alternative">
+                     <idno>LP 2439</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2439</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>L.P. 2439, fol. I, XXVI</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

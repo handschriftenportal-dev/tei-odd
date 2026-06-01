@@ -1,0 +1,1453 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>staatsbibliothek-berlin.odd</groupId>
+  <artifactId>tei-odd</artifactId>
+  <version>4.8.3</version>
+  <packaging>jar</packaging>
+
+  <!-- Update version history if you create the new release (Version without -SNAPSHOT)  -->
+  <description><![CDATA[<p><b>Version History:</b></p>
+		<ul>
+		  <li><b>1.0.0</b> - ODD Release ???</li>
+			<li><b>0.6.1</b> - ODD Release 0.6.1</li>
+		</ul>
+		<p>Dieses Repo ist Ablageort für Dateien aus dem Schema und Skript-Pflege und
+ enthält als Kernstück ein TEI-ODD-file(s), folgend ODD (One Document Does-it-all), welches ein spezielles Format
+ in TEI-XML darstellt. Ein ODD erlaubt es, in einem TEI-XML TEI P5 Guidelines für eigene
+ Bedarfe zu verändern und daraus Schemata zu generieren, sowie eine Dokumentation nach
+ tei-c Standard abzuleiten. Um ein ODD zu erstellen oder zu verändern, wird ein XSLT
+ Paket über ROMA (<https://romabeta.tei-c.org/>) bereitgestellt, welches
+-	custom TEI-OOD und
+-	schema-Dateien (z.B.: .rng   .xsd .isoschematron)
+		</p>]]></description>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <name>Staatsbibliothek zu Berlin - Handschriftenportel TEI-ODD Framework</name>
+  <url>https://staatsbibliothek-berlin.de</url>
+
+  <properties>
+    <java.version>21</java.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <build-helper-maven-plugin.version>3.6.1</build-helper-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.14</jacoco-maven-plugin.version>
+    <maven-antrun-plugin.version>3.2.0</maven-antrun-plugin.version>
+    <maven-assembly-plugin.version>3.8.0</maven-assembly-plugin.version>
+    <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
+    <maven-dependency-plugin.version>3.10.0</maven-dependency-plugin.version>
+    <maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
+    <maven-failsafe-plugin.version>3.5.5</maven-failsafe-plugin.version>
+    <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+    <maven-jarsigner-plugin.version>3.1.0</maven-jarsigner-plugin.version>
+    <maven-release-plugin.version>3.3.1</maven-release-plugin.version>
+    <maven-resources-plugin.version>3.4.0</maven-resources-plugin.version>
+    <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
+    <xml-maven-plugin.version>1.2.1</xml-maven-plugin.version>
+    <xspec-maven-plugin.version>3.1.3</xspec-maven-plugin.version>
+
+    <Saxon-HE.version>12.9</Saxon-HE.version>
+    <ph-schematron.version>9.1.1</ph-schematron.version>
+    <jing.version>20241231</jing.version>
+    <xercesImpl.version>2.12.2</xercesImpl.version>
+    <jxvc.version>0.9.4</jxvc.version>
+
+    <junit-jupiter.version>5.14.3</junit-jupiter.version>
+    <junit-platform-launcher.version>1.14.3</junit-platform-launcher.version>
+    <xmlunit.version>2.11.0</xmlunit.version>
+    <jena.version>6.0.0</jena.version>
+    <commons-lang3.version>3.20.0</commons-lang3.version>
+
+
+    <!-- After change bom-remove-plugin.version or excel-extender.version
+     mvn -Pupdate-extras-maven -U org.apache.maven.plugins:maven-dependency-plugin:copy@copy
+     -->
+    <bom-remove-plugin.version>1.0.12</bom-remove-plugin.version>
+    <excel-extender.version>1.1.31</excel-extender.version>
+  </properties>
+
+  <developers>
+    <developer>
+      <name>Torsten Schaßan</name>
+      <email>schassan@hab.de</email>
+      <organization>Herzog August Bibliothek Wolfenbüttel</organization>
+      <organizationUrl>https://www.hab.de</organizationUrl>
+    </developer>
+    <developer>
+      <name>Eichstädt Konrad</name>
+      <email>konrad.eichstaedt@sbb.spk-berlin.de</email>
+      <organization>Staatsbibliothek zu Berlin</organization>
+      <organizationUrl>https://www.staatsbibliothek-berlin.de</organizationUrl>
+    </developer>
+    <developer>
+      <name>Czarnecki Piotr</name>
+      <email>piotr.czarnecki@sbb.spk-berlin.de</email>
+      <organization>Staatsbibliothek zu Berlin</organization>
+      <organizationUrl>https://www.staatsbibliothek-berlin.de</organizationUrl>
+    </developer>
+    <!--
+    <developer>
+      <name>Ingo Frank</name>
+      <email>frank@hab.de</email>
+      <organization>Herzog August Bibliothek Wolfenbüttel</organization>
+      <organizationUrl>https://www.hab.de</organizationUrl>
+    </developer>
+    -->
+  </developers>
+
+  <scm>
+    <developerConnection>
+      scm:git:https://code.dev.sbb.berlin/HSP/tei-odd.git
+    </developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+
+  <profiles>
+    <!-- Default profile. -->
+    <profile>
+      <id>dev</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <sign.package>false</sign.package>
+        <maven.javadoc.skip>false</maven.javadoc.skip>
+        <maven.site.skip>true</maven.site.skip>
+        <maven.source.skip>false</maven.source.skip>
+        <skipITs>true</skipITs>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>update-extras-maven</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <sign.package>false</sign.package>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <maven.site.skip>true</maven.site.skip>
+        <maven.source.skip>false</maven.source.skip>
+        <skipITs>true</skipITs>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>${maven-dependency-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>copy</id>
+                <phase>generate-sources</phase>
+                <goals>
+                  <goal>copy</goal>
+                </goals>
+                <configuration>
+                  <artifactItems>
+                    <artifactItem>
+                      <groupId>staatsbibliothek-berlin.maven</groupId>
+                      <artifactId>bom-remove-plugin</artifactId>
+                      <version>${bom-remove-plugin.version}</version>
+                      <type>jar</type>
+                      <overWrite>true</overWrite>
+                      <outputDirectory>${project.basedir}/EXTRAS-MAVEN/bom-remove-plugin</outputDirectory>
+                      <destFileName>bom-remove-plugin.jar</destFileName>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>staatsbibliothek-berlin.maven</groupId>
+                      <artifactId>bom-remove-plugin</artifactId>
+                      <version>${bom-remove-plugin.version}</version>
+                      <type>pom</type>
+                      <overWrite>true</overWrite>
+                      <outputDirectory>${project.basedir}/EXTRAS-MAVEN/bom-remove-plugin</outputDirectory>
+                      <destFileName>bom-remove-plugin.pom</destFileName>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>staatsbibliothek-berlin.oxygen</groupId>
+                      <artifactId>excel-extender</artifactId>
+                      <version>${excel-extender.version}</version>
+                      <type>jar</type>
+                      <overWrite>true</overWrite>
+                      <outputDirectory>${project.basedir}/EXTRAS-MAVEN/excel-extender</outputDirectory>
+                      <destFileName>excel-extender.jar</destFileName>
+                    </artifactItem>
+                    <artifactItem>
+                      <groupId>staatsbibliothek-berlin.oxygen</groupId>
+                      <artifactId>excel-extender</artifactId>
+                      <version>${excel-extender.version}</version>
+                      <type>pom</type>
+                      <overWrite>true</overWrite>
+                      <outputDirectory>${project.basedir}/EXTRAS-MAVEN/excel-extender</outputDirectory>
+                      <destFileName>excel-extender.pom</destFileName>
+                    </artifactItem>
+                  </artifactItems>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>run-xsl</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <sign.package>false</sign.package>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <maven.site.skip>true</maven.site.skip>
+        <maven.source.skip>false</maven.source.skip>
+        <skipITs>true</skipITs>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <dependencies>
+              <dependency>
+                <groupId>net.sf.saxon</groupId>
+                <artifactId>Saxon-HE</artifactId>
+                <version>${Saxon-HE.version}</version>
+              </dependency>
+              <dependency>
+                <groupId>staatsbibliothek-berlin.oxygen</groupId>
+                <artifactId>excel-extender</artifactId>
+                <version>${excel-extender.version}</version>
+              </dependency>
+            </dependencies>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <version>${maven-antrun-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>run-xsl</id>
+                <phase>generate-sources</phase>
+                <configuration>
+                  <target>
+                    <xslt force="yes" style="${xslStyle}"
+                      in="${inputFile}"
+                      out="${outputFile}">
+                      <factory name="de.staatsbibliothek.berlin.saxon.factory.HSPTransformerFactory"/>
+                      <param name="test" expression="'true'"/>
+                    </xslt>
+                  </target>
+                </configuration>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+
+    <!-- Profile for the CI server. -->
+    <profile>
+      <id>integration</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <sign.package>false</sign.package>
+        <maven.javadoc.skip>false</maven.javadoc.skip>
+        <maven.site.skip>false</maven.site.skip>
+        <skipITs>false</skipITs>
+      </properties>
+
+      <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <groupId>org.jacoco</groupId>
+              <artifactId>jacoco-maven-plugin</artifactId>
+              <version>${jacoco-maven-plugin.version}</version>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-failsafe-plugin</artifactId>
+              <version>${maven-failsafe-plugin.version}</version>
+              <configuration>
+                <skipITs>${skipITs}</skipITs>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>${maven-surefire-plugin.version}</version>
+              <configuration>
+                <reportsDirectory>${project.build.directory}/test-reports</reportsDirectory>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>io.xspec.maven</groupId>
+              <artifactId>xspec-maven-plugin</artifactId>
+              <version>${xspec-maven-plugin.version}</version>
+              <dependencies>
+                <dependency>
+                  <groupId>net.sf.saxon</groupId>
+                  <artifactId>Saxon-HE</artifactId>
+                  <version>${Saxon-HE.version}</version>
+                </dependency>
+              </dependencies>
+              <configuration>
+                <catalogFile>catalog.xml</catalogFile>
+                <saxonOptions>
+                  <collectionFinderClass>top.marchand.xml.saxon.CollectionFinder</collectionFinderClass>
+                  <dtd>off</dtd>
+                  <ea>off</ea>
+                  <expand>off</expand>
+                  <ext>on</ext>
+                  <l>off</l>
+                  <m>top.marchand.xml.saxon.MessageReceiver</m>
+                  <opt>9</opt>
+                  <or>top.marchand.xml.saxon.OutputUriResolver</or>
+                  <outval>recover</outval>
+                  <strip>none</strip>
+                  <TJ>off</TJ>
+                  <warnings>silent</warnings>
+                  <xi>on</xi>
+                </saxonOptions>
+                <folding>true</folding>
+              </configuration>
+              <executions>
+                <execution>
+                  <phase>test</phase>
+                  <goals>
+                    <goal>run-xspec</goal>
+                  </goals>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+    </profile>
+    <profile>
+      <id>deb</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <skipITs>true</skipITs>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>${maven-release-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <version>${build-helper-maven-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>regex-property</id>
+            <goals>
+              <goal>regex-property</goal>
+            </goals>
+            <configuration>
+              <name>baseDirEnc</name>
+              <value>${project.basedir}</value>
+              <regex>\\</regex>
+              <replacement>/</replacement>
+              <failIfNoMatch>false</failIfNoMatch>
+            </configuration>
+          </execution>
+          <execution>
+            <id>regex-property2</id>
+            <goals>
+              <goal>regex-property</goal>
+            </goals>
+            <configuration>
+              <name>buildDirEnc</name>
+              <value>${project.build.directory}</value>
+              <regex>\\</regex>
+              <replacement>/</replacement>
+              <failIfNoMatch>false</failIfNoMatch>
+            </configuration>
+          </execution>
+          <execution>
+            <id>parse-version</id>
+            <goals>
+              <goal>parse-version</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>${maven-resources-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>copy-resources-xslt-alle</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/xslt-ALLE</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xslt/helper</directory>
+                  <excludes>
+                    <exclude>writeCatAuthorRef.xsl</exclude>
+                    <exclude>writeLangRef.xsl</exclude>
+                    <exclude>writeSpecialCharacters.xsl</exclude>
+                    <exclude>writeThesaurusFields.xsl</exclude>
+                  </excludes>
+                  <filtering>false</filtering>
+                </resource>
+                <resource>
+                  <directory>schema_skripte/xslt/mxml</directory>
+                  <excludes>
+                    <exclude>MXML-to-TEI-P5.xsl</exclude>
+                    <exclude>process_Field501k.xsl</exclude>
+                  </excludes>
+                  <filtering>false</filtering>
+                </resource>
+                <resource>
+                  <directory>schema_skripte/xslt/tei_all</directory>
+                  <excludes>
+                    <exclude>TEI-to-TEI-HSP.xsl</exclude>
+                  </excludes>
+                  <filtering>false</filtering>
+                </resource>
+                <resource>
+                  <directory>schema_skripte/xslt/oai_pmh</directory>
+                  <excludes>
+                    <exclude>tei2dc.xsl</exclude>
+                    <exclude>tei2picaplus.xsl</exclude>
+                  </excludes>
+                  <filtering>false</filtering>
+                </resource>
+                <resource>
+                  <directory>schema_skripte/xslt/oai_pmh/tei2marc</directory>
+                  <excludes>
+                    <exclude>tei2marc.xsl</exclude>
+                    <exclude>marc21_codes_mapping.xml</exclude>
+                  </excludes>
+                  <filtering>false</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xslt-helper</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xslt/helper
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xslt/helper</directory>
+                  <includes>
+                    <include>writeCatAuthorRef.xsl</include>
+                    <include>writeLangRef.xsl</include>
+                    <include>writeSpecialCharacters.xsl</include>
+                    <include>writeThesaurusFields.xsl</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xslt-mxml</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xslt/mxml
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xslt/mxml</directory>
+                  <includes>
+                    <include>MXML-to-TEI-P5.xsl</include>
+                    <include>process_Field501k.xsl</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xslt-oai-pmh-marc2tei</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xslt/oai_pmh/marc2tei
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xslt/oai_pmh</directory>
+                  <includes>
+                    <include>tei2dc.xsl</include>
+                    <include>tei2picaplus.xsl</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xslt-oai-pmh-tei2marc</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xslt/oai_pmh/tei2marc
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xslt/oai_pmh/tei2marc</directory>
+                  <includes>
+                    <include>tei2marc.xsl</include>
+                    <include>marc21_codes_mapping.xml</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xslt-tei-all</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xslt/tei_all
+              </outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xslt/tei_all</directory>
+                  <includes>
+                    <include>TEI-to-TEI-HSP.xsl</include>
+                  </includes>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources2</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>src/main/resources</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-odd</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/odd</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/odd</directory>
+                  <filtering>false</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-rdf</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/rdf</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/rdf</directory>
+                  <filtering>false</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xsd-marc21</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xsd/marc21</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xsd/marc21</directory>
+                  <filtering>false</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-xsd-mxml</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/xsd/mxml</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>schema_skripte/xsd/mxml</directory>
+                  <filtering>false</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>copy-resources-beschreibungtemplate-tei_hsp</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}/schema_skripte/beschreibungtemplate/tei_hsp</outputDirectory>
+              <overwrite>true</overwrite>
+              <resources>
+                <resource>
+                  <directory>nachweis_templates</directory>
+                  <includes>
+                    <include>beschreibunginitial_medieval.xml</include>
+                  </includes>
+                  <filtering>false</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <delimiters>
+            <delimiter>@</delimiter>
+          </delimiters>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>staatsbibliothek-berlin.maven</groupId>
+        <artifactId>bom-remove-plugin</artifactId>
+        <version>${bom-remove-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>first</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>BomRemove</goal>
+            </goals>
+            <configuration>
+              <source>${baseDirEnc}/nachweis_daten</source>
+              <destination>${buildDirEnc}/${project.artifactId}/nachweis_daten</destination>
+              <recursive>true</recursive>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>xml-maven-plugin</artifactId>
+        <version>${xml-maven-plugin.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-HE</artifactId>
+            <version>${Saxon-HE.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>com.componentcorp.xml.validation</groupId>
+            <artifactId>jxvc</artifactId>
+            <version>${jxvc.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>com.componentcorp.xml.validation</groupId>
+            <artifactId>relaxng</artifactId>
+            <version>${jxvc.version}</version>
+            <exclusions>
+              <exclusion>
+                <groupId>com.thaiopensource</groupId>
+                <artifactId>jing-trang</artifactId>
+              </exclusion>
+              <exclusion>
+                <groupId>xerces</groupId>
+                <artifactId>xercesImpl</artifactId>
+              </exclusion>
+              <exclusion>
+                <groupId>net.sf.saxon</groupId>
+                <artifactId>saxon</artifactId>
+              </exclusion>
+            </exclusions>
+          </dependency>
+          <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <version>${xercesImpl.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>com.helger.schematron</groupId>
+            <artifactId>ph-schematron-xslt</artifactId>
+            <version>${ph-schematron.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>staatsbibliothek-berlin.oxygen</groupId>
+            <artifactId>excel-extender</artifactId>
+            <version>${excel-extender.version}</version>
+          </dependency>
+        </dependencies>
+        <executions>
+          <execution>
+            <id>transform</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>transform</goal>
+            </goals>
+            <configuration>
+              <transformerFactory>de.staatsbibliothek.berlin.saxon.factory.HSPTransformerFactory</transformerFactory>
+              <transformationSets>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd/tei_hsp</dir>
+                  <includes>hsp_cataloguing.odd</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/odd2odd.xsl</stylesheet>
+                  <parameters>
+                    <parameter>
+                      <name>currentDirectory</name>
+                      <value>file:///${baseDirEnc}</value>
+                    </parameter>
+                    <parameter>
+                      <name>defaultSource</name>
+                      <value>file:///${buildDirEnc}/${project.artifactId}/Stylesheets/source/p5subset.xml</value>
+                    </parameter>
+                    <parameter>
+                      <name>suppressTEIexamples</name>
+                      <value>true</value>
+                    </parameter>
+                  </parameters>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.compiled</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd/tei_hsp</dir>
+                  <includes>hsp_cataloguing.odd</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/odd2html.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd/tei_hsp/documentation/</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.html</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</dir>
+                  <includes>hsp_cataloguing.compiled</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/odd2relax.xsl</stylesheet>
+                  <parameters>
+                    <parameter>
+                      <name>outputDir</name>
+                      <value>file:///${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_hsp/</value>
+                    </parameter>
+                  </parameters>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</dir>
+                  <includes>hsp_cataloguing.compiled</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/extract-isosch.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.tmp</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                  <parameters>
+                    <parameter>
+                      <name>verbose</name>
+                      <value>true</value>
+                    </parameter>
+                    <parameter>
+                      <name>lang</name>
+                      <value>en</value>
+                    </parameter>
+                  </parameters>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</dir>
+                  <includes>hsp_cataloguing.tmp</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/isosch/iso_abstract_expand.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.tmp-no-abstract</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_hsp</dir>
+                  <includes>hsp_cataloguing.tmp-no-abstract</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/isosch/iso_add_id_check.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/isosch/tei_hsp</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.isosch</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd/tei_all</dir>
+                  <includes>tei_all.odd</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/odd2odd.xsl</stylesheet>
+                  <parameters>
+                    <parameter>
+                      <name>currentDirectory</name>
+                      <value>file:///${baseDirEnc}</value>
+                    </parameter>
+                    <parameter>
+                      <name>defaultSource</name>
+                      <value>file:///${buildDirEnc}/${project.artifactId}/Stylesheets/source/p5subset.xml</value>
+                    </parameter>
+                    <parameter>
+                      <name>suppressTEIexamples</name>
+                      <value>true</value>
+                    </parameter>
+                  </parameters>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.compiled</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</dir>
+                  <includes>tei_all.compiled</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/odd2relax.xsl</stylesheet>
+                  <parameters>
+                    <parameter>
+                      <name>outputDir</name>
+                      <value>file:///${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/</value>
+                    </parameter>
+                  </parameters>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</dir>
+                  <includes>tei_all.compiled</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/extract-isosch.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.tmp</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                  <parameters>
+                    <parameter>
+                      <name>verbose</name>
+                      <value>true</value>
+                    </parameter>
+                    <parameter>
+                      <name>lang</name>
+                      <value>en</value>
+                    </parameter>
+                  </parameters>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</dir>
+                  <includes>tei_all.tmp</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/isosch/iso_abstract_expand.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.tmp-no-abstract</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd-compiled/tei_all</dir>
+                  <includes>tei_all.tmp-no-abstract</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/isosch/iso_add_id_check.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/isosch/tei_all</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.isosch</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd/tei_all</dir>
+                  <includes>tei_all.odd</includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/Stylesheets/odds/odd2html.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/${project.artifactId}/schema_skripte/odd/tei_all/documentation/</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.html</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten</dir>
+                  <includes>**/hsp_TEI_Import_Orte.xml</includes>
+                  <stylesheet>${baseDirEnc}/schema_skripte/xslt/helper/validate_relation_geo.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/testRelationGeo</outputDir>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten</dir>
+                  <includes>**/hsp_TEI_Import_Koerperschaften.xml</includes>
+                  <stylesheet>${baseDirEnc}/schema_skripte/xslt/helper/validate_relation_soz.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/testRelationSoz</outputDir>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion/1_Neue_KODs</dir>
+                  <includes>
+                    <include>**/01_*_ERG_*.xml</include>
+                  </includes>
+                  <stylesheet>${baseDirEnc}/schema_skripte/xslt/helper/validate_kods.xsl</stylesheet>
+                  <outputDir>${buildDirEnc}/testKODs</outputDir>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>
+                    <include>**/02_*_EXT.xml</include>
+                    <include>**/02_*_INT.xml</include>
+                  </includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/schema_skripte/xslt/mxml/MXML-to-TEI-P5.xsl
+                  </stylesheet>
+                  <outputDir>${buildDirEnc}/testMXML2TEI</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.xml</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>
+                    <include>**/02_*_TEI.xml</include>
+                  </includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/schema_skripte/xslt/tei_all/TEI-to-TEI-HSP.xsl
+                  </stylesheet>
+                  <outputDir>${buildDirEnc}/testMXML2TEI</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.xml</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+                <transformationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/4_0_Kataloge</dir>
+                  <includes>
+                    <include>**/04_*.xml</include>
+                  </includes>
+                  <stylesheet>${buildDirEnc}/${project.artifactId}/xslt-ALLE/XML-to-XML_KATs.xsl
+                  </stylesheet>
+                  <outputDir>${buildDirEnc}/4_0_Kataloge</outputDir>
+                  <fileMappers>
+                    <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                      <targetExtension>.xml</targetExtension>
+                    </fileMapper>
+                  </fileMappers>
+                </transformationSet>
+              </transformationSets>
+            </configuration>
+          </execution>
+          <execution>
+            <id>checkSchema</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>validate</goal>
+            </goals>
+            <configuration>
+              <validationSets>
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/1_0_Normdaten</dir>
+                  <includes>**/hsp_TEI*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/tei_all.rng</systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/1_0_Normdaten</dir>
+                  <includes>**/hsp_TEI*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/xsd/tei_all/tei_all.xsd</systemId>
+                  <validating>true</validating>
+                </validationSet>
+
+                <validationSet>
+                  <dir>${buildDirEnc}/testMXML2TEI</dir>
+                  <includes>**/*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/tei_all.rng</systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+                <validationSet>
+                  <dir>${buildDirEnc}/testMXML2TEI</dir>
+                  <includes>**/*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/xsd/tei_all/tei_all.xsd</systemId>
+                  <validating>true</validating>
+                </validationSet>
+
+                <validationSet>
+                  <dir>${buildDirEnc}/testMXML2TEI</dir>
+                  <includes>**/*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_hsp/hsp_cataloguing.rng
+                  </systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/4_0_Kataloge</dir>
+                  <includes>**/*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/tei_all.rng</systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/4_0_Kataloge</dir>
+                  <includes>**/*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/xsd/tei_all/tei_all.xsd</systemId>
+                  <validating>true</validating>
+                </validationSet>
+
+
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>**/01_*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/tei_all.rng</systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>**/01_*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/xsd/tei_all/tei_all.xsd</systemId>
+                  <validating>true</validating>
+                </validationSet>
+
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>**/03_*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/tei_all.rng</systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>**/03_*.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/xsd/tei_all/tei_all.xsd</systemId>
+                  <validating>true</validating>
+                </validationSet>
+
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>**/02_*_TEI.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/rng/tei_all/tei_all.rng</systemId>
+                  <validating>true</validating>
+                  <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
+                </validationSet>
+                <validationSet>
+                  <dir>${buildDirEnc}/${project.artifactId}/nachweis_daten/3_0_Produktion</dir>
+                  <includes>**/02_*_TEI.xml</includes>
+                  <systemId>${buildDirEnc}/${project.artifactId}/schema_skripte/xsd/tei_all/tei_all.xsd</systemId>
+                  <validating>true</validating>
+                </validationSet>
+              </validationSets>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <dependencies>
+          <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-HE</artifactId>
+            <version>${Saxon-HE.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>staatsbibliothek-berlin.oxygen</groupId>
+            <artifactId>excel-extender</artifactId>
+            <version>${excel-extender.version}</version>
+          </dependency>
+        </dependencies>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>${maven-antrun-plugin.version}</version>
+        <executions>
+          <execution>
+            <phase>generate-sources</phase>
+            <configuration>
+              <target>
+                <delete includeemptydirs="true">
+                  <fileset dir="${buildDirEnc}/${project.artifactId}/nachweis_daten/4_0_Kataloge" defaultexcludes="false"/>
+                </delete>
+                <move todir="${buildDirEnc}/${project.artifactId}/nachweis_daten/4_0_Kataloge" includeEmptyDirs="yes" verbose="true">
+                  <fileset dir="${buildDirEnc}/4_0_Kataloge" >
+                    <include name="**/*" />
+                  </fileset>
+                </move>
+
+                <property name="schemaBuildDir" value="${buildDirEnc}/${project.artifactId}/schema_skripte"/>
+                <mkdir dir="${schemaBuildDir}/xsd/tei_hsp"/>
+                <mkdir dir="${schemaBuildDir}/xsd/tei_all"/>
+                <java classname="com.thaiopensource.relaxng.translate.Driver" fork="true">
+                  <classpath>
+                    <path refid="maven.plugin.classpath"/>
+                    <path refid="maven.compile.classpath"/>
+                    <path refid="maven.runtime.classpath"/>
+                  </classpath>
+                  <arg value="-O"/>
+                  <arg value="xsd"/>
+                  <arg value="${schemaBuildDir}/rng/tei_hsp/hsp_cataloguing.rng"/>
+                  <arg value="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.xsd"/>
+                </java>
+
+                <java classname="com.thaiopensource.relaxng.translate.Driver" fork="true">
+                  <classpath>
+                    <path refid="maven.plugin.classpath"/>
+                    <path refid="maven.compile.classpath"/>
+                    <path refid="maven.runtime.classpath"/>
+                  </classpath>
+                  <arg value="-O"/>
+                  <arg value="xsd"/>
+                  <arg value="${schemaBuildDir}/rng/tei_all/tei_all.rng"/>
+                  <arg value="${schemaBuildDir}/xsd/tei_all/tei_all.xsd"/>
+                </java>
+
+                <move file="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.xsd"
+                  tofile="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.tmp">
+                  <filterchain>
+                    <tokenfilter>
+                      <replacestring from='schemaLocation="xml.xsd"' to='schemaLocation="xml_hsp.xsd"'/>
+                    </tokenfilter>
+                  </filterchain>
+                </move>
+                <move file="${schemaBuildDir}/xsd/tei_hsp/xml.xsd" tofile="${schemaBuildDir}/xsd/tei_hsp/xml_hsp.xsd"/>
+
+                <move file="${schemaBuildDir}/xsd/tei_all/tei_all.xsd"
+                  tofile="${schemaBuildDir}/xsd/tei_all/tei_all.tmp"/>
+
+                <!--xslt force="yes" style="${buildDirEnc}/${project.artifactId}/Stylesheets/xsd/postprocess.xsl"
+                  in="${schemaBuildDir}/xsd/tei_all/tei_all.tmp"
+                  out="${schemaBuildDir}/xsd/tei_all/tei_all.xsd">
+                  <factory name="de.staatsbibliothek.berlin.saxon.factory.HSPTransformerFactory"/>
+                </xslt>
+                <xslt force="yes" style="${buildDirEnc}/${project.artifactId}/Stylesheets/xsd/postprocess.xsl"
+                  in="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.tmp"
+                  out="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.xsd">
+                  <factory name="de.staatsbibliothek.berlin.saxon.factory.HSPTransformerFactory"/>
+                </xslt-->
+                <!-- skip xslt  -->
+                <copy file="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.tmp"
+                  tofile="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.xsd"/>
+                <copy file="${schemaBuildDir}/xsd/tei_all/tei_all.tmp"
+                  tofile="${schemaBuildDir}/xsd/tei_all/tei_all.xsd"/>
+
+                <delete file="${schemaBuildDir}/xsd/tei_hsp/hsp_cataloguing.tmp"/>
+                <delete file="${schemaBuildDir}/xsd/tei_all/tei_all.tmp"/>
+
+                <delete includeemptydirs="true">
+                  <fileset dir="${baseDirEnc}/schema_skripte/isosch" defaultexcludes="false"/>
+                </delete>
+                <copy todir="${baseDirEnc}/schema_skripte/isosch">
+                  <fileset dir="${schemaBuildDir}/isosch"/>
+                </copy>
+
+                <delete includeemptydirs="true">
+                  <fileset dir="${baseDirEnc}/schema_skripte/xsd" defaultexcludes="false"/>
+                </delete>
+                <copy todir="${baseDirEnc}/schema_skripte/xsd">
+                  <fileset dir="${schemaBuildDir}/xsd"/>
+                </copy>
+
+                <delete includeemptydirs="true">
+                  <fileset dir="${baseDirEnc}/schema_skripte/rng" defaultexcludes="false"/>
+                </delete>
+                <copy todir="${baseDirEnc}/schema_skripte/rng">
+                  <fileset dir="${schemaBuildDir}/rng"/>
+                </copy>
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+
+      <plugin>
+        <groupId>com.helger.maven</groupId>
+        <artifactId>ph-schematron-maven-plugin</artifactId>
+        <version>${ph-schematron.version}</version>
+        <executions>
+          <execution>
+            <id>convertIsoschToXslt-tei-all</id>
+            <goals>
+              <goal>convert</goal>
+            </goals>
+            <configuration>
+              <schematronDirectory>${buildDirEnc}/${project.artifactId}/schema_skripte/isosch/tei_all</schematronDirectory>
+              <xsltDirectory>${buildDirEnc}/${project.artifactId}/schema_skripte/isoschcompiled/tei_all</xsltDirectory>
+              <schematronPattern>**/*.isosch</schematronPattern>
+              <xsltExtension>.isoschcompiled</xsltExtension>
+            </configuration>
+          </execution>
+          <execution>
+            <id>convertIsoschToXslt-tei-hsp</id>
+            <goals>
+              <goal>convert</goal>
+            </goals>
+            <configuration>
+              <schematronDirectory>${buildDirEnc}/${project.artifactId}/schema_skripte/isosch/tei_hsp</schematronDirectory>
+              <xsltDirectory>${buildDirEnc}/${project.artifactId}/schema_skripte/isoschcompiled/tei_hsp</xsltDirectory>
+              <schematronPattern>**/*.isosch</schematronPattern>
+              <xsltExtension>.isoschcompiled</xsltExtension>
+            </configuration>
+          </execution>
+          <execution>
+            <id>schematron-validation_tei_all_mxml2tei</id>
+            <goals>
+              <goal>validate</goal>
+            </goals>
+            <configuration>
+              <schematronProcessingEngine>xslt</schematronProcessingEngine>
+              <lenient>false</lenient>
+              <schematronFile>
+                ${buildDirEnc}/${project.artifactId}/schema_skripte/isoschcompiled/tei_all/tei_all.isoschcompiled
+              </schematronFile>
+              <xmlDirectory>${buildDirEnc}/testMXML2TEI/Wolfenbuettel_HAB</xmlDirectory>
+              <xmlIncludes name="**/02_*.xml"/>
+              <failFast>false</failFast>
+              <svrlDirectory>${buildDirEnc}/svrl-reports/testMXML2TEI-TEI_ALL</svrlDirectory>
+            </configuration>
+          </execution>
+          <execution>
+            <id>schematron-validation_tei_hsp_mxml2tei</id>
+            <goals>
+              <goal>validate</goal>
+            </goals>
+            <configuration>
+              <schematronProcessingEngine>xslt</schematronProcessingEngine>
+              <lenient>false</lenient>
+              <schematronFile>
+                ${buildDirEnc}/${project.artifactId}/schema_skripte/isoschcompiled/tei_hsp/hsp_cataloguing.isoschcompiled
+              </schematronFile>
+              <xmlDirectory>${buildDirEnc}/testMXML2TEI</xmlDirectory>
+              <xmlIncludes name="**/02_*.xml"/>
+              <failFast>false</failFast>
+              <svrlDirectory>${buildDirEnc}/svrl-reports/testMXML2TEI</svrlDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>${maven-jar-plugin.version}</version>
+        <configuration>
+          <includes>
+            <include>**/service/*</include>
+          </includes>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>${maven-assembly-plugin.version}</version>
+        <configuration>
+          <descriptors>
+            <descriptor>FILES/release.xml</descriptor>
+          </descriptors>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>${maven-deploy-plugin.version}</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.relaxng</groupId>
+      <artifactId>trang</artifactId>
+      <version>${jing.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.relaxng</groupId>
+      <artifactId>jing</artifactId>
+      <version>${jing.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>net.sf.saxon</groupId>
+      <artifactId>Saxon-HE</artifactId>
+      <version>${Saxon-HE.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>staatsbibliothek-berlin.oxygen</groupId>
+      <artifactId>excel-extender</artifactId>
+      <version>${excel-extender.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-arq</artifactId>
+      <version>${jena.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-shacl</artifactId>
+      <version>${jena.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons-lang3.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.xmlunit</groupId>
+      <artifactId>xmlunit-core</artifactId>
+      <version>${xmlunit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.xmlunit</groupId>
+      <artifactId>xmlunit-matchers</artifactId>
+      <version>${xmlunit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>${junit-jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-launcher</artifactId>
+      <version>${junit-platform-launcher.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>net.sf.saxon</groupId>
+        <artifactId>Saxon-HE</artifactId>
+        <version>${Saxon-HE.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.relaxng</groupId>
+        <artifactId>jing</artifactId>
+        <version>${jing.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+
+  <distributionManagement>
+    <repository>
+      <id>nexus3-releases</id>
+      <url>https://artefakt.dev.sbb.berlin/repository/sbb-maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus3-snapshots</id>
+      <url>https://artefakt.dev.sbb.berlin/repository/sbb-maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+
+</project>

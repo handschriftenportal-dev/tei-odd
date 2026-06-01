@@ -1,0 +1,62 @@
+@startuml
+
+folder "nachweis_daten/3_0_Produktion" as folder_tei {
+}
+
+folder "nachweis_daten/3_0_Produktion" as folder_extint {
+}
+
+folder testMXSL2TEI {
+}
+
+folder testTEI2HSP {
+}
+
+folder testHSP2TEI {
+}
+
+folder_extint --> testMXSL2TEI : MXML-to-TEI-P5.xsl
+note top of folder_extint
+  Auswahl von XML-Dateien 
+  nach den Mustern **/02_*_EXT.xml 
+  und **/02_*_INT.xml
+end note
+
+folder_tei --> testMXSL2TEI : TEI-to-TEI-HSP.xsl
+note top of folder_tei
+  Auswahl von XML-Dateien 
+  nach dem Muster **/02_*_TEI.xml
+end note
+
+
+testMXSL2TEI --> testTEI2HSP : switch_TEI-to-HSP.xsl
+
+testTEI2HSP --> testHSP2TEI : switch_HSP-to-TEI.xsl
+
+
+testHSP2TEI --[hidden]> "svrl-reports"
+testHSP2TEI --[hidden]> "test-reports"
+
+
+note "Schematron-Validierung testet\ngenerierte XML-Dateien\n(in Verzeichnis testHSP2TEI)\nund originale XML-Dateien\n(in Verzeichnis testMXSL2TEI)\nund liefert Validierungberichte\nin Verzeichnis svrl-reports." as note_valid
+
+note_valid .. testHSP2TEI
+note_valid .. testMXSL2TEI 
+
+folder "svrl-reports" {
+}
+
+note_valid .. "svrl-reports" 
+
+
+note "Unit-Test vergleicht\ngenerierte XML-Dateien\n(in Verzeichnis testMXSL2TEI)\nmit originalen XML-Dateien\n(in Verzeichnis testMXSL2TEI)\nund liefert Ergebnisse\nin Verzeichnis test-reports." as note_test
+
+folder "test-reports" {
+}
+
+note_test .. "test-reports"
+
+note_test .. testHSP2TEI
+note_test .. testMXSL2TEI
+
+@enduml

@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Marburg_Hessisches_Staatsarchiv/01_Marburg_Hessisches_Staatsarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-1-Nr-292">HStAM, Best. Slg 1 Nr. 292</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM H 292</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 292</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>B 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--4">HStAM, Best. Slg 3 Nr. 15, 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1629 StAM Hr. 15.4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--5">HStAM, Best. Slg 3 Nr. 15, 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1630 StAM Hr. 15.5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--6">HStAM, Best. Slg 3 Nr. 15, 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1631 StAM Hr. 15.6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--7">HStAM, Best. Slg 3 Nr. 15, 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1632 StAM Hr. 15.7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--8">HStAM, Best. Slg 3 Nr. 15, 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1633 StAM Hr. 15.8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--9">HStAM, Best. Slg 3 Nr. 15, 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1634 StAM Hr. 15.9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-15--10">HStAM, Best. Slg 3 Nr. 15, 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 15.10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15.10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 15,10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15,10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 15.10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Felsberg Kastenrechnung 1635 StAM Hr. 15.10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-330-Witzenhausen-Nr-2">HStAM, Best. 330 Witzenhausen Nr. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 330 Witzenhausen Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 330 Witzenhausen Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 330 Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 330, Nr. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>D 86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-11--18">HStAM, Best. Slg 3 Nr. 11, 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 11.18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 11.18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 11,18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 11,18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 11.18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 277</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-13--13">HStAM, Best. Slg 3 Nr. 13, 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 13.13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13.13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13,13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13,13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13.13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 13, fasc. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-13--14">HStAM, Best. Slg 3 Nr. 13, 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 13.14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13.14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13,14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13,14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13.14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 13, fasc. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-13--15">HStAM, Best. Slg 3 Nr. 13, 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 13.15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13.15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13,15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13,15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13.15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 13, fasc. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-13--16">HStAM, Best. Slg 3 Nr. 13, 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 13.16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13.16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 13,16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13,16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 13.16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 13, fasc. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-17--1">HStAM, Best. Slg 3 Nr. 17, 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 17.1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 17.1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 17,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 17,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 17.1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 17, fasc. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-17--2">HStAM, Best. Slg 3 Nr. 17, 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 17.2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 17.2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 17,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 17,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 17.2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 17, fasc. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-17--3">HStAM, Best. Slg 3 Nr. 17, 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 17.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 17.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 17,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 17,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 17.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 17, fasc. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-Slg-3-Nr-9--3">HStAM, Best. Slg 3 Nr. 9, 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Hr. 9.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 9.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr. 9,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 9,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hr 9.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>H 278, Hr. 9, fasc. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_Waldecker-Archiv-o-Sign--A-">Waldecker Archiv o. Sign. [A]</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--9">HStAM, Best. 147/1 Nr. Hr 1, 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [a]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--16">HStAM, Best. 147/1 Nr. Hr 1, 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [b]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--10">HStAM, Best. 147/1 Nr. Hr 1, 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [c]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--14">HStAM, Best. 147/1 Nr. Hr 1, 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [d]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--13">HStAM, Best. 147/1 Nr. Hr 1, 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 12 u. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 12 u. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [e]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_Waldecker-Archiv-o-Sign--f-">Waldecker Archiv o. Sign. [f]</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--11">HStAM, Best. 147/1 Nr. Hr 1, 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [g]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--6">HStAM, Best. 147/1 Nr. Hr 1, 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [h]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--7">HStAM, Best. 147/1 Nr. Hr 1, 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [i]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--5">HStAM, Best. 147/1 Nr. Hr 1, 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [k]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_HStAM--Best-147-1-Nr-Hr-1--4">HStAM, Best. 147/1 Nr. Hr 1, 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>StAM Best. 147 Hr 1 Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1 Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1 Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr 1, Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147 Hr. 1, Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr 1 Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1 Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 147, Hr. 1, Nr. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Waldecker Archiv o. Sign. [l]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_in-OStS-9661">in OStS 9661</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="2011688-3">Hessisches Staatsarchiv Marburg</repository>
+                  <idno xml:id="_o-Sign--Depositum-v-Eschwege-">o. Sign. [Depositum v. Eschwege]</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

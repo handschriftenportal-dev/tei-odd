@@ -1,0 +1,1059 @@
+@prefix schema: <https://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+
+hspv:FORM-X a skos:ConceptScheme;
+  skos:prefLabel "Fachbegriffe Überlieferungsform"@de, "specialist terms Transmission Form"@en;
+  skos:definition "Thesaurus: Fachbegriffe Überlieferungsform (FORM-X)"@de, "Thesaurus: specialist terms (FORM-X)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-X451, hspv:FORM-X677, hspv:FORM-X709, hspv:FORM-X462,
+    hspv:FORM-X160, hspv:FORM-X963, hspv:FORM-X869, hspv:FORM-X321, hspv:FORM-X445, hspv:FORM-X822,
+    hspv:FORM-X453, hspv:FORM-X738 .
+
+hspv:FORM-X451 a skos:Concept;
+  skos:notation "FORM-X451";
+  skos:prefLabel "Einblatthandschrift"@de, "single-sheet manuscript"@en;
+  skos:definition "Eine Handschrift, die nur aus einem Blatt besteht und ursprünglich als solche angelegt ist"@de;
+  skos:example hspv:46323f67-411d-4d33-a954-69b94144e5de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B400, hspv:FORM-C187;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:46323f67-411d-4d33-a954-69b94144e5de a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0036/0000003668/00000001.jpx/pct:4.18585,1.12847,93.76308,97.79514/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000003668/manifest.json>;
+  schema:caption "Leipzig, UB, Fragm. lat. 368" .
+
+hspv:FORM-X677 a skos:Concept;
+  skos:notation "FORM-X677";
+  skos:prefLabel "Urkunde"@de, "charter"@en;
+  skos:definition "Ein handschriftliches Verwaltungsdokument"@de;
+  skos:example hspv:f9150273-1ebe-45ea-8a9d-20d314dceac4;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B400, hspv:FORM-C187, hspv:FORM-D888;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:f9150273-1ebe-45ea-8a9d-20d314dceac4 a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FUrkuWevoS_434677078%2FUrkuWevoS_434677078_tif%2Fjpegs%2F00000003.tif.medium.jpg/pct:9.7,0.72359,80,88.42258/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.slub-dresden.de/iiif/2/434677078/manifest.json>;
+  schema:caption "Dresden, SLUB, Mscr.Dresd.R.52.um,Nr.5" .
+
+hspv:FORM-X709 a skos:Concept;
+  skos:notation "FORM-X709";
+  skos:prefLabel "Fragment"@de, "fragment"@en;
+  skos:definition "Eine fragmentarisch erhaltene Handschrift"@de;
+  skos:example hspv:ec936e7f-d52b-49fe-80b0-5d4ded4cd3de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-E350;
+  skos:narrower hspv:FORM-X287, hspv:FORM-X545;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:ec936e7f-d52b-49fe-80b0-5d4ded4cd3de a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1466535/pct:0.49116,3.31504,96.85658,94.03292/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1465494/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 76, Bl. IIIr" .
+
+hspv:FORM-X287 a skos:Concept;
+  skos:notation "FORM-X287";
+  skos:prefLabel "in situ-Fragment"@de, "in situ fragment"@en;
+  skos:broader hspv:FORM-X709;
+  skos:definition "Ein Fragment, das sich noch in einem Trägerband befindet"@de;
+  skos:example hspv:d74809f3-65e3-4fdb-8f8b-c7a17f877d2c;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-E350, hspv:FORM-F631;
+  skos:inScheme hspv:FORM-X .
+
+hspv:d74809f3-65e3-4fdb-8f8b-c7a17f877d2c a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0321/0000032150/00000004.jpx/pct:3.85417,6.97917,94.14063,86.84028/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000032150%2Fmanifest.json&page=4>;
+  schema:caption "Leipzig, UB, Ms 822, Vorderspiegel" .
+
+hspv:FORM-X545 a skos:Concept;
+  skos:notation "FORM-X545";
+  skos:prefLabel "ausgelöstes Fragment"@de, "detached fragment"@en;
+  skos:broader hspv:FORM-X709;
+  skos:definition "Ein Fragment, das aus seinem Trägerband ausgelöst wurde"@de;
+  skos:example hspv:d6786033-88e3-4114-8a32-d7bedb2e30e1;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-E350, hspv:FORM-F354;
+  skos:inScheme hspv:FORM-X .
+
+hspv:d6786033-88e3-4114-8a32-d7bedb2e30e1 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034706_00001/pct:0.11249,0.39894,99.82002,99.20213/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034706/manifest>;
+  schema:caption "München, BSB, Clm 29319/29, Bl. 1r" .
+
+hspv:FORM-X462 a skos:Concept;
+  skos:notation "FORM-X462";
+  skos:prefLabel "Druck als Trägerband"@de, "print as host volume"@en;
+  skos:definition "Ein Druck als Trägerband für handschriftliches Material (z.B. mit handschriftlichem Material als Einbandmakulatur)"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170;
+  skos:narrower hspv:FORM-X377, hspv:FORM-X358, hspv:FORM-X236, hspv:FORM-X568;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:FORM-X377 a skos:Concept;
+  skos:notation "FORM-X377";
+  skos:prefLabel "Inkunabel als Trägerband"@de, "incunabula as host volume"@en;
+  skos:broader hspv:FORM-X462;
+  skos:definition "Eine Inkunabel (Entstehungszeit bis 1499) als Trägerband für handschriftliches Material (z.B. mit handschriftlichem Material als Einbandmakulatur)"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X358 a skos:Concept;
+  skos:notation "FORM-X358";
+  skos:prefLabel "Frühdruck als Trägerband"@de, "early print as host volume"@en;
+  skos:broader hspv:FORM-X462;
+  skos:definition "Ein Frühdruck (Entstehungszeit 1500-1519) als Trägerband für handschriftliches Material (z.B. mit handschriftlichem Material als Einbandmakulatur)"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X236 a skos:Concept;
+  skos:notation "FORM-X236";
+  skos:prefLabel "Druck nach 1520 als Trägerband"@de, "print after 1520 as host volume"@en;
+  skos:broader hspv:FORM-X462;
+  skos:definition "Ein Druck (Entstehungszeit ab 1520) als Trägerband für handschriftliches Material (z.B. mit handschriftlichem Material als Einbandmakulatur)"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X568 a skos:Concept;
+  skos:notation "FORM-X568";
+  skos:prefLabel "Blockbuch als Trägerband"@de, "block book as host volume"@en;
+  skos:broader hspv:FORM-X462;
+  skos:definition "Ein Blockbuch als Trägerband für handschriftliches Material (z.B. mit handschriftlichem Material als Einbandmakulatur)"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X160 a skos:Concept;
+  skos:notation "FORM-X160";
+  skos:prefLabel "Codex"@de, "codex"@en;
+  skos:altLabel "einteilige Handschrift"@de;
+  skos:definition "Eine codexförmige, d.h. mit Bindung versehene Handschrift"@de;
+  skos:example hspv:67cd28ce-faff-46ba-bcbc-5a35f930bb00;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B170, hspv:FORM-C187;
+  skos:narrower hspv:FORM-X320, hspv:FORM-X832, hspv:FORM-X446;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:67cd28ce-faff-46ba-bcbc-5a35f930bb00 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0317/0000031743/00000001.jpx/pct:0.88542,4.58333,99.08854,89.79167/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000031743/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 456, Vorderdeckel" .
+
+hspv:FORM-X320 a skos:Concept;
+  skos:notation "FORM-X320";
+  skos:prefLabel "Eintexthandschrift"@de, "one-text manuscript"@en;
+  skos:broader hspv:FORM-X160;
+  skos:definition "Eine Handschrift, die nur einen Text enthält"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B170, hspv:FORM-C187;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X832 a skos:Concept;
+  skos:notation "FORM-X832";
+  skos:prefLabel "Sammelhandschrift"@de, "manuscript with text collection"@en;
+  skos:broader hspv:FORM-X160;
+  skos:definition "Eine Handschrift, die mehrere Texte enthält, aber aus einem Entstehungszusammenhang stammt"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B170, hspv:FORM-C187;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X446 a skos:Concept;
+  skos:notation "FORM-X446";
+  skos:prefLabel "mehrbändige Handschrift"@de, "manuscript consisting of several volumes"@en;
+  skos:broader hspv:FORM-X160;
+  skos:definition "Eine Handschrift, die mehrere Bände umfasst"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B170, hspv:FORM-C688;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X963 a skos:Concept;
+  skos:notation "FORM-X963";
+  skos:prefLabel "Zusammengesetzte Handschrift"@de, "composite manuscript"@en;
+  skos:altLabel "mehrteilige Handschrift"@de, "manuscript consisting of several parts"@en;
+  skos:definition "Eine Handschrift, die aus mehreren Teilen (Faszikeln) zusammengesetzt ist. Die Teile/Faszikel können aus unterschiedlichen Entstehungszusammenhängen stammen"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B170, hspv:FORM-C102;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:FORM-X869 a skos:Concept;
+  skos:notation "FORM-X869";
+  skos:prefLabel "Sammlung handschriftlichen Materials"@de, "collection of manuscript material without binding"@en;
+  skos:definition "Handschriftliches Material, das in einem historischen Sammlungskontext (z.B. in einem Schuber oder einer Mappe) steht"@de;
+  skos:example hspv:4d62f303-a7af-41f9-a9d4-adba31c90407;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B456;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:4d62f303-a7af-41f9-a9d4-adba31c90407 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00002074_00001/pct:0.64205,1.359,98.98341,97.50849/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00002074/manifest>;
+  schema:caption "München, BSB, Cgm 5379/3" .
+
+hspv:FORM-X321 a skos:Concept;
+  skos:notation "FORM-X321";
+  skos:prefLabel "Sammelband"@de, "sammelband"@en;
+  skos:altLabel "Handschrift mit Druckadligat"@de, "volume containing handwritten and printed parts"@en;
+  skos:definition "Ein Sammelband aus zusammengebundenen handschriftlichen und gedruckten Anteilen"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170, hspv:FORM-C102;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:FORM-X445 a skos:Concept;
+  skos:notation "FORM-X445";
+  skos:prefLabel "Druck mit handschriftlichen Anteilen"@de, "print with manuscript parts"@en;
+  skos:altLabel "print with handwritten components"@en;
+  skos:definition "Ein Druck mit handschriftlichen Anteilen (z.B. handschriftliche Notizen, umfangreichere handschriftliche Nachträge)"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-A263, hspv:FORM-B170;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:FORM-X822 a skos:Concept;
+  skos:notation "FORM-X822";
+  skos:prefLabel "Rotulus"@de, "scroll"@en;
+  skos:altLabel "Rolle"@de, "Rodel"@de, "rotulus"@en;
+  skos:definition "Eine Handschrift in Form einer Rolle"@de;
+  skos:example hspv:3e0f184e-4cda-4256-b8f1-679a516db46d;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-C187;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:3e0f184e-4cda-4256-b8f1-679a516db46d a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034959_00001/pct:1.58629,0.83565,92.70305,97.77159/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034959/manifest>;
+  schema:caption "München, BSB, Clm 28514" .
+
+hspv:FORM-X453 a skos:Concept;
+  skos:notation "FORM-X453";
+  skos:prefLabel "Codex discissus"@de, "codex discissus"@en;
+  skos:definition "Eine rekonstruierte Handschrift/ursprüngliche Bindeeinheit, die im Lauf der Zeit zerteilt wurde"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-B170;
+  skos:narrower hspv:FORM-X543;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:FORM-X543 a skos:Concept;
+  skos:notation "FORM-X543";
+  skos:prefLabel "Teilhandschrift"@de, "part of a codex discissus"@en;
+  skos:altLabel "Teil eines Codex discissus"@de;
+  skos:broader hspv:FORM-X453;
+  skos:definition "Handschrift, die als Teil einer rekonstruierten Handschrift/ursprünglichen Bindeeinheit (Codex discissus) identifiziert werden kann"@de;
+  hspo:hasKeyFeature hspv:FORM-A890, hspv:FORM-E518;
+  skos:inScheme hspv:FORM-X .
+
+hspv:FORM-X738 a skos:Concept;
+  skos:notation "FORM-X738";
+  skos:prefLabel "Sonstige Überlieferungsform"@de, "other transmission form"@en;
+  skos:inScheme hspv:FORM-X;
+  skos:topConceptOf hspv:FORM-X .
+
+hspv:MSVOC a skos:ConceptScheme;
+  skos:prefLabel "Fachvokabular"@de, "Domain Vocabulary"@en;
+  skos:definition "Handschriftenkundliches Fachvokabular"@de, "Domain Specific Vocabulary for Manuscript Studies"@en .
+
+hspv:FORM a skos:ConceptScheme;
+  skos:prefLabel "Überlieferungsform"@de, "Transmission form"@en;
+  skos:definition "Themenbereich: Überlieferungsform"@de, "Domain: Transmission form"@en;
+  skos:inScheme hspv:MSVOC .
+
+hspv:FORM-A a skos:ConceptScheme;
+  skos:prefLabel "Beschriftungsart"@de, "Lettering type"@en;
+  skos:definition "Thesaurus: Beschriftungsart (FORM-A)"@de, "Thesaurus: Lettering type (FORM-A)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-A890, hspv:FORM-A263 .
+
+hspv:FORM-A890 a skos:Concept;
+  skos:notation "FORM-A890";
+  skos:prefLabel "handschriftliches Material"@de, "handwritten material"@en;
+  skos:definition "Material, das handschriftlich beschriftet ist"@de;
+  skos:inScheme hspv:FORM-A;
+  skos:topConceptOf hspv:FORM-A .
+
+hspv:FORM-A263 a skos:Concept;
+  skos:notation "FORM-A263";
+  skos:prefLabel "gedrucktes Material"@de, "printed material"@en;
+  skos:definition "Material, das mittels Drucktechniken beschriftet ist"@de;
+  skos:inScheme hspv:FORM-A;
+  skos:topConceptOf hspv:FORM-A .
+
+hspv:FORM-B a skos:ConceptScheme;
+  skos:prefLabel "Aufbewahrungsform"@de, "Storage form"@en;
+  skos:definition "Thesaurus: Aufbewahrungsform (FORM-B)"@de, "Thesaurus: Storage form (FORM-B)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-B400, hspv:FORM-B905 .
+
+hspv:FORM-B400 a skos:Concept;
+  skos:notation "FORM-B400";
+  skos:prefLabel "Material einzeln/vereinzelt"@de, "single/loose material"@en;
+  skos:definition "Einzelne lose Blätter, die in keinem historischen Bindungs- oder Sammlungskontext stehen"@de;
+  skos:inScheme hspv:FORM-B;
+  skos:topConceptOf hspv:FORM-B .
+
+hspv:FORM-B905 a skos:Concept;
+  skos:notation "FORM-B905";
+  skos:prefLabel "Material zusammengefügt"@de, "joined material"@en;
+  skos:definition "Material, das in einem historischen Bindungs- oder Sammlungskontext steht"@de;
+  skos:narrower hspv:FORM-B170, hspv:FORM-B456;
+  skos:inScheme hspv:FORM-B;
+  skos:topConceptOf hspv:FORM-B .
+
+hspv:FORM-B170 a skos:Concept;
+  skos:notation "FORM-B170";
+  skos:prefLabel "geheftetes Material"@de, "bound material"@en;
+  skos:broader hspv:FORM-B905;
+  skos:definition "Material, das durch Heftung/Bindung zusammengefügt ist"@de;
+  skos:inScheme hspv:FORM-B .
+
+hspv:FORM-B456 a skos:Concept;
+  skos:notation "FORM-B456";
+  skos:prefLabel "Materialsammlung ohne Heftung"@de, "joined material without binding"@en;
+  skos:broader hspv:FORM-B905;
+  skos:definition "Material, das in einem historischen Sammlungskontext (z.B. in einem Schuber oder einer Mappe) steht"@de;
+  skos:inScheme hspv:FORM-B .
+
+hspv:FORM-E a skos:ConceptScheme;
+  skos:prefLabel "Erhaltungszustand"@de, "Preservation state"@en;
+  skos:definition "Thesaurus: Erhaltungszustand (FORM-E)"@de, "Thesaurus: Preservation state (FORM-E)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-E938, hspv:FORM-E518, hspv:FORM-E389 .
+
+hspv:FORM-E938 a skos:Concept;
+  skos:notation "FORM-E938";
+  skos:prefLabel "vollständig erhalten"@de, "completely preserved"@en;
+  skos:definition "Das Material ist vollständig erhalten"@de;
+  skos:narrower hspv:FORM-E361;
+  skos:inScheme hspv:FORM-E;
+  skos:topConceptOf hspv:FORM-E .
+
+hspv:FORM-E361 a skos:Concept;
+  skos:notation "FORM-E361";
+  skos:prefLabel "Buchblock mit einzelnem Blattverlust"@de, "book block with single lost leaves"@en;
+  skos:broader hspv:FORM-E938;
+  skos:definition "Der Buchblock ist fast vollständig erhalten, es fehlen nur einzelne Blätter"@de;
+  skos:inScheme hspv:FORM-E .
+
+hspv:FORM-E518 a skos:Concept;
+  skos:notation "FORM-E518";
+  skos:prefLabel "nicht vollständig erhalten"@de, "not completely preserved"@en;
+  skos:definition "Das Material ist nicht vollständig erhalten"@de;
+  skos:narrower hspv:FORM-E760, hspv:FORM-E350;
+  skos:inScheme hspv:FORM-E;
+  skos:topConceptOf hspv:FORM-E .
+
+hspv:FORM-E760 a skos:Concept;
+  skos:notation "FORM-E760";
+  skos:prefLabel "teilweise erhalten (Buchblock in Teilen erhalten)"@de, "partially preserved (parts of the book block preserved)"@en;
+  skos:broader hspv:FORM-E518;
+  skos:definition "Der Buchblock ist in Teilen erhalten, es fehlen aber größere Partien (z.B. ganze Lagen)"@de;
+  skos:inScheme hspv:FORM-E .
+
+hspv:FORM-E350 a skos:Concept;
+  skos:notation "FORM-E350";
+  skos:prefLabel "fragmentarisch erhalten (aus dem ursprünglichen Bindekontext gelöst)"@de,
+    "fragmentary preservation (separated from the original binding context)"@en;
+  skos:broader hspv:FORM-E518;
+  skos:definition "Das Material befindet sich nicht mehr in seinem ursprünglichen Bindekontext und ist nur fragmentarisch erhalten, z.B. als Einzelblätter oder Einbandmakulatur"@de;
+  skos:example hspv:02b8221e-f2d2-40e1-9f7a-7b27f1a860b5;
+  skos:narrower hspv:FORM-E460, hspv:FORM-E235, hspv:FORM-E772, hspv:FORM-E159, hspv:FORM-E947;
+  skos:inScheme hspv:FORM-E .
+
+hspv:02b8221e-f2d2-40e1-9f7a-7b27f1a860b5 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1466535/pct:0.49116,3.31504,96.85658,94.03292/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1465494/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 76, Bl. IIIr" .
+
+hspv:FORM-E460 a skos:Concept;
+  skos:notation "FORM-E460";
+  skos:prefLabel "Einzelblatt erhalten"@de, "single leaf preserved"@en;
+  skos:broader hspv:FORM-E350;
+  skos:example hspv:df5aa977-4de8-43f0-a397-244b7f1ddae4;
+  skos:narrower hspv:FORM-E333, hspv:FORM-E612, hspv:FORM-E840, hspv:FORM-E822;
+  skos:inScheme hspv:FORM-E .
+
+hspv:df5aa977-4de8-43f0-a397-244b7f1ddae4 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1185334/pct:0.205,0.79811,99.42599,98.87674/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1185316/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen A III 23, Bl. 1v" .
+
+hspv:FORM-E333 a skos:Concept;
+  skos:notation "FORM-E333";
+  skos:prefLabel "obere Hälfte eines Einzelblatts erhalten"@de, "upper half of a single leaf preserved"@en;
+  skos:broader hspv:FORM-E460;
+  skos:example hspv:f457c7e8-cea7-4e33-95e9-a5e9fa58413b;
+  skos:inScheme hspv:FORM-E .
+
+hspv:f457c7e8-cea7-4e33-95e9-a5e9fa58413b a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0297/0000029700/00000002.jpx/pct:2.28789,1.06425,96.12329,97.08317/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000029700/manifest.json>;
+  schema:caption "Leipzig, UB, Fragm. lat. 557 (olim: Scr.eccl.327, Spiegel)" .
+
+hspv:FORM-E612 a skos:Concept;
+  skos:notation "FORM-E612";
+  skos:prefLabel "untere Hälfte eines Einzelblatts erhalten"@de, "lower half of a single leaf preserved"@en;
+  skos:broader hspv:FORM-E460;
+  skos:example hspv:76a4cc63-d0ea-4d0a-bbf4-e420346c0721;
+  skos:inScheme hspv:FORM-E .
+
+hspv:76a4cc63-d0ea-4d0a-bbf4-e420346c0721 a schema:ImageObject;
+  schema:contentUrl <https://www.e-codices.unifr.ch/loris/ubb/ubb-N-I-0002-59b/ubb-N-I-0002-59b_0001v.jp2/pct:1.37011,2.6764,98.48567,97.23236/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-mtq1/manifest.json>;
+  schema:caption "Basel, UB, N I 2:59b, Bl. 1v" .
+
+hspv:FORM-E840 a skos:Concept;
+  skos:notation "FORM-E840";
+  skos:prefLabel "Hälfte eines längsgeteilten Einzelblattes erhalten"@de, "half of a vertically split single leaf preserved"@en;
+  skos:broader hspv:FORM-E460;
+  skos:example hspv:320e3283-fc4c-410e-81bc-06ca3cab03fd;
+  skos:inScheme hspv:FORM-E .
+
+hspv:320e3283-fc4c-410e-81bc-06ca3cab03fd a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-bjtm/StBTrier_Fragmentenbox_12a28_01_.jp2/pct:0.6829,1.18343,77.22684,79.26803/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-bjtm/manifest.json>;
+  schema:caption "Trier, Stadtbibliothek Weberbach Trier, Fragmentenbox 12a, Fragment 24-47, no. 28a" .
+
+hspv:FORM-E822 a skos:Concept;
+  skos:notation "FORM-E822";
+  skos:prefLabel "Streifen eines Einzelblatts erhalten"@de, "strip of a single leaf preserved"@en;
+  skos:broader hspv:FORM-E460;
+  skos:example hspv:828cc659-be35-463e-a663-fadf40e604fb;
+  skos:narrower hspv:FORM-E666, hspv:FORM-E324;
+  skos:inScheme hspv:FORM-E .
+
+hspv:828cc659-be35-463e-a663-fadf40e604fb a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034706_00001/pct:0.11249,0.39894,99.82002,99.20213/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034706/manifest>;
+  schema:caption "München, BSB, Clm 29319/29, Bl. 1r" .
+
+hspv:FORM-E666 a skos:Concept;
+  skos:notation "FORM-E666";
+  skos:prefLabel "Querstreifen eines Einzelblatts erhalten"@de, "horizontal strip of a single leaf preserved"@en;
+  skos:broader hspv:FORM-E822;
+  skos:example hspv:95da3622-3f18-4e4c-bb73-cddae0c30c9b;
+  skos:inScheme hspv:FORM-E .
+
+hspv:95da3622-3f18-4e4c-bb73-cddae0c30c9b a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034706_00001/pct:0.11249,0.39894,99.82002,99.20213/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034706/manifest>;
+  schema:caption "München, BSB, Clm 29319/29, Bl. 1r" .
+
+hspv:FORM-E324 a skos:Concept;
+  skos:notation "FORM-E324";
+  skos:prefLabel "Längsstreifen eines Einzelblatts erhalten"@de, "vertical strip of a single leaf preserved"@en;
+  skos:broader hspv:FORM-E822;
+  skos:example hspv:237eef17-3042-4207-b255-194c765b7e01;
+  skos:inScheme hspv:FORM-E .
+
+hspv:237eef17-3042-4207-b255-194c765b7e01 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0292/0000029270/00000001.jpx/pct:8.71357,6.96762,19.48778,84.67125/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000029270/manifest.json>;
+  schema:caption "Leipzig, UB, Poet.lat.89, Ansetzfalz" .
+
+hspv:FORM-E235 a skos:Concept;
+  skos:notation "FORM-E235";
+  skos:prefLabel "Doppelblatt erhalten"@de, "bifolium preserved"@en;
+  skos:broader hspv:FORM-E350;
+  skos:example hspv:c628e231-e334-4ce6-ab87-f6d1beec4f40;
+  skos:narrower hspv:FORM-E266, hspv:FORM-E318, hspv:FORM-E992;
+  skos:inScheme hspv:FORM-E .
+
+hspv:c628e231-e334-4ce6-ab87-f6d1beec4f40 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/fcgi-bin/iipsrv.fcgi?iiif=/j2k/0000/0034/0000003419/00000006.jpx/pct:0.78125,1.45695,97.17014,96.7947/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-aq4k/manifest.json>;
+  schema:caption "Leipzig, UB, Fragm. lat. 102" .
+
+hspv:FORM-E266 a skos:Concept;
+  skos:notation "FORM-E266";
+  skos:prefLabel "obere Hälfte eines Doppelblatts erhalten"@de, "upper half of a bifolium preserved"@en;
+  skos:broader hspv:FORM-E235;
+  skos:example hspv:e9f8efab-5804-401d-9205-74413e31a77e;
+  skos:inScheme hspv:FORM-E .
+
+hspv:e9f8efab-5804-401d-9205-74413e31a77e a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-opr7/kbt_frg_x617_0001r.jp2/pct:0.43891,0.39189,90.59477,58.16216/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-opr7/manifest.json>;
+  schema:caption "Frauenfeld, Kantonsbibliothek Thurgau, ALT FRG 87" .
+
+hspv:FORM-E318 a skos:Concept;
+  skos:notation "FORM-E318";
+  skos:prefLabel "untere Hälfte eines Doppelblatts erhalten"@de, "lower half of a bifolium preserved"@en;
+  skos:broader hspv:FORM-E235;
+  skos:example hspv:26a6c14a-60fa-4d50-83ad-8fab18a60c35;
+  skos:inScheme hspv:FORM-E .
+
+hspv:26a6c14a-60fa-4d50-83ad-8fab18a60c35 a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-a5ly/StBTrier_Fragmentenbox_12a16_01_.jp2/pct:1.16925,2.85366,98.10236,77.07317/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-a5ly/manifest.json>;
+  schema:caption "Trier, Stadtbibliothek Weberbach Trier, Fragmentenbox 12a, Fragment 01-23, no. 16a" .
+
+hspv:FORM-E992 a skos:Concept;
+  skos:notation "FORM-E992";
+  skos:prefLabel "Streifen eines Doppelblatts erhalten"@de, "strip of a bifolium preserved"@en;
+  skos:broader hspv:FORM-E235;
+  skos:example hspv:5b9a76bc-7db5-4753-83a3-de92af2b4350;
+  skos:narrower hspv:FORM-E429, hspv:FORM-E137;
+  skos:inScheme hspv:FORM-E .
+
+hspv:5b9a76bc-7db5-4753-83a3-de92af2b4350 a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-gjdu/ZBS_S_I_853_A_7b.jpg/pct:1.96759,10.83499,96.57738,32.15706/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-gjdu/manifest.json>;
+  schema:caption "Solothurn, Zentralbibliothek Solothurn, ZBS S I 853 A 7" .
+
+hspv:FORM-E429 a skos:Concept;
+  skos:notation "FORM-E429";
+  skos:prefLabel "Querstreifen eines Doppelblatts erhalten"@de, "horizontal strip of a bifolium preserved"@en;
+  skos:broader hspv:FORM-E992;
+  skos:example hspv:848b4234-6d23-4b01-bc19-ede2d801b999;
+  skos:inScheme hspv:FORM-E .
+
+hspv:848b4234-6d23-4b01-bc19-ede2d801b999 a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-gjdu/ZBS_S_I_853_A_7b.jpg/pct:1.96759,10.83499,96.57738,32.15706/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-gjdu/manifest.json>;
+  schema:caption "Solothurn, Zentralbibliothek Solothurn, ZBS S I 853 A 7" .
+
+hspv:FORM-E137 a skos:Concept;
+  skos:notation "FORM-E137";
+  skos:prefLabel "Längsstreifen eines Doppelblatts erhalten"@de, "vertical strip of a bifolium preserved"@en;
+  skos:broader hspv:FORM-E992;
+  skos:definition "Längsstreifen, bei dem ersichtlich ist, dass er von einem Doppelblatt stammt (d.h., der Falz und Teile des Schriftraums auf beiden Blatthälften sind sichtbar)"@de;
+  skos:inScheme hspv:FORM-E .
+
+hspv:FORM-E772 a skos:Concept;
+  skos:notation "FORM-E772";
+  skos:prefLabel "Sonstige Bestandteile erhalten"@de, "other parts preserved"@en;
+  skos:broader hspv:FORM-E350;
+  skos:inScheme hspv:FORM-E .
+
+hspv:FORM-E159 a skos:Concept;
+  skos:notation "FORM-E159";
+  skos:prefLabel "fragmentarische Bestandteile nicht beschnitten"@de, "fragmentary parts not trimmed"@en;
+  skos:broader hspv:FORM-E350;
+  skos:example hspv:1f5de7f7-741b-4676-b67f-afb17da6a89b;
+  skos:inScheme hspv:FORM-E .
+
+hspv:1f5de7f7-741b-4676-b67f-afb17da6a89b a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-hkta/StBTrier_Fragmentenbox_12a34_02_.jp2/pct:1.50163,0.50246,98.18136,89.6534/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-hkta/manifest.json>;
+  schema:caption "Trier, Stadtbibliothek Weberbach Trier, Fragmentenbox 12a, Fragment 24-47, no. 34a" .
+
+hspv:FORM-E947 a skos:Concept;
+  skos:notation "FORM-E947";
+  skos:prefLabel "fragmentarische Bestandteile beschnitten"@de, "fragmentary parts trimmed"@en;
+  skos:broader hspv:FORM-E350;
+  skos:example hspv:c8019c5a-7c56-4d48-968f-7748b2593377;
+  skos:narrower hspv:FORM-E547, hspv:FORM-E161;
+  skos:inScheme hspv:FORM-E .
+
+hspv:c8019c5a-7c56-4d48-968f-7748b2593377 a schema:ImageObject;
+  schema:contentUrl <https://www.e-codices.unifr.ch/loris/ubb/ubb-N-I-0003-49b/ubb-N-I-0003-49b_0001r.jp2/pct:1.32097,0.59658,98.2387,98.80684/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-vtwk/manifest.json>;
+  schema:caption "Basel, Universitätsbibliothek, N I 3:49b" .
+
+hspv:FORM-E547 a skos:Concept;
+  skos:notation "FORM-E547";
+  skos:prefLabel "Schriftraum erhalten"@de, "written area preserved"@en;
+  skos:broader hspv:FORM-E947;
+  skos:example hspv:65da3a18-2f1b-4fdc-973a-f83b0fc0844e;
+  skos:inScheme hspv:FORM-E .
+
+hspv:65da3a18-2f1b-4fdc-973a-f83b0fc0844e a schema:ImageObject;
+  schema:contentUrl <https://www.e-codices.unifr.ch/loris/ubb/ubb-N-I-0003-49b/ubb-N-I-0003-49b_0001r.jp2/pct:1.32097,0.59658,98.2387,98.80684/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-vtwk/manifest.json>;
+  schema:caption "Basel, Universitätsbibliothek, N I 3:49b" .
+
+hspv:FORM-E161 a skos:Concept;
+  skos:notation "FORM-E161";
+  skos:prefLabel "Schriftraum fragmentiert"@de, "written area fragmented"@en;
+  skos:broader hspv:FORM-E947;
+  skos:example hspv:38ba6c22-b3e5-4dc4-bb68-7664aad8b142;
+  skos:inScheme hspv:FORM-E .
+
+hspv:38ba6c22-b3e5-4dc4-bb68-7664aad8b142 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0297/0000029700/00000002.jpx/pct:2.28789,1.06425,96.12329,97.08317/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000029700/manifest.json>;
+  schema:caption "Leipzig, UB, Fragm. lat. 557 (olim: Scr.eccl.327, Spiegel)" .
+
+hspv:FORM-E389 a skos:Concept;
+  skos:notation "FORM-E389";
+  skos:prefLabel "nur indirekt erhalten"@de, "indirectly preserved"@en;
+  skos:definition "Das Material ist nur indirekt, z.B. durch Reproduktionen oder Spuren auf anderen Materialien, erhalten, die physische Handschrift selbst ist jedoch nicht erhalten"@de;
+  skos:narrower hspv:FORM-E505, hspv:FORM-E248;
+  skos:inScheme hspv:FORM-E;
+  skos:topConceptOf hspv:FORM-E .
+
+hspv:FORM-E505 a skos:Concept;
+  skos:notation "FORM-E505";
+  skos:prefLabel "in Reproduktionen erhalten"@de, "preserved in reproductions"@en;
+  skos:broader hspv:FORM-E389;
+  skos:definition "Das Material ist nur in Reproduktionen (z.B. Photographien, Mikrofilmen u.ä.) erhalten"@de;
+  skos:inScheme hspv:FORM-E .
+
+hspv:FORM-E248 a skos:Concept;
+  skos:notation "FORM-E248";
+  skos:prefLabel "in Spuren erhalten"@de, "preserved in traces"@en;
+  skos:broader hspv:FORM-E389;
+  skos:definition "Das Material ist nur in physischen Spuren auf anderen Materialien erhalten"@de;
+  skos:narrower hspv:FORM-E156;
+  skos:inScheme hspv:FORM-E .
+
+hspv:FORM-E156 a skos:Concept;
+  skos:notation "FORM-E156";
+  skos:prefLabel "Abklatsch"@de, "offset"@en;
+  skos:broader hspv:FORM-E248;
+  skos:definition "Die Schrift oder andere Bestandteile des Materials sind als Abklatsch auf einem Trägermaterial erhalten, der eigentliche Schriftträger ist jedoch nicht erhalten"@de;
+  skos:example hspv:cb695cdb-0d5e-4873-8f4c-bf760a0d7b20;
+  skos:inScheme hspv:FORM-E .
+
+hspv:cb695cdb-0d5e-4873-8f4c-bf760a0d7b20 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0289/0000028949/00000001.jpx/pct:49.63942,0.46881,49.375,98.9542/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000028949/manifest.json>;
+  schema:caption "Leipzig, UB, Ed.vet.1478,20, Vorderspiegel" .
+
+hspv:FORM-F a skos:ConceptScheme;
+  skos:prefLabel "Fragmentierungsart und sekundärer Verwendungskontext"@de, "Fragmentation and reuse context"@en;
+  skos:definition "Thesaurus: Fragmentierungsart und sekundärer Verwendungskontext (FORM-F)"@de,
+    "Thesaurus: Fragmentation and reuse context (FORM-F)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-F215, hspv:FORM-F796, hspv:FORM-F980, hspv:FORM-F454,
+    hspv:FORM-F942, hspv:FORM-F282, hspv:FORM-F417 .
+
+hspv:FORM-F215 a skos:Concept;
+  skos:notation "FORM-F215";
+  skos:prefLabel "zufällige Fragmentierung"@de, "accidental fragmentation"@en;
+  skos:altLabel "Fragmentierung ex calamitate"@de, "fragmentation ex calamitate"@en;
+  skos:definition "Die Fragmentierung entstand zufällig, z.B. durch Zerstörungen im Kontext von Kriegen, durch schlechte Lagerungsbedingungen u.ä."@de;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:FORM-F796 a skos:Concept;
+  skos:notation "FORM-F796";
+  skos:prefLabel "aktiv herbeigeführte Fragmentierung"@de, "intended fragmentation"@en;
+  skos:definition "Die Fragmentierung wurde bewusst und aktiv herbeigeführt, z.B. um das Material in anderen Kontexten wiederzuverwerten"@de;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:FORM-F980 a skos:Concept;
+  skos:notation "FORM-F980";
+  skos:prefLabel "Fragmentierungsart nicht sicher zu entscheiden"@de, "unknown fragmentation cause"@en;
+  skos:definition "Es ist unklar, ob die Fragmentierung zufällig geschehen oder aktiv herbeigeführt wurde"@de;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:FORM-F454 a skos:Concept;
+  skos:notation "FORM-F454";
+  skos:prefLabel "sekundäre Verwendung in (ursprünglichen) Einzelteilen"@de, "reuse in original single parts"@en;
+  skos:definition "Das fragmentierte Material wird in seinen ursprünglichen Einzelteilen in einem sekundären Kontext wiederverwendet, z.B. ausgeschnittener Buchschmuck als gerahmte Bilder"@de;
+  skos:example hspv:a3793812-c8a7-4569-82c3-b174c1f381b8;
+  skos:narrower hspv:FORM-F852, hspv:FORM-F739, hspv:FORM-F888, hspv:FORM-F164;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:a3793812-c8a7-4569-82c3-b174c1f381b8 a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-b7tf/CL122_0001.jp2/pct:1.53276,1.26761,97.77503,94.33803/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-b7tf/manifest.json>;
+  schema:caption "Basel, UB, Comites Latentes (Depositum des Historischen Museums Basel), CL 122" .
+
+hspv:FORM-F852 a skos:Concept;
+  skos:notation "FORM-F852";
+  skos:prefLabel "ausgelöstes Doppelblatt"@de, "detached bifolium"@en;
+  skos:broader hspv:FORM-F454;
+  skos:definition "Ein oder mehrere ausgelöste Doppelblätter werden als Einzelteile in einem sekundären Kontext wiederverwendet"@de;
+  skos:example hspv:54033ea0-4bbe-49dd-bec4-f16df5ca6036;
+  skos:inScheme hspv:FORM-F .
+
+hspv:54033ea0-4bbe-49dd-bec4-f16df5ca6036 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1466535/pct:0.49116,3.31504,96.85658,94.03292/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1465494/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 76, Bl. IIIr" .
+
+hspv:FORM-F739 a skos:Concept;
+  skos:notation "FORM-F739";
+  skos:prefLabel "ausgelöstes Einzelblatt"@de, "detached leaf"@en;
+  skos:broader hspv:FORM-F454;
+  skos:definition "Ein oder mehrere ausgelöste Einzelblätter werden als Einzelteile in einem sekundären Kontext wiederverwendet"@de;
+  skos:example hspv:92930b30-2791-49ce-887f-f89a4c99938a;
+  skos:inScheme hspv:FORM-F .
+
+hspv:92930b30-2791-49ce-887f-f89a4c99938a a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1185334/pct:0.205,0.79811,99.42599,98.87674/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1185316/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen A III 23, Bl. 1v" .
+
+hspv:FORM-F888 a skos:Concept;
+  skos:notation "FORM-F888";
+  skos:prefLabel "ausgeschnittener Buchschmuck"@de, "cut-out book decoration"@en;
+  skos:altLabel "Cutting"@de, "cutting"@en;
+  skos:broader hspv:FORM-F454;
+  skos:definition "Ein oder mehrere ausgeschnittene Buchschmuck-Elemente werden als Einzelteile in einem sekundären Kontext wiederverwendet"@de;
+  skos:example hspv:89371db1-62da-4d22-a028-d8823e1496df;
+  skos:inScheme hspv:FORM-F .
+
+hspv:89371db1-62da-4d22-a028-d8823e1496df a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-b7tf/CL122_0001.jp2/pct:1.53276,1.26761,97.77503,94.33803/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-b7tf/manifest.json>;
+  schema:caption "Basel, UB, Comites Latentes (Depositum des Historischen Museums Basel), CL 122" .
+
+hspv:FORM-F164 a skos:Concept;
+  skos:notation "FORM-F164";
+  skos:prefLabel "Sonstige fragmentierte Einzelteile"@de, "other fragmented single parts"@en;
+  skos:broader hspv:FORM-F454;
+  skos:definition "Andere fragmentierte Einzelteile werden in einem sekundären Kontext wiederverwendet"@de;
+  skos:inScheme hspv:FORM-F .
+
+hspv:FORM-F942 a skos:Concept;
+  skos:notation "FORM-F942";
+  skos:prefLabel "sekundäre Verwendung als Werkstoff (Recycling)"@de, "reuse as material (recycling)"@en;
+  skos:definition "Das fragmentierte Material wird als Werkstoff in einem sekundären Kontext wiederverwendet"@de;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:FORM-F282 a skos:Concept;
+  skos:notation "FORM-F282";
+  skos:prefLabel "sekundäre Verwendung außerhalb eines Buches"@de, "reuse outside a book"@en;
+  skos:definition "Das fragmentierte Material wird außerhalb eines Buches als Werkstoff wiederverwendet, z.B. als Verstärkungs- oder Überklebungsmaterial bei Textilien, Möbeln u.ä."@de;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:FORM-F417 a skos:Concept;
+  skos:notation "FORM-F417";
+  skos:prefLabel "sekundäre Verwendung innerhalb eines Buches"@de, "reuse inside a book"@en;
+  skos:altLabel "sekundäre Verwendung in einem Trägerband"@de, "reuse in a host volume"@en;
+  skos:definition "Das fragmentierte Material wird innerhalb eines Buches als Werkstoff wiederverwendet, z.B. als Einbandmakulatur, als Lesezeichen o.ä."@de;
+  skos:example hspv:6bb4d6b9-1891-4980-8b7d-d194ea8e0bc2;
+  skos:narrower hspv:FORM-F631, hspv:FORM-F354, hspv:FORM-F695, hspv:FORM-F104, hspv:FORM-F996;
+  skos:inScheme hspv:FORM-F;
+  skos:topConceptOf hspv:FORM-F .
+
+hspv:6bb4d6b9-1891-4980-8b7d-d194ea8e0bc2 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0321/0000032150/00000004.jpx/pct:3.85417,6.97917,94.14063,86.84028/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000032150%2Fmanifest.json&page=4>;
+  schema:caption "Leipzig, UB, Ms 822, Vorderspiegel" .
+
+hspv:FORM-F631 a skos:Concept;
+  skos:notation "FORM-F631";
+  skos:prefLabel "in situ"@de, "in situ"@en;
+  skos:altLabel "im Trägerband"@de, "noch im sekundären Verwendungskontext"@de, "still in the host volume"@en;
+  skos:broader hspv:FORM-F417;
+  skos:definition "Das in einem Buch als Werkstoff wiederverwendete fragmentierte Material befindet sich noch im sekundären Verwendungskontext, d.h. im Trägerband"@de;
+  skos:example hspv:1e4ac3b2-9e5f-4041-85b5-d5c9283ea8c3;
+  skos:inScheme hspv:FORM-F .
+
+hspv:1e4ac3b2-9e5f-4041-85b5-d5c9283ea8c3 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0321/0000032150/00000004.jpx/pct:3.85417,6.97917,94.14063,86.84028/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000032150%2Fmanifest.json&page=4>;
+  schema:caption "Leipzig, UB, Ms 822, Vorderspiegel" .
+
+hspv:FORM-F354 a skos:Concept;
+  skos:notation "FORM-F354";
+  skos:prefLabel "aus dem sekundären Verwendungskontext ausgelöst"@de, "detached from the host volume"@en;
+  skos:broader hspv:FORM-F417;
+  skos:definition "Das in einem Buch als Werkstoff wiederverwendete fragmentierte Material wurde aus dem sekundären Verwendungskontext, d.h. dem Trägerband, ausgelöst"@de;
+  skos:example hspv:c6c1492f-5690-4cb7-82bc-589cb13ff1e2;
+  skos:narrower hspv:FORM-F431, hspv:FORM-F394;
+  skos:inScheme hspv:FORM-F .
+
+hspv:c6c1492f-5690-4cb7-82bc-589cb13ff1e2 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034706_00001/pct:0.11249,0.39894,99.82002,99.20213/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034706/manifest>;
+  schema:caption "München, BSB, Clm 29319/29, Bl. 1r" .
+
+hspv:FORM-F431 a skos:Concept;
+  skos:notation "FORM-F431";
+  skos:prefLabel "ehemaliger Trägerband bekannt"@de, "former host volume known"@en;
+  skos:broader hspv:FORM-F354;
+  skos:definition "Der ehemalige Trägerband des ausgelösten Fragmentmaterials ist bekannt"@de;
+  skos:inScheme hspv:FORM-F .
+
+hspv:FORM-F394 a skos:Concept;
+  skos:notation "FORM-F394";
+  skos:prefLabel "ehemaliger Trägerband nicht bekannt"@de, "former host volume unknown"@en;
+  skos:broader hspv:FORM-F354;
+  skos:definition "Der ehemalige Trägerband des ausgelösten Fragmentmaterials ist unbekannt"@de;
+  skos:inScheme hspv:FORM-F .
+
+hspv:FORM-F695 a skos:Concept;
+  skos:notation "FORM-F695";
+  skos:prefLabel "sekundäre Verwendung als Beschreibstoff"@de, "reuse as support material"@en;
+  skos:altLabel "Palimpsest"@de, "palimpsest"@en;
+  skos:broader hspv:FORM-F417;
+  skos:definition "Das fragmentierte Material wurde als Beschreibstoff wiederverwendet. Wenn das fragmentierte Material bereits Schrift enthielt, die für die Wiederbeschriftung getilgt wurde, spricht man von Palimpsest."@de;
+  skos:example hspv:c82ff45e-c6e4-485e-bb54-863470feb315;
+  skos:inScheme hspv:FORM-F .
+
+hspv:c82ff45e-c6e4-485e-bb54-863470feb315 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00133921_00004/pct:4.31991,2.58727,94.30823,95.85216/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00133921/manifest>;
+  schema:caption "München, BSB, Clm 29416/1" .
+
+hspv:FORM-F104 a skos:Concept;
+  skos:notation "FORM-F104";
+  skos:prefLabel "sekundäre Verwendung als Bindungsmaterial"@de, "reuse as binding material"@en;
+  skos:altLabel "Einbandmakulatur"@de, "binding maculature"@en;
+  skos:broader hspv:FORM-F417;
+  skos:definition "Das fragmentierte Material wurde als Bindungsmaterial (Einbandmakulatur) wiederverwendet."@de;
+  skos:example hspv:8e4dc544-d417-417a-8fca-c1aa41d7b037;
+  skos:narrower hspv:FORM-F556, hspv:FORM-F189, hspv:FORM-F183, hspv:FORM-F682, hspv:FORM-F690,
+    hspv:FORM-F224;
+  skos:inScheme hspv:FORM-F .
+
+hspv:8e4dc544-d417-417a-8fca-c1aa41d7b037 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0321/0000032150/00000004.jpx/pct:3.85417,6.97917,94.14063,86.84028/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000032150%2Fmanifest.json&page=4>;
+  schema:caption "Leipzig, UB, Ms 822, Vorderspiegel" .
+
+hspv:FORM-F556 a skos:Concept;
+  skos:notation "FORM-F556";
+  skos:prefLabel "sekundäre Verwendung als Falzstreifen"@de, "reuse as guard"@en;
+  skos:broader hspv:FORM-F104;
+  skos:definition "Das fragmentierte Material wurde als Falzstreifen wiederverwendet."@de;
+  skos:example hspv:2564ca3e-53a8-4cbe-9179-3db2399e4a62;
+  skos:narrower hspv:FORM-F463, hspv:FORM-F429, hspv:FORM-F399;
+  skos:inScheme hspv:FORM-F .
+
+hspv:2564ca3e-53a8-4cbe-9179-3db2399e4a62 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034706_00001/pct:0.11249,0.39894,99.82002,99.20213/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00034706/manifest>;
+  schema:caption "München, BSB, Clm 29319/29, Bl. 1r" .
+
+hspv:FORM-F463 a skos:Concept;
+  skos:notation "FORM-F463";
+  skos:prefLabel "sekundäre Verwendung als Ansetzfalz"@de, "reuse as endleaf guard"@en;
+  skos:altLabel "sekundäre Verwendung als Ansatzfalz"@de;
+  skos:broader hspv:FORM-F556;
+  skos:definition "Das fragmentierte Material wurde als Ansetzfalz wiederverwendet. Ansetzfälze sind Streifen mit einer durchschnittlichen Breite von 5 bis 10 Zentimeter, die eine Verbindung zwischen den Buchdeckeln und dem Buchblock in einem Holzdeckeleinband bilden, wobei eine Hälfte auf den Innendeckel aufgeklebt ist, während die andere Hälfte freisteht. Wie auch die Spiegel dienen Ansetzfälze der Fixierung der Bünde. Wegen der großen Kraft, die auf die Ansetzfälze wirkt, wurde ausschließlich auf ehemalige Pergamenthandschriften zurückgegriffen."@de;
+  skos:example hspv:50714131-67a7-412c-adf4-ab5334e35b98;
+  skos:inScheme hspv:FORM-F .
+
+hspv:50714131-67a7-412c-adf4-ab5334e35b98 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0041/0000004121/00000002.jpx/pct:78.87286,5.28846,20.32585,91.34615/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004121/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1344, Vorderspiegel" .
+
+hspv:FORM-F429 a skos:Concept;
+  skos:notation "FORM-F429";
+  skos:prefLabel "sekundäre Verwendung als Flügelfalz"@de, "reuse as text guard"@en;
+  skos:broader hspv:FORM-F556;
+  skos:definition "Das fragmentierte Material wurde als Flügelfalz wiederverwendet. Flügelfälze befinden sich vorn und hinten zwischen den Buchdeckeln und dem Buchblock, gehen jedoch keine Verbindung zum Buchdeckel ein, sondern sind um die erste und/oder letzte Lage herumgelegt und mitgeheftet. Ihre Funktion besteht somit vor allem in einer Fixierung der äußeren Lagen im Lagenverbund und in der Stabilisierung des Buchblocks. In einer besonderen Form können Flügelfälze auch über den Rücken des Buchblocks laufen."@de;
+  skos:example hspv:83012b67-4446-48a7-bfb3-8d5a71d04cea;
+  skos:inScheme hspv:FORM-F .
+
+hspv:83012b67-4446-48a7-bfb3-8d5a71d04cea a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0032/0000003225/00000005.jpx/pct:0.45406,3.75712,43.32265,92.94872/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000003225/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1434, IIr" .
+
+hspv:FORM-F399 a skos:Concept;
+  skos:notation "FORM-F399";
+  skos:prefLabel "sekundäre Verwendung als Falzverstärkung in den Lagenmitten"@de, "reuse as sewing guard"@en;
+  skos:broader hspv:FORM-F556;
+  skos:definition "Das fragmentierte Material wurde als Falzstreifen zur Verstärkung der Lagenmitten wiederverwendet"@de;
+  skos:example hspv:fa53a138-2b4f-4555-a294-60129b4effbc;
+  skos:inScheme hspv:FORM-F .
+
+hspv:fa53a138-2b4f-4555-a294-60129b4effbc a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1178607/pct:0.96294,0.31546,38.48847,97.52141/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1178225/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen A III 35, Bl. 5r" .
+
+hspv:FORM-F189 a skos:Concept;
+  skos:notation "FORM-F189";
+  skos:prefLabel "sekundäre Verwendung als Rückenhinterklebung"@de, "reuse as spine lining"@en;
+  skos:broader hspv:FORM-F104;
+  skos:definition "Das fragmentierte Material wurde als Hinterklebung zum Schutz des Buchrückens wiederverwendet"@de;
+  skos:example hspv:e27a6ecf-c42a-4c48-8e6d-4178058daf37;
+  skos:inScheme hspv:FORM-F .
+
+hspv:e27a6ecf-c42a-4c48-8e6d-4178058daf37 a schema:ImageObject;
+  schema:contentUrl <https://fragmentarium.ms:443/loris/F-ykvf/mds_51Aa04_dorso_phy.jp2/pct:3.50042,1.41913,48.19378,87.24728/pct:100/0/default.jpg>;
+  schema:identifier <https://fragmentarium.ms/metadata/iiif/F-ykvf/manifest.json>;
+  schema:caption "Orselina-Locarno, Biblioteca Madonna del Sasso, MdS 51 Aa 4/F1-4" .
+
+hspv:FORM-F183 a skos:Concept;
+  skos:notation "FORM-F183";
+  skos:prefLabel "sekundäre Verwendung als Vorsatz"@de, "reuse as endleaves"@en;
+  skos:broader hspv:FORM-F104;
+  skos:definition "Das fragmentierte Material wurde als Vorsatzmaterial wiederverwendet"@de;
+  skos:example hspv:47d25045-8be9-4a1d-8953-5ee3e39a0c1a;
+  skos:narrower hspv:FORM-F268, hspv:FORM-F343;
+  skos:inScheme hspv:FORM-F .
+
+hspv:47d25045-8be9-4a1d-8953-5ee3e39a0c1a a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0040/0000004063/00000002.jpx/pct:5.1015,8.33333,93.40278,84.27707/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004063/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1411, Vorderspiegel" .
+
+hspv:FORM-F268 a skos:Concept;
+  skos:notation "FORM-F268";
+  skos:prefLabel "sekundäre Verwendung als Spiegel"@de, "reuse as pastedown"@en;
+  skos:broader hspv:FORM-F183;
+  skos:definition "Das fragmentierte Material wurde als Spiegelbeklebung wiederverwendet"@de;
+  skos:example hspv:92a304f4-69bc-460b-8712-d8414f0f3c63;
+  skos:inScheme hspv:FORM-F .
+
+hspv:92a304f4-69bc-460b-8712-d8414f0f3c63 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0040/0000004063/00000002.jpx/pct:5.1015,8.33333,93.40278,84.27707/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004063/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1411, Vorderspiegel" .
+
+hspv:FORM-F343 a skos:Concept;
+  skos:notation "FORM-F343";
+  skos:prefLabel "sekundäre Verwendung als fliegendes Blatt"@de, "reuse as flyleaf"@en;
+  skos:broader hspv:FORM-F183;
+  skos:definition "Das fragmentierte Matieral wurde als fliegendes Blatt wiederverwendet"@de;
+  skos:example hspv:3a67f0c4-59f1-43ce-a5a0-a34f872613c5;
+  skos:inScheme hspv:FORM-F .
+
+hspv:3a67f0c4-59f1-43ce-a5a0-a34f872613c5 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0321/0000032151/00000003.jpx/pct:0.44271,5.71181,98.98438,86.71875/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000032151/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1176, Bl. 1r" .
+
+hspv:FORM-F682 a skos:Concept;
+  skos:notation "FORM-F682";
+  skos:prefLabel "sekundäre Verwendung als Einbandbezug"@de, "reuse as cover"@en;
+  skos:altLabel "sekundäre Verwendung als Umschlag"@de;
+  skos:broader hspv:FORM-F104;
+  skos:definition "Das fragmentierte Material wurde als Bezugsmaterial für einen Einband wiederverwendet"@de;
+  skos:example hspv:4f7df12e-1033-4420-9fbd-6f5b6b189cb8;
+  skos:inScheme hspv:FORM-F .
+
+hspv:4f7df12e-1033-4420-9fbd-6f5b6b189cb8 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/266536/pct:1.23731,1.60104,98.1599,97.66335/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/303286/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Donaueschingen 69, Vorderdeckel" .
+
+hspv:FORM-F690 a skos:Concept;
+  skos:notation "FORM-F690";
+  skos:prefLabel "sekundäre Verwendung als Deckelkern"@de, "reuse as board material"@en;
+  skos:broader hspv:FORM-F104;
+  skos:altLabel "reuse as wrapper"@en;
+  skos:definition "Das fragmentierte Material wurde als Deckelkern-Material (z.B. als Klebepappe) oder als Umschlagmaterial eines flexiblen Einbands ohne Bezug wiederverwendet"@de;
+  skos:example hspv:d2410288-d345-4a25-82a6-6d329f0eb609;
+  skos:inScheme hspv:FORM-F .
+
+hspv:d2410288-d345-4a25-82a6-6d329f0eb609 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0321/0000032150/00000004.jpx/pct:3.85417,6.97917,94.14063,86.84028/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000032150%2Fmanifest.json&page=4>;
+  schema:caption "Leipzig, UB, Ms 822, Vorderspiegel" .
+
+hspv:FORM-F224 a skos:Concept;
+  skos:notation "FORM-F224";
+  skos:prefLabel "sekundäre Verwendung als sonstiges Bindungsmaterial"@de, "reuse as other binding material"@en;
+  skos:broader hspv:FORM-F104;
+  skos:definition "Das fragmentierte Material wurde in einer anderen Funktion als Bindungsmaterial wiederverwendet"@de;
+  skos:inScheme hspv:FORM-F .
+
+hspv:FORM-F996 a skos:Concept;
+  skos:notation "FORM-F996";
+  skos:prefLabel "sekundäre Verwendung als Nutzungszeugnis"@de, "reuse as reception testimony"@en;
+  skos:broader hspv:FORM-F417;
+  skos:definition "Das fragmentierte Material wurde als Nutzungszeugnis wiederverwendet"@de;
+  skos:narrower hspv:FORM-F163, hspv:FORM-F188, hspv:FORM-F744;
+  skos:inScheme hspv:FORM-F .
+
+hspv:FORM-F163 a skos:Concept;
+  skos:notation "FORM-F163";
+  skos:prefLabel "sekundäre Verwendung als Blattweiser"@de, "reuse as leaf marker"@en;
+  skos:broader hspv:FORM-F996;
+  skos:definition "Das fragmentierte Material wurde als Blattweiser wiederverwendet"@de;
+  skos:example hspv:5c0c6ec5-f569-484e-8cb7-10e48dfbada9;
+  skos:inScheme hspv:FORM-F .
+
+hspv:5c0c6ec5-f569-484e-8cb7-10e48dfbada9 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0046/0000004633/00000175.jpx/pct:45.94017,7.47863,49.91987,21.18946/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004633/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1214, Bl. 85r" .
+
+hspv:FORM-F188 a skos:Concept;
+  skos:notation "FORM-F188";
+  skos:prefLabel "sekundäre Verwendung als Kettenlochüberklebung"@de, "reuse as chainhole pasting"@en;
+  skos:broader hspv:FORM-F996;
+  skos:definition "Das fragmentierte Material wurde zur Überklebung eines Kettenlochs verwendet"@de;
+  skos:example hspv:678fab68-c2c5-4544-8af3-c994d7fe657a;
+  skos:inScheme hspv:FORM-F .
+
+hspv:678fab68-c2c5-4544-8af3-c994d7fe657a a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0341/0000034138/00000285.jpx/pct:3.54167,1.51042,95.15625,25.53819/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000034138/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1197, Hinterspiegel" .
+
+hspv:FORM-F744 a skos:Concept;
+  skos:notation "FORM-F744";
+  skos:prefLabel "sekundäre Verwendung als Lesezeichen"@de, "reuse as bookmark"@en;
+  skos:broader hspv:FORM-F996;
+  skos:definition "Das fragmentierte Material wurde als Lesezeichen wiederverwendet"@de;
+  skos:example hspv:8e701ff9-0e9b-43cc-ad79-39c221612a6f;
+  skos:inScheme hspv:FORM-F .
+
+hspv:8e701ff9-0e9b-43cc-ad79-39c221612a6f a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0041/0000004107/00000655.jpx/pct:17.41453,46.90171,29.24679,16.38177/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004107/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1408, Fragment zwischen Bl. 168/169." .
+
+hspv:FORM-C a skos:ConceptScheme;
+  skos:prefLabel "Ein-/Mehrteiligkeit"@de, "Number of parts"@en;
+  skos:definition "Thesaurus: Ein-/Mehrteiligkeit (FORM-C)"@de, "Thesaurus: Number of parts (FORM-C)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-C187, hspv:FORM-C102, hspv:FORM-C688 .
+
+hspv:FORM-C187 a skos:Concept;
+  skos:notation "FORM-C187";
+  skos:prefLabel "einteiliges Material"@de, "material consisting of one part"@en;
+  skos:definition "Material, das nur aus einem Teil besteht bzw. aus einem einzigen Entstehungszusammenhang stammt"@de;
+  skos:inScheme hspv:FORM-C;
+  skos:topConceptOf hspv:FORM-C .
+
+hspv:FORM-C102 a skos:Concept;
+  skos:notation "FORM-C102";
+  skos:prefLabel "mehrteiliges Material"@de, "material consisting of several parts"@en;
+  skos:definition "Material, das Teile aus unterschiedlichen Entstehungszusammenhängen vereint (z.B. ein Codex mit mehreren Faszikeln)."@de;
+  skos:inScheme hspv:FORM-C;
+  skos:topConceptOf hspv:FORM-C .
+
+hspv:FORM-C688 a skos:Concept;
+  skos:notation "FORM-C688";
+  skos:prefLabel "mehrbändiges Material"@de, "material consisting of several volumes"@en;
+  skos:definition "Material, das aus mehreren Bänden besteht"@de;
+  skos:inScheme hspv:FORM-C;
+  skos:topConceptOf hspv:FORM-C .
+
+hspv:FORM-D a skos:ConceptScheme;
+  skos:prefLabel "Gebrauchskontext"@de, "Transmission context"@en;
+  skos:definition "Thesaurus: Gebrauchskontext (FORM-D)"@de, "Thesaurus: Transmission context (FORM-D)"@en;
+  skos:inScheme hspv:FORM;
+  skos:hasTopConcept hspv:FORM-D888, hspv:FORM-D412, hspv:FORM-D359 .
+
+hspv:FORM-D888 a skos:Concept;
+  skos:notation "FORM-D888";
+  skos:prefLabel "Verwaltungsschriftgut"@de, "administrative documents"@en;
+  skos:definition "Schriftgut für Verwaltungszwecke (z.B. Urkunden, Rechnungsbücher etc.)"@de;
+  skos:inScheme hspv:FORM-D;
+  skos:topConceptOf hspv:FORM-D .
+
+hspv:FORM-D412 a skos:Concept;
+  skos:notation "FORM-D412";
+  skos:prefLabel "(Literarische) Textüberlieferung"@de, "(literary) text transmission"@en;
+  skos:definition "Textüberlieferung, die nicht Verwaltungszwecken dient und daher im weitesten Sinne literarisch ist (dies umfasst sowohl wissenschaftliche und religiöse als auch im engeren Sinne literarische Überlieferung)"@de;
+  skos:inScheme hspv:FORM-D;
+  skos:topConceptOf hspv:FORM-D .
+
+hspv:FORM-D359 a skos:Concept;
+  skos:notation "FORM-D359";
+  skos:prefLabel "Privatkorrespondenz"@de, "correspondence"@en;
+  skos:altLabel "Originalkorrespondenz"@de;
+  skos:definition "Originalbriefe (im Gegensatz zu Briefabschriften/Briefsammlungen)"@de;
+  skos:inScheme hspv:FORM-D;
+  skos:topConceptOf hspv:FORM-D .

@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Meissen_Stadtarchiv/03_Meissen_Stadtarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>H 1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056629/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-581559"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056629/00000003.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>H 2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056558/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585149"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0565/0000056558/00000007.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>H 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056616/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585360"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056616/00000007.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>H 4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056598/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585158"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0565/0000056598/00000003.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>H 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056644/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586126"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056644/00000005.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>H 6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056703/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586283"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056703/00000007.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056609/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585670"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056609/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056599/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585791"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0565/0000056599/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056804/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587599"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0568/0000056804/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056600/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585804"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056600/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056617/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585819"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056617/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056614/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585824"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056614/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056613/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585837"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056613/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056618/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585840"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056618/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056615/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585862"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056615/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056659/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-585871"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056659/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 11</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056657/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586555"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056657/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 12</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056658/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586569"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056658/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056660/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586641"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0566/0000056660/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 14</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056749/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587210"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056749/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 15</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056750/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587225"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056750/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 16</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056712/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586868"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056712/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 17</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056709/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586876"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056709/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056710/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586883"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056710/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 19</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056713/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586898"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056713/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 20</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056714/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586903"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056714/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 21</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056715/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586921"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056715/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056716/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-586935"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056716/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 23</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056751/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587232"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056751/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 24</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056740/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587183"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056740/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056741/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587193"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056741/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 27</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056792/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587575"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056792/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 28</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056793/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587583"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056793/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4038474-3">Meißen</settlement>
+                  <repository key="16327698-5">Stadtarchiv (Meißen)</repository>
+                  <idno>Urk. 1194, Fragment 26</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056746/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-587206"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0567/0000056746/00000001.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

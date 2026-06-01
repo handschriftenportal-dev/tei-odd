@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Greifswald_UB/01_Greifswald_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_4--Inc-8">4° Inc 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Fg 688a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-23">BW 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. fol. 25-26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>2° Eld 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Fg 501</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-210-211">BW 210-211</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-321">BW 321</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 57</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Fg 459</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>2° Fg 495</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-330">BW 330</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. fol. 27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Jas 56</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Fg 387</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-412">BW 412</idno>
+                  <altIdentifier type="alternative">
+                     <idno>2° Eld 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Fg 649</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-444">BW 444</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 63</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ip 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-640">BW 640</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Eb 133</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 66-69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-641">BW 641</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Eb 133</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 66-69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_BW-908">BW 908</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. oct. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Fe 109 8° (an Ft 1 8°)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-23">Ms 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. pomeran. fol. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>II,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-24">Ms 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. pomeran. fol. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Bibliotheca Schwartzii No. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-189">Ms 189</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. pomeran. fol. 253</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>II,61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-541">Ms 541</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. pomeran. oct. 3II,35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-638">Ms 638</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-639">Ms 639</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. batav. qu. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,307</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-641">Ms 641</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. batav. qu. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-668">Ms 668</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-669">Ms 669</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-677">Ms 677</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,155</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-678">Ms 678</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,156a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-679">Ms 679</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,295</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-680">Ms 680</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-681">Ms 681</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-682">Ms 682</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-683">Ms 683</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. fol. 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-687">Ms 687</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-742">Ms 742</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-743">Ms 743</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-750">Ms 750</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-760">Ms 760</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. oct. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,283</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-766">Ms 766</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. fol. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-767">Ms 767</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. fol. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,301</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-868">Ms 868</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. qu. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-874">Ms 874</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-875">Ms 875</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. qu. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,309</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-939">Ms 939</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. oct. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-951">Ms 951</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. oct. 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-969">Ms 969</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. fol. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-977">Ms 977</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. fol. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-990-2-3">Ms 990-2.3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. fol. 22-2.3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>II,166</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-994-1">Ms 994-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. fol. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-999">Ms 999</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1004">Ms 1004</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1007">Ms 1007</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1030">Ms 1030</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1032">Ms 1032</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1033">Ms 1033</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1034">Ms 1034</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 39</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. lat. qu. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1050">Ms 1050</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 55</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1053">Ms 1053</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. qu. 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1066">Ms 1066</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. oct. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1068">Ms 1068</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. oct. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,311</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1076">Ms 1076</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. suec. fol. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>III,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1077">Ms 1077</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. suec. fol. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>III,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1084">Ms 1084</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. suec. fol. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1162">Ms 1162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. suec. qu. 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>III,119</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-1163">Ms 1163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. suec. qu. 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>I,38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-lat-fol-19">Ms. lat. fol. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-lat-fol-20">Ms. lat. fol. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_Ms-lat-oct-11">Ms. lat. oct. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-1">nd. Hs. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-2">nd. Hs. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-3">nd. Hs. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-4">nd. Hs. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms Kosegarten B 68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-5">nd. Hs. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-6">nd. Hs. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-7">nd. Hs. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-8">nd. Hs. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-9">nd. Hs. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-10">nd. Hs. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-11">nd. Hs. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-12">nd. Hs. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-13">nd. Hs. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-16">nd. Hs. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-17">nd. Hs. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-18">nd. Hs. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-19">nd. Hs. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-20">nd. Hs. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-21">nd. Hs. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-22">nd. Hs. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-36">nd. Hs. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021965-3">Greifswald</settlement>
+                  <repository key="41359-8">Universitätsbibliothek Greifswald</repository>
+                  <idno xml:id="_nd-Hs-37">nd. Hs. 37</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

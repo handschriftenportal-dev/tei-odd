@@ -1,0 +1,2931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Sondershausen_Schlossmuseum/01_Sondershausen_Schlossmuseum.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-dipl-1">Germ. dipl. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-hist-1">Germ. hist. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-1">Germ. lit. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-2">Germ. lit. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-3-a">Germ. lit. 3 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 3a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-3-b">Germ. lit. 3 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 3b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-3-c">Germ. lit. 3 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 3c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-3-d">Germ. lit. 3 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 3d</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-4-a">Germ. lit. 4 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 4a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-4-b">Germ. lit. 4 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 4b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-4-c">Germ. lit. 4 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 4c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-4-d">Germ. lit. 4 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 4d</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-4-e">Germ. lit. 4 e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 4e</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-4-f">Germ. lit. 4 f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Germ. lit. 4f</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-5">Germ. lit. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Germ-lit-6">Germ. lit. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Hebr-theol-1">Hebr. theol. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-1">Lat. bibl. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 87</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-2">Lat. bibl. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-3">Lat. bibl. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-4">Lat. bibl. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-5-a">Lat. bibl. 5 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. bibl. 5a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-5-b">Lat. bibl. 5 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. bibl. 5b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-6">Lat. bibl. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-7">Lat. bibl. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-8">Lat. bibl. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-9">Lat. bibl. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-10-a">Lat. bibl. 10 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. bibl. 10a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-10-b">Lat. bibl. 10 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. bibl. 10b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-11">Lat. bibl. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-bibl-12">Lat. bibl. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-1-a">Lat. hag. 1 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. hag. 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-1-b">Lat. hag. 1 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. hag. 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-1-c">Lat. hag. 1 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. hag. 1c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-2">Lat. hag. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-3">Lat. hag. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-4-a">Lat. hag. 4 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. hag. 4a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-hag-4-b">Lat. hag. 4 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. hag. 4b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-1">Lat. iur. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-2">Lat. iur. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-3">Lat. iur. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-4-a">Lat. iur. 4 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 4a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-4-b">Lat. iur. 4 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 4b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-4-c">Lat. iur. 4 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 4c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-5">Lat. iur. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-6-a">Lat. iur. 6 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 6a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-6-b">Lat. iur. 6 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 6b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-7">Lat. iur. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-8">Lat. iur. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-9-a">Lat. iur. 9 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 9a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-9-b">Lat. iur. 9 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. iur. 9b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-10">Lat. iur. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-iur-11">Lat. iur. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-1-a">Lat. lit. 1 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-1-b">Lat. lit. 1 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-1-c">Lat. lit. 1 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-1-d---e">Lat. lit. 1 d / e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1d</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1e</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1 d</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1 e</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-1-f">Lat. lit. 1 f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 1f</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-2-a">Lat. lit. 2 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 2a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-2-b">Lat. lit. 2 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 2b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-3-a">Lat. lit. 3 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 3a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-lit-3-b">Lat. lit. 3 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. lit. 3b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-1-a">Lat. liturg. I 1 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-1-b">Lat. liturg. I 1 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-2">Lat. liturg. I 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-3-a">Lat. liturg. I 3 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 3a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-3-b">Lat. liturg. I 3 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 3b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-4">Lat. liturg. I 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-5">Lat. liturg. I 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-6">Lat. liturg. I 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-7">Lat. liturg. I 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-8">Lat. liturg. I 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-9">Lat. liturg. I 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-10">Lat. liturg. I 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-11">Lat. liturg. I 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-12">Lat. liturg. I 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-13">Lat. liturg. I 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-14">Lat. liturg. I 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-15">Lat. liturg. I 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-16">Lat. liturg. I 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-17-a">Lat. liturg. I 17 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 17a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-17-b">Lat. liturg. I 17 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 17b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-18">Lat. liturg. I 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-19">Lat. liturg. I 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-20">Lat. liturg. I 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-21-a">Lat. liturg. I 21 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 21a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-21-b">Lat. liturg. I 21 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 21b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-21-c">Lat. liturg. I 21 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 21c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-21-d">Lat. liturg. I 21 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 21d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-21-e">Lat. liturg. I 21 e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 21e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-21-f">Lat. liturg. I 21 f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 21f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-22-a">Lat. liturg. I 22 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 22a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-22-b">Lat. liturg. I 22 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 22b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-a">Lat. liturg. I 23 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-b">Lat. liturg. I 23 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-c">Lat. liturg. I 23 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-d">Lat. liturg. I 23 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-e">Lat. liturg. I 23 e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-f">Lat. liturg. I 23 f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-23-g">Lat. liturg. I 23 g</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 23g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-24">Lat. liturg. I 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-25-a">Lat. liturg. I 25 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 25a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-25-b">Lat. liturg. I 25 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 25b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-25-c">Lat. liturg. I 25 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 25c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-25-d">Lat. liturg. I 25 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 25d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-26-a">Lat. liturg. I 26 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 26a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-26-b">Lat. liturg. I 26 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 26b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-26-c">Lat. liturg. I 26 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 26c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-27">Lat. liturg. I 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-28">Lat. liturg. I 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-29">Lat. liturg. I 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-30">Lat. liturg. I 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-31-a">Lat. liturg. I 31 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 31a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-31-b">Lat. liturg. I 31 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 31b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-31-c">Lat. liturg. I 31 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 31c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-31-d">Lat. liturg. I 31 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 31d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-32-a">Lat. liturg. I 32 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 32a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-32-b">Lat. liturg. I 32 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 32b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-33">Lat. liturg. I 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-34">Lat. liturg. I 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-35">Lat. liturg. I 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-36">Lat. liturg. I 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-37">Lat. liturg. I 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-38">Lat. liturg. I 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-39">Lat. liturg. I 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-40">Lat. liturg. I 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-41">Lat. liturg. I 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-42">Lat. liturg. I 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-43">Lat. liturg. I 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-44">Lat. liturg. I 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-45">Lat. liturg. I 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-46-a">Lat. liturg. I 46 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 46a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-46-b">Lat. liturg. I 46 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 46b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-47">Lat. liturg. I 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-48">Lat. liturg. I 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-49-a">Lat. liturg. I 49 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 49a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-49-b">Lat. liturg. I 49 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 49b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-50-a">Lat. liturg. I 50 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 50a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-50-b">Lat. liturg. I 50 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 50b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-51">Lat. liturg. I 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-52">Lat. liturg. I 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-53">Lat. liturg. I 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-54">Lat. liturg. I 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-55-a">Lat. liturg. I 55 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 55a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-55-b">Lat. liturg. I 55 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 55b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-55-c">Lat. liturg. I 55 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 55c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-56">Lat. liturg. I 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-57">Lat. liturg. I 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-a">Lat. liturg. I 58 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-b">Lat. liturg. I 58 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-c">Lat. liturg. I 58 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-d">Lat. liturg. I 58 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-e">Lat. liturg. I 58 e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-f">Lat. liturg. I 58 f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58f</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-58-g">Lat. liturg. I 58 g</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. I 58g</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-1">Lat. liturg. II 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-2">Lat. liturg. II 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-3">Lat. liturg. II 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-4">Lat. liturg. II 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-5">Lat. liturg. II 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-6">Lat. liturg. II 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-7">Lat. liturg. II 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-II-8">Lat. liturg. II 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-III-1">Lat. liturg. III 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-III-2">Lat. liturg. III 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-III-3">Lat. liturg. III 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-III-4">Lat. liturg. III 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-III-5">Lat. liturg. III 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IV-1-a">Lat. liturg. IV 1 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. IV 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IV-1-b">Lat. liturg. IV 1 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. IV 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IV-2">Lat. liturg. IV 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IX-1">Lat. liturg. IX 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IX-2-a">Lat. liturg. IX 2 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. IX 2a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IX-2-b">Lat. liturg. IX 2 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. IX 2b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IX-3">Lat. liturg. IX 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IX-4">Lat. liturg. IX 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-1-a">Lat. liturg. V 1 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-1-b">Lat. liturg. V 1 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-1-c">Lat. liturg. V 1 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 1c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-2">Lat. liturg. V 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-3">Lat. liturg. V 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-4">Lat. liturg. V 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-5">Lat. liturg. V 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-6">Lat. liturg. V 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-7">Lat. liturg. V 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-8-a">Lat. liturg. V 8 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 8a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-8-b">Lat. liturg. V 8 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 8b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-9">Lat. liturg. V 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-10-a">Lat. liturg. V 10 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 10a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-10-b">Lat. liturg. V 10 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 10b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-11-a">Lat. liturg. V 11 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 11a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-11-b">Lat. liturg. V 11 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 11b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-11-c">Lat. liturg. V 11 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 11c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-12">Lat. liturg. V 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-13">Lat. liturg. V 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-14">Lat. liturg. V 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-15">Lat. liturg. V 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-16">Lat. liturg. V 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-17">Lat. liturg. V 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-18-a">Lat. liturg. V 18 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 18a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-18-b">Lat. liturg. V 18 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 18b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-19">Lat. liturg. V 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-20">Lat. liturg. V 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-21-a">Lat. liturg. V 21 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 21a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-21-b">Lat. liturg. V 21 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 21b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-21-c">Lat. liturg. V 21 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 21c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-22">Lat. liturg. V 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-23-a">Lat. liturg. V 23 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 23a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-23-b">Lat. liturg. V 23 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 23b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-23-c">Lat. liturg. V 23 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 23c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-23-d">Lat. liturg. V 23 d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 23d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-V-23-e">Lat. liturg. V 23 e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. V 23e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-1-a">Lat. liturg. VI 1 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 1a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-1-b">Lat. liturg. VI 1 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 1b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-2">Lat. liturg. VI 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-3">Lat. liturg. VI 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-4">Lat. liturg. VI 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-5">Lat. liturg. VI 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-6">Lat. liturg. VI 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-7">Lat. liturg. VI 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-8">Lat. liturg. VI 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-9">Lat. liturg. VI 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-10">Lat. liturg. VI 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-11">Lat. liturg. VI 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-12-a">Lat. liturg. VI 12 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 12a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-12-b">Lat. liturg. VI 12 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 12b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-13-a">Lat. liturg. VI 13 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 13a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-13-b">Lat. liturg. VI 13 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 13b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-14-a">Lat. liturg. VI 14 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 14a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-14-b">Lat. liturg. VI 14 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 14b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-14-c">Lat. liturg. VI 14 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 14c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-15-a">Lat. liturg. VI 15 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 15a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-15-b">Lat. liturg. VI 15 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VI 15b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-16">Lat. liturg. VI 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VI-17">Lat. liturg. VI 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VII-1">Lat. liturg. VII 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-1">Lat. liturg. VIII 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-2">Lat. liturg. VIII 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-3-a">Lat. liturg. VIII 3 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VIII 3a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-3-b">Lat. liturg. VIII 3 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. VIII 3b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-4">Lat. liturg. VIII 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-5">Lat. liturg. VIII 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-6">Lat. liturg. VIII 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-7">Lat. liturg. VIII 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-8">Lat. liturg. VIII 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-9">Lat. liturg. VIII 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-10">Lat. liturg. VIII 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-X-1">Lat. liturg. X 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-XI-1">Lat. liturg. XI 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-XI-2-a">Lat. liturg. XI 2 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. XI 2a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-XI-2-b">Lat. liturg. XI 2 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. XI 2b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-XI-2-c">Lat. liturg. XI 2 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. liturg. XI 2c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-XI-3">Lat. liturg. XI 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-XI-4">Lat. liturg. XI 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-med-1">Lat. med. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-med-2">Lat. med. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-med-3-a">Lat. med. 3 a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-med-3-b">Lat. med. 3 b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-1">Lat. min. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-2">Lat. min. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-3-a---b">Lat. min. 3 a + b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 3a + b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 3a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 3b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 3 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 3 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-4">Lat. min. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-5">Lat. min. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-6">Lat. min. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-7">Lat. min. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-8">Lat. min. 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-9">Lat. min. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-10-a">Lat. min. 10 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 10a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-10-b">Lat. min. 10 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 10b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-11">Lat. min. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-12">Lat. min. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-13">Lat. min. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-14">Lat. min. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-15">Lat. min. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-16">Lat. min. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-17">Lat. min. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-18">Lat. min. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-19-a---b">Lat. min. 19 a + b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 19a + b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 19a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 19b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 19 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 19 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-20-a---b">Lat. min. 20 a + b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 20a + b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 20a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 20b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 20 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 20 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-21">Lat. min. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-22">Lat. min. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-23">Lat. min. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-24">Lat. min. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-25">Lat. min. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-26-a---b">Lat. min. 26 a + b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 26a + b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 26a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 26b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 26 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. min. 26 b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-min-27">Lat. min. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-1">Lat. theol. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-2">Lat. theol. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-3">Lat. theol. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-4">Lat. theol. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-5">Lat. theol. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-6-a">Lat. theol. 6 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 6a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-6-b">Lat. theol. 6 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 6b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-7">Lat. theol. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-8-a">Lat. theol. 8 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 8a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-8-b">Lat. theol. 8 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 8b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-9-a">Lat. theol. 9 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 9a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-9-b">Lat. theol. 9 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 9b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-10">Lat. theol. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-11">Lat. theol. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-12-a">Lat. theol. 12 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 12a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-12-b">Lat. theol. 12 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 12b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-13">Lat. theol. 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-14">Lat. theol. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-15-a">Lat. theol. 15 a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 15a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-15-b">Lat. theol. 15 b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 15b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-15-c">Lat. theol. 15 c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Lat. theol. 15c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-16">Lat. theol. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-17">Lat. theol. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-theol-18">Lat. theol. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-59-a--Inc--">Lat. liturg. I 59 a (Inc.)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-59-b--Inc--">Lat. liturg. I 59 b (Inc.)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-59-c--Inc--">Lat. liturg. I 59 c (Inc.)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-I-59-d--Inc--">Lat. liturg. I 59 d (Inc.)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-VIII-11--Inc--">Lat. liturg. VIII 11 (Inc.)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4055548-3">Sondershausen</settlement>
+                  <repository key="2085288-5">Schloßmuseum Sondershausen</repository>
+                  <idno xml:id="_Lat-liturg-IX-5--Inc--">Lat. liturg. IX 5 (Inc.)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs Br. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

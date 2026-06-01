@@ -1,0 +1,64 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix hspi: <https://normdaten.staatsbibliothek-berlin.de/hsp/initia/> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix hspnorm: <https://normdaten.staatsbibliothek-berlin.de/hsp/authority-file/> .
+
+
+hspi:NORM-f74c49f6-1e79-4fcd-83b7-8f9f3d4cb6bd a hspo:Initium ;
+    schema:text "Zu der mettenzeit wart unser frauen kund getan" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:closeRelation hspi:NORM-7f7028a9-e2b6-4260-8b78-0e2fe3a9fcfc .
+
+hspi:NORM-7f7028a9-e2b6-4260-8b78-0e2fe3a9fcfc a hspo:Initium ;
+    schema:text "Zu der mettin zeit ward vnser lieben frawen kunt getan" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:sameAs hspi:NORM-f74c49f6-1e79-4fcd-83b7-8f9f3d4cb6bd .
+    
+hspi:NORM-e3e1a209-68a0-4b9b-b3d7-80bb63578ad8 a hspo:Initium ;
+    schema:text "Ecce nunc tempus - (II Cor 6,2) Duo sunt tempora hominis" ;
+    hspo:alternativeText "Ecce nunc tempus - (2 Cor 6,2) Duo sunt tempora hominis" ;
+    dct:language hspnorm:NORM-c9089f3c-9ada-3018-af6f-fb1ee8d6501c .
+
+hspi:NORM-754a62c6-05c4-4d3b-ab47-5a8887fca577 a hspo:Initium ;
+    schema:text "O du honigfliessender herre Jesu süsse und lustlichen … ich bitte dich demütiklichen" ;
+    hspo:alternativeText "bitten, ich bitt - O du honigfliessender herre Jesu süsse und lustlichen … ich bitte dich demütiklichen" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d .
+
+hspi:NORM-d8a86aaf-f80f-4d5c-85f8-e6d39eeddba2 a hspo:Initium ;
+    schema:text "Homo quidam - (Lc 16,1) Wir lesen hevt an dem ewangelio" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    dct:language hspnorm:NORM-c9089f3c-9ada-3018-af6f-fb1ee8d6501c .
+
+hspi:NORM-9f1ef79f-7b3a-4a1b-b4db-1638265618a6 a hspo:Initium ;
+    schema:text "Der heilig rittermaister sand Eustachius der hies vor seiner tauff" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:distantRelation hspi:NORM-64c27f51-5b1b-44d3-a644-c29ee4c95312, hspi:NORM-324037b8-efa6-48fd-b2f0-bda319d3644d .
+
+hspi:NORM-64c27f51-5b1b-44d3-a644-c29ee4c95312 a hspo:Initium ;
+    schema:text "Der heilig sant Eustachius der hieß vor dem tauff Placidus" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:sameAs hspi:NORM-324037b8-efa6-48fd-b2f0-bda319d3644d ;
+    hspo:distantRelation hspi:NORM-9f1ef79f-7b3a-4a1b-b4db-1638265618a6 .
+    
+hspi:NORM-324037b8-efa6-48fd-b2f0-bda319d3644d a hspo:Initium ;
+    schema:text "Der heilig sant Eustachius der hiess vor der tauff Placitus" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:sameAs hspi:NORM-64c27f51-5b1b-44d3-a644-c29ee4c95312 ;
+    hspo:distantRelation hspi:NORM-9f1ef79f-7b3a-4a1b-b4db-1638265618a6 .
+    
+hspi:NORM-3d27f0b7-6468-481b-8cb4-cbf6abb8de7b a hspo:Initium ;
+    schema:text "In dulci iubilo jubilo nu singet vnd seyt fro" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:closeRelation hspi:NORM-8cefac60-f5df-4c7e-bb86-f060cc722e0e .
+
+hspi:NORM-8cefac60-f5df-4c7e-bb86-f060cc722e0e a hspo:Initium ;
+    schema:text "In dulci iubilo, wir singent unde sint vrô" ;
+    dct:language hspnorm:NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d ;
+    hspo:closeRelation hspi:NORM-3d27f0b7-6468-481b-8cb4-cbf6abb8de7b . 
+ 

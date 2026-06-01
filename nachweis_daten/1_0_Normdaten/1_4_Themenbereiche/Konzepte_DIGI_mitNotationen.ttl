@@ -1,0 +1,140 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+
+hspv:DIGI a skos:ConceptScheme ;
+    skos:prefLabel "Digitalisierung"@de, "Digitization"@en ;
+    skos:definition "Begriffssystem zur Gruppierung von Digitalisierungsbegriffssystemen"@de, "Concept scheme for grouping of digitization related concept schemes."@en .
+
+hspv:DIGI-A a skos:ConceptScheme ;    
+    skos:prefLabel "Art der Erfassung"@de, "Capture Type"@en ;
+    skos:definition "Begriffssystem zur Beschreibung der Art der Erfassung."@de, "Concept scheme to describe the capture type."@en ;
+    skos:inScheme hspv:DIGI ;
+    skos:hasTopConcept hspv:DIGI-A445, hspv:DIGI-A635, hspv:DIGI-A210 .
+
+hspv:DIGI-A445 a skos:Concept ;
+    skos:notation "DIGI-A445" ;
+    skos:prefLabel "Einzelseite"@de, "Single Page"@en ;
+    skos:definition "Einzelseitenaufnahme."@de, "Single page recording."@en ;
+    skos:inScheme hspv:DIGI-A ;
+	skos:topConceptOf hspv:DIGI-A .
+    
+hspv:DIGI-A635 a skos:Concept ;
+    skos:notation "DIGI-A635" ;
+    skos:prefLabel "Doppelseite"@de, "Opening"@en ;
+    skos:definition "Aufnahme des aufgeschlagenen Buches."@de, "Recording of the open book."@en ;
+    skos:inScheme hspv:DIGI-A ;
+	skos:topConceptOf hspv:DIGI-A .
+
+hspv:DIGI-A210 a skos:Concept ;
+    skos:notation "DIGI-A210" ;
+    skos:prefLabel "Detail"@de, "Detail"@en ;
+    skos:definition "Detailaufnahme."@de, "Recording of a detail."@en ;
+    skos:inScheme hspv:DIGI-A ;
+	skos:topConceptOf hspv:DIGI-A .
+
+hspv:DIGI-B a skos:ConceptScheme ;
+    skos:prefLabel "Vollständigkeit"@de, "Completeness"@en ;
+    skos:definition "Begriffssystem zur Beschreibung der Vollständigkeit einer Digitalisierung."@de, "Concept scheme to describe the completeness of a digitization."@en ;
+    skos:inScheme hspv:DIGI ;
+    skos:hasTopConcept hspv:DIGI-B363, hspv:DIGI-B575 .
+
+hspv:DIGI-B363 a skos:Concept ;
+    skos:notation "DIGI-B363" ;
+    skos:prefLabel "Vollständig"@de, "Complete"@en ;
+    skos:definition "Vollständige Digitalisierung der Vorlage."@de, "Complete digitization of the source."@en ;
+    skos:inScheme hspv:DIGI-B ;
+    skos:topConceptOf hspv:DIGI-B .
+
+hspv:DIGI-B575 a skos:Concept ;
+    skos:notation "DIGI-B575" ;
+    skos:prefLabel "Teilweise digitalisiert"@de, "Partially digitized"@en ;
+    skos:definition "Teilweise Digitalisierung der Vorlage."@de, "Partial digitization of the source."@en ;
+    skos:inScheme hspv:DIGI-B ;
+    skos:topConceptOf hspv:DIGI-B .
+
+hspv:DIGI-C a skos:ConceptScheme ;
+    skos:prefLabel "Art der Digitalisierung"@de, "Digitization Type"@en ;
+    skos:definition "Begriffssystem zur Beschreibung der Art der Digitalisierung."@de, "Concept scheme to describe the type of digitization."@en ;
+    skos:inScheme hspv:DIGI ;
+    skos:hasTopConcept hspv:DIGI-C834, hspv:DIGI-C394, hspv:DIGI-C959, hspv:DIGI-C738, hspv:DIGI-C799, hspv:DIGI-C526, hspv:DIGI-C970, hspv:DIGI-C444 .
+
+hspv:DIGI-C834 a skos:Concept ;
+    skos:notation "DIGI-C834" ;
+    skos:prefLabel "Farbe"@de, "Color"@en ;
+	skos:altLabel "Standard"@de ;
+    skos:definition "Digitalisierung in Farbe."@de, "Digitization in color"@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C959 a skos:Concept ;
+    skos:notation "DIGI-C959" ;
+    skos:prefLabel "Graustufen"@de, "Greyscale"@en ;
+    skos:definition "Digitalisierung in Graustufen."@de, "Digitization in greyscale"@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C394 a skos:Concept ;
+    skos:notation "DIGI-C394" ;
+    skos:prefLabel "Schwarzweiß"@de, "Black-and-white"@en ;
+	skos:altLabel "Bitonal"@de ;
+    skos:definition "Digitalisierung in Schwarzweiß."@de, "Digitization in black-and-white"@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C738 a skos:Concept ;
+    skos:notation "DIGI-C738" ;
+    skos:prefLabel "Thermo"@de, "Thermo"@en ;
+	skos:altLabel "Thermographie"@de, "Thermography"@en ;
+    skos:definition "Thermographieaufnahme."@de, "Thermography image."@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C799 a skos:Concept ;
+    skos:notation "DIGI-C799" ;
+    skos:prefLabel "Spektral"@de, "Spectral"@en ;
+	skos:altLabel "Spektralaufnahme"@de, "Multispektralaufnahme"@de, "Spectral imaging"@en, "Multi spectral imaging"@en ;
+    skos:definition "Spektralaufnahme."@de, "Spectral recording."@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C526 a skos:Concept ;
+    skos:notation "DIGI-C526" ;
+    skos:prefLabel "Mikroskop"@de, "Microscope"@en ;
+    skos:definition "Mikroskopaufnahme."@de, "Microscope image."@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C970 a skos:Concept ;
+    skos:notation "DIGI-C970" ;
+    skos:prefLabel "3D"@de, "3D"@en ;
+    skos:definition "3D-Digitalisierung."@de, "Digitization in 3D."@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-C444 a skos:Concept ;
+    skos:notation "DIGI-C444" ;
+    skos:prefLabel "Sonstige Aufnahmetechniken"@de, "Other digitization techniques"@en ;
+    skos:definition "Digitalisierung mit einer anderen Aufnahmetechnik."@de, "Digitization using other technology."@en ;
+    skos:inScheme hspv:DIGI-C ;
+	skos:topConceptOf hspv:DIGI-C .
+
+hspv:DIGI-D a skos:ConceptScheme ; 
+    skos:prefLabel "Art der Digitalisierungsgrundlage"@de, "Source Type"@en ;
+    skos:definition "Begriffssystem zur Beschreibung der Art der Digitalisierungsgrundlage (Original oder Reproduktion)."@de, "Concept scheme to describe the source type (original or reproduction)."@en ;
+    skos:inScheme hspv:DIGI ;
+    skos:hasTopConcept hspv:DIGI-D139, hspv:DIGI-D537 .
+
+hspv:DIGI-D139 a skos:Concept ;
+    skos:notation "DIGI-D139" ;
+    skos:prefLabel "Original"@de, "Original"@en ;
+    skos:definition "Digitalisierung vom Original."@de, "Digitization of original"@en ;
+    skos:inScheme hspv:DIGI-D ;
+	skos:topConceptOf hspv:DIGI-D .
+
+hspv:DIGI-D537 a skos:Concept ;
+    skos:notation "DIGI-D537" ;
+    skos:prefLabel "Reproduktion"@de, "reproduction"@en ;
+    skos:definition "Digitalisierung von Reproduktion."@de, "Digitization of reproduction."@en ;
+    skos:inScheme hspv:DIGI-D ;
+	skos:topConceptOf hspv:DIGI-D .

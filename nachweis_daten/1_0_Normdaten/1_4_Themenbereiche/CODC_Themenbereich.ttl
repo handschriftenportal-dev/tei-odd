@@ -1,0 +1,1001 @@
+@prefix schema: <https://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+
+hspv:MSVOC a skos:ConceptScheme;
+  skos:prefLabel "Fachvokabular"@de, "Domain Vocabulary"@en;
+  skos:definition "Handschriftenkundliches Fachvokabular"@de, "Domain Specific Vocabulary for Manuscript Studies"@en .
+
+hspv:CODC-D a skos:ConceptScheme;
+  skos:prefLabel "Layout"@de, "Layout"@en;
+  skos:definition "Thesaurus: Layout (CODC-D)"@de, "Thesaurus: Layout (CODC-D)"@en;
+  skos:inScheme hspv:CODC;
+  skos:hasTopConcept hspv:CODC-D614, hspv:CODC-D149, hspv:CODC-D704, hspv:CODC-D252,
+    hspv:CODC-D736, hspv:CODC-D680, hspv:CODC-D458, hspv:CODC-D358, hspv:CODC-D653, hspv:CODC-D400,
+    hspv:CODC-D541, hspv:CODC-D742, hspv:CODC-D177, hspv:CODC-D483 .
+
+hspv:CODC-D614 a skos:Concept;
+  skos:notation "CODC-D614";
+  skos:prefLabel "Schriftraumbegrenzung"@de, "frame ruling"@en;
+  skos:definition "Die Seite ist in Schriftraum und Seitenränder durch eine Begrenzung aufgeteilt."@de;
+  skos:example hspv:c3359916-7498-4d70-b770-e576f20e095d;
+  skos:narrower hspv:CODC-D299, hspv:CODC-D677, hspv:CODC-D127;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:c3359916-7498-4d70-b770-e576f20e095d a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/6968767/pct:4.61725,9.04255,71.7497,82.73694/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/6968718/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen B V 12, Bl. 2r" .
+
+hspv:CODC-D299 a skos:Concept;
+  skos:notation "CODC-D299";
+  skos:prefLabel "Schriftraum blind begrenzt"@de, "blind frame ruling"@en;
+  skos:broader hspv:CODC-D614;
+  skos:definition "Zur Begrenzung des Schriftraums wurde ein blinder Griffel verwendet."@de;
+  skos:example hspv:49b3dd12-be70-43f0-98ca-444cd6e13607;
+  skos:inScheme hspv:CODC-D .
+
+hspv:49b3dd12-be70-43f0-98ca-444cd6e13607 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/6084574/pct:56.70262,8.06078,32.31895,19.95879/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/6083975/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 451, Bl. 43r" .
+
+hspv:CODC-D677 a skos:Concept;
+  skos:notation "CODC-D677";
+  skos:prefLabel "Schriftraum mit Tinte begrenzt"@de, "frame ruling with ink"@en;
+  skos:broader hspv:CODC-D614;
+  skos:definition "Zur Begrenzung des Schriftraums wurde Tinte verwendet."@de;
+  skos:example hspv:7a48b50b-cf61-40f2-9158-4e685f19dfa2;
+  skos:inScheme hspv:CODC-D .
+
+hspv:7a48b50b-cf61-40f2-9158-4e685f19dfa2 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/6968767/pct:4.61725,9.04255,71.7497,82.73694/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/6968718/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen B V 12, Bl. 2r" .
+
+hspv:CODC-D127 a skos:Concept;
+  skos:notation "CODC-D127";
+  skos:prefLabel "Schriftraum mit Stift begrenzt"@de, "frame ruling with pencil"@en;
+  skos:broader hspv:CODC-D614;
+  skos:definition "Zur Begrenzung des Schriftraums wurde ein Stift verwendet."@de;
+  skos:inScheme hspv:CODC-D .
+
+hspv:CODC-D149 a skos:Concept;
+  skos:notation "CODC-D149";
+  skos:prefLabel "Linierung"@de, "text ruling"@en;
+  skos:altLabel "Reglierung"@de;
+  skos:definition "Die Zeilen sind vorgezeichnet."@de;
+  skos:example hspv:98c9a98b-4f9a-443c-94de-6883f331199a;
+  skos:narrower hspv:CODC-D318, hspv:CODC-D210, hspv:CODC-D187;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:98c9a98b-4f9a-443c-94de-6883f331199a a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1566392/pct:8.64904,5.28515,81.55826,81.98132/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1573074/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen A III 25, Bl. 1r" .
+
+hspv:CODC-D318 a skos:Concept;
+  skos:notation "CODC-D318";
+  skos:prefLabel "Blindlinierung"@de, "blind text ruling"@en;
+  skos:broader hspv:CODC-D149;
+  skos:definition "Die Zeilen wurden mit einem blinden Griffel vorgezeichnet. Die Blindlinierung ist bereits in Pergamenthandschriften des 5. und 6. Jahrhunderts nachweisbar."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 69.";
+  skos:example hspv:4ae15ae9-b2f2-4fb2-9643-e99d13e58940;
+  skos:inScheme hspv:CODC-D .
+
+hspv:4ae15ae9-b2f2-4fb2-9643-e99d13e58940 a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKapideZiA_1801043531%2FKapideZiA_1801043531_tif%2Fjpegs%2F00000012.tif.medium.jpg/pct:9.2,53.41935,85.9,15.41935/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.slub-dresden.de/iiif/2/1801043531/manifest.json>;
+  schema:caption "Dresden, SLUB, St. Marienthal H 1/5, Bl. 4v" .
+
+hspv:CODC-D210 a skos:Concept;
+  skos:notation "CODC-D210";
+  skos:prefLabel "Linierung mit Tinte"@de, "text ruling with ink"@en;
+  skos:broader hspv:CODC-D149;
+  skos:definition "Die Zeilen wurden mit Tinte vorgezeichnet. Die Tintenlinierung findet sich ab dem 13. Jahrhundert."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 69.";
+  skos:example hspv:891b76b9-a921-4474-9d7e-d98e902370fc;
+  skos:inScheme hspv:CODC-D .
+
+hspv:891b76b9-a921-4474-9d7e-d98e902370fc a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1566392/pct:8.64904,5.28515,81.55826,81.98132/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1573074/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen A III 25, Bl. 1r" .
+
+hspv:CODC-D187 a skos:Concept;
+  skos:notation "CODC-D187";
+  skos:prefLabel "Linierung mit Stift"@de, "text ruling with pencil"@en;
+  skos:broader hspv:CODC-D149;
+  skos:definition "Die Zeilen wurden mit Stift vorgezeichnet. Linierung mit Stift findet sich ab dem 12. Jahrhundert."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 69.";
+  skos:example hspv:3fb3f579-09dd-4929-a35a-115c51156bfe;
+  skos:inScheme hspv:CODC-D .
+
+hspv:3fb3f579-09dd-4929-a35a-115c51156bfe a schema:ImageObject;
+  schema:contentUrl <https://iiif.uni-marburg.de/iiif/2/https:____archiv.ub.uni-marburg.de__eb__2022__0009__tif__0061.tif/pct:26.6863,32.32201,40.55965,13.38997/pct:100/0/default.jpg>;
+  schema:identifier <https://archiv.ub.uni-marburg.de/eb/2022/0009/manifest.json>;
+  schema:caption "Universitätsbibliothek Marburg, Ms. 1, Bl. 27V" .
+
+hspv:CODC-D704 a skos:Concept;
+  skos:notation "CODC-D704";
+  skos:prefLabel "Einspaltig"@de, "one column"@en;
+  skos:definition "Der Schriftraum ist einspaltig beschriftet."@de;
+  skos:example hspv:cb60c9a0-9932-472d-9e33-5e07e0869451;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:cb60c9a0-9932-472d-9e33-5e07e0869451 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0350/0000035094/00000007.jpx/pct:4.16667,4.61806,88.59375,90.32986/pct:100/0/default.jpg> .
+
+hspv:CODC-D252 a skos:Concept;
+  skos:notation "CODC-D252";
+  skos:prefLabel "Zweispaltig"@de, "two columns"@en;
+  skos:definition "Der Schriftraum ist zweispaltig beschriftet."@de;
+  skos:example hspv:70b22bf8-df4c-4f03-a5ce-a383eb7b2434;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:70b22bf8-df4c-4f03-a5ce-a383eb7b2434 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1566392/pct:8.64904,5.28515,81.55826,81.98132/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1573074/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen A III 25, Bl. 1r" .
+
+hspv:CODC-D736 a skos:Concept;
+  skos:notation "CODC-D736";
+  skos:prefLabel "Dreispaltig"@de, "three columns"@en;
+  skos:definition "Der Schriftraum ist dreispaltig beschriftet."@de;
+  skos:example hspv:2826b216-0979-4af7-98ad-6e323388c3ad;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:2826b216-0979-4af7-98ad-6e323388c3ad a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0045/0000004573/00000165.jpx/pct:2.24359,8.33333,84.21474,78.29416/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004573/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1315, Bl. 81r" .
+
+hspv:CODC-D680 a skos:Concept;
+  skos:notation "CODC-D680";
+  skos:prefLabel "Vierspaltig"@de, "four columns"@en;
+  skos:definition "Der Schriftraum ist vierspaltig beschriftet."@de;
+  skos:example hspv:019ef3a7-1cc8-415c-b1c7-256c896a828f;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:019ef3a7-1cc8-415c-b1c7-256c896a828f a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0047/0000004783/00000005.jpx/pct:1.60256,8.36895,82.45192,72.11538/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004783/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1330, Bl. 1r" .
+
+hspv:CODC-D458 a skos:Concept;
+  skos:notation "CODC-D458";
+  skos:prefLabel "mehr als vier Spalten"@de, "more than four columns"@en;
+  skos:definition "Der Schriftraum enthält mehr als vier Spalten."@de;
+  skos:example hspv:66d372eb-9c2a-4967-bf55-fed65126f78a;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:66d372eb-9c2a-4967-bf55-fed65126f78a a schema:ImageObject;
+  schema:contentUrl <https://image.ub.uni-muenchen.de:8182/iiif/2/BV048804786__BV048804786_tif__ublmu_005938_0229.tif/pct:1.34771,5.70776,94.07008,46.51826/pct:100/0/default.jpg>;
+  schema:identifier <https://discover.ub.uni-muenchen.de/digitalisate/BV048804786/BV048804786.json>;
+  schema:caption "München, Universitätsbibliothek, 4 Cod.ms. 813, Bl. 113r" .
+
+hspv:CODC-D358 a skos:Concept;
+  skos:notation "CODC-D358";
+  skos:prefLabel "Blattzählung"@de, "foliation"@en;
+  skos:altLabel "Foliierung"@de;
+  skos:definition "Bei einer Blattzählung werden jeweils die Vorderseiten (Rectoseiten) der Blätter durchnummeriert."@de;
+  skos:example hspv:dd8c9abe-5bfe-4426-b201-c6c637154364;
+  skos:narrower hspv:CODC-D793, hspv:CODC-D276, hspv:CODC-D772;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:dd8c9abe-5bfe-4426-b201-c6c637154364 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/963025/pct:9.81882,0.32432,68.52718,12.99459/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/962199/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 241, Bl. 4r" .
+
+hspv:CODC-D793 a skos:Concept;
+  skos:notation "CODC-D793";
+  skos:prefLabel "mittelalterliche Blattzählung"@de, "medieval foliation"@en;
+  skos:altLabel "mittelalterliche Foliierung"@de;
+  skos:broader hspv:CODC-D358;
+  skos:definition "Die Blattzählung taucht im ausgehenden 13. Jahrhundert auf und ist ab 1300 zunehmend verbreitet."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 69f.";
+  skos:example hspv:0bf1e01d-ef88-4e58-b73f-e9d80173a0fc;
+  skos:inScheme hspv:CODC-D .
+
+hspv:0bf1e01d-ef88-4e58-b73f-e9d80173a0fc a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/963025/pct:9.81882,0.32432,68.52718,12.99459/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/962199/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 241, Bl. 4r" .
+
+hspv:CODC-D276 a skos:Concept;
+  skos:notation "CODC-D276";
+  skos:prefLabel "neuzeitliche Blattzählung"@de, "early modern foliation"@en;
+  skos:altLabel "neuzeitliche Foliierung"@de;
+  skos:broader hspv:CODC-D358;
+  skos:definition "Eine in der frühen Neuzeit (16.-18. Jahrhundert) vorgenommene Blattzählung."@de;
+  skos:example hspv:e8e8125d-9575-40ac-a02c-a49f9834c134;
+  skos:inScheme hspv:CODC-D .
+
+hspv:e8e8125d-9575-40ac-a02c-a49f9834c134 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/3437350/pct:34.248,4.41014,57.20736,24.11797/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/3434007/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 245, Bl. 75r." .
+
+hspv:CODC-D772 a skos:Concept;
+  skos:notation "CODC-D772";
+  skos:prefLabel "moderne Blattzählung"@de, "modern foliation"@en;
+  skos:altLabel "moderne Foliierung"@de;
+  skos:broader hspv:CODC-D358;
+  skos:definition "Eine moderne Blattzählung (ab dem 19. Jahrhundert)."@de;
+  skos:example hspv:4213ab79-018d-4d04-b92d-3a748661c5cd;
+  skos:inScheme hspv:CODC-D .
+
+hspv:4213ab79-018d-4d04-b92d-3a748661c5cd a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/3437191/pct:40.53156,5.3907,53.32226,18.15035/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/3433986/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Donaueschingen 244, Bl. 103r." .
+
+hspv:CODC-D653 a skos:Concept;
+  skos:notation "CODC-D653";
+  skos:prefLabel "Seitenzählung"@de, "pagination"@en;
+  skos:altLabel "Paginierung"@de;
+  skos:definition "Bei einer Seitenzählung wird jede Seite (Recto- und Versoseite) durchnummeriert."@de;
+  skos:example hspv:af9d1a08-1da6-4b04-b98e-26806dd0e801;
+  skos:narrower hspv:CODC-D425, hspv:CODC-D912, hspv:CODC-D223;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:af9d1a08-1da6-4b04-b98e-26806dd0e801 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00046830_00020/pct:2.38663,0.85031,95.22673,18.41012/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046830/manifest>;
+  schema:caption "München, BSB, Clm 14254, Bl. 2v." .
+
+hspv:CODC-D425 a skos:Concept;
+  skos:notation "CODC-D425";
+  skos:prefLabel "mittelalterliche Seitenzählung"@de, "medieval pagination"@en;
+  skos:altLabel "mittelalterliche Paginierung"@de;
+  skos:broader hspv:CODC-D653;
+  skos:definition "Die Seitenzählung taucht im ausgehenden 12. Jahrhundert auf und ist ab 1300 zunehmend verbreitet."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 69.";
+  skos:example hspv:0ad3b954-8efc-4551-be62-ec569de9fd6e;
+  skos:inScheme hspv:CODC-D .
+
+hspv:0ad3b954-8efc-4551-be62-ec569de9fd6e a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00046830_00020/pct:2.38663,0.85031,95.22673,18.41012/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00046830/manifest>;
+  schema:caption "München, BSB, Clm 14254, Bl. 2v." .
+
+hspv:CODC-D912 a skos:Concept;
+  skos:notation "CODC-D912";
+  skos:prefLabel "neuzeitliche Seitenzählung"@de, "early modern pagination"@en;
+  skos:altLabel "neuzeitliche Paginierung"@de;
+  skos:broader hspv:CODC-D653;
+  skos:definition "Eine in der frühen Neuzeit (16.-18. Jahrhundert) vorgenommene Seitenzählung."@de;
+  skos:example hspv:b160b7fa-968b-4bdd-84c2-e10a9b353260;
+  skos:inScheme hspv:CODC-D .
+
+hspv:b160b7fa-968b-4bdd-84c2-e10a9b353260 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0027/0000002710/00000004.jpx/pct:4.21369,0.70313,48.41986,20.10417/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000002710/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1751a, Bl. 2v." .
+
+hspv:CODC-D223 a skos:Concept;
+  skos:notation "CODC-D223";
+  skos:prefLabel "moderne Seitenzählung"@de, "modern pagination"@en;
+  skos:altLabel "moderne Paginierung"@de;
+  skos:broader hspv:CODC-D653;
+  skos:definition "Eine moderne Seitenzählung (ab dem 19. Jahrhundert)."@de;
+  skos:example hspv:fef958d7-9308-4753-a4ae-ad1a2b2452bb;
+  skos:inScheme hspv:CODC-D .
+
+hspv:fef958d7-9308-4753-a4ae-ad1a2b2452bb a schema:ImageObject;
+  schema:contentUrl <https://digital.ub.uni-duesseldorf.de/i3f/v20/9410909/pct:5.36431,3.71668,49.33474,23.4425/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.ub.uni-duesseldorf.de/i3f/v20/9410881/manifest>;
+  schema:caption "Universitäts- und Landesbibliothek Düsseldorf, Ms. C 104, Bl. 12V" .
+
+hspv:CODC-D400 a skos:Concept;
+  skos:notation "CODC-D400";
+  skos:prefLabel "Spaltenzählung"@de, "column signatures"@en;
+  skos:altLabel "Kolumnenzählung"@de;
+  skos:definition "Alte Spaltenzählung bzw. Kolumnenzählung mit Buchstaben oder Ziffern ist relativ selten."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 162.";
+  skos:example hspv:a58ecbb6-9e5a-412e-9353-25425de90051;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:a58ecbb6-9e5a-412e-9353-25425de90051 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00105661_00015/pct:0.82645,0.15604,99.0136,14.76497/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105661/manifest>;
+  schema:caption "München, BSB, Clm 28158, Bl. 6r." .
+
+hspv:CODC-D541 a skos:Concept;
+  skos:notation "CODC-D541";
+  skos:prefLabel "Seitentitel"@de, "running title"@en;
+  skos:altLabel "Seitenüberschriften"@de;
+  skos:definition "Als Seitentitel oder Seitenüberschriften werden Buch- und Kapitelangaben am oberen Rand des jeweiligen Blattes bezeichnet. Dieses frühmittelalterliche Verfahren wurde im 12. Jahrhundert wieder aufgenommen."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 165.";
+  skos:example hspv:b1a8615f-62b3-4207-aaa1-b9757792f343;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:b1a8615f-62b3-4207-aaa1-b9757792f343 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0044/0000004482/00000006.jpx/pct:6.8109,6.10755,65.17094,20.19231/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004482/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1329, Bl. 2v." .
+
+hspv:CODC-D742 a skos:Concept;
+  skos:notation "CODC-D742";
+  skos:prefLabel "Kolumnentitel"@de, "column title"@en;
+  skos:altLabel "Spaltentitel"@de;
+  skos:definition "Als Kolumnentitel werden Überschriften über den einzelnen Spalten einer Handschrift bezeichnet. Sie dienen der Orientierung und leichteren Zitierbarkeit."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 165.";
+  skos:example hspv:8b02a2ea-0077-4fa9-85d6-adf12eb06952;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:8b02a2ea-0077-4fa9-85d6-adf12eb06952 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00106065_00025/pct:0.69758,0.45165,98.68691,17.64081/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106065/manifest>;
+  schema:caption "Ansbach, Staatliche Bibliothek, Ms. Lat. 91, Bl. 12r." .
+
+hspv:CODC-D177 a skos:Concept;
+  skos:notation "CODC-D177";
+  skos:prefLabel "Kustoden"@de, "quire counting and/or catchwords"@en;
+  skos:definition "Nach dem Schreiben wurden die Lagen gekennzeichnet, damit sie beim Binden in der richtigen Reihenfolge angeordnet werden konnten. Es gibt verschiedene Arten der Kennzeichnung."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 123.";
+  skos:example hspv:d49a7aa4-693a-46c2-8fda-228f14c7429e;
+  skos:narrower hspv:CODC-D571, hspv:CODC-D611, hspv:CODC-D608;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:d49a7aa4-693a-46c2-8fda-228f14c7429e a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0047/0000004783/00000018.jpx/pct:22.75641,72.32906,71.26068,14.58333/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004783/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1330, Bl. 7v." .
+
+hspv:CODC-D571 a skos:Concept;
+  skos:notation "CODC-D571";
+  skos:prefLabel "Lagenzählung"@de, "quire counting"@en;
+  skos:broader hspv:CODC-D177;
+  skos:definition "Die älteste Form der Lagenbezeichnung ist die Lagenzählung. Sie wurde auf der ersten oder letzten Lagenseite, meist am unteren Rand, angebracht. Zum Zählen der Lagen wurden römische, später auch arabische Ziffern oder ausgeschriebene Zählungen verwendet. Seltener kommt auch eine Zählung mit Buchstaben vor."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 123f.";
+  skos:example hspv:6eae481f-f2f7-4992-af9f-b9dbe02e1f29;
+  skos:inScheme hspv:CODC-D .
+
+hspv:6eae481f-f2f7-4992-af9f-b9dbe02e1f29 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0047/0000004783/00000018.jpx/pct:22.75641,72.32906,71.26068,14.58333/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004783/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1330, Bl. 7v." .
+
+hspv:CODC-D611 a skos:Concept;
+  skos:notation "CODC-D611";
+  skos:prefLabel "Lagenblattzählung"@de, "quire leaves counting"@en;
+  skos:broader hspv:CODC-D177;
+  skos:definition "Unter Lagenblattzählung wird eine Lagenbezeichnung verstanden, bei der nicht oder nicht nur die Lagen selbst, sondern auch deren einzelne Blätter gezählt werden. Meist werden nur die Blätter der ersten Lagenhälfte durchgezählt."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 125.";
+  skos:example hspv:6986624d-af07-448b-a59c-c9ffcc8f2f46;
+  skos:narrower hspv:CODC-D387, hspv:CODC-D511;
+  skos:inScheme hspv:CODC-D .
+
+hspv:6986624d-af07-448b-a59c-c9ffcc8f2f46 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054811/00000033.jpx/pct:74.67949,85.11396,12.01923,6.33903/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000054811/manifest.json>;
+  schema:caption "Leipzig, Bundesverwaltungsgericht, Bibliothek, MS 2° E 2785, Bl. 12r." .
+
+hspv:CODC-D387 a skos:Concept;
+  skos:notation "CODC-D387";
+  skos:prefLabel "Lagensignaturen"@de, "quire signatures"@en;
+  skos:broader hspv:CODC-D611;
+  skos:definition "Mit Lagensignatur wird eine Form der Lagenblattzählung bezeichnet, bei der sowohl die Lage als auch die Lagenblätter gezählt werden, meist mit Buchstaben für die Lage und Ziffern für die Lagenblätter. Diese Form der Lagenbezeichnung ist auch im Bereich der frühen Drucke sehr verbreitet."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 125.";
+  skos:example hspv:b8489af1-223b-40c7-a949-dccb8a834118;
+  skos:inScheme hspv:CODC-D .
+
+hspv:b8489af1-223b-40c7-a949-dccb8a834118 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0548/0000054811/00000033.jpx/pct:74.67949,85.11396,12.01923,6.33903/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000054811/manifest.json>;
+  schema:caption "Leipzig, Bundesverwaltungsgericht, Bibliothek, MS 2° E 2785, Bl. 12r." .
+
+hspv:CODC-D511 a skos:Concept;
+  skos:notation "CODC-D511";
+  skos:prefLabel "Lagenfoliierung"@de, "quire foliation"@en;
+  skos:broader hspv:CODC-D611;
+  skos:definition "Mit Lagenfoliierung wird eine Form der Lagenblattzählung bezeichnet, bei der nur die Lagenblätter, nicht aber die Lagen selbst gezählt werden. Für die Zählung wurden entweder Buchstaben oder Ziffern verwendet."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 125.";
+  skos:example hspv:7145bdc0-bb1d-4d47-a635-06536edb6a1a;
+  skos:inScheme hspv:CODC-D .
+
+hspv:7145bdc0-bb1d-4d47-a635-06536edb6a1a a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FAntiCipaa_1801123012%2FAntiCipaa_1801123012_tif%2Fjpegs%2F00000020.tif.medium.jpg/pct:32.7,74.5377,47.9,16.99858/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.slub-dresden.de/iiif/2/1801123012/manifest.json>;
+  schema:caption "Dresden, SLUB, St. Marienthal F 1/4, Bl. 7v." .
+
+hspv:CODC-D608 a skos:Concept;
+  skos:notation "CODC-D608";
+  skos:prefLabel "Reklamanten"@de, "catchwords"@en;
+  skos:broader hspv:CODC-D177;
+  skos:definition "Als Reklamanten bzw. Wortreklamanten bezeichnet man die in der Regel auf der Versoseite des letzten Blattes einer Lage vermerkten Anfangsworte der nächsten Lage. Dies sollte die richtige Reihenfolge der Lagen beim Binden unterstützen. Reklamanten treten erstmals im 11. Jahrhundert auf und werden ab dem 12. Jahrhundert zunehmend häufiger."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 70.";
+  skos:example hspv:86c20042-5090-49ae-b0df-64ee8b9a691c;
+  skos:inScheme hspv:CODC-D .
+
+hspv:86c20042-5090-49ae-b0df-64ee8b9a691c a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0358/0000035872/00000022.jpx/pct:18.98438,71.12847,75.02604,21.96181/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000035872/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 669, Bl. 10v." .
+
+hspv:CODC-D483 a skos:Concept;
+  skos:notation "CODC-D483";
+  skos:prefLabel "Glossen"@de, "gloss"@en;
+  skos:altLabel "Kommentare"@de;
+  skos:definition "Die Handschrift enthält neben dem Haupttext einen Kommentar bzw. eine Glosse zum Text. Die Glosse kann verschiedene Formen haben. In manchen Fällen wird der Schriftraum bereits für eine Aufteilung in Haupttext und Glosse eingerichtet, z.B. durch eigene Spalten für Text und Glosse. Die Glossen können aber auch in den Haupttext integriert (Interlinearglossen) oder außerhalb des Schriftraums eingetragen sein (Marginalglossen). Zudem können Text und Glosse durch verschiedene Schriften, Schriftgrade oder Farben voneinander abgesetzt sein."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 139.";
+  skos:example hspv:e05ded6e-ace4-41ef-8255-7f614de117c5;
+  skos:narrower hspv:CODC-D765, hspv:CODC-D782, hspv:CODC-D791;
+  skos:inScheme hspv:CODC-D;
+  skos:topConceptOf hspv:CODC-D .
+
+hspv:e05ded6e-ace4-41ef-8255-7f614de117c5 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0095/0000009594/00000325.jpx/pct:42.68162,44.3198,31.49038,9.33048/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000009594/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1118, Bl. 160r." .
+
+hspv:CODC-D765 a skos:Concept;
+  skos:notation "CODC-D765";
+  skos:prefLabel "Interlinearglossen"@de, "interlinear gloss"@en;
+  skos:broader hspv:CODC-D483;
+  skos:definition "Als Interlinearglossen werden Glossen bzw. Kommentare bezeichnet, die zwischen die Zeilen des Haupttextes eingetragen wurden. Oft wurde diese Form der Glossierung für Übersetzungen ganzer Texte oder einzelner Wörter verwendet, sog. Interlinearversionen."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 138.";
+  skos:example hspv:53bab4ab-4f99-45d7-aa55-161261b65cae;
+  skos:inScheme hspv:CODC-D .
+
+hspv:53bab4ab-4f99-45d7-aa55-161261b65cae a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0095/0000009594/00000325.jpx/pct:42.68162,44.3198,31.49038,9.33048/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000009594/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Ms 1118, Bl. 160r." .
+
+hspv:CODC-D782 a skos:Concept;
+  skos:notation "CODC-D782";
+  skos:prefLabel "Marginalglossen"@de, "marginal gloss"@en;
+  skos:broader hspv:CODC-D483;
+  skos:definition "Als Marginalglossen werden Glossen bzw. Kommentare bezeichnet, die sich außerhalb des Schriftraums auf den Rändern der Seite befinden."@de;
+  skos:example hspv:c572b473-a8f5-493b-9cc4-2d890a087189;
+  skos:inScheme hspv:CODC-D .
+
+hspv:c572b473-a8f5-493b-9cc4-2d890a087189 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0552/0000055286/00000035.jpx/pct:4.43376,28.09829,86.75214,59.24145/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000055286/manifest.json>;
+  schema:caption "Leipzig, Bundesverwaltungsgericht, MS 4° E 5164, Bl. 13r." .
+
+hspv:CODC-D791 a skos:Concept;
+  skos:notation "CODC-D791";
+  skos:prefLabel "sonstige Glossierungsformen"@de, "other kinds of gloss"@en;
+  skos:altLabel "sonstige Kommentarformen"@de;
+  skos:broader hspv:CODC-D483;
+  skos:example hspv:af90bb00-f536-4cfc-9ab7-5e1dddaf7dc1;
+  skos:inScheme hspv:CODC-D .
+
+hspv:af90bb00-f536-4cfc-9ab7-5e1dddaf7dc1 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00035431_00071/pct:1.68303,0.82777,97.52221,85.59396/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00035431/manifest>;
+  schema:caption "München, BSB, Clm 2935, Bl. 36r." .
+
+hspv:CODC-A a skos:ConceptScheme;
+  skos:prefLabel "Beschreibstoff"@de, "Support material"@en;
+  skos:definition "Thesaurus: Beschreibstoff (CODC-A)"@de, "Thesaurus: Support material (CODC-A)"@en;
+  skos:inScheme hspv:CODC;
+  skos:hasTopConcept hspv:CODC-A194, hspv:CODC-A800, hspv:CODC-A366, hspv:CODC-A645,
+    hspv:CODC-A601, hspv:CODC-A325, hspv:CODC-A635, hspv:CODC-A480 .
+
+hspv:CODC-A194 a skos:Concept;
+  skos:notation "CODC-A194";
+  skos:prefLabel "Papyrus (Beschreibstoff)"@de, "papyrus (support)"@en;
+  skos:definition "Papyrus war in der griechisch-römischen Antike der vorherrschende Beschreibstoff, bis im 4. Jahrhundert Pergament als konkurrierender Beschreibstoff an Bedeutung gewann."@de;
+  dct:bibliographicCitation "Mazal, Lehrbuch der Handschriftenkunde, S. 42-44.";
+  skos:example hspv:43ef6fdb-0257-4625-9c90-6ccd0ba0eb01;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:43ef6fdb-0257-4625-9c90-6ccd0ba0eb01 a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2Fgrieha-m_351370048%2Fgrieha-m_351370048_tif%2Fjpegs%2F00000001.tif.medium.jpg/pct:9.1,5.31335,79.9,86.78474/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.slub-dresden.de/iiif/2/351370048/manifest.json>;
+  schema:caption "Dresden, SLUB, Mscr.Dresd.R.306, S. 1" .
+
+hspv:CODC-A800 a skos:Concept;
+  skos:notation "CODC-A800";
+  skos:prefLabel "Pergament (Beschreibstoff)"@de, "parchment (support)"@en;
+  skos:definition "Pergament war seit dem 2. vorchristlichen Jahrhundert bekannt und wurde seit dem frühen Mittelalter und bis zum Ende des 13. Jahrhunderts zum vorherrschenden Beschreibstoff. Ab dem 14. Jahrhundert wurde Pergament nach und nach durch Papier als Beschreibstoff verdrängt."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 105.";
+  skos:example hspv:c1309cb0-b1fe-4bca-9cd5-542083bf7c66;
+  skos:narrower hspv:CODC-A915, hspv:CODC-A959, hspv:CODC-A794, hspv:CODC-A653, hspv:CODC-A117,
+    hspv:CODC-A839;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:c1309cb0-b1fe-4bca-9cd5-542083bf7c66 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0047/0000004777/00000167.jpx/pct:17.1875,61.28472,73.30729,33.26389/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000004777/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 431, Bl. 82r" .
+
+hspv:CODC-A915 a skos:Concept;
+  skos:notation "CODC-A915";
+  skos:prefLabel "Kalbspergament (Beschreibstoff)"@de, "calfskin parchment (support)"@en;
+  skos:broader hspv:CODC-A800;
+  skos:definition "Kalbspergament weist im Gegensatz zu Schafs- und Ziegenpergament meist eine weniger deutlich sichtbare Porenstruktur auf. Auch die Unterscheidung von Haar- und Fleischseite ist oft schwierig. Aus einer Kalbshaut kann ein Pergamentbogen von ca. 100 x 80 cm gewonnen werden. Tendenziell wurde im Süden Europas eher Schafs- und Ziegenpergament, im Norden eher Kalbspergament verwendet."@de;
+  dct:bibliographicCitation "Mazal, Geschichte der Buchkultur, Bd. 4/1, S. 22-25.";
+  skos:example hspv:74b80468-5c66-4da7-b0b3-679b2f142ab5;
+  skos:inScheme hspv:CODC-A .
+
+hspv:74b80468-5c66-4da7-b0b3-679b2f142ab5 a schema:ImageObject;
+  schema:contentUrl <https://www.franconica.online/o/iiif/2/33018/pct:62.45614,62.44213,36.92982,34.9537/pct:100/0/default.jpg>;
+  schema:identifier <https://www.franconica.online/o/iiif/2/32950/manifest>;
+  schema:caption "Würzburg, UB, M.p.th.f.24, Bl. 17v/18r" .
+
+hspv:CODC-A959 a skos:Concept;
+  skos:notation "CODC-A959";
+  skos:prefLabel "Schafspergament (Beschreibstoff)"@de, "sheepskin parchment (support)"@en;
+  skos:broader hspv:CODC-A800;
+  skos:definition "Schafspergament weist im Gegensatz zu Kalbspergament meist eine deutlich sichtbare Porenstruktur auf und ist im Gegensatz zu Ziegenpergament eher gelblich gefärbt. Aus einer Schafshaut kann ein Pergamentbogen von ca. 60-80 x 40-60 cm gewonnen werden. Tendenziell wurde im Süden Europas eher Schafs- und Ziegenpergament, im Norden eher Kalbspergament verwendet."@de;
+  dct:bibliographicCitation "Mazal, Geschichte der Buchkultur, Bd. 4/1, S. 22-25.";
+  skos:example hspv:d4f0ba28-f374-40f6-aed8-f00b21f2640d;
+  skos:inScheme hspv:CODC-A .
+
+hspv:d4f0ba28-f374-40f6-aed8-f00b21f2640d a schema:ImageObject;
+  schema:contentUrl <https://www.franconica.online/o/iiif/2/32958/pct:66.75439,67.65046,33.07018,26.79398/pct:100/0/default.jpg>;
+  schema:identifier <https://www.franconica.online/o/iiif/2/32950/manifest>;
+  schema:caption "Würzburg, UB, M.p.th.f.24, Bl. 2v/3r" .
+
+hspv:CODC-A794 a skos:Concept;
+  skos:notation "CODC-A794";
+  skos:prefLabel "Ziegenpergament (Beschreibstoff)"@de, "goatskin parchment (support)"@en;
+  skos:broader hspv:CODC-A800;
+  skos:definition "Ziegenpergament weist im Gegensatz zu Kalbspergament meist eine deutlich sichtbare Porenstruktur auf und ist im Gegensatz zu Schafspergament eher grau-bräunlich gefärbt. Tendenziell wurde im Süden Europas eher Schafs- und Ziegenpergament, im Norden eher Kalbspergament verwendet."@de;
+  dct:bibliographicCitation "Mazal, Geschichte der Buchkultur, Bd. 4/1, S. 22-25.";
+  skos:example hspv:05a25519-f81c-415d-90d1-37387f1f87ba;
+  skos:inScheme hspv:CODC-A .
+
+hspv:05a25519-f81c-415d-90d1-37387f1f87ba a schema:ImageObject;
+  schema:contentUrl <https://digital.ub.uni-duesseldorf.de/i3f/v20/3774458/pct:45.61256,19.67213,36.78161,22.29508/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.ub.uni-duesseldorf.de/i3f/v20/3774436/manifest>;
+  schema:caption "Universitäts- und Landesbibliothek Düsseldorf, Ms. B 2a, hinteres Vorsatz" .
+
+hspv:CODC-A653 a skos:Concept;
+  skos:notation "CODC-A653";
+  skos:prefLabel "Pergament von anderen Tieren (Beschreibstoff)"@de, "other kinds of parchment (support)"@en;
+  skos:broader hspv:CODC-A800;
+  skos:definition "Pergament, das von anderen Tieren als Kalb, Schaf oder Ziege stammt."@de;
+  skos:inScheme hspv:CODC-A .
+
+hspv:CODC-A117 a skos:Concept;
+  skos:notation "CODC-A117";
+  skos:prefLabel "Pergament mit deutlichen Unterschieden zwischen Haar- und Fleischseiten (Beschreibstoff)"@de,
+    "parchment with salient differences between flesh and hair side (support)"@en;
+  skos:broader hspv:CODC-A800;
+  skos:definition "Pergament, das im frühen Mittelalter in Italien, Spanien und Südfrankreich hergestellt wurde, war auf der Fleischseite sorgfältiger bearbeitet als auf der ungleichmäßigeren und meist dunkleren Haarseite."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 107.";
+  skos:example hspv:318cabd2-ffd6-4f88-81cd-787e7b8980e4;
+  skos:inScheme hspv:CODC-A .
+
+hspv:318cabd2-ffd6-4f88-81cd-787e7b8980e4 a schema:ImageObject;
+  schema:contentUrl <https://www.franconica.online/o/iiif/2/32958/pct:66.75439,67.65046,33.07018,26.79398/pct:100/0/default.jpg>;
+  schema:identifier <https://www.franconica.online/o/iiif/2/32950/manifest>;
+  schema:caption "Würzburg, UB, M.p.th.f.24, Bl. 2v/3r" .
+
+hspv:CODC-A839 a skos:Concept;
+  skos:notation "CODC-A839";
+  skos:prefLabel "Pergament ohne deutliche Unterschiede zwischen Haar- und Fleischseiten (Beschreibstoff)"@de,
+    "parchment without differences between flesh and hair side (support)"@en;
+  skos:broader hspv:CODC-A800;
+  skos:definition "Im frühen Mittelalter wurde Pergament ohne Unterschiede zwischen Haar- und Fleischseiten meist in nördlichen Regionen hergestellt. Seit dem 13. Jahrhundert wurde allgemein ein feineres Pergament bevorzugt."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 107.";
+  skos:example hspv:af5bc093-5d73-4ace-8baa-99c5ef4be366;
+  skos:inScheme hspv:CODC-A .
+
+hspv:af5bc093-5d73-4ace-8baa-99c5ef4be366 a schema:ImageObject;
+  schema:contentUrl <https://www.franconica.online/o/iiif/2/33018/pct:62.45614,62.44213,36.92982,34.9537/pct:100/0/default.jpg>;
+  schema:identifier <https://www.franconica.online/o/iiif/2/32950/manifest>;
+  schema:caption "Würzburg, UB, M.p.th.f.24, Bl. 17v/18r" .
+
+hspv:CODC-A366 a skos:Concept;
+  skos:notation "CODC-A366";
+  skos:prefLabel "Papier (Beschreibstoff)"@de, "paper (support)"@en;
+  skos:definition "Papier wurde seit dem 13. Jahrhundert in Italien, Frankreich und Spanien hergestellt und verbreitete sich ab dem 14. Jahrhundert zunehmend. Im 15. Jahrhundert war Papier der vorherrschende Beschreibstoff."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 110.";
+  skos:example hspv:8d7b0ecf-1c94-4c98-b8fd-b0721ede5c8b;
+  skos:narrower hspv:CODC-A491, hspv:CODC-A725, hspv:CODC-A783;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:8d7b0ecf-1c94-4c98-b8fd-b0721ede5c8b a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0115/0000011533/00000025.jpx/pct:4.03312,7.88818,86.85897,27.59972/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000011533/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1226, Bl. 4r." .
+
+hspv:CODC-A491 a skos:Concept;
+  skos:notation "CODC-A491";
+  skos:prefLabel "Papier aus Fertigung des lateinisch-europäischen Kulturraums (Beschreibstoff)"@de,
+    "paper of European manufacture (support)"@en;
+  skos:broader hspv:CODC-A366;
+  skos:definition "Papier wurde seit dem 13. Jahrhundert in Italien, Frankreich und Spanien hergestellt und verbreitete sich ab dem 14. Jahrhundert zunehmend. Im 15. Jahrhundert war Papier der vorherrschende Beschreibstoff in Europa."@de;
+  skos:example hspv:737c81fa-3fed-4a22-aa8d-e6da1148207a;
+  skos:inScheme hspv:CODC-A .
+
+hspv:737c81fa-3fed-4a22-aa8d-e6da1148207a a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0115/0000011533/00000025.jpx/pct:4.03312,7.88818,86.85897,27.59972/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000011533/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 1226, Bl. 4r." .
+
+hspv:CODC-A725 a skos:Concept;
+  skos:notation "CODC-A725";
+  skos:prefLabel "Papier aus Fertigung des arabischen Kulturraums (Beschreibstoff)"@de,
+    "paper of Arabic manufacture (support)"@en;
+  skos:broader hspv:CODC-A366;
+  skos:definition "Bei Papier aus Fertigung des arabischen Kulturraums wird unterschieden zwischen westlichem („arabe occidental“) und östlichem („arabe oriental“) Typ."@de;
+  skos:example hspv:54d0f84d-7ad4-4302-9f42-97b8ed7b3ea7;
+  skos:narrower hspv:CODC-A773, hspv:CODC-A797;
+  skos:inScheme hspv:CODC-A .
+
+hspv:54d0f84d-7ad4-4302-9f42-97b8ed7b3ea7 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0131/0000013154/00000015.jpx/pct:35.63034,10.77279,50.02671,27.74217/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000013154/manifest.json>;
+  schema:caption "Leipzig, UB, Cod. gr. 17, Bl. 5r." .
+
+hspv:CODC-A773 a skos:Concept;
+  skos:notation "CODC-A773";
+  skos:prefLabel "Papier „arabe occidental“ (Beschreibstoff)"@de, "paper „arabe occidental“ (support)"@en;
+  skos:broader hspv:CODC-A725;
+  skos:definition "Das Papier „arabe occidental“ wurde in den Westgebieten des osmanischen Reichs, im Maghreb und in Spanien hergestellt und ähnelt dem italienischen Papier. Manchmal weist es ein Zickzack-Zeichen auf."@de;
+  dct:bibliographicCitation "M. Agati, The Manuscript Book, S. 95.";
+  skos:example hspv:ab586b3e-efd4-4d17-814a-0e95bd0a47cc;
+  skos:inScheme hspv:CODC-A .
+
+hspv:ab586b3e-efd4-4d17-814a-0e95bd0a47cc a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00072398_00101/pct:1.59384,0.85047,96.86727,98.55617/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00072398/manifest>;
+  schema:caption "München, BSB, Cod.graec. 184, Bl. 49r." .
+
+hspv:CODC-A797 a skos:Concept;
+  skos:notation "CODC-A797";
+  skos:prefLabel "Papier „arabe oriental“ (Beschreibstoff)"@de, "paper „arabe oriental“ (support)"@en;
+  skos:broader hspv:CODC-A725;
+  skos:definition "Das Papier „arabe oriental“ wurde in den Ostgebieten des osmanischen Reichs, in Irak, Ägypten, Syrien und Palästina, hergestellt. Es hat eine regelmäßige Struktur und ist glatt, die Kettlinien sind meist nur schwer erkennbar. Es weist nie ein Zickzack-Zeichen auf."@de;
+  dct:bibliographicCitation "M. Agati, The Manuscript Book, S. 95.";
+  skos:example hspv:c597c931-6a95-4f30-8eb4-b17a1deabec0;
+  skos:inScheme hspv:CODC-A .
+
+hspv:c597c931-6a95-4f30-8eb4-b17a1deabec0 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00073918_00763/pct:0.1301,0.72046,99.21943,98.9049/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00073918/manifest>;
+  schema:caption "München, BSB, Cod.graec. 263, Bl. 376r." .
+
+hspv:CODC-A783 a skos:Concept;
+  skos:notation "CODC-A783";
+  skos:prefLabel "industriell gefertigtes Papier (Beschreibstoff)"@de, "paper of industrial manufacture (support)"@en;
+  skos:broader hspv:CODC-A366;
+  skos:definition "Ab dem 19. Jahrhundert kam neben dem handwerklich hergestellten auch Papier aus industrieller Fertigung auf."@de;
+  skos:example hspv:e994f1e2-32f9-4951-b014-943018478d03;
+  skos:inScheme hspv:CODC-A .
+
+hspv:e994f1e2-32f9-4951-b014-943018478d03 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0349/0000034916/00000011.jpx/pct:15.80729,64.60069,70.88542,29.79167/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000034916/manifest.json>;
+  schema:caption "Leipzig, UB, Ms 2818, S. 7." .
+
+hspv:CODC-A645 a skos:Concept;
+  skos:notation "CODC-A645";
+  skos:prefLabel "Holz (Beschreibstoff)"@de, "wood (support)"@en;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:CODC-A601 a skos:Concept;
+  skos:notation "CODC-A601";
+  skos:prefLabel "Rinde (Beschreibstoff)"@de, "bark (support)"@en;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:CODC-A325 a skos:Concept;
+  skos:notation "CODC-A325";
+  skos:prefLabel "Textilien (Beschreibstoff)"@de, "textile (support)"@en;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:CODC-A635 a skos:Concept;
+  skos:notation "CODC-A635";
+  skos:prefLabel "Wachs(-tafel) (Beschreibstoff)"@de, "wax tablet (support)"@en;
+  skos:altLabel "Wachs (Beschreibstoff)"@de;
+  skos:definition "Auch im Mittelalter wurden die seit der Antike gebräuchlichen Wachstafeln für Notizen, Briefe und ähnliche, nicht für die dauerhafte Aufbewahrung bestimmte Texte verwendet"@de;
+  dct:bibliographicCitation "Mazal, Geschichte der Buchkultur, Bd. 4/1, S. 38f.";
+  skos:example hspv:7082b65d-d0df-4b7e-8697-79e8aa013d93;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:7082b65d-d0df-4b7e-8697-79e8aa013d93 a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.arthistoricum.net/iiif/2/proxy%2F67%2F67-b2FpOmRldXRzY2hlZm90b3RoZWsuZGU6YTg0NTA6Om9ianw5MDA4ODc2MXxkZl9kYXRfMDAxNTg1NA.jpg/pct:8.70787,2.375,84.3633,95.5/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.arthistoricum.net/proxy/fotothek/df_dat_0015854/manifest.json>;
+  schema:caption "Dresden, SLUB, Mscr.Dresd.M.18, 4." .
+
+hspv:CODC-A480 a skos:Concept;
+  skos:notation "CODC-A480";
+  skos:prefLabel "Sonstiger Beschreibstoff"@de, "other kinds of support material"@en;
+  skos:inScheme hspv:CODC-A;
+  skos:topConceptOf hspv:CODC-A .
+
+hspv:CODC a skos:ConceptScheme;
+  skos:prefLabel "Buchkunde"@de, "Codicology"@en;
+  skos:definition "Themenbereich: Buchkunde"@de, "Domain: Codicology"@en;
+  skos:inScheme hspv:MSVOC .
+
+hspv:CODC-C a skos:ConceptScheme;
+  skos:prefLabel "Faltformat"@de, "Folding format"@en;
+  skos:definition "Thesaurus: Faltformat (CODC-C)"@de, "Thesaurus: Folding format (CODC-C)"@en;
+  skos:inScheme hspv:CODC;
+  skos:hasTopConcept hspv:CODC-C935, hspv:CODC-C636, hspv:CODC-C588, hspv:CODC-C267,
+    hspv:CODC-C465, hspv:CODC-C429, hspv:CODC-C978, hspv:CODC-C335, hspv:CODC-C495, hspv:CODC-C394,
+    hspv:CODC-C189 .
+
+hspv:CODC-C935 a skos:Concept;
+  skos:notation "CODC-C935";
+  skos:prefLabel "Ungefaltete Einzelblätter"@de, "plano (folding format)"@en;
+  skos:altLabel "1° (Faltformat)"@de;
+  skos:definition "Verwendung ungefalteter Einzelblätter, um beispielsweise durch Zusammenheften ganzer Pergament- oder Papierbögen zu Doppelblättern Großformate zu erzielen."@de;
+  skos:example hspv:b0789fde-75f1-464a-8cb8-3c409ea17877;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:b0789fde-75f1-464a-8cb8-3c409ea17877 a schema:ImageObject;
+  schema:contentUrl <https://archive.thulb.uni-jena.de/korax/api/iiif/image/v2/Korax_derivate_00003127%2Fhs_nmb_dsb_chorbuch_8_0003v.tif/pct:3.47101,1.86004,94.33607,92.73481/pct:100/0/default.jpg>;
+  schema:identifier <https://archive.thulb.uni-jena.de/korax/api/iiif/presentation/v2/Korax_derivate_00003127/manifest>;
+  schema:caption "Naumburg (Saale), Domstiftsarchiv und Domstiftsbibliothek Naumburg, Chorbuch VIII, Bl. 3V" .
+
+hspv:CODC-C636 a skos:Concept;
+  skos:notation "CODC-C636";
+  skos:prefLabel "Foliofaltung"@de, "folio (folding format)"@en;
+  skos:altLabel "2° (Faltformat)"@de;
+  skos:definition "Mit Foliofaltung werden Formate bezeichnet, bei denen durch einmaliges Falten eines Pergament- oder Papierbogens ein Doppelblatt entsteht."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 106.";
+  skos:example hspv:826cd4be-a07d-4c31-b956-bb63afed435e;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:826cd4be-a07d-4c31-b956-bb63afed435e a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00035397_00701/pct:0.97087,1.78156,98.91491,97.94733/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00035397/manifest>;
+  schema:caption "München, BSB, Cgm 1109, Bl. 339v" .
+
+hspv:CODC-C588 a skos:Concept;
+  skos:notation "CODC-C588";
+  skos:prefLabel "Quartfaltung"@de, "quarto (folding format)"@en;
+  skos:altLabel "4° (Faltformat)"@de;
+  skos:definition "Mit Quartfaltung werden Formate bezeichnet, bei denen durch zweimaliges Falten eines Pergament- oder Papierbogens zwei Doppelblätter entstehen."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 106.";
+  skos:example hspv:7b72faf7-38b5-4f52-bc2d-a99c849cbd6b;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:7b72faf7-38b5-4f52-bc2d-a99c849cbd6b a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00047192_00279/pct:1.25348,1.67888,98.36351,96.80776/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00047192/manifest>;
+  schema:caption "München, BSB, Clm 6229, Bl. 133v." .
+
+hspv:CODC-C267 a skos:Concept;
+  skos:notation "CODC-C267";
+  skos:prefLabel "Oktavfaltung"@de, "octavo (folding format)"@en;
+  skos:altLabel "8° (Faltformat)"@de;
+  skos:definition "Mit Oktavfaltung werden Formate bezeichnet, bei denen durch dreimaliges Falten eines Pergament- oder Papierbogens vier Doppelblätter entstehen."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 106.";
+  skos:example hspv:65ff1376-78de-4345-a3e6-3dfff63da38f;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:65ff1376-78de-4345-a3e6-3dfff63da38f a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00088337_00157/pct:0.84459,0.29049,98.08559,98.07553/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00088337/manifest>;
+  schema:caption "München, BSB, Cgm 89, S. 146" .
+
+hspv:CODC-C465 a skos:Concept;
+  skos:notation "CODC-C465";
+  skos:prefLabel "Duodezfaltung"@de, "duodecimo (folding format)"@en;
+  skos:altLabel "12° (Faltformat)"@de;
+  skos:definition "Als Duodez werden Formate bezeichnet, bei denen jedes Blatt ein Zwölftel eines Bogens ist. Dies kann z.B. durch viermaliges Falten erreicht werden."@de;
+  skos:example hspv:bdfa1575-137d-4b8c-9449-4bdcbfd42fea;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:bdfa1575-137d-4b8c-9449-4bdcbfd42fea a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0356/0000035660/00000185.jpx/pct:1.06771,6.04167,90.41667,89.28819/pct:100/0/default.jpg>;
+  schema:identifier <https://iiif.ub.uni-leipzig.de/0000035660/manifest.json>;
+  schema:caption "Leipzig, Universitätsbibliothek, Rep. II 166a (Leihgabe Leipziger Stadtbibliothek), Bl. 92r." .
+
+hspv:CODC-C429 a skos:Concept;
+  skos:notation "CODC-C429";
+  skos:prefLabel "Sedezfaltung"@de, "sexto-decimo (folding format)"@en;
+  skos:altLabel "Sexdecim"@de, "16° (Faltformat)"@de;
+  skos:definition "Mit Sedezfaltung werden Formate bezeichnet, bei denen durch viermaliges Falten eines Pergament- oder Papierbogens acht Doppelblätter entstehen."@de;
+  skos:example hspv:90bc2490-75ad-44e7-b695-f700236ebc54;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:90bc2490-75ad-44e7-b695-f700236ebc54 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/1415132/pct:2.51127,9.29095,81.90599,84.29095/pct:100/0/default.jpg>;
+  schema:identifier <https://digital.blb-karlsruhe.de/i3f/v20/1164326/manifest>;
+  schema:caption "Karlsruhe, Badische Landesbibliothek, Cod. Lichtenthal 124, Bl. 58r." .
+
+hspv:CODC-C978 a skos:Concept;
+  skos:notation "CODC-C978";
+  skos:prefLabel "Kleinere Faltungen als Sedez"@de, "smaller foldings than sexto-decimo"@en;
+  skos:definition "Kleinere Formate, die durch mehr als vier Faltungen entstehen."@de;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:CODC-C335 a skos:Concept;
+  skos:notation "CODC-C335";
+  skos:prefLabel "Schmalfoliofaltung"@de, "tall folio (folding format)"@en;
+  skos:definition "Als Schmalfolio werden Formate bezeichnet, bei denen durch einmalige Längsfaltung eines Pergament- oder Papierbogens ein Doppelblatt entsteht."@de;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:CODC-C495 a skos:Concept;
+  skos:notation "CODC-C495";
+  skos:prefLabel "Schmalquartfaltung"@de, "tall quarto (folding format)"@en;
+  skos:definition "Als Schmalquart werden Formate bezeichnet, bei denen durch einmalige Quer- und einmalige Längsfaltung eines Pergament- oder Papierbogens zwei Doppelblätter entstehen."@de;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:CODC-C394 a skos:Concept;
+  skos:notation "CODC-C394";
+  skos:prefLabel "Schmaloktavfaltung"@de, "tall octavo (folding format)"@en;
+  skos:definition "Als Schmaloktav werden Formate bezeichnet, bei denen durch zweimalige Quer- und einmalige Längsfaltung eines Pergament- oder Papierbogens vier Doppelblätter entstehen."@de;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:CODC-C189 a skos:Concept;
+  skos:notation "CODC-C189";
+  skos:prefLabel "Sonstiges Faltformat"@de, "other folding format"@en;
+  skos:inScheme hspv:CODC-C;
+  skos:topConceptOf hspv:CODC-C .
+
+hspv:CODC-B a skos:ConceptScheme;
+  skos:prefLabel "Format (Größe/Seitenverhältnis)"@de, "Format (size)"@en;
+  skos:definition "Thesaurus: Format (Größe/Seitenverhältnis) (CODC-B)"@de, "Thesaurus: Format (size) (CODC-B)"@en;
+  skos:inScheme hspv:CODC;
+  skos:hasTopConcept hspv:CODC-B727, hspv:CODC-B199, hspv:CODC-B653, hspv:CODC-B460,
+    hspv:CODC-B200, hspv:CODC-B865, hspv:CODC-B742, hspv:CODC-B978, hspv:CODC-B234 .
+
+hspv:CODC-B727 a skos:Concept;
+  skos:notation "CODC-B727";
+  skos:prefLabel "Folio (Größe)"@de, "folio (size)"@en;
+  skos:altLabel "2° (Größe)"@de;
+  skos:definition "Mit Folio (Größe) werden Handschriften bezeichnet, die entweder über ihre Abmessungen (Richtwert: Höhe 28-51 cm) oder formatbezogene Signaturenreihen als Folio-Handschriften definiert sind."@de;
+  skos:example hspv:cd38a70c-6d9b-4f3e-8172-a5d90d8c6e14;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:cd38a70c-6d9b-4f3e-8172-a5d90d8c6e14 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00035397_00701/pct:0.97087,1.78156,98.91491,97.94733/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00035397/manifest>;
+  schema:caption "München, BSB, Cgm 1109, Bl. 339v" .
+
+hspv:CODC-B199 a skos:Concept;
+  skos:notation "CODC-B199";
+  skos:prefLabel "Quart (Größe)"@de, "quarto (size)"@en;
+  skos:altLabel "4° (Größe)"@de;
+  skos:definition "Mit Quart (Größe) werden Handschriften bezeichnet, die entweder über ihre Abmessungen (Richtwert: Höhe 19-31 cm) oder über formatbezogene Signaturenreihen als Quart-Handschriften definiert sind."@de;
+  skos:example hspv:0b34f21c-348a-4c68-9236-8b08279f5614;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:0b34f21c-348a-4c68-9236-8b08279f5614 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00047192_00279/pct:1.25348,1.67888,98.36351,96.80776/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00047192/manifest>;
+  schema:caption "München, BSB, Clm 6229, Bl. 133v." .
+
+hspv:CODC-B653 a skos:Concept;
+  skos:notation "CODC-B653";
+  skos:prefLabel "Oktav (Größe)"@de, "octavo (size)"@en;
+  skos:altLabel "8° (Größe)"@de;
+  skos:definition "Mit Oktav (Größe) werden Handschriften bezeichnet, die entweder über ihre Abmessungen (Richtwert: Höhe 13-21 cm) oder über formatbezogene Signaturenreihen als Oktav-Handschriften definiert sind."@de;
+  skos:example hspv:4b20f9d6-c135-497b-bfb1-7c4e813e190c;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:4b20f9d6-c135-497b-bfb1-7c4e813e190c a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00088337_00157/pct:0.84459,0.29049,98.08559,98.07553/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00088337/manifest>;
+  schema:caption "München, BSB, Cgm 89, S. 146" .
+
+hspv:CODC-B460 a skos:Concept;
+  skos:notation "CODC-B460";
+  skos:prefLabel "Großfolio"@de, "larger than folio"@en;
+  skos:altLabel "Größer als Folio"@de, "Imperial"@de;
+  skos:definition "Mit Großfolio werden Handschriften bezeichnet, die entweder über ihre Abmessungen (Richtwert: Höhe größer als 50 cm) oder über formatbezogene Signaturenreihen als Großfolio-Handschriften definiert sind."@de;
+  skos:example hspv:f5e74d58-1cce-4949-a69c-a7da18c82e99;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:f5e74d58-1cce-4949-a69c-a7da18c82e99 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00074101_00709/pct:0.23397,0.43602,99.1109,99.06781/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00074101/manifest>;
+  schema:caption "München, BSB, Cgm 1, Bl. 348v." .
+
+hspv:CODC-B200 a skos:Concept;
+  skos:notation "CODC-B200";
+  skos:prefLabel "Kleiner als Oktav"@de, "smaller than octavo"@en;
+  skos:definition "Mit „Kleiner als Oktav“ werden Handschriften bezeichnet, die entweder über ihre Abmessungen (Richtwert: Höhe kleiner als 15 cm) oder über formatbezogene Signaturenreihen als kleiner als Oktav-Handschriften definiert sind."@de;
+  skos:example hspv:857e4b73-e5bd-4c51-92b0-7d5cc54b800f;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:857e4b73-e5bd-4c51-92b0-7d5cc54b800f a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00091102_00156/pct:0.38204,0.1218,99.42693,99.33009/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00091102/manifest>;
+  schema:caption "München, BSB, Cgm 141, Bl. 61v" .
+
+hspv:CODC-B865 a skos:Concept;
+  skos:notation "CODC-B865";
+  skos:prefLabel "Schmalformat"@de, "tall format"@en;
+  skos:definition "Als Schmalformate werden Handschriften bezeichnet, deren Breite im Vergleich zur Höhe geringer ist als bei den üblichen Buchformaten (Richtwert: Breite kleiner als Höhe/1,8). Diese Formate können durch Zuschneiden, Faltung oder Verwendung von Resten entstanden sein und wurden im Mittelalter oft für Rechnungsbücher oder Verzeichnisse verwendet."@de;
+  dct:bibliographicCitation "Schneider, Paläographie und Handschriftenkunde, S. 107.";
+  skos:example hspv:6d26fb29-c674-4efc-baec-b3fab6ad15dd;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:6d26fb29-c674-4efc-baec-b3fab6ad15dd a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00059590_00020/pct:0.47443,0.12458,99.52557,99.77159/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059590/manifest>;
+  schema:caption "München, BSB, Cgm 3842, Bl. 9v" .
+
+hspv:CODC-B742 a skos:Concept;
+  skos:notation "CODC-B742";
+  skos:prefLabel "Quadratformat"@de, "square format"@en;
+  skos:definition "Als Quadratformate werden Handschriften bezeichnet, bei denen Höhe und Breite übereinstimmen (Richtwert: +/- 1 cm). Diese können durch Zuschneiden oder Verwendung von Resten entstanden sein."@de;
+  skos:example hspv:fa55f2b4-4d2d-4e87-921f-9318a802a44c;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:fa55f2b4-4d2d-4e87-921f-9318a802a44c a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00001840_00023/pct:2.51698,0.94586,92.92849,94.64681/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00001840/manifest>;
+  schema:caption "München, BSB, Cgm 1507, Bl. 10r." .
+
+hspv:CODC-B978 a skos:Concept;
+  skos:notation "CODC-B978";
+  skos:prefLabel "Querformat"@de, "oblong format"@en;
+  skos:definition "Als Querformate werden Handschriften bezeichnet, deren Breite die Höhe überragt (Richtwert: Breite mehr als 1 cm größer als Höhe). Querformate sind im Mittelalter vor allem bei Urkunden und Einblatthandschriften verbreitet, als Buchhandschriften treten sie vermehrt in der Frühen Neuzeit auf."@de;
+  skos:example hspv:78c5ba01-82cf-408a-8e2a-60b393d634a1;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .
+
+hspv:78c5ba01-82cf-408a-8e2a-60b393d634a1 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00038795_00022/pct:0.09179,1.20409,99.30014,98.20891/pct:100/0/default.jpg>;
+  schema:identifier <https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00038795/manifest>;
+  schema:caption "München, BSB, Cgm 1930, Bl. 10v." .
+
+hspv:CODC-B234 a skos:Concept;
+  skos:notation "CODC-B234";
+  skos:prefLabel "Sonstiges Format (Größe/Seitenverhältnis)"@de, "other format (size)"@en;
+  skos:definition "Sonstige Formate, die außerhalb der gängigen Buchformate liegen, z.B. Codices rotundi."@de;
+  skos:inScheme hspv:CODC-B;
+  skos:topConceptOf hspv:CODC-B .

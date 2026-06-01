@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Surrogates</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>.</repository>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <!-- 
+                        each <bibl> element contains information about one digital copy
+                        for more input, repeat <bibl> according to the following scheme
+                     -->
+                     
+                     <bibl>
+                        <!-- URLs -->
+                        <ref type="manifest" target="__URL__"/>
+                        <ref type="thumbnail" target="__URL__"/>
+                        <ref type="other" target="__URL__"/>
+                        
+                        <!-- 
+                           completeness
+                           mögliche Werte sind:
+                              DIGI-B363  =  Vollständig / Complete
+                              DIGI-B575  =  Teilweise digitalisiert / Partially digitized
+                        -->
+                        <ref type="completeness"
+                           target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        
+                        <!-- 
+                           sourceType
+                           mögliche Werte sind: 
+                              DIGI-D139  =  Original / Original
+                              DIGI-D537  =  Reproduktion / reproduction
+                        -->
+                        <ref type="sourceType"
+                           target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        
+                        <!-- 
+                           digitalization type
+                           mögliche Werte sind:
+                              DIGI-C834  =  Farbe / Color / Standard
+                              DIGI-C959  =  Graustufen / Greyscale
+                              DIGI-C394  =  Schwarzweiß / Black-and-white / Bitonal
+                              DIGI-C738  =  Thermo / Thermo / Thermographie / Thermography
+                              DIGI-C799  =  Spektral / Spectral / Spektralaufnahme / Multispektralaufnahme / Spectral imaging / Multi spectral imaging
+                              DIGI-C526  =  Mikroskop / Microscope
+                              DIGI-C970  =  3D / 3D
+                              DIGI-C444  =  Sonstige Aufnahmetechniken / Other digitization techniques
+                        -->
+                        <ref type="digitalizationType"
+                           target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        
+                        <!-- 
+                           captureType
+                           mögliche Werte sind:
+                              DIGI-A445  =  Einzelseite / Single Page
+                              DIGI-A635  =  Doppelseite / Opening
+                              DIGI-A210  =  Detail / Detail
+                        -->
+                        <ref type="captureType"
+                           target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        
+                        <!-- place and name of digitalising institution -->
+                        <orgName type="digitalisingInstitution" ref="__GND-URL__">___digitalisierendeEinrichtung___</orgName>
+                        <placeName type="digitalisingInstitution" ref="__GND-URL__">___OrtDerDigitalisierendenEinrichtung___</placeName>
+                        
+                        <!-- publication date -->
+                        <date when="1970-01-01" type="published">yyyy-mm-dd</date>
+                        <date when="1970-01-01" type="digitalised">yyyy-mm-dd</date>
+                     </bibl>
+                     
+                     <!-- repeat <bibl> if necessary -->
+                     
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>.</p>
+      </body>
+  </text>
+</TEI>

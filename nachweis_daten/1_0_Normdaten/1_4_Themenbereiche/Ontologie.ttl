@@ -1,0 +1,89 @@
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix hspi: <https://normdaten.staatsbibliothek-berlin.de/hsp/initia/> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix hspnorm: <https://normdaten.staatsbibliothek-berlin.de/hsp/authority-file/> .
+@prefix schema: <https://schema.org/> .
+
+<https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> a owl:Ontology ;
+    dc:title "HSP-Ontologie"@de , "HSP ontology"@en ;
+    dc:date "2025-08-08" ;
+    dc:description "Ontologie für den Knowledge Graphen des Handschriftenportals"@de , "Domain specific ontology for the Handschriftenportal Knowledge Graph"@en .
+
+## Classes
+
+hspo:Initium a rdfs:Class ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "Initium"@de, "initium"@en ;
+    rdfs:comment "Ein handschriftlich überlieferter, ggf. teilweise normalisierter Textanfang"@de , "The beginning of a handwritten text, partially normalized"@en ;
+    rdfs:subClassOf schema:TextObject .
+
+## Properties
+
+hspo:alternativeText a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "alternativer Text"@de, "alternative text"@en ;
+    rdfs:comment "Eine alternative Ansetzungsform desselben Initiums, z.B. mit vorangestellten Verbformen"@de , "An alternative textual form of the initium"@en ;
+    rdfs:subPropertyOf schema:text .
+
+hspo:sameAs a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "ist inhaltlich gleich wie"@de, "same as"@en ;
+    rdfs:comment "Mit dieser Relation werden Initien verbunden, die zwar in Graphie, Wortstellung und Wortwahl abweichen können, aber inhaltlich gleich sind"@de , "A relation between two initia of the same content"@en ;
+    rdfs:domain hspo:Initium ;
+    rdfs:range hspo:Initium ;
+    rdfs:subPropertyOf dct:relation .
+
+hspo:closeRelation a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "ist eng verwandt mit"@de, "close relation"@en ;
+    rdfs:comment "Mit dieser Relation werden Initien verbunden, die zwar eng verwandt, aber möglicherweise nicht inhaltlich vollständig gleich sind"@de , "Closely related intia, but not necessariliy having exactly the same content"@en ;
+    rdfs:domain hspo:Initium ;
+    rdfs:range hspo:Initium ;
+    rdfs:subPropertyOf dct:relation . 
+
+hspo:distantRelation a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "ist entfernt verwandt mit"@de, "distant relation"@en ;
+    rdfs:comment "Mit dieser Relation werden Initien verbunden, die zwar Ähnlichkeiten aufweisen, deren Übereinstimmung aber eher gering ist"@de , "Distantly related initia with only some similarities"@en ;
+    rdfs:domain hspo:Initium ;
+    rdfs:range hspo:Initium ;
+    rdfs:subPropertyOf dct:relation .
+
+hspo:hasKeyFeature a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "hat notwendiges Merkmal"@de , "has key feature"@en ;
+    rdfs:comment "Verknüpft ein oder mehrere Thesaurusbegriffe, die notwendige Merkmale eines Fachbegriffs sind."@de , "Assigns one or several thesaurus terms which are necessary features of a specialist term"@en ;
+    rdfs:domain skos:Concept ;
+    rdfs:range skos:Concept ;
+    rdfs:subPropertyOf skos:related .
+    
+hspo:hasOneKeyFeatureFrom a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "hat ein notwendiges Merkmal aus Gruppe"@de , "has one key feature from"@en ;
+    rdfs:comment "Verknüpft eine Gruppe alternativer Thesaurusbegriffe, von denen genau eines ein notwendiges Merkmal eines Fachbegriffs ist."@de , "Assigns a group of alternative thesaurus terms, of which exactly one term is a necessary feature of a specialist term"@en ;
+    rdfs:domain skos:Concept ;
+    rdfs:range rdf:Bag ;
+    rdfs:subPropertyOf skos:related . 
+
+hspo:hasSomeKeyFeaturesFrom a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "hat einige notwendige Merkmale aus Gruppe"@de , "has some key features from"@en ;
+    rdfs:comment "Verknüpft eine Gruppe alternativer Thesaurusbegriffe, von denen eines oder mehrere notwendige Merkmale eines Fachbegriffs sind."@de, "Assigns a group of alternative thesaurus terms, some of which are necessary features of a specialst term"@en ;
+    rdfs:domain skos:Concept ;
+    rdfs:range rdf:Bag ;
+    rdfs:subPropertyOf skos:related .  
+    
+hspo:hasAdditionalFeature a rdf:Property ;
+    rdfs:isDefinedBy <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> ;
+    rdfs:label "hat zusätzliches Merkmal"@de , "has additional feature"@en ;
+    rdfs:comment "Verknüpft ein oder mehrere Thesaurusbegriffe, die häufig auftretende Merkmale eines Fachbegriffs sind."@de , "Assigns one ore several thesaurus terms which are not necessary, but common features of a specialist term"@en ;
+    rdfs:domain skos:Concept ;
+    rdfs:range skos:Concept ;
+    rdfs:subPropertyOf skos:related . 

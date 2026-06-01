@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Muenster_UB/03_Muenster_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6102017/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-324614"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6103273"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4385452/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-228879"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4386115"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2017" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 12</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5600494/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-310885"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5600587"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2019" type="digitized"/>
+                        <date when="2019" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7571405/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-443487"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7571409"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4405534/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-230074"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4405631"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2017" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 59</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/2138209/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6-85659550940"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/2138761"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2014" type="digitized"/>
+                        <date when="2014" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 61</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4099074/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-205339"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4099086"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 69</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5412254/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-303052"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5412265"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 73</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4305818/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-224991"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4306516"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 74</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5408980/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-302954"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5408991"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 75</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5827515/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-316792"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5827519"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 76</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4684216/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-238154"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4684226"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2017" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 77</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4711546/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-238736"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4711553"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2017" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 82</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5819455/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-316592"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5819467"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 83</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5824571/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-316707"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5824581"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 85</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5547403/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309351"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5547421"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 86</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5547770/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309367"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5547779"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 87</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5466423/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-306950"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5466438"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 91</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5466743/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-306963"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5466755"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2018" type="digitized"/>
+                        <date when="2018" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 92</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4248925/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-214121"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4250586"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 94</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/8044507/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-465034"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/8044509"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 95</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7831158/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-457460"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7831160"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7838833/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-457767"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7838843"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 99</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6772287/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-413264"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6772289"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Cod 100</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6851706/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-415513"/>
+                        <ref type="thumbnail"
+                             target="http://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6851716"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D537"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C394"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6705929/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-412480"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6705936"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6705285/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-412455"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6705295"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6705496/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-412460"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6705508"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2020" type="digitized"/>
+                        <date when="2020" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6918052/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-418797"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6918059"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6918395/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-418811"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6918402"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6918281/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-418802"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6918293"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 70</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7181959/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-430579"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7181969"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 200-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/3856972/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-192894"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/3858884"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 200-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/3856973/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-192903"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/3859059"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 200-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/3856974/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-192913"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/3859365"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 200-4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/3856975/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-192926"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/3859617"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 201</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/3859840/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-193019"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/3859860"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Ms N.R. 900</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/995907/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-47832"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/995918"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2012" type="digitized"/>
+                        <date when="2012" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 997</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7170916/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-430537"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7170926"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1020</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4563884/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-234240"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4563893"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2017" type="digitized"/>
+                        <date when="2017" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1177</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7269105/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433325"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7269115"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1190</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/2182828/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-86819"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/2182837"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1200-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4082417/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-203439"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4082429"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1200-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4082761/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-203445"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4082771"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1200-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4124500/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-206716"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4124510"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1200-4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4124736/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-206724"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4124748"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1200-5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4081216/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-203347"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4081229"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1200-6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4081765/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-203356"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4081777"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1202-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5550523/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309443"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5550535"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1202-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5551732/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309458"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5551737"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1202-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5555965/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309571"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5555972"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1202-4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5560161/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309651"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5560168"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1202-5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5561406/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309664"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5561414"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1202-6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/5562147/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-309676"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/5562154"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1203-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6814274/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-414737"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6814282"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1203-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6833742/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-415085"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6833750"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1203-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/6849652/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-415490"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/6849660"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2021" type="digitized"/>
+                        <date when="2021" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1204</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4098832/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-205317"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4098841"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1205</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4098973/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-205328"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4098983"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1206-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4182116/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-209361"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4182132"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1206-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4182754/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-209376"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4182771"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1206-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4183381/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-209384"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4183396"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1206-4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/4185671/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-209471"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/4185686"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2016" type="digitized"/>
+                        <date when="2016" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1234</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/1931432/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-74902"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/1931443"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1236</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/1841932/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-72459"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/1841949"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2013" type="digitized"/>
+                        <date when="2013" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1240</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/3010475/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-141088"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/3010485"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2015" type="digitized"/>
+                        <date when="2015" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1249-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7260141/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433098"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7260154"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1249-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7260464/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433112"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7260468"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1250-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7260701/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433128"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7260708"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1250-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7260891/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433136"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7260898"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1251</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7260270/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433103"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7260280"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7276190/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433483"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7276200"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7276460/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433498"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7276470"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7276657/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433503"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7276665"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7276906/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433512"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7276921"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7277280/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433521"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7277289"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7277578/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433536"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7277591"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7277882/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433541"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7277892"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7278287/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433551"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7278297"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7272825/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433428"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7272832"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westf)</settlement>
+                  <repository key="1086109627">Universitäts- und Landesbibliothek Münster</repository>
+                  <idno>Hs 1252-10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://sammlungen.ulb.uni-muenster.de/i3f/v20/7271659/manifest"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:hbz:6:1-433389"/>
+                        <ref type="thumbnail"
+                             target="https://sammlungen.ulb.uni-muenster.de/download/webcache/1000/7271669"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="1086109627" type="digitizing">Universitäts- und Landesbibliothek Münster</orgName>
+                        <placeName ref="4040608-8" type="digitizing">Münster (Westf)</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

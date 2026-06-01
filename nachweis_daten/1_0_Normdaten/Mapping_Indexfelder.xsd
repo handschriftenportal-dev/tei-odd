@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="entries">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="entry" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="entry">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Indexfeld"/>
+                <xs:element name="Begriff"/>
+                <xs:element name="Anzahl"/>
+                <xs:element name="Thesaurusbegriff01"/>
+                <xs:element name="Thesaurusbegriff02"/>
+                <xs:element name="Thesaurusbegriff03"/>
+                <xs:element name="Thesaurusbegriff04"/>
+                <xs:element name="Thesaurusbegriff05"/>
+                <xs:element name="Thesaurusbegriff06"/>
+                <xs:element name="Thesaurusbegriff07"/>
+                <xs:element name="Thesaurusbegriff08"/>
+                <xs:element name="Thesaurusbegriff09"/>
+                <xs:element name="Thesaurusbegriff10"/>
+                <xs:element name="Thesaurusbegriff11"/>
+                <xs:element name="Thesaurusbegriff12"/>
+                <xs:element name="Thesaurusbegriff13"/>
+                <xs:element name="Thesaurusbegriff14"/>
+                <xs:element name="Thesaurusbegriff15"/>
+                <xs:element name="Notation01"/>
+                <xs:element name="Notation02"/>
+                <xs:element name="Notation03"/>
+                <xs:element name="Notation04"/>
+                <xs:element name="Notation05"/>
+                <xs:element name="Notation06"/>
+                <xs:element name="Notation07"/>
+                <xs:element name="Notation08"/>
+                <xs:element name="Notation09"/>
+                <xs:element name="Notation10"/>
+                <xs:element name="Notation11"/>
+                <xs:element name="Notation12"/>
+                <xs:element name="Notation13"/>
+                <xs:element name="Notation14"/>
+                <xs:element name="Notation15"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Helmstedt_ehemalige_UB/01_Helmstedt_ehemalige_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_I-Hs-1">I Hs 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-i-hs-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_i-hs-0001</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_I-Hs-2">I Hs 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-i-hs-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_i-hs-0002</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pap-Frgm-1">Pap. Frgm. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pap-frgm-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pap-frgm-01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pap.-Fragm. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pap-Frgm-2">Pap. Frgm. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pap-frgm-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pap-frgm-02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pap.-Fragm. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-1">Pgt. Frgm. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-2">Pgt. Frgm. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-3">Pgt. Frgm. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-03</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-4">Pgt. Frgm. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-5">Pgt. Frgm. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-05</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-6">Pgt. Frgm. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-06</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-7">Pgt. Frgm. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-07</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-8">Pgt. Frgm. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-08</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-9">Pgt. Frgm. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-09</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-10">Pgt. Frgm. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-11">Pgt. Frgm. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-12">Pgt. Frgm. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-13">Pgt. Frgm. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-14">Pgt. Frgm. 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-15">Pgt. Frgm. 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-16">Pgt. Frgm. 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 16</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Handschriftencensus-Nr. 25579</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-17">Pgt. Frgm. 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-18">Pgt. Frgm. 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-19">Pgt. Frgm. 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-19</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-20">Pgt. Frgm. 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-20</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-21">Pgt. Frgm. 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-21</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-22">Pgt. Frgm. 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-22</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-23">Pgt. Frgm. 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-23</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-24">Pgt. Frgm. 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-24</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-25">Pgt. Frgm. 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-26">Pgt. Frgm. 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-26</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-27">Pgt. Frgm. 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-27</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-28">Pgt. Frgm. 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-29">Pgt. Frgm. 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-30">Pgt. Frgm. 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-31">Pgt. Frgm. 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-32">Pgt. Frgm. 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-32</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-33">Pgt. Frgm. 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-33</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-34">Pgt. Frgm. 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-35">Pgt. Frgm. 35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-36">Pgt. Frgm. 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-36</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-37">Pgt. Frgm. 37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-37</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024344-8">Helmstedt</settlement>
+                  <repository key="2043328-1">Ehemalige Universitätsbibliothek (Helmstedt)</repository>
+                  <idno xml:id="_Pgt-Frgm-38">Pgt. Frgm. 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>he-exub-pgt-frgm-38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>he_exub_pgt-frgm-38</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Pgt.-Fragm. 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

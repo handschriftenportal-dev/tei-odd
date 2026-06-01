@@ -1,0 +1,164 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix example: <https://data.sparna.fr/shapes-example/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspnorm: <https://normdaten.staatsbibliothek-berlin.de/hsp/authority-file/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix shacl-play: <https://shacl-play.sparna.fr/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix hspi: <https://normdaten.staatsbibliothek-berlin.de/hsp/initia/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://data.sparna.fr/shapes-example#> a owl:Ontology, skos:ConceptScheme;
+  rdfs:label "HSP Ontology SHACL file"@en;
+  rdfs:comment "SHACL file for validating HSP Ontologies"@en;
+  dct:description "This SHACL file documents the HSP Ontologies"@en;
+  owl:versionInfo "0.1";
+  dct:modified "2025-08-08T00:00:00.000Z"^^xsd:dateTime;
+  skos:hasTopConcept dc:title, dc:date, dc:description, rdfs:isDefindedBy, rdfs:label,
+    rdfs:comment, rdfs:domain, rdfs:range, rdfs:subPropertyOf, rdfs:subClassOf .
+
+hspo:OntologyShape a sh:NodeShape;
+  rdfs:label "Ontology"@en;
+  rdfs:comment "HSP Ontology"@en;
+  sh:targetClass owl:Ontology;
+  sh:nodeKind sh:IRI;
+  sh:property dc:title, dc:date, dc:description .
+
+hspo:PropertyShape a sh:NodeShape;
+  rdfs:label "Property"@en;
+  rdfs:comment "Specific properties of the HSP Ontolgy"@en;
+  sh:targetClass rdf:Property;
+  sh:nodeKind sh:IRI;
+  sh:property rdfs:isDefindedBy, rdfs:label, rdfs:comment, rdfs:domain, rdfs:range,
+    rdfs:subPropertyOf .
+
+hspo:ClassShape a sh:NodeShape;
+  rdfs:label "Class"@en;
+  rdfs:comment "Specific classes of the HSP Ontology"@en;
+  sh:targetClass rdfs:Class;
+  sh:nodeKind sh:IRI;
+  sh:property rdfs:isDefindedBy, rdfs:label, rdfs:comment, rdfs:subClassOf .
+
+dc:title a skos:Concept;
+  sh:path dc:title;
+  sh:name "title"@en;
+  sh:description "Title of the ontology"@en;
+  sh:nodeKind sh:Literal;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+dc:date a skos:Concept;
+  sh:path dc:date;
+  sh:name "date"@en;
+  sh:description "Creation or modification date of the ontology"@en;
+  sh:nodeKind sh:Literal;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+dc:description a skos:Concept;
+  sh:path dc:description;
+  sh:name "description"@en;
+  sh:description "Description of the ontology"@en;
+  sh:nodeKind sh:Literal;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+rdfs:isDefindedBy a skos:Concept;
+  sh:path rdfs:isDefindedBy;
+  sh:name "isDefinedBy"@en;
+  sh:description "Namespace which defines the property"@en;
+  sh:nodeKind sh:IRI;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+rdfs:label a skos:Concept;
+  sh:path rdfs:label;
+  sh:name "label"@en;
+  sh:description "Label of the property"@en, "Label of the class"@en;
+  sh:nodeKind sh:Literal;
+  sh:languageIn _:e6e3b3eb9eed4de393db823fd0d73e5742, _:e6e3b3eb9eed4de393db823fd0d73e5746;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5742 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5743 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5743 rdf:first "en";
+  rdf:rest rdf:nil .
+
+rdfs:comment a skos:Concept;
+  sh:path rdfs:comment;
+  sh:name "comment"@en;
+  sh:description "Specification of the property"@en, "Specification of the class"@en;
+  sh:nodeKind sh:Literal;
+  sh:languageIn _:e6e3b3eb9eed4de393db823fd0d73e5744, _:e6e3b3eb9eed4de393db823fd0d73e5748;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5744 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5745 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5745 rdf:first "en";
+  rdf:rest rdf:nil .
+
+rdfs:domain a skos:Concept;
+  sh:path rdfs:domain;
+  sh:name "domain"@en;
+  sh:description "Domain of the property"@en;
+  sh:nodeKind sh:IRI;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+rdfs:range a skos:Concept;
+  sh:path rdfs:range;
+  sh:name "range"@en;
+  sh:description "Range of the property"@en;
+  sh:nodeKind sh:IRI;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+rdfs:subPropertyOf a skos:Concept;
+  sh:path rdfs:subPropertyOf;
+  sh:name "subPropertyOf"@en;
+  sh:description "Superordinate property"@en;
+  sh:nodeKind sh:IRI;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5746 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5747 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5747 rdf:first "en";
+  rdf:rest rdf:nil .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5748 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5749 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5749 rdf:first "en";
+  rdf:rest rdf:nil .
+
+rdfs:subClassOf a skos:Concept;
+  sh:path rdfs:subClassOf;
+  sh:name "subClassOf"@en;
+  sh:description "Superordinate class"@en;
+  sh:nodeKind sh:IRI;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .

@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Marburg_UB/01_Marburg_UB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1">Ms. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-10">Ms. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-101">Ms. 101</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1038-1">Ms. 1038,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 1038, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1038, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1038,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1038-2">Ms. 1038,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 1038, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1038, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1038,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1038-3">Ms. 1038,3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 1038, 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1038, 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1038,3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-104">Ms. 104</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 104</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1049">Ms. 1049</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1049</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1050">Ms. 1050</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1050</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-1053">Ms. 1053</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 1053</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-11">Ms. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-116">Ms. 116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-12">Ms. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-123">Ms. 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-13">Ms. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-14">Ms. 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-15">Ms. 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-16">Ms. 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-17">Ms. 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-18">Ms. 18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-19">Ms. 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-2">Ms. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-20">Ms. 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-21">Ms. 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-217">Ms. 217</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 217</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-218">Ms. 218</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-22">Ms. 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-23">Ms. 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-24">Ms. 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-25">Ms. 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-26">Ms. 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-27">Ms. 27</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-28">Ms. 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-29">Ms. 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-3">Ms. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-30">Ms. 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-306">Ms. 306</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 306</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-31">Ms. 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-318">Ms. 318</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 318</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-32">Ms. 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-33">Ms. 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-34">Ms. 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-35">Ms. 35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-36">Ms. 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-362">Ms. 362</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 362</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-363">Ms. 363</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 363</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-364">Ms. 364</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 364</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-365">Ms. 365</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 365</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-37">Ms. 37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-373">Ms. 373</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 373</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-374">Ms. 374</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 374</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-375-17-18">Ms. 375,17–18</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,17-18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,17</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,17 -18</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,17 -18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-375-1-3">Ms. 375,1–3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,1-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-375-28-31">Ms. 375,28–31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,28-31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,28</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,29</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,30</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,31</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-375-85-86">Ms. 375,85–86</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,85-86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375, 85</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 375,86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375,86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 375, 86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-38">Ms. 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-382">Ms. 382</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 382</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-386">Ms. 386</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 386</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-39">Ms. 39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-393">Ms. 393</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 393</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-4">Ms. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-40">Ms. 40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-41">Ms. 41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-413">Ms. 413</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 413</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-42">Ms. 42</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 42</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-425">Ms. 425</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 425</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-43">Ms. 43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-44">Ms. 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-45">Ms. 45</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-46">Ms. 46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-47">Ms. 47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-48">Ms. 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-49">Ms. 49</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-497-1">Ms. 497,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 497, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 497, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 497,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-497-2">Ms. 497,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. 497, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 497, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 497,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-5">Ms. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-50">Ms. 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-51">Ms. 51</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-52">Ms. 52</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 52</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-53">Ms. 53</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-532">Ms. 532</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 532</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-537">Ms. 537</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 537</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-54">Ms. 54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-55">Ms. 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-56">Ms. 56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-57">Ms. 57</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-58">Ms. 58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-583">Ms. 583</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 583</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-59">Ms. 59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-591">Ms. 591</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 591</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-595">Ms. 595</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 595</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-6">Ms. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-60">Ms. 60</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-61">Ms. 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-62">Ms. 62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-63">Ms. 63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-64">Ms. 64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 64</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-65">Ms. 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-654">Ms. 654</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 654</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-657">Ms. 657</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 657</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-66">Ms. 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-67">Ms. 67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-68">Ms. 68</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 68</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-69">Ms. 69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-7">Ms. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-70">Ms. 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-704">Ms. 704</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 704</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-71">Ms. 71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-72">Ms. 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-73">Ms. 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 73</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-74">Ms. 74</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-75">Ms. 75</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 75</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-76">Ms. 76</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-77">Ms. 77</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-8">Ms. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-80">Ms. 80</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 80</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-81">Ms. 81</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-83">Ms. 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-84">Ms. 84</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 84</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-85">Ms. 85</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-86">Ms. 86</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-87">Ms. 87</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 87</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-88">Ms. 88</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 88</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-9">Ms. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-91">Ms. 91</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 91</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-92">Ms. 92</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 92</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-93">Ms. 93</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037446-4">Marburg</settlement>
+                  <repository key="11210-0">Universitätsbibliothek Marburg</repository>
+                  <idno xml:id="_Ms-94">Ms. 94</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. 94</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

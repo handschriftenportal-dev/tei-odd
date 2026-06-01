@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Goslar_Privatbesitz/01_Goslar_Privatbesitz.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021643-3">Goslar</settlement>
+                  <repository key="1271793571">Privatbesitz (Goslar)</repository>
+                  <idno xml:id="_Brevier-Beschneidung-Christi--Vigil-von-Epiphanias--Epiphanias">Brevier. Beschneidung Christi, Vigil von Epiphanias, Epiphanias</idno>
+                  <altIdentifier type="alternative">
+                     <idno>ohne Signatur [2]</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ohne Signatur</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>93003658</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4021643-3">Goslar</settlement>
+                  <repository key="1271793571">Privatbesitz (Goslar)</repository>
+                  <idno xml:id="_Brevier-Epiphanias">Brevier. Epiphanias</idno>
+                  <altIdentifier type="alternative">
+                     <idno>32595126</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>ohne Signatur [1]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

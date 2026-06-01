@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Controlled Vocabularies</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Handschriftenportal</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Manually created concept schemes</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="digitization">
+          <bibl>
+            <title xml:lang="de">Digitalisierung</title>
+            <title xml:lang="en">Digitization</title>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="digitizationType">
+          <bibl>
+            <title xml:lang="de">Art der Digitalisierung</title>
+            <title xml:lang="en">Digitization Type</title>
+          </bibl>
+          <category xml:id="color">
+            <catDesc>
+              <term xml:lang="de">Farbe</term>
+              <term xml:lang="en">Color</term>
+              <gloss xml:lang="de">Digitalisierung in Farbe.</gloss>
+              <gloss xml:lang="en">Digitization in color.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="greyscale">
+            <catDesc>
+              <term xml:lang="de">Graustufen</term>
+              <term xml:lang="en">Greyscale</term>
+              <gloss xml:lang="de">Digitalisierung in Graustufen.</gloss>
+              <gloss xml:lang="en">Digitization in grayscale.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="bw">
+            <catDesc>
+              <term xml:lang="de">Schwarzwei&#223;</term>
+              <term xml:lang="en">Black-and-white</term>
+              <gloss xml:lang="de">Digitalisierung in Schwarzwei&#223;.</gloss>
+              <gloss xml:lang="en">Digitization in black-and-white.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="thermo">
+            <catDesc>
+              <term xml:lang="de">Thermo</term>
+              <term xml:lang="en">Thermo</term>
+              <gloss xml:lang="de">Thermographieaufnahme.</gloss>
+              <gloss xml:lang="en">Thermography image.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="spectral">
+            <catDesc>
+              <term xml:lang="de">Spektral</term>
+              <term xml:lang="en">Spectral</term>
+              <gloss xml:lang="de">Spektralaufnahme.</gloss>
+              <gloss xml:lang="en">Spectral recording.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="microscope">
+            <catDesc>
+              <term xml:lang="de">Mikroskop</term>
+              <term xml:lang="en">Microscope</term>
+              <gloss xml:lang="de">Mikroskopaufnahme.</gloss>
+              <gloss xml:lang="en">Microscope image.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="threeD">
+            <catDesc>
+              <term xml:lang="de">3D</term>
+              <term xml:lang="en">3D</term>
+              <gloss xml:lang="de">3D-Digitalisierung.</gloss>
+              <gloss xml:lang="en">Digitization in 3D.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="other">
+            <catDesc>
+              <term xml:lang="de">Sonstige</term>
+              <term xml:lang="en">Other</term>
+              <gloss xml:lang="de">Digitalisierung mit einer anderen Aufnahmetechnik.</gloss>
+              <gloss xml:lang="en">Digitization with a different recording technique.</gloss>
+            </catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="sourceType">
+          <bibl>
+            <title xml:lang="de">Art der Quelle</title>
+            <title xml:lang="en">Source Type</title>
+          </bibl>
+          <category xml:id="original">
+            <catDesc>
+              <term xml:lang="de">Original</term>
+              <term xml:lang="en">Original</term>
+              <gloss xml:lang="de">Digitalisierung vom Original.</gloss>
+              <gloss xml:lang="en">Digitization from the original.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="reproduction">
+            <catDesc>
+              <term xml:lang="de">Reproduktion</term>
+              <term xml:lang="en">reproduction</term>
+              <gloss xml:lang="de">Digitalisierung von Reproduktion.</gloss>
+              <gloss xml:lang="en">Digitisation of reproduction.</gloss>
+            </catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="completeness">
+          <bibl>
+            <title xml:lang="de">Vollständigkeit</title>
+            <title xml:lang="en">Completeness</title>
+          </bibl>
+          <category xml:id="complete">
+            <catDesc>
+              <term xml:lang="de">Vollständig</term>
+              <term xml:lang="en">Complete</term>
+              <gloss xml:lang="de">Vollständige Digitalisierung der Vorlage.</gloss>
+            </catDesc>
+            <category xml:id="complete_bookblock_only">
+              <catDesc>
+                <term xml:lang="de">Vollständig (nur Buchblock)</term>
+                <term xml:lang="en">Complete (bookblock only)</term>
+                <gloss xml:lang="de">Vollständige Digitalisierung der Vorlage (nur Buchblock).</gloss>
+              </catDesc>
+            </category>
+            <category xml:id="complete_bookblock_paste-down">
+              <catDesc>
+                <term xml:lang="de">Vollständig (Buchblock und Spiegel)</term>
+                <term xml:lang="en">Complete (bookblock and paste-down)</term>
+                <gloss xml:lang="de">Vollständige Digitalisierung der Vorlage (Buchblock und Spiegel).</gloss>
+              </catDesc>
+            </category>
+            <category xml:id="complete_bookblock_cover">
+              <catDesc>
+                <term xml:lang="de">Vollständig (Buchblock und Deckel)</term>
+                <term xml:lang="en">Complete (bookblock and cover)</term>
+                <gloss xml:lang="de">Vollständige Digitalisierung der Vorlage (Buchblock und Deckel).</gloss>
+              </catDesc>
+            </category>
+            <category xml:id="complete_bookblock_cover_edges">
+              <catDesc>
+                <term xml:lang="de">Vollständig (Buchblock, Deckel und Schnitte)</term>
+                <term xml:lang="en">Complete (bookblock, cover and edges)</term>
+                <gloss xml:lang="de">Vollständige Digitalisierung der Vorlage (Buchblock, Deckel und Schnitte).</gloss>
+              </catDesc>
+            </category>
+          </category>
+          <category xml:id="partial">
+            <catDesc>
+              <term xml:lang="de">Teilweise</term>
+              <term xml:lang="en">Partial</term>
+              <gloss xml:lang="de">Teilweise Digitalisierung der Vorlage.</gloss>
+            </catDesc>
+            <category xml:id="partial_example_pages">
+              <catDesc>
+                <term xml:lang="de">Teilweise (Beispielseiten)</term>
+                <term xml:lang="en">Partial (example pages)</term>
+                <gloss xml:lang="de">Teilweise Digitalisierung der Vorlage (Beispielseiten).</gloss>
+              </catDesc>
+            </category>
+            <category xml:id="partial_coherent_pages">
+              <catDesc>
+                <term xml:lang="de">teilweise (zusammenhängende Seiten)</term>
+                <term xml:lang="en">Partial (coherent pages)</term>
+                <gloss xml:lang="de">Teilweise Digitalisierung der Vorlage (zusammenhängende Seiten).</gloss>
+              </catDesc>
+            </category>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="captureType">
+          <bibl>
+            <title xml:lang="de">Art der Erfassung</title>
+            <title xml:lang="en">Capture Type</title>
+          </bibl>
+          <category xml:id="singlePage">
+            <catDesc>
+              <term xml:lang="de">Einzelseite</term>
+              <term xml:lang="en">Single Page</term>
+              <gloss xml:lang="de">Einzelseitenaufnahme.</gloss>
+              <gloss xml:lang="en">Single page recording.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="opening">
+            <catDesc>
+              <term xml:lang="de">Öffnung</term>
+              <term xml:lang="en">Opening</term>
+              <gloss xml:lang="de">Aufnahme des geöffneten, aufgeschlagenen Buchs.</gloss>
+              <gloss xml:lang="en">Recording of the open book.</gloss>
+            </catDesc>
+          </category>
+          <category xml:id="detail">
+            <catDesc>
+              <term xml:lang="de">Detail</term>
+              <term xml:lang="en">Detail</term>
+              <gloss xml:lang="de">Detailaufnahme.</gloss>
+              <gloss xml:lang="en">Recording of a detail.</gloss>
+            </catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Mainz_Martinusbibliothek/01_Mainz_Martinusbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-1">Hs 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-3">Hs 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-5">Hs 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-6">Hs 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-7">Hs 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-8">Hs 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-9">Hs 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-11">Hs 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-12">Hs 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-18">Hs 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-29">Hs 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-33">Hs 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-34">Hs 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-35">Hs 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-36">Hs 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-37">Hs 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-38">Hs 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-39">Hs 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-40">Hs 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-42">Hs 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-43">Hs 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-45">Hs 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-46">Hs 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-52">Hs 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-92">Hs 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-93">Hs 93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-100">Hs 100</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-117">Hs 117</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-118">Hs 118</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-122">Hs 122</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-130">Hs 130</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-131">Hs 131</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-141">Hs 141</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-160">Hs 160</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-161">Hs 161</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-162">Hs 162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Exegese 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-163">Hs 163</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-164">Hs 164</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-165">Hs 165</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-166">Hs 166</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-214">Hs 214</idno>
+                  <altIdentifier type="alternative">
+                     <idno>A 2179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-216">Hs 216</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-220-h">Hs 220 h</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs 220 l</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-220-i">Hs 220 i</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-220-k">Hs 220 k</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-233">Hs 233</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-370">Hs 370</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 35</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 32-35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Hs-373">Hs 373</idno>
+                  <altIdentifier type="alternative">
+                     <idno>o. Sign.</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-269-280">Inc 269-280</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 270</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 271</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 272</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 273</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 274</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 275</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 276</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 277</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 278</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 279 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 279 b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 280</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-307-a-d">Inc 307 a-d</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 307 c [II]</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 307 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 307 b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 307 c</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 307 d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-400-401">Inc 400-401</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 400</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 401</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-585-598">Inc 585-598</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 587-597</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 585</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 586</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 587</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 588</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 589</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 590</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 591</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 592</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 593</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 594</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 595</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 596</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 597</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 598</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-715-717">Inc 715-717</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 715</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 716</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 717</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-841-850">Inc 841-850</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 848-850</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 841</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 842</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 843</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 844</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 845</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 846</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 847</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 848</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 849</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 850</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-862-865">Inc 862-865</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 862</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 863</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 864</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Inc 865</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_Inc-904">Inc 904</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4037124-4">Mainz</settlement>
+                  <repository key="3045116-4">Martinus-Bibliothek - Wissenschaftliche Diözesanbibliothek</repository>
+                  <idno xml:id="_A-175">A 175</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

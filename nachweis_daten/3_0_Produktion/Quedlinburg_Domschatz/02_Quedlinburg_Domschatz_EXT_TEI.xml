@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+   xml:lang="de"
+   xml:id="qlb-dom">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quedlinburg Domschatz</title>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc>
+            <p>Neukatalogisiert.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xml:id="HAB_mss_qlb-dom-os_tei-msDesc_Koetzsche-Hoffmann">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Beschreibung der Handschrift Quedlinburg, Domschatz, ohne Signatur (Otto-Adelheid-Evangeliar) (Der Quedlinburger Schatz, hrsg. von Dietrich Kötzsche, Berlin 1992, S. 62-68 (Dietrich Kötzsche und Hartmut Hoffmann))</title>
+               <respStmt>
+                  <resp>Beschrieben durch </resp>
+                  <persName role="author" ref="https://d-nb.info/gnd/141200413">Dietrich Kötzsche</persName>
+                  <persName role="author" ref="https://d-nb.info/gnd/131955691">Hartmut Hoffmann</persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Elektronische Ausgabe nach TEI P5</edition>
+               <respStmt>
+                  <resp>TEI-P5 konforme Kodierung durch </resp>
+                  <name>Torsten Schaßan</name>
+                  <name type="org">Herzog August Bibliothek</name>
+               </respStmt>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>
+                  <name type="org">Herzog August Bibliothek</name>
+                  <ptr target="http://www.hab.de"/>
+               </publisher>
+               <date type="issued" when="2015-08-28">28.8.2015</date>
+               <date type="digitised" when="2013-09-03">03.09.2013</date>
+               <distributor>Herzog August Bibliothek</distributor>
+               <availability status="restricted">
+                  <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+                     <p>Dieses Dokument steht unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                     <p>Herzog August Bibliothek Wolfenbüttel (<ref target="http://diglib.hab.de/?link=012">Copyright Information</ref>)</p>
+                  </licence>
+               </availability>
+               <pubPlace>
+                  <ptr type="purl" target="http://diglib.hab.de/mss/ed000057/start.htm"/>
+                  <ptr type="thumbnailForPresentations"
+                     target="http://diglib.hab.de/mss/ed000057/thumbs/00001.jpg"/>
+               </pubPlace>
+               <idno type="URN">urn:nbn:de:gbv:23-mss/ed0000572</idno>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Katalogisiert durch <rs type="person">Dietrich Kötzsche</rs> und <rs type="person">Hartmut Hoffmann</rs>.</p>
+            </sourceDesc>
+         </fileDesc>
+         <revisionDesc>
+            <change who="schassan" when="2015-09-07">Normdaten ergänzt oder korrigiert.</change>
+         </revisionDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <msDesc xml:id="mss_qlb-dom-os_tei-msDesc_Koetzsche-Hoffmann" xml:lang="de">
+               <msIdentifier>
+                  <settlement>Quedlinburg</settlement>
+                  <repository rend="Dom">Domschatz Quedlinburg</repository>
+                  <idno sortKey="qlb_dom_os">ohne Signatur</idno>
+                  <msName>Otto-Adelheid-Evangeliar</msName>
+                  <altIdentifier type="catalog">
+                     <collection>Der Quedlinburger Schatz</collection>
+                     <idno>Nr. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>
+                  <title>Otto-Adelheid-Evangeliar</title>
+                  <origDate notBefore="0991" notAfter="1010">um 1000</origDate>
+                  <origPlace>Quedlinburg</origPlace>
+               </head>
+               <msContents>
+                  <summary>
+                     <p>Der Codex besteht aus zwei sachlich nicht zusammengehörenden Teilen: einer <title>Benedictio cerei</title> (<locus>fol. 1-4</locus>) und einem Evangeliar (<locus>fol. 5-172</locus>). Die Benedictio cerei (<bibl>Möller 1990/1, Abb. 2-5</bibl>), d.h. die Kerzenweihe, die am Ostersamstag stattfindet und nach ihrem Anfangswort »Exultet« genannt wird, findet sich normalerweise im Sakramentar, das die liturgischen Formeln für die Messe enthält, oder im Pontificale, dem liturgischen Buch für die Amtshandlungen eines Bischofs. Am Schluß dieses Texts werden Papst, Kaiser und Äbtissin ins Gebet eingeschlossen: <quote xml:lang="la">Precamur ergo te, domine, ut nosfamulos tuos <gap/> uná cum famulo tuo papa nostro Siluestro et gloriosissimo imperatore nostro OTTONE et famula tua abbatissa nostra Aethelheida <gap/> conseruare digneris</quote> = <quote>Wir bitten dich also, Herr, daß du uns, deine Diener, <gap/> zusammen mit deinem Diener, unserem Papst Silvester, und unserem ruhmreichsten Kaiser Otto und deiner Dienerin, unserer Äbtissin Adelheid, <gap/> zu bewahren geruhst.</quote></p>
+                     <p>Die hier Genannten sind <rs type="person">Papst Silvester II. (999-1003)</rs>, <rs type="person">Otto III. (Kaiser seit 996, &#x86;23. Januar 1002)</rs> und <rs type="person">Äbtissin Adelheid I. von Quedlinburg (999-1043/5)</rs>. Daraus ergibt sich, daß die <title>Benedictio cerei</title> in den Jahren 999-1001 geschrieben worden ist; allenfalls könnte man noch an die ersten Wochen des Jahres 1002 denken, bevor die Nachricht vom Tod Ottos III. nach Quedlinburg gekommen ist. Unter Umständen kann daher das Buch im Gottesdienst benutzt worden sein, als Otto III. das Osterfest des Jahres 1000 in Quedlinburg feierte.</p>
+                     <p>Später ist <quote>et antistite nostro b.</quote> = <quote>und mit unserem Bischof B.</quote>, am Rand neben <quote>OTTONE</quote> und <quote>[B]eatrice</quote> neben <quote>et famula tua abbatissa</quote> hinzugefügt worden; der eine Zusatz bezieht sich auf einen Halberstädter Bischof, <rs type="person">Branthog (1023-1036)</rs>, <rs type="person">Burchard.I. (1036-1059)</rs> oder <rs type="person">Burchard II. (1059-1088)</rs>, der andere auf die Äbtissin Beatrix<pb n="67"/>(1043/5-1061), die Nachfolgerin der Adelheid. Der Text der Benedictio cerei ist neumiert, er war also auf gesungenen Vortrag berechnet.</p>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>
+                              <material>Pergament</material>
+                           </p>
+                        </support>
+                        <extent>
+                           <measure type="leavesCount" quantity="175">175 Bl.</measure>
+                           <dimensions type="leaf" unit="cm">
+                              <height quantity="28">27,7</height>
+                              <width quantity="22">22,2</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <term>Federzeichnung</term> (Minium), teilweise koloriert. 20 Zeilen.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <scriptDesc>
+                     <summary>
+                        <p>Die Schrift der <title>Benedictio cerei</title> ist groß, kräftig, etwas hart, aber nicht unschön; sie ist vertikal gerichtet und wirkt steil; man beachte die Unterlängen von f, s und r. Dieser Schreibstil ähnelt dem des benachbarten Halberstädter Domskriptoriums. Da die beiden Doppelblätter kaum von den Quedlinburger Stiftsdamen selbst geschrieben worden sind, könnte hier ein Kanoniker des Wipertistifts, welches für die geistliche Betreuung der Kanonissen zuständig war, die Feder geführt haben. Ähnlich, wie sich <title>Benedictio cerei</title> und Evangeliar im Schriftcharakter unterscheiden, steht in dem Quedlinburger Statiusfragment (<ref type="altMs">Halle, Universitätsbibliothek, Qu. Cod. 86</ref>) die weiche, rundlichere Textschrift neben der straffen, energischen Glossenschrift - auch dies vermutlich der Gegensatz von Kanonissen- und Kanonikerschreibstil.</p>
+                     </summary>
+                     <scriptNote>
+                        <p>Das Evangeliar ist von vier Quedlinburger Händen unterschiedlicher Qualität geschrieben, die beste ist die Haupthand (<locus from="21v" to="98r">fol. 21v Zeile 10 - fol. 98r Zeile 3</locus> surrexerunt, <locus from="106r">fol. 106r</locus> Zeile 1-3 und wohl auch <locus from="144r" to="172v">fol. 144r-172v</locus>). Die Beurteilung der Schrift hat von denjenigen vier Zeugnissen auszugehen, die man mit Sicherheit dem Quedlinburger Skriptorium zuweisen kann, nämlich der Kopie einer Urkunde Papst Silvesters II. (<ref type="altMs">Magdeburg, Landeshauptarchiv, Rep. U9 AII Nr. 2 = JL 3902</ref>), dem Fragment eines Quedlinburger Nekrologs (<ref type="altMs">Braunschweig, Stadtbibliothek, Mscr. Bruchstücke Nr. 62</ref>), dem Quedlinburger Kalender in dem <ref type="altMs">Codex mus. 40047 (fol. lr-6v) der Staatsbibliothek Berlin</ref> (<bibl>Möller 1990/3, fol. lr-6v</bibl>), und der Namenliste im Otto-Adelheid-Evangeliar, <locus from="1r">fol. 1r</locus>. Diese vier Schriftzeugnisse stammen freilich erst aus dem 2. Viertel des 11. Jahrhunderts, sind also etwas jünger als das Evangeliar, welches um das Jahr 1000 anzusetzen ist. Das charakteristische g mit dem breiten, schrägen, offenen Bogen ist sowohl in der jüngeren als in der älteren Stufe vorhanden, im Evangeliar bei den beiden Händen, die auf <locus from="98r" to="140r">fol. 98r-140r</locus> schreiben. Außerdem ist der Berliner Kalender mit einem älteren Antiphonar zusammengebunden, das wie das Evangeliar in die Zeit um das Jahr 1000 gehört, mit diesem Schriftverwandtschaft zeigt und aufgrund liturgischer Indizien für Quedlinburg in Anspruch genommen werden darf (<bibl>Möller 1990/3</bibl>).</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <p>Auf <locus from="173r" to="174v">fol. 173r-174v</locus> hat eine häßliche Hand zu Beginn des 11. Jahrhunderts eine Erklärung des Meßkanons nachgetragen, weitgehend nach <bibl>
+                           <author ref="#hrabanus_maurus">Hrabanus Maurus</author>, De sacris ordinibus, sacramentis divinis et vestimentis sacerdotalibus I 19</bibl> (<bibl>Migne, Patrologia latina 112, 1179-1189</bibl>).</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <p>Ferner hat die Hand der <title>Benedictio cerei</title> auf einem Blatt, das innen auf den Rückendeckel geklebt worden ist, eine Reihe von liturgischen (Beschwörungs-?)Formeln in weniger schöner Schrift eingetragen, eine weitere Nachtragshand darunter einen ähnlichen Text angeschlossen. Dieselbe Hand, die die oben erwähnte Kopie einer Urkunde Papst Silvesters II. hergestellt hat, hat im 2. Viertel des 11. Jahrhunderts auf <locus from="1r">fol. 1r</locus> zwanzig Frauen- und einen Männernamen geschrieben, wahrscheinlich eine Totenliste (<bibl>Möller 1990/1, Abb. l</bibl>). Aus dem 2. Drittel des 11. Jahrhunderts stammt ein <term>Schatzverzeichnis</term> auf <locus from="140r">fol. 140r</locus>. Es ist das älteste erhaltene Verzeichnis des Schatzes der Quedlinburger Stiftskirche (vgl. Seite 23f.).</p>
+                     </scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>Am Anfang des Evangeliars stehen wie üblich <term>Kanontafeln</term> (<locus from="5v" to="10v">fol. 5v-10v</locus>). Der Evangelientext selbst folgt auf <locus from="11v" to="172v">fol. 11v-172v</locus>; dazu gehören an sich auch Prologe und Kapitelverzeichnisse, doch sind diese beiden Stücke am Anfang des Matthäusevangeliums nicht vorhanden. Die malerische Ausstattung des Evangeliars ist anscheinend bald steckengeblieben, allerdings auch nicht vollständig erhalten. Die Kanontafeln sind in ziemlich einfachen Arkaden untergebracht: mennigrot gezeichnet und dann graugelb, fast senffarben, ausgemalt. Auf <locus from="1v">fol. 1v</locus> sind die Kapitelle zwischen den Arkadenbögen und den Säulen golden ausgetupft und ebenso die Evangelistennamen in <term type="script">Capitalis quadrata</term> (auf <locus from="1v" to="10v">fol. 1v-10v</locus>), die zunächst mit Minium eingetragen waren, mit Goldtinte nachgezeichnet. Die beiden ersten Arkadensäulen auf <locus from="9v">fol. 9v</locus> sind mit schrägen, punktgefüllten Querbändern verziert. Zwischen <locus>fol. 10 und 11</locus> ist ein Blatt herausgeschnitten worden. Auf seiner Rückseite hatte sich, wie an dem Abdruck auf <locus from="11r">fol. 11r</locus> zu erkennen ist, eine <term type="Buchschmuck">Maiestas Domini</term> befunden. Der sitzende Christus war vielleicht von zwei (oder vier?) Engeln eingerahmt; auch könnte unter ihm noch eine Figur gesessen haben. Er hielt ein Buch in der Hand, auf dem geschrieben stand: <quote xml:lang="grc">εγω ειμι το φο<supplied>ς</supplied></quote> = <quote>Ich bin das Licht</quote> (vgl. Johannes 8,12). Das griechische Bibelzitat ist insofern nicht allzu erstaunlich, als die Äbtissin Adelheid eine Tochter Kaiser Ottos II. und seiner byzantinischen Gemahlin <rs type="person">Theophanu</rs> war.</p>
+                     </decoNote>
+                     <decoNote>
+                        <p><locus from="11v">Fol. 11v</locus> ist als Zierseite angelegt. In einem doppelten, nur mit Blei gezeichneten Rahmen steht ein großes, golden gezeichnetes L, dessen Stamm mit einem Treppenmuster verziert ist. Daneben eine große Ranke mit Knollen, die sich teilt und in dreilappige Blätter ausläuft; wo sie sich spaltet, sitzen Zwischenkolben; vorher wird sie durch eine gepunktete Manschette zusammengehalten. Das geht letztlich auf ein Reichenauer oder Trierer Vorbild zurück. Ähnliches gibt es in Halberstadt (<ref type="altMs">Bamberg, Staatsbibliothek, Hist. 3</ref>, fol. 104r). Im übrigen war in Quedlinburg der Anspruch größer als das Können. Die Seite blieb unvollendet, es fehlt der weitere Anfang des Matthäusevangeliums <quote>[L]iber generationis</quote> usf., der sich hätte anschließen sollen. <locus from="57r">Fol. 57r</locus> ist zur Hälfte leer; offenbar war eine größere Zierinitiale mit dem Anfang des Markusevangeliums vorgesehen. Es beginnt erst auf <locus from="57v">fol. 57v</locus> mit <quote>Ecce mitto angelum meum</quote> = <quote>Siehe, ich schicke meinen Engel</quote> (Markus 1,2). Kleinere Zierinitialen finden sich auf <locus from="86v">fol. 86v</locus>, <locus from="89r">89r</locus> und <locus from="89v">89v</locus>. Die Majuskeln an den Satz- und Abschnittsanfängen sind teilweise farbig. Synoptische Randverweise bloß im Markusevangelium (<locus from="57v" to="85v">fol. 57v-85v</locus>) und auf ein paar Seiten des Lukasevangeliums (<locus from="94r" to="101v">fol. 94r-101v</locus>).</p>
+                     </decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p><origPlace>Konstantinopel</origPlace>, <origDate notBefore="0951" notAfter="1000">2. Hälfte 10. Jahrhundert</origDate> (<term>Elfenbeinrelief</term>);</p>
+                        <p><origPlace>Niedersachsen (Quedlinburg)</origPlace>, <origDate notBefore="1220" notAfter="1230">1220-1230</origDate> (<term>Goldschmiedearbeit</term>)</p>
+                        <p>Holzkern; <material>Elfenbein</material> geschnitzt mit teilweiser <material>Vergoldung</material>, Eisennägel; Filigran und Beschläge an den Kanten Silber vergoldet; Steinschmuck, Glasflüsse, Perlen, Korallen, Perlmutter; Rückdeckel und Buchrücken Leder (neuzeitlich). - Am Elfenbeinrelief Vergoldung teilweise abgegriffen, abgebrochen sind die rechte Hand zweier Engel und die erhobene des Hirten in der Geburtsszene sowie die Taube, die rechte Hand Christi und der rechte Unterarm des Flußgottes in der Taufszene, der fehlende Engel in der Kreuzigung war gesondert gearbeitet und eingedübelt; Filigranrahmen an drei Ecken gestaucht und etwas verbogen, mehrere Fassungen verbogen und beschädigt; Steinschmuck, Perlen und Korallen teilweise verloren, von 96 Fassungen heute 44 leer; Rückdeckel stellenweise stark berieben, Gebrauchsspuren am Buchrücken, es fehlen beide Schließen.</p>
+                        <p>Restaurierung 1977 durch R. Lehmann, Berlin.</p>
+                        <p><measure type="binding">H. 28 cm; B. 22,2cm.</measure> Elfenbeinrelief: <measure type="binding">H. 14,9cm; B. 12,4cm.</measure></p>
+                        <decoNote><pb n="65"/>Die Mitte des Buchdeckels nimmt ein byzantinisches Elfenbeinrelief ein. Es ist von einem breiten, mit Edelsteinen, Glasflüssen, Perlen und Korallen reich verzierten Rahmen aus silbernem und vergoldetem Filigran umgeben. Das Rankenwerk des Filigrans ist in Rhythmus und Komposition auf die Gliederung der Elfenbeintafel abgestimmt.</decoNote>
+                        <decoNote>
+                           <p>In den vier gleich großen Feldern des Elfenbeinreliefs sind die Geburt, die Taufe, die Kreuzigung und die Kreuzabnahme Christi wiedergegeben, jeweils durch griechische Inschriften bezeichnet: <quote xml:lang="grc">Η ΓΕΝΙϹΙϹ</quote> = die Geburt, <quote xml:lang="grc">Η ΒΑΠΤΙϹΙϹ</quote> = die Taufe, <quote xml:lang="grc">Η ϹΤΑΥΡωϹΙϹ</quote> = die Kreuzigung, <quote xml:lang="grc">Η ΑΡΟΚΑΘΗΛωϹΙϹ</quote> = die Eoslösung. Die vier Szenen gehörten wohl ursprünglich zu einer größeren Bildfolge, zu einem byzantinischen Festtagszyklus. Die vier Löcher im Rahmen, heute als Nagellöcher genutzt, lassen darauf schließen, daß das Relief die Mitteltafel eines Triptychons war; sie haben höchstwahrscheinlich zur Befestigung von Leisten gedient, in die die Seitenflügel eingehängt waren. Auf ihnen könnten sich weitere Szenen befunden haben.</p>
+                           <p>Charakteristisch für die Figurenbildung im Elfenbeinrelief ist eine betont graphische Wiedergabe der Gewänder, auch die sehr tiefe Unterschneidung der Figuren, die sie zumeist fast vom Hintergrund löst. Dies verbindet das Quedlinburger Relief mit einer Gruppe von byzantinischen Elfenbeinarbeiten vor allem der 2. Hälfte des 10. Jahrhunderts, die wegen ihrer engen Beziehungen zur gleichzeitigen Buchmalerei als »malerische Gruppe« (<bibl>Goldschmidt/Weitzmann 1934</bibl>) bezeichnet worden ist. Verschiedene Einzelheiten wiederholen sich andererseits in etwas später entstandenen Reliefs der sog. Rahmengruppe, weshalb Goldschmidt/Weitzmann das Elfenbeinrelief in Quedlinburg in das Ende des 10. Jahrhunderts datiert haben. Aufgrund ikonographischer Details wurde das Relief zuletzt in das 3. Viertel des 10. Jahrhundert datiert und seine Herkunft mit Kaiserin Theophanu direkt in Beziehung gebracht (<bibl>Flemming 1978, 196</bibl>).</p>
+                           <p>Mit einem prunkvollen Rahmen ist das byzantinische Elfenbeinrelief im frühen 13. Jahrhundert versehen worden. Da der Einband ein Evangeliar umschließt, das mit Kaiser Otto III. und mit Äbtissin Adelheid I. unmittelbar verbunden ist, ist es sehr wahrscheinlich, daß das Elfenbeinrelief auch schon zum ursprünglichen Einband dieser Handschrift gehört hatte. Für diesen neuen Einband ist es dann ein zweites Mal wiederverwendet worden, als Ausdruck der besonderen Verehrung, die dieser Evangelienhandschrift, wie in gleicher Weise auch dem karolingischen <ref type="altMs">Samuhel-Evangeliar</ref> (<ref>Kat. Nr. 4</ref>), im Quedlinburger Stift in jener Zeit offensichtlich entgegengebracht worden ist, und zwar als Zeugnis seiner großen Vergangenheit und der einst engen Beziehung des Stiftes zum Herrscherhaus.</p>
+                           <p>Das Filigran mit großen, spiralförmig eingerollten Zweigen läßt in seiner weitmaschigen, dabei strengen und etwas schematischen Anordnung einen sehr eigenen Stil erkennen. Gleiches Filigran findet sich, wenn auch dem Grund nicht flach aufliegend, in nächster Nähe, nämlich am Armreliquiar des hl. Stephanus im Domschatz in Halberstadt, entstanden wohl nach 1225 (<bibl>Flemming/Lehmann/Schubert 1990, Abb. 149, 151</bibl>). Derartiges Filigran ist aber auch sonst in dieser Zeit ziemlich verbreitet. Es tritt in Motiv und Form ähnlich an Goldschmiedearbeiten in Sachsen (<bibl>Kat. Salzburg 1992, Taf. 1</bibl>) wie in Frankreich (<bibl>Kat. Paris 1965, Taf. 118</bibl>) auf, doch besonders häufig an solchen in und um Trier, die alle in der Zeit um 1220-1230 entstanden sind (<bibl>Kat. Stuttgart 1977, Nr. 564 Kötzsche;</bibl> <bibl>Taburet-Delahaye 1989, 43-46 Nr. 6</bibl>).</p>
+                           <p>Der Rahmen des Quedlinburger Buchdeckels wird mit diesen etwa gleichzeitig gearbeitet sein, was auch die Form der Fassungen für den Steinschmuck nahelegt. Für seine Herkunft aus einer Werkstatt der näheren Umgebung, die in Halberstadt tätig war oder sogar in Quedlinburg selbst, spricht nicht zuletzt die Wiederverwendung des sicher seit alters zum Schatz der Quedlinburger Stiftskirche gehörenden byzantinischen Elfenbeinreliefs.</p>
+                        </decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>Der Quedlinburger Schatz, hrsg. von <editor>Dietrich Kötzsche</editor>, Berlin 1992, S. 62-68 (<author>Dietrich Kötzsche</author> und <author>Hartmut Hoffmann</author>)</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Ranke/Kugler 1853, 625f.</bibl>
+                     <bibl>Steuerwaldt/Virgin 1855/56, Taf. 4.</bibl>
+                     <bibl>Marquetde Vasselot 1898, 308-310.</bibl>
+                     <bibl>Brinkmann 1922, 130-132.</bibl>
+                     <bibl>Lorenz 1930,228f., 235f.</bibl>
+                     <bibl>Goldschmidt/Weitzmann 1934, Nr. 25.</bibl>
+                     <bibl>Bischoff 1967, Nr. 75.</bibl>
+                     <bibl>Wentzel 1972(2), 17.</bibl>
+                     <bibl>Kat. Berlin 1977, Nr. 17 Effenberger.</bibl>
+                     <bibl>Effenberger 1978, 173.</bibl>
+                     <bibl>Flemming 1978, 194-196.</bibl>
+                     <bibl>Lehmann 1982, 280-284.</bibl>
+                     <bibl>Fliege 1982, 23, 347.</bibl>
+                     <bibl>Gauthier 1983, 120.</bibl>
+                     <bibl>Hoffmann, 1986, 151.</bibl>
+                     <bibl>Flemming 1988, 37f.</bibl>
+                     <bibl>Voigtländer 1989, 168f., 200f. Nr. 443-461.</bibl>
+                     <bibl>Möller 1990/1, 41-43, 193-210, 226-230.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

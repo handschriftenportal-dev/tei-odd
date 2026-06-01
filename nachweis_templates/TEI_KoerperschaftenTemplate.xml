@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Normdaten Organization Template Datei</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listOrg>
+        <org xml:id="__hsp-uuid__">
+          <!-- Ansetzungsname, alternative Namen und Namen der Einrichtung in anderen Sprachen -->
+          <orgName xml:lang="__lang_code__" type="default" notBefore="__date__">#{ORGNAME}#</orgName>
+          <orgName xml:lang="__lang_code__" type="alternative">#{ORGNAME}#</orgName>
+          <orgName xml:lang="__lang_code__" type="alternative">#{ORGNAME}#</orgName>
+          <orgName xml:lang="__lang_code__" type="alternative">#{ORGNAME}#</orgName>
+         <!-- Namen der Vorgängerorganisation -->
+          <orgName xml:lang="__lang_code__" type="former" notBefore="__date__" notAfter="__date__">#{ORGNAME}#</orgName>
+          <orgName xml:lang="__lang_code__" type="former" notBefore="__date__" notAfter="__date__">#{ORGNAME}#</orgName>
+          <orgName xml:lang="__lang_code__" type="former" notBefore="__date__" notAfter="__date__">#{ORGNAME}#</orgName>
+          <!-- Abgekürzte Namen der Einrichtung -->
+          <orgName type="alternative" subtype="short">#{ORGNAME}#</orgName>
+          <orgName type="alternative" subtype="short">#{ORGNAME}#</orgName>
+          <!-- Identifikationsnummern der Einrichung: gnd und isil -->
+          <idno type="gnd" xml:id="__gnd-id__">#{GNDID}#</idno>
+          <idno type="gnd_former" xml:id="__gnd-id__">#{GNDID}#</idno>
+          <idno type="gnd_former" xml:id="__gnd-id__">#{GNDID}#</idno>
+          <idno type="isil" xml:id="__isil__">#{ISILID}#</idno>
+        </org>
+      </listOrg>
+    </body>
+  </text>
+</TEI>

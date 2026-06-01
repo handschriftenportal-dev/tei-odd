@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Ottobeuren_Kloster_Bibliothek/01_Ottobeuren_Kloster_Bibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-1">Ms. O. 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-2">Ms. O. 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-3">Ms. O. 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-4">Ms. O. 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-5">Ms. O. 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-6">Ms. O. 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-7">Ms. O. 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-8-1">Ms. O. 8(1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. O. 8, Nr. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-8-2">Ms. O. 8(2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. O. 8, Nr. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-9">Ms. O. 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-10">Ms. O. 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-11">Ms. O. 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-12">Ms. O. 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-13-1">Ms. O. 13(1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-13-2">Ms. O. 13(2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-13-3">Ms. O. 13(3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-14">Ms. O. 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-15">Ms. O. 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-16">Ms. O. 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-17">Ms. O. 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-18">Ms. O. 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-19">Ms. O. 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-20">Ms. O. 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-21">Ms. O. 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-22">Ms. O. 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-23">Ms. O. 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-24">Ms. O. 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-25">Ms. O. 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-26">Ms. O. 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-27">Ms. O. 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-28">Ms. O. 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-29">Ms. O. 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-30">Ms. O. 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-31">Ms. O. 31</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-32">Ms. O. 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-33">Ms. O. 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-34">Ms. O. 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-35">Ms. O. 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-36">Ms. O. 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-37">Ms. O. 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-38">Ms. O. 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-39">Ms. O. 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-40">Ms. O. 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-41">Ms. O. 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-42">Ms. O. 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-43">Ms. O. 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-44">Ms. O. 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-45">Ms. O. 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-46">Ms. O. 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-47">Ms. O. 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-48">Ms. O. 48</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-49">Ms. O. 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-50">Ms. O. 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-51">Ms. O. 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-52">Ms. O. 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-53">Ms. O. 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-54">Ms. O. 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-55">Ms. O. 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-56">Ms. O. 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-57">Ms. O. 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-58">Ms. O. 58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-59">Ms. O. 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-60">Ms. O. 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-61">Ms. O. 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-62-1">Ms. O. 62(1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms.O. 62(1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-62-2">Ms. O. 62(2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms.O. 62(2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-63">Ms. O. 63</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-64">Ms. O. 64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-65">Ms. O. 65</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-66">Ms. O. 66</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-67">Ms. O. 67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-68">Ms. O. 68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-69">Ms. O. 69</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-70">Ms. O. 70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-71">Ms. O. 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-72">Ms. O. 72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-73">Ms. O. 73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-74">Ms. O. 74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-75">Ms. O. 75</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-76">Ms. O. 76</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-77">Ms. O. 77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-78">Ms. O. 78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-79">Ms. O. 79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-80">Ms. O. 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-81">Ms. O. 81</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-82">Ms. O. 82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-83">Ms. O. 83</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-84">Ms. O. 84</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-85">Ms. O. 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-86">Ms. O. 86</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-87">Ms. O. 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-88">Ms. O. 88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-89">Ms. O. 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-90">Ms. O. 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-91">Ms. O. 91</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-92">Ms. O. 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-93">Ms. O. 93</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-94">Ms. O. 94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-95">Ms. O. 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4044189-1">Ottobeuren</settlement>
+                  <repository key="4390122-0">Kloster Ottobeuren. Bibliothek</repository>
+                  <idno xml:id="_Ms-O-96">Ms. O. 96</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

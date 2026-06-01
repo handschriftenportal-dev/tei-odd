@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <respStmt>
+                    <resp>#{RESP}#</resp>
+                    <persName role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PERSNAME}#</persName>
+                    <persName role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PERSNAME}#</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <date when="__publication_date__" type="__pub_type__">#{DATE}#</date>
+                <availability status="__licence_status__">
+                    <licence target="__licence_url__">
+                        <p>#{LICENSETEXT}#</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="__creation_date__">#{DATE}#</date>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date when="__change_date__">#{DATE}#</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="__hsp-uuid__" xml:lang="__lang_code__" type="__hsp_type__" subtype="illuminated"
+                status="__status__">
+                <msIdentifier>
+                    <settlement role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PLACENAME}#</settlement>
+                    <repository role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{ORGNAME}#</repository>
+                    <idno>#{IDNO}#</idno>
+                    <altIdentifier type="hsp-ID">
+                        <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+                        <idno>#{IDNO}#</idno>
+                    </altIdentifier>
+                    <altIdentifier type="mxml-ID">
+                        <collection>Manuscripta-Medievalia-ID</collection>
+                        <idno>obj_123456</idno>
+                    </altIdentifier>
+                    <altIdentifier type="corpus">
+                        <collection>#{CORPUS}#</collection>
+                        <idno>#{IDNO}#</idno> 
+                    </altIdentifier>
+                    <altIdentifier type="former">
+                        <settlement role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{PLACENAME}#</settlement>
+                        <repository role="__role__" key="__hsp-uuid__" ref="__gnd-id__">#{ORGNAME}#</repository>
+                        <idno>#{IDNO}#</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <index indexName="norm_title">
+                        <term type="title">#{TITLE}#</term>
+                    </index>
+                    <title>#{TITLE}#</title>
+                    <note type="headline">#{HEADLINE}#</note>
+                    <index indexName="norm_material">
+                        <term type="material">#{MATERIAL}#</term>
+                        <term type="material_type">#{MATERIALTYPE}#</term>
+                    </index>
+                    <index indexName="norm_measure">
+                        <term type="measure">#{MEASURE}#</term>
+                        <term type="measure_noOfLeaves">#{MEASURENO}#</term>
+                    </index>
+                    <index indexName="norm_dimensions">
+                        <term type="dimensions">#{DIMENSIONS}#</term>
+                        <term type="height">#{HIGHT}#</term>
+                        <term type="width">#{WIDTH}#</term>
+                        <term type="depth">#{DEPTH}#</term>
+                        <term type="dimensions_typeOfInformation">#{DIMENSIONSTYPE}#</term>
+                    </index>
+                    <index indexName="norm_format">
+                        <term type="format">#{FORMAT}#</term>
+                        <term type="format_typeOfInformation">#{FORMATTYPE}#</term>
+                    </index>
+                    <index indexName="norm_origPlace">
+                        <term type="origPlace">#{PLACENAME}#</term>
+                        <term type="origPlace_norm" key="hsp-uuid" ref="gnd-id">#{PLACENAME}#</term>
+                    </index>
+                    <index indexName="norm_origDate">
+                        <term type="origDate">#{DATING}#</term>
+                        <term type="origDate_notBefore">#{DATE}#</term>
+                        <term type="origDate_notAfter">#{DATE}#</term>
+                        <term type="origDate_type">#{DATETYPE}#</term>
+                    </index>
+                    <index indexName="norm_textLang">
+                        <term type="textLang">#{LANGUAGE}#</term>
+                        <term type="textLang-ID">#{LANGUAGECODE}#</term>
+                    </index>
+                    <index indexName="norm_form">
+                        <term type="form">#{FORM}#</term>
+                    </index>
+                    <index indexName="norm_status">
+                        <term type="status">#{STATUS}#</term>
+                    </index>
+                    <index indexName="norm_decoration">
+                        <term type="decoration">#{DECORATIONINFORMATION}#</term>
+                    </index>
+                    <index indexName="norm_musicNotation">
+                        <term type="musicNotation">#{MUSICINFORMATION}#</term>
+                    </index>
+                </head>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

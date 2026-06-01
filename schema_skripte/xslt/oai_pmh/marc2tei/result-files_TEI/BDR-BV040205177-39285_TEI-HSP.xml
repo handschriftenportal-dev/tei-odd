@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:dcr="http://www.isocat.org/ns/dcr"
+     xmlns:egXML="http://www.tei-c.org/ns/Examples"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von BSB-Hss Cgm 6793</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Automatisch generierte Handschriftenbeschreibung aus einem am 03.03.2020 erstellten Eintrag der OAI-PMH Schnittstelle http://bdr.oai.bsb-muenchen.de/OAIHandler mit dem Set-Name cerl.</resp>
+               <name type="org">Handschriftenportal</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <date type="primary" when="2020">2020</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>Für den OPAC-Eintrag verzichtet die Einrichtung Bayerische Staatsbibliothek auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungsbedingungen</ref>des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00131296-5</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2021-11-06">2021-11-06 17:52:31</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <settlement key="NORM-d0a6343a-081a-3335-baa9-65ce4fd0845c"
+                           ref="https://d-nb.info/gnd/4127793-4">München</settlement>
+               <repository key="NORM-83c5a34d-300e-3b8d-af1e-2d5582778963"
+                           ref="https://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek</repository>
+               <idno>Cgm 6793</idno>
+            </msIdentifier>
+            <head>
+               <index indexName="norm_title">
+                  <term type="title">25 Briefe und 10 Postkarten in Angelegenheiten der Gesellschaft von Oskar Panizza, meist an Hans Merian u. Wilhelm Friedrich, vereinzelt an Otto Julius Bierbaum und M. G. Conrad gerichtet</term>
+               </index>
+               <title>25 Briefe und 10 Postkarten in Angelegenheiten der Gesellschaft von Oskar Panizza, meist an Hans Merian u. Wilhelm Friedrich, vereinzelt an Otto Julius Bierbaum und M. G. Conrad gerichtet</title>
+               <note type="headline">1892/96</note>
+               <index indexName="norm_material">
+                  <term type="material"/>
+                  <term type="material_type"/>
+               </index>
+               <index indexName="norm_measure">
+                  <term type="measure"/>
+                  <term type="measure_noOfLeaves"/>
+               </index>
+               <index indexName="norm_dimensions">
+                  <term type="dimensions"/>
+                  <term type="height"/>
+                  <term type="width"/>
+                  <term type="depth"/>
+                  <term type="dimensions_typeOfInformation"/>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format"/>
+                  <term type="format_typeOfInformation"/>
+               </index>
+               <index indexName="norm_origPlace">
+                  <term type="origPlace"/>
+                  <term type="origPlace_norm"/>
+               </index>
+               <index indexName="norm_origDate">
+                  <term type="origDate">1892/96</term>
+                  <term type="origDate_notBefore"/>
+                  <term type="origDate_notAfter"/>
+                  <term type="origDate_type"/>
+               </index>
+               <index indexName="norm_textLang">
+                  <term type="textLang">ger</term>
+                  <term key="NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d"
+                        ref="http://d-nb.info/gnd/4113292-0"
+                        type="textLang-ID">deutsch</term>
+               </index>
+               <index indexName="norm_form">
+                  <term type="form"/>
+               </index>
+               <index indexName="norm_status">
+                  <term type="status"/>
+               </index>
+               <index indexName="norm_decoration">
+                  <term type="decoration"/>
+               </index>
+               <index indexName="norm_musicNotation">
+                  <term type="musicNotation"/>
+               </index>
+            </head>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

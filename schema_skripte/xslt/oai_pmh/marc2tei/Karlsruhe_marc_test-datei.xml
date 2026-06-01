@@ -1,0 +1,693 @@
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:marcxml="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2025-06-03T10:28:23Z</responseDate>
+<request verb="ListRecords" resumptionToken="0xe832cdee2f87754294afaece89d6a143-cursor_p_3D10_p_26set_p_3DHandschriften_p_26metadataPrefix_p_3Dmarc21_p_26batch_size_p_3D11">https://digital.blb-karlsruhe.de/oai/</request>
+<ListRecords>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:5928</identifier>
+<datestamp>2011-05-25T15:28:14Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1650198515</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1001       |||||||||||||||||lat||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Glossaria de diversis - Cod. St. Peter perg. 87</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Lorsch [?]</marcxml:subfield>
+<marcxml:subfield code="c">1001</marcxml:subfield>
+<marcxml:subfield code="c">[11. Jh. u. 1. Hälfte des 14. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">106 Bl. ; 34 x 23,5 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Pergament</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">St. Peter</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-300</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/5928</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0034_b179_jpg.htm</marcxml:subfield>
+<marcxml:subfield code="3">Katalognachweis</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.handschriftencensus.de/17854</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis im Handschriftencensus</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:6521</identifier>
+<datestamp>2011-05-25T15:28:14Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">165019899X</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |0801       |||||||||||||||||lat||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Hieronymus, Sammelhandschrift - Cod. Aug. perg. 105</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">Sophronius Eusebius</marcxml:subfield>
+<marcxml:subfield code="d">345-420</marcxml:subfield>
+<marcxml:subfield code="e">VerfasserIn</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[S.l.]</marcxml:subfield>
+<marcxml:subfield code="c">0801</marcxml:subfield>
+<marcxml:subfield code="c">[1. Drittel des 9. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">234 Bl. ; 29,9 x 22,5 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Pergament</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Reichenau</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1953</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/6521</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0720_c267_jpg.htm</marcxml:subfield>
+<marcxml:subfield code="3">Katalognachweis</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.handschriftencensus.de/17826</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis im Handschriftencensus</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CV</marcxml:subfield>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:7061</identifier>
+<datestamp>2017-06-14T09:21:49Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1650042612</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1487       |||||||||||||||||ger||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Beschreibung der Reise von Konstanz nach Jerusalem - Cod. St. Peter pap. 32</marcxml:subfield>
+<marcxml:subfield code="c">Konrad Grünenberg</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">Konrad</marcxml:subfield>
+<marcxml:subfield code="d">1442-1494</marcxml:subfield>
+<marcxml:subfield code="e">VerfasserIn</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Bodenseegebiet</marcxml:subfield>
+<marcxml:subfield code="c">1487</marcxml:subfield>
+<marcxml:subfield code="c">[ca. 1487]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2006</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">II, 58 Bl. ; 32 x 21,5 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">zahlr. Ill.</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Papier. - Schreibsprache: alemannisch</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">St. Peter</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1272</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">https://digital.blb-karlsruhe.de/id/7061</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0033_b050_JPG.htm</marcxml:subfield>
+<marcxml:subfield code="3">Katalognachweis</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">https://www.handschriftencensus.de/10652</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis im Handschriftencensus</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:12061</identifier>
+<datestamp>2011-05-25T15:28:14Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1650288115</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1066       |||||||||||||||||lat||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Heimo in Esayam prophetam - Cod. Aug. perg. 65</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">Heimo</marcxml:subfield>
+<marcxml:subfield code="e">VerfasserIn</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[S.l.]</marcxml:subfield>
+<marcxml:subfield code="c">1066</marcxml:subfield>
+<marcxml:subfield code="c">[3. Drittel des 11. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">176 Bl. ; 31,6 x 25,2 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Pergament</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Reichenau</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1356</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/12061</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0720_c207_jpg.htm</marcxml:subfield>
+<marcxml:subfield code="3">Katalognachweis</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a">LXV Haimo</marcxml:subfield>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:12076</identifier>
+<datestamp>2011-05-25T15:28:14Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>fulltome</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1395175349</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1730       |||||||||||||||||ger||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">[Band 2] - Cod. Karlsruhe 3302</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[Karlsruhe]</marcxml:subfield>
+<marcxml:subfield code="c">1730</marcxml:subfield>
+<marcxml:subfield code="c">[ca. 1730]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2007</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">72 Bl. ; 46,7 x 33,2 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">nur Ill. (farb.)</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Kolorierte Zeichnungen auf Papier. - Ehemals unter der Signatur: Cod. KS Nische C 13</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1369</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="773" ind1="1" ind2=" ">
+<marcxml:subfield code="w">blbhs 1495383687</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/12076</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a">KS Nische C 13</marcxml:subfield>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:12492</identifier>
+<datestamp>2016-02-23T08:54:32Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1650288840</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1295       |||||||||||||||||gmh||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Barlaam und Josaphat, Fragment - Cod. Karlsruhe 2912,1</marcxml:subfield>
+<marcxml:subfield code="c">Rudolf von Ems</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="130" ind1="0" ind2=" ">
+<marcxml:subfield code="a">Barlaam und Josaphat</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="246" ind1="3" ind2=" ">
+<marcxml:subfield code="a">Barlaam-Fragment</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="246" ind1="3" ind2=" ">
+<marcxml:subfield code="a">K 2912, II A 1, a</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="246" ind1="3" ind2=" ">
+<marcxml:subfield code="a">K 2912, II A 1</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="246" ind1="3" ind2=" ">
+<marcxml:subfield code="a">K 2912,1</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="246" ind1="3" ind2=" ">
+<marcxml:subfield code="a">Cod. Karlsruhe 2912, II A 1, a</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">1200-1254</marcxml:subfield>
+<marcxml:subfield code="d">1200-1254</marcxml:subfield>
+<marcxml:subfield code="e">VerfasserIn</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">Joseph</marcxml:subfield>
+<marcxml:subfield code="d">1770-1855</marcxml:subfield>
+<marcxml:subfield code="e">SammlerIn</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[S.l.]</marcxml:subfield>
+<marcxml:subfield code="c">1295</marcxml:subfield>
+<marcxml:subfield code="c">[Ende des 13. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">1 Doppelbl. ; 23 x 17 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">K 2912, II A 1, a / Cod. Karlsruhe 2912, II A 1, a (Frühere Signatur)</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Pergament</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Schreibsprache: (nord-?)bairisch</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1376</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">https://digital.blb-karlsruhe.de/id/12492</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">https://digital.blb-karlsruhe.de/id/8042477</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">https://resolver.staatsbibliothek-berlin.de/HSP00053A5600000000</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis im Handschriftenportal</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://kalliope-verbund.info/DE-611-HS-4156263</marcxml:subfield>
+<marcxml:subfield code="3">Kalliope</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:12500</identifier>
+<datestamp>2016-04-08T09:55:07Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1650288905</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1450       |||||||||||||||||ger||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Der Heiligen Leben-Fragment - Cod. Karlsruhe 2118</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[S.l.]</marcxml:subfield>
+<marcxml:subfield code="c">1450</marcxml:subfield>
+<marcxml:subfield code="c">[15. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">2 Bl. ; 17 x 26 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Pergament</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1394</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/12500</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:19642</identifier>
+<datestamp>2016-03-09T13:50:56Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">165029770X</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1425       |||||||||||||||||ger||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Liedersaal-Handschrift - Cod. Donaueschingen 104</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Bodenseeraum (Konstanz?)</marcxml:subfield>
+<marcxml:subfield code="c">1425</marcxml:subfield>
+<marcxml:subfield code="c">[um 1425]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">258 Bl., 2 Bl. ; 30,5 x 22 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Papier. - Schreibsprache: südalemannisch</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Donaueschingen</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1289</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/19642</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.handschriftencensus.de/4209</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis im Handschriftencensus</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.manuscripta-mediaevalia.de/dokumente/html/obj31575681</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis in Manuscripta Mediaevalia</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:19665</identifier>
+<datestamp>2011-05-25T15:28:14Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">1650297785</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |1401       |||||||||||||||||ger||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Deutsche poetische Erzählungen - Cod. Karlsruhe 408</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[S.l.]</marcxml:subfield>
+<marcxml:subfield code="c">1401</marcxml:subfield>
+<marcxml:subfield code="c">[15. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2010</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">191 Bl. ; 29,5 x 20,4 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Ill.</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Handschrift auf Papier. - Schreibsprache: auf der Grenze zwischen schwäbisch, bairisch und ostfränkisch</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1298</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/19665</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/content/pageview/4860</marcxml:subfield>
+<marcxml:subfield code="3">Katalognachweis</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://www.handschriftencensus.de/4208</marcxml:subfield>
+<marcxml:subfield code="3">Nachweis im Handschriftencensus</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<record>
+<header>
+<identifier>oai:digital.blb-karlsruhe.de:19692</identifier>
+<datestamp>2011-05-25T15:28:14Z</datestamp>
+<setSpec>blbhs</setSpec>
+<setSpec>book</setSpec>
+<setSpec>Handschriften</setSpec>
+</header>
+<metadata>
+<marcxml:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marcxml:leader>     nam  22     uu 4500</marcxml:leader>
+<marcxml:controlfield tag="001">165029851X</marcxml:controlfield>
+<marcxml:controlfield tag="008">      |0801       |||||||||||||||||lat||</marcxml:controlfield>
+<marcxml:datafield tag="245" ind1="1" ind2="0">
+<marcxml:subfield code="a">Prosperi Aquitani liber promissionum et praedictorum dei - Cod. Aug. perg. 69</marcxml:subfield>
+<marcxml:subfield code="c">[Quodvultdeus]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="246" ind1="3" ind2=" ">
+<marcxml:subfield code="a">Liber promissionum et praedictorum dei</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">????-453</marcxml:subfield>
+<marcxml:subfield code="d">????-453</marcxml:subfield>
+<marcxml:subfield code="e">VerfasserIn</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="700" ind1="1" ind2=" ">
+<marcxml:subfield code="a">390-455</marcxml:subfield>
+<marcxml:subfield code="d">390-455</marcxml:subfield>
+<marcxml:subfield code="e">Angebl. Verf.</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">[S.l.]</marcxml:subfield>
+<marcxml:subfield code="c">0801</marcxml:subfield>
+<marcxml:subfield code="c">[1. Hälfte 9. Jh.]</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="260" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Karlsruhe</marcxml:subfield>
+<marcxml:subfield code="b">Badische Landesbibliothek</marcxml:subfield>
+<marcxml:subfield code="c">2008</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="300" ind1=" " ind2=" ">
+<marcxml:subfield code="a">68 Bl. ; 33,3 x 23,5 cm</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="500" ind1=" " ind2=" ">
+<marcxml:subfield code="a">Original: Handschrift auf Pergament</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="650" ind1="7" ind2=" ">
+<marcxml:subfield code="a">Reichenau</marcxml:subfield>
+<marcxml:subfield code="2">gnd</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2="0">
+<marcxml:subfield code="u">urn:nbn:de:bsz:31-1305</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="852" ind1=" " ind2=" ">
+<marcxml:subfield code="a">BLB Karlsruhe</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/id/19692</marcxml:subfield>
+<marcxml:subfield code="3">Digitalisierung</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="856" ind1="4" ind2=" ">
+<marcxml:subfield code="u">http://digital.blb-karlsruhe.de/blbihd/content/pageview/89394</marcxml:subfield>
+<marcxml:subfield code="3">Katalognachweis</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="" ind1=" " ind2=" ">
+<marcxml:subfield code="a">CC BY 4.0</marcxml:subfield>
+</marcxml:datafield>
+<marcxml:datafield tag="887" ind1=" " ind2=" ">
+<marcxml:subfield code="a"/>
+</marcxml:datafield>
+</marcxml:record>
+</metadata>
+</record>
+<resumptionToken completeListSize="3208">0x0f204f0f47448907d831618cfa97370c-cursor_p_3D20_p_26set_p_3DHandschriften_p_26metadataPrefix_p_3Dmarc21_p_26batch_size_p_3D11</resumptionToken>
+</ListRecords>
+</OAI-PMH>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Normdaten Person Template-Datei</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="__hsp-uuid__" sex="__sex__">
+               <persName type="default" xml:lang="__lang_code__">#{PERSNAME}#
+                     <forename>#{FORENAME}#</forename>
+                  <genName>#{GENNAME}#</genName>
+                  <surname>#{SURNAME}#</surname>
+                  <roleName>#{ROLENAME}#</roleName>
+                  <nameLink>#{NAMELINK}#</nameLink>
+               </persName>
+               <persName type="alternative" xml:lang="__lang_code__">#{PERSNAME}#
+                     <forename>#{FORENAME}#</forename>
+                  <surname>#{GENNAME}#</surname>
+               </persName>
+               <birth>
+                  <date when="__birth_date__">#{DATE}#</date>
+                  <placeName ref="__gnd-url__">#{PLACENAME}#</placeName>
+               </birth>
+               <death>
+                  <date when="__death_date__">#{DATE}#</date>
+                  <placeName ref="__gnd-url__">#{PLACENAME}#</placeName>
+               </death>
+               <occupation ref="#__hsp-uuid__">occupation</occupation>
+               <idno type="gnd" xml:id="__gnd-id__">#{URL}#</idno>
+               <idno type="orchid" xml:id="__orchid-id__">#{URL}#</idno>
+               <!-- z001 dient temporär dem Abgleich mit dem Normdatenmodul, soll später nicht in das release-Template übernommen werden!  -->
+               <idno type="z001" xml:id="__z001_id__">#{HIDAID}#</idno>
+               <note>#{NOTES}#</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

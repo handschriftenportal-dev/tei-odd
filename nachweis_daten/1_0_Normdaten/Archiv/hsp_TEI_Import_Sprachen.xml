@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Language snippet</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>.</repository>
+                    </msIdentifier>
+                    <additional> </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar" xml:id="ar">
+                    <name type="default" xml:lang="de">arabisch</name>
+                    <name type="alternative" xml:lang="de">Arabisch</name>
+                    <name type="alternative" xml:lang="de">Arabische Sprache</name>
+                    <name type="alternative" xml:lang="en">Arabic</name>
+                    <idno xml:id="iso639-1_ar">http://id.loc.gov/vocabulary/iso639-1/ar</idno>
+                    <idno xml:id="iso639-2_ara">http://id.loc.gov/vocabulary/iso639-2/ara</idno>
+                    <idno xml:id="gnd_4241223-7">http://d-nb.info/gnd/4241223-7</idno>
+                </language>
+
+                <language ident="sem" xml:id="sem">
+                    <name type="default" xml:lang="de">äthiopisch</name>
+                    <name type="alternative" xml:lang="de">Äthiopisch</name>
+                    <name type="alternative" xml:lang="de">Äthiosemitische Sprachen</name>
+                    <name type="alternative" xml:lang="en">semitic languages</name>
+                    <idno xml:id="iso639-2_sem">http://id.loc.gov/vocabulary/iso639-2/sem</idno>
+                    <idno xml:id="gnd_4133282-9">http://d-nb.info/gnd/4133282-9</idno>
+                </language>
+                <language ident="arc" xml:id="arc">
+                    <name type="default" xml:lang="de">aramäisch</name>
+                    <name type="alternative" xml:lang="de">Reichsaramäisch</name>
+                    <name type="alternative" xml:lang="en">Aramaic</name>
+                    <idno xml:id="iso639-2_arc">http://id.loc.gov/vocabulary/iso639-2/arc</idno>
+                    <idno xml:id="gnd_4085880-7">http://d-nb.info/gnd/4085880-7</idno>
+                </language>
+                <language ident="hy" xml:id="arm">
+                    <name type="default" xml:lang="de">armenisch</name>
+                    <name type="alternative" xml:lang="de">Armenisch</name>
+                    <name type="alternative" xml:lang="en">Armenian</name>
+                    <idno xml:id="iso639-1_hy">http://id.loc.gov/vocabulary/iso639-1/hy</idno>
+                    <idno xml:id="iso639-2_arm">http://id.loc.gov/vocabulary/iso639-2/arm</idno>
+                    <idno xml:id="gnd_4120142-5">http://d-nb.info/gnd/4120142-5</idno>
+                </language>
+                <language ident="br" xml:id="bre">
+                    <name type="default" xml:lang="de">bretonisch</name>
+                    <name type="alternative" xml:lang="de">Bretonisch</name>
+                    <name type="alternative" xml:lang="en">Breton</name>
+                    <idno xml:id="iso639-1_br">http://id.loc.gov/vocabulary/iso639-1/br</idno>
+                    <idno xml:id="iso639-2_bre">http://id.loc.gov/vocabulary/iso639-2/bre</idno>
+                    <idno xml:id="gnd_4120162-0">http://d-nb.info/gnd/4120162-0</idno>
+                </language>
+                <language ident="fy" xml:id="fry">
+                    <name type="default" xml:lang="de">friesisch</name>
+                    <name type="alternative" xml:lang="de">Friesisch</name>
+                    <name type="alternative" xml:lang="de">Friesische Sprache</name>
+                    <name type="alternative" xml:lang="en">Frisian</name>
+                    <idno xml:id="iso639-1_fy">http://id.loc.gov/vocabulary/iso639-1/fy</idno>
+                    <idno xml:id="iso639-2_fry">http://id.loc.gov/vocabulary/iso639-2/fry</idno>
+                    <idno xml:id="gnd_4120183-8">http://d-nb.info/gnd/4120183-8</idno>
+                </language>
+                <language ident="ka" xml:id="geo">
+                    <name type="default" xml:lang="de">georgisch</name>
+                    <name type="alternative" xml:lang="de">Georgisch</name>
+                    <name type="alternative" xml:lang="en">georgian</name>
+                    <idno xml:id="iso639-1_ka">http://id.loc.gov/vocabulary/iso639-1/ka</idno>
+                    <idno xml:id="iso639-2_geo">http://id.loc.gov/vocabulary/iso639-2/geo</idno>
+                    <idno xml:id="gnd_4124679-2">http://d-nb.info/gnd/4124679-2</idno>
+                </language>
+                <language ident="el" xml:id="gre">
+                    <name type="default" xml:lang="de">griechisch</name>
+                    <name type="alternative" xml:lang="de">Griechisch</name>
+                    <name type="alternative" xml:lang="en">Greek</name>
+                    <idno xml:id="iso639-1_el">http://id.loc.gov/vocabulary/iso639-1/el</idno>
+                    <idno xml:id="iso639-2_gre">http://id.loc.gov/vocabulary/iso639-2/gre</idno>
+                    <idno xml:id="gnd_4113791-7">http://d-nb.info/gnd/4113791-7</idno>
+                </language>
+                <language ident="inc" xml:id="inc">
+                    <name type="default" xml:lang="de">indisch</name>
+                    <name type="alternative" xml:lang="de">Indisch</name>
+                    <name type="alternative" xml:lang="de">Indoarische Sprachen</name>
+                    <name type="alternative" xml:lang="en">Indic languages</name>
+                    <idno xml:id="iso639-2_inc">http://id.loc.gov/vocabulary/iso639-2/inc</idno>
+                    <idno xml:id="gnd_4133531-4">http://d-nb.info/gnd/4133531-4</idno>
+                </language>
+                <language ident="ga" xml:id="gle">
+                    <name type="default" xml:lang="de">irisch</name>
+                    <name type="alternative" xml:lang="de">Irisch</name>
+                    <name type="alternative" xml:lang="en">Irish</name>
+                    <idno xml:id="iso639-1_ga">http://id.loc.gov/vocabulary/iso639-1/ga</idno>
+                    <idno xml:id="iso639-2_gle">http://id.loc.gov/vocabulary/iso639-2/gle</idno>
+                    <idno xml:id="gnd_4120207-7">http://d-nb.info/gnd/4120207-7</idno>
+                </language>
+                <language ident="jv" xml:id="jav">
+                    <name type="default" xml:lang="de">javanisch</name>
+                    <name type="alternative" xml:lang="de">Javanisch</name>
+                    <name type="alternative" xml:lang="de">Javanese</name>
+                    <idno xml:id="iso639-1_jv">http://id.loc.gov/vocabulary/iso639-1/jv</idno>
+                    <idno xml:id="iso639-2_jav">http://id.loc.gov/vocabulary/iso639-2/jav</idno>
+                    <idno xml:id="gnd_4120210-7">http://d-nb.info/gnd/4120210-7</idno>
+                </language>
+                <language ident="tut" xml:id="tut">
+                    <name type="default" xml:lang="de">Altaische Sprachen</name>
+                    <name type="alternative" xml:lang="en">Altaic languages</name>
+                    <idno xml:id="iso639-2_tut">http://id.loc.gov/vocabulary/iso639-2/tut</idno>
+                    <idno xml:id="gnd_4120111-5">http://d-nb.info/gnd/4120111-5</idno>
+                </language>
+                <language ident="mad" xml:id="mad">
+                    <name type="default" xml:lang="de">maduresisch</name>
+                    <name type="alternative" xml:lang="de">Maduresisch</name>
+                    <name type="alternative" xml:lang="en">Madurese</name>
+                    <idno xml:id="iso639-2_mad">http://id.loc.gov/vocabulary/iso639-2/mad</idno>
+                    <idno xml:id="gnd_4458737-5">http://d-nb.info/gnd/4458737-5</idno>
+                </language>
+                <language ident="ms" xml:id="may">
+                    <name type="default" xml:lang="de">malaiisch</name>
+                    <name type="alternative" xml:lang="de">Malaiisch</name>
+                    <name type="alternative" xml:lang="en">Malay</name>
+                    <idno xml:id="iso639-1_ms">http://id.loc.gov/vocabulary/iso639-1/ms</idno>
+                    <idno xml:id="iso639-2_may">http://id.loc.gov/vocabulary/iso639-2/may</idno>
+                    <idno xml:id="gnd_4037194-3">http://d-nb.info/gnd/4037194-3</idno>
+                </language>
+                <language ident="mnc" xml:id="mnc">
+                    <name type="default" xml:lang="de">mandschurisch</name>
+                    <name type="alternative" xml:lang="de">Mandschurisch</name>
+                    <name type="alternative" xml:lang="en">Manchu</name>
+                    <idno xml:id="iso639-2_mnc">http://id.loc.gov/vocabulary/iso639-2/mnc</idno>
+                    <idno xml:id="gnd_4119929-7">http://d-nb.info/gnd/4119929-7</idno>
+                </language>
+                <language ident="myn" xml:id="myn">
+                    <name type="default" xml:lang="de">maya-sprache</name>
+                    <name type="alternative" xml:lang="de">Maya-Sprache</name>
+                    <name type="alternative" xml:lang="en">Mayan languages</name>
+                    <idno xml:id="iso639-2_myn">http://id.loc.gov/vocabulary/iso639-2/myn</idno>
+                    <idno xml:id="gnd_4220899-3">http://d-nb.info/gnd/4220899-3</idno>
+                </language>
+                <language ident="mn" xml:id="mon">
+                    <name type="default" xml:lang="de">mongolisch</name>
+                    <name type="alternative" xml:lang="de">Mongolisch</name>
+                    <name type="alternative" xml:lang="en">Mongolian</name>
+                    <idno xml:id="iso639-1_mn">http://id.loc.gov/vocabulary/iso639-1/mn</idno>
+                    <idno xml:id="iso639-2_mon">http://id.loc.gov/vocabulary/iso639-2/mon</idno>
+                    <idno xml:id="gnd_4114622-0">http://d-nb.info/gnd/4114622-0</idno>
+                </language>
+                <language ident="oc" xml:id="oci">
+                    <name type="default" xml:lang="de">okzitanisch</name>
+                    <name type="alternative" xml:lang="de">Okzitanisch</name>
+                    <name type="alternative" xml:lang="en">Occitan</name>
+                    <idno xml:id="iso639-1_oc">http://id.loc.gov/vocabulary/iso639-1/oc</idno>
+                    <idno xml:id="iso639-2_oci">http://id.loc.gov/vocabulary/iso639-2/oci</idno>
+                    <idno xml:id="gnd_4043439-4">http://d-nb.info/gnd/4043439-4</idno>
+                </language>
+                <language ident="qu" xml:id="que">
+                    <name type="default" xml:lang="de">quechua</name>
+                    <name type="alternative" xml:lang="de">Quechua</name>
+                    <name type="alternative" xml:lang="en">Quechua</name>
+                    <idno xml:id="iso639-1_qu">http://id.loc.gov/vocabulary/iso639-1/qu</idno>
+                    <idno xml:id="iso639-2_que">http://id.loc.gov/vocabulary/iso639-2/que</idno>
+                    <idno xml:id="gnd_4133214-3">http://d-nb.info/gnd/4133214-3</idno>
+                </language>
+                <language ident="sr" xml:id="srp">
+                    <name type="default" xml:lang="de">serbisch</name>
+                    <name type="alternative" xml:lang="de">Serbisch</name>
+                    <name type="alternative" xml:lang="en">Serbian</name>
+                    <idno xml:id="iso639-1_sr">http://id.loc.gov/vocabulary/iso639-1/sr</idno>
+                    <idno xml:id="iso639-2_srp">http://id.loc.gov/vocabulary/iso639-2/srp</idno>
+                    <idno xml:id="gnd_4133301-9">http://d-nb.info/gnd/4133301-9</idno>
+                </language>
+                <language ident="hr" xml:id="hrv">
+                    <name type="default" xml:lang="de">kroatisch</name>
+                    <name type="alternative" xml:lang="de">Kroatisch</name>
+                    <name type="alternative" xml:lang="en">Serbian</name>
+                    <idno xml:id="iso639-1_hr">http://id.loc.gov/vocabulary/iso639-1/hr</idno>
+                    <idno xml:id="iso639-2_hrv">http://id.loc.gov/vocabulary/iso639-2/hrv</idno>
+                    <idno xml:id="gnd_4033245-7">http://d-nb.info/gnd/4033245-7</idno>
+                </language>
+                <language ident="sla" xml:id="sla">
+                    <name type="default" xml:lang="de">slawisch</name>
+                    <name type="alternative" xml:lang="de">Slawisch</name>
+                    <name type="alternative" xml:lang="de">Slawische Sprachen</name>
+                    <name type="alternative" xml:lang="de">Slaic languages</name>
+                    <idno xml:id="iso639-2_sla">http://id.loc.gov/vocabulary/iso639-2/sla</idno>
+                    <idno xml:id="gnd_4120036-6">http://d-nb.info/gnd/4120036-6</idno>
+                </language>
+                <language ident="tl" xml:id="tgl">
+                    <name type="default" xml:lang="de">tagalog</name>
+                    <name type="alternative" xml:lang="de">Tagalog</name>
+                    <name type="alternative" xml:lang="en">Tagalog</name>
+                    <idno xml:id="iso639-1_tl">http://id.loc.gov/vocabulary/iso639-1/tl</idno>
+                    <idno xml:id="iso639-2_tgl">http://id.loc.gov/vocabulary/iso639-2/tgl</idno>
+                    <idno xml:id="gnd_4120352-5">http://d-nb.info/gnd/4120352-5</idno>
+                </language>
+                <language ident="bo" xml:id="tib">
+                    <name type="default" xml:lang="de">tibetisch</name>
+                    <name type="alternative" xml:lang="de">Tibetisch</name>
+                    <name type="alternative" xml:lang="en">Tibetan</name>
+                    <idno xml:id="iso639-1_bo">http://id.loc.gov/vocabulary/iso639-1/bo</idno>
+                    <idno xml:id="iso639-2_tib">http://id.loc.gov/vocabulary/iso639-2/tib</idno>
+                    <idno xml:id="gnd_4117212-7">http://d-nb.info/gnd/4117212-7</idno>
+                </language>
+                <language ident="uk" xml:id="ukr">
+                    <name type="default" xml:lang="de">ukrainisch</name>
+                    <name type="alternative" xml:lang="de">Ukrainisch</name>
+                    <name type="alternative" xml:lang="en">Ukrainian</name>
+                    <idno xml:id="iso639-1_uk">http://id.loc.gov/vocabulary/iso639-1/uk</idno>
+                    <idno xml:id="iso639-2_ukr">http://id.loc.gov/vocabulary/iso639-2/ukr</idno>
+                    <idno xml:id="gnd_4120373-2">http://d-nb.info/gnd/4120373-2</idno>
+                </language>
+
+                <language ident="bg" xml:id="bg">
+                    <name type="default" xml:lang="de">bulgarisch</name>
+                    <name type="alternative" xml:lang="de">Bulgarisch</name>
+                    <name type="alternative" xml:lang="de">Bulgarische Sprache</name>
+                    <name type="alternative" xml:lang="en">Bulgarian</name>
+                    <name type="alternative" xml:lang="en">Bulgarian language</name>
+                    <idno xml:id="iso639-1_bg">http://id.loc.gov/vocabulary/iso639-1/bg</idno>
+                    <idno xml:id="iso639-2_bul">http://id.loc.gov/vocabulary/iso639-2/bul</idno>
+                    <idno xml:id="gnd_4120165-6">http://d-nb.info/gnd/4120165-6</idno>
+                </language>
+
+                <language ident="ca" xml:id="ca">
+                    <name type="default" xml:lang="de">katalanisch</name>
+                    <name type="alternative" xml:lang="de">Katalanisch</name>
+                    <name type="alternative" xml:lang="en">Catalan</name>
+                    <name type="alternative" xml:lang="en">Valencian</name>
+                    <idno xml:id="iso639-1_ca">http://id.loc.gov/vocabulary/iso639-1/ca</idno>
+                    <idno xml:id="iso639-2_cat">http://id.loc.gov/vocabulary/iso639-2/cat</idno>
+                    <idno xml:id="gnd_4120218-1">http://d-nb.info/gnd/4120218-1</idno>
+                </language>
+
+                <language ident="cs" xml:id="cs">
+                    <name type="default" xml:lang="de">tschechisch</name>
+                    <name type="alternative" xml:lang="de">Tschechisch</name>
+                    <name type="alternative" xml:lang="de">Tschechische Sprache</name>
+                    <name type="alternative" xml:lang="en">Czech</name>
+                    <idno xml:id="iso639-1_cs">http://id.loc.gov/vocabulary/iso639-1/cs</idno>
+                    <idno xml:id="iso639-2_ces">http://id.loc.gov/vocabulary/iso639-2/ces</idno>
+                    <idno xml:id="gnd_4061084-6">http://d-nb.info/gnd/4061084-6</idno>
+                </language>
+
+                <language ident="cu" xml:id="cu">
+                    <name type="default" xml:lang="de">kirchenslawisch</name>
+                    <name type="alternative" xml:lang="de">Kirchenslawisch</name>
+                    <name type="alternative" xml:lang="en">Church Slavic</name>
+                    <idno xml:id="iso639-1_cu">http://id.loc.gov/vocabulary/iso639-1/cu</idno>
+                    <idno xml:id="iso639-2_chu">http://id.loc.gov/vocabulary/iso639-2/chu</idno>
+                    <idno xml:id="gnd_4132167-4">http://d-nb.info/gnd/4132167-4</idno>
+                </language>
+
+                <language ident="da" xml:id="da">
+                    <name type="default" xml:lang="de">dänisch</name>
+                    <name type="alternative" xml:lang="de">Dänisch</name>
+                    <name type="alternative" xml:lang="de">Dänische Sprache</name>
+                    <name type="alternative" xml:lang="en">Danish</name>
+                    <idno xml:id="iso639-1_da">http://id.loc.gov/vocabulary/iso639-1/da</idno>
+                    <idno xml:id="iso639-2_dan">http://id.loc.gov/vocabulary/iso639-2/dan</idno>
+                    <idno xml:id="gnd_4113262-2">http://d-nb.info/gnd/4113262-2</idno>
+                </language>
+
+                <language ident="de" xml:id="de">
+                    <name type="default" xml:lang="de">deutsch</name>
+                    <name type="alternative" xml:lang="de">Deutsch</name>
+                    <name type="alternative" xml:lang="de">Neuhochdeutsch</name>
+                    <name type="alternative" xml:lang="de">Deutsche Sprache</name>
+                    <name type="alternative" xml:lang="de">Hochdeutsch</name>
+                    <idno xml:id="iso639-2_ger">http://id.loc.gov/vocabulary/iso639-2/ger</idno>
+                    <idno xml:id="iso639-2_deu">http://id.loc.gov/vocabulary/iso639-2/deu</idno>
+                    <idno xml:id="iso639-1_de">http://id.loc.gov/vocabulary/iso639-1/de</idno>
+                    <idno xml:id="gnd_4113292-0">http://d-nb.info/gnd/4113292-0</idno>
+                </language>
+
+                <language ident="en" xml:id="en">
+                    <name type="default" xml:lang="de">englisch</name>
+                    <name type="alternative" xml:lang="de">Englisch</name>
+                    <name type="alternative" xml:lang="en">English</name>
+                    <name type="alternative" xml:lang="de">Englische Sprache</name>
+                    <idno xml:id="iso639-1_en">https://id.loc.gov/vocabulary/iso639-1/en</idno>
+                    <idno xml:id="iso639-2_eng">https://id.loc.gov/vocabulary/iso639-2/eng</idno>
+                    <idno xml:id="gnd_4014777-0">http://d-nb.info/gnd/4014777-0</idno>
+                </language>
+
+                <language ident="es" xml:id="es">
+                    <name type="default" xml:lang="de">spanisch</name>
+                    <name type="alternative" xml:lang="de">Spanisch</name>
+                    <name type="alternative" xml:lang="de">Kastilisch</name>
+                    <name type="alternative" xml:lang="en">Spanish</name>
+                    <name type="alternative" xml:lang="en">Castilian</name>
+                    <idno xml:id="iso639-1_es">http://id.loc.gov/vocabulary/iso639-1/es</idno>
+                    <idno xml:id="iso639-2_spa">http://id.loc.gov/vocabulary/iso639-2/spa</idno>
+                    <idno xml:id="gnd_4077640-2">http://d-nb.info/gnd/4077640-2</idno>
+                </language>
+
+                <language ident="fa" xml:id="per">
+                    <name type="default" xml:lang="de">persisch</name>
+                    <name type="alternative" xml:lang="de">Persisch</name>
+                    <name type="alternative" xml:lang="en">Persian</name>
+                    <idno xml:id="iso639-1_fa">https://id.loc.gov/vocabulary/iso639-1/fa</idno>
+                    <idno xml:id="iso639-2_per">https://id.loc.gov/vocabulary/iso639-2/per</idno>
+                    <idno xml:id="gnd_4065403-5">http://d-nb.info/gnd/4065403-5</idno>
+                </language>
+
+                <language ident="fr" xml:id="fr">
+                    <name type="default" xml:lang="de">französisch</name>
+                    <name type="alternative" xml:lang="de">Französisch</name>
+                    <name type="alternative" xml:lang="de">Französische Sprache</name>
+                    <name type="alternative" xml:lang="en">French</name>
+                    <idno xml:id="iso639-1_fr">https://id.loc.gov/vocabulary/iso639-1/fr</idno>
+                    <idno xml:id="iso639-2_fra">https://id.loc.gov/vocabulary/iso639-2/fra</idno>
+                    <idno xml:id="gnd_4113615-9">http://d-nb.info/gnd/4113615-9</idno>
+                </language>
+
+                <language ident="he" xml:id="he">
+                    <name type="default" xml:lang="de">hebräisch</name>
+                    <name type="alternative" xml:lang="de">Hebräisch</name>
+                    <name type="alternative" xml:lang="de">Hebräische Sprache</name>
+                    <name type="alternative" xml:lang="en">Hebrew</name>
+                    <name type="alternative" xml:lang="en">Hebrew language</name>
+                    <idno xml:id="iso639-1_he">http://id.loc.gov/vocabulary/iso639-1/he</idno>
+                    <idno xml:id="iso639-2_heb">http://id.loc.gov/vocabulary/iso639-2/heb</idno>
+                    <idno xml:id="gnd_4023922-6">http://d-nb.info/gnd/4023922-6</idno>
+                </language>
+
+                <language ident="hu" xml:id="hu">
+                    <name type="default" xml:lang="de">ungarisch</name>
+                    <name type="alternative" xml:lang="de">Ungarisch</name>
+                    <name type="alternative" xml:lang="de">Ungarische Sprache</name>
+                    <name type="alternative" xml:lang="en">Hungarian</name>
+                    <name type="alternative" xml:lang="en">Hungarian language</name>
+                    <idno xml:id="iso639-1_hu">http://id.loc.gov/vocabulary/iso639-1/hu</idno>
+                    <idno xml:id="iso639-2_hun">http://id.loc.gov/vocabulary/iso639-2/hun</idno>
+                    <idno xml:id="gnd_4120374-4">http://d-nb.info/gnd/4120374-4</idno>
+                </language>
+
+                <language ident="is" xml:id="is">
+                    <name type="default" xml:lang="de">isländisch</name>
+                    <name type="alternative" xml:lang="de">Isländisch</name>
+                    <name type="alternative" xml:lang="de">Isländische Sprache</name>
+                    <name type="alternative" xml:lang="en">Icelandic</name>
+                    <idno xml:id="iso639-1_is">http://id.loc.gov/vocabulary/iso639-1/is</idno>
+                    <idno xml:id="iso639-2_ice">http://id.loc.gov/vocabulary/iso639-2/ice</idno>
+                    <idno xml:id="iso639-2_isl">http://id.loc.gov/vocabulary/iso639-2/isl</idno>
+                    <idno xml:id="gnd_4120209-0">http://d-nb.info/gnd/4120209-0</idno>
+                </language>
+
+                <language ident="it" xml:id="it">
+                    <name type="default" xml:lang="de">italienisch</name>
+                    <name type="alternative" xml:lang="de">Italienisch</name>
+                    <name type="alternative" xml:lang="de">Italienische Sprache</name>
+                    <name type="alternative" xml:lang="en">Italian</name>
+                    <idno xml:id="iso639-1_it">https://id.loc.gov/vocabulary/iso639-1/it</idno>
+                    <idno xml:id="iso639-2_ita">https://id.loc.gov/vocabulary/iso639-2/ita</idno>
+                    <idno xml:id="gnd_4114056-4">http://d-nb.info/gnd/4114056-4</idno>
+                </language>
+
+                <language ident="la" xml:id="la">
+                    <name type="default" xml:lang="de">lateinisch</name>
+                    <name type="alternative" xml:lang="de">Lateinisch</name>
+                    <name type="alternative" xml:lang="de">Lateinische Sprache</name>
+                    <name type="alternative" xml:lang="en">Latin</name>
+                    <idno xml:id="iso639-1_la">https://id.loc.gov/vocabulary/iso639-1/la</idno>
+                    <idno xml:id="iso639-2_lat">https://id.loc.gov/vocabulary/iso639-2/lat</idno>
+                    <idno xml:id="gnd_4114364-4">http://d-nb.info/gnd/4114364-4</idno>
+                </language>
+
+                <language ident="nl" xml:id="nl">
+                    <name type="default" xml:lang="de">niederländisch</name>
+                    <name type="alternative" xml:lang="de">Niederländisch</name>
+                    <name type="alternative" xml:lang="de">Neuniederländisch</name>
+                    <name type="alternative" xml:lang="de">Niederländische Sprache</name>
+                    <name type="alternative" xml:lang="en">Dutch</name>
+                    <idno xml:id="iso639-1_nl">http://id.loc.gov/vocabulary/iso639-1/nl</idno>
+                    <idno xml:id="iso639-2_dut">http://id.loc.gov/vocabulary/iso639-2/dut</idno>
+                    <idno xml:id="gnd_4122614-8">http://d-nb.info/gnd/4122614-8</idno>
+                </language>
+
+                <language ident="pl" xml:id="pl">
+                    <name type="default" xml:lang="de">polnisch</name>
+                    <name type="alternative" xml:lang="de">Polnisch</name>
+                    <name type="alternative" xml:lang="de">Polnische Sprache</name>
+                    <name type="alternative" xml:lang="en">Polish</name>
+                    <idno xml:id="iso639-1_pl">http://id.loc.gov/vocabulary/iso639-1/pl</idno>
+                    <idno xml:id="iso639-2_pol">http://id.loc.gov/vocabulary/iso639-2/pol</idno>
+                    <idno xml:id="gnd_4120314-8">http://d-nb.info/gnd/4120314-8</idno>
+                </language>
+
+                <language ident="pt" xml:id="pt">
+                    <name type="default" xml:lang="de">portugiesisch</name>
+                    <name type="alternative" xml:lang="de">Portugiesisch</name>
+                    <name type="alternative" xml:lang="de">Portugiesische Sprache</name>
+                    <name type="alternative" xml:lang="en">Portugese</name>
+                    <idno xml:id="iso639-1_pt">http://id.loc.gov/vocabulary/iso639-1/pt</idno>
+                    <idno xml:id="iso639-2_por">http://id.loc.gov/vocabulary/iso639-2/por</idno>
+                    <idno xml:id="gnd_4120316-1">http://d-nb.info/gnd/4120316-1</idno>
+                </language>
+
+                <language ident="ru" xml:id="ru">
+                    <name type="default" xml:lang="de">russisch</name>
+                    <name type="alternative" xml:lang="de">Russisch</name>
+                    <name type="alternative" xml:lang="en">Russian</name>
+                    <name type="alternative" xml:lang="de">Russische Sprache</name>
+                    <idno xml:id="iso639-1_ru">http://id.loc.gov/vocabulary/iso639-1/ru</idno>
+                    <idno xml:id="iso639-2_rus">http://id.loc.gov/vocabulary/iso639-2/rus</idno>
+                    <idno xml:id="gnd_4051038-4">http://d-nb.info/gnd/4051038-4</idno>
+                </language>
+
+                <language ident="si" xml:id="si">
+                    <name type="default" xml:lang="de">singhalesisch</name>
+                    <name type="alternative" xml:lang="de">Singhalesisch</name>
+                    <name type="alternative" xml:lang="de">Singhalesische Sprache</name>
+                    <name type="alternative" xml:lang="en">Sinhala</name>
+                    <name type="alternative" xml:lang="en">Sinhala language</name>
+                    <idno xml:id="iso639-1_si">http://id.loc.gov/vocabulary/iso639-1/si</idno>
+                    <idno xml:id="iso639-2_sin">http://id.loc.gov/vocabulary/iso639-2/sin</idno>
+                    <idno xml:id="gnd_4107780-5">http://d-nb.info/gnd/4107780-5</idno>
+                </language>
+
+                <language ident="sl" xml:id="slv">
+                    <name type="default" xml:lang="de">slowenisch</name>
+                    <name type="alternative" xml:lang="de">Slowenisch</name>
+                    <name type="alternative" xml:lang="en">Slovenian</name>
+                    <idno xml:id="iso639-1_sl">http://id.loc.gov/vocabulary/iso639-1/sl</idno>
+                    <idno xml:id="iso639-2_slv">http://id.loc.gov/vocabulary/iso639-2/slv</idno>
+                    <idno xml:id="gnd_4120336-7">http://d-nb.info/gnd/4120336-7</idno>
+                </language>
+
+                <language ident="sv" xml:id="sv">
+                    <name type="default" xml:lang="de">schwedisch</name>
+                    <name type="alternative" xml:lang="de">Schwedisch</name>
+                    <name type="alternative" xml:lang="de">Schwedische Sprache</name>
+                    <name type="alternative" xml:lang="en">Swedish</name>
+                    <name type="alternative" xml:lang="en">Svedish language</name>
+                    <idno xml:id="iso639-1_sv">http://id.loc.gov/vocabulary/iso639-1/sv</idno>
+                    <idno xml:id="iso639-2_swe">http://id.loc.gov/vocabulary/iso639-2/swe</idno>
+                    <idno xml:id="gnd_4116437-4">http://d-nb.info/gnd/4116437-4</idno>
+                </language>
+
+                <language ident="syc" xml:id="syc">
+                    <name type="default" xml:lang="de">syrisch</name>
+                    <name type="alternative" xml:lang="de">Syrisch</name>
+                    <name type="alternative" xml:lang="en">Syriac</name>
+                    <idno xml:id="iso639-2_syc">http://id.loc.gov/vocabulary/iso639-2/syc</idno>
+                    <idno xml:id="gnd_4120349-5">http://d-nb.info/gnd/4120349-5</idno>
+                </language>
+
+                <language ident="ta" xml:id="ta">
+                    <name type="default" xml:lang="de">tamil</name>
+                    <name type="alternative" xml:lang="de">Tamil</name>
+                    <name type="alternative" xml:lang="de">Tamilisch Sprache</name>
+                    <name type="alternative" xml:lang="en">Tamil</name>
+                    <name type="alternative" xml:lang="en">Tamil language</name>
+                    <idno xml:id="iso639-1_ta">http://id.loc.gov/vocabulary/iso639-1/ta</idno>
+                    <idno xml:id="iso639-2_tam">http://id.loc.gov/vocabulary/iso639-2/tam</idno>
+                    <idno xml:id="gnd_4120353-7">http://d-nb.info/gnd/4120353-7</idno>
+                </language>
+
+                <language ident="tr" xml:id="tr">
+                    <name type="default" xml:lang="de">türkisch</name>
+                    <name type="alternative" xml:lang="de">Türkisch</name>
+                    <name type="alternative" xml:lang="de">Türkische Sprache</name>
+                    <name type="alternative" xml:lang="en">Turkish</name>
+                    <name type="alternative" xml:lang="en">Turkish language</name>
+                    <idno xml:id="iso639-1_tr">http://id.loc.gov/vocabulary/iso639-1/tr</idno>
+                    <idno xml:id="iso639-2_tur">http://id.loc.gov/vocabulary/iso639-2/tur</idno>
+                    <idno xml:id="gnd_4120079-2">http://d-nb.info/gnd/4120079-2</idno>
+                </language>
+
+                <language ident="wen" xml:id="wen">
+                    <name type="default" xml:lang="de">sorbisch</name>
+                    <name type="alternative" xml:lang="de">Sorbisch</name>
+                    <name type="alternative" xml:lang="de">Sorbische Sprache</name>
+                    <name type="alternative" xml:lang="de">Wendisch</name>
+                    <name type="alternative" xml:lang="en">Sorbian</name>
+                    <idno xml:id="iso639-2_wen">http://id.loc.gov/vocabulary/iso639-2/wen</idno>
+                    <idno xml:id="gnd_4116533-0">http://d-nb.info/gnd/4116533-0</idno>
+                </language>
+
+                <language ident="yid" xml:id="yid">
+                    <name type="default" xml:lang="de">jiddisch</name>
+                    <name type="alternative" xml:lang="de">Jiddisch</name>
+                    <name type="alternative" xml:lang="en">Yiddish</name>
+                    <idno xml:id="iso639-1_yi">http://id.loc.gov/vocabulary/iso639-1/yi</idno>
+                    <idno xml:id="iso639-2_yid">http://id.loc.gov/vocabulary/iso639-2/yid</idno>
+                    <idno xml:id="gnd_4028614-9">http://d-nb.info/gnd/4028614-9</idno>
+                </language>
+
+                <language ident="zho" xml:id="zho">
+                    <name type="default" xml:lang="de">chinesisch</name>
+                    <name type="alternative" xml:lang="de">Chinesisch</name>
+                    <name type="alternative" xml:lang="de">Chinesische Sprache</name>
+                    <name type="alternative" xml:lang="en">Chinese</name>
+                    <idno xml:id="iso639-1_zh">http://id.loc.gov/vocabulary/iso639-1/zh</idno>
+                    <idno xml:id="iso639-2_zho">http://id.loc.gov/vocabulary/iso639-2/zho</idno>
+                    <idno xml:id="gnd_4113214-2">http://d-nb.info/gnd/4113214-2</idno>
+                </language>
+
+                <language ident="ro" xml:id="ro">
+                    <name type="default" xml:lang="de">rumänisch</name>
+                    <name type="alternative" xml:lang="de">Rumänisch</name>
+                    <name type="alternative" xml:lang="de">Rumänische Sprache</name>
+                    <name type="alternative" xml:lang="en">Romanian</name>
+                    <idno xml:id="iso639-1_ro">http://id.loc.gov/vocabulary/iso639-1/ro</idno>
+                    <idno xml:id="iso639-2_rum">http://id.loc.gov/vocabulary/iso639-2/rum</idno>
+                    <idno xml:id="gnd_4115807-6">http://d-nb.info/gnd/4115807-6</idno>
+                </language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+        <p/>
+        </body>
+    </text>
+</TEI>

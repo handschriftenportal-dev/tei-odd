@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.startext.de/HiDA/DefService/XMLSchema" xmlns:h1="http://www.startext.de/HiDA/DefService/XMLSchema">
+  <xs:element name="DocumentSet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="h1:ContentInfo"/>
+        <xs:element maxOccurs="unbounded" ref="h1:Document"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContentInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="h1:Format"/>
+        <xs:element ref="h1:CreationDate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Format" type="xs:string"/>
+  <xs:element name="CreationDate" type="xs:string"/>
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="h1:Block"/>
+        <xs:element minOccurs="0" ref="h1:PersistentIndexTerms"/>
+      </xs:sequence>
+      <xs:attribute name="ChangeDate" type="xs:string"/>
+      <xs:attribute name="CreationDate" type="xs:string"/>
+      <xs:attribute name="CreatorID" type="xs:string"/>
+      <xs:attribute name="DocKey" use="required"/>
+      <xs:attribute name="DocTitle" type="xs:string"/>
+      <xs:attribute name="OwnerID" type="xs:string"/>
+      <xs:attribute name="FieldsCount" type="xs:integer"/>     
+      <xs:attribute name="HistorySnapshot" type="xs:string"/>      
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Block">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="h1:OwnerHistory" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="h1:Field" maxOccurs="unbounded"/>
+        <xs:element ref="h1:Block" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="Type" use="required" type="xs:string"/>
+      <xs:attribute name="FieldsCount" type="xs:integer"/>                            
+      <xs:attribute name="CreatorID" type="xs:string"/>
+      <xs:attribute name="CreationDate" type="xs:string"/>
+      <xs:attribute name="ChangeDate" type="xs:string"/>
+      <xs:attribute name="ChangerID" type="xs:string"/>
+      <xs:attribute name="OwnerID" type="xs:string"/>
+      <xs:attribute name="LevelID" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PersistentIndexTerms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="h1:IndexTerm"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IndexTerm">
+    <xs:complexType>
+      <xs:attribute name="Display"/>
+      <xs:attribute name="DocKey" use="required"/>
+      <xs:attribute name="IndexDefID" use="required" type="xs:string"/>
+      <xs:attribute name="Location" use="required"/>
+      <xs:attribute name="Manual" type="xs:boolean"/>
+      <xs:attribute name="Value" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Field">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="h1:Field"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="TimeRange" form="unqualified">
+          <xs:complexType>
+            <xs:attribute name="Value" use="required"/>
+            <xs:attribute name="ValueMax" use="required" type="xs:NMTOKEN"/>
+            <xs:attribute name="ValueMin" use="required" type="xs:NMTOKEN"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="1" name="RichTextValue" form="unqualified"/>
+      </xs:sequence>
+      <xs:attribute name="Type" use="required" type="xs:string"/>
+      <xs:attribute name="Value"/>
+      <xs:attribute name="ValueMax" type="xs:NMTOKEN"/>
+      <xs:attribute name="ValueMin" type="xs:NMTOKEN"/>
+      <xs:attribute name="value_plain"/>
+      <xs:attribute name="Virtual" type="xs:boolean"/>
+      <xs:attribute name="FileName" type="xs:string"></xs:attribute>
+      <xs:attribute name="FilePath" type="xs:string"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OwnerHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="OwnerHistoryItem" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="OwnerID" type="xs:string"/>            
+            <xs:attribute name="Start" type="xs:string"/>            
+            <xs:attribute name="End" type="xs:string"/>            
+          </xs:complexType>          
+        </xs:element>
+      </xs:sequence>      
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

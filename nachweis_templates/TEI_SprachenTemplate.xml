@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Normdaten Sprachen Template-Datei</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>                
+                <language ident="__bcp47-id__" xml:id="__hsp-uuid__">
+                    <name type="default" xml:lang="__lang_code__">#{LANGNAME}#</name>
+                    <name type="alternative" xml:lang="__lang_code__">#{LANGNAME}#</name>
+                    <idno xml:id="__iso639-1_id__">#{URL}#</idno>
+                    <idno xml:id="__iso639-2_id__">#{URL}#</idno>
+                    <idno xml:id="__gnd-id__">#{URL}#</idno>
+                </language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>  
+            <p/>
+        </body>
+    </text>
+</TEI>
+

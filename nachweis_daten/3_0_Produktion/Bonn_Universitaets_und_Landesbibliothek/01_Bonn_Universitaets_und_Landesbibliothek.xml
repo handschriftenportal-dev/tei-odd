@@ -1,0 +1,2895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Bonn_Universitaets_und_Landesbibliothek/01_Bonn_Universitaets_und_Landesbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1920">S 1920</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. S 1920</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-66">S 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-73">S 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-83">S 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 11,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-89">S 89</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-97">S 97</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-110">S 110</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-113">S 113</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 15,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-140">S 140</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-141">S 141</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-152">S 152</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-169">S 169</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-175">S 175</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-183-a-b---S-476-eta-oo">S 183,a-b &amp; S 476,eta+oo</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,eta+oo</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 476,eta+oo</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 183,a-b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-184---S-476-zz">S 184 &amp; S 476,zz</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,zz</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 184</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 476,zz</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-185">S 185</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 15,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-186---S-476-mm">S 186 &amp; S 476,mm</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,mm</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 476,mm</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-188---S-476-z">S 188 &amp; S 476,z</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,z</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 188</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>S 476,z</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-189">S 189</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-193">S 193</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 173b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-217">S 217</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 62,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-218">S 218</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 66,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-219">S 219</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 62,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-220">S 220</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 62,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-221">S 221</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 63,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-247">S 247</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-263">S 263</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 134,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-265-2">S 265,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-265-3">S 265,3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 137,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-268">S 268</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 136,aa</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-269">S 269</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 136,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-280">S 280</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 167a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-281">S 281</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 170b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-282">S 282</idno>
+                  <altIdentifier type="alternative">
+                     <idno>170,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-283">S 283</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 172,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-284">S 284</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 172,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-285">S 285</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 172,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-286">S 286</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 172,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-287">S 287</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 174,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-288">S 288</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 177,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-289">S 289</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 177,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-290">S 290</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 177,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-291">S 291</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 177,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-292-1">S 292,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 178 (a)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-292-2">S 292,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 178 (b)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-293">S 293</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 179,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-295">S 295</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 206</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-296">S 296</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 182</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-297">S 297</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 183</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-298-1">S 298,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 185,a-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-298-2">S 298,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 185,a-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-298-3">S 298,3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 185,a-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-299">S 299</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 185,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-300">S 300</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 186</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>P. 311</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-301">S 301</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 189,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-302">S 302</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 189,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-303">S 303</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 226,aa</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-304">S 304</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 188,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-305">S 305</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 188,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-306">S 306</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 188,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-307">S 307</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-308-1">S 308,1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 191,a,1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-308-2">S 308,2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 191,a,2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-309">S 309</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 191,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-310">S 310</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 198</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-311">S 311</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-312">S 312</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 196,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-313">S 313</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 160,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-314">S 314</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 168,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-315">S 315</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 168,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-316">S 316</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 169,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-317">S 317</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 157,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-318">S 318</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 157,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-319">S 319</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 175</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-320">S 320</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 181</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-321">S 321</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 187</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-322">S 322</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 179,h</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-324">S 324</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 203</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-325">S 325</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 202</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-326">S 326</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 205</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-327">S 327</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 208,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-333">S 333</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 213,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-334">S 334</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 213,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-346">S 346</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 222v,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-351">S 351</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 222,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-352">S 352</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 222,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-355">S 355</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 220v,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-356">S 356</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 220v,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-357">S 357</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-358">S 358</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 220v,f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-359">S 359</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 220v,g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-360">S 360</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 227,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-361">S 361</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 227,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-362">S 362</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 266,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-363">S 363</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 232</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-364">S 364</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 230</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-365">S 365</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 233</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-366">S 366</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 227v,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-367">S 367</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 227v,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-368">S 368</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 226,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-369">S 369</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 226,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-370">S 370</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 226,v.b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-371">S 371</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 226,v.a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-372">S 372</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 235</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-373">S 373</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 236,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-376">S 376</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 238,v</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-382">S 382</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 284,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-383">S 383</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 243,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-384">S 384</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 248,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-385">S 385</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 244,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-386">S 386</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 244,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-387">S 387</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 244,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-389">S 389</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 244,e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-390">S 390</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 244,f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-391">S 391</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 247,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-393">S 393</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 343,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-397">S 397</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 94,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-402">S 402</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 96,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-408">S 408</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 98,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-448">S 448</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 113,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-453">S 453</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 269,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-455">S 455</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 269,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-a-gg">S 476,a+gg</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,a+gg</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-aa">S 476,aa</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,aa</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-b-d-qq">S 476,b+d+qq</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,b+d+qq</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-beta">S 476,beta</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,?</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-c">S 476,c</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-dd">S 476,dd</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,dd</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-delta">S 476,delta</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,?</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-e">S 476,e</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-ee">S 476,ee</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,ee</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-epsilon">S 476,epsilon</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,?</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-f">S 476,f</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-ff">S 476,ff</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,ff</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-gamma-zeta">S 476,gamma+zeta</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,?+?</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-h">S 476,h</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,h</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-hh">S 476,hh</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,hh</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-i">S 476,i</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,i</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-ii-kk">S 476,ii+kk</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,ii+kk</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-k">S 476,k</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,k</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-kappa">S 476,kappa</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,kappa</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-l-t">S 476,l+t</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,l</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-ll">S 476,ll</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,ll</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-m">S 476,m</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,m</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-n-rr">S 476,n+rr</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,n+rr</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-o-s">S 476,o+s</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,o+s</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-p-r-x-bb-nn-iota">S 476,p+r+x+bb+nn+iota</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,p+r+x+bb+nn+iota</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-pp-alpha">S 476,pp+alpha</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 51,pp+alpha</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-q">S 476,q</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,q</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-ss-xx">S 476,ss+xx</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,ss+xx</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-theta">S 476,theta</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,?</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-tt">S 476,tt</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,tt</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-u">S 476,u</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,u</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-uu">S 476,uu</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,uu</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-vv">S 476,vv</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,vv</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-v-w">S 476,v-w</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,v-w</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-ww">S 476,ww</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,ww</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-y-cc">S 476,y+cc</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,y+cc</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-476-yy">S 476,yy</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 251,yy</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-478">S 478</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 282,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-480">S 480</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 278</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-481">S 481</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 272</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-487">S 487</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-497">S 497</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 131,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-498">S 498</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 131,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-499">S 499</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 78</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-500">S 500</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 79,a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>p. 159</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-501">S 501</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 79,b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. germ. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-502">S 502</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 79,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-526">S 526</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-594">S 594</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 63,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-712">S 712</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 151</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-714">S 714</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 213,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-718">S 718</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 76,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-719">S 719</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 197</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-720">S 720</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 120,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-721">S 721</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 119,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-722">S 722</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 169,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-723">S 723</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 228,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-724">S 724</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 119,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-725">S 725</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 120,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-726">S 726</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-727">S 727</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 197v</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-728">S 728</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 247v</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-729">S 729</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 120,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-730">S 730</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 200v</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-731">S 731</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 247,b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-732">S 732</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 155</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-739">S 739</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 269v</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-746">S 746</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 247,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-752">S 752</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 249,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-753">S 753</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-754">S 754</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 244,g</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-755">S 755</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 236,b</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>P. 471</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-792">S 792</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 269,c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-793">S 793</idno>
+                  <altIdentifier type="alternative">
+                     <idno>269,d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-794">S 794</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 266</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-810">S 810</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 268</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-836">S 836</idno>
+                  <altIdentifier type="alternative">
+                     <idno>S 117,a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-870">S 870</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-871">S 871</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1011">S 1011</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1012">S 1012</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1014">S 1014</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1034">S 1034</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1035">S 1035</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1055">S 1055</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1247">S 1247</idno>
+                  <altIdentifier type="alternative">
+                     <idno>1911 vom Rath 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1249">S 1249</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1250">S 1250</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1251">S 1251</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1252">S 1252</idno>
+                  <altIdentifier type="alternative">
+                     <idno>1911 vom Rath 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1253">S 1253</idno>
+                  <altIdentifier type="alternative">
+                     <idno>1911 vom Rath 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1381">S 1381</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1399">S 1399</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1412">S 1412</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1559">S 1559</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1592-a">S 1592,a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1592-b">S 1592,b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1593">S 1593</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1610">S 1610</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1642">S 1642</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1669">S 1669</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1670">S 1670</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1671">S 1671</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1673">S 1673</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1681">S 1681</idno>
+                  <altIdentifier type="alternative">
+                     <idno>4° 11260</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1682">S 1682</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1688-A-B">S 1688,A–B</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1688-a-g">S 1688,a–g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1943">S 1943</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1946">S 1946</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1948">S 1948</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1952">S 1952</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1953">S 1953</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1956">S 1956</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1961">S 1961</idno>
+                  <altIdentifier type="alternative">
+                     <idno>1 an Dk 474/55 R</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1962">S 1962</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1964">S 1964</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1966">S 1966</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1969">S 1969</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-1970">S 1970</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2016">S 2016</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2021">S 2021</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2035">S 2035</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2051">S 2051</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2052">S 2052</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2053">S 2053</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2054">S 2054</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2055">S 2055</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2056">S 2056</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2057">S 2057</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2059">S 2059</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2060">S 2060</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2453">S 2453</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2476">S 2476</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2561">S 2561</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2570">S 2570</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2590">S 2590</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2601">S 2601</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2605">S 2605</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2641">S 2641</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2921">S 2921</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-1">S 2930,1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-2">S 2930,2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-3">S 2930,3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-4">S 2930,4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-5">S 2930,5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-6">S 2930,6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-7">S 2930,7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-10">S 2930,10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-11">S 2930,11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-12">S 2930,12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-13">S 2930,13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-14">S 2930,14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-15">S 2930,15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-16">S 2930,16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-17">S 2930,17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-18">S 2930,18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-19">S 2930,19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2930-34">S 2930,34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2947-A">S 2947,A</idno>
+                  <altIdentifier type="alternative">
+                     <idno>P.P. Lat. Sec. V 729 [Trägerbände]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2947-B">S 2947,B</idno>
+                  <altIdentifier type="alternative">
+                     <idno>P.P. Lat. Sec. V 729 [Trägerbände]</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_S-2948">S 2948</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-13">Sf 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-14">Sf 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-23">Sf 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-24">Sf 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-26">Sf 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-27">Sf 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-29">Sf 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-30">Sf 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-31-I">Sf 31,I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-31-II">Sf 31,II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-33">Sf 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-34">Sf 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-35-a---Sf-627">Sf 35,a &amp; Sf 627</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-35-b---Sf-36">Sf 35,b &amp; Sf 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-37-a-b">Sf 37,a-b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-501">Sf 501</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-610">Sf 610</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-612">Sf 612</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-613">Sf 613</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-614">Sf 614</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-615">Sf 615</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-616">Sf 616</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-620">Sf 620</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-621-I">Sf 621,I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-621-II">Sf 621,II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-622-I">Sf 622,I</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-622-II">Sf 622,II</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-622-III">Sf 622,III</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-622-IV">Sf 622,IV</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-629">Sf 629</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-630">Sf 630</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4007666-0">Bonn</settlement>
+                  <repository key="5084459-3">Universitäts- und Landesbibliothek Bonn</repository>
+                  <idno xml:id="_Sf-5542">Sf 5542</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

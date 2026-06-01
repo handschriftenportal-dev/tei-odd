@@ -1,0 +1,1496 @@
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix schema: <https://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+hspv:MSVOC a skos:ConceptScheme;
+  skos:prefLabel "Fachvokabular"@de, "Domain Vocabulary"@en;
+  skos:definition "Handschriftenkundliches Fachvokabular"@de, "Domain Specific Vocabulary for Manuscript Studies"@en .
+
+hspv:SCRP a skos:ConceptScheme;
+  skos:prefLabel "Schriften"@de, "scripts"@en;
+  skos:definition "Themenbereich: Schriften"@de, "Domain: scripts"@en;
+  skos:inScheme hspv:MSVOC .
+
+hspv:SCRP-E a skos:ConceptScheme;
+  skos:prefLabel "Anwendungsbereich / Funktion (Schrift)"@de, "field of use / function (script)"@en;
+  skos:definition "Thesaurus: Anwendungsbereich / Funktion (Schrift) (SCRP-E)"@de, "Thesaurus: field of use / function (script) (SCRP-E)"@en;
+  skos:inScheme hspv:SCRP;
+  skos:note "#06";
+  skos:hasTopConcept hspv:SCRP-E859, hspv:SCRP-E778, hspv:SCRP-E405, hspv:SCRP-E133,
+    hspv:SCRP-E815 .
+
+hspv:SCRP-E859 a skos:Concept;
+  skos:notation "SCRP-E859";
+  skos:prefLabel "Buchschrift"@de, "book script"@en;
+  skos:note "#001";
+  skos:inScheme hspv:SCRP-E;
+  skos:topConceptOf hspv:SCRP-E .
+
+hspv:SCRP-E778 a skos:Concept;
+  skos:notation "SCRP-E778";
+  skos:prefLabel "Urkundenschrift"@de, "diplomatic script"@en;
+  skos:altLabel "documentary script"@en;
+  skos:note "#002";
+  skos:inScheme hspv:SCRP-E;
+  skos:topConceptOf hspv:SCRP-E .
+
+hspv:SCRP-E405 a skos:Concept;
+  skos:notation "SCRP-E405";
+  skos:prefLabel "Geschäftsschrift"@de, "administrative script"@en;
+  skos:note "#003";
+  skos:inScheme hspv:SCRP-E;
+  skos:topConceptOf hspv:SCRP-E .
+
+hspv:SCRP-E133 a skos:Concept;
+  skos:notation "SCRP-E133";
+  skos:prefLabel "Auszeichnungsschrift"@de, "display script"@en;
+  skos:note "#004";
+  skos:inScheme hspv:SCRP-E;
+  skos:topConceptOf hspv:SCRP-E .
+
+hspv:SCRP-E815 a skos:Concept;
+  skos:notation "SCRP-E815";
+  skos:prefLabel "Sonstiger Anwendungsbereich"@de, "other field of use"@en;
+  skos:note "#005";
+  skos:inScheme hspv:SCRP-E;
+  skos:topConceptOf hspv:SCRP-E .
+
+hspv:SCRP-X a skos:ConceptScheme;
+  skos:prefLabel "Fachbegriffe Schriften"@de, "specialist terms scripts"@en;
+  skos:definition "Thesaurus: Fachbegriffe Schriften (SCRP-X)"@de, "Thesaurus: specialis terms scripts (SCRP-X)"@en;
+  skos:inScheme hspv:SCRP;
+  skos:note "#01";
+  skos:hasTopConcept hspv:SCRP-X892, hspv:SCRP-X599, hspv:SCRP-X969, hspv:SCRP-X477,
+    hspv:SCRP-X364, hspv:SCRP-X942, hspv:SCRP-X219, hspv:SCRP-X207, hspv:SCRP-X985, hspv:SCRP-X225,
+    hspv:SCRP-X269, hspv:SCRP-X796, hspv:SCRP-X937, hspv:SCRP-X259, hspv:SCRP-X863, hspv:SCRP-X882,
+    hspv:SCRP-X294, hspv:SCRP-X196, hspv:SCRP-X831, hspv:SCRP-X710, hspv:SCRP-X448, hspv:SCRP-X201,
+    hspv:SCRP-X747, hspv:SCRP-X138, hspv:SCRP-X100, hspv:SCRP-X140, hspv:SCRP-X617, hspv:SCRP-X966,
+    hspv:SCRP-X383, hspv:SCRP-X484, hspv:SCRP-X473, hspv:SCRP-X952, hspv:SCRP-X977, hspv:SCRP-X591,
+    hspv:SCRP-X997, hspv:SCRP-X769, hspv:SCRP-X881 .
+
+hspv:SCRP-X892 a skos:Concept;
+  skos:notation "SCRP-X892";
+  skos:prefLabel "Capitalis"@de, "Capitalis"@en;
+  skos:altLabel "Capitalisschriften"@de, "Römische Kapitalisschriften"@de, "lateinische Capitalisschriften"@de;
+  skos:definition "Die Capitalis-Schriften sind lateinische Schriften im Zweiliniensystem, d. h. aus Großbuchstaben bestehende Majuskelschriften. Als Auszeichnungsschrift werden einige von ihnen für Überschriften, Kolophone und andere Hervorhebungen bis in das Mittelalter verwendet."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 78–85",
+    "David Wright, Capitalis Scripts, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 79–97.";
+  skos:example hspv:1c82179d-7f44-418e-bb89-20dc13d60ca2;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B884, hspv:SCRP-C792;
+  skos:note "#001";
+  skos:narrower hspv:SCRP-X943, hspv:SCRP-X885;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:1c82179d-7f44-418e-bb89-20dc13d60ca2 a schema:ImageObject;
+  schema:contentUrl <https://opendata.uni-halle.de//iiif-imgsrv/d2d61eed-a790-46a4-b8f9-de82873d118e/!0!16!37!21!163721501362364902897177702489319927147/pct:35.60976,18.50822,43.65854,45.49456/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fopendata.uni-halle.de%2F%2Fjson%2Fiiif%2F1981185920%2F34524%2F2e11f600-b048-4528-9db5-694d4631329b%2Fmanifest&page=26>;
+  schema:caption "Halle (Saale), Universitäts- und Landesbibliothek Sachsen-Anhalt, Qu. Cod. 83, fol. 12v" .
+
+hspv:SCRP-X943 a skos:Concept;
+  skos:notation "SCRP-X943";
+  skos:prefLabel "Capitalis quadrata"@de, "Capitalis Quadrata"@en;
+  skos:altLabel "Capitalis Quadrata"@de, "Capitalis quadrata"@en, "Square Capital"@en;
+  skos:broader hspv:SCRP-X892;
+  skos:definition "Die Capitalis quadrata ist die schreib- oder handschriftliche Variante der Capitalis monumentalis. Wie sie ist die Capitalis quadrata eine Majuskelschrift und in der Formgebung der Buchstaben an Quadraten ausgerichtet. Bis heute sind nur wenige Handschriften bezeugt, in denen ausschließlich die Capitalis quadrata zum Einsatz kommt, ein Beispiel ist der 'Codex Vergilius Augusteus', eine Handschrift aus der Wende vom 3. zum 4. Jahrhundert mit Werken des römischen Dichters Vergil. Bis in das Mittelalter hinein wird die Capitalis quadrata als Auszeichnungsschrift verwendet, dabei ist sie aber weit weniger häufig als die Capitalis rustica."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 78–85",
+    "David Wright, Capitalis Scripts, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 79–97.";
+  skos:example hspv:8dbdaf25-3f96-439e-a3e3-3cefd1b5e050;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B884, hspv:SCRP-C792;
+  skos:note "#002";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:8dbdaf25-3f96-439e-a3e3-3cefd1b5e050 a schema:ImageObject;
+  schema:contentUrl <https://opendata.uni-halle.de//iiif-imgsrv/d2d61eed-a790-46a4-b8f9-de82873d118e/!0!16!37!21!163721501362364902897177702489319927147/pct:35.60976,18.50822,43.65854,45.49456/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fopendata.uni-halle.de%2F%2Fjson%2Fiiif%2F1981185920%2F34524%2F2e11f600-b048-4528-9db5-694d4631329b%2Fmanifest&page=26>;
+  schema:caption "Halle (Saale), Universitäts- und Landesbibliothek Sachsen-Anhalt, Qu. Cod. 83, fol. 12v" .
+
+hspv:SCRP-X885 a skos:Concept;
+  skos:notation "SCRP-X885";
+  skos:prefLabel "Capitalis rustica"@de, "Rustic Capitalis"@en;
+  skos:altLabel "kanonisierte Capitalis"@de, "Capitalis Rustica"@de, "Rustic Capital"@en;
+  skos:broader hspv:SCRP-X892;
+  skos:definition "Als lateinische Capitalis-Schrift ist die Capitalis rustica eine Majuskelschrift, d. h. eine Schrift aus Majuskeln in einem Zweiliniensysten. Anders als bei der Capitalis quadrata passen sich die Buchstaben der Capitalis rustica jedoch nicht dem Quadrat an, sondern sind insgesamt schmaler und nach oben gelängt. Ihre Formgebung ist kurvig-bogig. Als Schrift für vollständige Codices sowie Papyri findet die Capitalis rustica vor allem vom 4. bis 5. Jh. Anwendung. Als Auszeichnungsschrift war sie mindestens bis in das 12. Jh. hinein in Gebrauch."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 78–85",
+    "David Wright, Capitalis Scripts, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 79–97.";
+  skos:example hspv:51a1bb59-c85f-4398-9aff-11a50a7d273b;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B884, hspv:SCRP-C792;
+  skos:note "#003";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:51a1bb59-c85f-4398-9aff-11a50a7d273b a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00140778_00014/pct:29.49902,38.59479,49.42625,11.69623/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00140778%2Fmanifest&page=14>;
+  schema:caption "Bamberg, Staatsbibliothek Bamberg, Msc.Lit.8, fol. 6v" .
+
+hspv:SCRP-X599 a skos:Concept;
+  skos:notation "SCRP-X599";
+  skos:prefLabel "Römische Kursive"@de, "Roman Cursive"@en;
+  skos:altLabel "Roman Cursive Script"@en;
+  skos:definition "Die römische Kursive ist ein Sammelbegriff für die kursiven Schriften, die im antiken Rom etwa vom 1. bis 3. Jh. ausgebildet und bis in das 10. Jh. hinein verwendet wurden. Wegen ihrer bewegten, nach Verbindungen strebenden Form oder auch aufgrund ihres \"laufenden\" Charakters wurden sie als \"Kursive\" bezeichnet. Die römischen Kursivschriften als Schriften für Gebrauchstexte wurden in alltäglichen geschäftlichen oder amtlichen Kontexten verwendet. Geschrieben wurden sie mit Griffel auf Wachstafeln oder mit Tinte auf Papyrus und Pergament. Differenziert wird die römische Kursive traditionell in eine ältere römische Kursive (eine Majuskelkursive) und in eine jüngere römische Kursive (eine Minuskelkursive)."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 85–91",
+    "Teresa de Robertis, Old Roman Cursive, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 39–59",
+    "Teresa de Robertis, New Roman Cursive, (IVth–VIIth centuries), in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 60–78.";
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-C439;
+  skos:note "#004";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X969 a skos:Concept;
+  skos:notation "SCRP-X969";
+  skos:prefLabel "Unziale"@de, "Uncial"@en;
+  skos:altLabel "Roman Uncial Script"@en, "Uncial Script"@en;
+  skos:definition "Die Unziale ist eine Majuskelschrift, d. h. eine Schrift aus Großbuchstaben in einem Zweiliniensystem. Zwar entspricht sie diesem Linienschema streng genommen nicht durchgehend, allerdings weisen nur sehr wenige Buchstaben Ober- oder Unterlängen auf (z. B. D, H, L, P und Q). Auch sind ihre Unterlängen dabei in der Regel sehr kurz ausgeführt, sodass das Erscheinungsbild wie das einer Schrift im Zweiliniensystem wirkt. Grundlage der Unziale ist die ältere römische Kursive, aus der sie durch kalligraphische Verdichtung und Umformung hervorgegangen ist. Im Unterschied zu den vorher gebräuchlichen Capitalis-Schriften weist die Unziale runde Buchstabenformen auf. Markante und neue Buchstaben sind: D, E, H, M, P und Q. Die Unziale entstand wohl bereits im 2. Jh., besonders beliebt war die Schrift jedoch zur Zeit der frühchristlichen Literatur, daher bildet das 4. bis 8. Jh. den Schwerpunkt ihrer Überlieferung. Zunächst wurde die Unziale in Rom und Italien verwendet, von da aus verbreitete sie sich auch in den angelsächsischen und irischen Skriptorien. Durch die Verbreitung ergaben sich regionale Sonderformen der Unziale. Als Auszeichnungsschrift wurde die Unziale über das 8. Jh. und die genannten Regionen hinaus verwendet."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 91–98",
+    "Robert G. Babcock, Uncial Script, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 98–108.";
+  skos:example hspv:d6d95353-0ac3-45e8-b31f-58e1e9145edc;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B884, hspv:SCRP-C792;
+  skos:note "#005";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:d6d95353-0ac3-45e8-b31f-58e1e9145edc a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00061453_00017/pct:12.60126,15.4084,34.42844,29.88936/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00061453%2Fmanifest&page=17>;
+  schema:caption "München, BSB, Clm 27270, fol. 1c" .
+
+hspv:SCRP-X477 a skos:Concept;
+  skos:notation "SCRP-X477";
+  skos:prefLabel "Halbunziale"@de, "Half-uncial"@en;
+  skos:definition "Die Halbunziale ist eine Minuskelschrift, d. h. eine Schrift, die sich mit ihren Ober- und Unterlängen in einem Vierlienienschema bewegt. Auch wenn der Begriff 'Halbunziale' naheglegt, die Schrift sei aus der Unziale hervorgegangen, dürfte sie wohl eher durch kalligraphische Verdichtung aus der jüngeren römischen Kursive entstanden sein. Als Buchschrift war die Halbunziale etwa vom 4. bis zum 8. Jh. in Gebrauch. Anschließend lebte sie als Auszeichnungsschrift bis mindestens ins 12. Jh. fort. Innerhalb der Halbuniziale wird zwischen einer älteren und einer jüngeren Form unterschieden. Die Halbunziale ist als Buchschrift in wichtigen kulturellen Zentren bezeugt, beispielsweise in Italien, Spanien, Frankreich und England."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 99–108",
+    "Robert G. Babcock, Half-Uncial Script, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 109–114",
+    "Tino Licht, Halbunziale. Schriftkultur im Zeitalter der ersten lateinischen Minuskel (III.–IX. Jahrhundert), Stuttgart 2018.";
+  skos:example hspv:47477c13-8fb6-40c4-8fe8-fb6835d2c80e;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B387, hspv:SCRP-C792;
+  skos:note "#006";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:47477c13-8fb6-40c4-8fe8-fb6835d2c80e a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0034/0000003455/00000001.jpx/pct:15.36458,8.20078,51.23264,50.72464/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000003455%2Fmanifest.json&page=1>;
+  schema:caption "Leipzig, UB, Fragm. lat. 131, fol. 1r" .
+
+hspv:SCRP-X364 a skos:Concept;
+  skos:notation "SCRP-X364";
+  skos:prefLabel "Insulare Schrift"@de, "Insular Script"@en;
+  skos:altLabel "Anglo-Saxon Script"@en;
+  skos:definition "Der Sammelbegriff der insularen Schriften umfasst die Schriften auf den britischen Inseln, darunter die irische Schrift, weitere keltische Schriften und die angelsächsische Schrift. Ausgangspunkt für ihre Entstehung war die Christianisierung Irlands ab dem 5. Jh. Missionare brachten insbesondere die Unziale und Halbunziale aus Rom mit und trafen vor Ort auf die (altirischen) Ogham-Schriften. Kennzeichen der insularen Schriften sind im Allgemeinen spachtelförmige Schaftansätze. Es werden zwei Formen unterschieden, zum einen die ältere Rundschrift und zum anderen die jüngere Spitzschrift. Die Spitzschrift entstand etwa im 7. Jh. und wurde im Mittelalter vor allem für volkssprachige Texte verwendet; die Rundschrift verschwand hingegen bereits im 9. Jh. Etwa ab dem Ende des 6. Jh. brachten irische und angelsächsische Mönche ihre Schrift ins Fränkische Reich auf dem Festland, wodurch sich die insularen Schriften auch im heutigen Frankreich, Deutschland und in Oberitalien verbreiteten."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 113–129",
+    "Peter A. Stokes, Insular Script, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 213–233.";
+  hspo:hasKeyFeature hspv:SCRP-A755;
+  skos:note "#007";
+  skos:narrower hspv:SCRP-X872;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X872 a skos:Concept;
+  skos:notation "SCRP-X872";
+  skos:prefLabel "Insulare Minuskel"@de, "Insular Minuscule"@en;
+  skos:broader hspv:SCRP-X364;
+  skos:example hspv:56f9cebf-979f-443b-b7cc-e21230715ce2;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#008";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:56f9cebf-979f-443b-b7cc-e21230715ce2 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00047301_00018/pct:14.93849,10.1466,76.59637,34.16281/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00047301%2Fmanifest&page=18>;
+  schema:caption "München, BSB, Clm 14653, fol. 7v" .
+
+hspv:SCRP-X942 a skos:Concept;
+  skos:notation "SCRP-X942";
+  skos:prefLabel "Visigothica"@de, "Visigothic Minuscule"@en;
+  skos:definition "Die westgotische Schrift (Visigothica) entstand wohl zwischen dem 6. und 8. Jh. im Westgotenreich auf der Iberischen Halbinsel und in den westgotischen Gebieten Frankreichs (Septimanien). Auch nachdem die islamische Expansion (ab 711) die Vorherrschaft der Westgoten beendet hatte, blieb die Schrift noch lange in Gebrauch. Sie wurde sowohl von den muslimisch beherrschten (?) Christen, den Mozarabern, als auch von Anghörigen der christlichen Königreiche verwendet. Die Verdrängung der Visigothica durch die karolinigsche Minuskel geschah je nach Region zu sehr unterschiedlichen Zeiten. Während sie in Septimanien bereits im 9. Jh. verschwindet, endet ihre Verwendung in den meisten Gebieten auf der Iberischen Halbinsel erst im späten 11. und frühen 12. Jh.; die jüngsten Belege der Visigotica stammen aus dem 13. Jh. Merkmal der westgotischen Schrift ist im Allgemeinen ihre Steilheit, die teilweise in eine Linksneigung mündet. Die Oberlängen sind weit ausgezogen. Das g ist aus der Unziale übernommen und hat einen lang ausgezogenen unteren Bogen; das a ähnelt einem cc-a bzw. oc-a."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 130–136",
+    "Jesús Alturo i Perucho, The Visigothic Script, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 143–184.";
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#009";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X219 a skos:Concept;
+  skos:notation "SCRP-X219";
+  skos:prefLabel "Beneventana"@de, "Beneventan Script"@en;
+  skos:definition "Die Beneventana ist eine Buchschrift, die vor allem in Süditalien verwendet wurde. Neben den dortigen Schreibzentren im namensgebenden Herzogtum Benevent gab es auch einzelne Schreibzentren an der dalmatichen Adriaküste. Ihren Ursprung hatte die Beneventana in der Mitte des 8. Jh., häufige Verwendung fand sie bis ins 13. Jh. Einzelne Beispiele für die Beneventana finden sich sogar noch bis in das 16. Jh. Ihre graphische Grundlage bildeten die süditalienischen Halbkursiven (italienische Minuskelkursiven). Während nach dem Fall der Langobarden 774 sich die Schriftentwicklung in Norditalien verlangsamte, konnte sie im Süden, nicht zuletzt weil die Langobarden hier einen Rückzugsort fanden, fortgesetzt werden. Die Beneventana wird in die Stile Monte Cassino und Bari unterteilt; die Einteilung spiegelt eine zeitliche Abfolge wieder. Zunächst wurde der Monte Cassino-Stil ausgebildet, auf ihn folgte der Bari-Stil. Die Schrift erscheint insgesamt rund und fließend. Markante Buchstabenformen sind: über das Mittelband verlängerte und verdickte Schäfte, das cc-a und das oc-a werden geschlossen, einfaches Minuskel c steht neben einem zweizeiligen gekerbten c, das e ragt über die Mittelzone hinaus und hat die Form von etwa zwei gleich großen Bögen, I-longa wechselt mit normal hohem i, der Deckbalken des t beginnt links mit einem auf der Grundlinie liegenden Bogen, an dessen Ende der Schaft angesetzt wird, Minuskel-r ist immer kurz am Wortende. Besondere Ligaturen sind die Verbindung von t und i. Besondere Kürzungszeichen sind ein übergesetzter Punkt (über dem normalen Kürzungsstrich) sowie für m am Wortende ein über die Zeile gesetztes Kürzel, das einer 3 ähnelt."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 148–151",
+    "Francis Newton, Beneventan (South Italian/Langobardic) Script, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 120–142.";
+  skos:example hspv:3d66081b-dd36-4152-937f-b7065905984c;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#010";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:3d66081b-dd36-4152-937f-b7065905984c a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00140696_00122/pct:15.69924,9.78658,78.49618,39.30076/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00140696%2Fmanifest&page=122>;
+  schema:caption "Bamberg, Staatsbibliothek Bamberg, Msc.Can.1, fol. 60v" .
+
+hspv:SCRP-X207 a skos:Concept;
+  skos:notation "SCRP-X207";
+  skos:prefLabel "Merowingische Schrift"@de, "Merovingian Script"@en;
+  skos:altLabel "Merovingische Schrift"@de;
+  skos:definition "Die Merowingische Schrift ist eine Minuskelschrift. Sie ist vor allem in den Urkunden der Merowingerkönige bzw. merowingischen Kanzlei (ca. 457–751 n. Chr.) überliefert. Teilweise ist sie aber auch in der Kanzlei der karolingischen Könige zu finden. Sie leitet sich in direkter Linie von der (jüngeren) römischen Kursive ab und wurde insbesondere in den Klöstern Luxeuil, Laon und Corbie geschrieben. Erstmals belegt ist sie im Jahr 625; mit dem Aufkommen der karolingischen Minuskel verschwand sie im Laufe des 9. Jh. Merkmale der Schrift sind die deutlich ausgezogenen Ober- und Unterlängen, die teilweise stark von den heute üblichen Schreibweisen abweichen, sowie die enge Anordnung der Buchstaben, die teilweise fast ineinander übergehen. Da zudem keine Wortabstände vorhanden sind, erscheint die Schrift unübersichtlich. Die verschiedenen Ausformungen (Typen) der merowingischen Schrift werden meist nach den verschiedenen Schreibweisen des Minuskel-a unterschieden, etwa Luxeuil-Typ (a wie cc), der Laon-Typ (ein a aus zwei Winkeln, das z ist hochgezogen) oder der Corbie-Typ (a wie ic, b meist in Ligatur mit den folgenden Buchstaben vom oberen Ende des Bogens aus)."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 140–145",
+    "David Ganz, Scripts of Merovingian Gaul, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 193–202.";
+  skos:example hspv:62c16979-d8d8-4486-9422-63fe843e0d1d;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#011";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:62c16979-d8d8-4486-9422-63fe843e0d1d a schema:ImageObject;
+  schema:contentUrl <https://dhb.thulb.uni-jena.de/api/iiif/image/v2/ufb_derivate_00014774%2FMemb-I-00075_00044.tif/pct:26.67118,5.96921,32.06865,27.75683/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdhb.thulb.uni-jena.de%2Fapi%2Fiiif%2Fpresentation%2Fv2%2Fufb_derivate_00014774%2Fmanifest&page=44>;
+  schema:caption "Gotha, Forschungsbibliothek Gotha, Memb. I 75, fol. 21v" .
+
+hspv:SCRP-X985 a skos:Concept;
+  skos:notation "SCRP-X985";
+  skos:prefLabel "Vorkarolingische Minuskelschrift"@de, "Pre-Caroline Scripts"@en;
+  skos:altLabel "Praecarolina"@de, "Vorkarolingische Minuskel"@de;
+  skos:definition "Zu den vorkarolingischen Minuskelschriften werden die frühesten Minuskelschriften gezählt, die (wohl) als Grundlage für die karolingische Minuskel darstellten. Sie unterscheiden sich von den Urkundenschriften des 7. und 8. Jh., die vor allem in Frankenreich verwendet wurden und aus der römischen Kursive bzw. Halbkursive entstanden waren. Die neuen Minuskelschriften sind sehr viel stärker (als die Kursiven) ohne Ligaturen geschrieben, die Betonung der Vertikalen lässt nach und die Buchstaben sind ruhig aneinandergesetzt. Die frühesten Formen gehen in die Mitte des 8. Jh. zurück. Als die wichtigsten Zentren für vorkarolingische Minuskelschriften sind v. a. Tours, Corbie und St. Gallen zu nennen. Teilweise wurden die vorkarolingischen Minuskelschriften noch eine Weile parallel zur karolingischen Minuskel gebraucht, allerdings wurden sie bald abgelöst."@de;
+  dct:bibliographicCitation "David Ganz, Corbie in the Carolingian renaissance, Sigmaringen 1990",
+    "Tino Licht, Die älteste karolingische Minuskel, in: Mittellateinisches Jahrbuch 47 (2012), 3, S. 337–345.";
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#012";
+  skos:narrower hspv:SCRP-X263, hspv:SCRP-X101;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X263 a skos:Concept;
+  skos:notation "SCRP-X263";
+  skos:prefLabel "Rätische Minuskel"@de, "Rhaetian Minuscule"@en;
+  skos:altLabel "Churrätische Minuskel"@de;
+  skos:broader hspv:SCRP-X985;
+  skos:definition "Die rätische (oder auch churrätische) Minuskel ist ein vorkarolingischer Regionalstil. Die Bezeichnung leitet sich von dem Gebiet ab, in der sie vor allem verwendet wurde, und zwar das Bistum Chur bzw. Churrätien. Ob hier auch ihr Ursprung liegt, lässt sich nicht sicher sagen. Wegen der geographischen Nähe zu Italien wurde die paläographische Verwandtschaft der rätischen Minuskel mit Urkunden- und Buchschriften aus Norditalien in der älteren Forschung betont und diese Schriftart als langobardisch bezeichnet. Mittlerweile hat sich die Eigenständigkeit der rätischen Minuskel und auch der entsprechende Begriff durchgesetzt. Der Regionalstil wurde in der 1. Hälfte des 8. Jh. bis zum 1. Drittel des 9. Jh. im Großraum Chur verwendet. Er zeichnet sich durch eine Vereinfachung der bisherigen Buchstabenformen aus. Charakteristisch ist ein geschlossenes t mit gespaltenem Deckbalken."@de;
+  dct:bibliographicCitation "Peter Erhart, Die churrätische Minuskel, in: Mensch und Schrift im frühen Mittelalter. Begleitband zur Ausstellung des Stiftsarchivs St. Gallen \"Mensch und Schrift im frühen Mittelalter\" im Ausstellungssaal des Regierungsgebäudes, 23. September bis 12. November 2006, St. Gallen 2006, S. 140–¡47";
+  skos:example hspv:1ef700a8-cc7f-4f67-a238-7368a5283674;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#013";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:1ef700a8-cc7f-4f67-a238-7368a5283674 a schema:ImageObject;
+  schema:contentUrl <https://www.e-codices.unifr.ch/loris/ssg/ssg-fab0001/ssg-fab0001_014.jp2/pct:19.4376,6.14224,71.367,22.50616/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fwww.e-codices.unifr.ch%2Fmetadata%2Fiiif%2Fssg-fab0001%2Fmanifest.json&page=18>;
+  schema:caption "St. Gallen,Stiftsarchiv (Abtei Pfäfers), Cod. Fab. 1, S. 14" .
+
+hspv:SCRP-X101 a skos:Concept;
+  skos:notation "SCRP-X101";
+  skos:prefLabel "Alemannische Minuskel"@de, "Alemannic Minuscule"@en;
+  skos:broader hspv:SCRP-X985;
+  skos:definition "Wie die rätische Minuskel ist auch die alemannische Minuskel ein vorkarolingischer Regionalstil. Sie zeichnet sich insbesondere durch drei Merkmale aus: cc-a, nt-Ligatur mit auf dem Kopf stehendem T sowie einem 3-förmigen g. Zeitlich dürfte die alemannische Minuskel etwas vor der rätischen Minuskel anzusetzen sein. Trotz der nur relativ kurzen Zeit von ca. einem Jahrhundert (744–846), in der die alemannische Minuskel in Gebrauch war, wird sie in eine ältere und eine jüngere Phase unterteilt. Wie der Name nahelegt, ist die alemannische Minuskel in Schriftzeugnissen aus dem alemannischen Raum, d. h. aus dem Kulturbereich des Bodenseeraums, insbesondere aus St. Gallen und der Reichenau, erhalten."@de;
+  dct:bibliographicCitation "Beat Matthias von Scarpatetti, Die alemannische Minuskel, in: Mensch und Schrift im frühen Mittelalter. Begleitband zur Ausstellung des Stiftsarchivs St. Gallen \"Mensch und Schrift im frühen Mittelalter\" im Ausstellungssaal des Regierungsgebäudes, 23. September bis 12. November 2006, St. Gallen 2006, S. 148–152",
+    "Natalie Magg, Alemannische Minuskel (744-846 n. Chr.). Frühe Schriftkultur im Bodenseeraum und Voralpenland, Stuttgart 2014.";
+  skos:example hspv:114b62e7-d63f-431e-95a1-1ca7590e9470;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#014";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:114b62e7-d63f-431e-95a1-1ca7590e9470 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00046314_00034/pct:13.04538,5.61975,84.07504,25.57773/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00046314%2Fmanifest&page=34>;
+  schema:caption "München, BSB, Clm 14480, fol. 16v" .
+
+hspv:SCRP-X225 a skos:Concept;
+  skos:notation "SCRP-X225";
+  skos:prefLabel "Karolingische Minuskel"@de, "Carolingian Minuscule"@en;
+  skos:altLabel "Karlingische Minuskel"@de, "Carolina"@de, "Karolingische Schrift"@de,
+    "Caroline Minuscule"@en;
+  skos:definition "Die karolingische Minuskel war eine sehr langlebige Schriftart, die über 400 Jahre, von ca. 800 bis 1200, in Gebrauch war. Auch wenn der Grundcharakter der Schrift in den Jahrhunderten konstant blieb, gab es sowohl im Duktus als auch innerhalb der Buchstabenformen einige Veränderungen. Die karolinginische Minuskel ist eine kalligraphisch, geformte Buchschrift mit deutlich gerundeten Buchstaben. Wörter sind voneinander abgesetzt; Haar- und Druckstriche unterscheiden sich kaum, da die Strichbreite in der Regel gleichmäßig ist; Kürzungen werden vermieden. Die Etablierung der karolingischen Minuskel als überregionale Schriftart hängt aufs Engste mit Karl dem Großen (747–814) zusammen, der die Schrift als neue, klare und einheitliche Schrift förderte. Dabei entstand die karolingische Miunuskel jedoch nicht aus dem Nichts, sondern konnte direkt auf Formen zurückgreifen, die in Corbie und/oder Tours bereits im 8. Jh. geschrieben wurden."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 148–151",
+    "Francis Newton, Beneventan (South Italian/Langobardic) Script, in: Frank T. Coulson and Robert G. Babcock (Hg.), The Oxford handbook of Latin palaeography, New York 2020, S. 151–171.";
+  skos:example hspv:f1b7a633-3c5f-467d-9e09-b815521b06b2;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#015";
+  skos:narrower hspv:SCRP-X825, hspv:SCRP-X645, hspv:SCRP-X549;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:f1b7a633-3c5f-467d-9e09-b815521b06b2 a schema:ImageObject;
+  schema:contentUrl <https://www.franconica.online/o/iiif/2/27515/pct:13.74545,10.79977,72.14545,30.76474/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fwww.franconica.online%2Fo%2Fiiif%2F2%2F27448%2Fmanifest&page=35>;
+  schema:caption "Würzburg, UB, M.p.th.f.23, fol. 18r" .
+
+hspv:SCRP-X825 a skos:Concept;
+  skos:notation "SCRP-X825";
+  skos:prefLabel "Frühkarolingische Minuskel"@de, "Early Carolingian"@en;
+  skos:altLabel "Frühkarolingische Schrift"@de;
+  skos:broader hspv:SCRP-X225;
+  skos:definition "Innerhalb der langen Verwendungszeit der karolingischen Minuskel von über 400 Jahren lassen sich trotz des weitgehend einheitlichen Erscheinungsbild der Schriftart einige markante Unterschiede ausmachen, die es erlauben, zumindest eine frühkarolingische und die spätkarolinigische Minuskel voneinander zu scheiden. Die frühkarolingische Minuskel war ungefähr Ende des 8. und in der 1. Hälfte des 9. Jh. in Gebrauch. In dieser Zeit sind die einzelnen Wörter oft noch nicht deutlich voneinander abgetrennt (scripta continua); die Länge der Oberlängen beträgt oft mehr als die doppelte Mittelzone; außerdem sind die Oberlängen oben häufig keulenartig verdickt. Enthalten sind teilweise Ligaturen noch aus den früheren Kursiven. Ebenfalls aus den Vorformen der karolingischen Minuskel hat sich eine Zeit lang das cc-a erhalten; der untere Bogen des Minuskel-g ist groß und offen."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 151–160",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 22–23.";
+  skos:example hspv:43a0de2a-146f-4ca3-9f46-8d2e1bfd858c;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#016";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:43a0de2a-146f-4ca3-9f46-8d2e1bfd858c a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0038/0000003891/00000004.jpx/pct:18.55066,59.86111,70.70826,26.42361/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000003891%2Fmanifest.json&page=4>;
+  schema:caption "Leipzig, UB, Fragm. lat. 396, fol. 2v" .
+
+hspv:SCRP-X645 a skos:Concept;
+  skos:notation "SCRP-X645";
+  skos:prefLabel "Spätkarolingische Minuskel"@de, "Late Carolingian"@en;
+  skos:altLabel "Spätkarolingische Schrift"@de, "Späte karolingische Minuskel"@de;
+  skos:broader hspv:SCRP-X225;
+  skos:definition "Innerhalb der langen Verwendungszeit der karolingischen Minuskel von über 400 Jahren lassen sich trotz des weitgehend einheitlichen Erscheinungsbild der Schriftart einige markante Unterschiede ausmachen, die es erlauben, zumindest eine frühkarolingische und die spätkarolinigische Minuskel voneinander zu scheiden. Die spätkarolingische Minuskel umfasst dabei etwa das 11. und 12. Jh. und unterscheidet sich von den Frühformen (Ende 8. Jh. und 1. Hälfte 9. Jh.) und der Hauptphase (2. Hälfte 9. Jh. und 10. Jh.). In der spätkarolingischen Minuskel sind die Oberlängen nicht mehr keulenförmig verdickt, die Schrift ordnet sich gleichmäßig im Mittelband an, wobei die Vertikale stärker betont ist als in der Frühform; das Minuskel-a richtet sich immer weiter auf, der Balken des Minuskel-e beginnt sich diagonal nach oben zu bewegen. Als spätkarolingische Minuskel wird die Phase der karolingischen Minuskel bezeichnet, bevor die Schrift durch erste Gotisierungstendenzen beeinflusst wird. Da die Gotisierung in den verschiedenen Regionen zu unterschiedlichen Zeitpunkten einsetzte, variiert auch die Zeitspanne, in der die spätkarolingische Minuskel verwendet wurde."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 160–171",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 23–26.";
+  skos:example hspv:5bd0d4b6-955e-4928-90f5-e2749e14d647;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#017";
+  skos:narrower hspv:SCRP-X859;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:5bd0d4b6-955e-4928-90f5-e2749e14d647 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0043/0000004368/00000002.jpx/pct:64.50321,43.96368,17.41453,19.30199/pct:100/270/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000004368%2Fmanifest.json&page=2>;
+  schema:caption "Leipzig, UB, Ms 1526, Vorderspiegel" .
+
+hspv:SCRP-X859 a skos:Concept;
+  skos:notation "SCRP-X859";
+  skos:prefLabel "Schrägovaler Stil"@de, "Slanting Oval"@en;
+  skos:altLabel "Karolingische Minuskel des schrägovalen Stils"@de;
+  skos:broader hspv:SCRP-X645;
+  skos:definition "Der sogenannte schrägovale Stil ist ein Schreibstil der karolingischen Minuskel. Er ist benannt nach seiner charakteristischen leichten rechtsschrägen Neigung. Der Stil kam in der 1. Hälfte des 11. Jahrhunderts insbesondere in Bayern und Österreich auf; seine volle Ausprägung erlangte er im 12. Jahrhundert. Markanter Buchstabe dieses Stils ist das Minuskel-o, das nicht mehr als ein runder Kreis, sondern eher als ein schrägstehendes Oval erscheint."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 26–28.";
+  skos:example hspv:96eb919a-4509-42ee-a91c-73e4be2bdf49;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#018";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:96eb919a-4509-42ee-a91c-73e4be2bdf49 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00022140_00003/pct:0.15715,1.25786,87.63751,37.30346/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00022140%2Fmanifest&page=3>;
+  schema:caption "München, BSB, 5248(12, fol. 1v" .
+
+hspv:SCRP-X549 a skos:Concept;
+  skos:notation "SCRP-X549";
+  skos:prefLabel "Diplomatische Minuskel"@de, "Diplomatic Minuscule"@en;
+  skos:broader hspv:SCRP-X225;
+  skos:definition "Die diplomatische Minuskel ist eine Ausprägungsform der karolingischen Minuskel. Sie wurde etwa ab der zweiten Hälfte des 9. Jahrhunderts in Königsurkunden verwendet. Kennzeichnend ist die kalligraphische Ausführung der Schrift in Verbindung mit Verschnörkelungen der Schaftenden und Schaftanfänge. Weitere Merkmale sind die Gitterschrift in der ersten Zeile und in der Recognitionszeile, offenes Minuskel-a, langes r sowie einige Ligaturen. In der weiteren Schriftentwicklung werden in Westauropa auch Urkundenschriften, die nicht mehr genuin auf die karolingische Minuskel als eigentliche Grundschriftart zurückgreifen, mit dem Begriff diplomatische Minuskel bezeichnet."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 170–171.";
+  skos:example hspv:dfe0b43c-b564-4332-b8aa-0cd9999030b0;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792, hspv:SCRP-E778;
+  skos:note "#019";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:dfe0b43c-b564-4332-b8aa-0cd9999030b0 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0325/0000032519/00000001.jpx/pct:6.09375,11.30208,78.48958,26.38889/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000032519%2Fmanifest.json&page=1>;
+  schema:caption "Leipzig, UB, Fragm. lat. 201" .
+
+hspv:SCRP-X269 a skos:Concept;
+  skos:notation "SCRP-X269";
+  skos:prefLabel "Gotische Schrift"@de, "Gothic Script"@en;
+  skos:altLabel "Gothic Scripts"@en;
+  skos:definition "Unter der Bezeichnung gotische Schrift werden die Schriften vom Ende der 2. Hälfte des 12. Jh. bis etwa zum frühen 16. Jh. zusammengefasst. Im Zuge der Gotisierung sind ihre Hauptmerkmale die Engerstellung der Schäfte und Betonung der Vertikalen, die Brechung der Schäfte auf der Grundlinie und die engere Zusammenbindung der Buchstaben (v. a. durch Bogenberührungen und Bogenverbindungen). Verwendung findet die gotische Schrift in Westeuropa."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 171–195",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 28–31",
+    "Karin Schneider, Gotische Schriften in deutscher Sprache, Bd. 1: Vom späten 12. Jahrhundert bis um 1300, Textband und Tafelband, Wiesbaden 1987",
+    "Karin Schneider, Gotische Schriften in deutscher Sprache, Bd. 2: Die oberdeutschen Schriften von1300 bis 1350, Textband und Tafelband, Wiesbaden 2009.";
+  skos:example hspv:2162c01f-2788-4405-942b-39f73bac2b5b;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155;
+  skos:note "#020";
+  skos:narrower hspv:SCRP-X648, hspv:SCRP-X698, hspv:SCRP-X341, hspv:SCRP-X255, hspv:SCRP-X627;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:2162c01f-2788-4405-942b-39f73bac2b5b a schema:ImageObject;
+  schema:contentUrl <https://dhb.thulb.uni-jena.de/api/iiif/image/v2/ufb_derivate_00016811%2FMemb-I-00090_00009.tif/pct:4.22136,6.0673,69.04931,30.51838/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdhb.thulb.uni-jena.de%2Fapi%2Fiiif%2Fpresentation%2Fv2%2Fufb_derivate_00016811%2Fmanifest&page=9>;
+  schema:caption "Gotha, Forschungsbibliothek Gotha, Memb. I 90, fol. 2r" .
+
+hspv:SCRP-X648 a skos:Concept;
+  skos:notation "SCRP-X648";
+  skos:prefLabel "Gotische Minuskel"@de, "Gothic Minuscule"@en;
+  skos:altLabel "Gotische Buchschrift"@de;
+  skos:broader hspv:SCRP-X269;
+  skos:definition "Mit der gotischen Minuskel bezeichnet man die Ausprägungsform der gotischen Schrift, die sich als Buchschrift im Vierlinienschema bewegt, also Ober- und Unterlängen aufweist. In dieser Verwendungsweise ist der Begriff gotische Minuskel ein Oberbegriff zu den spezifizierenden Unterbegriffe wie Textualis oder Textura. Teilweise wird auf den Terminus gotische Minuskel auch zugrückgegriffen, um Schriften zu charakterisieren, die im 2. oder 3. Viertel des 13. Jh. geschrieben wurden, und noch nicht einen solch ausgeprägten Brechungsgrad aufweisen, um sie sicher als Textualis klassifizieren zu können."@de;
+  dct:bibliographicCitation "Karin Schneider, Gotische Schriften in deutscher Sprache, Bd. 1: Vom späten 12. Jahrhundert bis um 1300, Textband und Tafelband, Wiesbaden 1987",
+    "Karin Schneider, Gotische Schriften in deutscher Sprache, Bd. 2: Die oberdeutschen Schriften von1300 bis 1350, Textband und Tafelband, Wiesbaden 2009.";
+  skos:example hspv:bd6cd311-8ac7-4582-bbce-5db2cd337a80;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#021";
+  skos:narrower hspv:SCRP-X610, hspv:SCRP-X248;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:bd6cd311-8ac7-4582-bbce-5db2cd337a80 a schema:ImageObject;
+  schema:contentUrl <https://dhb.thulb.uni-jena.de/api/iiif/image/v2/ufb_derivate_00015188%2FMemb-II-00117_00018.tif/pct:10.82423,9.07519,78.5998,12.68799/pct:100/0/default.jpg>;
+  schema:identifier <https://dhb.thulb.uni-jena.de/api/iiif/presentation/v2/ufb_derivate_00015188/manifest>;
+  schema:caption "Gotha, Forschungsbibliothek Gotha, Memb. II 117, fol. 8v" .
+
+hspv:SCRP-X610 a skos:Concept;
+  skos:notation "SCRP-X610";
+  skos:prefLabel "Praegothica"@de, "Praegothica"@en;
+  skos:broader hspv:SCRP-X648;
+  skos:altLabel "Praegothic Script"@en, "Littera Praegothica"@en;
+  skos:definition "Trotz variierender Ausprägungsform blieb die karolingische Schrift ca. 400 Jahre weitgehend stabil. Entscheidende Veränderung erfuhr sie durch die Gotisierung (Engerstellung der Schäfte und Betonung der Vertikalen, Brechung, engere Zusammenbindung der Buchstaben). Diese vollzog sich über einen längeren Zeitraum hinerg und mit regionalen Unterschieden. Die Schrift in dieser Transformationszeit kann am besten mit dem Begriff Praegothica bezeichnet werden. Sie tritt je nach Region vom Ende des 11. Jh. bis zum frühen 13. Jh auf. In England und Nordfrankreich sowie auf dem heutigen Gebiet Belgiens drangen als erstes Gotisierungserscheinungen in die karolingische Schrift ein. In Deutschland ist der finale Übergang zwischen beiden Schriften wohl im letzten Viertel des 12. Jh., evtl. am Anfang des 13. Jh. erfolgt."@de;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 56–71.";
+  skos:example hspv:ebdec67a-aa4a-4e6a-809f-43e91dc527d6;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#022";
+  skos:narrower hspv:SCRP-X128, hspv:SCRP-X950;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:ebdec67a-aa4a-4e6a-809f-43e91dc527d6 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00133567_00117/pct:5.55556,8.22954,73.90762,17.61566/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00133567%2Fmanifest&page=117>;
+  schema:caption "München, BSB, Clm 18666, fol. 55r" .
+
+hspv:SCRP-X128 a skos:Concept;
+  skos:notation "SCRP-X128";
+  skos:prefLabel "Karolingisch-gotische Übergangsschrift"@de, "Carolina-gotica"@en;
+  skos:altLabel "Carolina-Gotica"@de, "Carolingian-Gothic mixed-script"@en;
+  skos:broader hspv:SCRP-X610;
+  skos:definition "Es gibt Schriften in der Zeit zwischen dem Ende des 11. Jh. bis zum Ende des 12. Jh., die nicht mehr als karolingisch, aber auch noch nicht als gotisch bezeichnet werden können. Sie weisen erste gotische Merkmale auf, teilweise jedoch nur in Ansätzen. Terminologisch fallen sie mit der Bezeichnung Praegothica zusammen."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 31–33.";
+  skos:example hspv:391e620e-c6f4-4615-8651-10a8e5600dff;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#023";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:391e620e-c6f4-4615-8651-10a8e5600dff a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0034/0000003499/00000001.jpx/pct:8.02676,10.12153,82.03536,26.00694/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000003499%2Fmanifest.json&page=1>;
+  schema:caption "Leipzig, UB, Fragm. lat. 193" .
+
+hspv:SCRP-X950 a skos:Concept;
+  skos:notation "SCRP-X950";
+  skos:prefLabel "Frühgotische Minuskel"@de, "Early Gothic Minuscule"@en;
+  skos:broader hspv:SCRP-X610;
+  skos:definition "Mit der frühgotischen Minuskel wird die gotische Minuskel in ihrer frühen Ausprägungsform verstanden. In der Regel sind hier bereits viele und wichtige Gotisierungsmerkmale vorhanden, sodass nicht mehr von einer Praegothica gesprochen werden kann. Allerdings ist bezüglich des Brechungsgrads allemal eine einfache Brechung zu erwarten; es finden sich ebenfalls noch keine Bogenverbindungen, auch nicht zwischen d und e. Je nach Region ist das Vordringen und die Entwicklung der frühgotischen Minuskel unterschiedlich ausgeprägt. Insgesamt wurde sie in der 2. Hälfte des 12. Jh. bis zur 1. Hälfte des 13. Jh. verwendet; in Deutschland am ehesten in der 1. Hälfte des 13. Jh."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 33–37.";
+  skos:example hspv:bb8b8cac-9b92-430d-8047-0efbc5803f52;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#024";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:bb8b8cac-9b92-430d-8047-0efbc5803f52 a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKapideZiA_1801043531%2FKapideZiA_1801043531_tif%2Fjpegs%2F00000007.tif.medium.jpg/pct:6.7,49.41935,74,26.70968/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.slub-dresden.de%2Fiiif%2F2%2F1801043531%2Fmanifest.json&page=7>;
+  schema:caption "Dresden, SLUB, St. Marienthal H 1/5, fol. 2r" .
+
+hspv:SCRP-X248 a skos:Concept;
+  skos:notation "SCRP-X248";
+  skos:prefLabel "Textualis"@de, "Textualis"@en;
+  skos:altLabel "Textualis Libraria"@de, "Littera Gothica Textualis Libraria"@de;
+  skos:broader hspv:SCRP-X648;
+  skos:definition "Unter der Textualis wird die vollständig gotisierte Buchschrift vom 13. bis 15. Jh. bezeichnet. Die vom Westen her sich ausbreitende Gotisierung der Schrift setzte sich im Rheingebiet schon vor Mitte des 13. Jh., bis um 1275 fast überall im deutschen Sprachraum durch. Letzte Ausläufer der Textualis begegnen vereinzelt – vor allem in liturgischen Texten – noch im 16. Jh., in Italien (südliche Textualis) noch im 17. Jh. Je nach Ort gibt es unterschiedliche Ausprägungen der Textualis. Ganz grob wird zwischen einer nördlichen und einer südlichen Textualis unterschieden."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 171–183",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 38–56.";
+  skos:example hspv:a77e4cfd-ae28-41ea-95df-961a07ecc28c;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#025";
+  skos:narrower hspv:SCRP-X824, hspv:SCRP-X357;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:a77e4cfd-ae28-41ea-95df-961a07ecc28c a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0138/0000013834/00000128.jpx/pct:23.93229,11.19792,69.89583,28.4375/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000013834%2Fmanifest.json&page=128>;
+  schema:caption "Leipzig, UB, Ms 864, 62v" .
+
+hspv:SCRP-X824 a skos:Concept;
+  skos:notation "SCRP-X824";
+  skos:prefLabel "Nördliche Textualis"@de, "Northern Textualis"@en;
+  skos:broader hspv:SCRP-X248;
+  skos:definition "Die nördliche Textualis ist eine Ausprägungsform der Textualis, die vor allem in den nordalpinen Regionen vorkommt, darunter England, Nordfrankreich, die Niederlande, Deutschland, Osteuropa oder Skandinavien. Kennzeichnend für die nördliche Textualis sind die Engerstellung der Schäfte, das Zusammenrücken der Buchstaben (unter Verwendung von Bogenberührungen und Bogenverbindungen) sowie (doppelte) Brechungen der Schäfte. Verwendet wird die Textualis ungefähr ab der 2. Hälfte des 13. Jh. In Texten beispielsweise für den Gottesdienst wird die Textualis in einer erstarrten und zuweilen manierierten Form bis in das 16. Jh. als Schriftart verwendet. Die nördliche Textualis wird je nach Ausführung unterschieden in die Textura (Textualis Formata) und die Textualis Libraria."@de;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 72–101.";
+  skos:example hspv:e38605c9-11d3-4337-90f8-08d675384abe;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#026";
+  skos:narrower hspv:SCRP-X284, hspv:SCRP-X867;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:e38605c9-11d3-4337-90f8-08d675384abe a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/916801/pct:5.33573,23.08615,74.58034,34.89321/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdigital.blb-karlsruhe.de%2Fi3f%2Fv20%2F869900%2Fmanifest&page=253>;
+  schema:caption "Karlsruhe, BLB, Cod. St. Georgen 37, fol. 125r" .
+
+hspv:SCRP-X284 a skos:Concept;
+  skos:notation "SCRP-X284";
+  skos:prefLabel "Textura"@de, "Textura"@en;
+  skos:altLabel "Textualis Formata"@de, "Littera Psalterialis"@de, "Missalschrift"@de,
+    "Textualis formata"@en;
+  skos:broader hspv:SCRP-X824;
+  skos:definition "Die Textura ist eine Ausprägungsform der nördlichen Textualis auf höchstem kalligraphischen Niveau. Kennzeichen sind kurze Ober- und Unterlängen und damit verbunden ein kompaktes Schriftbild innerhalb des Mittelbandes; eine klare Unterscheidung von Druck- und Haarstrichen sowie eine regelmäßige Abfolge von diesen; regelmäßige Umbrechungen der Schäfte entweder auf der Grundlinie oder auf der Kopflinie. Verwendet wird die Textura etwa dem Ende des 13. Jh. In Texten beispielsweise für den Gottesdienst wird sie in einer erstarrten und zuweilen manierierten Form bis in das 16. Jh. als Schriftart verwendet."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 38–56.";
+  skos:example hspv:ae29ccf1-4156-48d5-b19b-0483e839836b;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#027";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:ae29ccf1-4156-48d5-b19b-0483e839836b a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/4413609/pct:8.90675,14.19083,64.01929,31.65818/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdigital.blb-karlsruhe.de%2Fi3f%2Fv20%2F4412807%2Fmanifest&page=3>;
+  schema:caption "Karlsruhe, BLB, Cod. Donaueschingen 420, fol. 1r" .
+
+hspv:SCRP-X867 a skos:Concept;
+  skos:notation "SCRP-X867";
+  skos:prefLabel "Littera Parisiensis"@de, "Littera Parisiensis"@en;
+  skos:altLabel "Littera textualis currens"@de, "Littera textualis currens"@en;
+  skos:broader hspv:SCRP-X824;
+  skos:definition "Die Littera Parisiensis ist eine Ausprägungsform der nördlichen Textualis. Wie der Begriff bereits andeutet, ist sie vornehmlich in Paris und an der Pariser Universität des 13. und 14. Jh. zu finden. Der erhöhte Bedarf an Schriftlichkeit an der Universität bedingt eine Vereinfachung der stark brechungsreichen Textualis-Schrift. Die Vereinfachung spiegelt sich einerseits in den Buchstabenformen wieder, andererseits in einer gewissen Unregelmäßigkeit, vor allem im Gegensatz zur wohlgeformten Ausgangsform der Textualis. Der Schriftduktus der Littera Parisiensis kann aufrecht und leicht nach rechts geneigt sein."@de;
+  skos:example hspv:6a29769e-3a82-4098-b7f8-cf1e9adcea1a;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#028";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:6a29769e-3a82-4098-b7f8-cf1e9adcea1a a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0032/0000003262/00000001.jpx/pct:7.62457,6.31944,42.89089,22.13542/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000003262%2Fmanifest.json&page=1>;
+  schema:caption "Leipzig, UB, Fragm. lat. 56, fol. 1r" .
+
+hspv:SCRP-X357 a skos:Concept;
+  skos:notation "SCRP-X357";
+  skos:prefLabel "Südliche Textualis"@de, "Southern Textualis"@en;
+  skos:broader hspv:SCRP-X248;
+  skos:definition "Die südliche Textualis ist eine Ausprägungsform der Textualis, die vor allem in den Regionen südlich der Alpen oder auch im mediterranen Raum, also in Italien, Südfrankreich und Spanien verwendet wurde. Kennzeichnen ist die im Vergleich zur nördlichen Textualis weniger stark ausgeprägte Brechung der Buchstaben. Häufig wirken die Buchstaben runder und kompakter im Mittelband. Verwendet wird die südliche Textualis ungefähr ab der 2. Hälfte des 13. Jh. In Texten beispielsweise für den Gottesdienst wird die Textualis in einer erstarrten und zuweilen manierierten Form bis in das 16. Jh. als Schriftart verwendet."@de;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 102–122.";
+  skos:example hspv:68c39166-85f9-4bbc-8456-f41e481acc9b;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#029";
+  skos:narrower hspv:SCRP-X788, hspv:SCRP-X980, hspv:SCRP-X744;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:68c39166-85f9-4bbc-8456-f41e481acc9b a schema:ImageObject;
+  schema:contentUrl <https://dhb.thulb.uni-jena.de/api/iiif/image/v2/ufb_derivate_00014718%2FCA-2-00273_0015.tif/pct:6.11846,12.40272,70.5793,30.51232/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdhb.thulb.uni-jena.de%2Fapi%2Fiiif%2Fpresentation%2Fv2%2Fufb_derivate_00014718%2Fmanifest&page=15>;
+  schema:caption "Erfurt, UB, Dep. Erf., CA 2° 273, fol. 5r" .
+
+hspv:SCRP-X788 a skos:Concept;
+  skos:notation "SCRP-X788";
+  skos:prefLabel "Littera Bononiensis"@de, "Littera Bononiensis"@en;
+  skos:broader hspv:SCRP-X357;
+  skos:definition "Wie die Littera Parisiensis ist auch die Littera Boniensis eine im universitären Kontext der Universität von Bologna entstandene und verwendete Schriftart. Sie ist eine Ausprägungsform der südlichen Textualis. Daher sind ihre Buchstabenformen runder als die der Littera Parisiensis."@de;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#030";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X980 a skos:Concept;
+  skos:notation "SCRP-X980";
+  skos:prefLabel "Rotunda"@de, "Rotunda"@en;
+  skos:broader hspv:SCRP-X357;
+  skos:altLabel "Littera Rotunda"@en;
+  skos:definition "Die Rotunda gilt als spezielle Form der südlichen Textualis. Sie ist kalligraphisch ausgeformt. Ihre Buchstabenformen weisen – gemäß ihrer Klassifizierung als Textualis – Brechungen auf, sind aber nicht so massiv wie in der nördlichen Textualis. Vielmehr erscheinen ihre Buchstaben rund. Sie sind außerdem kompakt und erscheinen innerhalb des Mittelbandes eher breit auseinandergezogen. Häufig ist Minuskel-a einstöckig; in den qualitativ hochstehenden Codices aus Oberitalien, insbesondere Bologna, findet sich jedoch auch doppelstöckiges Minuskel-a. Minuskel-g verhält sich weitgehend wie in der nördlichen Textualis und an der Länge des unteren Bogens lassen sich Hinweise für eine Datierung der Schrift ablesen. Verwendet wird die Rotunda Textualis ungefähr ab der 2. Hälfte des 13. Jh. In Texten beispielsweise für den Gottesdienst wird die Textualis in einer erstarrten und zuweilen manierierten Form bis in das 16. Jh. als Schriftart verwendet."@de;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 103–111.";
+  skos:example hspv:ea540c7b-7055-46cc-bd6d-0488c4451aa9;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#031";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:ea540c7b-7055-46cc-bd6d-0488c4451aa9 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00108467_00023/pct:24.42645,9.82506,69.87854,32.868/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00108467%2Fmanifest&page=23>;
+  schema:caption "München, BSB, Clm 10072, fol. 8v" .
+
+hspv:SCRP-X744 a skos:Concept;
+  skos:notation "SCRP-X744";
+  skos:prefLabel "Semitextualis"@de, "Semitextualis"@en;
+  skos:altLabel "Semigotica"@de;
+  skos:broader hspv:SCRP-X357;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 102–122.";
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#032";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X698 a skos:Concept;
+  skos:notation "SCRP-X698";
+  skos:prefLabel "Halbkursive"@de, "Semi-Cursive"@en;
+  skos:altLabel "Gotische Halbkursive"@de;
+  skos:broader hspv:SCRP-X269;
+  skos:definition "Als Halbkursive werden gotische Minunskeln bezeichnet, die bereits erste kursive Elemente aufweisen, dabei jedoch noch nicht als Kursive zu bezeichnen sind. Solche ersten kursiven Elemente können beispielsweise (leicht) unter die Grundlinie geführtes Minuskel-s oder Minuskel-f sein, erste Luftlinien in der Verbindung von zwei Buchstaben oder auch gespaltenes Minuskel-r. Im deutschsprachigen Raum kommen Halbkursiven etwa ab dem beginnenden 14. Jh. vor."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 56–59.";
+  skos:example hspv:1b6c5b14-bb4c-4c75-a91b-1f167b9d06d7;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#033";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:1b6c5b14-bb4c-4c75-a91b-1f167b9d06d7 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0044/0000004415/00000055.jpx/pct:6.16987,19.90741,35.04274,16.64886/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000004415%2Fmanifest.json&page=55>;
+  schema:caption "Leipzig, UB, Ms 1509, fol. 27r" .
+
+hspv:SCRP-X341 a skos:Concept;
+  skos:notation "SCRP-X341";
+  skos:prefLabel "Gotische Kursive"@de, "Gothic Cursive"@en;
+  skos:broader hspv:SCRP-X269;
+  skos:definition "Als gotische Kursive werden kursiv geschriebene gotische Schriften bezeichnet. Eine Kursivierung ergibt sich aus der Notwendigkeit zügiger zu schreiben. Die Buchstaben erscheinen nun – zumindest teilweise – verbunden; Minuskel-s und Minuskel-f sind regelmäßig unter die Grundlinie gezogen; Luftlinien oder Schleifen zeigen an, dass die Feder beim Übergang von einem zum anderen Buchstaben nicht mehr abgesetzt wurde und werden sollte. Erste kursive Elemente dringen Ende des 13. Jh. (Frühformen der Kursivierung aus der Urkundenschrift) und zu Beginn des 14. Jh. in Schriften (s. Halbkursiven) aus dem deutschen Raum ein. Etwa ab dem 2. Viertel des 14. Jh. sind die kursiven Elemente in den Schriften soweit vorangeschritten, dass von Kursiven gesprochen wird. Bei der gotischen Kursive wird grob in eine ältere (im deutschen Raum ca. 2. Viertel bis 2. Drittel des 14. Jh.) und in eine jüngere gotische Kursive unterteilt (im deutschen Raum ca. 3. Viertel bis 3. Drittel des 14. Jh.)."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 183–195",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 56–58.";
+  skos:example hspv:798a833e-1538-4afc-9210-79a9ae2d6430;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#034";
+  skos:narrower hspv:SCRP-X637, hspv:SCRP-X483;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:798a833e-1538-4afc-9210-79a9ae2d6430 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0106/0000010696/00000243.jpx/pct:7.76042,10.41667,75.78125,26.97917/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000010696%2Fmanifest.json&page=243>;
+  schema:caption "Leipzig, UB, Ms 1368, fol. 120r" .
+
+hspv:SCRP-X637 a skos:Concept;
+  skos:notation "SCRP-X637";
+  skos:prefLabel "Ältere gotische Kursive"@de, "Older Gothic Cursive"@en;
+  skos:broader hspv:SCRP-X341;
+  skos:definition "Die ältere gotische Kursive ist die ältere Form der gotischen Kursive. Sie ist im deutschsprachigen Raum etwa vom 2. Viertel bis 2. Drittel des 14. Jh. zu erwarten. Sie zeichnet sich durch doppelstöckiges Minuskel-a, durch unter die Grundlinie gezogenes Minuskel-s und Minuskel-f, durch Schleifen an den Langschäften von beispielsweise Minuskel-h oder Minuskel-b aus; Minuskel-r kann gespalten sein; das Minuskel-s am Ende eines Wortes kann vergrößert sein."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 60–62.";
+  skos:example hspv:578a10ed-4603-4403-ac3f-7a121f116330;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#035";
+  skos:narrower hspv:SCRP-X334;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:578a10ed-4603-4403-ac3f-7a121f116330 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/114794/pct:10.74409,4.52592,78.96384,27.23135/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdigital.blb-karlsruhe.de%2Fi3f%2Fv20%2F114415%2Fmanifest&page=5>;
+  schema:caption "Karlsruhe, BLB, Cod. Donaueschingen 691, fol. 2r" .
+
+hspv:SCRP-X334 a skos:Concept;
+  skos:notation "SCRP-X334";
+  skos:prefLabel "Anglicana"@de, "Anglicana"@en;
+  skos:broader hspv:SCRP-X637;
+  skos:definition "Die Anglicana ist ein regionaler Ausprägungsstil der älteren gotischen Kursive (als nationale Sonderform). Sie ist insbesondere in England im 14. Jh. in Gebrauch."@de;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 134–141.";
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#036";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X483 a skos:Concept;
+  skos:notation "SCRP-X483";
+  skos:prefLabel "Jüngere gotische Kursive"@de, "New Gothic Cursive"@en;
+  skos:broader hspv:SCRP-X341;
+  skos:definition "Die jüngere gotische Kursive ist die jüngere Form der gotischen Kursive. Sie ist im deutschsprachigen Raum etwa vom 3. Viertel bis zum 3. Drittel des 14. Jh. zu erwarten. Sie zeichnet sich durch einstöckigs Minuskel-a, durch unter die Grundlinie gezogenes Minuskel-s und Minuskel-f, durch Schleifen an den Langschäften von beispielsweise Minuskel-h oder Minuskel-b aus."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 63–65.";
+  skos:example hspv:1532c0ed-b0d8-4db5-bc88-62b7b391151a;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#037";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:1532c0ed-b0d8-4db5-bc88-62b7b391151a a schema:ImageObject;
+  schema:contentUrl <https://dhb.thulb.uni-jena.de/api/iiif/image/v2/ufb_derivate_00014823%2FCA-4-00232_0013.tif/pct:7.55643,4.56752,81.69774,33.39327/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdhb.thulb.uni-jena.de%2Fapi%2Fiiif%2Fpresentation%2Fv2%2Fufb_derivate_00014823%2Fmanifest&page=13>;
+  schema:caption "Erfurt, UB, Dep. Erf., CA 4° 232, fol. 3r" .
+
+hspv:SCRP-X255 a skos:Concept;
+  skos:notation "SCRP-X255";
+  skos:prefLabel "Bastarda"@de, "Bastarda"@en;
+  skos:broader hspv:SCRP-X269;
+  skos:definition "Unter einer Bastarda versteht man eine Zwischenform von Textualis und gotischer Kursive. Sie weist dabei Elemente aus beiden Schriftarten auf: einerseits gebrochene Buchstabenformen und Buchstabenvereinzelung aus der Textualis, andererseits kursiv geschriebene Buchstaben und Buchstabenverbindungen aus der Kursive. Welche Elemente in welchem Umfang aus welcher Schriftart übernommen werden, ist dabei nicht vorgegeben. Erste Formen einer Bastarda finden sich in Böhmen bereits im 4. Viertel des 14. Jh. Die Bastarda entwickelte sich im 15. Jh. schnell zu einer allgemein gebrauchten mitteleuropäischen Schriftart. Regional haben sich Sonderformen ausgeprägt."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 183–195",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 66–80.";
+  skos:example hspv:3bfe19c7-0391-4b17-81d2-4bba320bb287;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#038";
+  skos:narrower hspv:SCRP-X565, hspv:SCRP-X553, hspv:SCRP-X423;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:3bfe19c7-0391-4b17-81d2-4bba320bb287 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0358/0000035871/00000105.jpx/pct:6.06771,15.83333,51.79688,15.39931/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000035871%2Fmanifest.json&page=105>;
+  schema:caption "Leipzig, UB, Ms 59, fol. 50r" .
+
+hspv:SCRP-X565 a skos:Concept;
+  skos:notation "SCRP-X565";
+  skos:prefLabel "Bastarda, schleifenlos"@de, "Bastarda without loops"@en;
+  skos:broader hspv:SCRP-X255;
+  skos:definition "Die schleifenlose Bastarda erscheint kurz vor 1420 und wird ab dann häufiger. Sie gewann in den Niederlanden an Bedeutung und verbreitete sich von dort vor allem in den deutschen Nordwesten. Dort ist ihr Gebrauch häufiger als in anderen Regionen des deutschsprachigen Raums, was jedoch nicht ausschließt, dass die schleifenlose Bastarda beispielsweise auch in Handschriften aus Süddeutschland vorkommt. Konsequent durchgesetzt hat sie sich dort jedoch nicht."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 73–76.";
+  skos:example hspv:b412d88b-a2f4-4363-9d0b-9e53e598da03;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#039";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:b412d88b-a2f4-4363-9d0b-9e53e598da03 a schema:ImageObject;
+  schema:contentUrl <https://digital.blb-karlsruhe.de/i3f/v20/582925/pct:23.34145,13.62747,67.86366,31.38448/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fdigital.blb-karlsruhe.de%2Fi3f%2Fv20%2F1176759%2Fmanifest&page=200>;
+  schema:caption "Karlsruhe, BLB, Cod. Donaueschingen 189, fol. 95v" .
+
+hspv:SCRP-X553 a skos:Concept;
+  skos:notation "SCRP-X553";
+  skos:prefLabel "Bastarda, französische"@de, "French Bastarda"@en;
+  skos:broader hspv:SCRP-X255;
+  skos:altLabel "lettre bâtarde"@en;
+  skos:example hspv:87f4682b-86e9-46db-80a8-106a1fbad876;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#040";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:87f4682b-86e9-46db-80a8-106a1fbad876 a schema:ImageObject;
+  schema:contentUrl <https://api.digitale-sammlungen.de/iiif/image/v2/bsb00108471_00043/pct:18.7055,15.48335,51.77994,33.89491/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fapi.digitale-sammlungen.de%2Fiiif%2Fpresentation%2Fv2%2Fbsb00108471%2Fmanifest&page=43>;
+  schema:caption "München, BSB, Clm 10103, fol. 18r" .
+
+hspv:SCRP-X423 a skos:Concept;
+  skos:notation "SCRP-X423";
+  skos:prefLabel "Kanzleibastarda"@de, "Chancery Bastarda"@en;
+  skos:broader hspv:SCRP-X255;
+  skos:definition "In den Kanzleien des Heiligen Römischen Reichs und der Landesherrschaften wurde im 15. Jh. eine stilisierte Bastarda, die Kanzleibastarda, entwickelt und verwendet. Sie ist überindividuell und gleichmäßig: Sie hat in der Regel eine leichte Rechtsneigung im Schriftduktus, Schleifen an den Oberlängen sowie große, beinahe ausladende Anschwünge an vielen Majuskeln und Schlussbögen. Besonders markant sind s und f, die aufgrund ihrer Länge meist in die nächsten Zeilen hineinreichen, am oberen Schaft anschwellen können und nach unten hin nadelspitz auslaufen."@de;
+  skos:example hspv:ea8df46e-6ad1-4728-b1d2-1a4af4afd79b;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#041";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:ea8df46e-6ad1-4728-b1d2-1a4af4afd79b a schema:ImageObject;
+  schema:contentUrl <https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2Fsachstm_280736444%2Fsachstm_280736444_tif%2Fjpegs%2F00000020.tif.medium.jpg/pct:14.3,12.15139,78,14.67463/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.slub-dresden.de%2Fiiif%2F2%2F280736444%2Fmanifest.json&page=20>;
+  schema:caption "Dresden, SLUB, Mscr.Dresd.R.3, S. 5" .
+
+hspv:SCRP-X627 a skos:Concept;
+  skos:notation "SCRP-X627";
+  skos:prefLabel "Hybrida"@de, "Hybrida"@en;
+  skos:broader hspv:SCRP-X269;
+  dct:bibliographicCitation "Albert Derolez, The palaeography of Gothic manuscript books. From the twelfth to the early sixteenth centur, Cambridge 2006, S. 163–182.";
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C245;
+  skos:note "#042";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X796 a skos:Concept;
+  skos:notation "SCRP-X796";
+  skos:prefLabel "Humanistische Schrift"@de, "Humanistic Script"@en;
+  skos:definition "Die humanistische Schrift kam um 1400 in Florenz auf. Die Schrift nimmt Formen der karolingischen Minuskel des 11. und 12. Jh. wieder auf und entwickelt sie weiter: Die Buchstaben sind nicht mehr gebrochen, sondern wieder rund geschrieben; das aus zwei einzelnen Bögen zusammengesetzte Minuskel-g wird wieder eingeführt, wie auch die et-Kürzung (Ampersand). In Deutschland verbreitet sich die humanistische Schrift ab dem Ende des 15. Jh. in Humanistenkreisen. Durch ein Studium an den italienischen Universitäten können jedoch auch deutsche Schreiber bereits in der Mitte und in der 2. Hälfte des 15. Jh. deutliche humanistisch geprägte Schriften schreiben."@de;
+  dct:bibliographicCitation "Bernhard Bischoff, Paläographie des römischen Altertums und des abendländischen Mittelalters. Mit einer Auswahlbibliographie 1986– 2008 von Walter Koch, 4., durchges. und erw. Auflage, Berlin 2009, S. 195–201",
+    "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 81–84.";
+  skos:example hspv:bc226c7f-cc56-493c-99fc-1d2f5b06da9e;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155;
+  skos:note "#043";
+  skos:narrower hspv:SCRP-X922, hspv:SCRP-X608;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:bc226c7f-cc56-493c-99fc-1d2f5b06da9e a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0224/0000022491/00000115.jpx/pct:12.73438,10.72917,61.58854,19.72222/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000022491%2Fmanifest.json&page=115>;
+  schema:caption "Leipzig, UB, Cod. Haen. 3507, fol. 55r" .
+
+hspv:SCRP-X922 a skos:Concept;
+  skos:notation "SCRP-X922";
+  skos:prefLabel "Humanistische Minuskel"@de, "Humanistic Minuscule"@en;
+  skos:broader hspv:SCRP-X796;
+  skos:altLabel "Humanisctic Book Hand"@en;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 81–84.";
+  skos:example hspv:1d9bd904-ff8e-4bca-83dd-aac177be3703;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#044";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:1d9bd904-ff8e-4bca-83dd-aac177be3703 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0225/0000022546/00000051.jpx/pct:7.96875,14.25347,62.52604,25.43403/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000022546%2Fmanifest.json&page=51>;
+  schema:caption "Leipzig, UB, Cod. Haen. 3491, fol. 24r" .
+
+hspv:SCRP-X608 a skos:Concept;
+  skos:notation "SCRP-X608";
+  skos:prefLabel "Humanistische Kursive"@de, "Humanistic Cursive"@en;
+  skos:broader hspv:SCRP-X796;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 81–84.";
+  skos:example hspv:4cf4c446-8e02-4f12-9d6b-550ae50f40e8;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#045";
+  skos:narrower hspv:SCRP-X631;
+  skos:inScheme hspv:SCRP-X .
+
+hspv:4cf4c446-8e02-4f12-9d6b-550ae50f40e8 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0036/0000003601/00000007.jpx/pct:17.81517,9.49074,57.71902,27.01211/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000003601%2Fmanifest.json&page=7>;
+  schema:caption "Leipzig, UB, Ms 1496a, fol. 2r" .
+
+hspv:SCRP-X631 a skos:Concept;
+  skos:notation "SCRP-X631";
+  skos:prefLabel "Cancelleresca"@de, "Cancelleresca"@en;
+  skos:broader hspv:SCRP-X608;
+  skos:definition "Humanistische (Minuskel-)Kursive der päpstlichen Kanzlei des 16. Jh."@de;
+  hspo:hasKeyFeature hspv:SCRP-A755, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#046";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X937 a skos:Concept;
+  skos:notation "SCRP-X937";
+  skos:prefLabel "Kurrente"@de, "Kurrent Script"@en;
+  skos:altLabel "Currente"@de, "Kurrentschrift"@de, "Kurrent"@de, "Deutsche Schreibschrift"@de,
+    "Kurrent"@en;
+  skos:definition "Die Kurrentschrift entwickelte sich aus der Kanzleibastarda. Sie kam etwa ab dem frühen 16. Jh. auf. Sie ist flüssig, flach und innerhalb des Mittelbands auffallend breitgezogen. Markantes Merkmal sind die Schleifen an den Oberlängen. Die f- und s-Schäfte sind deutlich verlängert und die Buchstabenformen wie g, p oder rundes s werden in einem Federzug geschrieben. Kennbuchstabe ist das Minuskel-e, das wie geknüpft wirkt. Diese Kurrentschrift ist die Grundlage der späteren Schriften des 17. bis 19. Jh. für deutsche Texte. Ihre letzte Entwicklungsstufe wurde noch bis in die Mitte des 20. Jh. in deutschen Schulen als Grundschrift gelehrt."@de;
+  dct:bibliographicCitation "Karin Schneider, Paläographie und Handschriftenkunde für Germanisten. Eine Einführung (Sammlung kurzer Grammatiken germanischer Dialekte B. Ergänzungsreihe Nr. 8), 3., überarbeitete Auflage, Tübingen 2013, S. 84–86.";
+  hspo:hasKeyFeature hspv:SCRP-A338, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#047";
+  skos:narrower hspv:SCRP-X856;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X856 a skos:Concept;
+  skos:notation "SCRP-X856";
+  skos:prefLabel "Sütterlin"@de, "Sütterlin Script"@en;
+  skos:altLabel "Sütterlinschrift"@de;
+  skos:broader hspv:SCRP-X937;
+  hspo:hasKeyFeature hspv:SCRP-A338, hspv:SCRP-B155, hspv:SCRP-C439;
+  skos:note "#048";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X259 a skos:Concept;
+  skos:notation "SCRP-X259";
+  skos:prefLabel "Aschkenasische Schrift"@de, "Ashkenazic Script"@en;
+  skos:altLabel "Aschkenasisch"@de;
+  hspo:hasKeyFeature hspv:SCRP-A475;
+  skos:note "#049";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X863 a skos:Concept;
+  skos:notation "SCRP-X863";
+  skos:prefLabel "Sephardische Schrift"@de, "Sephardic Script"@en;
+  hspo:hasKeyFeature hspv:SCRP-A475;
+  skos:note "#050";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X882 a skos:Concept;
+  skos:notation "SCRP-X882";
+  skos:prefLabel "Bibelmajuskel"@de, "Biblical Majuscule"@en;
+  skos:definition "Die erste kanonische Majuskelschrift innerhalb der griechischen Schriften ist die Bibelmajuskel. Der Name des Stils entstand durch die Verwendung der Schrift in Bibelmanuskripten und anderen sakralen Texten. Zum ersten Mal taucht die Schrift auf in Papryi des 2. Jh. und wurde bis in die Zeit der Minuskelschrift verwendet. Sie zeichnet sich neben einer vertikalen Achse durch regelmäßig geschriebene Buchstaben (sowohl in Breite als auch Höhe) aus, durch ein kreisförmiges Epsilon, Theta, Omikron und Sigma, darüber hinaus durch eine auffällige Trennung der einzelnen Striche, die im rechten Winkel aufeinandertreffen.( Das Alpha ist eher dreieckig, es fehlen Schleifen und Serifen an den Enden der Hasten, ein genaues und regelmäßiges System von Strichen, wobei die vertikalen Striche dick, die horizontalen dünn und die schrägen Striche in der Regel mittel sind.)"@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/biblical-majuscule";
+  skos:example hspv:27b138f5-35df-4f88-8109-f191ae849e94;
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884;
+  skos:note "#051";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:27b138f5-35df-4f88-8109-f191ae849e94 a schema:ImageObject;
+  schema:contentUrl <https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0265/0000026583/00000001.jpx/pct:35.15625,26.64931,34.94792,7.22222/pct:100/0/default.jpg>;
+  schema:identifier <https://handschriftenportal.de/workspace?type=iiif%3Amanifest&id=https%3A%2F%2Fiiif.ub.uni-leipzig.de%2F0000026583%2Fmanifest.json&page=1>;
+  schema:caption "Leipzig, UB, Cod. gr. 23, fol. 1r" .
+
+hspv:SCRP-X294 a skos:Concept;
+  skos:notation "SCRP-X294";
+  skos:prefLabel "Alexandrinische Majuskel"@de, "Alexandrian Majuscule"@en;
+  skos:definition "Die zweite kanonische griechische Majuskelschrift neben der Bibelmajuskel und der Spitzbogenmajuskel ist die alexandrinische Majuskel. Sie wurde in der früheren Forschung als koptisch bezeichnet, was heute allerdings vermieden wird, da sich die koptische Schrift erst aus dieser Majuskel heraus entwickelte. Beide Bezeichnungen verweiesen auf die auf die Überlieferungslage gestützte verumtliche Herkunft aus Ägypten, insbesondere aus Alexandria. Der früheste Gebrauch der Schrift lässt sich durch Papyri des 2. Jh. n. Chr. belegen; als Buchschrift wurde die alexandrinische Minuskel bis in das 7. Jh. verwendet, danach nur noch als Auszeichnungsschrift. Die alexandrinische Majuskel zeichnet sich durch folgende Hauptmerkmale aus: eine vertikale Achse (sie ist also aufrecht), Unterschied zwischen schmalen (d. h. in der Bibelmajuskel runden) Buchstaben, Tendenz Winkel durch Kurven oder Schleifen zu ersetzen, Tendenz, absteifende Striche entlang der der Grundlinie so zu verlängern, dass sie den folgenden Buchstaben berühren (Pseudoligaturen), besondere Form des Alpha, das in einem einzigen, komplexen Strich geschrieben ist."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/alexandrian-majuscule";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884;
+  skos:note "#052";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X196 a skos:Concept;
+  skos:notation "SCRP-X196";
+  skos:prefLabel "Spitzbogenmajuskel"@de, "Ogivale Majuscule"@en;
+  skos:altLabel "Maiuscola ogivale"@de, "Ogivalmajuskel"@de;
+  skos:definition "Die dritte und letzte kanonische Majuskelschrift neben Bibelmajuskel und alexandrinischer Majuskel ist die Spitzbogenmajuskel. Folgende Merkmale zeichnen sie aus: starke Strichkontraste (vertikale Striche sind tendenziell dick, die anderen eher dünn), ovale Form bei Epsilon, Theta, Omikron und Sigma. Die Schrift tritt in zwei Variationen auf, einerseits mit aufrechter (upright ogival majuscule), andererseits geneigter Achse (slanted ogival majuscule). Beide Variationen wurden zeitgleich verwendet."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/ogival-majuscule";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884;
+  skos:note "#053";
+  skos:narrower hspv:SCRP-X672, hspv:SCRP-X489;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X672 a skos:Concept;
+  skos:notation "SCRP-X672";
+  skos:prefLabel "Geneigte Spitzbogenmajuskel"@de, "Slanted Ogival Majuscule"@en;
+  skos:altLabel "Maiuscola ogivale inclinata"@de, "Rechtsgeneigte Spitzbogenminuskel"@de;
+  skos:broader hspv:SCRP-X196;
+  skos:definition "Variation der Spitzbogenmajuskel mit geneigter Achse."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/alexandrian-majuscule: https://spotlight.vatlib.it/greek-paleography/feature/ogival-majuscule";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884;
+  skos:note "#054";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X489 a skos:Concept;
+  skos:notation "SCRP-X489";
+  skos:prefLabel "Senkrechte Spitzbogenmajuskel"@de, "Upright Ogival Majuscule"@en;
+  skos:altLabel "Maiuscola ogivale diritta"@de;
+  skos:broader hspv:SCRP-X196;
+  skos:definition "Variation der Spitzbogenmajuskel mit aufrechter Achse."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/ogival-majuscule";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884;
+  skos:note "#055";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X831 a skos:Concept;
+  skos:notation "SCRP-X831";
+  skos:prefLabel "Liturgische Majuskel"@de, "Liturgical Majuscule"@en;
+  skos:definition "Variante der griechischischen Majuskelschriften. Der Name leitet sich von der häufigen Verwendung in Evangelienbüchern ab. Eindeutige charakteristische Mermkale lassen sich nur schwer feststellen. Keine der Handschriften, die diese Majuskel enthalten, sind eindeutig zu datieren, weshalb Aussagen über ihre Entwicklung schwer zu treffen sind. Handschriften, welche in liturgischer Majuskel geschrieben sind, datieren zwischen dem 9. Jh. und 11. Jh."@de;
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884;
+  skos:note "#056";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X710 a skos:Concept;
+  skos:notation "SCRP-X710";
+  skos:prefLabel "Frühminuskel"@de, "old minuscule"@en;
+  skos:altLabel "minuscola antica"@de, "minuscola libraria"@de;
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#057";
+  skos:narrower hspv:SCRP-X845, hspv:SCRP-X367, hspv:SCRP-X580, hspv:SCRP-X561, hspv:SCRP-X693,
+    hspv:SCRP-X811, hspv:SCRP-X978, hspv:SCRP-X168;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X845 a skos:Concept;
+  skos:notation "SCRP-X845";
+  skos:prefLabel "runde Frühminuskel"@de, "old round minuscule"@en;
+  skos:altLabel "minuscola antica rotonda"@de;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Ausgangspunkt für die Entwicklung der frühen Rundminuskel ist das 9. Jh. (vgl. die Uspensky-Evangelien, 835 n. Chr.). Trotz des Namens Rundminuskel sind die Buchstabenkörper dieser Schrift nie ganz kreisförmig, sondern weisen eine eher vage dreieckige Form auf. Das Seitenverhältnis der Schrift ist eher breit als hoch (quadratisch bis flach rechteckig) und der Schriftgrad einheitlich klein. Charakteristisch ist ebenfalls der starke, jedoch ungleichmäßige Kontrast der Strichstärken. Zumeist verlaufen kräftigere Striche vertikal, treten jedoch auch horizontal oder diagonal auf. Die Achse der Schrift ist senkrecht. Viele Buchstaben weisen an ihren Enden Zierstriche sowie Haken an den Abstrichen auf."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/3-old-round-minuscule";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#058";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X367 a skos:Concept;
+  skos:notation "SCRP-X367";
+  skos:prefLabel "(mehr oder weniger) viereckige Frühminuskel"@de, "old square minuscule"@en;
+  skos:altLabel "minuscola antica (più o meno) quadrate"@de, "old squarish minuscule"@en;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Schrift mit vage dreieckigen Buchstabenkörpern. Das Seitenverhältnis ist eher ausgeglichen bis quadratisch bei größerem Schriftgrad. Die Buchstabenkörper nehmen dabei im Verhältnis zu den Strichen mehr Raum ein. Der Strichstärkenkontrast ist wenig ausgeprägt."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#059";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X580 a skos:Concept;
+  skos:notation "SCRP-X580";
+  skos:prefLabel "eckige Frühminuskel"@de, "old angular minuscule"@en;
+  skos:altLabel "minuscola antica angolosa"@de, "minuscola antica oblunga"@de, "„tipo Eustazio“"@de;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Die Schrift der eckigen Frühminuskel enstand aus der Übersteigerung der Eckbildung im Schriftbild des 9. und frühen 10. Jh. Rechte Winkel häufen sich dabei entlang der Grundlinie. Im Kontrast zu rund bleibenden Buchstaben (epsilon, omikron, sigma) vermehren sich, häufig sehr eng beiananderstehende, parallel verlaufende Vertikalstriche (mu, nu, pi). Die Achse der Schrift ist senkrecht oder leicht nach links geneigt. Der Strichstärkenkontrast ist wenig ausgeprägt und spielt keine wesentliche Rolle."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#060";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X561 a skos:Concept;
+  skos:notation "SCRP-X561";
+  skos:prefLabel "Minuskel „tipo Anastasio“"@de, "„Anastasius Type“"@en;
+  skos:altLabel "Anastasios-Typ"@de;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Schrift mit starkem Kontrast zwischen den großen und runden Buchstabenkörpern einerseits und den engen Abständen zwischen vertikalen Strichen andererseits. Merkmal der Schrift sind ebenfalls eckige Formen, wenn auch nicht ganz so deutlich ausgeprägt wie bei der eckigen Frühminuskel (old angular minuscle). Die Achse der Schrift ist senkrecht, der Schriftgrad auffallend groß. Der Strichstärkenkontrast ist deutlich erkennbar: kräftige Vertikalstriche und feine Horizontalstriche."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#061";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X693 a skos:Concept;
+  skos:notation "SCRP-X693";
+  skos:prefLabel "geneigte Frühminuskel"@de, "old sloped minuscule"@en;
+  skos:altLabel "minuscola antica inclinata"@de;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Schrift des späten 9. und frühen 10. Jahrhunderts mit deutlich nach rechts geneigter Achse. Charakterisitsch sind außerdem die leicht länglichen Buchstabenformen mit sparsamen Verzierungen an den Strichenden und dem Fehlen eines Stirchstärkenkontrasts."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#062";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X811 a skos:Concept;
+  skos:notation "SCRP-X811";
+  skos:prefLabel "„Collezione-filosofica“-Typ"@de, "„Philosophical Collection“ Type"@en;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Diese Schrift ist charakteristisch für die achtzehn Handschriften der \"Collezione-filosofica\". Neun dieser Handschriften wurden 1893 durch T. W. Allen entdeckt. Auch wenn alle Handschriften von unterschiedlichen Schreibern stammen, weisen sie durchgehend und einheitlich runde Buchstabenformen und tropfenförmige Endungen auf. Der Schriftgrad ist klein und teils gedrungen. Die Achse der Schrift ist senkrecht."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#063";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X978 a skos:Concept;
+  skos:notation "SCRP-X978";
+  skos:prefLabel "„Baanes-Typ“"@de, "„Baanes Type“"@en;
+  skos:altLabel "Tipo Baanes (mano corsiveggiante con asse verticale"@de, "Cursive bookhands"@en;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Der Baanes-Typ ist nach dem Schreiber Baanes benannt, welcher im Jahre 913/914 n. Chr. eine Handschrift (Paris, BNF, Gr. 451) für Arethas von Cäsarea anfertigte. Für die Schrift charakteristisch sind eine senkrechte Achse der Schrift bei kursiver Schrift (\"corsiveggianti\" nach Follieri). Die stärkere Kursivität führt zu Polymorphismus, das heißt zur Verwendung unterschiedlicher Buchstabenformen je nach Kontext."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#064";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X168 a skos:Concept;
+  skos:notation "SCRP-X168";
+  skos:prefLabel "„Ephraim-Typ“"@de, "„Ephraim Type“"@en;
+  skos:altLabel "Tipo Efrem (mano corsiveggiante con asse inclinate)"@de, "Cursive bookhands"@en;
+  skos:broader hspv:SCRP-X710;
+  skos:definition "Der „Ephraim-Typ“ wurde nach einer Handschrift (vermutlich) aus dem Jahre 947 n. Chr. und dessen Schreiber benannt. Er weist viele kursive Elemente (\"corsiveggianti\" nach Follieri) auf und vermittelt dennoch einen insgesamt wohlproportionierten und harmonischen Eindruck. Ein typisches kursives Element ist die Verbindung des Rho mit dem folgenden Buchstaben von unten."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/4-ninth-and-tenth-century-minuscules";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#065";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X448 a skos:Concept;
+  skos:notation "SCRP-X448";
+  skos:prefLabel "Minuskel „bouletée“"@de, "„Bouletée“ Minuscule"@en;
+  skos:altLabel "Bouletée"@de, "Kirchenlehrerstil"@de, "Bouletée Script"@en;
+  skos:definition "Die Bouletée-Minuskel wurde vorwiegend in Luxus-Handschriften des 10. Jh. verwendet, die in der Regel biblische oder patristische Texte überlieferten. Namensgebend für den Stil sind die knopflochförmigen und knotigen Verdickungen (\"boules\") der Oberlängen und vieler Kleinbuchstaben. Buchstabenkörper neigen dazu kreisförmig oder ähnlich einem Quadrat zu sein. Die Unter- und Oberlängen sind auf ein Minimum reduziert, sodass diese Schrift zu einem bilinearen System tendiert. Auffallend sind erstens das Delta mit aufrechter Kurve am Ende, anstatt einer links geneigten und zweitens das zweiteilige Majuskel-Kappa sowie drittens ein häufig vorkommendes Majuskel-Nu. Die Achse der Schrift ist vertikal bis leicht nach links geneigt."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/5-bouletee-and-perlschrift";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#066";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X201 a skos:Concept;
+  skos:notation "SCRP-X201";
+  skos:prefLabel "Perlschrift"@de, "Pearl Script"@en;
+  skos:definition "Die Perlschrift ist die dominante Buchschrift der zweiten Hälfte des 10. und des größten Teils des 11. Jh. Nach H. Hunger dient das Omikron als konzeptionelle Grundform aller Buchstaben (Alpha ein Omikron mit einem zusätzlichen vertikalen Strich auf der rechten Seite; Sigma ein Omikron mit einem zusätzlichen Kopfstrich; Epsilon dasselbe mit einem zusätzlichen Oberstrich; Omega ein doppeltes Omikron usw.), sodass die Buchstaben typischerweise kreisförmig sind und Winkel eher vermieden werden. So ist das kleine Eta beispielsweise wellenförmig. Das Rho wird wie in der Perlschrift von unten mit dem folgenden Buchstaben verbunden und bildet ein ein weiteres Halb-Omikron an der Verbindungsstelle zwischen der Unterseite des Unterlängenstrichs und dem Verbindungsstrich. Die Schrift ist wenig kurisv, wenn auch kursive Elemente nicht gänzlich vermieden werden, solange sie abgerundet sind. Ober- und Unterlängen fallen kurz aus, sodass hier wie in der Bouletée-Schrift eine Tendenz zu einem bilinearen Schema besteht. Die Achse der Schrift ist vertikal oder leicht nacht rechts geneigt. Charakteristisch ist zudem das klare Bemühen um ein harmonisches Gesamtbild mittels harmonischer Proportionen und Abständen."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/5-bouletee-and-perlschrift";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#067";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X747 a skos:Concept;
+  skos:notation "SCRP-X747";
+  skos:prefLabel "Süditalienische Schriften"@de, "Italo-Greek Scripts"@en;
+  skos:altLabel "Scritture italo-greche"@de;
+  skos:definition "Unter Süditalienischen Schriften versteht man Formen der griechischen Buchschrift, die zwischen dem 9. und 12. Jh. im griechischsprachigen Süden Italiens und auf Sizilien verwendet wurden. Sie sind ein Sonderfall innerhalb der byzantinischen Paläographie, da geographische Zuschreibungen bei griechischen Minuskeln sonst nur selten möglich sind. Die Existenz griechischer Schreibzentren in Süditalien hängt mit der dort seit der Spätantike bestehenden griechischsprachigen Bevölkerung zusammen, deren kulturelle Kontinuität durch die politische und kirchliche Abhängigkeit großer Teile der Region von Konstantinopel gefördert wurde. Besonders in Kalabrien, Lukanien, Kampanien und Nordostsizilien lässt sich vom 9. bis 11. Jh. eine rege Tätigkeit griechischer Schreiber nachweisen. Im 12. Jh. kam unter der normannischen Herrschaft eine weitere Blütephase hinzu, insbesondere in der Region Otranto (Salento) an der Adriaküste."@de;
+  dct:bibliographicCitation """Website 
+Greek Paleography. From Antiquity to the Renaissance [by T. Janz]:
+https://spotlight.vatlib.it/greek-paleography/feature/6-italo-greek-scripts-tenth-twelfth-centuries""";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#068";
+  skos:narrower hspv:SCRP-X702, hspv:SCRP-X628, hspv:SCRP-X400, hspv:SCRP-X839, hspv:SCRP-X730;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X702 a skos:Concept;
+  skos:notation "SCRP-X702";
+  skos:prefLabel "Minuskel „as de pique“"@de, "Ace of Spades Minuscule"@en;
+  skos:altLabel "Pik-As-Stil"@de, "„Minuscola ad asso di picche“"@de;
+  skos:broader hspv:SCRP-X747;
+  skos:definition "Die Pik-As-Minuskel gehört zur Gruppe der italo-griechischen Schriften und lässt sich in die Zeit zwischen der Mitte des 9. und Mitte des 10. Jahrhunderts setzen. Sie erhielt ihren Namen auf Grund der charakteristischen, wenn auch nicht exklusiven Epsilon-Roh-Ligatur, deren Form einem Pik-Ass ähnelt. Charakteristisch ist die Mischung aus kursiven, geschwungenen und eckigen Formen. Außerdem sind die Schäfte typischerweise doppelt gezeichnet (auf- und abwärts, schleifenartig). Das Rho ist nach links offen."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/6-italo-greek-scripts-tenth-twelfth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#069";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X628 a skos:Concept;
+  skos:notation "SCRP-X628";
+  skos:prefLabel "Minuskel „Scuola Niliana“"@de, "Minuscule of the School of St. Nilus the Younger"@en;
+  skos:broader hspv:SCRP-X747;
+  skos:definition "Der italo-griechischen Schrift der Minuskel Scuola Niliana fehlt es an hervorstechenden Merkmalen, die eine spezifische Charakterisierung erlauben. Die Schreiber der Schrift versuchten, jede Übertreibung in der Ausführung zu vermeiden, auch um einen möglichst harmonischen Gesamteindruck auf der Seite zu erreichen. Auffallend ist die Flachheit der Schrift, die vor allem durch den Abstand der Buchstaben und der Breite der Striche, welche von einer runden und ziemlich großen Feder zu stammen scheinen, erzeugt wird. Auch andere italo-griechische Schriften weisen ein flaches Erscheinungsbild auf, doch wird dies hier mit einem einheitlichen und kleinen Schriftgrad kombiniert. Zudem liegen die Schriftzeilen eng beieinander und die Schäfte kurz, sodass die Schrift \"dicht\" wirkt."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/6-italo-greek-scripts-tenth-twelfth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#070";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X400 a skos:Concept;
+  skos:notation "SCRP-X400";
+  skos:prefLabel "Rossano-Stil"@de, "Rossano Style"@en;
+  skos:altLabel "„Stile di Rossano“"@de, "Rossanostil"@de, "Rossano Script"@en;
+  skos:broader hspv:SCRP-X747;
+  skos:definition "Der Rossano-Stil entspricht eher einem Handschriftenstil als einem Schriftstil. Einzelbuchstaben, Ligaturen und Pseudoligaturen ähneln anderen zeitgenössischen Schriften, wie beispielsweise der Perlschrift. Charakteristisch sind die blasse Tinte und die Verwendung bestimmter Seitenlinienmuster, die manchmal mit Bleistift verstärkt sind. Die Lagen setzen sich aus acht Blättern, mit Lagennummerierung auf der ersten Recto-Seite und letzten Verso-Seite, zusammen. Ebenfalls auffallend sind die \"umgekehrten Silhouetten\"-Verzierungen (dessin en réserve) in Karminrot. Die Schrift selbst ist klein, flüssig und weicht von der Linienführung ab. Zu den charakteristischen Buchstabenformen, wenn auch weder exklusiv für diese Schrift, noch systematisch angewendet, zählen das Majuskel-Delta mit einer geschwungenen Oberkante, das Psi mit einem geschwungenen Grundstrich, das Zeta in Form einer 2 oder 3, das nach links offene Rho und das schräge Majuskel-Nu. Als tatsächlich charakteristisch für diese Schrift kann die Platzierung des Akzents gelten. Der Schreiber setzt den Akut auf einem anlauten Vokal."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/6-italo-greek-scripts-tenth-twelfth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#071";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X839 a skos:Concept;
+  skos:notation "SCRP-X839";
+  skos:prefLabel "Reggio-Stil"@de, "Reggio Style"@en;
+  skos:altLabel "„Stile di Reggio“"@de, "Reggiostil"@de, "Reggio Script"@en;
+  skos:broader hspv:SCRP-X747;
+  skos:definition "Der Reggio-Stil, als italo-griechische Schrift, begegnet entgegen seines Namen sowohl in Reggio auf der Festlandseite und als auch in Messina auf der sizilianischen Seite. Ihm charakteristisch ist der Kontrast zwischen breiten und schmalen Buchstaben. Dies kann als eine Verschärfung einer Tendenz angesehen werden, die bereits in der Schrift der Schule des Heiligen Nilus vorhanden war, mit der die Reggio-Schrift tatsächlich ein insgesamt abgeflachtes Aussehen teilt. Der Kontrast fällt besonders bei den breiteren Minuskeln Beta und Mu im Vergleich zum schmaleren Nu und den schmalereren Majuskeln Epsilon und Eta auf."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]:∆https://spotlight.vatlib.it/greek-paleography/feature/6-italo-greek-scripts-tenth-twelfth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#072";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X730 a skos:Concept;
+  skos:notation "SCRP-X730";
+  skos:prefLabel "„Skylitzes-Typ“"@de, "Skylitzes Minuscule"@en;
+  skos:altLabel "„Tipo Scilitze“"@de;
+  skos:broader hspv:SCRP-X747;
+  skos:definition "Der Skylitzes-Typ ist eine italo-griechische Schrift mit ausgeprägten Merkmalen wie einem Majuskel Delta mit einer gerundeten oberen Schlaufe, der optionalen Vergrößerung bestimmter Buchstaben (z. B. Majuskel-Epsilon, Theta, Majuskel-Kappa, Omikron, mondförmiges Sigma und Omega), Zeta mit einem langen Anstrich, der bis zur Grundlinie reicht, Phi mit ungewöhnlich langem Schaft, Alpha-Sigma Ligatur mit nach links offenem Sigma und einer Abbreviation für -ων in der Form eines über der Linie geschriebenen Omegas."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/6-italo-greek-scripts-tenth-twelfth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#073";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X138 a skos:Concept;
+  skos:notation "SCRP-X138";
+  skos:prefLabel "Fettaugenmode"@de, "Fettaugenmode"@en;
+  skos:altLabel "Fettaugenelemente"@de, "Grease-Globule Fashion"@en;
+  skos:definition "Die bemerkenswerteste paläographische Entwicklung des 13. Jh. ist das Aufkommen der sogenannten Fettaugenmode. Der von Herbert Hunger geprägte Begriff bezieht sich auf die auffallenden vergrößerten kreisförmigen Buchstaben, die gewissermaßen dem Aussehen der Oberfläche einer fettigen Suppe ähneln. Der allgemein kleine Schriftgrad lässt dieses Merkmal besonders hervorstechen. Hunger argumentiert außerdem, dass diese Schrift mangels weiterer Charakteristika nicht als Stil, sondern besser als Mode zu bezeichnen sei. In den ersten beiden Jahrzehnten des 14. Jh. wurden Schriften mit derartig markanten runden Buchstaben noch verwendet, jedoch gilt die extremste Form dieser Mode als typisch für die letzten Jahrzehnte des 13. Jh."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/8-thirteenth-century-hands";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#074";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X100 a skos:Concept;
+  skos:notation "SCRP-X100";
+  skos:prefLabel "Beta-Gamma-Stil"@de, "Beta-Gamma-Style"@en;
+  skos:definition "Der Beta-Gamma-Stil wurde in der gesamten zweiten Hälfte des 13. Jh. verwendet. Namensgebend sind die extravaganten Vergrößerungen des herzförmigen Beta und abgerundeten, majuskelartigen Gamma bei allgemein kleinem Schriftgrad. Weitere Charakteristika sind die doppelte Biegung im Abstrich des Rho und die eckige, aber verschobene Form der Pik-As Ligatur für Epsilon-Rho. Zudem teilt diese Schrift einige weitere Tendenzen mit anderen zeitgenössischen Schriften wie den modernen Formen von Kappa, Nu und Epsilon. Letzteres ist zurückgelehnt, also gegen den Uhrzeigersinn gelehnt."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/8-thirteenth-century-hands";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#075";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X140 a skos:Concept;
+  skos:notation "SCRP-X140";
+  skos:prefLabel "Gelehrtenschrift"@de, "Scholar-Scribes"@en;
+  skos:altLabel "Schrift des Maximus Planudes"@de, "Schrift des Demetrius Triclinius"@de;
+  skos:definition "Im Zuge der Deinstitutionalisierung der Buchproduktion während der Palaiologischen Renaissance tritt die bereits im 13. Jh. aufkommende Gelehrtenschrift noch deutlicher hervor. Es verbreiten sich wissenschaftliche Zirkel in den verschiedene Gruppen von Schreibern, die zusammenarbeiten und wissenschaftliche Projekte teilen, was jedoch nicht in einem klösterlichen oder formell didaktischem Kontext stattfindet. Die bedeutendsten Gelehrten-Schreiber dieser Zeit sind Maximus Planudes (ca. 1255 – ca. 1305) und Demetrius Triclinius (ca. 1280 – ca. 1340). Der starke Polymorphismus palaeologischer Schriften dieser Zeit erschwert die Charakterisierung und Identifizierung jener. Für Triclinius ist die Verwendung von runden Asper in früheren Teilen und die von eckigen Asper in Handschriften typisch. Weitere Merkmale sind die allgemeine Sauberkeit, der allgemein kleine und einheitliche Schriftgrad, ein Majuskel-Alpha, bestehend aus einem schrägen Strich mit einer senkrecht dazu stehenden Schleife, das oft über der Zeile platziert wird, wenn der Buchstabe am Ende des Wortes steht (und sich mit einem unauffälligen Minuskel-Alpha abwechselt), und ein vergrößertes lunates Sigma am Ende (das sich ebenfalls mit einem unauffälligen Minuskel-Sigma abwechselt)."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/9-later-palaeologan-hands-late-thirteenth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#076";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X617 a skos:Concept;
+  skos:notation "SCRP-X617";
+  skos:prefLabel "Metochistes-Stil"@de, "Metochites Style"@en;
+  skos:altLabel "Metochistesstil"@de, "Metochistesstil"@en;
+  skos:definition "Anders als bei den persönlichen Schriftstilen der Gelehrtenschrift während des 14. Jahrhunderts handelt es sich beim Metochistes-Stilum einen formalen Stil. Dieser konnte einem Schreiber der kaiserlichen Kanzlei namens Michael Clostomalles zugeordnet werden und stellt damit ein Beispiel eines offiziellen Schreibers dar. Charakteristisch ist für diese gut lesbare Schrift ein kleiner Schriftgrad, regelmäßigen Buchstabenabständen, Tendenz zum Bilinearismus und eine äußerst moderate Verwendung von Ligaturen und Abbreviationen. Obwohl diese Schrift vor allem in Prosa Anwendung fand, kann der Stil auch weiter gefasst als Kategorie von kleineren, regelmäßigen Schriften aus dem 14. Jahrhundert verstanden werden, die keine extravaganten Schnörkel aufweisen."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/9-later-palaeologan-hands-late-thirteenth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#077";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X966 a skos:Concept;
+  skos:notation "SCRP-X966";
+  skos:prefLabel "Hodegonstil"@de, "Hodegon-Style"@en;
+  skos:definition "Der Hodegon-Stil wurde vor allem in liturgischen Handschriften des 14. Jh. verwendet und wird in Verbindung mit dem Konstantinopeler Kloster τῶν Ὁδηγῶν gebracht. Diese regelmäßige und gut lesbare Schrift weist einen mäßigen Kontrast des Schriftgrades, eine Tendenz zu geometrischen Formen und eine fast vollständige Abwesenheit von Kürzungen auf."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/9-later-palaeologan-hands-late-thirteenth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#078";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X383 a skos:Concept;
+  skos:notation "SCRP-X383";
+  skos:prefLabel "Salentinische Schrift"@de, "Salentine Scripts"@en;
+  skos:altLabel "Schrift aus der „Terra d’Otranto“"@de;
+  skos:definition "Ebenso wie die italogriechischen Schriften des 10. bis 12. Jh. stammt auch die Salentinische Schrift aus der byzantinischen Peripherie. Namensgebend ist der südöstliche Teil Italiens \"Salento\". Die beiden Hauptstile der Salentinischen Schrift sind die otrantinische Barockminuskel und die rechteckige otrantinische Schrift."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#079";
+  skos:narrower hspv:SCRP-X935, hspv:SCRP-X826;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X935 a skos:Concept;
+  skos:notation "SCRP-X935";
+  skos:prefLabel "otrantinische Barockminuskel"@de, "Baroque Salentine Style"@en;
+  skos:altLabel "„stile barocco salentino\""@de;
+  skos:broader hspv:SCRP-X383;
+  skos:definition "Die otrantinische Barockminuskel ist eine jüngere Form der Salentinischen Schrift, die sich im 13. und 14. Jh. entwickelte. Salentnische Schreiber nutzten eine äußerst kursiven Schrift mit zahlreichen Verzierungen und Abbreviationen. Weitere charakteristische Merkmale sind ein Alpha, dessen Schleife deutlich unter die Grundlinie herabreicht, Ligaturen, die Schleifen verschiedener Buchstaben direkt verbinden, und eine Abbreviation für die Endung -ον, die häufig mit einem gleichzeitig gesetzten Gravis-Akzent in horizontaler Stellung kombiniert wird, sodass beide zusammen wie ein Gleichheitszeichen aussehen."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#080";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X826 a skos:Concept;
+  skos:notation "SCRP-X826";
+  skos:prefLabel "rechteckige otrantinische Schrift"@de, "Rectangular Salentine Style"@en;
+  skos:altLabel "„stile rettangolare salentino“"@de;
+  skos:broader hspv:SCRP-X383;
+  skos:definition "Die rechteckige otrantinische Schrift ist eine ältere Form der Salentinischen Schrift. Alle Buchstaben dieser Schrift tendieren im Allgemeinen zu geometrischen Formen und passen insbesondere in niedrige Rechtecke. Die Achse ist aufrecht, die Buchstabenformen sind einfach und die Striche sind im Allgemeinen dick, mit wenig oder keinem Strichkontrast."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#081";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X484 a skos:Concept;
+  skos:notation "SCRP-X484";
+  skos:prefLabel "Zypriotische Schrift"@de, "Cypriot Scripts"@en;
+  skos:definition "Die Wendung Zypriotische Schrift ist eine Bezeichnung für Schriftstile, die sich auf der Inseln Zypern entwickelten. Sekundär wurden diese Stile jedoch ebenfalls in den Küstengebieten der Insel und insbesondere in Palästina verwendet. Ein besonderes Merkmal ist die intensive schwarze Tintenfarbe, die in den Manuskripten mit dieser Schrift verwendet wird."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#082";
+  skos:narrower hspv:SCRP-X715, hspv:SCRP-X232, hspv:SCRP-X786;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X715 a skos:Concept;
+  skos:notation "SCRP-X715";
+  skos:prefLabel "„Style ‚epsilon‘ à pseudo-ligatures basses“"@de, "\"Style 'epsilon' a pseudo-ligatures basses\""@en;
+  skos:altLabel "„Epsilon-Stil“"@de, "Style ,epsilon’"@en;
+  skos:broader hspv:SCRP-X484;
+  skos:definition "Auffälligstes Merkmal des Epsilon-Stil ist die Pseudo-Ligatur zwischen Epsilon und einem nachfolgenden Buchstaben. Dabei führt der mittlere horizontale Strich des Epsilon bis oder fast bis zur Grundlinie und verbindet sich dort mit dem nächsten Buchstaben. Die Schrift wirkt eher abgeflacht, hat eine aufrechte Achse mit Ausnahme des Gamma, das in der Tendenz nach links gedreht ist."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155, hspv:SCRP-C792;
+  skos:note "#083";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X232 a skos:Concept;
+  skos:notation "SCRP-X232";
+  skos:prefLabel "„Chypriote carrée“"@de, "\"chypriote carrée\" script"@en;
+  skos:broader hspv:SCRP-X484;
+  skos:definition "In dieser Schrift Chypriote carrée verfassten zypriotische Schreiber im 13. und 14. Jh. vor allem liturgische und biblische Manuskripte. Die Schrift zeichnet sich durch eine aufrechte Achse und rechteckige Buchstabenformen aus, die dem Rectangular Salentine Style ähneln. Bei dieser handelt es sich aber um eine viel raffiniertere Schrift mit sorgfältig ausgeführten Serifen mit gelegentlich vergrößerten und verzierten Buchstaben, darunter beispielsweise das Beta, das an den Beta-Gamma Stil erinnert."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#084";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X786 a skos:Concept;
+  skos:notation "SCRP-X786";
+  skos:prefLabel "„Chypriote bouclée“"@de, "\"chypriote bouclée\" script"@en;
+  skos:broader hspv:SCRP-X484;
+  skos:definition "Anders als die Chypriote carrée-Schrift ist die Chypriote bouclée-Schrift eine Kursivschrift und zeichnet sich besonders durch folgende Merkmale aus: das Majuskel-Beta (die untere Schleife schwingt nach oben und verbindet sich über der Grundlinie mit dem vertikalen Strich), der vertikale Gravis-Akzent in Form eines Gleichheitszeichens (wie im stile barocco salentino) und ein Majuskel-Pi mit parallelen nach rechts unten geneigten Schäften."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/10-scripts-from-the-byzantine-periphery-twelfth-fourteenth-centuries";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B155;
+  skos:note "#085";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X473 a skos:Concept;
+  skos:notation "SCRP-X473";
+  skos:prefLabel "Druckminuskel (griechisch)"@de, "Printed Minuscule (greek)"@en;
+  skos:altLabel "Typographische Schrift (griechisch)"@de, "Typographic Script (greek)"@en;
+  skos:definition "Die Druckmajuskel entstand im 16. Jh. und orentiert sich an den Buchstaben in gedruckten Büchern. Herbert Hunger hat daher die Bezeichnung Druckminuskel geprägt. Beispielhaft ist hier die Schrift von Giovanni Onorio, der sowohl Texte in dieser Schrift verfasste als auch an der Gestaltung der griechischen Buchstaben für den Druck beteiligt war."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/11-fifteenth-and-sixteenth-century-hands";
+  hspo:hasKeyFeature hspv:SCRP-A219;
+  skos:note "#086";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X952 a skos:Concept;
+  skos:notation "SCRP-X952";
+  skos:prefLabel "Alexandrinische Auszeichnungsschrift"@de, "Alexandrine majuscule as a distinctive script"@en;
+  skos:definition "Die Alexandrinische Auszeichnungsminuskel ist eine Stilart der griechischen Auszeichnungsschriften (weitere sind die Konstantinopolitanische sowie die Epigraphische Auszeichnungsschrift). Zwischen dem 2. und dem 7. Jh. wurde sie Buchschrift, nach dem 7. Jh. noch lange als Auszeichnungsschrift verwendet."@de;
+  dct:bibliographicCitation "Website Greek Paleography. From Antiquity to the Renaissance [by T. Janz]: https://spotlight.vatlib.it/greek-paleography/feature/alexandrian-majuscule";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884, hspv:SCRP-E133;
+  skos:note "#087";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X977 a skos:Concept;
+  skos:notation "SCRP-X977";
+  skos:prefLabel "Konstantinopolitanische Auszeichnungsschrift"@de, "„Konstantinopolitanische Auszeichnungsschrift“"@en;
+  skos:altLabel "senkrechte Spitzbogenmajuskel"@de, "Constantinopolitan majuscule as a distinctive script"@en;
+  skos:definition "Die Konstantinopolitanische Auszeichnungsschrift ist eine griechische Auszeichnungsschrift, auch Spitzbogenmajuskel genannt. Das Alphabet wurde hierbei von der Bibelmajuskel abgeleitet. Diese Schrift wird oft mit älteren Minuskeln und der italo-griechischen Schrift verwendet."@de;
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884, hspv:SCRP-E133;
+  skos:note "#088";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X591 a skos:Concept;
+  skos:notation "SCRP-X591";
+  skos:prefLabel "Epigraphische Auszeichnungsschrift"@de, "Epigraphic majuscule as a distinctive script"@en;
+  skos:definition "Die epigraphische Auszeichnungsschrift ist eine der griechsischen Auszeichnungsschriften (weitere sind die Alexandrinische sowie die Konstantinopolitanische Auszeichnungsschrift). Die Bezeichnung leitet sich von der vermuteten Abstammung der Inschriftenschrift her. Merkmale sind Minuskelformen, Juxtapositionen und Ligaturen sowie die Hochstellung und Einschließung einzelner Buchstaben. Unterschieden wird zwischen einer schmalen und einer harmonischen Variante sowie einer quadratischen und einer ausladenden."@de;
+  dct:bibliographicCitation "H. Hunger, Epigraphische Auszeichnungsmajuskel, in: Jahrbuch der Österreichischen Byz. Ges. 26, 1977, 193-210.";
+  hspo:hasKeyFeature hspv:SCRP-A219, hspv:SCRP-B884, hspv:SCRP-E133;
+  skos:note "#089";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X997 a skos:Concept;
+  skos:notation "SCRP-X997";
+  skos:prefLabel "Glagolitische Schrift"@de, "Glagolitic Script"@en;
+  skos:altLabel "Glagoliza"@de, "Glagolica"@de;
+  hspo:hasKeyFeature hspv:SCRP-A384;
+  skos:note "#090";
+  skos:narrower hspv:SCRP-X576, hspv:SCRP-X758;
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X576 a skos:Concept;
+  skos:notation "SCRP-X576";
+  skos:prefLabel "Runde Glagoliza"@de, "Rounded Glagolitic Script"@en;
+  skos:altLabel "Runde Glagolica"@de;
+  skos:broader hspv:SCRP-X997;
+  hspo:hasKeyFeature hspv:SCRP-A384;
+  skos:note "#091";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X758 a skos:Concept;
+  skos:notation "SCRP-X758";
+  skos:prefLabel "Jüngere Eckige Glagoliza"@de, "Younger Angular Glagolitic Script"@en;
+  skos:altLabel "Jüngere Eckige Glagolica"@de;
+  skos:broader hspv:SCRP-X997;
+  hspo:hasKeyFeature hspv:SCRP-A384;
+  skos:note "#092";
+  skos:inScheme hspv:SCRP-X .
+
+hspv:SCRP-X769 a skos:Concept;
+  skos:notation "SCRP-X769";
+  skos:prefLabel "Kyrillische Schrift"@de, "Cyrillic Script"@en;
+  skos:altLabel "Kyrilliza"@de, "Asbuka"@de;
+  hspo:hasKeyFeature hspv:SCRP-A384;
+  skos:note "#093";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-X881 a skos:Concept;
+  skos:notation "SCRP-X881";
+  skos:prefLabel "Tironische Noten"@de, "Tironian notes"@en;
+  hspo:hasKeyFeature hspv:SCRP-A576;
+  skos:note "#094";
+  skos:inScheme hspv:SCRP-X;
+  skos:topConceptOf hspv:SCRP-X .
+
+hspv:SCRP-B a skos:ConceptScheme;
+  skos:prefLabel "Schriftsystem"@de, "script system"@en;
+  skos:definition "Thesaurus: Schriftsystem (SCRP-B)"@de, "Thesaurus: script system (SCRP-B)"@en;
+  skos:inScheme hspv:SCRP;
+  skos:note "#03";
+  skos:hasTopConcept hspv:SCRP-B884, hspv:SCRP-B155, hspv:SCRP-B387 .
+
+hspv:SCRP-B884 a skos:Concept;
+  skos:notation "SCRP-B884";
+  skos:prefLabel "Majuskelschrift"@de, "majuscule script"@en;
+  skos:altLabel "Majuskel"@de, "Versalienschrift"@de;
+  skos:note "#001";
+  skos:inScheme hspv:SCRP-B;
+  skos:topConceptOf hspv:SCRP-B .
+
+hspv:SCRP-B155 a skos:Concept;
+  skos:notation "SCRP-B155";
+  skos:prefLabel "Minuskelschrift"@de, "minuscule script"@en;
+  skos:altLabel "Minuskel"@de;
+  skos:note "#002";
+  skos:inScheme hspv:SCRP-B;
+  skos:topConceptOf hspv:SCRP-B .
+
+hspv:SCRP-B387 a skos:Concept;
+  skos:notation "SCRP-B387";
+  skos:prefLabel "Zwischenform zwischen Minuskel- und Majuskelschrift"@de, "intermediate between minuscule and majuscule script"@en;
+  skos:note "#003";
+  skos:inScheme hspv:SCRP-B;
+  skos:topConceptOf hspv:SCRP-B .
+
+hspv:SCRP-A a skos:ConceptScheme;
+  skos:prefLabel "Schriftalphabet"@de, "script / alphabet"@en;
+  skos:definition "Thesaurus: Schriftalphabet (SCRP-A)"@de, "Thesaurus: script / alphabet (SCRP-A)"@en;
+  skos:inScheme hspv:SCRP;
+  skos:note "#02";
+  skos:hasTopConcept hspv:SCRP-A755, hspv:SCRP-A338, hspv:SCRP-A475, hspv:SCRP-A219,
+    hspv:SCRP-A384, hspv:SCRP-A372, hspv:SCRP-A576 .
+
+hspv:SCRP-A755 a skos:Concept;
+  skos:notation "SCRP-A755";
+  skos:prefLabel "Lateinische Schrift"@de, "Latin script"@en;
+  skos:altLabel "Latin alphabet"@en;
+  skos:note "#001";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-A338 a skos:Concept;
+  skos:notation "SCRP-A338";
+  skos:prefLabel "Deutsche Schrift"@de, "German script"@en;
+  skos:note "#002";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-A475 a skos:Concept;
+  skos:notation "SCRP-A475";
+  skos:prefLabel "Hebräische Schrift"@de, "Hebrew script"@en;
+  skos:note "#003";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-A219 a skos:Concept;
+  skos:notation "SCRP-A219";
+  skos:prefLabel "Griechische Schrift"@de, "Greek script"@en;
+  skos:note "#004";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-A384 a skos:Concept;
+  skos:notation "SCRP-A384";
+  skos:prefLabel "Slawische Schrift"@de, "Slavic script"@en;
+  skos:altLabel "Slavonic script"@en;
+  skos:note "#005";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-A372 a skos:Concept;
+  skos:notation "SCRP-A372";
+  skos:prefLabel "Geheimschrift"@de, "cryptograph"@en;
+  skos:altLabel "secret writing"@en;
+  skos:note "#006";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-A576 a skos:Concept;
+  skos:notation "SCRP-A576";
+  skos:prefLabel "Sonstiges Schriftalphabet"@de, "other script"@en;
+  skos:note "#007";
+  skos:inScheme hspv:SCRP-A;
+  skos:topConceptOf hspv:SCRP-A .
+
+hspv:SCRP-D a skos:ConceptScheme;
+  skos:prefLabel "Ausführung (Schrift)"@de, "execution (script)"@en;
+  skos:definition "Thesaurus: Ausführung (Schrift) (SCRP-D)"@de, "Thesaurus: execution (script) (SCRP-D)"@en;
+  skos:inScheme hspv:SCRP;
+  skos:note "#05";
+  skos:hasTopConcept hspv:SCRP-D823, hspv:SCRP-D676, hspv:SCRP-D266, hspv:SCRP-D338 .
+
+hspv:SCRP-D823 a skos:Concept;
+  skos:notation "SCRP-D823";
+  skos:prefLabel "hoher Sorgfaltsgrad"@de, "calligraphic execution"@en;
+  skos:altLabel "kalligraphische Ausführung"@de, "careful execution"@en;
+  skos:note "#001";
+  skos:inScheme hspv:SCRP-D;
+  skos:topConceptOf hspv:SCRP-D .
+
+hspv:SCRP-D676 a skos:Concept;
+  skos:notation "SCRP-D676";
+  skos:prefLabel "geringer Sorgfaltsgrad"@de, "rudimentary execution"@en;
+  skos:altLabel "flüchtige Ausführung"@de, "careless execution"@en;
+  skos:note "#002";
+  skos:inScheme hspv:SCRP-D;
+  skos:topConceptOf hspv:SCRP-D .
+
+hspv:SCRP-D266 a skos:Concept;
+  skos:notation "SCRP-D266";
+  skos:prefLabel "mimetische Ausführung"@de, "mimetic execution"@en;
+  skos:altLabel "nachahmende Ausführung"@de;
+  skos:note "#003";
+  skos:inScheme hspv:SCRP-D;
+  skos:topConceptOf hspv:SCRP-D .
+
+hspv:SCRP-D338 a skos:Concept;
+  skos:notation "SCRP-D338";
+  skos:prefLabel "archaisierende Ausführung"@de, "archaizing execution"@en;
+  skos:note "#004";
+  skos:inScheme hspv:SCRP-D;
+  skos:topConceptOf hspv:SCRP-D .
+
+hspv:SCRP-C a skos:ConceptScheme;
+  skos:prefLabel "Schreibtechnik"@de, "writing technique"@en;
+  skos:definition "Thesaurus: Schreibtechnik (SCRP-C)"@de, "Thesaurus: writing technique (SCRP-C)"@en;
+  skos:inScheme hspv:SCRP;
+  skos:note "#04";
+  skos:hasTopConcept hspv:SCRP-C792, hspv:SCRP-C439, hspv:SCRP-C245 .
+
+hspv:SCRP-C792 a skos:Concept;
+  skos:notation "SCRP-C792";
+  skos:prefLabel "konstruierte Schrift"@de, "constructed"@en;
+  skos:altLabel "geformte Schrift"@de, "formierte Schrift"@de, "littera formata"@de,
+    "gebaute Schrift"@de, "kalligraphische Schrift"@de, "formed script"@en, "book-hand"@en;
+  skos:note "#001";
+  skos:inScheme hspv:SCRP-C;
+  skos:topConceptOf hspv:SCRP-C .
+
+hspv:SCRP-C439 a skos:Concept;
+  skos:notation "SCRP-C439";
+  skos:prefLabel "kursive Schrift"@de, "cursive"@en;
+  skos:altLabel "cursive script"@en;
+  skos:note "#002";
+  skos:inScheme hspv:SCRP-C;
+  skos:topConceptOf hspv:SCRP-C .
+
+hspv:SCRP-C245 a skos:Concept;
+  skos:notation "SCRP-C245";
+  skos:prefLabel "Zwischenform zwischen geformter und kursiver Schrift"@de, "semi-cursive"@en;
+  skos:altLabel "semi-cursive script"@en;
+  skos:note "#003";
+  skos:inScheme hspv:SCRP-C;
+  skos:topConceptOf hspv:SCRP-C .

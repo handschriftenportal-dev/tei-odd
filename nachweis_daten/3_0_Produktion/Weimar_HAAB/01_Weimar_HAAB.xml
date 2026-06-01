@@ -1,0 +1,3614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Weimar_HAAB/01_Weimar_HAAB.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-1">Fol 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-1a">Fol 1a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-1b">Fol 1b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-2">Fol 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-3">Fol 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-4">Fol 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-5">Fol 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-6">Fol 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-7">Fol 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-8">Fol 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-9">Fol 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-10">Fol 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-13">Fol 13</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-14">Fol 14</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-15">Fol 15</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-16">Fol 16</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-17">Fol 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-18">Fol 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-19">Fol 19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-20">Fol 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-21">Fol 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-22">Fol 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-23">Fol 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-24">Fol 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-25">Fol 25</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-26">Fol 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-27">Fol 27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-28">Fol 28</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-29">Fol 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-30">Fol 30</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-30a">Fol 30a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-30b">Fol 30b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-32">Fol 32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-33">Fol 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-34">Fol 34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-35">Fol 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37">Fol 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37a">Fol 37a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37b">Fol 37b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37c">Fol 37c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37d">Fol 37d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37e">Fol 37e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37f">Fol 37f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37g">Fol 37g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-37h">Fol 37h</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-44">Fol 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-49-11--1-">Fol 49/11 (1)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-49-11--2-">Fol 49/11 (2)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-49-11--3-">Fol 49/11 (3)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-49a">Fol 49a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-51">Fol 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-54a">Fol 54a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-55">Fol 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-56">Fol 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-57">Fol 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-59">Fol 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-60">Fol 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-61">Fol 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-61a">Fol 61a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-62">Fol 62</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-63a">Fol 63a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-63c">Fol 63c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-64">Fol 64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-66">Fol 66</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-66a">Fol 66a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-67">Fol 67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-68">Fol 68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-69">Fol 69</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-70">Fol 70</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-70a">Fol 70a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-71">Fol 71</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-73">Fol 73</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-74">Fol 74</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-80">Fol 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-85">Fol 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-110">Fol 110</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-143">Fol 143</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-158-11">Fol 158/11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-160-7">Fol 160/7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-167-2">Fol 167/2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-182a">Fol 182a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-204">Fol 204</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-207">Fol 207</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-219">Fol 219</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-219b">Fol 219b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-220">Fol 220</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-221">Fol 221</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-222">Fol 222</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-222a">Fol 222a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-223">Fol 223</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-224">Fol 224</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-224b">Fol 224b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-224c">Fol 224c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-224d">Fol 224d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-228">Fol 228</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-256-8">Fol 256/8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-323">Fol 323</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-324">Fol 324</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-326">Fol 326</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-328">Fol 328</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-329">Fol 329</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-330">Fol 330</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-331">Fol 331</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-342">Fol 342</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-351c">Fol 351c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-352">Fol 352</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-359">Fol 359</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-369">Fol 369</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-372">Fol 372</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-374-2">Fol 374/2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-377">Fol 377</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-381a">Fol 381a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-414a">Fol 414a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-419">Fol 419</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-421-3">Fol 421/3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-421-9">Fol 421/9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-421-26">Fol 421/26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-421-27">Fol 421/27</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-421-32">Fol 421/32</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-421-34">Fol 421/34</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-426e">Fol 426e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-436g">Fol 436g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--1---a-1">Fol 439a (1), a.1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--1---a-2">Fol 439a (1), a.2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--1---a-3">Fol 439a (1), a.3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--1---b-1">Fol 439a (1), b.1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--2-">Fol 439a (2)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--4-">Fol 439a (4)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--8-">Fol 439a (8)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--9-">Fol 439a (9)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--14-">Fol 439a (14)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--15-">Fol 439a (15)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--16-1-">Fol 439a (16,1)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--16-2-">Fol 439a (16,2)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--17-">Fol 439a (17)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--18-">Fol 439a (18)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--19-">Fol 439a (19)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--20-">Fol 439a (20)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--21-">Fol 439a (21)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--22-">Fol 439a (22)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--23-">Fol 439a (23)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--24-">Fol 439a (24)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--27-">Fol 439a (27)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--28-">Fol 439a (28)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--29-">Fol 439a (29)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--30-">Fol 439a (30)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--31-">Fol 439a (31)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--32-">Fol 439a (32)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--33-">Fol 439a (33)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--34-">Fol 439a (34)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--35-">Fol 439a (35)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--36-">Fol 439a (36)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--37-">Fol 439a (37)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--38-">Fol 439a (38)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439a--39-">Fol 439a (39)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--40-">Fol 439b (40)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--41-">Fol 439b (41)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--42-">Fol 439b (42)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--43-">Fol 439b (43)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--44-">Fol 439b (44)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--45-">Fol 439b (45)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--46-">Fol 439b (46)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--47-">Fol 439b (47)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--48-">Fol 439b (48)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--49-">Fol 439b (49)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--51-">Fol 439b (51)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--53-1-">Fol 439b (53,1)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--53-2-">Fol 439b (53,2)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--53-3-">Fol 439b (53,3)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--54-">Fol 439b (54)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--55-">Fol 439b (55)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--56-">Fol 439b (56)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--57-">Fol 439b (57)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--58a-">Fol 439b (58a)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--58b-">Fol 439b (58b)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-439b--59-">Fol 439b (59)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-479">Fol 479</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-511">Fol 511</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-515">Fol 515</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-516">Fol 516</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-517">Fol 517</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-518">Fol 518</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-519">Fol 519</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-521">Fol 521</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-522">Fol 522</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-523">Fol 523</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-524">Fol 524</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-525">Fol 525</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-526">Fol 526</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-527">Fol 527</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-528">Fol 528</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-529">Fol 529</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-530">Fol 530</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-531">Fol 531</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-532">Fol 532</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-537">Fol 537</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-538">Fol 538</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-4103">Fol 4103</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-1">Fol max 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-1a">Fol max 1a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-1b">Fol max 1b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-2">Fol max 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-2a-1">Fol max 2a,1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-2a-2">Fol max 2a,2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-3">Fol max 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-4">Fol max 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Fol. max. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-5">Fol max 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-6">Fol max 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-8a">Fol max 8a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-8b">Fol max 8b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-8c">Fol max 8c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-8d">Fol max 8d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-9">Fol max 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-10">Fol max 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11">Fol max 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11a-1">Fol max 11a,1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11a-2">Fol max 11a,2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11a-3">Fol max 11a,3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11a-4">Fol max 11a,4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11a-5">Fol max 11a,5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11a-6">Fol max 11a,6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11b-1">Fol max 11b,1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-11b-2">Fol max 11b,2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-12">Fol max 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-17">Fol max 17</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-29">Fol max 29</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30-1">Fol max 30,1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30-2">Fol max 30,2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30a">Fol max 30a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-1">Fol max 30b,1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-2">Fol max 30b,2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-3">Fol max 30b,3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-4">Fol max 30b,4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-5">Fol max 30b,5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-6">Fol max 30b,6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-7">Fol max 30b,7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-8">Fol max 30b,8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-9">Fol max 30b,9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30b-10">Fol max 30b,10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Fol-max-30c">Fol max 30c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Inc-152">Inc 152</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Inc-315">Inc 315</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-1">Oct 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-1a">Oct 1a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-4">Oct 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-49">Oct 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-50">Oct 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-51">Oct 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-52">Oct 52</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-53">Oct 53</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-54">Oct 54</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-55">Oct 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-56">Oct 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-57">Oct 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-58">Oct 58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-59">Oct 59</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-60">Oct 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-60a">Oct 60a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-61">Oct 61</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-62">Oct 62</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-63">Oct 63</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-64">Oct 64</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-65">Oct 65</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-72">Oct 72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-77a">Oct 77a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-79a">Oct 79a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-80">Oct 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-82">Oct 82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-83">Oct 83</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-84">Oct 84</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-85">Oct 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86a">Oct 86a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86b">Oct 86b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86c">Oct 86c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86d">Oct 86d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86e">Oct 86e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86f">Oct 86f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86g">Oct 86g</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86h">Oct 86h</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86i">Oct 86i</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86k">Oct 86k</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86l">Oct 86l</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86n">Oct 86n</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86o">Oct 86o</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86p">Oct 86p</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-86q">Oct 86q</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-87">Oct 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-89">Oct 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-89b">Oct 89b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-90">Oct 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-95">Oct 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-110e">Oct 110e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-111">Oct 111</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-117b">Oct 117b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-137">Oct 137</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-141b">Oct 141b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-142">Oct 142</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-143">Oct 143</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-145">Oct 145</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-146">Oct 146</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-156">Oct 156</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-157">Oct 157</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-158">Oct 158</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-168">Oct 168</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-174">Oct 174</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-179">Oct 179</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-183">Oct 183</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-193">Oct 193</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-202">Oct 202</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-452">Oct 452</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-453">Oct 453</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-454">Oct 454</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-460">Oct 460</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-461">Oct 461</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-princ-1">Oct princ 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Oct-princ-2">Oct princ 2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-1">Q 1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-3">Q 3</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-4">Q 4</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-5">Q 5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-6">Q 6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-7">Q 7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-8">Q 8</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-9">Q 9</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-10">Q 10</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-10b">Q 10b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-11">Q 11</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-12">Q 12</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-13-1">Q 13/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 13 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-13-2">Q 13/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 13 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. theol. antiqui (I) Q 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-13-3">Q 13/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 13 (3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-13-6">Q 13/6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-13-7">Q 13/7</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-13d">Q 13d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-18">Q 18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-20">Q 20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-21">Q 21</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-22">Q 22</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-22a">Q 22a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-23">Q 23</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-24">Q 24</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-26">Q 26</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-26a">Q 26a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-27b">Q 27b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-32a--12-">Q 32a (12)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-33">Q 33</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-33a">Q 33a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-33b">Q 33b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-35">Q 35</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-36">Q 36</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-37">Q 37</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-38">Q 38</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-39">Q 39</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-40">Q 40</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-41">Q 41</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-42">Q 42</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-43">Q 43</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-44">Q 44</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-45">Q 45</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-46">Q 46</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-47">Q 47</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-48-1-12">Q 48/1-12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (1-12)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48/12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (1)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (2)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (3)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (4)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (5)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (6)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (7)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (8)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (8/9)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (9)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (10)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (11)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (12)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-48-13">Q 48/13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 48 (13)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-49">Q 49</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-50">Q 50</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-51">Q 51</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-51b">Q 51b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-51d">Q 51d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-51e">Q 51e</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-51f">Q 51f</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-52-1">Q 52/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 52 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-55">Q 55</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-56">Q 56</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-57">Q 57</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-57b">Q 57b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-58">Q 58</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-59a">Q 59a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-59b">Q 59b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-59c">Q 59c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-59d">Q 59d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-60">Q 60</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-60b">Q 60b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-60c">Q 60c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-61">Q 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>theol. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-62-1">Q 62/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 62 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-62-2">Q 62/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 62 (2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-62-3">Q 62/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 62 (3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-67">Q 67</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-68">Q 68</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-69-1">Q 69/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 69 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-76">Q 76</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-77">Q 77</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-78">Q 78</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-79">Q 79</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-80">Q 80</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-80b">Q 80b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-82">Q 82</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-83">Q 83</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-85">Q 85</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-86">Q 86</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-87">Q 87</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-88">Q 88</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-88a">Q 88a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-89">Q 89</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-90">Q 90</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-91">Q 91</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-92">Q 92</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-93-1">Q 93/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 93 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-94">Q 94</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-95">Q 95</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-96">Q 96</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-98">Q 98</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-101">Q 101</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-107">Q 107</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-108">Q 108</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-1">Q 109/1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 109 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-2">Q 109/2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 109 (2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-3">Q 109/3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 109 (3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-4">Q 109/4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 109 (4)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-5">Q 109/5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 109 (5)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-6">Q 109/6</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-109-9">Q 109/9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 109 (9)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-110">Q 110</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-111">Q 111</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-112">Q 112</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-113">Q 113</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-114">Q 114</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-115">Q 115</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-116">Q 116</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-117">Q 117</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-118">Q 118</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-119">Q 119</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-125">Q 125</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-127">Q 127</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-127a">Q 127a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-153">Q 153</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-177-2">Q 177/2</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-177-2a">Q 177/2a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-177-5">Q 177/5</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-177b">Q 177b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-204">Q 204</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-286-18">Q 286/18</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-286-19">Q 286/19</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-286-20">Q 286/20</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-311">Q 311</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-311a">Q 311a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-311b">Q 311b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-311c">Q 311c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-314">Q 314</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-316">Q 316</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-341b">Q 341b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-341c">Q 341c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-342">Q 342</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-344">Q 344</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-419">Q 419</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-441">Q 441</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-455">Q 455</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-455b">Q 455b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-459">Q 459</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-466">Q 466</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-471">Q 471</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-477-10">Q 477/10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Q 477 (10)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-477c">Q 477c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-477d">Q 477d</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-483b">Q 483b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-483c">Q 483c</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-564">Q 564</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-565">Q 565</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-566">Q 566</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-580">Q 580</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-592b">Q 592b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-619">Q 619</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-651">Q 651</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-652">Q 652</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-652a">Q 652a</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-652b">Q 652b</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-657">Q 657</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-658">Q 658</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-729">Q 729</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-732">Q 732</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-733">Q 733</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-734">Q 734</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-738">Q 738</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-739">Q 739</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-740">Q 740</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-741">Q 741</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-742">Q 742</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-743">Q 743</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4065105-8">Weimar</settlement>
+                  <repository key="5038969-5">Herzogin Anna Amalia Bibliothek</repository>
+                  <idno xml:id="_Q-744">Q 744</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,238 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+
+@prefix dct: <http://purl.org/dc/terms/> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+
+@prefix hspo: <https://normdaten.handschriftenportal.de/ontology/> .
+
+@prefix schema: <http://schema.org/> .
+
+@prefix shacl-play: <https://shacl-play.sparna.fr/ontology#> .
+
+
+hspo:ConceptSchemeGroupShape a sh:NodeShape ;
+
+  rdfs:label "Gruppierungsbegriffsschema"@de , "Grouping Concept Scheme"@en ;
+  shacl-play:color "FAB565" ;
+
+  sh:property [
+    sh:path skos:prefLabel ;
+    sh:minCount 1 ;
+    sh:datatype rdfs:Literal ;
+    sh:languageIn ( "de" "en" ) ;
+    sh:uniqueLang true ;
+  ] ;
+
+  sh:property [
+    sh:path skos:definition ;
+    sh:minCount 1 ;    
+    sh:datatype rdfs:Literal ;
+    sh:languageIn ( "de" "en" ) ;
+    sh:uniqueLang true ;
+  ] ;
+
+  sh:property [
+    sh:path skos:notation ;
+    sh:datatype rdfs:Literal ;
+    sh:maxCount 1 ;
+  ] ;
+
+  sh:property [
+		sh:path skos:hasTopConcept ;
+		sh:maxCount 0 ;
+	] ;
+.
+
+
+hspo:ConceptSchemeShape a sh:NodeShape ;
+  sh:targetObjectsOf skos:topConceptOf ;
+  
+  rdfs:label "Begriffsschema"@de , "Concept Scheme"@en ;
+  shacl-play:color "FAB565" ;
+
+  sh:property [
+    sh:path skos:prefLabel ;
+    sh:minCount 1 ;
+    sh:datatype rdfs:Literal ;
+    sh:languageIn ( "de" "en" ) ;
+    sh:uniqueLang true ;
+  ] ;
+
+  sh:property [
+    sh:path skos:definition ;
+    sh:minCount 1 ;    
+    sh:datatype rdfs:Literal ;
+    sh:languageIn ( "de" "en" ) ;
+    sh:uniqueLang true ;
+  ] ;
+  
+  sh:property [
+    sh:path skos:notation ;
+    sh:datatype rdfs:Literal ;
+    sh:maxCount 1 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:inScheme ; # could be replaced with <http://purl.org/iso25964/skos-thes#microThesaurusOf>
+    sh:name "Eingruppierung in Sammelbegriffsschema"@de , "Grouping in organizing concept scheme"@en ;
+    sh:description "Thematisch/inhaltlich zusammengehörige SKOS Concept Schemes werden (sofern zur Gruppierung erforderlich) in ein Concept Scheme eingeordnet, das selbst keine Begriffe enthält."@de ;  
+    sh:minCount 1 ; # oder doch nicht verpflichtende Eingruppierung?
+    sh:maxCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:node hspo:ConceptSchemeGroupShape ;
+  ] ;
+.
+
+
+hspo:ConceptShape a sh:NodeShape ;
+  sh:targetClass skos:Concept ;
+  
+  rdfs:label "Begriff"@de , "Concept"@en ;
+  shacl-play:color "FAB565" ;
+
+  sh:property [
+    sh:path skos:inScheme ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:node hspo:ConceptSchemeShape ;
+    sh:description "Einordnung des Begriffs in das Begriffsschema"@de ;
+    sh:order 18 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:notation ;
+    sh:datatype rdfs:Literal ;
+    sh:maxCount 1 ;
+    sh:order 17 ;
+  ] ;  
+
+  sh:property [
+    sh:path skos:prefLabel ;
+    sh:minCount 1 ;
+    sh:datatype rdfs:Literal ;
+    #sh:languageIn ( "de" "en" "fr" "it" ) ;
+    sh:uniqueLang true ;
+    sh:description "bevorzugte Bezeichnung, anzuzeigender Begriff"@de ;
+    sh:order 1 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:altLabel ;
+    sh:datatype rdfs:Literal ;
+    #sh:languageIn ( "de" "en" "fr" "it" ) ;
+    sh:description "bevorzugte Bezeichnung, anzuzeigender Begriff"@de ;
+    sh:order 2 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:broader ;
+    sh:nodeKind sh:IRI ;
+    sh:class skos:Concept ;    
+    sh:description "nächsthöherer Begriff"@de ;
+    sh:order 3 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:related ;
+    sh:nodeKind sh:IRI ;
+    sh:class skos:Concept ;    
+    sh:description "verwandter Begriff"@de ;
+    sh:order 4 ;   
+  ] ;
+
+  sh:property [
+    sh:path skos:closeMatch ;
+    sh:nodeKind sh:IRI ; # in draft thesauri terms (rdfs:Literal) only?!
+    sh:class skos:Concept ;         
+    sh:description "Mapping mit Registerbegriffen bzw. aus den Indices der Altdaten"@de ;
+    sh:order 5 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:hiddenLabel ;
+    sh:datatype rdfs:Literal ;      
+    sh:description "technische Angaben zur Unterstützung von Suche und Navigation, z.B. typische Tippfehler in den Begriffen"@de ;
+    sh:order 6 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:note ;
+    sh:datatype rdfs:Literal ;
+    sh:description "inhaltliche Anmerkung, wird nicht angezeigt"@de ;
+    sh:order 7 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:editorialNote ;
+    sh:datatype rdfs:Literal ;
+    sh:description "allgemeine interne Notizen; werden nicht angezeigt"@de ;
+    sh:order 8 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:definition ;
+    sh:datatype rdfs:Literal ;
+    sh:languageIn ( "de" "en" "fr" "it" ) ;
+    sh:uniqueLang true ;
+    sh:description "kurze Erläuterung/Definition des Begriffs"@de ; # nicht zwingend notwendig bei quasi selbsterklärenden Begriffen
+    sh:order 9 ;
+  ] ;  
+
+  sh:property [
+    sh:path dct:spatial ;
+    sh:datatype rdfs:Literal ;
+    sh:description "Ort: vorwiegende Verwendung"@de ;
+    sh:order 10 ;   
+  ] ;
+
+  sh:property [
+    sh:path schema:spatialCoverage ;
+    sh:nodeKind sh:IRI ;
+    sh:description "Ort Normdaten: vorwiegende Verwendung"@de ;
+    sh:order 11 ;
+  ] ;
+
+  sh:property [
+    sh:path dct:temporal ;
+    sh:datatype rdfs:Literal ;
+    sh:description "Zeit: vorwiegende Verwendung"@de ;
+    sh:order 12 ;
+  ] ;
+
+  sh:property [
+    sh:path schema:temporalCoverage ;
+    sh:datatype rdfs:Literal ; # use http://id.loc.gov/datatypes/edtf/EDTF ?!
+    sh:description "Zeit nummerisch: vorwiegende Verwendung"@de ;
+    sh:order 13 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:example ;
+    sh:datatype rdfs:Literal ;
+    sh:description "bildliche Beispiele: eine oder mehrere IIIF-Bild-Crops-URLs"@de ;
+    sh:order 14 ;
+  ] ;
+
+  sh:property [
+    sh:path dct:bibliographicCitation ; # dct:source
+    sh:datatype rdfs:Literal ;
+    sh:description "Literaturverweise zum vorgeschlagenen Begriff"@de ;
+    sh:order 15 ;
+  ] ;
+
+  sh:property [
+    sh:path skos:scopeNote ;
+    sh:datatype rdfs:Literal ;
+    sh:description "Verwendungshinweise innerhalb des HSP: inhaltlich und technisch"@de ;
+    sh:order 16 ;
+  ] ;
+.

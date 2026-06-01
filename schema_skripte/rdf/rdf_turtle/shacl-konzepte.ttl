@@ -1,0 +1,289 @@
+@prefix schema: <https://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix example: <https://data.sparna.fr/shapes-example/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hspv: <https://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/> .
+@prefix hspnorm: <https://normdaten.staatsbibliothek-berlin.de/hsp/authority-file/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix shacl-play: <https://shacl-play.sparna.fr/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix hspi: <https://normdaten.staatsbibliothek-berlin.de/hsp/initia/> .
+@prefix hspo: <https://normdaten.staatsbibliothek-berlin.de/hsp/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<https://data.sparna.fr/shapes-example#> a owl:Ontology, skos:ConceptScheme;
+  rdfs:label "HSP Vocabulary SHACL file"@en;
+  rdfs:comment "SHACL file for validating HSP domain specific vocabularies"@en;
+  dct:description "This SHACL file documents the HSP domain specific vocabularies"@en;
+  owl:versionInfo "0.1";
+  dct:modified "2025-08-08T00:00:00.000Z"^^xsd:dateTime;
+  skos:hasTopConcept skos:inScheme, skos:prefLabel, skos:definition, skos:hasTopConcept,
+    skos:notation, skos:altLabel, skos:broader, skos:narrower, skos:topConceptOf, skos:hiddenLabel,
+    dct:bibliographicCitation, skos:example, skos:changeNote, hspv:hasKeyFeature, hspv:hasOneKeyFeatureFrom,
+    hspv:hasSomeKeyFeaturesFrom, hspv:hasAdditionalFeature, rdfs:member, schema:contentUrl,
+    schema:identifier, schema:caption .
+
+hspv:ConceptShape a sh:NodeShape;
+  rdfs:label "Concept"@en;
+  rdfs:comment "A thesaurus term or specialist term"@en;
+  sh:targetClass skos:Concept;
+  sh:nodeKind sh:IRI;
+  sh:property skos:notation, skos:inScheme, skos:prefLabel, skos:altLabel, skos:broader,
+    skos:narrower, skos:topConceptOf, skos:hiddenLabel, skos:definition, dct:bibliographicCitation,
+    skos:example, skos:changeNote, hspv:hasKeyFeature, hspv:hasOneKeyFeatureFrom, hspv:hasSomeKeyFeaturesFrom,
+    hspv:hasAdditionalFeature .
+
+hspv:ConceptSchemeShape a sh:NodeShape;
+  rdfs:label "ConceptScheme"@en;
+  rdfs:comment "A domain or thesaurus"@en;
+  sh:targetClass skos:ConceptScheme;
+  sh:nodeKind sh:IRI;
+  sh:property skos:inScheme, skos:prefLabel, skos:definition, skos:hasTopConcept .
+
+hspv:BagShape a sh:NodeShape;
+  rdfs:label "Bag"@en;
+  rdfs:comment "A container for thesaurus terms"@en;
+  sh:targetClass rdf:Bag;
+  sh:nodeKind sh:IRI;
+  sh:property rdfs:member .
+
+hspv:ImageObjectShape a sh:NodeShape;
+  rdfs:label "ImageObject"@en;
+  rdfs:comment "An example image"@en;
+  sh:targetClass schema:ImageObject;
+  sh:nodeKind sh:IRI;
+  sh:property schema:contentUrl, schema:identifier, schema:caption .
+
+skos:inScheme a skos:Concept;
+  sh:path skos:inScheme;
+  sh:name "inScheme"@en;
+  sh:description "Indicates the superordinate domains of thesauri"@en, "Indicates the superordinate thesauri of thesaurus or specialist terms"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:ConceptScheme;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:prefLabel a skos:Concept;
+  sh:path skos:prefLabel;
+  sh:name "prefLabel"@en;
+  sh:description "Provides preferred labels for thesauri or domains"@en, "Provides preferred labels for thesaurus or specialist terms"@en;
+  sh:nodeKind sh:Literal;
+  sh:languageIn _:e6e3b3eb9eed4de393db823fd0d73e5750, _:e6e3b3eb9eed4de393db823fd0d73e5754;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5750 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5751 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5751 rdf:first "en";
+  rdf:rest rdf:nil .
+
+skos:definition a skos:Concept;
+  sh:path skos:definition;
+  sh:name "definition"@en;
+  sh:description "Defines the thesaurus or domain"@en, "Defines the thesaurus term or specialist term"@en;
+  sh:nodeKind sh:Literal;
+  sh:languageIn _:e6e3b3eb9eed4de393db823fd0d73e5752, _:e6e3b3eb9eed4de393db823fd0d73e5759;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5752 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5753 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5753 rdf:first "en";
+  rdf:rest rdf:nil .
+
+skos:hasTopConcept a skos:Concept;
+  sh:path skos:hasTopConcept;
+  sh:name "hasTopConcept"@en;
+  sh:description "Indicates the thesaurus or specialist terms on the top level of the thesaurus"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:Concept;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:notation a skos:Concept;
+  sh:path skos:notation;
+  sh:name "notation"@en;
+  sh:description "Provides the notation of thesaurus or specialist terms"@en;
+  sh:nodeKind sh:Literal;
+  sh:datatype xsd:string;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5754 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5755 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5755 rdf:first "en";
+  rdf:rest rdf:nil .
+
+skos:altLabel a skos:Concept;
+  sh:path skos:altLabel;
+  sh:name "altLabel"@en;
+  sh:description "Provides alternative labels for thesaurus or specialist terms"@en;
+  sh:nodeKind sh:Literal;
+  sh:languageIn _:e6e3b3eb9eed4de393db823fd0d73e5756;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5756 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5757 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5757 rdf:first "en";
+  rdf:rest rdf:nil .
+
+skos:broader a skos:Concept;
+  sh:path skos:broader;
+  sh:name "broader"@en;
+  sh:description "A broader term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:Concept;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:narrower a skos:Concept;
+  sh:path skos:narrower;
+  sh:name "narrower"@en;
+  sh:description "A narrower term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:Concept;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:topConceptOf a skos:Concept;
+  sh:path skos:topConceptOf;
+  sh:name "topConceptOf"@en;
+  sh:description "Thesaurus terms on the top level of their thesaurus"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:ConceptScheme;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:hiddenLabel a skos:Concept;
+  sh:path skos:hiddenLabel;
+  sh:name "hiddenLabel"@en;
+  sh:description "Provides hidden alternative labels of thesaurus or specialist terms"@en;
+  sh:nodeKind sh:Literal;
+  sh:languageIn _:e6e3b3eb9eed4de393db823fd0d73e5758;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5758 rdf:first "de";
+  rdf:rest rdf:nil .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5759 rdf:first "de";
+  rdf:rest _:e6e3b3eb9eed4de393db823fd0d73e5760 .
+
+_:e6e3b3eb9eed4de393db823fd0d73e5760 rdf:first "en";
+  rdf:rest rdf:nil .
+
+dct:bibliographicCitation a skos:Concept;
+  sh:path dct:bibliographicCitation;
+  sh:name "bibliographicCitation"@en;
+  sh:description "Provides bibliographical information on the definition of the thesaurus or specialist term"@en;
+  sh:nodeKind sh:IRIOrLiteral;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:example a skos:Concept;
+  sh:path skos:example;
+  sh:name "example"@en;
+  sh:description "Provides an example image for the thesaurus or specialist term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class schema:ImageObject;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+skos:changeNote a skos:Concept;
+  sh:path skos:changeNote;
+  sh:name "changeNote"@en;
+  sh:description "Documents changes in the vocabulary"@en;
+  sh:nodeKind sh:Literal;
+  sh:datatype xsd:string;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+hspv:hasKeyFeature a skos:Concept;
+  sh:path hspo:hasKeyFeature;
+  sh:name "hasKeyFeature"@en;
+  sh:description "Assigns one or several thesaurus terms which are necessary features of a specialist term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:Concept;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+hspv:hasOneKeyFeatureFrom a skos:Concept;
+  sh:path hspo:hasOneKeyFeatureFrom;
+  sh:name "hasOneKeyFeatureFrom"@en;
+  sh:description "Assigns a group of alternative thesaurus terms, of which exactly one term is a necessary feature of a specialist term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class rdf:Bag;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+hspv:hasSomeKeyFeaturesFrom a skos:Concept;
+  sh:path hspo:hasSomeKeyFeaturesFrom;
+  sh:name "hasSomeKeyFeaturesFrom"@en;
+  sh:description "Assigns a group of alternative thesaurus terms, some of which are necessary features of a specialst term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class rdf:Bag;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+hspv:hasAdditionalFeature a skos:Concept;
+  sh:path hspo:hasAdditionalFeature;
+  sh:name "hasAdditionalFeature"@en;
+  sh:description "Assigns one ore several thesaurus terms which are not necessary, but common features of a specialist term"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:Concept;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+rdfs:member a skos:Concept;
+  sh:path rdfs:member;
+  sh:name "member"@en;
+  sh:description "Assigns thesaurus terms to a container"@en;
+  sh:nodeKind sh:IRI;
+  sh:class skos:Concept;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+schema:contentUrl a skos:Concept;
+  sh:path schema:contentUrl;
+  sh:name "contentUrl"@en;
+  sh:description "Provides the url of the example image"@en;
+  sh:nodeKind sh:IRIOrLiteral;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+schema:identifier a skos:Concept;
+  sh:path schema:identifier;
+  sh:name "identifier"@en;
+  sh:description "Provides the IIIF manifest of the manuscript containing the example image"@en;
+  sh:nodeKind sh:IRIOrLiteral;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .
+
+schema:caption a skos:Concept;
+  sh:path schema:caption;
+  sh:name "caption"@en;
+  sh:description "Describes the location of the example image in the manuscript"@en;
+  sh:nodeKind sh:Literal;
+  sh:datatype xsd:string;
+  skos:inScheme <https://data.sparna.fr/shapes-example#>;
+  skos:topConceptOf <https://data.sparna.fr/shapes-example#> .

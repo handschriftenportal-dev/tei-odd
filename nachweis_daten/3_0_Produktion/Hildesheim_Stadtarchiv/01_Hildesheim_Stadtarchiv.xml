@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Hildesheim_Stadtarchiv/01_Hildesheim_Stadtarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-15">Andreanum 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-16">Andreanum 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-50-Nr-3">Best. 50 Nr. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-50-Nr-19">Best. 50 Nr. 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-10a">Best. 52 Nr. 10a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 10a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 52 Nr. 10 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HM 10 a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-171">Best. 52 Nr. 171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-180">Best. 52 Nr. 180</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-210-I">Best. 52 Nr. 210/I</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 210/I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-210-II">Best. 52 Nr. 210/II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 210/II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-211">Best. 52 Nr. 211</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 211</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-212">Best. 52 Nr. 212</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 212</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-213">Best. 52 Nr. 213</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-340">Best. 52 Nr. 340</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 340</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-343">Best. 52 Nr. 343</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 343</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-344">Best. 52 Nr. 344</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 344</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-345">Best. 52 Nr. 345</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 345</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-350">Best. 52 Nr. 350</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 350</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-351">Best. 52 Nr. 351</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 351</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-366">Best. 52 Nr. 366</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 366</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-367">Best. 52 Nr. 367</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 367</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-368">Best. 52 Nr. 368</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 368</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-369">Best. 52 Nr. 369</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 369</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-370">Best. 52 Nr. 370</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 370</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-372">Best. 52 Nr. 372</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 372</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-373">Best. 52 Nr. 373</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 373</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-374">Best. 52 Nr. 374</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 374</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-375">Best. 52 Nr. 375</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 375</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-376">Best. 52 Nr. 376</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 376</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-377">Best. 52 Nr. 377</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 377</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-378">Best. 52 Nr. 378</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 378</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-379">Best. 52 Nr. 379</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 379</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-380">Best. 52 Nr. 380</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 380</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-381">Best. 52 Nr. 381</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 381</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-382">Best. 52 Nr. 382</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 382</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-383">Best. 52 Nr. 383</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 383</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-384">Best. 52 Nr. 384</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 384</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-385">Best. 52 Nr. 385</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 385</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-386">Best. 52 Nr. 386</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 386</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-411">Best. 52 Nr. 411</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 411</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-500">Best. 52 Nr. 500</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 275</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-501">Best. 52 Nr. 501</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 276</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-502">Best. 52 Nr. 502</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 279</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-503">Best. 52 Nr. 503</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 408</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-504">Best. 52 Nr. 504</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 481</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-505">Best. 52 Nr. 505</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-506">Best. 52 Nr. 506</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 267</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-507">Best. 52 Nr. 507</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 283</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-508">Best. 52 Nr. 508</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 284</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-509">Best. 52 Nr. 509</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HA 310</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-1">Andreanum 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-2">Andreanum 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-3">Andreanum 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-4">Andreanum 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-5">Andreanum 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-6">Andreanum 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-7">Andreanum 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-8">Andreanum 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-9">Andreanum 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-10">Andreanum 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-11">Andreanum 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-12">Andreanum 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-13">Andreanum 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-14">Andreanum 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Andreanum-3519">Andreanum 3519</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hildesheim Andr. 3519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_WB-5202">WB 5202</idno>
+                  <altIdentifier type="alternative">
+                     <idno>5202</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>III E 1a, I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_WB-I-B-38">WB I B 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>I B 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_WB-I-B-50">WB I B 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>I B 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_WB-I-B-55">WB I B 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>I B 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_WB-III-E-5">WB III E 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>III E 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_WB-VIII-Ad-111">WB VIII Ad 111</idno>
+                  <altIdentifier type="alternative">
+                     <idno>VIII Ad 111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4024881-1">Hildesheim</settlement>
+                  <repository key="4481601-7">Stadtarchiv Hildesheim</repository>
+                  <idno xml:id="_Best-52-Nr-191a">Best. 52 Nr. 191a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>HM 191a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Best. 52 Nr. 191 a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HM 191 a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

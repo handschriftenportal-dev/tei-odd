@@ -1,0 +1,3681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Koeln_Dioezesan_und_Dombibliothek/01_Koeln_Dioezesan_und_Dombibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1">Cod. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-2">Cod. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-3">Cod. 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-4">Cod. 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-5">Cod. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-6">Cod. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-7">Cod. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-8">Cod. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-9">Cod. 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-10">Cod. 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-11">Cod. 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 11</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-12">Cod. 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-13">Cod. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-14">Cod. 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-15">Cod. 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-16">Cod. 16</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-17">Cod. 17</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-19">Cod. 19</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-20">Cod. 20</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-21">Cod. 21</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-22">Cod. 22</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 22</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-23">Cod. 23</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-24">Cod. 24</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 24</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-25">Cod. 25</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-26">Cod. 26</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 26</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-28">Cod. 28</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 28</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-29">Cod. 29</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 29</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-30">Cod. 30</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-31">Cod. 31</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-32">Cod. 32</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-33">Cod. 33</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 33</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-34">Cod. 34</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 34</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-35">Cod. 35</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 35</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-36">Cod. 36</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 36</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-37">Cod. 37</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 37</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-38">Cod. 38</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-39">Cod. 39</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 39</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-40">Cod. 40</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 40</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-41">Cod. 41</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 41</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-43">Cod. 43</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 43</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-44">Cod. 44</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 44</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-45">Cod. 45</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 45</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-46">Cod. 46</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 46</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-47">Cod. 47</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 47</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-48">Cod. 48</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 48</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-49">Cod. 49</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 49</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-50">Cod. 50</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 50</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-51">Cod. 51</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 51</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-52">Cod. 52</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 52</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-53">Cod. 53</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-54">Cod. 54</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 54</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-55">Cod. 55</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 55</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-56">Cod. 56</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 56</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-57">Cod. 57</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-58">Cod. 58</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 58</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-59">Cod. 59</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 59</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-60">Cod. 60</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 60</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-61">Cod. 61</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 61</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-62">Cod. 62</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 62</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-63">Cod. 63</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 63</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-64">Cod. 64</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 64</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-65">Cod. 65</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 65</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-66">Cod. 66</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 66</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-67">Cod. 67</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 67</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-69">Cod. 69</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-70">Cod. 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-71">Cod. 71</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 71</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-72">Cod. 72</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 72</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-73">Cod. 73</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 73</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-74">Cod. 74</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 74</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-75">Cod. 75</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 75</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-76">Cod. 76</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-77">Cod. 77</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 77</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-78">Cod. 78</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 78</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-78-II">Cod. 78-II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 78-II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 78 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 78 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-79">Cod. 79</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 79</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-80">Cod. 80</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 80</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-81">Cod. 81</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 81</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-82">Cod. 82</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 82</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-83">Cod. 83</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 83</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-83-II">Cod. 83-II</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 83-II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 83 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 83 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-84">Cod. 84</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 84</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-85">Cod. 85</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-86">Cod. 86</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 86</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-87">Cod. 87</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 87</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-88">Cod. 88</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 88</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-89">Cod. 89</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 89</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-90">Cod. 90</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 90</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-91">Cod. 91</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 91</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-92">Cod. 92</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 92</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-93">Cod. 93</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 93</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-94">Cod. 94</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 94</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-95">Cod. 95</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 95</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-96">Cod. 96</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 96</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-97">Cod. 97</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 97</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-98">Cod. 98</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 98</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-99">Cod. 99</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 99</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-100">Cod. 100</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 100</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-101">Cod. 101</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 101</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-102">Cod. 102</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 102</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-103">Cod. 103</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 103</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-104">Cod. 104</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 104</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-105">Cod. 105</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 105</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-106">Cod. 106</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-107">Cod. 107</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 107</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-108">Cod. 108</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 108</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-109">Cod. 109</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-110">Cod. 110</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-111">Cod. 111</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 111</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-112">Cod. 112</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 112</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-113">Cod. 113</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 113</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-114">Cod. 114</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-115">Cod. 115</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 115</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-116">Cod. 116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-117">Cod. 117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 117</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-118">Cod. 118</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 118</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-119">Cod. 119</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 119</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-120">Cod. 120</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 120</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-121">Cod. 121</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-122">Cod. 122</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 122</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-123">Cod. 123</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 123</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-124">Cod. 124</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 124</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-125">Cod. 125</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 125</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-126">Cod. 126</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 126</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-127">Cod. 127</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-128">Cod. 128</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 128</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-129">Cod. 129</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 129</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-130">Cod. 130</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 130</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-131">Cod. 131</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 131</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-132">Cod. 132</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 132</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-133">Cod. 133</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 133</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-134">Cod. 134</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 134</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-135">Cod. 135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-137">Cod. 137</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 137</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-138">Cod. 138</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 138</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-139">Cod. 139</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 139</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-140">Cod. 140</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 140</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-141">Cod. 141</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 141</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-142">Cod. 142</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-143">Cod. 143</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-144">Cod. 144</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 144</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-149">Cod. 149</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-150">Cod. 150</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-151">Cod. 151</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 151</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-152">Cod. 152</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 152</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-153">Cod. 153</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 153</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-156">Cod. 156</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 156</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-157">Cod. 157</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 157</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-162">Cod. 162</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 162</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-163">Cod. 163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 163</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-164">Cod. 164</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 164</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-165">Cod. 165</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 165</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-166">Cod. 166</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 166</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-167">Cod. 167</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 167</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-168">Cod. 168</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 168</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-169">Cod. 169</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 169</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-170">Cod. 170</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 170</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-171">Cod. 171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-172">Cod. 172</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-173">Cod. 173</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 173</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-174">Cod. 174</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 174</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-179">Cod. 179</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 179</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-180">Cod. 180</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 180</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-181">Cod. 181</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 181</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-182">Cod. 182</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 182</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-183">Cod. 183</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 183</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-184">Cod. 184</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 184</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-185">Cod. 185</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 185</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-186">Cod. 186</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 186</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-187">Cod. 187</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 187</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-188">Cod. 188</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 188</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-189">Cod. 189</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 189</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-190">Cod. 190</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-191">Cod. 191</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 191</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-192">Cod. 192</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 192</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-193">Cod. 193</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 193</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-194">Cod. 194</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 194</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-196">Cod. 196</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 196</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-197">Cod. 197</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 197</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-198">Cod. 198</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 198</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-199">Cod. 199</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 199</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-200">Cod. 200</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 200</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-201">Cod. 201</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 201</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-202">Cod. 202</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 202</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-203">Cod. 203</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 203</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-204">Cod. 204</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 204</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-209">Cod. 209</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 209</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-210">Cod. 210</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 210</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-211">Cod. 211</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 211</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-212">Cod. 212</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 212</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-213">Cod. 213</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 213</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-214">Cod. 214</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 214</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-215">Cod. 215</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 215</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-216">Cod. 216</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 216</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-218">Cod. 218</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 218</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-219">Cod. 219</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 219</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-220">Cod. 220</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 220</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-221">Cod. 221</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 221</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-222">Cod. 222</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 222</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-223">Cod. 223</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 223</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-224">Cod. 224</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 224</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-225">Cod. 225</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 225</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-226">Cod. 226</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 226</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-227">Cod. 227</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 227</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-228">Cod. 228</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 228</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-229">Cod. 229</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-230">Cod. 230</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 230</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-235">Cod. 235</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 235</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-238">Cod. 238</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 238</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-241">Cod. 241</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 241</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-242">Cod. 242</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 242</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-243">Cod. 243</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 243</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-244">Cod. 244</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 244</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-246">Cod. 246</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 246</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-247">Cod. 247</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 247</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-248">Cod. 248</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 248</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-253">Cod. 253</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 253</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-257">Cod. 257</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 257</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-258">Cod. 258</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 258</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-259">Cod. 259</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 259</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-260">Cod. 260</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 260</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-261">Cod. 261</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 261</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-262">Cod. 262</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 262</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-263">Cod. 263</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 263</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-266">Cod. 266</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 266</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-267">Cod. 267</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 267</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-269">Cod. 269</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 269</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-270">Cod. 270</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 270</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-271">Cod. 271</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 271</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-274">Cod. 274</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 274</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-415">Cod. 415</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 415</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-416">Cod. 416</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 416</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-422">Cod. 422</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 422</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1001">Cod. 1001</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1001</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1001a">Cod. 1001a</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1001a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1001b">Cod. 1001b</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1001b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1002">Cod. 1002</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1002</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1003">Cod. 1003</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1003</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1004">Cod. 1004</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1004</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1005">Cod. 1005</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1005</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1007">Cod. 1007</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1007</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1008">Cod. 1008</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1008</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1009">Cod. 1009</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1009</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1010">Cod. 1010</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1010</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1011">Cod. 1011</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1011</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1012">Cod. 1012</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1012</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1013">Cod. 1013</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1013</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1014">Cod. 1014</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1014</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1015">Cod. 1015</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1015</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1018">Cod. 1018</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1018</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1019">Cod. 1019</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1019</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1020">Cod. 1020</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1020</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1021">Cod. 1021</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1021</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1022">Cod. 1022</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1022</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1023">Cod. 1023</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1023</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1024">Cod. 1024</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1024</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1026">Cod. 1026</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1026</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1027">Cod. 1027</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1027</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1028">Cod. 1028</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1028</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1029">Cod. 1029</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1029</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1030">Cod. 1030</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1030</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1031">Cod. 1031</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1031</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1032">Cod. 1032</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1032</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1033">Cod. 1033</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1033</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1034">Cod. 1034</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1034</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1035">Cod. 1035</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1035</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1041">Cod. 1041</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1041</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1043">Cod. 1043</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1043</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1054">Cod. 1054</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1054</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1055">Cod. 1055</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1055</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1057">Cod. 1057</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1057</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1058">Cod. 1058</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1058</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1060">Cod. 1060</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1060</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1062">Cod. 1062</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1062</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1063">Cod. 1063</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1063</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1064">Cod. 1064</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1064</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1065">Cod. 1065</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1065</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1066">Cod. 1066</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1066</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1067">Cod. 1067</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1067</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1068">Cod. 1068</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1068</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1069">Cod. 1069</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1069</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1070">Cod. 1070</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1070</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1071">Cod. 1071</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1071</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1072">Cod. 1072</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1072</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1073">Cod. 1073</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1073</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1074">Cod. 1074</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1074</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1075">Cod. 1075</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1075</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1076">Cod. 1076</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1076</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1077">Cod. 1077</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1077</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1078">Cod. 1078</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1078</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1079">Cod. 1079</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1079</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1080">Cod. 1080</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1080</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1081">Cod. 1081</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1081</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1082">Cod. 1082</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1082</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1083">Cod. 1083</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1083</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1084">Cod. 1084</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1084</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1085">Cod. 1085</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1085</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1086">Cod. 1086</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1086</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1087">Cod. 1087</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1087</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1088">Cod. 1088</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1088</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1089">Cod. 1089</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1089</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1090">Cod. 1090</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1090</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1091">Cod. 1091</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1091</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1092">Cod. 1092</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1092</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1094">Cod. 1094</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1094</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1099">Cod. 1099</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1099</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1109">Cod. 1109</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1109</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1110">Cod. 1110</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1110</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1116">Cod. 1116</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1116</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1117">Cod. 1117</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1117</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1135">Cod. 1135</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1135</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1137">Cod. 1137</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1137</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1147">Cod. 1147</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1147</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1148">Cod. 1148</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1148</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1149">Cod. 1149</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1149</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1150">Cod. 1150</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1150</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1157">Cod. 1157</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1157</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1160">Cod. 1160</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1160</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1161">Cod. 1161</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1161</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1163">Cod. 1163</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1163</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1169">Cod. 1169</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1169</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1171">Cod. 1171</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1171</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1172">Cod. 1172</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1172</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1173">Cod. 1173</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1173</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1178">Cod. 1178</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1178</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1181">Cod. 1181</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1181</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1189">Cod. 1189</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1189</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1191">Cod. 1191</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1191</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1193">Cod. 1193</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1193</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1195">Cod. 1195</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1195</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1226">Cod. 1226</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1226</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1231">Cod. 1231</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1231</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1235--1-">Cod. 1235 (1)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1235 (1)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1235--2-">Cod. 1235 (2)</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1235 (2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1248">Cod. 1248</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1248</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1264">Cod. 1264</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1264</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1266">Cod. 1266</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1266</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1269">Cod. 1269</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1269</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1300">Cod. 1300</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1300</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1305">Cod. 1305</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1305</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1323">Cod. 1323</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1323</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1364">Cod. 1364</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1364</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1451">Cod. 1451</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1451</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1500">Cod. 1500</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1500</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1502">Cod. 1502</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1502</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1503">Cod. 1503</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1503</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1508">Cod. 1508</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1508</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1509">Cod. 1509</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1509</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1513">Cod. 1513</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1513</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1517">Cod. 1517</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1517</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1519">Cod. 1519</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1519</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1520">Cod. 1520</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1520</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1521">Cod. 1521</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1521</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1522">Cod. 1522</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1522</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1546">Cod. 1546</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1546</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1568">Cod. 1568</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1568</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1569">Cod. 1569</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1569</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1573">Cod. 1573</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1573</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1574">Cod. 1574</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1574</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1575">Cod. 1575</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1575</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1576">Cod. 1576</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1576</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1578">Cod. 1578</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1578</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1579">Cod. 1579</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1579</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4031483-2">Köln</settlement>
+                  <repository key="1068100672">Erzbischöfliche Diözesan- und Dombibliothek Köln mit Bibliothek St. Albertus Magnus</repository>
+                  <idno xml:id="_Cod-1588">Cod. 1588</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1588</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

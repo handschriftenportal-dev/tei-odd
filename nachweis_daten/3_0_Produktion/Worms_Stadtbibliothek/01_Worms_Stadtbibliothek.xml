@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Worms_Stadtbibliothek/01_Worms_Stadtbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066942-7">Worms</settlement>
+                  <repository key="2022643-3">Stadtbibliothek Worms</repository>
+                  <idno xml:id="_Mag--LB-3">Mag- LB 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. VII</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>LB 3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066942-7">Worms</settlement>
+                  <repository key="2022643-3">Stadtbibliothek Worms</repository>
+                  <idno xml:id="_Ink-154">Ink 154</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mag- LB 3a</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Mag- LB 3a (Inkunabel)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066942-7">Worms</settlement>
+                  <repository key="2022643-3">Stadtbibliothek Worms</repository>
+                  <idno xml:id="_Mscr-V">Mscr. V</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Mscr. V (verschollen)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4066942-7">Worms</settlement>
+                  <repository key="2022643-3">Stadtbibliothek Worms</repository>
+                  <idno xml:id="_o-Sign-">o. Sign.</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

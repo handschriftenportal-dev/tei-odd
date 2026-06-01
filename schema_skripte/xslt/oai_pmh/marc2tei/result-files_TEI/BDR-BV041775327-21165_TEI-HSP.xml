@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:dcr="http://www.isocat.org/ns/dcr"
+     xmlns:egXML="http://www.tei-c.org/ns/Examples"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von BSB-Hss Cod.icon. 328(1</title>
+            <respStmt>
+               <resp>Beschrieben von</resp>
+               <persName role="author">Reuter, Marianne</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Automatisch generierte Handschriftenbeschreibung aus einem Eintrag der OAI-PMH Schnittstelle http://bdr.oai.bsb-muenchen.de/OAIHandler mit dem Set-Name cerl.</resp>
+               <name type="org">Handschriftenportal</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <date type="primary" when="2013">2013</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <p>Für den OPAC-Eintrag verzichtet die Einrichtung Bayerische Staatsbibliothek auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungsbedingungen</ref>des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Reuter, Marianne: &#x98;Die&#x9c; Codices iconographici der Bayerischen Staatsbibliothek. Teil 1: Die Handschriften des Mittelalters und der Frühen Neuzeit bis zur Mitte des 17. Jahrhunderts. Text- und Tafelband - Wiesbaden : Dr. Ludwig Reichert Verlag, 2013. - (Katalog der illuminierten Handschriften der Bayerischen Staatsbibliothek in München ; Band 8, Teil 1) - http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00105852-2</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date/>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2021-11-08">2021-11-08 04:23:49</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <settlement key="NORM-d0a6343a-081a-3335-baa9-65ce4fd0845c"
+                           ref="https://d-nb.info/gnd/4127793-4">München</settlement>
+               <repository key="NORM-83c5a34d-300e-3b8d-af1e-2d5582778963"
+                           ref="https://d-nb.info/gnd/2031351-2">Bayerische Staatsbibliothek</repository>
+               <idno>Cod.icon. 328(1</idno>
+            </msIdentifier>
+            <head>
+               <index indexName="norm_title">
+                  <term type="title">Bayerisches Stammenbuch mit gemalten Wappen I</term>
+               </index>
+               <title>Bayerisches Stammenbuch mit gemalten Wappen I</title>
+               <note type="headline">Papier · 18. Jh.</note>
+               <index indexName="norm_material">
+                  <term type="material">Papier </term>
+                  <term type="material_type">paper</term>
+               </index>
+               <index indexName="norm_measure">
+                  <term type="measure"/>
+                  <term type="measure_noOfLeaves"/>
+               </index>
+               <index indexName="norm_dimensions">
+                  <term type="dimensions"/>
+                  <term type="height"/>
+                  <term type="width"/>
+                  <term type="depth"/>
+                  <term type="dimensions_typeOfInformation"/>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format">folio</term>
+                  <term type="format_typeOfInformation">factual</term>
+               </index>
+               <index indexName="norm_origPlace">
+                  <term type="origPlace"/>
+                  <term type="origPlace_norm"/>
+               </index>
+               <index indexName="norm_origDate">
+                  <term type="origDate">18. Jh.</term>
+                  <term type="origDate_notBefore">1701</term>
+                  <term type="origDate_notAfter">1800</term>
+                  <term type="origDate_type"/>
+               </index>
+               <index indexName="norm_textLang">
+                  <term type="textLang">ger</term>
+                  <term key="NORM-5f02f088-9301-3d7b-a1ac-972c11bf3e7d"
+                        ref="http://d-nb.info/gnd/4113292-0"
+                        type="textLang-ID">deutsch</term>
+               </index>
+               <index indexName="norm_form">
+                  <term type="form"/>
+               </index>
+               <index indexName="norm_status">
+                  <term type="status"/>
+               </index>
+               <index indexName="norm_decoration">
+                  <term type="decoration"/>
+               </index>
+               <index indexName="norm_musicNotation">
+                  <term type="musicNotation"/>
+               </index>
+            </head>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Muenster_UB/01_Muenster_UB_ERG_01.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-1">Cod 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 001</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 001</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 001</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-2">Cod 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 002</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 002</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 002</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-3">Cod 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 03</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 03</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 03</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 03</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 003</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 003</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 003</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-4">Cod 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 004</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 004</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 004</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-5">Cod 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 05</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 05</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 05</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 05</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 005</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 005</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 005</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-6">Cod 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 06</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 06</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 06</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 06</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 006</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 006</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 006</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-7">Cod 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 07</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 07</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 07</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 07</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 007</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 007</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 007</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-8">Cod 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 08</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 08</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 08</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 08</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 008</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 008</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 008</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-9">Cod 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 09</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 09</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 09</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 09</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 009</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 009</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 009</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Cod-10">Cod 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Cod 010</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Cod. 010</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD 010</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>COD. 010</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-1">Ms N.R. 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-2">Ms N.R. 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-5">Ms N.R. 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-6">Ms N.R. 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-7">Ms N.R. 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-8">Ms N.R. 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-70">Ms N.R. 70</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 70</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-200-1">Ms N.R. 200-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 200-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-200-2">Ms N.R. 200-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 200-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-200-3">Ms N.R. 200-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 200-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-200-4">Ms N.R. 200-4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 200-4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-201">Ms N.R. 201</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 201</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 201</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Ms-N-R-900">Ms N.R. 900</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS N.R. 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N.R. 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N. R. 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N. R. 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms N R 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. N R 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. NR 900</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS. N.R. 900</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-997">Hs 997</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 997</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.997</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 997</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1020">Hs 1020</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1020</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1020</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1020</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1177">Hs 1177</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1177</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1177</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1190">Hs 1190</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1190</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1200-1">Hs 1200-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1200-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1200-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1200-2">Hs 1200-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1200-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1200-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1200-3">Hs 1200-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1200-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1200-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1200-4">Hs 1200-4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1200-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1200-4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1200-5">Hs 1200-5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1200-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1200-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1200-5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1200-6">Hs 1200-6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1200-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1200-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1200-6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1202-1">Hs 1202-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1202-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1202-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1202-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1202-2">Hs 1202-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1202-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1202-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1202-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1202-3">Hs 1202-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1202-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1202-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1202-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1202-4">Hs 1202-4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1202-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1202-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1202-4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1202-5">Hs 1202-5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1202-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1202-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1202-5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1202-6">Hs 1202-6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1202-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1202-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1202-6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1203-1">Hs 1203-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1203-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1203-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1203-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1203-2">Hs 1203-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1203-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1203-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1203-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1203-3">Hs 1203-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1203-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1203-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1203-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1204">Hs 1204</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1204</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1204</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1205">Hs 1205</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1205</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1205</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1206-1">Hs 1206-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1206-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1206-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1206-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1206-2">Hs 1206-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1206-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1206-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1206-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1206-3">Hs 1206-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1206-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1206-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1206-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1206-4">Hs 1206-4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1206-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1206-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1206-4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1234">Hs 1234</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1234</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1234</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1236">Hs 1236</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1236</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1236</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1236</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1240">Hs 1240</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1240</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1240</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1240</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1249-1">Hs 1249-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1249-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1249-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1249-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1249-2">Hs 1249-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1249-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1249-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1249-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1250-1">Hs 1250-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1250-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1250-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1250-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1250-2">Hs 1250-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1250-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1250-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1250-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1251">Hs 1251</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1251</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1251</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1251</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-1">Hs 1252-1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-2">Hs 1252-2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-3">Hs 1252-3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-4">Hs 1252-4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-5">Hs 1252-5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-6">Hs 1252-6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-7">Hs 1252-7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-8">Hs 1252-8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-8</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-9">Hs 1252-9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4040608-8">Münster (Westfalen)</settlement>
+                  <repository key="1086109627">Universitätsbibliothek</repository>
+                  <idno xml:id="_Hs-1252-10">Hs 1252-10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hs. 1252-10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hs.1252-10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>HS 1252-10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Hannover_Niedersaechsisches_Landesarchiv/01_Hannover_Niedersaechsisches_Landesarchiv.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright Information </ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Dep-82--Abt-I-Nr-13">Dep. 82, Abt. I Nr. 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82 I Nr. 13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Dep-82--Abt-I-Nr-14">Dep. 82, Abt. I Nr. 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82 I Nr. 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Dep-82--Abt-I-Nr-34--Fragment-1">Dep. 82, Abt. I Nr. 34, Fragment 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82, Abt. I Nr. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82 I Nr. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82 I Nr. 34, Fragment 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Dep-82--Abt-I-Nr-34--Fragment-2">Dep. 82, Abt. I Nr. 34, Fragment 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82, Abt. I Nr. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82 I Nr. 34</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Dep. 82 I Nr. 34, Fragment 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Hann-75--Nr-1862--Fragment-1">Hann. 75, Nr. 1862, Fragment 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hann. 75, Nr. 1862</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hann. 75 Nr. 1862</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hann. 75 Nr. 1862, Fragment 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Hann-75--Nr-1862--Fragment-2">Hann. 75, Nr. 1862, Fragment 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Hann. 75, Nr. 1862</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hann. 75 Nr. 1862</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Hann. 75 Nr. 1862, Fragment 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-240">MS, Nr. 240</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. AA 02</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, AA Nr. 02</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-92">MS, Nr. 92</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. F 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, F Nr. 5</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-231">MS, Nr. 231</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 01</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z 01</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-1">MS, Nr. 233/1, Fragment 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-2">MS, Nr. 233/1, Fragment 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-3">MS, Nr. 233/1, Fragment 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-4">MS, Nr. 233/1, Fragment 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-5">MS, Nr. 233/1, Fragment 5</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 5</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-6">MS, Nr. 233/1, Fragment 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-7">MS, Nr. 233/1, Fragment 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-8">MS, Nr. 233/1, Fragment 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-9">MS, Nr. 233/1, Fragment 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-10">MS, Nr. 233/1, Fragment 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-11">MS, Nr. 233/1, Fragment 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-12">MS, Nr. 233/1, Fragment 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-1--Fragment-13">MS, Nr. 233/1, Fragment 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 I, Fragment 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 I</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-1">MS, Nr. 233/2, Fragment 1</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-2">MS, Nr. 233/2, Fragment 2</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-3">MS, Nr. 233/2, Fragment 3</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 3</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-4">MS, Nr. 233/2, Fragment 4</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-5A">MS, Nr. 233/2, Fragment 5A</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 5A</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-5B">MS, Nr. 233/2, Fragment 5B</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 5B</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-6">MS, Nr. 233/2, Fragment 6</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 6</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-7">MS, Nr. 233/2, Fragment 7</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 7</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-8">MS, Nr. 233/2, Fragment 8</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 8</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-9">MS, Nr. 233/2, Fragment 9</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 9</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-10">MS, Nr. 233/2, Fragment 10</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 10</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-11">MS, Nr. 233/2, Fragment 11</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 11</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-12">MS, Nr. 233/2, Fragment 12</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-13">MS, Nr. 233/2, Fragment 13</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 13</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-14">MS, Nr. 233/2, Fragment 14</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 14</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-233-2--Fragment-15">MS, Nr. 233/2, Fragment 15</idno>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Nr. 233/2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 03 II, Fragment 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 03 II</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-234">MS, Nr. 234</idno>
+                  <altIdentifier type="alternative">
+                     <idno>Ms. Z Nr. 04</idno>
+                  </altIdentifier>
+                  <altIdentifier type="alternative">
+                     <idno>MS, Z Nr. 04</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_MS--Nr-352">MS, Nr. 352</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4023349-2">Hannover</settlement>
+                  <repository key="6510041-4">Niedersächsisches Landesarchiv – Abteilung Hannover</repository>
+                  <idno xml:id="_Cal-Br-22-Nr-1012">Cal. Br. 22 Nr. 1012</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

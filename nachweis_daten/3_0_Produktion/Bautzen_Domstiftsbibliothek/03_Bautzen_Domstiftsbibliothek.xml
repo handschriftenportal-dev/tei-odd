@@ -1,0 +1,2726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>KOD-Import für file:///Users/schassan/Documents/_GitHub-clones/HSP/tei-odd/nachweis_daten/3_0_Produktion/Bautzen_Domstiftsbibliothek/03_Bautzen_Domstiftsbibliothek.csv</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle Nutzungsrechte.</p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Nutzungshinweise</ref> des Handschriftenportals.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1807021076/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18070210764"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FFlorsado_1807021076%2FFlorsado_1807021076_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839125942/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391259429"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FLibeRoM_1839125942%2FLibeRoM_1839125942_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/183909852X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id183909852X4"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FArComp_183909852X%2FArComp_183909852X_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839096748/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18390967484"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FGnChro_1839096748%2FGnChro_1839096748_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 15</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839109157/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391091570"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FdeZTheo_1839109157%2FdeZTheo_1839109157_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 16</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839124458/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391244582"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FdeOTheo_1839124458%2FdeOTheo_1839124458_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 18</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1859433189/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18594331899"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FPrGrad_1859433189%2FPrGrad_1859433189_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 19</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1859434622/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18594346227"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FHobeAnti_1859434622%2FHobeAnti_1859434622_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 20</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888015861/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880158616"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FChorPahi_1888015861%2FChorPahi_1888015861_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 21</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887500642/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875006426"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSequMI_1887500642%2FSequMI_1887500642_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888470747/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884707477"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FCasususuD_1888470747%2FCasususuD_1888470747_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/183912170X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id183912170X0"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FFratTheo_183912170X%2FFratTheo_183912170X_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 27</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839118369/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391183691"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FTheoSaM_1839118369%2FTheoSaM_1839118369_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 35-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888025123/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880251238"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissmiCaM_1888025123%2FMissmiCaM_1888025123_tif%2Fjpegs%2F00000003.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 35-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888025859/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880258593"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FNachzueiM_1888025859%2FNachzueiM_1888025859_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 36</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887554394/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875543944"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissFeM_1887554394%2FMissFeM_1887554394_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 37</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888018062/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880180624"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FCanoMiM_1888018062%2FCanoMiM_1888018062_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 40</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887963731/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18879637312"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBeneunRi_1887963731%2FBeneunRi_1887963731_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 45</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887552219/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875522193"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSammvoBru_1887552219%2FSammvoBru_1887552219_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-1</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888027118/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880271187"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FDecrMI_1888027118%2FDecrMI_1888027118_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-2</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888030194/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880301943"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKommzuPeL_1888030194%2FKommzuPeL_1888030194_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-3</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888031255/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880312550"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBiblSaM_1888031255%2FBiblSaM_1888031255_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-4</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888031832/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880318324"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissMI_1888031832%2FMissMI_1888031832_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-5</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888455551/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884555510"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FChorFM_1888455551%2FChorFM_1888455551_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-6</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/188845637X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id188845637X6"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissFM_188845637X%2FMissFM_188845637X_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-7</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888457155/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884571551"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissFM_1888457155%2FMissFM_1888457155_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888457732/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884577328"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FChorFM_1888457732%2FChorFM_1888457732_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-9</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/188845802X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id188845802X3"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissFM_188845802X%2FMissFM_188845802X_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-10</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888458496/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884584963"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FAntiFM_1888458496%2FAntiFM_1888458496_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-11</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888467843/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884678430"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FAntiFM_1888467843%2FAntiFM_1888467843_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-12</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888468408/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884684088"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissFM_1888468408%2FMissFM_1888468408_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1907175245/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19071752452"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissF_1907175245%2FMissF_1907175245_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-14</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1907177841/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19071778417"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissF_1907177841%2FMissF_1907177841_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-15</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1907179623/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19071796237"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FHymnFM_1907179623%2FHymnFM_1907179623_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 46-16</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1907178732/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19071787321"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FFrag_1907178732%2FFrag_1907178732_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 50</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888021047/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880210472"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FEidedeDoS_1888021047%2FEidedeDoS_1888021047_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 53</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887549463/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875494636"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FDeInAcH_1887549463%2FDeInAcH_1887549463_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 53</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887545530/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875455301"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKollzueiV_1887545530%2FKollzueiV_1887545530_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 56</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887543139/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875431398"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FLituTeM_1887543139%2FLituTeM_1887543139_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 57</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887541101/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875411017"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSammvoReP_1887541101%2FSammvoReP_1887541101_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 61</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887404589/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18874045893"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FVorlbAr_1887404589%2FVorlbAr_1887404589_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 66</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887553517/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875535171"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FVorlbAr_1887553517%2FVorlbAr_1887553517_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 71</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887500928/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875009282"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FTheoCoM_1887500928%2FTheoCoM_1887500928_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 88</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887511385/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875113851"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FVorlbAr_1887511385%2FVorlbAr_1887511385_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 90</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888007540/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880075409"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FTheoVoK_1888007540%2FTheoVoK_1888007540_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 94</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887419365/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18874193654"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FVorlzuAr_1887419365%2FVorlzuAr_1887419365_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887992731/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18879927314"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FAsseThDeJ_1887992731%2FAsseThDeJ_1887992731_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887964894/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18879648942"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMoraVoK_1887964894%2FMoraVoK_1887964894_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 97</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888002085/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880020852"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FThesThDeV_1888002085%2FThesThDeV_1888002085_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 99</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887438270/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18874382701"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSacrHoCoQ_1887438270%2FSacrHoCoQ_1887438270_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 100</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887517200/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875172008"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FTheoPrM_1887517200%2FTheoPrM_1887517200_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 103</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887533591/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875335914"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FReveEtAmP_1887533591%2FReveEtAmP_1887533591_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 13</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887538496/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875384969"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKoraMI_1887538496%2FKoraMI_1887538496_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 93</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887394591/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18873945915"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMissdeStB_1887394591%2FMissdeStB_1887394591_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>I 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888478586/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884785864"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FAntiFI_1888478586%2FAntiFI_1888478586_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>I 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888475951/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884759518"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSerdisE_1888475951%2FSerdisE_1888475951_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>I 22</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888493739/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18884937391"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FCollsumap_1888493739%2FCollsumap_1888493739_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>I 82</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/188849705X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id188849705X6"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FInderezue_188849705X%2FInderezue_188849705X_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 75</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921829184/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19218291844"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FJuriSaM_1921829184%2FJuriSaM_1921829184_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 78</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921825464/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19218254641"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKollzueim_1921825464%2FKollzueim_1921825464_tif%2Fjpegs%2F00000017.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 80</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921822309/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19218223096"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKollzuVo_1921822309%2FKollzuVo_1921822309_tif%2Fjpegs%2F00000007.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 83a</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921795549/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19217955499"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMI83_1921795549_0001%2FMI83_1921795549_0001_tif%2Fjpegs%2F00000009.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 83b</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921796472/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19217964726"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FMI83_1921796472_0002%2FMI83_1921796472_0002_tif%2Fjpegs%2F00000015.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 84</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921809906/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19218099069"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FPredMI_1921809906%2FPredMI_1921809906_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 85</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1921816015/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id19218160150"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSchusafJ_1921816015%2FSchusafJ_1921816015_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 250</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839138254/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391382545"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FUibediSt_1839138254%2FUibediSt_1839138254_tif%2Fjpegs%2F00000003.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 275</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1806965739/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18069657390"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzEtwa_1806965739%2FBolzEtwa_1806965739_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 281</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1807020215/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18070202157"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzEtwa_1807020215%2FBolzEtwa_1807020215_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 289</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839133147/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391331474"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKathGlM_1839133147%2FKathGlM_1839133147_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 293</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888023910/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880239108"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FLebeMI_1888023910%2FLebeMI_1888023910_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 296</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839142960/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391429603"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FPechKoll_1839142960%2FPechKoll_1839142960_tif%2Fjpegs%2F00000002.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 25</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1807021459/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18070214597"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FSammPrunA_1807021459%2FSammPrunA_1807021459_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 41</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839141891/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391418912"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FGescdePh_1839141891%2FGescdePh_1839141891_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 57</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/183913111X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id183913111X4"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FLeitzus_183913111X%2FLeitzus_183913111X_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 60</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887537112/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18875371125"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKollzuVo_1887537112%2FKollzuVo_1887537112_tif%2Fjpegs%2F00000003.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 79</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1807020517/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18070205175"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzUebe_1807020517%2FBolzUebe_1807020517_tif%2Fjpegs%2F00000003.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 8</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839086467/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18390864672"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FAbhazusu_1839086467%2FAbhazusu_1839086467_tif%2Fjpegs%2F00000007.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 87</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1839139277/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18391392770"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FVerseineW_1839139277%2FVerseineW_1839139277_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2023" type="digitized"/>
+                        <date when="2023" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M I 99</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1887427201/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18874272011"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FKollzuPhd_1887427201%2FKollzuPhd_1887427201_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 71</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/180687265X/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id180687265X1"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzLehr_180687265X_0001%2FBolzLehr_180687265X_0001_tif%2Fjpegs%2F00000007.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 31</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1806943050/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18069430500"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzLehr_1806943050_0003_1%2FBolzLehr_1806943050_0003_1_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 51</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1806945630/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18069456304"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzLehr_1806945630_0003_2%2FBolzLehr_1806945630_0003_2_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 33</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1806948192/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18069481924"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2FBolzLehr_1806948192_0003_3%2FBolzLehr_1806948192_0003_3_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2022" type="digitized"/>
+                        <date when="2022" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>M II 104</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.ub.uni-leipzig.de/0000056343/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.org/urn:nbn:de:bsz:15-0028-581540"/>
+                        <ref type="thumbnail"
+                             target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0563/0000056343/00000005.jpx/full/200,/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2025" type="digitized"/>
+                        <date when="2025" type="published"/>
+                        <orgName ref="30026-3" type="digitizing">Universitätsbibliothek Leipzig</orgName>
+                        <placeName ref="4035206-7" type="digitizing">Leipzig</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>WM 30</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888010819/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880108196"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2F69lW_1888010819_0069%2F69lW_1888010819_0069_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>WM 31</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888012056/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880120560"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2F70lW_1888012056_0070%2F70lW_1888012056_0070_tif%2Fjpegs%2F00000005.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <msDesc type="hsp:object" xml:lang="de">
+               <msIdentifier>
+                  <settlement key="4004968-1">Bautzen</settlement>
+                  <repository key="1027608000">Diözesan- und Domstiftsbibliothek</repository>
+                  <idno>WM 36</idno>
+               </msIdentifier>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref type="manifest"
+                             target="https://iiif.slub-dresden.de/iiif/2/1888013400/manifest.json"/>
+                        <ref type="other"
+                             target="https://nbn-resolving.de/urn:nbn:de:bsz:14-db-id18880134001"/>
+                        <ref type="thumbnail"
+                             target="https://images.iiif.slub-dresden.de/iiif/2/data%2Fkitodo%2F74lW_1888013400_0074%2F74lW_1888013400_0074_tif%2Fjpegs%2F00000001.tif.medium.jpg/full/,200/0/default.jpg"/>
+                        <ref type="DIGI-B"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-B363"/>
+                        <ref type="DIGI-D"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-D139"/>
+                        <ref type="DIGI-C"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-C834"/>
+                        <ref type="DIGI-A"
+                             target="http://normdaten.staatsbibliothek-berlin.de/hsp/vocabulary/DIGI-A445"/>
+                        <date when="2024" type="digitized"/>
+                        <date when="2024" type="published"/>
+                        <orgName ref="5165770-3" type="digitizing">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+                        <placeName ref="4012995-0" type="digitizing">Dresden</placeName>
+                     </bibl>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
